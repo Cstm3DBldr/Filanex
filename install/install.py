@@ -63,7 +63,7 @@ TRACKING_TOOL = "polymaker-installer/1"
 # field to this constant; if remote is newer, it offers a self-update.
 # bundle_bbl_inject.py parses this constant out of install.py and stamps
 # it into the additions.json it ships, so they always match per release.
-INSTALLER_VERSION = "1.3.0"
+INSTALLER_VERSION = "1.3.1"
 
 # Stable URL for the `update` subcommand. Points at the BBL-injection
 # bundle on the project's default branch via GitHub raw. Override with
@@ -1096,10 +1096,11 @@ def cleanup_old_installer() -> None:
 
 def _try_auto_fetch_bundle(local_additions: Path) -> Path | None:
     """Probe DISTRIBUTION_BASE_URL for a newer database_version than the
-    bundled one. If newer, fetch BBL-injection.zip, extract additions.json
-    + BBL/filament/ to a tempdir, and return that dir. Return None when
-    versions match, when offline, or on any error -- the caller falls
-    back to the bundled data, so this must never raise.
+    bundled one. If newer, fetch the version-stamped install zip,
+    extract additions.json + BBL/filament/ to a tempdir, and return
+    that dir. Return None when versions match, when offline, or on
+    any error -- the caller falls back to the bundled data, so this
+    must never raise.
     """
     section("Checking for updated profile data")
     print(f"  Source: {DISTRIBUTION_BASE_URL}")
@@ -1128,9 +1129,13 @@ def _try_auto_fetch_bundle(local_additions: Path) -> Path | None:
         import io
         import tempfile
         import zipfile
-        zip_bytes = _http_get(
-            DISTRIBUTION_BASE_URL + "/BBL-injection.zip", timeout=60
+        # Zip filename is version-stamped (Filanex-install-v<X>.zip)
+        # so each release is uniquely-named on the public repo. We
+        # learned the remote version from additions.json above.
+        zip_url = (
+            DISTRIBUTION_BASE_URL + f"/Filanex-install-v{remote_version}.zip"
         )
+        zip_bytes = _http_get(zip_url, timeout=60)
         print(f"  Got {len(zip_bytes) // 1024} KB.")
 
         workdir = Path(tempfile.mkdtemp(prefix="polymaker-autofetch-"))
@@ -1206,11 +1211,15 @@ def cmd_update(
             return 1
 
     # Fetch the bundle zip and extract the bits we need into a temp dir.
+    # Filename is version-stamped (Filanex-install-v<X>.zip); we already
+    # know the remote version from the version-check probe above.
     section("Downloading update")
     import io
     import tempfile
     import zipfile
-    zip_url = DISTRIBUTION_BASE_URL + "/BBL-injection.zip"
+    zip_url = (
+        DISTRIBUTION_BASE_URL + f"/Filanex-install-v{remote_version}.zip"
+    )
     print(f"  Fetching {zip_url} ...")
     try:
         zip_bytes = _http_get(zip_url, timeout=60)

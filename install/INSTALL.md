@@ -54,7 +54,7 @@ file at `system/.polymaker-install.json`.
 
 ### How to run it
 
-1. Download `BBL-injection.zip` (this folder, on GitHub).
+1. Download `Filanex-install-v1.1.5.zip` (this folder, on GitHub).
 2. Extract anywhere (Desktop is fine).
 3. Run the installer:
    - **Windows (no Python required):** double-click `install.exe` for
