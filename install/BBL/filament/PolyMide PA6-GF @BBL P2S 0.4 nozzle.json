@@ -1,0 +1,77 @@
+{
+    "type": "filament",
+    "name": "PolyMide PA6-GF @BBL P2S 0.4 nozzle",
+    "inherits": "PolyMide PA6-GF @base",
+    "from": "system",
+    "setting_id": "GFSL66_05",
+    "instantiation": "true",
+    "chamber_temperatures": [
+        "60"
+    ],
+    "filament_cooling_before_tower": [
+        "10",
+        "10",
+        "10",
+        "10"
+    ],
+    "filament_flow_ratio": [
+        "0.96",
+        "0.96",
+        "0.96",
+        "0.96"
+    ],
+    "filament_max_volumetric_speed": [
+        "10.5",
+        "10.5",
+        "10.5",
+        "10.5"
+    ],
+    "filament_ramming_travel_time": [
+        "0",
+        "0",
+        "0",
+        "0"
+    ],
+    "filament_retraction_length": [
+        "1",
+        "1",
+        "nil",
+        "nil"
+    ],
+    "filament_tower_interface_print_temp": [
+        "265"
+    ],
+    "include": [
+        "fdm_filament_template_direct_bowden"
+    ],
+    "nozzle_temperature": [
+        "290.0",
+        "290.0",
+        "290.0",
+        "290.0"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "290.0",
+        "290.0",
+        "290.0",
+        "290.0"
+    ],
+    "retraction_distances_when_ec": [
+        "3",
+        "3",
+        "4",
+        "4"
+    ],
+    "slow_down_min_speed": [
+        "20",
+        "20",
+        "20",
+        "20"
+    ],
+    "compatible_printers": [
+        "Bambu Lab P2S 0.4 nozzle"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\n"
+    ]
+}

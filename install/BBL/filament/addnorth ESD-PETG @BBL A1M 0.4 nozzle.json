@@ -1,0 +1,14 @@
+{
+    "type": "filament",
+    "name": "addnorth ESD-PETG @BBL A1M 0.4 nozzle",
+    "inherits": "addnorth ESD-PETG @base",
+    "from": "system",
+    "setting_id": "GFS103_02",
+    "instantiation": "true",
+    "filament_max_volumetric_speed": [
+        "9"
+    ],
+    "compatible_printers": [
+        "Bambu Lab A1 mini 0.4 nozzle"
+    ]
+}

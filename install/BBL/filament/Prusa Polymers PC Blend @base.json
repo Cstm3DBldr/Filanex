@@ -1,0 +1,23 @@
+{
+    "type": "filament",
+    "name": "Prusa Polymers PC Blend @base",
+    "inherits": "fdm_filament_pc",
+    "from": "system",
+    "filament_id": "GFQ03",
+    "instantiation": "false",
+    "filament_vendor": [
+        "Prusa Polymers"
+    ],
+    "filament_cost": [
+        "39.99"
+    ],
+    "filament_flow_ratio": [
+        "0.94"
+    ],
+    "filament_density": [
+        "1.22"
+    ],
+    "impact_strength_z": [
+        "9.0"
+    ]
+}

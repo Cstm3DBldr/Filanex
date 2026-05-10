@@ -11,7 +11,7 @@ Filanex curates filament chemistry across 27 vendors (Polymaker, eSUN, Creality,
 
 ## Install
 
-1. **Download** [`bundles/bbl_injection/install.exe`](bundles/bbl_injection/install.exe) (Windows, ~11 MB)
+1. **Download** [`install/install.exe`](install/install.exe) (Windows, ~11 MB)
 2. **Close Bambu Studio** if it's open
 3. **Double-click** `install.exe`. The wizard will:
    - Locate your Bambu Studio user-data folder
@@ -23,7 +23,7 @@ Filanex curates filament chemistry across 27 vendors (Polymaker, eSUN, Creality,
 
 The installer is self-updating — when a new version ships, it offers an in-place update on next launch.
 
-The `install.exe` is a self-contained PyInstaller binary (Python + GUI baked in, no external dependencies). For non-Windows or if you'd rather see what's happening, the same logic ships as [`install.py`](bundles/bbl_injection/install.py) + [`install.bat`](bundles/bbl_injection/install.bat) inside the bundle dir; run with Python 3.9+.
+The `install.exe` is a self-contained PyInstaller binary (Python + GUI baked in, no external dependencies). For non-Windows or if you'd rather see what's happening, the same logic ships as [`install.py`](install/install.py) + [`install.bat`](install/install.bat) inside the bundle dir; run with Python 3.9+.
 
 ## What you're installing
 

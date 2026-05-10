@@ -1,0 +1,57 @@
+{
+    "type": "filament",
+    "name": "Fillamentum ASA Extrafill @base",
+    "inherits": "fdm_filament_asa",
+    "from": "system",
+    "filament_id": "GFP02",
+    "instantiation": "false",
+    "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
+    "eng_plate_temp": [
+        "100"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "100"
+    ],
+    "fan_max_speed": [
+        "35"
+    ],
+    "filament_cost": [
+        "31.99"
+    ],
+    "filament_density": [
+        "1.07"
+    ],
+    "filament_flow_ratio": [
+        "0.95"
+    ],
+    "filament_max_volumetric_speed": [
+        "18"
+    ],
+    "filament_vendor": [
+        "Fillamentum"
+    ],
+    "hot_plate_temp": [
+        "97.5"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "97.5"
+    ],
+    "impact_strength_z": [
+        "4.9"
+    ],
+    "nozzle_temperature": [
+        "247.5"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "247.5"
+    ],
+    "slow_down_layer_time": [
+        "12"
+    ],
+    "textured_plate_temp": [
+        "100"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "100"
+    ]
+}

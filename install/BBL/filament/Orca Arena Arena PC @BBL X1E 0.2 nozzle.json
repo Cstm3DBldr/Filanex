@@ -1,0 +1,55 @@
+{
+    "type": "filament",
+    "name": "Orca Arena Arena PC @BBL X1E 0.2 nozzle",
+    "inherits": "Orca Arena Arena PC @base",
+    "from": "system",
+    "setting_id": "GFS106_04",
+    "instantiation": "true",
+    "chamber_temperatures": [
+        "60"
+    ],
+    "fan_max_speed": [
+        "40"
+    ],
+    "filament_flow_ratio": [
+        "0.94",
+        "0.94"
+    ],
+    "filament_max_volumetric_speed": [
+        "1.0",
+        "1.0"
+    ],
+    "filament_ramming_travel_time": [
+        "0",
+        "0"
+    ],
+    "include": [
+        "fdm_filament_template_direct_dual"
+    ],
+    "long_retractions_when_ec": [
+        "0",
+        "0"
+    ],
+    "nozzle_temperature": [
+        "260.0",
+        "260.0"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "270.0",
+        "270.0"
+    ],
+    "retraction_distances_when_ec": [
+        "0",
+        "0"
+    ],
+    "slow_down_layer_time": [
+        "12"
+    ],
+    "slow_down_min_speed": [
+        "20",
+        "20"
+    ],
+    "compatible_printers": [
+        "Bambu Lab X1E 0.2 nozzle"
+    ]
+}
