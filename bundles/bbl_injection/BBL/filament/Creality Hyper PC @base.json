@@ -1,0 +1,23 @@
+{
+    "type": "filament",
+    "name": "Creality Hyper PC @base",
+    "inherits": "fdm_filament_pc",
+    "from": "system",
+    "filament_id": "GFR14",
+    "instantiation": "false",
+    "filament_vendor": [
+        "Creality"
+    ],
+    "filament_cost": [
+        "39.99"
+    ],
+    "filament_flow_ratio": [
+        "0.95"
+    ],
+    "filament_density": [
+        "1.19"
+    ],
+    "impact_strength_z": [
+        "9.0"
+    ]
+}

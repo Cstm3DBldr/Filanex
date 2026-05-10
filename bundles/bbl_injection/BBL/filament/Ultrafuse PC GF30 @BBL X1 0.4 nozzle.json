@@ -1,0 +1,44 @@
+{
+    "type": "filament",
+    "name": "Ultrafuse PC GF30 @BBL X1 0.4 nozzle",
+    "inherits": "Ultrafuse PC GF30 @base",
+    "from": "system",
+    "setting_id": "GFSZ08_02",
+    "instantiation": "true",
+    "eng_plate_temp": [
+        "100"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "100"
+    ],
+    "fan_max_speed": [
+        "20"
+    ],
+    "filament_max_volumetric_speed": [
+        "23.0"
+    ],
+    "hot_plate_temp": [
+        "90.0"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "90.0"
+    ],
+    "nozzle_temperature": [
+        "330.0"
+    ],
+    "reduce_fan_stop_start_freq": [
+        "0"
+    ],
+    "slow_down_layer_time": [
+        "12"
+    ],
+    "textured_plate_temp": [
+        "100"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "100"
+    ],
+    "compatible_printers": [
+        "Bambu Lab X1 0.4 nozzle"
+    ]
+}

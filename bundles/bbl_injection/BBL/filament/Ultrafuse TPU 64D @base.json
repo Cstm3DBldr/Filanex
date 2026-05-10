@@ -1,0 +1,27 @@
+{
+    "type": "filament",
+    "name": "Ultrafuse TPU 64D @base",
+    "inherits": "fdm_filament_tpu",
+    "from": "system",
+    "filament_id": "GFZ18",
+    "instantiation": "false",
+    "description": "This filament is too soft and not compatible with the AMS. Printing it is of many requirements, and to get better printing quality, please refer to this wiki: TPU printing guide.",
+    "filament_cost": [
+        "41.99"
+    ],
+    "filament_density": [
+        "1.157"
+    ],
+    "filament_vendor": [
+        "Ultrafuse"
+    ],
+    "impact_strength_z": [
+        "88.7"
+    ],
+    "nozzle_temperature": [
+        "242.5"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "242.5"
+    ]
+}

@@ -1,0 +1,38 @@
+Filanex
+Copyright 2026 Filanex contributors
+
+Licensed under the Apache License, Version 2.0. See LICENSE for the
+full text.
+
+This product includes data derived from publicly-available filament
+profiles published by upstream sources. Where data is treated as fact
+(numerical chemistry values: temperatures, flow ratios, densities,
+volumetric speeds), it is re-derived into this project's own canonical
+schema rather than copied verbatim. Where this project distributes
+verbatim third-party data files (under input/ for research staging),
+those files retain their original copyright and license; this
+project's Apache-2.0 license applies only to original work in this
+repository.
+
+Acknowledged upstream sources of chemistry values used in derivation:
+
+  Bambu Lab -- Bambu Studio (https://github.com/bambulab/BambuStudio)
+    AGPL-3.0; chemistry values referenced as facts, structure
+    re-derived for this repository.
+
+  Polymaker -- Polymaker-published Bambu Studio presets and TDS PDFs
+    (https://polymaker.com)
+
+  eSUN -- eSUN-published Bambu Studio HS-Parameters bundle and TDS
+    PDFs (https://www.esun3d.com)
+
+  Overture -- Overture-published Bambu Studio / Orca / Elegoo presets
+    (https://overture3d.com/pages/download)
+
+  Prusa Research -- PrusaSlicer system profiles
+    (https://github.com/prusa3d/PrusaSlicer)
+    AGPL-3.0; chemistry values referenced as facts, structure
+    re-derived for this repository.
+
+  Mark's Maker Space -- 3dfilamentprofiles.com (referenced for
+    cross-validation only; no data imported)

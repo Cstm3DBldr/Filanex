@@ -1,0 +1,23 @@
+{
+    "type": "filament",
+    "name": "Polymaker PC-Max @base",
+    "inherits": "fdm_filament_pc",
+    "from": "system",
+    "filament_id": "GFL54",
+    "instantiation": "false",
+    "filament_vendor": [
+        "Polymaker"
+    ],
+    "filament_cost": [
+        "39.99"
+    ],
+    "filament_flow_ratio": [
+        "0.94"
+    ],
+    "filament_density": [
+        "1.1949999999999998"
+    ],
+    "impact_strength_z": [
+        "9.0"
+    ]
+}
