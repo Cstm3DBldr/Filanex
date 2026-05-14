@@ -3,7 +3,7 @@
     "name": "Spectrum PLA Tough @BBL P2S 0.4 nozzle",
     "inherits": "Spectrum PLA Tough @base",
     "from": "system",
-    "setting_id": "GFSW17_08",
+    "setting_id": "GFSW17_06",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

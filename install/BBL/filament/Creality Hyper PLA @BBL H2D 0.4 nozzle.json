@@ -3,7 +3,7 @@
     "name": "Creality Hyper PLA @BBL H2D 0.4 nozzle",
     "inherits": "Creality Hyper PLA @base",
     "from": "system",
-    "setting_id": "GFSR17_11",
+    "setting_id": "GFSR17_09",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

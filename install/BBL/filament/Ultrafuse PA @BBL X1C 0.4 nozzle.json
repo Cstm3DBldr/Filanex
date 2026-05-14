@@ -3,7 +3,7 @@
     "name": "Ultrafuse PA @BBL X1C 0.4 nozzle",
     "inherits": "Ultrafuse PA @base",
     "from": "system",
-    "setting_id": "GFSZ04_03",
+    "setting_id": "GFSZ04_01",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

@@ -3,7 +3,7 @@
     "name": "Elegoo PLA Basic @BBL X2D 0.4 nozzle",
     "inherits": "Elegoo PLA Basic @base",
     "from": "system",
-    "setting_id": "GFSD13_09",
+    "setting_id": "GFSD13_07",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

@@ -3,7 +3,7 @@
     "name": "Flashforge ABS @BBL X2D 0.4 nozzle",
     "inherits": "Flashforge ABS @base",
     "from": "system",
-    "setting_id": "GFSF01_06",
+    "setting_id": "GFSF01_05",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

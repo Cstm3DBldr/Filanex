@@ -3,7 +3,7 @@
     "name": "Elegoo ABS @BBL X2D 0.4 nozzle",
     "inherits": "Elegoo ABS @base",
     "from": "system",
-    "setting_id": "GFSD01_06",
+    "setting_id": "GFSD01_05",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

@@ -3,7 +3,7 @@
     "name": "eSUN PLA+ @BBL P2S 0.2 nozzle",
     "inherits": "eSUN PLA+ @eSUN base",
     "from": "system",
-    "setting_id": "GFSE41_08",
+    "setting_id": "GFSE41_06",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

@@ -3,7 +3,7 @@
     "name": "Fiberlogy PLA Mineral @BBL P1S 0.4 nozzle",
     "inherits": "Fiberlogy PLA Mineral @base",
     "from": "system",
-    "setting_id": "GFSV32_04",
+    "setting_id": "GFSV32_03",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

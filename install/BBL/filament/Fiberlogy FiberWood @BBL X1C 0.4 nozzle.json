@@ -3,7 +3,7 @@
     "name": "Fiberlogy FiberWood @BBL X1C 0.4 nozzle",
     "inherits": "Fiberlogy FiberWood @base",
     "from": "system",
-    "setting_id": "GFSV12_06",
+    "setting_id": "GFSV12_05",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

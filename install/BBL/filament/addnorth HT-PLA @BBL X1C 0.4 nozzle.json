@@ -3,7 +3,7 @@
     "name": "addnorth HT-PLA @BBL X1C 0.4 nozzle",
     "inherits": "addnorth HT-PLA @base",
     "from": "system",
-    "setting_id": "GFS104_06",
+    "setting_id": "GFS104_05",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

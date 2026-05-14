@@ -3,7 +3,7 @@
     "name": "Fiberlogy Matte ASA @BBL H2S 0.4 nozzle",
     "inherits": "Fiberlogy Matte ASA @base",
     "from": "system",
-    "setting_id": "GFSV17_10",
+    "setting_id": "GFSV17_09",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

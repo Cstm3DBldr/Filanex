@@ -3,7 +3,7 @@
     "name": "Filatech PA @BBL X1E 0.4 nozzle",
     "inherits": "Filatech PA @base",
     "from": "system",
-    "setting_id": "GFSJ06_04",
+    "setting_id": "GFSJ06_02",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

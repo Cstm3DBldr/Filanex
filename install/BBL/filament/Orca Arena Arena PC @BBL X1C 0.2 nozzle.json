@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PC @BBL X1C 0.2 nozzle",
     "inherits": "Orca Arena Arena PC @base",
     "from": "system",
-    "setting_id": "GFS106_03",
+    "setting_id": "GFS106_02",
     "instantiation": "true",
     "fan_max_speed": [
         "40"

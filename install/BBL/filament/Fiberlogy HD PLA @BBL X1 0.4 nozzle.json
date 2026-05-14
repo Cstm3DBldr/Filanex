@@ -3,7 +3,7 @@
     "name": "Fiberlogy HD PLA @BBL X1 0.4 nozzle",
     "inherits": "Fiberlogy HD PLA @base",
     "from": "system",
-    "setting_id": "GFSV13_05",
+    "setting_id": "GFSV13_04",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

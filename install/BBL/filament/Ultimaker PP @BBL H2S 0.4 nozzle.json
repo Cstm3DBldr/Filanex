@@ -3,7 +3,7 @@
     "name": "Ultimaker PP @BBL H2S 0.4 nozzle",
     "inherits": "Ultimaker PP @base",
     "from": "system",
-    "setting_id": "GFSM05_13",
+    "setting_id": "GFSM05_11",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

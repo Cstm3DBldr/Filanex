@@ -3,7 +3,7 @@
     "name": "Spectrum Smart ABS @BBL P2S 0.4 nozzle",
     "inherits": "Spectrum Smart ABS @base",
     "from": "system",
-    "setting_id": "GFSW19_05",
+    "setting_id": "GFSW19_04",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

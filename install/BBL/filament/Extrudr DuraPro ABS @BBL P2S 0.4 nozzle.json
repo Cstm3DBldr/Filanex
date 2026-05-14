@@ -3,7 +3,7 @@
     "name": "Extrudr DuraPro ABS @BBL P2S 0.4 nozzle",
     "inherits": "Extrudr DuraPro ABS @base",
     "from": "system",
-    "setting_id": "GFSX01_05",
+    "setting_id": "GFSX01_04",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

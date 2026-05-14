@@ -3,7 +3,7 @@
     "name": "eSUN ePLA-ST @BBL X1C 0.4 nozzle",
     "inherits": "eSUN ePLA-ST @base",
     "from": "system",
-    "setting_id": "GFSE15_06",
+    "setting_id": "GFSE15_05",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

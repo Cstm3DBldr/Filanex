@@ -3,7 +3,7 @@
     "name": "PolyLite ASA @BBL P2S 0.4 nozzle",
     "inherits": "PolyLite ASA @Polymaker base",
     "from": "system",
-    "setting_id": "GFSL33_05",
+    "setting_id": "GFSL33_04",
     "instantiation": "true",
     "activate_air_filtration": [
         "0"

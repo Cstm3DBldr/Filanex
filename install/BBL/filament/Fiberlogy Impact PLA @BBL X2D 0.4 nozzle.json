@@ -3,7 +3,7 @@
     "name": "Fiberlogy Impact PLA @BBL X2D 0.4 nozzle",
     "inherits": "Fiberlogy Impact PLA @base",
     "from": "system",
-    "setting_id": "GFSV16_09",
+    "setting_id": "GFSV16_07",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

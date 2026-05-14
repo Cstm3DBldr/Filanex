@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Starlight @BBL X1C 0.4 nozzle",
     "inherits": "PolyLite PLA Starlight @base",
     "from": "system",
-    "setting_id": "GFSL47_06",
+    "setting_id": "GFSL47_05",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

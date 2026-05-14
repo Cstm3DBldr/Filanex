@@ -3,7 +3,7 @@
     "name": "eSUN PET @BBL P2S 0.4 nozzle",
     "inherits": "eSUN PET @base",
     "from": "system",
-    "setting_id": "GFSE30_08",
+    "setting_id": "GFSE30_06",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"

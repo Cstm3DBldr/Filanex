@@ -3,7 +3,7 @@
     "name": "Elegoo PETG PRO @BBL H2S 0.4 nozzle",
     "inherits": "Elegoo PETG PRO @base",
     "from": "system",
-    "setting_id": "GFSD08_13",
+    "setting_id": "GFSD08_11",
     "instantiation": "true",
     "counter_coef_2": [
         "0.007"

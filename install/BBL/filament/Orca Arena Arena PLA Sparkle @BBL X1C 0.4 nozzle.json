@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Sparkle @BBL X1C 0.4 nozzle",
     "inherits": "Orca Arena Arena PLA Sparkle @base",
     "from": "system",
-    "setting_id": "GFS129_06",
+    "setting_id": "GFS129_05",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

@@ -3,7 +3,7 @@
     "name": "Fiberlogy ABS Plus @BBL X1E 0.4 nozzle",
     "inherits": "Fiberlogy ABS Plus @base",
     "from": "system",
-    "setting_id": "GFSV02_04",
+    "setting_id": "GFSV02_03",
     "instantiation": "true",
     "fan_max_speed": [
         "60"

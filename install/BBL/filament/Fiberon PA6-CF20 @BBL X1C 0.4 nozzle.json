@@ -3,7 +3,7 @@
     "name": "Fiberon PA6-CF20 @BBL X1C 0.4 nozzle",
     "inherits": "Fiberon PA6-CF20 @base",
     "from": "system",
-    "setting_id": "GFSL03_03",
+    "setting_id": "GFSL03_01",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

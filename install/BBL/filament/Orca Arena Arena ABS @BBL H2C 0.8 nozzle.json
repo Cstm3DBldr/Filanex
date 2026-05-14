@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena ABS @BBL H2C 0.8 nozzle",
     "inherits": "Orca Arena Arena ABS @base",
     "from": "system",
-    "setting_id": "GFS103_07",
+    "setting_id": "GFS103_06",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

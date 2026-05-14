@@ -3,7 +3,7 @@
     "name": "eSUN PETG-CF @BBL H2DP 0.4 nozzle",
     "inherits": "eSUN PETG-CF @base",
     "from": "system",
-    "setting_id": "GFSE37_12",
+    "setting_id": "GFSE37_08",
     "instantiation": "true",
     "counter_coef_2": [
         "0.00565"

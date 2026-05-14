@@ -3,7 +3,7 @@
     "name": "Ultimaker Tough PLA @BBL X1 0.4 nozzle",
     "inherits": "Ultimaker Tough PLA @base",
     "from": "system",
-    "setting_id": "GFSM08_05",
+    "setting_id": "GFSM08_04",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

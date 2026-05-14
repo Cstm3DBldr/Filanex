@@ -3,7 +3,7 @@
     "name": "Spectrum S-Flex 90A @BBL H2C 0.4 nozzle",
     "inherits": "Spectrum S-Flex 90A @base",
     "from": "system",
-    "setting_id": "GFSW18_10",
+    "setting_id": "GFSW18_07",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

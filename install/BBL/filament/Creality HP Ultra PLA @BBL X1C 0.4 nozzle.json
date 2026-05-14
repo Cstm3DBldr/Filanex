@@ -3,7 +3,7 @@
     "name": "Creality HP Ultra PLA @BBL X1C 0.4 nozzle",
     "inherits": "Creality HP Ultra PLA @base",
     "from": "system",
-    "setting_id": "GFSR11_06",
+    "setting_id": "GFSR11_05",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

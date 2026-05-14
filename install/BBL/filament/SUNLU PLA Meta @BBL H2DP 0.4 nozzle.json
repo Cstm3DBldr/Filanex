@@ -3,7 +3,7 @@
     "name": "SUNLU PLA Meta @BBL H2DP 0.4 nozzle",
     "inherits": "SUNLU PLA Meta @base",
     "from": "system",
-    "setting_id": "GFSY16_12",
+    "setting_id": "GFSY16_10",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

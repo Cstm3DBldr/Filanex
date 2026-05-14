@@ -3,7 +3,7 @@
     "name": "Hatchbox ABS @BBL P2S 0.4 nozzle",
     "inherits": "Hatchbox ABS @base",
     "from": "system",
-    "setting_id": "GFSH01_05",
+    "setting_id": "GFSH01_04",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

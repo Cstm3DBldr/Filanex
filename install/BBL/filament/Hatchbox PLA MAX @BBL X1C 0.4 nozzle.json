@@ -3,7 +3,7 @@
     "name": "Hatchbox PLA MAX @BBL X1C 0.4 nozzle",
     "inherits": "Hatchbox PLA MAX @base",
     "from": "system",
-    "setting_id": "GFSH06_06",
+    "setting_id": "GFSH06_05",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

@@ -3,7 +3,7 @@
     "name": "Hatchbox PLA SILK @BBL X1C 0.4 nozzle",
     "inherits": "Hatchbox PLA SILK @base",
     "from": "system",
-    "setting_id": "GFSH08_06",
+    "setting_id": "GFSH08_05",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

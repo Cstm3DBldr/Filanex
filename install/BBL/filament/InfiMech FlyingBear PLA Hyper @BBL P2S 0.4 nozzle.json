@@ -3,7 +3,7 @@
     "name": "InfiMech FlyingBear PLA Hyper @BBL P2S 0.4 nozzle",
     "inherits": "InfiMech FlyingBear PLA Hyper @base",
     "from": "system",
-    "setting_id": "GFS101_08",
+    "setting_id": "GFS101_06",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

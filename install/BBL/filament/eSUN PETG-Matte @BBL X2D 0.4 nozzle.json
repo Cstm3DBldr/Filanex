@@ -3,7 +3,7 @@
     "name": "eSUN PETG-Matte @BBL X2D 0.4 nozzle",
     "inherits": "eSUN PETG-Matte @base",
     "from": "system",
-    "setting_id": "GFSE39_09",
+    "setting_id": "GFSE39_07",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"

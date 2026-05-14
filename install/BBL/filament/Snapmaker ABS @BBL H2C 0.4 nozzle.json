@@ -3,7 +3,7 @@
     "name": "Snapmaker ABS @BBL H2C 0.4 nozzle",
     "inherits": "Snapmaker ABS @base",
     "from": "system",
-    "setting_id": "GFS101_07",
+    "setting_id": "GFS101_06",
     "instantiation": "true",
     "fan_max_speed": [
         "20"

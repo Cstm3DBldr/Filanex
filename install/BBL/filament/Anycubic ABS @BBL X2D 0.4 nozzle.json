@@ -3,7 +3,7 @@
     "name": "Anycubic ABS @BBL X2D 0.4 nozzle",
     "inherits": "Anycubic ABS @base",
     "from": "system",
-    "setting_id": "GFSI01_06",
+    "setting_id": "GFSI01_05",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

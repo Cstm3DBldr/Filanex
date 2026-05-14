@@ -3,7 +3,7 @@
     "name": "Ultrafuse PP @BBL H2S 0.4 nozzle",
     "inherits": "Ultrafuse PP @base",
     "from": "system",
-    "setting_id": "GFSZ13_13",
+    "setting_id": "GFSZ13_11",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

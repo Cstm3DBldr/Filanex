@@ -3,7 +3,7 @@
     "name": "Fillamentum Nylon CF15 @BBL X1E 0.4 nozzle",
     "inherits": "Fillamentum Nylon CF15 @base",
     "from": "system",
-    "setting_id": "GFSP07_04",
+    "setting_id": "GFSP07_02",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

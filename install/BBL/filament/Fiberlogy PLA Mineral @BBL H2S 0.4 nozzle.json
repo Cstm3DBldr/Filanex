@@ -3,7 +3,7 @@
     "name": "Fiberlogy PLA Mineral @BBL H2S 0.4 nozzle",
     "inherits": "Fiberlogy PLA Mineral @base",
     "from": "system",
-    "setting_id": "GFSV32_13",
+    "setting_id": "GFSV32_11",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

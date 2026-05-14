@@ -3,7 +3,7 @@
     "name": "ColorFabb LW-PLA-HT @BBL H2C 0.4 nozzle",
     "inherits": "ColorFabb LW-PLA-HT @base",
     "from": "system",
-    "setting_id": "GFSK08_10",
+    "setting_id": "GFSK08_08",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

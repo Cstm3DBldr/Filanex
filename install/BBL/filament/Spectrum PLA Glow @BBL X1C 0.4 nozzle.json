@@ -3,7 +3,7 @@
     "name": "Spectrum PLA Glow @BBL X1C 0.4 nozzle",
     "inherits": "Spectrum PLA Glow @base",
     "from": "system",
-    "setting_id": "GFSW13_06",
+    "setting_id": "GFSW13_05",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

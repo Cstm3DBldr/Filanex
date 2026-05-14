@@ -3,7 +3,7 @@
     "name": "Polymaker HT-PLA-GF @BBL X1C 0.4 nozzle",
     "inherits": "Polymaker HT-PLA-GF @base",
     "from": "system",
-    "setting_id": "GFSL51_06",
+    "setting_id": "GFSL51_03",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

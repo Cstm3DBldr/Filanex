@@ -3,7 +3,7 @@
     "name": "SUNLU PLA+ @BBL X2D 0.4 nozzle",
     "inherits": "SUNLU PLA+ @SUNLU base",
     "from": "system",
-    "setting_id": "GFSY09_09",
+    "setting_id": "GFSY09_07",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

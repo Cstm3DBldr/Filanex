@@ -3,7 +3,7 @@
     "name": "eSUN PLA-HS @BBL X1C 0.4 nozzle",
     "inherits": "eSUN PLA-HS @base",
     "from": "system",
-    "setting_id": "GFSE50_06",
+    "setting_id": "GFSE50_05",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

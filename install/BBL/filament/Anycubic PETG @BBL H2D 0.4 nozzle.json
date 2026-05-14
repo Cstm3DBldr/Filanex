@@ -3,7 +3,7 @@
     "name": "Anycubic PETG @BBL H2D 0.4 nozzle",
     "inherits": "Anycubic PETG @base",
     "from": "system",
-    "setting_id": "GFSI03_11",
+    "setting_id": "GFSI03_09",
     "instantiation": "true",
     "counter_coef_2": [
         "0.007"

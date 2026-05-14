@@ -3,7 +3,7 @@
     "name": "Overture TPU @BBL H2D 0.4 nozzle",
     "inherits": "Overture TPU @base",
     "from": "system",
-    "setting_id": "GFSO28_11",
+    "setting_id": "GFSO28_08",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

@@ -3,7 +3,7 @@
     "name": "Fiberon PETG-ESD @BBL H2D 0.4 nozzle",
     "inherits": "Fiberon PETG-ESD @Polymaker base",
     "from": "system",
-    "setting_id": "GFSL07_11",
+    "setting_id": "GFSL07_09",
     "instantiation": "true",
     "counter_coef_2": [
         "0.007"

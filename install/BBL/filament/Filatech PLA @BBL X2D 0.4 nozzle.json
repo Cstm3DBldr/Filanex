@@ -3,7 +3,7 @@
     "name": "Filatech PLA @BBL X2D 0.4 nozzle",
     "inherits": "Filatech PLA @base",
     "from": "system",
-    "setting_id": "GFSJ09_09",
+    "setting_id": "GFSJ09_07",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

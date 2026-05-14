@@ -3,7 +3,7 @@
     "name": "Ultrafuse PC GF30 @BBL H2C 0.4 nozzle",
     "inherits": "Ultrafuse PC GF30 @base",
     "from": "system",
-    "setting_id": "GFSZ08_07",
+    "setting_id": "GFSZ08_06",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

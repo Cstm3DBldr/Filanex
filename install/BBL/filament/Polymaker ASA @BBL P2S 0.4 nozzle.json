@@ -3,7 +3,7 @@
     "name": "Polymaker ASA @BBL P2S 0.4 nozzle",
     "inherits": "Polymaker ASA @base",
     "from": "system",
-    "setting_id": "GFSL49_05",
+    "setting_id": "GFSL49_04",
     "instantiation": "true",
     "activate_air_filtration": [
         "0"

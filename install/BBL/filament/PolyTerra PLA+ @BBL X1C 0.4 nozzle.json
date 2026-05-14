@@ -3,7 +3,7 @@
     "name": "PolyTerra PLA+ @BBL X1C 0.4 nozzle",
     "inherits": "PolyTerra PLA+ @base",
     "from": "system",
-    "setting_id": "GFSL72_06",
+    "setting_id": "GFSL72_05",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

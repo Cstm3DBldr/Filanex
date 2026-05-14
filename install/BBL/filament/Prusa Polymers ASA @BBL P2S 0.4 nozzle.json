@@ -3,7 +3,7 @@
     "name": "Prusa Polymers ASA @BBL P2S 0.4 nozzle",
     "inherits": "Prusa Polymers ASA @base",
     "from": "system",
-    "setting_id": "GFSQ01_05",
+    "setting_id": "GFSQ01_04",
     "instantiation": "true",
     "activate_air_filtration": [
         "0"

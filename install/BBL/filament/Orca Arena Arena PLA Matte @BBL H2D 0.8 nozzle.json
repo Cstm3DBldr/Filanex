@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Matte @BBL H2D 0.8 nozzle",
     "inherits": "Orca Arena Arena PLA Matte @base",
     "from": "system",
-    "setting_id": "GFS124_11",
+    "setting_id": "GFS124_09",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

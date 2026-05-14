@@ -3,7 +3,7 @@
     "name": "Ultrafuse PLA @BBL P2S 0.4 nozzle",
     "inherits": "Ultrafuse PLA @base",
     "from": "system",
-    "setting_id": "GFSZ11_08",
+    "setting_id": "GFSZ11_06",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

@@ -3,7 +3,7 @@
     "name": "Filatech PETG @BBL H2C 0.4 nozzle",
     "inherits": "Filatech PETG @base",
     "from": "system",
-    "setting_id": "GFSJ08_10",
+    "setting_id": "GFSJ08_08",
     "instantiation": "true",
     "counter_coef_2": [
         "0.007"

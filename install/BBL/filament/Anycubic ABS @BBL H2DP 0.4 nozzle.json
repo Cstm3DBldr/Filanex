@@ -3,7 +3,7 @@
     "name": "Anycubic ABS @BBL H2DP 0.4 nozzle",
     "inherits": "Anycubic ABS @base",
     "from": "system",
-    "setting_id": "GFSI01_09",
+    "setting_id": "GFSI01_08",
     "instantiation": "true",
     "fan_max_speed": [
         "20"

@@ -3,7 +3,7 @@
     "name": "eSUN PLA-ST @BBL X2D 0.4 nozzle",
     "inherits": "eSUN PLA-ST @base",
     "from": "system",
-    "setting_id": "GFSE59_09",
+    "setting_id": "GFSE59_07",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

@@ -3,7 +3,7 @@
     "name": "FlyingBear ABS @BBL X2D 0.4 nozzle",
     "inherits": "FlyingBear ABS @base",
     "from": "system",
-    "setting_id": "GFS101_06",
+    "setting_id": "GFS101_05",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

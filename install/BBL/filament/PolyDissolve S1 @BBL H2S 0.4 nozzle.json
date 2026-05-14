@@ -3,7 +3,7 @@
     "name": "PolyDissolve S1 @BBL H2S 0.4 nozzle",
     "inherits": "PolyDissolve S1 @base",
     "from": "system",
-    "setting_id": "GFSL26_13",
+    "setting_id": "GFSL26_10",
     "instantiation": "true",
     "eng_plate_temp": [
         "55"

@@ -3,7 +3,7 @@
     "name": "Ultimaker PP @BBL X1 0.4 nozzle",
     "inherits": "Ultimaker PP @base",
     "from": "system",
-    "setting_id": "GFSM05_05",
+    "setting_id": "GFSM05_04",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

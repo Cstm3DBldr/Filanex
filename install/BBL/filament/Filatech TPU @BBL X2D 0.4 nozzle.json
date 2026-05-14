@@ -3,7 +3,7 @@
     "name": "Filatech TPU @BBL X2D 0.4 nozzle",
     "inherits": "Filatech TPU @base",
     "from": "system",
-    "setting_id": "GFSJ11_09",
+    "setting_id": "GFSJ11_06",
     "instantiation": "true",
     "eng_plate_temp": [
         "35"

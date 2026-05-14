@@ -3,7 +3,7 @@
     "name": "Elegoo PLA Galaxy @BBL X1C 0.4 nozzle",
     "inherits": "Elegoo PLA Galaxy @base",
     "from": "system",
-    "setting_id": "GFSD14_06",
+    "setting_id": "GFSD14_05",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

@@ -3,7 +3,7 @@
     "name": "Extrudr PETG @BBL X1C 0.4 nozzle",
     "inherits": "Extrudr PETG @base",
     "from": "system",
-    "setting_id": "GFSX07_06",
+    "setting_id": "GFSX07_05",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"

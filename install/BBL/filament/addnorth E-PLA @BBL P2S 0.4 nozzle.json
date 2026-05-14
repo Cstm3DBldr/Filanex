@@ -3,7 +3,7 @@
     "name": "addnorth E-PLA @BBL P2S 0.4 nozzle",
     "inherits": "addnorth E-PLA @base",
     "from": "system",
-    "setting_id": "GFS102_08",
+    "setting_id": "GFS102_06",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

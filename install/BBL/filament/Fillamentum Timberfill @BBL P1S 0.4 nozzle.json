@@ -3,7 +3,7 @@
     "name": "Fillamentum Timberfill @BBL P1S 0.4 nozzle",
     "inherits": "Fillamentum Timberfill @base",
     "from": "system",
-    "setting_id": "GFSP13_04",
+    "setting_id": "GFSP13_03",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

@@ -3,7 +3,7 @@
     "name": "Overture PLA Pro @BBL H2S 0.4 nozzle",
     "inherits": "Overture PLA Pro @base",
     "from": "system",
-    "setting_id": "GFSO22_13",
+    "setting_id": "GFSO22_11",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

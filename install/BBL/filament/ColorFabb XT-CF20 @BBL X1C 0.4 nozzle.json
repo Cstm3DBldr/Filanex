@@ -3,7 +3,7 @@
     "name": "ColorFabb XT-CF20 @BBL X1C 0.4 nozzle",
     "inherits": "ColorFabb XT-CF20 @base",
     "from": "system",
-    "setting_id": "GFSK16_06",
+    "setting_id": "GFSK16_03",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "30"

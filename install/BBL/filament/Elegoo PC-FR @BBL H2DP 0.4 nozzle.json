@@ -3,7 +3,7 @@
     "name": "Elegoo PC-FR @BBL H2DP 0.4 nozzle",
     "inherits": "Elegoo PC-FR @base",
     "from": "system",
-    "setting_id": "GFSD05_09",
+    "setting_id": "GFSD05_08",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

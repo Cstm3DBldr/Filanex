@@ -3,7 +3,7 @@
     "name": "Flashforge ASA @BBL H2C 0.4 nozzle",
     "inherits": "Flashforge ASA @base",
     "from": "system",
-    "setting_id": "GFSF02_07",
+    "setting_id": "GFSF02_06",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

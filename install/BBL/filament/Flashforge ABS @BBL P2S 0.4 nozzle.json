@@ -3,7 +3,7 @@
     "name": "Flashforge ABS @BBL P2S 0.4 nozzle",
     "inherits": "Flashforge ABS @base",
     "from": "system",
-    "setting_id": "GFSF01_05",
+    "setting_id": "GFSF01_04",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

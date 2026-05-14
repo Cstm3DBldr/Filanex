@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Magic CL @BBL X1 0.4 nozzle",
     "inherits": "eSUN PLA-Magic CL @base",
     "from": "system",
-    "setting_id": "GFSE53_05",
+    "setting_id": "GFSE53_04",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

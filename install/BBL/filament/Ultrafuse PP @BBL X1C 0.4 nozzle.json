@@ -3,7 +3,7 @@
     "name": "Ultrafuse PP @BBL X1C 0.4 nozzle",
     "inherits": "Ultrafuse PP @base",
     "from": "system",
-    "setting_id": "GFSZ13_06",
+    "setting_id": "GFSZ13_05",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

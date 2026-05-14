@@ -3,7 +3,7 @@
     "name": "Overture PETG HS @BBL H2C 0.4 nozzle",
     "inherits": "Overture PETG HS @base",
     "from": "system",
-    "setting_id": "GFSO15_10",
+    "setting_id": "GFSO15_08",
     "instantiation": "true",
     "counter_coef_2": [
         "0.007"

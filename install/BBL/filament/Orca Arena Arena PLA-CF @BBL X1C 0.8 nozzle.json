@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA-CF @BBL X1C 0.8 nozzle",
     "inherits": "Orca Arena Arena PLA-CF @base",
     "from": "system",
-    "setting_id": "GFS116_06",
+    "setting_id": "GFS116_03",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

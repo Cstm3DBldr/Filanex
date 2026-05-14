@@ -3,7 +3,7 @@
     "name": "Elegoo ASA @BBL X1C 0.4 nozzle",
     "inherits": "Elegoo ASA @base",
     "from": "system",
-    "setting_id": "GFSD02_03",
+    "setting_id": "GFSD02_02",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

@@ -3,7 +3,7 @@
     "name": "Panchroma CoPE @BBL P1S 0.4 nozzle",
     "inherits": "Panchroma CoPE @base",
     "from": "system",
-    "setting_id": "GFSL10_04",
+    "setting_id": "GFSL10_03",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

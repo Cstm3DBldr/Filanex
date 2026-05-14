@@ -3,7 +3,7 @@
     "name": "SUNLU ABS @BBL P2S 0.4 nozzle",
     "inherits": "SUNLU ABS @base",
     "from": "system",
-    "setting_id": "GFSY01_05",
+    "setting_id": "GFSY01_04",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

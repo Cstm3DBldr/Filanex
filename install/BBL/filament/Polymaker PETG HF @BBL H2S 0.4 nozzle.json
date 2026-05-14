@@ -3,7 +3,7 @@
     "name": "Polymaker PETG HF @BBL H2S 0.4 nozzle",
     "inherits": "Polymaker PETG HF @base",
     "from": "system",
-    "setting_id": "GFSL57_13",
+    "setting_id": "GFSL57_11",
     "instantiation": "true",
     "counter_coef_2": [
         "0.007"

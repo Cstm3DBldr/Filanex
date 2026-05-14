@@ -3,7 +3,7 @@
     "name": "Prusa Polymers Prusament PVB @BBL P2S 0.4 nozzle",
     "inherits": "Prusa Polymers Prusament PVB @base",
     "from": "system",
-    "setting_id": "GFSQ15_08",
+    "setting_id": "GFSQ15_06",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

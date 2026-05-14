@@ -3,7 +3,7 @@
     "name": "Ultrafuse PC ABS FR @BBL X1E 0.4 nozzle",
     "inherits": "Ultrafuse PC ABS FR @base",
     "from": "system",
-    "setting_id": "GFSZ07_04",
+    "setting_id": "GFSZ07_03",
     "instantiation": "true",
     "eng_plate_temp": [
         "100"

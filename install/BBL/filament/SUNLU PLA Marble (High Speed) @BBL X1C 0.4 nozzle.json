@@ -3,7 +3,7 @@
     "name": "SUNLU PLA Marble (High Speed) @BBL X1C 0.4 nozzle",
     "inherits": "SUNLU PLA Marble (High Speed) @base",
     "from": "system",
-    "setting_id": "GFSY13_06",
+    "setting_id": "GFSY13_05",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

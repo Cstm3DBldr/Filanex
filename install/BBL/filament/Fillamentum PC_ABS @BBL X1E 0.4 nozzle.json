@@ -3,7 +3,7 @@
     "name": "Fillamentum PC/ABS @BBL X1E 0.4 nozzle",
     "inherits": "Fillamentum PC/ABS @base",
     "from": "system",
-    "setting_id": "GFSP09_04",
+    "setting_id": "GFSP09_03",
     "instantiation": "true",
     "eng_plate_temp": [
         "100"

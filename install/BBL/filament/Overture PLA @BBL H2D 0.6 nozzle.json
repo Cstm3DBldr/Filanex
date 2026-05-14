@@ -3,7 +3,7 @@
     "name": "Overture PLA @BBL H2D 0.6 nozzle",
     "inherits": "Overture PLA @Overture base",
     "from": "system",
-    "setting_id": "GFSO18_11",
+    "setting_id": "GFSO18_09",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

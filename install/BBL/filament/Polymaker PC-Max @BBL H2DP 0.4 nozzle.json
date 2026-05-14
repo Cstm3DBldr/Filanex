@@ -3,7 +3,7 @@
     "name": "Polymaker PC-Max @BBL H2DP 0.4 nozzle",
     "inherits": "Polymaker PC-Max @base",
     "from": "system",
-    "setting_id": "GFSL54_09",
+    "setting_id": "GFSL54_08",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

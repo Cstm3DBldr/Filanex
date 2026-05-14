@@ -3,7 +3,7 @@
     "name": "Spectrum Smart ABS @BBL H2DP 0.4 nozzle",
     "inherits": "Spectrum Smart ABS @base",
     "from": "system",
-    "setting_id": "GFSW19_09",
+    "setting_id": "GFSW19_08",
     "instantiation": "true",
     "fan_max_speed": [
         "20"

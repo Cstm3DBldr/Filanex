@@ -3,7 +3,7 @@
     "name": "Filatech FilaCarbon @BBL H2C 0.4 nozzle",
     "inherits": "Filatech FilaCarbon @base",
     "from": "system",
-    "setting_id": "GFSJ02_07",
+    "setting_id": "GFSJ02_05",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

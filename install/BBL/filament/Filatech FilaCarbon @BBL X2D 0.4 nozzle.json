@@ -3,7 +3,7 @@
     "name": "Filatech FilaCarbon @BBL X2D 0.4 nozzle",
     "inherits": "Filatech FilaCarbon @base",
     "from": "system",
-    "setting_id": "GFSJ02_06",
+    "setting_id": "GFSJ02_04",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"

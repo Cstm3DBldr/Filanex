@@ -3,7 +3,7 @@
     "name": "Overture Matte PLA @BBL H2C 0.4 nozzle",
     "inherits": "Overture Matte PLA @Overture base",
     "from": "system",
-    "setting_id": "GFSO09_10",
+    "setting_id": "GFSO09_08",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

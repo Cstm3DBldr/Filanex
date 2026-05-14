@@ -3,7 +3,7 @@
     "name": "Hatchbox Stone PLA @BBL H2C 0.4 nozzle",
     "inherits": "Hatchbox Stone PLA @base",
     "from": "system",
-    "setting_id": "GFSH13_10",
+    "setting_id": "GFSH13_08",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

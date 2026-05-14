@@ -3,7 +3,7 @@
     "name": "Elegoo PETG-CF @BBL X1C 0.4 nozzle",
     "inherits": "Elegoo PETG-CF @base",
     "from": "system",
-    "setting_id": "GFSD06_06",
+    "setting_id": "GFSD06_03",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "30"

@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Tough @BBL H2DP 0.4 nozzle",
     "inherits": "Orca Arena Arena PLA Tough @base",
     "from": "system",
-    "setting_id": "GFS131_12",
+    "setting_id": "GFS131_10",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

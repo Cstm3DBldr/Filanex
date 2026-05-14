@@ -3,7 +3,7 @@
     "name": "Creality CR-PLA Carbon @BBL H2DP 0.4 nozzle",
     "inherits": "Creality CR-PLA Carbon @base",
     "from": "system",
-    "setting_id": "GFSR03_12",
+    "setting_id": "GFSR03_08",
     "instantiation": "true",
     "counter_coef_2": [
         "0.012"

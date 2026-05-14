@@ -3,7 +3,7 @@
     "name": "Extrudr GreenTEC Pro @BBL P1S 0.4 nozzle",
     "inherits": "Extrudr GreenTEC Pro @base",
     "from": "system",
-    "setting_id": "GFSX06_04",
+    "setting_id": "GFSX06_03",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

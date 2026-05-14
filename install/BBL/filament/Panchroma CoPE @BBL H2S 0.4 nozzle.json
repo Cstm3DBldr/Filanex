@@ -3,7 +3,7 @@
     "name": "Panchroma CoPE @BBL H2S 0.4 nozzle",
     "inherits": "Panchroma CoPE @base",
     "from": "system",
-    "setting_id": "GFSL10_13",
+    "setting_id": "GFSL10_11",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

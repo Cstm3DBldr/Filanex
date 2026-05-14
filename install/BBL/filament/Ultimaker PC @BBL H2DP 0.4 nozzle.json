@@ -3,7 +3,7 @@
     "name": "Ultimaker PC @BBL H2DP 0.4 nozzle",
     "inherits": "Ultimaker PC @base",
     "from": "system",
-    "setting_id": "GFSM04_09",
+    "setting_id": "GFSM04_08",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

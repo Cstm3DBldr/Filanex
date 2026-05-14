@@ -3,7 +3,7 @@
     "name": "Ultrafuse ABS Fusion+ @BBL X2D 0.4 nozzle",
     "inherits": "Ultrafuse ABS Fusion+ @base",
     "from": "system",
-    "setting_id": "GFSZ02_06",
+    "setting_id": "GFSZ02_05",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

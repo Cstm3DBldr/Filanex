@@ -3,7 +3,7 @@
     "name": "Flashforge PETG Pro @BBL H2DP 0.4 nozzle",
     "inherits": "Flashforge PETG Pro @base",
     "from": "system",
-    "setting_id": "GFSF07_12",
+    "setting_id": "GFSF07_10",
     "instantiation": "true",
     "counter_coef_2": [
         "0.007"

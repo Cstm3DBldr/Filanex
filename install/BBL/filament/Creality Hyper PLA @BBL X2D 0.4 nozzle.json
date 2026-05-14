@@ -3,7 +3,7 @@
     "name": "Creality Hyper PLA @BBL X2D 0.4 nozzle",
     "inherits": "Creality Hyper PLA @base",
     "from": "system",
-    "setting_id": "GFSR17_09",
+    "setting_id": "GFSR17_07",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

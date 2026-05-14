@@ -3,7 +3,7 @@
     "name": "Extrudr GreenTEC @BBL H2DP 0.4 nozzle",
     "inherits": "Extrudr GreenTEC @base",
     "from": "system",
-    "setting_id": "GFSX05_12",
+    "setting_id": "GFSX05_10",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

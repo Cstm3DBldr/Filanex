@@ -3,7 +3,7 @@
     "name": "addnorth E-PLA @BBL H2S 0.4 nozzle",
     "inherits": "addnorth E-PLA @base",
     "from": "system",
-    "setting_id": "GFS102_13",
+    "setting_id": "GFS102_11",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

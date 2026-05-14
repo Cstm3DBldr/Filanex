@@ -3,7 +3,7 @@
     "name": "Overture Matte PLA @BBL X1 0.4 nozzle",
     "inherits": "Overture Matte PLA @Overture base",
     "from": "system",
-    "setting_id": "GFSO09_05",
+    "setting_id": "GFSO09_04",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

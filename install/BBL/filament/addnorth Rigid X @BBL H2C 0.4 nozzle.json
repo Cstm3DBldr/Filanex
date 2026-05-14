@@ -3,7 +3,7 @@
     "name": "addnorth Rigid X @BBL H2C 0.4 nozzle",
     "inherits": "addnorth Rigid X @base",
     "from": "system",
-    "setting_id": "GFS106_10",
+    "setting_id": "GFS106_06",
     "instantiation": "true",
     "counter_coef_2": [
         "0.00565"

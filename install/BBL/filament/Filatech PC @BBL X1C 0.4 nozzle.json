@@ -3,7 +3,7 @@
     "name": "Filatech PC @BBL X1C 0.4 nozzle",
     "inherits": "Filatech PC @base",
     "from": "system",
-    "setting_id": "GFSJ07_03",
+    "setting_id": "GFSJ07_02",
     "instantiation": "true",
     "eng_plate_temp": [
         "100"

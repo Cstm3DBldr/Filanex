@@ -3,7 +3,7 @@
     "name": "eSUN PLA+ @BBL X1 0.2 nozzle",
     "inherits": "eSUN PLA+ @eSUN base",
     "from": "system",
-    "setting_id": "GFSE41_05",
+    "setting_id": "GFSE41_04",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

@@ -3,7 +3,7 @@
     "name": "Overture ROCK PLA @BBL X1C 0.4 nozzle",
     "inherits": "Overture ROCK PLA @base",
     "from": "system",
-    "setting_id": "GFSO24_06",
+    "setting_id": "GFSO24_05",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

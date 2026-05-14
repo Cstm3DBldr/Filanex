@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena TPU 95A @BBL H2DP 0.4 nozzle",
     "inherits": "Orca Arena Arena TPU 95A @base",
     "from": "system",
-    "setting_id": "GFS135_12",
+    "setting_id": "GFS135_09",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

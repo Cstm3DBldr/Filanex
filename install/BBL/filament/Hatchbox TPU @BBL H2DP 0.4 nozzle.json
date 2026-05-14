@@ -3,7 +3,7 @@
     "name": "Hatchbox TPU @BBL H2DP 0.4 nozzle",
     "inherits": "Hatchbox TPU @base",
     "from": "system",
-    "setting_id": "GFSH14_12",
+    "setting_id": "GFSH14_09",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

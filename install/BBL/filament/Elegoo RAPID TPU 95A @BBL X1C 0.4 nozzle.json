@@ -3,7 +3,7 @@
     "name": "Elegoo RAPID TPU 95A @BBL X1C 0.4 nozzle",
     "inherits": "Elegoo RAPID TPU 95A @base",
     "from": "system",
-    "setting_id": "GFSD25_06",
+    "setting_id": "GFSD25_04",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

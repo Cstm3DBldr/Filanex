@@ -3,7 +3,7 @@
     "name": "Prusa Polymers PC Blend @BBL X2D 0.4 nozzle",
     "inherits": "Prusa Polymers PC Blend @base",
     "from": "system",
-    "setting_id": "GFSQ03_06",
+    "setting_id": "GFSQ03_05",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

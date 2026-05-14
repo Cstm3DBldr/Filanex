@@ -3,7 +3,7 @@
     "name": "Fiberlogy Easy PETG @BBL H2DP 0.4 nozzle",
     "inherits": "Fiberlogy Easy PETG @base",
     "from": "system",
-    "setting_id": "GFSV07_12",
+    "setting_id": "GFSV07_10",
     "instantiation": "true",
     "counter_coef_2": [
         "0.007"

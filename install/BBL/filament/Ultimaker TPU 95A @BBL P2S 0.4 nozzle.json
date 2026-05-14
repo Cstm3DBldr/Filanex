@@ -3,7 +3,7 @@
     "name": "Ultimaker TPU 95A @BBL P2S 0.4 nozzle",
     "inherits": "Ultimaker TPU 95A @base",
     "from": "system",
-    "setting_id": "GFSM09_08",
+    "setting_id": "GFSM09_05",
     "instantiation": "true",
     "eng_plate_temp": [
         "35"

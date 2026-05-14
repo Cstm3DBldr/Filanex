@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Glow @BBL X2D 0.4 nozzle",
     "inherits": "PolyLite PLA Glow @base",
     "from": "system",
-    "setting_id": "GFSL42_09",
+    "setting_id": "GFSL42_07",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

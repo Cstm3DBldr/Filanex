@@ -3,7 +3,7 @@
     "name": "Hatchbox PLA Wood @BBL P1S 0.4 nozzle",
     "inherits": "Hatchbox PLA Wood @base",
     "from": "system",
-    "setting_id": "GFSH11_04",
+    "setting_id": "GFSH11_03",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

@@ -3,7 +3,7 @@
     "name": "PolyMide PA6-GF @BBL X2D 0.4 nozzle",
     "inherits": "PolyMide PA6-GF @base",
     "from": "system",
-    "setting_id": "GFSL66_06",
+    "setting_id": "GFSL66_03",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

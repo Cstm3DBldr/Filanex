@@ -3,7 +3,7 @@
     "name": "Filatech FilaTough @BBL X2D 0.4 nozzle",
     "inherits": "Filatech FilaTough @base",
     "from": "system",
-    "setting_id": "GFSJ04_09",
+    "setting_id": "GFSJ04_07",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

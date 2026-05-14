@@ -3,7 +3,7 @@
     "name": "Ultrafuse TPU 85A @BBL H2DP 0.4 nozzle",
     "inherits": "Ultrafuse TPU 85A @base",
     "from": "system",
-    "setting_id": "GFSZ19_12",
+    "setting_id": "GFSZ19_09",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

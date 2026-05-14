@@ -3,7 +3,7 @@
     "name": "Flashforge PETG @BBL X1C 0.4 nozzle",
     "inherits": "Flashforge PETG @base",
     "from": "system",
-    "setting_id": "GFSF05_06",
+    "setting_id": "GFSF05_05",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"

@@ -3,7 +3,7 @@
     "name": "eSUN ABS+HS @BBL H2D 0.4 nozzle",
     "inherits": "eSUN ABS+HS @base",
     "from": "system",
-    "setting_id": "GFSE05_08",
+    "setting_id": "GFSE05_07",
     "instantiation": "true",
     "fan_max_speed": [
         "20"

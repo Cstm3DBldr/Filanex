@@ -3,7 +3,7 @@
     "name": "Fillamentum Nylon FX256 @BBL X2D 0.4 nozzle",
     "inherits": "Fillamentum Nylon FX256 @base",
     "from": "system",
-    "setting_id": "GFSP08_06",
+    "setting_id": "GFSP08_04",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"

@@ -3,7 +3,7 @@
     "name": "Spectrum PLA SILK @BBL H2D 0.4 nozzle",
     "inherits": "Spectrum PLA SILK @base",
     "from": "system",
-    "setting_id": "GFSW16_11",
+    "setting_id": "GFSW16_09",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

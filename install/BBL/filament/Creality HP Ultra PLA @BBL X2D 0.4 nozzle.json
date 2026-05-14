@@ -3,7 +3,7 @@
     "name": "Creality HP Ultra PLA @BBL X2D 0.4 nozzle",
     "inherits": "Creality HP Ultra PLA @base",
     "from": "system",
-    "setting_id": "GFSR11_09",
+    "setting_id": "GFSR11_07",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

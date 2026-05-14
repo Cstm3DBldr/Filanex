@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Neon @BBL P2S 0.4 nozzle",
     "inherits": "Panchroma PLA Neon @base",
     "from": "system",
-    "setting_id": "GFSL19_08",
+    "setting_id": "GFSL19_06",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

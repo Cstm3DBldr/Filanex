@@ -3,7 +3,7 @@
     "name": "eSUN ABS-CF @BBL P2S 0.4 nozzle",
     "inherits": "eSUN ABS-CF @base",
     "from": "system",
-    "setting_id": "GFSE06_05",
+    "setting_id": "GFSE06_02",
     "instantiation": "true",
     "activate_air_filtration": [
         "0"

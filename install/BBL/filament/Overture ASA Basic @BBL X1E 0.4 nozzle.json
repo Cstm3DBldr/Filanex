@@ -3,7 +3,7 @@
     "name": "Overture ASA Basic @BBL X1E 0.4 nozzle",
     "inherits": "Overture ASA Basic @base",
     "from": "system",
-    "setting_id": "GFSO04_04",
+    "setting_id": "GFSO04_03",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

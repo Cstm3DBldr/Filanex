@@ -3,7 +3,7 @@
     "name": "Snapmaker PLA @BBL P1S 0.4 nozzle",
     "inherits": "Snapmaker PLA @base",
     "from": "system",
-    "setting_id": "GFS104_04",
+    "setting_id": "GFS104_03",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

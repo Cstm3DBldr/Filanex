@@ -3,7 +3,7 @@
     "name": "Extrudr DuraPro ASA @BBL H2C 0.4 nozzle",
     "inherits": "Extrudr DuraPro ASA @base",
     "from": "system",
-    "setting_id": "GFSX02_07",
+    "setting_id": "GFSX02_06",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

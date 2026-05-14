@@ -3,7 +3,7 @@
     "name": "Ultimaker S series Tough PLA @BBL P2S 0.4 nozzle",
     "inherits": "Ultimaker S series Tough PLA @base",
     "from": "system",
-    "setting_id": "GFSM07_08",
+    "setting_id": "GFSM07_06",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

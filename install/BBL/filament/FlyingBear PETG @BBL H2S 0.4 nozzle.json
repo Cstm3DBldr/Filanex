@@ -3,7 +3,7 @@
     "name": "FlyingBear PETG @BBL H2S 0.4 nozzle",
     "inherits": "FlyingBear PETG @base",
     "from": "system",
-    "setting_id": "GFS104_13",
+    "setting_id": "GFS104_11",
     "instantiation": "true",
     "counter_coef_2": [
         "0.007"

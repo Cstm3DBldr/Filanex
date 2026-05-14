@@ -3,7 +3,7 @@
     "name": "Fiberlogy PETG V0 @BBL X2D 0.4 nozzle",
     "inherits": "Fiberlogy PETG V0 @base",
     "from": "system",
-    "setting_id": "GFSV30_09",
+    "setting_id": "GFSV30_07",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"

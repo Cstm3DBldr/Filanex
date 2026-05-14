@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Basic @BBL X1 0.2 nozzle",
     "inherits": "Orca Arena Arena PLA Basic @base",
     "from": "system",
-    "setting_id": "GFS117_05",
+    "setting_id": "GFS117_04",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

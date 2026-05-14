@@ -3,7 +3,7 @@
     "name": "eSUN Marble PLA @BBL X1C 0.4 nozzle",
     "inherits": "eSUN Marble PLA @base",
     "from": "system",
-    "setting_id": "GFSE21_06",
+    "setting_id": "GFSE21_05",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

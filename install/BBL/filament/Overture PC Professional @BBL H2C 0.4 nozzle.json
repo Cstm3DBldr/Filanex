@@ -3,7 +3,7 @@
     "name": "Overture PC Professional @BBL H2C 0.4 nozzle",
     "inherits": "Overture PC Professional @base",
     "from": "system",
-    "setting_id": "GFSO12_07",
+    "setting_id": "GFSO12_06",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

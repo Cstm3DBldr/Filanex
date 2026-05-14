@@ -3,7 +3,7 @@
     "name": "Elegoo PLA-CF @BBL H2D 0.4 nozzle",
     "inherits": "Elegoo PLA-CF @base",
     "from": "system",
-    "setting_id": "GFSD12_11",
+    "setting_id": "GFSD12_07",
     "instantiation": "true",
     "counter_coef_2": [
         "0.012"

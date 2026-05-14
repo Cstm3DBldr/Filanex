@@ -3,7 +3,7 @@
     "name": "Spectrum PA6 Low Warp GF30 @BBL H2C 0.4 nozzle",
     "inherits": "Spectrum PA6 Low Warp GF30 @base",
     "from": "system",
-    "setting_id": "GFSW05_07",
+    "setting_id": "GFSW05_04",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

@@ -3,7 +3,7 @@
     "name": "Fillamentum PLA Extrafill @BBL P1S 0.4 nozzle",
     "inherits": "Fillamentum PLA Extrafill @base",
     "from": "system",
-    "setting_id": "GFSP12_04",
+    "setting_id": "GFSP12_03",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

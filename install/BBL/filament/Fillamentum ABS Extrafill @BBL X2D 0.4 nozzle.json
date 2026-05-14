@@ -3,7 +3,7 @@
     "name": "Fillamentum ABS Extrafill @BBL X2D 0.4 nozzle",
     "inherits": "Fillamentum ABS Extrafill @base",
     "from": "system",
-    "setting_id": "GFSP01_06",
+    "setting_id": "GFSP01_05",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

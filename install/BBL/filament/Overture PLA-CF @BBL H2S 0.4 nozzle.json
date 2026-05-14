@@ -3,7 +3,7 @@
     "name": "Overture PLA-CF @BBL H2S 0.4 nozzle",
     "inherits": "Overture PLA-CF @base",
     "from": "system",
-    "setting_id": "GFSO20_13",
+    "setting_id": "GFSO20_09",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0003"

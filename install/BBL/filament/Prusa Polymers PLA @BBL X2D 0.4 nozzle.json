@@ -3,7 +3,7 @@
     "name": "Prusa Polymers PLA @BBL X2D 0.4 nozzle",
     "inherits": "Prusa Polymers PLA @base",
     "from": "system",
-    "setting_id": "GFSQ07_09",
+    "setting_id": "GFSQ07_07",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

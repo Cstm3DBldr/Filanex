@@ -3,7 +3,7 @@
     "name": "Elegoo PETG Translucent @BBL X1C 0.4 nozzle",
     "inherits": "Elegoo PETG Translucent @base",
     "from": "system",
-    "setting_id": "GFSD09_06",
+    "setting_id": "GFSD09_05",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"

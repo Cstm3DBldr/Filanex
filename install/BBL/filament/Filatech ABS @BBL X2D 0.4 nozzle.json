@@ -3,7 +3,7 @@
     "name": "Filatech ABS @BBL X2D 0.4 nozzle",
     "inherits": "Filatech ABS @base",
     "from": "system",
-    "setting_id": "GFSJ01_06",
+    "setting_id": "GFSJ01_05",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

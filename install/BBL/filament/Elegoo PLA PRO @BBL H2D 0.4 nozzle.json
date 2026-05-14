@@ -3,7 +3,7 @@
     "name": "Elegoo PLA PRO @BBL H2D 0.4 nozzle",
     "inherits": "Elegoo PLA PRO @base",
     "from": "system",
-    "setting_id": "GFSD19_11",
+    "setting_id": "GFSD19_09",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

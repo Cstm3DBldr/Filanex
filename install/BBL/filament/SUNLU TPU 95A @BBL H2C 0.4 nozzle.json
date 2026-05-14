@@ -3,7 +3,7 @@
     "name": "SUNLU TPU 95A @BBL H2C 0.4 nozzle",
     "inherits": "SUNLU TPU 95A @base",
     "from": "system",
-    "setting_id": "GFSY18_10",
+    "setting_id": "GFSY18_07",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

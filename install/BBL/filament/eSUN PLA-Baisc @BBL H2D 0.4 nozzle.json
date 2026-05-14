@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Baisc @BBL H2D 0.4 nozzle",
     "inherits": "eSUN PLA-Baisc @base",
     "from": "system",
-    "setting_id": "GFSE44_11",
+    "setting_id": "GFSE44_09",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

@@ -3,7 +3,7 @@
     "name": "eSUN ASA+ @BBL P2S 0.4 nozzle",
     "inherits": "eSUN ASA+ @base",
     "from": "system",
-    "setting_id": "GFSE10_05",
+    "setting_id": "GFSE10_04",
     "instantiation": "true",
     "activate_air_filtration": [
         "0"

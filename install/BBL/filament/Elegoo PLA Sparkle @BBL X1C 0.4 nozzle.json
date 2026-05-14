@@ -3,7 +3,7 @@
     "name": "Elegoo PLA Sparkle @BBL X1C 0.4 nozzle",
     "inherits": "Elegoo PLA Sparkle @base",
     "from": "system",
-    "setting_id": "GFSD21_06",
+    "setting_id": "GFSD21_05",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

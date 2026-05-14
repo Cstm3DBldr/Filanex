@@ -3,7 +3,7 @@
     "name": "Spectrum PLA Tough @BBL X1 0.4 nozzle",
     "inherits": "Spectrum PLA Tough @base",
     "from": "system",
-    "setting_id": "GFSW17_05",
+    "setting_id": "GFSW17_04",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

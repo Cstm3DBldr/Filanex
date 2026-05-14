@@ -3,7 +3,7 @@
     "name": "Spectrum Nylon PA6 NT @BBL X1C 0.4 nozzle",
     "inherits": "Spectrum Nylon PA6 NT @base",
     "from": "system",
-    "setting_id": "GFSW04_03",
+    "setting_id": "GFSW04_01",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

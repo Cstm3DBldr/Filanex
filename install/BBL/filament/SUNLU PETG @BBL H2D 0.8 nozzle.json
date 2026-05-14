@@ -3,7 +3,7 @@
     "name": "SUNLU PETG @BBL H2D 0.8 nozzle",
     "inherits": "SUNLU PETG @SUNLU base",
     "from": "system",
-    "setting_id": "GFSY06_11",
+    "setting_id": "GFSY06_09",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"

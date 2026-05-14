@@ -3,7 +3,7 @@
     "name": "Prusa Polymers Prusament PLA @BBL H2C 0.4 nozzle",
     "inherits": "Prusa Polymers Prusament PLA @base",
     "from": "system",
-    "setting_id": "GFSQ14_10",
+    "setting_id": "GFSQ14_08",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

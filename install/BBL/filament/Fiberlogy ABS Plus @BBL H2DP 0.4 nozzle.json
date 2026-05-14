@@ -3,7 +3,7 @@
     "name": "Fiberlogy ABS Plus @BBL H2DP 0.4 nozzle",
     "inherits": "Fiberlogy ABS Plus @base",
     "from": "system",
-    "setting_id": "GFSV02_09",
+    "setting_id": "GFSV02_08",
     "instantiation": "true",
     "fan_max_speed": [
         "20"

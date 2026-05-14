@@ -3,7 +3,7 @@
     "name": "Elegoo PAHT-CF @BBL X2D 0.4 nozzle",
     "inherits": "Elegoo PAHT-CF @base",
     "from": "system",
-    "setting_id": "GFSD03_06",
+    "setting_id": "GFSD03_04",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"

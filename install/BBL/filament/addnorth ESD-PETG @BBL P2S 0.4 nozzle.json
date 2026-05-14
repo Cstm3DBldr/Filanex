@@ -3,7 +3,7 @@
     "name": "addnorth ESD-PETG @BBL P2S 0.4 nozzle",
     "inherits": "addnorth ESD-PETG @base",
     "from": "system",
-    "setting_id": "GFS103_08",
+    "setting_id": "GFS103_04",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0022"

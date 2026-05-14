@@ -3,7 +3,7 @@
     "name": "ColorFabb corkFill @BBL X2D 0.4 nozzle",
     "inherits": "ColorFabb corkFill @base",
     "from": "system",
-    "setting_id": "GFSK05_09",
+    "setting_id": "GFSK05_07",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

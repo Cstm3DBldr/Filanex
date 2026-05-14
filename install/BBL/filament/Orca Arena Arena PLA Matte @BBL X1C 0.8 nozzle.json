@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Matte @BBL X1C 0.8 nozzle",
     "inherits": "Orca Arena Arena PLA Matte @base",
     "from": "system",
-    "setting_id": "GFS124_06",
+    "setting_id": "GFS124_05",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

@@ -3,7 +3,7 @@
     "name": "Snapmaker Nylon @BBL X2D 0.4 nozzle",
     "inherits": "Snapmaker Nylon @base",
     "from": "system",
-    "setting_id": "GFS102_06",
+    "setting_id": "GFS102_04",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"

@@ -3,7 +3,7 @@
     "name": "Hatchbox ABS @BBL X1C 0.4 nozzle",
     "inherits": "Hatchbox ABS @base",
     "from": "system",
-    "setting_id": "GFSH01_03",
+    "setting_id": "GFSH01_02",
     "instantiation": "true",
     "fan_max_speed": [
         "60"

@@ -3,7 +3,7 @@
     "name": "Extrudr PETG @BBL H2D 0.4 nozzle",
     "inherits": "Extrudr PETG @base",
     "from": "system",
-    "setting_id": "GFSX07_11",
+    "setting_id": "GFSX07_09",
     "instantiation": "true",
     "counter_coef_2": [
         "0.007"

@@ -3,7 +3,7 @@
     "name": "Ultrafuse PET @BBL H2S 0.4 nozzle",
     "inherits": "Ultrafuse PET @base",
     "from": "system",
-    "setting_id": "GFSZ09_13",
+    "setting_id": "GFSZ09_11",
     "instantiation": "true",
     "counter_coef_2": [
         "0.007"

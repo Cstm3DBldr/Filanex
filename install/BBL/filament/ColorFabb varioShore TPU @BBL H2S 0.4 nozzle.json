@@ -3,7 +3,7 @@
     "name": "ColorFabb varioShore TPU @BBL H2S 0.4 nozzle",
     "inherits": "ColorFabb varioShore TPU @base",
     "from": "system",
-    "setting_id": "GFSK14_13",
+    "setting_id": "GFSK14_10",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

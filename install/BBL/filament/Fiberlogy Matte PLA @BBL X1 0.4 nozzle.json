@@ -3,7 +3,7 @@
     "name": "Fiberlogy Matte PLA @BBL X1 0.4 nozzle",
     "inherits": "Fiberlogy Matte PLA @base",
     "from": "system",
-    "setting_id": "GFSV19_05",
+    "setting_id": "GFSV19_04",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

@@ -3,7 +3,7 @@
     "name": "Fiberlogy R PLA @BBL H2C 0.4 nozzle",
     "inherits": "Fiberlogy R PLA @base",
     "from": "system",
-    "setting_id": "GFSV34_10",
+    "setting_id": "GFSV34_08",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

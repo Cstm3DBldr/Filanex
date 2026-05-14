@@ -3,7 +3,7 @@
     "name": "Fillamentum PETG @BBL H2DP 0.4 nozzle",
     "inherits": "Fillamentum PETG @base",
     "from": "system",
-    "setting_id": "GFSP10_12",
+    "setting_id": "GFSP10_10",
     "instantiation": "true",
     "counter_coef_2": [
         "0.007"

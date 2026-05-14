@@ -3,7 +3,7 @@
     "name": "Filatech Wood-PLA @BBL X1C 0.4 nozzle",
     "inherits": "Filatech Wood-PLA @base",
     "from": "system",
-    "setting_id": "GFSJ12_06",
+    "setting_id": "GFSJ12_05",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

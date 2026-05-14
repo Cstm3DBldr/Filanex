@@ -3,7 +3,7 @@
     "name": "Fiberlogy PLA CF @BBL H2S 0.4 nozzle",
     "inherits": "Fiberlogy PLA CF @base",
     "from": "system",
-    "setting_id": "GFSV31_13",
+    "setting_id": "GFSV31_09",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0003"

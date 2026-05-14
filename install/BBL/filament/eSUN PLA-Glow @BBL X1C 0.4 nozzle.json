@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Glow @BBL X1C 0.4 nozzle",
     "inherits": "eSUN PLA-Glow @base",
     "from": "system",
-    "setting_id": "GFSE49_06",
+    "setting_id": "GFSE49_05",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Translucent @BBL X1 0.4 nozzle",
     "inherits": "PolyLite PLA Translucent @base",
     "from": "system",
-    "setting_id": "GFSL48_05",
+    "setting_id": "GFSL48_04",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

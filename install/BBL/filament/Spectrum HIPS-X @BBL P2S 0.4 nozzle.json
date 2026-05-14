@@ -3,7 +3,7 @@
     "name": "Spectrum HIPS-X @BBL P2S 0.4 nozzle",
     "inherits": "Spectrum HIPS-X @base",
     "from": "system",
-    "setting_id": "GFSW02_05",
+    "setting_id": "GFSW02_04",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

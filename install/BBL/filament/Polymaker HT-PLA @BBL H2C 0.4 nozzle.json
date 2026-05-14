@@ -3,7 +3,7 @@
     "name": "Polymaker HT-PLA @BBL H2C 0.4 nozzle",
     "inherits": "Polymaker HT-PLA @base",
     "from": "system",
-    "setting_id": "GFSL50_10",
+    "setting_id": "GFSL50_08",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

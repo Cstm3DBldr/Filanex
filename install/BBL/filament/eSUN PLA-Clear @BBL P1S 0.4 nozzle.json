@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Clear @BBL P1S 0.4 nozzle",
     "inherits": "eSUN PLA-Clear @base",
     "from": "system",
-    "setting_id": "GFSE47_04",
+    "setting_id": "GFSE47_03",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

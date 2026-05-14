@@ -3,7 +3,7 @@
     "name": "Anycubic TPU @BBL X2D 0.4 nozzle",
     "inherits": "Anycubic TPU @base",
     "from": "system",
-    "setting_id": "GFSI09_09",
+    "setting_id": "GFSI09_06",
     "instantiation": "true",
     "eng_plate_temp": [
         "35"

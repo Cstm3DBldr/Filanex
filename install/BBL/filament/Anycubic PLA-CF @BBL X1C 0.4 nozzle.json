@@ -3,7 +3,7 @@
     "name": "Anycubic PLA-CF @BBL X1C 0.4 nozzle",
     "inherits": "Anycubic PLA-CF @base",
     "from": "system",
-    "setting_id": "GFSI06_06",
+    "setting_id": "GFSI06_03",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

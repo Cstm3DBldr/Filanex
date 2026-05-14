@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Neon @BBL P1S 0.4 nozzle",
     "inherits": "PolyLite PLA Neon @base",
     "from": "system",
-    "setting_id": "GFSL44_04",
+    "setting_id": "GFSL44_03",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

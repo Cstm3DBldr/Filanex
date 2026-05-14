@@ -3,7 +3,7 @@
     "name": "PolyMax PETG @BBL H2DP 0.4 nozzle",
     "inherits": "PolyMax PETG @base",
     "from": "system",
-    "setting_id": "GFSL62_12",
+    "setting_id": "GFSL62_10",
     "instantiation": "true",
     "counter_coef_2": [
         "0.007"

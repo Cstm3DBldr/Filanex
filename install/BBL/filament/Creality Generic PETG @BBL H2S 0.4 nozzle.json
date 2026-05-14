@@ -3,7 +3,7 @@
     "name": "Creality Generic PETG @BBL H2S 0.4 nozzle",
     "inherits": "Creality Generic PETG @base",
     "from": "system",
-    "setting_id": "GFSR07_13",
+    "setting_id": "GFSR07_11",
     "instantiation": "true",
     "counter_coef_2": [
         "0.007"

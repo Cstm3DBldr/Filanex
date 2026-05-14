@@ -3,7 +3,7 @@
     "name": "SUNLU PLA Matte @BBL H2D 0.2 nozzle",
     "inherits": "SUNLU PLA Matte @SUNLU base",
     "from": "system",
-    "setting_id": "GFSY14_11",
+    "setting_id": "GFSY14_09",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

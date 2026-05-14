@@ -3,7 +3,7 @@
     "name": "Overture PLA @BBL X1 0.2 nozzle",
     "inherits": "Overture PLA @Overture base",
     "from": "system",
-    "setting_id": "GFSO16_05",
+    "setting_id": "GFSO16_04",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

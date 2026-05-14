@@ -3,7 +3,7 @@
     "name": "eSUN PLA+ @BBL P1S 0.2 nozzle",
     "inherits": "eSUN PLA+ @eSUN base",
     "from": "system",
-    "setting_id": "GFSE41_04",
+    "setting_id": "GFSE41_03",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

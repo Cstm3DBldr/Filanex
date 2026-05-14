@@ -3,7 +3,7 @@
     "name": "Ultrafuse PC ABS FR @BBL H2C 0.4 nozzle",
     "inherits": "Ultrafuse PC ABS FR @base",
     "from": "system",
-    "setting_id": "GFSZ07_07",
+    "setting_id": "GFSZ07_06",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

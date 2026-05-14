@@ -3,7 +3,7 @@
     "name": "Fiberlogy Easy PLA @BBL P1S 0.4 nozzle",
     "inherits": "Fiberlogy Easy PLA @base",
     "from": "system",
-    "setting_id": "GFSV08_04",
+    "setting_id": "GFSV08_03",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

@@ -3,7 +3,7 @@
     "name": "Fiberon PA612-CF15 @BBL X2D 0.4 nozzle",
     "inherits": "Fiberon PA612-CF15 @base",
     "from": "system",
-    "setting_id": "GFSL05_06",
+    "setting_id": "GFSL05_04",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"

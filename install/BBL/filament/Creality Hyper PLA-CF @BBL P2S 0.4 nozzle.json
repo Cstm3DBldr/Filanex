@@ -3,7 +3,7 @@
     "name": "Creality Hyper PLA-CF @BBL P2S 0.4 nozzle",
     "inherits": "Creality Hyper PLA-CF @base",
     "from": "system",
-    "setting_id": "GFSR18_08",
+    "setting_id": "GFSR18_04",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0003"

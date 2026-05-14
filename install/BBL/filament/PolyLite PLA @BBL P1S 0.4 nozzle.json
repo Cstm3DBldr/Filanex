@@ -3,7 +3,7 @@
     "name": "PolyLite PLA @BBL P1S 0.4 nozzle",
     "inherits": "PolyLite PLA @Polymaker base",
     "from": "system",
-    "setting_id": "GFSL39_04",
+    "setting_id": "GFSL39_03",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

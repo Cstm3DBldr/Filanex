@@ -3,7 +3,7 @@
     "name": "Numakers PLA+ @BBL X1C 0.4 nozzle",
     "inherits": "Numakers PLA+ @base",
     "from": "system",
-    "setting_id": "GFS101_06",
+    "setting_id": "GFS101_05",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

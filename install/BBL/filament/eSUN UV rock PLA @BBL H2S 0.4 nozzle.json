@@ -3,7 +3,7 @@
     "name": "eSUN UV rock PLA @BBL H2S 0.4 nozzle",
     "inherits": "eSUN UV rock PLA @base",
     "from": "system",
-    "setting_id": "GFSE68_13",
+    "setting_id": "GFSE68_11",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

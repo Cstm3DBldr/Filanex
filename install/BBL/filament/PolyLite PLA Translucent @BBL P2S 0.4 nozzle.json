@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Translucent @BBL P2S 0.4 nozzle",
     "inherits": "PolyLite PLA Translucent @base",
     "from": "system",
-    "setting_id": "GFSL48_08",
+    "setting_id": "GFSL48_06",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

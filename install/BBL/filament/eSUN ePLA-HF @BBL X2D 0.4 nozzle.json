@@ -3,7 +3,7 @@
     "name": "eSUN ePLA-HF @BBL X2D 0.4 nozzle",
     "inherits": "eSUN ePLA-HF @base",
     "from": "system",
-    "setting_id": "GFSE12_09",
+    "setting_id": "GFSE12_07",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

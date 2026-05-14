@@ -3,7 +3,7 @@
     "name": "Overture PC Professional @BBL X1E 0.4 nozzle",
     "inherits": "Overture PC Professional @base",
     "from": "system",
-    "setting_id": "GFSO12_04",
+    "setting_id": "GFSO12_03",
     "instantiation": "true",
     "eng_plate_temp": [
         "100"

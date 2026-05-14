@@ -3,7 +3,7 @@
     "name": "Elegoo PETG Translucent @BBL H2DP 0.4 nozzle",
     "inherits": "Elegoo PETG Translucent @base",
     "from": "system",
-    "setting_id": "GFSD09_12",
+    "setting_id": "GFSD09_10",
     "instantiation": "true",
     "counter_coef_2": [
         "0.007"

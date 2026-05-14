@@ -3,7 +3,7 @@
     "name": "addnorth Rigid X @BBL X1C 0.4 nozzle",
     "inherits": "addnorth Rigid X @base",
     "from": "system",
-    "setting_id": "GFS106_06",
+    "setting_id": "GFS106_03",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "30"

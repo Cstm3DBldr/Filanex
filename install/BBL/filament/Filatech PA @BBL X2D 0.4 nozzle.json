@@ -3,7 +3,7 @@
     "name": "Filatech PA @BBL X2D 0.4 nozzle",
     "inherits": "Filatech PA @base",
     "from": "system",
-    "setting_id": "GFSJ06_06",
+    "setting_id": "GFSJ06_04",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"

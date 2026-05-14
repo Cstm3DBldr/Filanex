@@ -3,7 +3,7 @@
     "name": "Overture PC PROFESSIONAL Transparent @BBL X2D 0.4 nozzle",
     "inherits": "Overture PC PROFESSIONAL Transparent @base",
     "from": "system",
-    "setting_id": "GFSO13_06",
+    "setting_id": "GFSO13_05",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

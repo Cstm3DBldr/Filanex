@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Clear @BBL X2D 0.4 nozzle",
     "inherits": "eSUN PLA-Clear @base",
     "from": "system",
-    "setting_id": "GFSE47_09",
+    "setting_id": "GFSE47_07",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

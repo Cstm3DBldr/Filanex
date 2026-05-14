@@ -3,7 +3,7 @@
     "name": "eSUN PA-CF @BBL X1C 0.4 nozzle",
     "inherits": "eSUN PA-CF @base",
     "from": "system",
-    "setting_id": "GFSE23_03",
+    "setting_id": "GFSE23_01",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

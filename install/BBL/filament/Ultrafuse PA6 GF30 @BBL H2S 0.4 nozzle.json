@@ -3,7 +3,7 @@
     "name": "Ultrafuse PA6 GF30 @BBL H2S 0.4 nozzle",
     "inherits": "Ultrafuse PA6 GF30 @base",
     "from": "system",
-    "setting_id": "GFSZ05_10",
+    "setting_id": "GFSZ05_07",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

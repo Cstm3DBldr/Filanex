@@ -3,7 +3,7 @@
     "name": "Filatech TPU @BBL H2C 0.4 nozzle",
     "inherits": "Filatech TPU @base",
     "from": "system",
-    "setting_id": "GFSJ11_10",
+    "setting_id": "GFSJ11_07",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

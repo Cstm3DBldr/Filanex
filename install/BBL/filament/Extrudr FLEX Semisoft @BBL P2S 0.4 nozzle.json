@@ -3,7 +3,7 @@
     "name": "Extrudr FLEX Semisoft @BBL P2S 0.4 nozzle",
     "inherits": "Extrudr FLEX Semisoft @base",
     "from": "system",
-    "setting_id": "GFSX04_08",
+    "setting_id": "GFSX04_05",
     "instantiation": "true",
     "eng_plate_temp": [
         "35"

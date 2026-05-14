@@ -3,7 +3,7 @@
     "name": "Hatchbox PETG @BBL H2S 0.4 nozzle",
     "inherits": "Hatchbox PETG @base",
     "from": "system",
-    "setting_id": "GFSH02_13",
+    "setting_id": "GFSH02_11",
     "instantiation": "true",
     "counter_coef_2": [
         "0.007"

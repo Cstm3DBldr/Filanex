@@ -3,7 +3,7 @@
     "name": "eSUN Magic CL PLA @BBL H2C 0.4 nozzle",
     "inherits": "eSUN Magic CL PLA @base",
     "from": "system",
-    "setting_id": "GFSE19_10",
+    "setting_id": "GFSE19_08",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

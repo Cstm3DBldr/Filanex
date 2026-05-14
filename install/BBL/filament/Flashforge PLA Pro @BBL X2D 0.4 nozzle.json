@@ -3,7 +3,7 @@
     "name": "Flashforge PLA Pro @BBL X2D 0.4 nozzle",
     "inherits": "Flashforge PLA Pro @base",
     "from": "system",
-    "setting_id": "GFSF11_09",
+    "setting_id": "GFSF11_07",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

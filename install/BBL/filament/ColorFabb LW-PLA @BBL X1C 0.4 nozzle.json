@@ -3,7 +3,7 @@
     "name": "ColorFabb LW-PLA @BBL X1C 0.4 nozzle",
     "inherits": "ColorFabb LW-PLA @base",
     "from": "system",
-    "setting_id": "GFSK07_06",
+    "setting_id": "GFSK07_05",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

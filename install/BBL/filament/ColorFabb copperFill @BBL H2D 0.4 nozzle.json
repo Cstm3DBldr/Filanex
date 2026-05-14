@@ -3,7 +3,7 @@
     "name": "ColorFabb copperFill @BBL H2D 0.4 nozzle",
     "inherits": "ColorFabb copperFill @base",
     "from": "system",
-    "setting_id": "GFSK04_11",
+    "setting_id": "GFSK04_09",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

@@ -3,7 +3,7 @@
     "name": "Overture PLA PROFESSIONAL @BBL P2S 0.4 nozzle",
     "inherits": "Overture PLA PROFESSIONAL @base",
     "from": "system",
-    "setting_id": "GFSO23_08",
+    "setting_id": "GFSO23_06",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

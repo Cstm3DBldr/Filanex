@@ -3,7 +3,7 @@
     "name": "PolySonic PLA @BBL X1C 0.4 nozzle",
     "inherits": "PolySonic PLA @base",
     "from": "system",
-    "setting_id": "GFSL68_06",
+    "setting_id": "GFSL68_05",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

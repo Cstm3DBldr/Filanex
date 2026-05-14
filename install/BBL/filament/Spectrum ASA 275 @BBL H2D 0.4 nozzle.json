@@ -3,7 +3,7 @@
     "name": "Spectrum ASA 275 @BBL H2D 0.4 nozzle",
     "inherits": "Spectrum ASA 275 @base",
     "from": "system",
-    "setting_id": "GFSW01_08",
+    "setting_id": "GFSW01_07",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

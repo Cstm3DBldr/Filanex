@@ -3,7 +3,7 @@
     "name": "Spectrum PLA Glitter @BBL H2DP 0.4 nozzle",
     "inherits": "Spectrum PLA Glitter @base",
     "from": "system",
-    "setting_id": "GFSW12_12",
+    "setting_id": "GFSW12_10",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

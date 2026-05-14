@@ -3,7 +3,7 @@
     "name": "ColorFabb glowFill @BBL H2C 0.4 nozzle",
     "inherits": "ColorFabb glowFill @base",
     "from": "system",
-    "setting_id": "GFSK06_10",
+    "setting_id": "GFSK06_08",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

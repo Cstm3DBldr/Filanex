@@ -3,7 +3,7 @@
     "name": "addnorth HT-PLA @BBL P2S 0.4 nozzle",
     "inherits": "addnorth HT-PLA @base",
     "from": "system",
-    "setting_id": "GFS104_08",
+    "setting_id": "GFS104_06",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

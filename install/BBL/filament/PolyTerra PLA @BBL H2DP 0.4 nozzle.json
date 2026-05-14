@@ -3,7 +3,7 @@
     "name": "PolyTerra PLA @BBL H2DP 0.4 nozzle",
     "inherits": "PolyTerra PLA @Polymaker base",
     "from": "system",
-    "setting_id": "GFSL71_12",
+    "setting_id": "GFSL71_10",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

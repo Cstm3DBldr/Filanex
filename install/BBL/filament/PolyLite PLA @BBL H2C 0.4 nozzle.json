@@ -3,7 +3,7 @@
     "name": "PolyLite PLA @BBL H2C 0.4 nozzle",
     "inherits": "PolyLite PLA @Polymaker base",
     "from": "system",
-    "setting_id": "GFSL39_10",
+    "setting_id": "GFSL39_08",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

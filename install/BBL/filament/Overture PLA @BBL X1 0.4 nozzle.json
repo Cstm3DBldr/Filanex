@@ -3,7 +3,7 @@
     "name": "Overture PLA @BBL X1 0.4 nozzle",
     "inherits": "Overture PLA @Overture base",
     "from": "system",
-    "setting_id": "GFSO17_05",
+    "setting_id": "GFSO17_04",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

@@ -3,7 +3,7 @@
     "name": "Ultimaker Tough PLA @BBL H2S 0.4 nozzle",
     "inherits": "Ultimaker Tough PLA @base",
     "from": "system",
-    "setting_id": "GFSM08_13",
+    "setting_id": "GFSM08_11",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

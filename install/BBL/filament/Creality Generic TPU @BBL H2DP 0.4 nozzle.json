@@ -3,7 +3,7 @@
     "name": "Creality Generic TPU @BBL H2DP 0.4 nozzle",
     "inherits": "Creality Generic TPU @base",
     "from": "system",
-    "setting_id": "GFSR08_12",
+    "setting_id": "GFSR08_09",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

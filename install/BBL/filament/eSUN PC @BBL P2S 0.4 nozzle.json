@@ -3,7 +3,7 @@
     "name": "eSUN PC @BBL P2S 0.4 nozzle",
     "inherits": "eSUN PC @base",
     "from": "system",
-    "setting_id": "GFSE26_05",
+    "setting_id": "GFSE26_04",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

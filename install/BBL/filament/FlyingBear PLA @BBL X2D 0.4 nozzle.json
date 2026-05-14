@@ -3,7 +3,7 @@
     "name": "FlyingBear PLA @BBL X2D 0.4 nozzle",
     "inherits": "FlyingBear PLA @base",
     "from": "system",
-    "setting_id": "GFS105_09",
+    "setting_id": "GFS105_07",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

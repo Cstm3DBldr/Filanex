@@ -3,7 +3,7 @@
     "name": "Spectrum PET-G Premium @BBL H2S 0.4 nozzle",
     "inherits": "Spectrum PET-G Premium @base",
     "from": "system",
-    "setting_id": "GFSW09_13",
+    "setting_id": "GFSW09_11",
     "instantiation": "true",
     "counter_coef_2": [
         "0.007"

@@ -3,7 +3,7 @@
     "name": "Prusa Polymers TPU 95A @BBL H2S 0.4 nozzle",
     "inherits": "Prusa Polymers TPU 95A @base",
     "from": "system",
-    "setting_id": "GFSQ20_13",
+    "setting_id": "GFSQ20_10",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

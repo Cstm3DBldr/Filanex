@@ -3,7 +3,7 @@
     "name": "Creality CR-Silk @BBL X1 0.4 nozzle",
     "inherits": "Creality CR-Silk @base",
     "from": "system",
-    "setting_id": "GFSR04_05",
+    "setting_id": "GFSR04_03",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

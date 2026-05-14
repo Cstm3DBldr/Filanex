@@ -3,7 +3,7 @@
     "name": "Filatech HIPS @BBL X2D 0.4 nozzle",
     "inherits": "Filatech HIPS @base",
     "from": "system",
-    "setting_id": "GFSJ05_06",
+    "setting_id": "GFSJ05_05",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

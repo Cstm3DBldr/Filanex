@@ -3,7 +3,7 @@
     "name": "ColorFabb PA-CF Low Warp @BBL X1E 0.4 nozzle",
     "inherits": "ColorFabb PA-CF Low Warp @base",
     "from": "system",
-    "setting_id": "GFSK12_04",
+    "setting_id": "GFSK12_02",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

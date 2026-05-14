@@ -3,7 +3,7 @@
     "name": "eSUN ePLA-SS @BBL H2S 0.4 nozzle",
     "inherits": "eSUN ePLA-SS @base",
     "from": "system",
-    "setting_id": "GFSE14_13",
+    "setting_id": "GFSE14_11",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

@@ -3,7 +3,7 @@
     "name": "Extrudr Flax @BBL H2C 0.4 nozzle",
     "inherits": "Extrudr Flax @base",
     "from": "system",
-    "setting_id": "GFSX03_10",
+    "setting_id": "GFSX03_08",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

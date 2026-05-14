@@ -3,7 +3,7 @@
     "name": "Snapmaker TPU @BBL H2D 0.4 nozzle",
     "inherits": "Snapmaker TPU @base",
     "from": "system",
-    "setting_id": "GFS109_11",
+    "setting_id": "GFS109_08",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

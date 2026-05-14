@@ -3,7 +3,7 @@
     "name": "Overture Easy Nylon @BBL X1C 0.4 nozzle",
     "inherits": "Overture Easy Nylon @base",
     "from": "system",
-    "setting_id": "GFSO05_03",
+    "setting_id": "GFSO05_01",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

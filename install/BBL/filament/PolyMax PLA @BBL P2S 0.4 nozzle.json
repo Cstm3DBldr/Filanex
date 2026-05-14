@@ -3,7 +3,7 @@
     "name": "PolyMax PLA @BBL P2S 0.4 nozzle",
     "inherits": "PolyMax PLA @base",
     "from": "system",
-    "setting_id": "GFSL63_08",
+    "setting_id": "GFSL63_06",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

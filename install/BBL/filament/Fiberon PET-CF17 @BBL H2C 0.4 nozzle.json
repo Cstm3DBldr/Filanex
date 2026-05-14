@@ -3,7 +3,7 @@
     "name": "Fiberon PET-CF17 @BBL H2C 0.4 nozzle",
     "inherits": "Fiberon PET-CF17 @base",
     "from": "system",
-    "setting_id": "GFSL06_07",
+    "setting_id": "GFSL06_05",
     "instantiation": "true",
     "chamber_temperatures": [
         "50"

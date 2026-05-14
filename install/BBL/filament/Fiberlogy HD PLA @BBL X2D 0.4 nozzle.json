@@ -3,7 +3,7 @@
     "name": "Fiberlogy HD PLA @BBL X2D 0.4 nozzle",
     "inherits": "Fiberlogy HD PLA @base",
     "from": "system",
-    "setting_id": "GFSV13_09",
+    "setting_id": "GFSV13_07",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

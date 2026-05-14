@@ -3,7 +3,7 @@
     "name": "Anycubic ASA @BBL X1C 0.4 nozzle",
     "inherits": "Anycubic ASA @base",
     "from": "system",
-    "setting_id": "GFSI02_03",
+    "setting_id": "GFSI02_02",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

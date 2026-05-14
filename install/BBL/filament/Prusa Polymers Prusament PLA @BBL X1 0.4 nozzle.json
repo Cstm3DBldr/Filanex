@@ -3,7 +3,7 @@
     "name": "Prusa Polymers Prusament PLA @BBL X1 0.4 nozzle",
     "inherits": "Prusa Polymers Prusament PLA @base",
     "from": "system",
-    "setting_id": "GFSQ14_05",
+    "setting_id": "GFSQ14_04",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

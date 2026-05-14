@@ -3,7 +3,7 @@
     "name": "Filatech HIPS @BBL H2S 0.4 nozzle",
     "inherits": "Filatech HIPS @base",
     "from": "system",
-    "setting_id": "GFSJ05_10",
+    "setting_id": "GFSJ05_09",
     "instantiation": "true",
     "fan_max_speed": [
         "20"

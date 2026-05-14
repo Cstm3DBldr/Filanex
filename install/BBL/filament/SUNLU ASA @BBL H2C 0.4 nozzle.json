@@ -3,7 +3,7 @@
     "name": "SUNLU ASA @BBL H2C 0.4 nozzle",
     "inherits": "SUNLU ASA @base",
     "from": "system",
-    "setting_id": "GFSY02_07",
+    "setting_id": "GFSY02_06",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

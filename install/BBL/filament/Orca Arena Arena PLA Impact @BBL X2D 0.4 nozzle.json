@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Impact @BBL X2D 0.4 nozzle",
     "inherits": "Orca Arena Arena PLA Impact @base",
     "from": "system",
-    "setting_id": "GFS120_09",
+    "setting_id": "GFS120_07",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

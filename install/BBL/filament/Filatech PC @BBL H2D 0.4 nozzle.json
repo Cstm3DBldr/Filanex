@@ -3,7 +3,7 @@
     "name": "Filatech PC @BBL H2D 0.4 nozzle",
     "inherits": "Filatech PC @base",
     "from": "system",
-    "setting_id": "GFSJ07_08",
+    "setting_id": "GFSJ07_07",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

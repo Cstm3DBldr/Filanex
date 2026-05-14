@@ -3,7 +3,7 @@
     "name": "PolySonic PLA Pro @BBL P2S 0.4 nozzle",
     "inherits": "PolySonic PLA Pro @base",
     "from": "system",
-    "setting_id": "GFSL69_08",
+    "setting_id": "GFSL69_06",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

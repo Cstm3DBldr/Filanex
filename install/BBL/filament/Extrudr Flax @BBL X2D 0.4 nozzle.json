@@ -3,7 +3,7 @@
     "name": "Extrudr Flax @BBL X2D 0.4 nozzle",
     "inherits": "Extrudr Flax @base",
     "from": "system",
-    "setting_id": "GFSX03_09",
+    "setting_id": "GFSX03_07",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

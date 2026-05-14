@@ -3,7 +3,7 @@
     "name": "Creality HP-TPU @BBL P2S 0.4 nozzle",
     "inherits": "Creality HP-TPU @base",
     "from": "system",
-    "setting_id": "GFSR10_08",
+    "setting_id": "GFSR10_05",
     "instantiation": "true",
     "eng_plate_temp": [
         "35"

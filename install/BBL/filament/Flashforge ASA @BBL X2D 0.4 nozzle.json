@@ -3,7 +3,7 @@
     "name": "Flashforge ASA @BBL X2D 0.4 nozzle",
     "inherits": "Flashforge ASA @base",
     "from": "system",
-    "setting_id": "GFSF02_06",
+    "setting_id": "GFSF02_05",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

@@ -3,7 +3,7 @@
     "name": "Flashforge PLA-CF @BBL X1C 0.4 nozzle",
     "inherits": "Flashforge PLA-CF @base",
     "from": "system",
-    "setting_id": "GFSF09_06",
+    "setting_id": "GFSF09_03",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

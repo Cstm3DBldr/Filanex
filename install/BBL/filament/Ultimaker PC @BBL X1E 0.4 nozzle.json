@@ -3,7 +3,7 @@
     "name": "Ultimaker PC @BBL X1E 0.4 nozzle",
     "inherits": "Ultimaker PC @base",
     "from": "system",
-    "setting_id": "GFSM04_04",
+    "setting_id": "GFSM04_03",
     "instantiation": "true",
     "eng_plate_temp": [
         "100"

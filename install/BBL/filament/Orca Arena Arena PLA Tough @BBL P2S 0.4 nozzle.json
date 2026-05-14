@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Tough @BBL P2S 0.4 nozzle",
     "inherits": "Orca Arena Arena PLA Tough @base",
     "from": "system",
-    "setting_id": "GFS131_08",
+    "setting_id": "GFS131_06",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

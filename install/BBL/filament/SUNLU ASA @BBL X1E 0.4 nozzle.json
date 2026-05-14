@@ -3,7 +3,7 @@
     "name": "SUNLU ASA @BBL X1E 0.4 nozzle",
     "inherits": "SUNLU ASA @base",
     "from": "system",
-    "setting_id": "GFSY02_04",
+    "setting_id": "GFSY02_03",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

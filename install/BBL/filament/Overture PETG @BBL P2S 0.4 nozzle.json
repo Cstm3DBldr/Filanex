@@ -3,7 +3,7 @@
     "name": "Overture PETG @BBL P2S 0.4 nozzle",
     "inherits": "Overture PETG @base",
     "from": "system",
-    "setting_id": "GFSO14_08",
+    "setting_id": "GFSO14_06",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"

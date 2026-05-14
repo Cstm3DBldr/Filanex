@@ -3,7 +3,7 @@
     "name": "Hatchbox PLA UV Color Changing @BBL X2D 0.4 nozzle",
     "inherits": "Hatchbox PLA UV Color Changing @base",
     "from": "system",
-    "setting_id": "GFSH10_09",
+    "setting_id": "GFSH10_07",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

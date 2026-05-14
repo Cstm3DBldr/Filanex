@@ -3,7 +3,7 @@
     "name": "eSUN Magic CL PLA @BBL P2S 0.4 nozzle",
     "inherits": "eSUN Magic CL PLA @base",
     "from": "system",
-    "setting_id": "GFSE19_08",
+    "setting_id": "GFSE19_06",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

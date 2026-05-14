@@ -3,7 +3,7 @@
     "name": "Flashforge HS PLA @BBL X1C 0.4 nozzle",
     "inherits": "Flashforge HS PLA @base",
     "from": "system",
-    "setting_id": "GFSF04_06",
+    "setting_id": "GFSF04_05",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

@@ -3,7 +3,7 @@
     "name": "Creality CR-ABS @BBL X2D 0.4 nozzle",
     "inherits": "Creality CR-ABS @base",
     "from": "system",
-    "setting_id": "GFSR01_06",
+    "setting_id": "GFSR01_05",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

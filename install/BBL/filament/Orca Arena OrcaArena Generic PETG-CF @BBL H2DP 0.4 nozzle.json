@@ -3,7 +3,7 @@
     "name": "Orca Arena OrcaArena Generic PETG-CF @BBL H2DP 0.4 nozzle",
     "inherits": "Orca Arena OrcaArena Generic PETG-CF @base",
     "from": "system",
-    "setting_id": "GFS136_12",
+    "setting_id": "GFS136_08",
     "instantiation": "true",
     "counter_coef_2": [
         "0.00565"

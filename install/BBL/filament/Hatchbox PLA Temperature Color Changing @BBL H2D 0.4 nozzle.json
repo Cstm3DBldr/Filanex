@@ -3,7 +3,7 @@
     "name": "Hatchbox PLA Temperature Color Changing @BBL H2D 0.4 nozzle",
     "inherits": "Hatchbox PLA Temperature Color Changing @base",
     "from": "system",
-    "setting_id": "GFSH09_11",
+    "setting_id": "GFSH09_09",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

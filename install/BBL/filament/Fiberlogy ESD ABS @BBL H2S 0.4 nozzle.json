@@ -3,7 +3,7 @@
     "name": "Fiberlogy ESD ABS @BBL H2S 0.4 nozzle",
     "inherits": "Fiberlogy ESD ABS @base",
     "from": "system",
-    "setting_id": "GFSV09_10",
+    "setting_id": "GFSV09_09",
     "instantiation": "true",
     "fan_max_speed": [
         "20"

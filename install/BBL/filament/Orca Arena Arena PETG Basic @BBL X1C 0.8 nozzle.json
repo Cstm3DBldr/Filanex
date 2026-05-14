@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PETG Basic @BBL X1C 0.8 nozzle",
     "inherits": "Orca Arena Arena PETG Basic @base",
     "from": "system",
-    "setting_id": "GFS114_06",
+    "setting_id": "GFS114_05",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"
