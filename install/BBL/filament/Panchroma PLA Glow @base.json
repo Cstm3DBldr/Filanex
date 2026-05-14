@@ -50,8 +50,9 @@
             "Glow"
         ],
         "min_nozzle_size_mm": 0.2,
+        "max_nozzle_size_mm": 0.8,
         "hardened_nozzle_required": true,
         "hardened_nozzle_recommended": false,
-        "abrasive_reason": "Glow: Phosphor particles; abrasive enough to require hardened nozzle"
+        "abrasive_reason": "Glow: Phosphor pigment wears brass/stainless. Bambu/Polymaker/eSUN/Elegoo explicitly require hardened"
     }
 }

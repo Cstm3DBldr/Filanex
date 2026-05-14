@@ -53,14 +53,5 @@
     ],
     "textured_plate_temp_initial_layer": [
         "100"
-    ],
-    "_filanex_advisory": {
-        "matched_variants": [
-            "Matte"
-        ],
-        "min_nozzle_size_mm": 0.2,
-        "hardened_nozzle_required": false,
-        "hardened_nozzle_recommended": true,
-        "abrasive_reason": "Matte: Clay/talc filler - mild abrasion"
-    }
+    ]
 }

@@ -50,8 +50,9 @@
             "Luminous"
         ],
         "min_nozzle_size_mm": 0.2,
+        "max_nozzle_size_mm": 0.8,
         "hardened_nozzle_required": true,
         "hardened_nozzle_recommended": false,
-        "abrasive_reason": "Luminous: Phosphor pigment (glow-in-the-dark)"
+        "abrasive_reason": "Luminous: Phosphor pigment"
     }
 }

@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Metal @BBL A1M 0.8 nozzle",
     "inherits": "eSUN PLA-Metal @base",
     "from": "system",
-    "setting_id": "GFSE55_06",
+    "setting_id": "GFSE55_08",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

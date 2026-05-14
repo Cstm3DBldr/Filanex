@@ -50,8 +50,9 @@
             "Wood"
         ],
         "min_nozzle_size_mm": 0.4,
+        "max_nozzle_size_mm": 0.8,
         "hardened_nozzle_required": false,
-        "hardened_nozzle_recommended": true,
-        "abrasive_reason": "Wood: Wood fiber - clog-prone in small nozzles, hardened helps fiber wear"
+        "hardened_nozzle_recommended": false,
+        "abrasive_reason": "Wood: Most wood-effect filaments are foaming or polymer-based. 0.4 for clog avoidance. Vendor-specific exceptions for actual wood-fiber via product_overrides"
     }
 }

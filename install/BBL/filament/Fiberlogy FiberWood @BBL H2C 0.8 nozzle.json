@@ -3,7 +3,7 @@
     "name": "Fiberlogy FiberWood @BBL H2C 0.8 nozzle",
     "inherits": "Fiberlogy FiberWood @base",
     "from": "system",
-    "setting_id": "GFSV12_32",
+    "setting_id": "GFSV12_24",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

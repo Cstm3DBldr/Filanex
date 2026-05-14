@@ -3,7 +3,7 @@
     "name": "Elegoo PLA Metallic @BBL A1M 0.4 nozzle",
     "inherits": "Elegoo PLA Metallic @base",
     "from": "system",
-    "setting_id": "GFSD18_04",
+    "setting_id": "GFSD18_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Metal @BBL H2DP 0.6 nozzle",
     "inherits": "Orca Arena Arena PLA Metal @base",
     "from": "system",
-    "setting_id": "GFS113_29",
+    "setting_id": "GFS113_39",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

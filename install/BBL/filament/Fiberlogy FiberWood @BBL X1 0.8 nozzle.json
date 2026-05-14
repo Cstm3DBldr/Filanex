@@ -3,7 +3,7 @@
     "name": "Fiberlogy FiberWood @BBL X1 0.8 nozzle",
     "inherits": "Fiberlogy FiberWood @base",
     "from": "system",
-    "setting_id": "GFSV12_16",
+    "setting_id": "GFSV12_12",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

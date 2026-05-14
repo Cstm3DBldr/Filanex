@@ -42,6 +42,7 @@
     "_filanex_advisory": {
         "matched_variants": [],
         "min_nozzle_size_mm": 0.4,
+        "max_nozzle_size_mm": 0.8,
         "hardened_nozzle_required": true,
         "hardened_nozzle_recommended": false
     }

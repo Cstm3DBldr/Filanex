@@ -3,7 +3,7 @@
     "name": "Polymaker PLA Pro Metallic @BBL X1 0.4 nozzle",
     "inherits": "Polymaker PLA Pro Metallic @base",
     "from": "system",
-    "setting_id": "GFSL57_10",
+    "setting_id": "GFSL57_14",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

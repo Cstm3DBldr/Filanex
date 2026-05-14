@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Metal @BBL X1C 0.8 nozzle",
     "inherits": "eSUN PLA-Metal @base",
     "from": "system",
-    "setting_id": "GFSE55_15",
+    "setting_id": "GFSE55_20",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

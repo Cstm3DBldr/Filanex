@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Metallic @BBL H2C 0.6 nozzle",
     "inherits": "Panchroma PLA Metallic @base",
     "from": "system",
-    "setting_id": "GFSL18_23",
+    "setting_id": "GFSL18_31",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

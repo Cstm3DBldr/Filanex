@@ -50,8 +50,9 @@
             "Starlight"
         ],
         "min_nozzle_size_mm": 0.4,
+        "max_nozzle_size_mm": 0.8,
         "hardened_nozzle_required": false,
-        "hardened_nozzle_recommended": true,
-        "abrasive_reason": "Starlight: Glitter/sparkle additive"
+        "hardened_nozzle_recommended": false,
+        "abrasive_reason": "Starlight: Sparkle effect; Polymaker says fine powder, NOT abrasive"
     }
 }

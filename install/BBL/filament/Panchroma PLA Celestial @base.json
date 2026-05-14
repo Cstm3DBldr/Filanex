@@ -50,8 +50,9 @@
             "Celestial"
         ],
         "min_nozzle_size_mm": 0.4,
+        "max_nozzle_size_mm": 0.8,
         "hardened_nozzle_required": false,
-        "hardened_nozzle_recommended": true,
+        "hardened_nozzle_recommended": false,
         "abrasive_reason": "Celestial: Sparkle additive"
     }
 }

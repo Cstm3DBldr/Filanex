@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_version": "1.2.1",
-  "installer_version": "1.4.1",
+  "database_version": "1.2.2",
+  "installer_version": "1.4.2",
   "filament_list_additions": [
     {
       "name": "addnorth Adura X @base",
@@ -22860,6 +22860,14 @@
       "is_base": false
     },
     {
+      "name": "Elegoo PLA Metallic @BBL A1 0.2 nozzle",
+      "sub_path": "filament/Elegoo PLA Metallic @BBL A1 0.2 nozzle.json",
+      "vendor": "Elegoo",
+      "line": "PLA Metallic",
+      "material": "PLA",
+      "is_base": false
+    },
+    {
       "name": "Elegoo PLA Metallic @BBL A1 0.4 nozzle",
       "sub_path": "filament/Elegoo PLA Metallic @BBL A1 0.4 nozzle.json",
       "vendor": "Elegoo",
@@ -22878,6 +22886,14 @@
     {
       "name": "Elegoo PLA Metallic @BBL A1 0.8 nozzle",
       "sub_path": "filament/Elegoo PLA Metallic @BBL A1 0.8 nozzle.json",
+      "vendor": "Elegoo",
+      "line": "PLA Metallic",
+      "material": "PLA",
+      "is_base": false
+    },
+    {
+      "name": "Elegoo PLA Metallic @BBL A1M 0.2 nozzle",
+      "sub_path": "filament/Elegoo PLA Metallic @BBL A1M 0.2 nozzle.json",
       "vendor": "Elegoo",
       "line": "PLA Metallic",
       "material": "PLA",
@@ -22908,6 +22924,14 @@
       "is_base": false
     },
     {
+      "name": "Elegoo PLA Metallic @BBL H2C 0.2 nozzle",
+      "sub_path": "filament/Elegoo PLA Metallic @BBL H2C 0.2 nozzle.json",
+      "vendor": "Elegoo",
+      "line": "PLA Metallic",
+      "material": "PLA",
+      "is_base": false
+    },
+    {
       "name": "Elegoo PLA Metallic @BBL H2C 0.4 nozzle",
       "sub_path": "filament/Elegoo PLA Metallic @BBL H2C 0.4 nozzle.json",
       "vendor": "Elegoo",
@@ -22926,6 +22950,14 @@
     {
       "name": "Elegoo PLA Metallic @BBL H2C 0.8 nozzle",
       "sub_path": "filament/Elegoo PLA Metallic @BBL H2C 0.8 nozzle.json",
+      "vendor": "Elegoo",
+      "line": "PLA Metallic",
+      "material": "PLA",
+      "is_base": false
+    },
+    {
+      "name": "Elegoo PLA Metallic @BBL H2D 0.2 nozzle",
+      "sub_path": "filament/Elegoo PLA Metallic @BBL H2D 0.2 nozzle.json",
       "vendor": "Elegoo",
       "line": "PLA Metallic",
       "material": "PLA",
@@ -22956,6 +22988,14 @@
       "is_base": false
     },
     {
+      "name": "Elegoo PLA Metallic @BBL H2DP 0.2 nozzle",
+      "sub_path": "filament/Elegoo PLA Metallic @BBL H2DP 0.2 nozzle.json",
+      "vendor": "Elegoo",
+      "line": "PLA Metallic",
+      "material": "PLA",
+      "is_base": false
+    },
+    {
       "name": "Elegoo PLA Metallic @BBL H2DP 0.4 nozzle",
       "sub_path": "filament/Elegoo PLA Metallic @BBL H2DP 0.4 nozzle.json",
       "vendor": "Elegoo",
@@ -22974,6 +23014,14 @@
     {
       "name": "Elegoo PLA Metallic @BBL H2DP 0.8 nozzle",
       "sub_path": "filament/Elegoo PLA Metallic @BBL H2DP 0.8 nozzle.json",
+      "vendor": "Elegoo",
+      "line": "PLA Metallic",
+      "material": "PLA",
+      "is_base": false
+    },
+    {
+      "name": "Elegoo PLA Metallic @BBL H2S 0.2 nozzle",
+      "sub_path": "filament/Elegoo PLA Metallic @BBL H2S 0.2 nozzle.json",
       "vendor": "Elegoo",
       "line": "PLA Metallic",
       "material": "PLA",
@@ -23004,6 +23052,14 @@
       "is_base": false
     },
     {
+      "name": "Elegoo PLA Metallic @BBL P1S 0.2 nozzle",
+      "sub_path": "filament/Elegoo PLA Metallic @BBL P1S 0.2 nozzle.json",
+      "vendor": "Elegoo",
+      "line": "PLA Metallic",
+      "material": "PLA",
+      "is_base": false
+    },
+    {
       "name": "Elegoo PLA Metallic @BBL P1S 0.4 nozzle",
       "sub_path": "filament/Elegoo PLA Metallic @BBL P1S 0.4 nozzle.json",
       "vendor": "Elegoo",
@@ -23022,6 +23078,14 @@
     {
       "name": "Elegoo PLA Metallic @BBL P1S 0.8 nozzle",
       "sub_path": "filament/Elegoo PLA Metallic @BBL P1S 0.8 nozzle.json",
+      "vendor": "Elegoo",
+      "line": "PLA Metallic",
+      "material": "PLA",
+      "is_base": false
+    },
+    {
+      "name": "Elegoo PLA Metallic @BBL P2S 0.2 nozzle",
+      "sub_path": "filament/Elegoo PLA Metallic @BBL P2S 0.2 nozzle.json",
       "vendor": "Elegoo",
       "line": "PLA Metallic",
       "material": "PLA",
@@ -23052,6 +23116,14 @@
       "is_base": false
     },
     {
+      "name": "Elegoo PLA Metallic @BBL X1 0.2 nozzle",
+      "sub_path": "filament/Elegoo PLA Metallic @BBL X1 0.2 nozzle.json",
+      "vendor": "Elegoo",
+      "line": "PLA Metallic",
+      "material": "PLA",
+      "is_base": false
+    },
+    {
       "name": "Elegoo PLA Metallic @BBL X1 0.4 nozzle",
       "sub_path": "filament/Elegoo PLA Metallic @BBL X1 0.4 nozzle.json",
       "vendor": "Elegoo",
@@ -23076,6 +23148,14 @@
       "is_base": false
     },
     {
+      "name": "Elegoo PLA Metallic @BBL X1C 0.2 nozzle",
+      "sub_path": "filament/Elegoo PLA Metallic @BBL X1C 0.2 nozzle.json",
+      "vendor": "Elegoo",
+      "line": "PLA Metallic",
+      "material": "PLA",
+      "is_base": false
+    },
+    {
       "name": "Elegoo PLA Metallic @BBL X1C 0.4 nozzle",
       "sub_path": "filament/Elegoo PLA Metallic @BBL X1C 0.4 nozzle.json",
       "vendor": "Elegoo",
@@ -23094,6 +23174,14 @@
     {
       "name": "Elegoo PLA Metallic @BBL X1C 0.8 nozzle",
       "sub_path": "filament/Elegoo PLA Metallic @BBL X1C 0.8 nozzle.json",
+      "vendor": "Elegoo",
+      "line": "PLA Metallic",
+      "material": "PLA",
+      "is_base": false
+    },
+    {
+      "name": "Elegoo PLA Metallic @BBL X2D 0.2 nozzle",
+      "sub_path": "filament/Elegoo PLA Metallic @BBL X2D 0.2 nozzle.json",
       "vendor": "Elegoo",
       "line": "PLA Metallic",
       "material": "PLA",
@@ -40356,6 +40444,14 @@
       "is_base": false
     },
     {
+      "name": "eSUN PLA-Metal @BBL A1 0.2 nozzle",
+      "sub_path": "filament/eSUN PLA-Metal @BBL A1 0.2 nozzle.json",
+      "vendor": "eSUN",
+      "line": "PLA-Metal",
+      "material": "PLA",
+      "is_base": false
+    },
+    {
       "name": "eSUN PLA-Metal @BBL A1 0.4 nozzle",
       "sub_path": "filament/eSUN PLA-Metal @BBL A1 0.4 nozzle.json",
       "vendor": "eSUN",
@@ -40374,6 +40470,14 @@
     {
       "name": "eSUN PLA-Metal @BBL A1 0.8 nozzle",
       "sub_path": "filament/eSUN PLA-Metal @BBL A1 0.8 nozzle.json",
+      "vendor": "eSUN",
+      "line": "PLA-Metal",
+      "material": "PLA",
+      "is_base": false
+    },
+    {
+      "name": "eSUN PLA-Metal @BBL A1M 0.2 nozzle",
+      "sub_path": "filament/eSUN PLA-Metal @BBL A1M 0.2 nozzle.json",
       "vendor": "eSUN",
       "line": "PLA-Metal",
       "material": "PLA",
@@ -40404,6 +40508,14 @@
       "is_base": false
     },
     {
+      "name": "eSUN PLA-Metal @BBL H2C 0.2 nozzle",
+      "sub_path": "filament/eSUN PLA-Metal @BBL H2C 0.2 nozzle.json",
+      "vendor": "eSUN",
+      "line": "PLA-Metal",
+      "material": "PLA",
+      "is_base": false
+    },
+    {
       "name": "eSUN PLA-Metal @BBL H2C 0.4 nozzle",
       "sub_path": "filament/eSUN PLA-Metal @BBL H2C 0.4 nozzle.json",
       "vendor": "eSUN",
@@ -40422,6 +40534,14 @@
     {
       "name": "eSUN PLA-Metal @BBL H2C 0.8 nozzle",
       "sub_path": "filament/eSUN PLA-Metal @BBL H2C 0.8 nozzle.json",
+      "vendor": "eSUN",
+      "line": "PLA-Metal",
+      "material": "PLA",
+      "is_base": false
+    },
+    {
+      "name": "eSUN PLA-Metal @BBL H2D 0.2 nozzle",
+      "sub_path": "filament/eSUN PLA-Metal @BBL H2D 0.2 nozzle.json",
       "vendor": "eSUN",
       "line": "PLA-Metal",
       "material": "PLA",
@@ -40452,6 +40572,14 @@
       "is_base": false
     },
     {
+      "name": "eSUN PLA-Metal @BBL H2DP 0.2 nozzle",
+      "sub_path": "filament/eSUN PLA-Metal @BBL H2DP 0.2 nozzle.json",
+      "vendor": "eSUN",
+      "line": "PLA-Metal",
+      "material": "PLA",
+      "is_base": false
+    },
+    {
       "name": "eSUN PLA-Metal @BBL H2DP 0.4 nozzle",
       "sub_path": "filament/eSUN PLA-Metal @BBL H2DP 0.4 nozzle.json",
       "vendor": "eSUN",
@@ -40470,6 +40598,14 @@
     {
       "name": "eSUN PLA-Metal @BBL H2DP 0.8 nozzle",
       "sub_path": "filament/eSUN PLA-Metal @BBL H2DP 0.8 nozzle.json",
+      "vendor": "eSUN",
+      "line": "PLA-Metal",
+      "material": "PLA",
+      "is_base": false
+    },
+    {
+      "name": "eSUN PLA-Metal @BBL H2S 0.2 nozzle",
+      "sub_path": "filament/eSUN PLA-Metal @BBL H2S 0.2 nozzle.json",
       "vendor": "eSUN",
       "line": "PLA-Metal",
       "material": "PLA",
@@ -40500,6 +40636,14 @@
       "is_base": false
     },
     {
+      "name": "eSUN PLA-Metal @BBL P1S 0.2 nozzle",
+      "sub_path": "filament/eSUN PLA-Metal @BBL P1S 0.2 nozzle.json",
+      "vendor": "eSUN",
+      "line": "PLA-Metal",
+      "material": "PLA",
+      "is_base": false
+    },
+    {
       "name": "eSUN PLA-Metal @BBL P1S 0.4 nozzle",
       "sub_path": "filament/eSUN PLA-Metal @BBL P1S 0.4 nozzle.json",
       "vendor": "eSUN",
@@ -40518,6 +40662,14 @@
     {
       "name": "eSUN PLA-Metal @BBL P1S 0.8 nozzle",
       "sub_path": "filament/eSUN PLA-Metal @BBL P1S 0.8 nozzle.json",
+      "vendor": "eSUN",
+      "line": "PLA-Metal",
+      "material": "PLA",
+      "is_base": false
+    },
+    {
+      "name": "eSUN PLA-Metal @BBL P2S 0.2 nozzle",
+      "sub_path": "filament/eSUN PLA-Metal @BBL P2S 0.2 nozzle.json",
       "vendor": "eSUN",
       "line": "PLA-Metal",
       "material": "PLA",
@@ -40548,6 +40700,14 @@
       "is_base": false
     },
     {
+      "name": "eSUN PLA-Metal @BBL X1 0.2 nozzle",
+      "sub_path": "filament/eSUN PLA-Metal @BBL X1 0.2 nozzle.json",
+      "vendor": "eSUN",
+      "line": "PLA-Metal",
+      "material": "PLA",
+      "is_base": false
+    },
+    {
       "name": "eSUN PLA-Metal @BBL X1 0.4 nozzle",
       "sub_path": "filament/eSUN PLA-Metal @BBL X1 0.4 nozzle.json",
       "vendor": "eSUN",
@@ -40572,6 +40732,14 @@
       "is_base": false
     },
     {
+      "name": "eSUN PLA-Metal @BBL X1C 0.2 nozzle",
+      "sub_path": "filament/eSUN PLA-Metal @BBL X1C 0.2 nozzle.json",
+      "vendor": "eSUN",
+      "line": "PLA-Metal",
+      "material": "PLA",
+      "is_base": false
+    },
+    {
       "name": "eSUN PLA-Metal @BBL X1C 0.4 nozzle",
       "sub_path": "filament/eSUN PLA-Metal @BBL X1C 0.4 nozzle.json",
       "vendor": "eSUN",
@@ -40590,6 +40758,14 @@
     {
       "name": "eSUN PLA-Metal @BBL X1C 0.8 nozzle",
       "sub_path": "filament/eSUN PLA-Metal @BBL X1C 0.8 nozzle.json",
+      "vendor": "eSUN",
+      "line": "PLA-Metal",
+      "material": "PLA",
+      "is_base": false
+    },
+    {
+      "name": "eSUN PLA-Metal @BBL X2D 0.2 nozzle",
+      "sub_path": "filament/eSUN PLA-Metal @BBL X2D 0.2 nozzle.json",
       "vendor": "eSUN",
       "line": "PLA-Metal",
       "material": "PLA",
@@ -48732,14 +48908,6 @@
       "is_base": false
     },
     {
-      "name": "Fiberlogy FiberWood @BBL A1 0.2 nozzle",
-      "sub_path": "filament/Fiberlogy FiberWood @BBL A1 0.2 nozzle.json",
-      "vendor": "Fiberlogy",
-      "line": "FiberWood",
-      "material": "PLA",
-      "is_base": false
-    },
-    {
       "name": "Fiberlogy FiberWood @BBL A1 0.4 nozzle",
       "sub_path": "filament/Fiberlogy FiberWood @BBL A1 0.4 nozzle.json",
       "vendor": "Fiberlogy",
@@ -48758,14 +48926,6 @@
     {
       "name": "Fiberlogy FiberWood @BBL A1 0.8 nozzle",
       "sub_path": "filament/Fiberlogy FiberWood @BBL A1 0.8 nozzle.json",
-      "vendor": "Fiberlogy",
-      "line": "FiberWood",
-      "material": "PLA",
-      "is_base": false
-    },
-    {
-      "name": "Fiberlogy FiberWood @BBL A1M 0.2 nozzle",
-      "sub_path": "filament/Fiberlogy FiberWood @BBL A1M 0.2 nozzle.json",
       "vendor": "Fiberlogy",
       "line": "FiberWood",
       "material": "PLA",
@@ -48796,14 +48956,6 @@
       "is_base": false
     },
     {
-      "name": "Fiberlogy FiberWood @BBL H2C 0.2 nozzle",
-      "sub_path": "filament/Fiberlogy FiberWood @BBL H2C 0.2 nozzle.json",
-      "vendor": "Fiberlogy",
-      "line": "FiberWood",
-      "material": "PLA",
-      "is_base": false
-    },
-    {
       "name": "Fiberlogy FiberWood @BBL H2C 0.4 nozzle",
       "sub_path": "filament/Fiberlogy FiberWood @BBL H2C 0.4 nozzle.json",
       "vendor": "Fiberlogy",
@@ -48822,14 +48974,6 @@
     {
       "name": "Fiberlogy FiberWood @BBL H2C 0.8 nozzle",
       "sub_path": "filament/Fiberlogy FiberWood @BBL H2C 0.8 nozzle.json",
-      "vendor": "Fiberlogy",
-      "line": "FiberWood",
-      "material": "PLA",
-      "is_base": false
-    },
-    {
-      "name": "Fiberlogy FiberWood @BBL H2D 0.2 nozzle",
-      "sub_path": "filament/Fiberlogy FiberWood @BBL H2D 0.2 nozzle.json",
       "vendor": "Fiberlogy",
       "line": "FiberWood",
       "material": "PLA",
@@ -48860,14 +49004,6 @@
       "is_base": false
     },
     {
-      "name": "Fiberlogy FiberWood @BBL H2DP 0.2 nozzle",
-      "sub_path": "filament/Fiberlogy FiberWood @BBL H2DP 0.2 nozzle.json",
-      "vendor": "Fiberlogy",
-      "line": "FiberWood",
-      "material": "PLA",
-      "is_base": false
-    },
-    {
       "name": "Fiberlogy FiberWood @BBL H2DP 0.4 nozzle",
       "sub_path": "filament/Fiberlogy FiberWood @BBL H2DP 0.4 nozzle.json",
       "vendor": "Fiberlogy",
@@ -48886,14 +49022,6 @@
     {
       "name": "Fiberlogy FiberWood @BBL H2DP 0.8 nozzle",
       "sub_path": "filament/Fiberlogy FiberWood @BBL H2DP 0.8 nozzle.json",
-      "vendor": "Fiberlogy",
-      "line": "FiberWood",
-      "material": "PLA",
-      "is_base": false
-    },
-    {
-      "name": "Fiberlogy FiberWood @BBL H2S 0.2 nozzle",
-      "sub_path": "filament/Fiberlogy FiberWood @BBL H2S 0.2 nozzle.json",
       "vendor": "Fiberlogy",
       "line": "FiberWood",
       "material": "PLA",
@@ -48924,14 +49052,6 @@
       "is_base": false
     },
     {
-      "name": "Fiberlogy FiberWood @BBL P1S 0.2 nozzle",
-      "sub_path": "filament/Fiberlogy FiberWood @BBL P1S 0.2 nozzle.json",
-      "vendor": "Fiberlogy",
-      "line": "FiberWood",
-      "material": "PLA",
-      "is_base": false
-    },
-    {
       "name": "Fiberlogy FiberWood @BBL P1S 0.4 nozzle",
       "sub_path": "filament/Fiberlogy FiberWood @BBL P1S 0.4 nozzle.json",
       "vendor": "Fiberlogy",
@@ -48950,14 +49070,6 @@
     {
       "name": "Fiberlogy FiberWood @BBL P1S 0.8 nozzle",
       "sub_path": "filament/Fiberlogy FiberWood @BBL P1S 0.8 nozzle.json",
-      "vendor": "Fiberlogy",
-      "line": "FiberWood",
-      "material": "PLA",
-      "is_base": false
-    },
-    {
-      "name": "Fiberlogy FiberWood @BBL P2S 0.2 nozzle",
-      "sub_path": "filament/Fiberlogy FiberWood @BBL P2S 0.2 nozzle.json",
       "vendor": "Fiberlogy",
       "line": "FiberWood",
       "material": "PLA",
@@ -48988,14 +49100,6 @@
       "is_base": false
     },
     {
-      "name": "Fiberlogy FiberWood @BBL X1 0.2 nozzle",
-      "sub_path": "filament/Fiberlogy FiberWood @BBL X1 0.2 nozzle.json",
-      "vendor": "Fiberlogy",
-      "line": "FiberWood",
-      "material": "PLA",
-      "is_base": false
-    },
-    {
       "name": "Fiberlogy FiberWood @BBL X1 0.4 nozzle",
       "sub_path": "filament/Fiberlogy FiberWood @BBL X1 0.4 nozzle.json",
       "vendor": "Fiberlogy",
@@ -49020,14 +49124,6 @@
       "is_base": false
     },
     {
-      "name": "Fiberlogy FiberWood @BBL X1C 0.2 nozzle",
-      "sub_path": "filament/Fiberlogy FiberWood @BBL X1C 0.2 nozzle.json",
-      "vendor": "Fiberlogy",
-      "line": "FiberWood",
-      "material": "PLA",
-      "is_base": false
-    },
-    {
       "name": "Fiberlogy FiberWood @BBL X1C 0.4 nozzle",
       "sub_path": "filament/Fiberlogy FiberWood @BBL X1C 0.4 nozzle.json",
       "vendor": "Fiberlogy",
@@ -49046,14 +49142,6 @@
     {
       "name": "Fiberlogy FiberWood @BBL X1C 0.8 nozzle",
       "sub_path": "filament/Fiberlogy FiberWood @BBL X1C 0.8 nozzle.json",
-      "vendor": "Fiberlogy",
-      "line": "FiberWood",
-      "material": "PLA",
-      "is_base": false
-    },
-    {
-      "name": "Fiberlogy FiberWood @BBL X2D 0.2 nozzle",
-      "sub_path": "filament/Fiberlogy FiberWood @BBL X2D 0.2 nozzle.json",
       "vendor": "Fiberlogy",
       "line": "FiberWood",
       "material": "PLA",
@@ -75844,6 +75932,14 @@
       "is_base": false
     },
     {
+      "name": "Orca Arena Arena PLA Metal @BBL A1 0.2 nozzle",
+      "sub_path": "filament/Orca Arena Arena PLA Metal @BBL A1 0.2 nozzle.json",
+      "vendor": "Orca Arena",
+      "line": "Arena PLA Metal",
+      "material": "Arena PLA Metal",
+      "is_base": false
+    },
+    {
       "name": "Orca Arena Arena PLA Metal @BBL A1 0.4 nozzle",
       "sub_path": "filament/Orca Arena Arena PLA Metal @BBL A1 0.4 nozzle.json",
       "vendor": "Orca Arena",
@@ -75862,6 +75958,14 @@
     {
       "name": "Orca Arena Arena PLA Metal @BBL A1 0.8 nozzle",
       "sub_path": "filament/Orca Arena Arena PLA Metal @BBL A1 0.8 nozzle.json",
+      "vendor": "Orca Arena",
+      "line": "Arena PLA Metal",
+      "material": "Arena PLA Metal",
+      "is_base": false
+    },
+    {
+      "name": "Orca Arena Arena PLA Metal @BBL A1M 0.2 nozzle",
+      "sub_path": "filament/Orca Arena Arena PLA Metal @BBL A1M 0.2 nozzle.json",
       "vendor": "Orca Arena",
       "line": "Arena PLA Metal",
       "material": "Arena PLA Metal",
@@ -75892,6 +75996,14 @@
       "is_base": false
     },
     {
+      "name": "Orca Arena Arena PLA Metal @BBL H2C 0.2 nozzle",
+      "sub_path": "filament/Orca Arena Arena PLA Metal @BBL H2C 0.2 nozzle.json",
+      "vendor": "Orca Arena",
+      "line": "Arena PLA Metal",
+      "material": "Arena PLA Metal",
+      "is_base": false
+    },
+    {
       "name": "Orca Arena Arena PLA Metal @BBL H2C 0.4 nozzle",
       "sub_path": "filament/Orca Arena Arena PLA Metal @BBL H2C 0.4 nozzle.json",
       "vendor": "Orca Arena",
@@ -75910,6 +76022,14 @@
     {
       "name": "Orca Arena Arena PLA Metal @BBL H2C 0.8 nozzle",
       "sub_path": "filament/Orca Arena Arena PLA Metal @BBL H2C 0.8 nozzle.json",
+      "vendor": "Orca Arena",
+      "line": "Arena PLA Metal",
+      "material": "Arena PLA Metal",
+      "is_base": false
+    },
+    {
+      "name": "Orca Arena Arena PLA Metal @BBL H2D 0.2 nozzle",
+      "sub_path": "filament/Orca Arena Arena PLA Metal @BBL H2D 0.2 nozzle.json",
       "vendor": "Orca Arena",
       "line": "Arena PLA Metal",
       "material": "Arena PLA Metal",
@@ -75940,6 +76060,14 @@
       "is_base": false
     },
     {
+      "name": "Orca Arena Arena PLA Metal @BBL H2DP 0.2 nozzle",
+      "sub_path": "filament/Orca Arena Arena PLA Metal @BBL H2DP 0.2 nozzle.json",
+      "vendor": "Orca Arena",
+      "line": "Arena PLA Metal",
+      "material": "Arena PLA Metal",
+      "is_base": false
+    },
+    {
       "name": "Orca Arena Arena PLA Metal @BBL H2DP 0.4 nozzle",
       "sub_path": "filament/Orca Arena Arena PLA Metal @BBL H2DP 0.4 nozzle.json",
       "vendor": "Orca Arena",
@@ -75958,6 +76086,14 @@
     {
       "name": "Orca Arena Arena PLA Metal @BBL H2DP 0.8 nozzle",
       "sub_path": "filament/Orca Arena Arena PLA Metal @BBL H2DP 0.8 nozzle.json",
+      "vendor": "Orca Arena",
+      "line": "Arena PLA Metal",
+      "material": "Arena PLA Metal",
+      "is_base": false
+    },
+    {
+      "name": "Orca Arena Arena PLA Metal @BBL H2S 0.2 nozzle",
+      "sub_path": "filament/Orca Arena Arena PLA Metal @BBL H2S 0.2 nozzle.json",
       "vendor": "Orca Arena",
       "line": "Arena PLA Metal",
       "material": "Arena PLA Metal",
@@ -75988,6 +76124,14 @@
       "is_base": false
     },
     {
+      "name": "Orca Arena Arena PLA Metal @BBL P1S 0.2 nozzle",
+      "sub_path": "filament/Orca Arena Arena PLA Metal @BBL P1S 0.2 nozzle.json",
+      "vendor": "Orca Arena",
+      "line": "Arena PLA Metal",
+      "material": "Arena PLA Metal",
+      "is_base": false
+    },
+    {
       "name": "Orca Arena Arena PLA Metal @BBL P1S 0.4 nozzle",
       "sub_path": "filament/Orca Arena Arena PLA Metal @BBL P1S 0.4 nozzle.json",
       "vendor": "Orca Arena",
@@ -76006,6 +76150,14 @@
     {
       "name": "Orca Arena Arena PLA Metal @BBL P1S 0.8 nozzle",
       "sub_path": "filament/Orca Arena Arena PLA Metal @BBL P1S 0.8 nozzle.json",
+      "vendor": "Orca Arena",
+      "line": "Arena PLA Metal",
+      "material": "Arena PLA Metal",
+      "is_base": false
+    },
+    {
+      "name": "Orca Arena Arena PLA Metal @BBL P2S 0.2 nozzle",
+      "sub_path": "filament/Orca Arena Arena PLA Metal @BBL P2S 0.2 nozzle.json",
       "vendor": "Orca Arena",
       "line": "Arena PLA Metal",
       "material": "Arena PLA Metal",
@@ -76036,6 +76188,14 @@
       "is_base": false
     },
     {
+      "name": "Orca Arena Arena PLA Metal @BBL X1 0.2 nozzle",
+      "sub_path": "filament/Orca Arena Arena PLA Metal @BBL X1 0.2 nozzle.json",
+      "vendor": "Orca Arena",
+      "line": "Arena PLA Metal",
+      "material": "Arena PLA Metal",
+      "is_base": false
+    },
+    {
       "name": "Orca Arena Arena PLA Metal @BBL X1 0.4 nozzle",
       "sub_path": "filament/Orca Arena Arena PLA Metal @BBL X1 0.4 nozzle.json",
       "vendor": "Orca Arena",
@@ -76060,6 +76220,14 @@
       "is_base": false
     },
     {
+      "name": "Orca Arena Arena PLA Metal @BBL X1C 0.2 nozzle",
+      "sub_path": "filament/Orca Arena Arena PLA Metal @BBL X1C 0.2 nozzle.json",
+      "vendor": "Orca Arena",
+      "line": "Arena PLA Metal",
+      "material": "Arena PLA Metal",
+      "is_base": false
+    },
+    {
       "name": "Orca Arena Arena PLA Metal @BBL X1C 0.4 nozzle",
       "sub_path": "filament/Orca Arena Arena PLA Metal @BBL X1C 0.4 nozzle.json",
       "vendor": "Orca Arena",
@@ -76078,6 +76246,14 @@
     {
       "name": "Orca Arena Arena PLA Metal @BBL X1C 0.8 nozzle",
       "sub_path": "filament/Orca Arena Arena PLA Metal @BBL X1C 0.8 nozzle.json",
+      "vendor": "Orca Arena",
+      "line": "Arena PLA Metal",
+      "material": "Arena PLA Metal",
+      "is_base": false
+    },
+    {
+      "name": "Orca Arena Arena PLA Metal @BBL X2D 0.2 nozzle",
+      "sub_path": "filament/Orca Arena Arena PLA Metal @BBL X2D 0.2 nozzle.json",
       "vendor": "Orca Arena",
       "line": "Arena PLA Metal",
       "material": "Arena PLA Metal",
@@ -90996,6 +91172,14 @@
       "is_base": false
     },
     {
+      "name": "Panchroma PLA Metallic @BBL A1 0.2 nozzle",
+      "sub_path": "filament/Panchroma PLA Metallic @BBL A1 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Panchroma",
+      "material": "PLA Metallic",
+      "is_base": false
+    },
+    {
       "name": "Panchroma PLA Metallic @BBL A1 0.4 nozzle",
       "sub_path": "filament/Panchroma PLA Metallic @BBL A1 0.4 nozzle.json",
       "vendor": "Polymaker",
@@ -91014,6 +91198,14 @@
     {
       "name": "Panchroma PLA Metallic @BBL A1 0.8 nozzle",
       "sub_path": "filament/Panchroma PLA Metallic @BBL A1 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Panchroma",
+      "material": "PLA Metallic",
+      "is_base": false
+    },
+    {
+      "name": "Panchroma PLA Metallic @BBL A1M 0.2 nozzle",
+      "sub_path": "filament/Panchroma PLA Metallic @BBL A1M 0.2 nozzle.json",
       "vendor": "Polymaker",
       "line": "Panchroma",
       "material": "PLA Metallic",
@@ -91044,6 +91236,14 @@
       "is_base": false
     },
     {
+      "name": "Panchroma PLA Metallic @BBL H2C 0.2 nozzle",
+      "sub_path": "filament/Panchroma PLA Metallic @BBL H2C 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Panchroma",
+      "material": "PLA Metallic",
+      "is_base": false
+    },
+    {
       "name": "Panchroma PLA Metallic @BBL H2C 0.4 nozzle",
       "sub_path": "filament/Panchroma PLA Metallic @BBL H2C 0.4 nozzle.json",
       "vendor": "Polymaker",
@@ -91062,6 +91262,14 @@
     {
       "name": "Panchroma PLA Metallic @BBL H2C 0.8 nozzle",
       "sub_path": "filament/Panchroma PLA Metallic @BBL H2C 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Panchroma",
+      "material": "PLA Metallic",
+      "is_base": false
+    },
+    {
+      "name": "Panchroma PLA Metallic @BBL H2D 0.2 nozzle",
+      "sub_path": "filament/Panchroma PLA Metallic @BBL H2D 0.2 nozzle.json",
       "vendor": "Polymaker",
       "line": "Panchroma",
       "material": "PLA Metallic",
@@ -91092,6 +91300,14 @@
       "is_base": false
     },
     {
+      "name": "Panchroma PLA Metallic @BBL H2DP 0.2 nozzle",
+      "sub_path": "filament/Panchroma PLA Metallic @BBL H2DP 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Panchroma",
+      "material": "PLA Metallic",
+      "is_base": false
+    },
+    {
       "name": "Panchroma PLA Metallic @BBL H2DP 0.4 nozzle",
       "sub_path": "filament/Panchroma PLA Metallic @BBL H2DP 0.4 nozzle.json",
       "vendor": "Polymaker",
@@ -91110,6 +91326,14 @@
     {
       "name": "Panchroma PLA Metallic @BBL H2DP 0.8 nozzle",
       "sub_path": "filament/Panchroma PLA Metallic @BBL H2DP 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Panchroma",
+      "material": "PLA Metallic",
+      "is_base": false
+    },
+    {
+      "name": "Panchroma PLA Metallic @BBL H2S 0.2 nozzle",
+      "sub_path": "filament/Panchroma PLA Metallic @BBL H2S 0.2 nozzle.json",
       "vendor": "Polymaker",
       "line": "Panchroma",
       "material": "PLA Metallic",
@@ -91140,6 +91364,14 @@
       "is_base": false
     },
     {
+      "name": "Panchroma PLA Metallic @BBL P1S 0.2 nozzle",
+      "sub_path": "filament/Panchroma PLA Metallic @BBL P1S 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Panchroma",
+      "material": "PLA Metallic",
+      "is_base": false
+    },
+    {
       "name": "Panchroma PLA Metallic @BBL P1S 0.4 nozzle",
       "sub_path": "filament/Panchroma PLA Metallic @BBL P1S 0.4 nozzle.json",
       "vendor": "Polymaker",
@@ -91158,6 +91390,14 @@
     {
       "name": "Panchroma PLA Metallic @BBL P1S 0.8 nozzle",
       "sub_path": "filament/Panchroma PLA Metallic @BBL P1S 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Panchroma",
+      "material": "PLA Metallic",
+      "is_base": false
+    },
+    {
+      "name": "Panchroma PLA Metallic @BBL P2S 0.2 nozzle",
+      "sub_path": "filament/Panchroma PLA Metallic @BBL P2S 0.2 nozzle.json",
       "vendor": "Polymaker",
       "line": "Panchroma",
       "material": "PLA Metallic",
@@ -91188,6 +91428,14 @@
       "is_base": false
     },
     {
+      "name": "Panchroma PLA Metallic @BBL X1 0.2 nozzle",
+      "sub_path": "filament/Panchroma PLA Metallic @BBL X1 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Panchroma",
+      "material": "PLA Metallic",
+      "is_base": false
+    },
+    {
       "name": "Panchroma PLA Metallic @BBL X1 0.4 nozzle",
       "sub_path": "filament/Panchroma PLA Metallic @BBL X1 0.4 nozzle.json",
       "vendor": "Polymaker",
@@ -91212,6 +91460,14 @@
       "is_base": false
     },
     {
+      "name": "Panchroma PLA Metallic @BBL X1C 0.2 nozzle",
+      "sub_path": "filament/Panchroma PLA Metallic @BBL X1C 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Panchroma",
+      "material": "PLA Metallic",
+      "is_base": false
+    },
+    {
       "name": "Panchroma PLA Metallic @BBL X1C 0.4 nozzle",
       "sub_path": "filament/Panchroma PLA Metallic @BBL X1C 0.4 nozzle.json",
       "vendor": "Polymaker",
@@ -91230,6 +91486,14 @@
     {
       "name": "Panchroma PLA Metallic @BBL X1C 0.8 nozzle",
       "sub_path": "filament/Panchroma PLA Metallic @BBL X1C 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Panchroma",
+      "material": "PLA Metallic",
+      "is_base": false
+    },
+    {
+      "name": "Panchroma PLA Metallic @BBL X2D 0.2 nozzle",
+      "sub_path": "filament/Panchroma PLA Metallic @BBL X2D 0.2 nozzle.json",
       "vendor": "Polymaker",
       "line": "Panchroma",
       "material": "PLA Metallic",
@@ -98972,6 +99236,14 @@
       "is_base": false
     },
     {
+      "name": "PolyLite PLA Pro Metallic @BBL A1 0.2 nozzle",
+      "sub_path": "filament/PolyLite PLA Pro Metallic @BBL A1 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PLA Pro Metallic",
+      "is_base": false
+    },
+    {
       "name": "PolyLite PLA Pro Metallic @BBL A1 0.4 nozzle",
       "sub_path": "filament/PolyLite PLA Pro Metallic @BBL A1 0.4 nozzle.json",
       "vendor": "Polymaker",
@@ -98990,6 +99262,14 @@
     {
       "name": "PolyLite PLA Pro Metallic @BBL A1 0.8 nozzle",
       "sub_path": "filament/PolyLite PLA Pro Metallic @BBL A1 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PLA Pro Metallic",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PLA Pro Metallic @BBL A1M 0.2 nozzle",
+      "sub_path": "filament/PolyLite PLA Pro Metallic @BBL A1M 0.2 nozzle.json",
       "vendor": "Polymaker",
       "line": "PolyLite",
       "material": "PLA Pro Metallic",
@@ -99020,6 +99300,14 @@
       "is_base": false
     },
     {
+      "name": "PolyLite PLA Pro Metallic @BBL H2C 0.2 nozzle",
+      "sub_path": "filament/PolyLite PLA Pro Metallic @BBL H2C 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PLA Pro Metallic",
+      "is_base": false
+    },
+    {
       "name": "PolyLite PLA Pro Metallic @BBL H2C 0.4 nozzle",
       "sub_path": "filament/PolyLite PLA Pro Metallic @BBL H2C 0.4 nozzle.json",
       "vendor": "Polymaker",
@@ -99038,6 +99326,14 @@
     {
       "name": "PolyLite PLA Pro Metallic @BBL H2C 0.8 nozzle",
       "sub_path": "filament/PolyLite PLA Pro Metallic @BBL H2C 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PLA Pro Metallic",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PLA Pro Metallic @BBL H2D 0.2 nozzle",
+      "sub_path": "filament/PolyLite PLA Pro Metallic @BBL H2D 0.2 nozzle.json",
       "vendor": "Polymaker",
       "line": "PolyLite",
       "material": "PLA Pro Metallic",
@@ -99068,6 +99364,14 @@
       "is_base": false
     },
     {
+      "name": "PolyLite PLA Pro Metallic @BBL H2DP 0.2 nozzle",
+      "sub_path": "filament/PolyLite PLA Pro Metallic @BBL H2DP 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PLA Pro Metallic",
+      "is_base": false
+    },
+    {
       "name": "PolyLite PLA Pro Metallic @BBL H2DP 0.4 nozzle",
       "sub_path": "filament/PolyLite PLA Pro Metallic @BBL H2DP 0.4 nozzle.json",
       "vendor": "Polymaker",
@@ -99086,6 +99390,14 @@
     {
       "name": "PolyLite PLA Pro Metallic @BBL H2DP 0.8 nozzle",
       "sub_path": "filament/PolyLite PLA Pro Metallic @BBL H2DP 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PLA Pro Metallic",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PLA Pro Metallic @BBL H2S 0.2 nozzle",
+      "sub_path": "filament/PolyLite PLA Pro Metallic @BBL H2S 0.2 nozzle.json",
       "vendor": "Polymaker",
       "line": "PolyLite",
       "material": "PLA Pro Metallic",
@@ -99116,6 +99428,14 @@
       "is_base": false
     },
     {
+      "name": "PolyLite PLA Pro Metallic @BBL P1S 0.2 nozzle",
+      "sub_path": "filament/PolyLite PLA Pro Metallic @BBL P1S 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PLA Pro Metallic",
+      "is_base": false
+    },
+    {
       "name": "PolyLite PLA Pro Metallic @BBL P1S 0.4 nozzle",
       "sub_path": "filament/PolyLite PLA Pro Metallic @BBL P1S 0.4 nozzle.json",
       "vendor": "Polymaker",
@@ -99134,6 +99454,14 @@
     {
       "name": "PolyLite PLA Pro Metallic @BBL P1S 0.8 nozzle",
       "sub_path": "filament/PolyLite PLA Pro Metallic @BBL P1S 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PLA Pro Metallic",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PLA Pro Metallic @BBL P2S 0.2 nozzle",
+      "sub_path": "filament/PolyLite PLA Pro Metallic @BBL P2S 0.2 nozzle.json",
       "vendor": "Polymaker",
       "line": "PolyLite",
       "material": "PLA Pro Metallic",
@@ -99164,6 +99492,14 @@
       "is_base": false
     },
     {
+      "name": "PolyLite PLA Pro Metallic @BBL X1 0.2 nozzle",
+      "sub_path": "filament/PolyLite PLA Pro Metallic @BBL X1 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PLA Pro Metallic",
+      "is_base": false
+    },
+    {
       "name": "PolyLite PLA Pro Metallic @BBL X1 0.4 nozzle",
       "sub_path": "filament/PolyLite PLA Pro Metallic @BBL X1 0.4 nozzle.json",
       "vendor": "Polymaker",
@@ -99188,6 +99524,14 @@
       "is_base": false
     },
     {
+      "name": "PolyLite PLA Pro Metallic @BBL X1C 0.2 nozzle",
+      "sub_path": "filament/PolyLite PLA Pro Metallic @BBL X1C 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PLA Pro Metallic",
+      "is_base": false
+    },
+    {
       "name": "PolyLite PLA Pro Metallic @BBL X1C 0.4 nozzle",
       "sub_path": "filament/PolyLite PLA Pro Metallic @BBL X1C 0.4 nozzle.json",
       "vendor": "Polymaker",
@@ -99206,6 +99550,14 @@
     {
       "name": "PolyLite PLA Pro Metallic @BBL X1C 0.8 nozzle",
       "sub_path": "filament/PolyLite PLA Pro Metallic @BBL X1C 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PLA Pro Metallic",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PLA Pro Metallic @BBL X2D 0.2 nozzle",
+      "sub_path": "filament/PolyLite PLA Pro Metallic @BBL X2D 0.2 nozzle.json",
       "vendor": "Polymaker",
       "line": "PolyLite",
       "material": "PLA Pro Metallic",
@@ -103052,6 +103404,14 @@
       "is_base": false
     },
     {
+      "name": "Polymaker PLA Pro Metallic @BBL A1 0.2 nozzle",
+      "sub_path": "filament/Polymaker PLA Pro Metallic @BBL A1 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "PLA Pro Metallic",
+      "is_base": false
+    },
+    {
       "name": "Polymaker PLA Pro Metallic @BBL A1 0.4 nozzle",
       "sub_path": "filament/Polymaker PLA Pro Metallic @BBL A1 0.4 nozzle.json",
       "vendor": "Polymaker",
@@ -103070,6 +103430,14 @@
     {
       "name": "Polymaker PLA Pro Metallic @BBL A1 0.8 nozzle",
       "sub_path": "filament/Polymaker PLA Pro Metallic @BBL A1 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "PLA Pro Metallic",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker PLA Pro Metallic @BBL A1M 0.2 nozzle",
+      "sub_path": "filament/Polymaker PLA Pro Metallic @BBL A1M 0.2 nozzle.json",
       "vendor": "Polymaker",
       "line": "Polymaker",
       "material": "PLA Pro Metallic",
@@ -103100,6 +103468,14 @@
       "is_base": false
     },
     {
+      "name": "Polymaker PLA Pro Metallic @BBL H2C 0.2 nozzle",
+      "sub_path": "filament/Polymaker PLA Pro Metallic @BBL H2C 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "PLA Pro Metallic",
+      "is_base": false
+    },
+    {
       "name": "Polymaker PLA Pro Metallic @BBL H2C 0.4 nozzle",
       "sub_path": "filament/Polymaker PLA Pro Metallic @BBL H2C 0.4 nozzle.json",
       "vendor": "Polymaker",
@@ -103118,6 +103494,14 @@
     {
       "name": "Polymaker PLA Pro Metallic @BBL H2C 0.8 nozzle",
       "sub_path": "filament/Polymaker PLA Pro Metallic @BBL H2C 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "PLA Pro Metallic",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker PLA Pro Metallic @BBL H2D 0.2 nozzle",
+      "sub_path": "filament/Polymaker PLA Pro Metallic @BBL H2D 0.2 nozzle.json",
       "vendor": "Polymaker",
       "line": "Polymaker",
       "material": "PLA Pro Metallic",
@@ -103148,6 +103532,14 @@
       "is_base": false
     },
     {
+      "name": "Polymaker PLA Pro Metallic @BBL H2DP 0.2 nozzle",
+      "sub_path": "filament/Polymaker PLA Pro Metallic @BBL H2DP 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "PLA Pro Metallic",
+      "is_base": false
+    },
+    {
       "name": "Polymaker PLA Pro Metallic @BBL H2DP 0.4 nozzle",
       "sub_path": "filament/Polymaker PLA Pro Metallic @BBL H2DP 0.4 nozzle.json",
       "vendor": "Polymaker",
@@ -103166,6 +103558,14 @@
     {
       "name": "Polymaker PLA Pro Metallic @BBL H2DP 0.8 nozzle",
       "sub_path": "filament/Polymaker PLA Pro Metallic @BBL H2DP 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "PLA Pro Metallic",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker PLA Pro Metallic @BBL H2S 0.2 nozzle",
+      "sub_path": "filament/Polymaker PLA Pro Metallic @BBL H2S 0.2 nozzle.json",
       "vendor": "Polymaker",
       "line": "Polymaker",
       "material": "PLA Pro Metallic",
@@ -103196,6 +103596,14 @@
       "is_base": false
     },
     {
+      "name": "Polymaker PLA Pro Metallic @BBL P1S 0.2 nozzle",
+      "sub_path": "filament/Polymaker PLA Pro Metallic @BBL P1S 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "PLA Pro Metallic",
+      "is_base": false
+    },
+    {
       "name": "Polymaker PLA Pro Metallic @BBL P1S 0.4 nozzle",
       "sub_path": "filament/Polymaker PLA Pro Metallic @BBL P1S 0.4 nozzle.json",
       "vendor": "Polymaker",
@@ -103214,6 +103622,14 @@
     {
       "name": "Polymaker PLA Pro Metallic @BBL P1S 0.8 nozzle",
       "sub_path": "filament/Polymaker PLA Pro Metallic @BBL P1S 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "PLA Pro Metallic",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker PLA Pro Metallic @BBL P2S 0.2 nozzle",
+      "sub_path": "filament/Polymaker PLA Pro Metallic @BBL P2S 0.2 nozzle.json",
       "vendor": "Polymaker",
       "line": "Polymaker",
       "material": "PLA Pro Metallic",
@@ -103244,6 +103660,14 @@
       "is_base": false
     },
     {
+      "name": "Polymaker PLA Pro Metallic @BBL X1 0.2 nozzle",
+      "sub_path": "filament/Polymaker PLA Pro Metallic @BBL X1 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "PLA Pro Metallic",
+      "is_base": false
+    },
+    {
       "name": "Polymaker PLA Pro Metallic @BBL X1 0.4 nozzle",
       "sub_path": "filament/Polymaker PLA Pro Metallic @BBL X1 0.4 nozzle.json",
       "vendor": "Polymaker",
@@ -103268,6 +103692,14 @@
       "is_base": false
     },
     {
+      "name": "Polymaker PLA Pro Metallic @BBL X1C 0.2 nozzle",
+      "sub_path": "filament/Polymaker PLA Pro Metallic @BBL X1C 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "PLA Pro Metallic",
+      "is_base": false
+    },
+    {
       "name": "Polymaker PLA Pro Metallic @BBL X1C 0.4 nozzle",
       "sub_path": "filament/Polymaker PLA Pro Metallic @BBL X1C 0.4 nozzle.json",
       "vendor": "Polymaker",
@@ -103286,6 +103718,14 @@
     {
       "name": "Polymaker PLA Pro Metallic @BBL X1C 0.8 nozzle",
       "sub_path": "filament/Polymaker PLA Pro Metallic @BBL X1C 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "PLA Pro Metallic",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker PLA Pro Metallic @BBL X2D 0.2 nozzle",
+      "sub_path": "filament/Polymaker PLA Pro Metallic @BBL X2D 0.2 nozzle.json",
       "vendor": "Polymaker",
       "line": "Polymaker",
       "material": "PLA Pro Metallic",

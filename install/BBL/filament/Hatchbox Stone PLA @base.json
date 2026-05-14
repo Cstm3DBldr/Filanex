@@ -50,8 +50,9 @@
             "Stone"
         ],
         "min_nozzle_size_mm": 0.4,
+        "max_nozzle_size_mm": 0.8,
         "hardened_nozzle_required": false,
-        "hardened_nozzle_recommended": true,
-        "abrasive_reason": "Stone: Stone particulate media"
+        "hardened_nozzle_recommended": false,
+        "abrasive_reason": "Stone: Stone particulate when actual; verify per vendor"
     }
 }

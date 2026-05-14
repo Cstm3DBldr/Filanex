@@ -94,8 +94,9 @@
             "Galaxy"
         ],
         "min_nozzle_size_mm": 0.4,
+        "max_nozzle_size_mm": 0.8,
         "hardened_nozzle_required": false,
-        "hardened_nozzle_recommended": true,
-        "abrasive_reason": "Galaxy: Metallic/iron particles for galaxy sparkle effect; brass wears faster but works"
+        "hardened_nozzle_recommended": false,
+        "abrasive_reason": "Galaxy: Sparkle/glitter flakes (aluminum); 0.4 to avoid clogging. Polymaker/Bambu/Anycubic explicitly say brass is fine"
     }
 }
