@@ -247,6 +247,87 @@ def find_bambu_process() -> tuple[bool, Path | None]:
     return False, None
 
 
+def find_bambu_install_path() -> Path | None:
+    """Locate Bambu Studio's executable WITHOUT requiring it to be
+    running. Used so the wizard's Re-launch Bambu Studio button works
+    even when Bambu wasn't already open at install time (the normal
+    flow: user closes Bambu, runs installer, expects to launch it
+    after).
+
+    Returns None if no install can be located -- caller should hide
+    the button or message the user to launch Bambu manually.
+    """
+    osname = platform.system()
+    if osname == "Windows":
+        candidates: list[Path] = []
+        # Standard Program Files installs
+        for pf in (
+            os.environ.get("ProgramFiles"),
+            os.environ.get("ProgramFiles(x86)"),
+            os.environ.get("LOCALAPPDATA"),
+        ):
+            if not pf:
+                continue
+            base = Path(pf)
+            for subdir in (
+                base / "Bambu Studio" / "bambu-studio.exe",
+                base / "BambuStudio" / "bambu-studio.exe",
+                base / "Programs" / "Bambu Studio" / "bambu-studio.exe",
+                base / "Programs" / "BambuStudio" / "bambu-studio.exe",
+            ):
+                candidates.append(subdir)
+        # Windows registry: HKLM Uninstall key for any "Bambu Studio"
+        # entry's InstallLocation. PowerShell because the stdlib's
+        # winreg requires extra plumbing we don't need here.
+        try:
+            ps = (
+                "Get-ItemProperty 'HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\*', "
+                "'HKLM:\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\*' "
+                "-ErrorAction SilentlyContinue | "
+                "Where-Object { $_.DisplayName -like '*Bambu Studio*' } | "
+                "Select-Object -ExpandProperty InstallLocation -First 1"
+            )
+            r = subprocess.run(
+                ["powershell", "-NoProfile", "-Command", ps],
+                capture_output=True, text=True, timeout=5,
+                creationflags=0x08000000,
+            )
+            loc = r.stdout.strip()
+            if loc:
+                candidates.append(Path(loc) / "bambu-studio.exe")
+        except Exception:
+            pass
+        for c in candidates:
+            try:
+                if c.is_file():
+                    return c.resolve()
+            except OSError:
+                continue
+        return None
+    if osname == "Darwin":
+        for p in (
+            Path("/Applications/BambuStudio.app/Contents/MacOS/BambuStudio"),
+            Path("/Applications/Bambu Studio.app/Contents/MacOS/Bambu Studio"),
+        ):
+            if p.is_file():
+                return p
+        return None
+    # Linux: best-effort, common install locations + which()
+    if osname == "Linux":
+        for name in ("bambu-studio", "BambuStudio"):
+            r = subprocess.run(["which", name], capture_output=True, text=True)
+            if r.returncode == 0 and r.stdout.strip():
+                return Path(r.stdout.strip())
+        for p in (
+            Path("/usr/bin/bambu-studio"),
+            Path("/usr/local/bin/bambu-studio"),
+            Path("/opt/BambuStudio/bambu-studio"),
+        ):
+            if p.is_file():
+                return p
+    return None
+
+
 def wait_for_close() -> None:
     while True:
         input("Press Enter once Bambu Studio is fully closed... ")
@@ -443,26 +524,44 @@ def save_picker_prefs(prefs: dict) -> None:
 # ---------------------------------------------------------------------------
 
 def load_bundle(src_additions: Path, src_filament_dir: Path) -> dict:
-    """Returns {entries, files, database_version}."""
+    """Returns {entries, files, database_version, _src_filament_dir}.
+
+    `files` is a dict[filename -> sha256_or_None]. SHAs are computed
+    LAZILY (set to None here) and filled in by hash_bundle_files()
+    after selection filtering -- there's no point hashing 16k files
+    when the user only picked 1.3k. _src_filament_dir is stashed so
+    the later hash step knows where to read each file from."""
     _emit_phase("Reading bundle manifest")
     doc = json.loads(src_additions.read_text(encoding="utf-8"))
     entries = doc["filament_list_additions"]
     database_version = doc.get("database_version")
-    _emit_phase("Hashing bundle files")
-    files: dict[str, str] = {}
-    # Enumerate first so we have a total for the progress bar; then
-    # hash each. With 16k bundle files this loop alone takes a second
-    # or two on a modern SSD and was previously invisible.
-    paths = [p for p in src_filament_dir.iterdir() if p.is_file()]
-    total = len(paths)
-    for i, p in enumerate(paths, 1):
-        files[p.name] = file_sha256(p)
-        _emit_progress("Hashing bundle files", i, total)
+    # Enumerate filenames only -- defer hashing.
+    files: dict[str, str | None] = {
+        p.name: None
+        for p in src_filament_dir.iterdir()
+        if p.is_file()
+    }
     return {
         "entries": entries,
         "files": files,
         "database_version": database_version,
+        "_src_filament_dir": src_filament_dir,
     }
+
+
+def hash_bundle_files(bundle: dict) -> None:
+    """Populate sha256 for every file in bundle['files'] whose value
+    is still None. Called after filter_bundle_by_selection so we
+    only hash what the user actually picked."""
+    src_dir: Path = bundle.get("_src_filament_dir")
+    pending = [name for name, sha in bundle["files"].items() if sha is None]
+    total = len(pending)
+    if total == 0:
+        return
+    _emit_phase("Hashing selected bundle files")
+    for i, name in enumerate(pending, 1):
+        bundle["files"][name] = file_sha256(src_dir / name)
+        _emit_progress("Hashing selected bundle files", i, total)
 
 
 # ---------------------------------------------------------------------------
@@ -633,6 +732,7 @@ def filter_bundle_by_selection(bundle: dict, selection) -> dict:
         "entries": filtered_entries,
         "files": filtered_files,
         "database_version": bundle.get("database_version"),
+        "_src_filament_dir": bundle.get("_src_filament_dir"),
     }
 
 
@@ -671,6 +771,10 @@ def cmd_install(
             f"{len(bundle['entries'])}/{before_entries} entries, "
             f"{len(bundle['files'])}/{before_files} files."
         )
+    # Hash only what we're actually about to install. Order matters:
+    # this MUST run after filtering so the 16k bundle's unused files
+    # don't get hashed when the user only picked a small subset.
+    hash_bundle_files(bundle)
 
     if is_upgrade:
         return _do_upgrade(system_dir, tracking, bundle, src_filament_dir, force)

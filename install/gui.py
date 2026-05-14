@@ -1120,8 +1120,18 @@ class Wizard(tk.Tk):
         self.back_btn.state(["!disabled"])
         self.back_btn.pack(side="left")
         self.cancel_btn.configure(state="normal")
-        if rc == 0 and self.exe_path is not None and self.action != "uninstall":
-            self.relaunch_btn.configure(state="normal")
+        # Re-launch button: use the path captured at preflight if Bambu
+        # was running then, OR fall back to locating an installed Bambu
+        # Studio so the button works in the normal flow (user closed
+        # Bambu BEFORE opening the wizard).
+        if rc == 0 and self.action != "uninstall":
+            if self.exe_path is None:
+                try:
+                    self.exe_path = self.install_mod.find_bambu_install_path()
+                except Exception:
+                    self.exe_path = None
+            if self.exe_path is not None:
+                self.relaunch_btn.configure(state="normal")
         # Pull the latest "==..." banner out of the captured stdout so
         # the title can reflect exactly what the cmd reported.
         text = self.progress_text.get("1.0", "end")
