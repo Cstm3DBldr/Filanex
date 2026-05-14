@@ -3,7 +3,7 @@
     "name": "Spectrum PLA Glow @BBL A1M 0.8 nozzle",
     "inherits": "Spectrum PLA Glow @base",
     "from": "system",
-    "setting_id": "GFSW13_08",
+    "setting_id": "GFSW13_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

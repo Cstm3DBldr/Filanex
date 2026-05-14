@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Glow @BBL P1S 0.4 nozzle",
     "inherits": "PolyLite PLA Glow @base",
     "from": "system",
-    "setting_id": "GFSL39_10",
+    "setting_id": "GFSL39_07",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

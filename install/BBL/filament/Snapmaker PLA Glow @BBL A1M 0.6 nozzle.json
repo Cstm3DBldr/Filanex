@@ -3,7 +3,7 @@
     "name": "Snapmaker PLA Glow @BBL A1M 0.6 nozzle",
     "inherits": "Snapmaker PLA Glow @base",
     "from": "system",
-    "setting_id": "GFS105_07",
+    "setting_id": "GFS105_05",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

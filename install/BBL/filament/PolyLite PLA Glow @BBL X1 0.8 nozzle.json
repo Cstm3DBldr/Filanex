@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Glow @BBL X1 0.8 nozzle",
     "inherits": "PolyLite PLA Glow @base",
     "from": "system",
-    "setting_id": "GFSL39_16",
+    "setting_id": "GFSL39_12",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

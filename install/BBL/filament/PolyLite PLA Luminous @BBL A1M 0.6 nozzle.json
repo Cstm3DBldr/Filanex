@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Luminous @BBL A1M 0.6 nozzle",
     "inherits": "PolyLite PLA Luminous @base",
     "from": "system",
-    "setting_id": "GFSL40_07",
+    "setting_id": "GFSL40_05",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

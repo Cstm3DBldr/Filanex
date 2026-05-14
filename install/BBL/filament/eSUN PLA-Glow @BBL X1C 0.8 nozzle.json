@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Glow @BBL X1C 0.8 nozzle",
     "inherits": "eSUN PLA-Glow @base",
     "from": "system",
-    "setting_id": "GFSE48_20",
+    "setting_id": "GFSE48_15",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

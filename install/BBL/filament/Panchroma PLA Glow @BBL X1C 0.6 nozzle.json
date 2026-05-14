@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Glow @BBL X1C 0.6 nozzle",
     "inherits": "Panchroma PLA Glow @base",
     "from": "system",
-    "setting_id": "GFSL14_19",
+    "setting_id": "GFSL14_14",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

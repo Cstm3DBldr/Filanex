@@ -3,7 +3,7 @@
     "name": "Spectrum PLA Glow @BBL H2C 0.6 nozzle",
     "inherits": "Spectrum PLA Glow @base",
     "from": "system",
-    "setting_id": "GFSW13_31",
+    "setting_id": "GFSW13_24",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

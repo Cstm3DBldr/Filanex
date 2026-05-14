@@ -3,7 +3,7 @@
     "name": "Hatchbox PLA Glow in the Dark @BBL X2D 0.6 nozzle",
     "inherits": "Hatchbox PLA Glow in the Dark @base",
     "from": "system",
-    "setting_id": "GFSH05_27",
+    "setting_id": "GFSH05_20",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

@@ -3,7 +3,7 @@
     "name": "Hatchbox PLA Glow in the Dark @BBL X1C 0.8 nozzle",
     "inherits": "Hatchbox PLA Glow in the Dark @base",
     "from": "system",
-    "setting_id": "GFSH05_20",
+    "setting_id": "GFSH05_15",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

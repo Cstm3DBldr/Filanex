@@ -3,7 +3,7 @@
     "name": "Hatchbox PLA Glow in the Dark @BBL A1M 0.4 nozzle",
     "inherits": "Hatchbox PLA Glow in the Dark @base",
     "from": "system",
-    "setting_id": "GFSH05_06",
+    "setting_id": "GFSH05_04",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

@@ -3,7 +3,7 @@
     "name": "Spectrum PET-G Glow @BBL X2D 0.4 nozzle",
     "inherits": "Spectrum PET-G Glow @base",
     "from": "system",
-    "setting_id": "GFSW08_26",
+    "setting_id": "GFSW08_19",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"

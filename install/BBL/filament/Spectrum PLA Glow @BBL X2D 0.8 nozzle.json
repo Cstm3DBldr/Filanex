@@ -3,7 +3,7 @@
     "name": "Spectrum PLA Glow @BBL X2D 0.8 nozzle",
     "inherits": "Spectrum PLA Glow @base",
     "from": "system",
-    "setting_id": "GFSW13_28",
+    "setting_id": "GFSW13_21",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

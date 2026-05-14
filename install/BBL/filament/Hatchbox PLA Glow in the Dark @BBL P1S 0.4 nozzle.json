@@ -3,7 +3,7 @@
     "name": "Hatchbox PLA Glow in the Dark @BBL P1S 0.4 nozzle",
     "inherits": "Hatchbox PLA Glow in the Dark @base",
     "from": "system",
-    "setting_id": "GFSH05_10",
+    "setting_id": "GFSH05_07",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

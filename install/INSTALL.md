@@ -54,7 +54,7 @@ file at `system/.polymaker-install.json`.
 
 ### How to run it
 
-1. Download `Filanex-install-v1.2.2.zip` (this folder, on GitHub).
+1. Download `Filanex-install-v1.2.3.zip` (this folder, on GitHub).
 2. Extract anywhere (Desktop is fine).
 3. Run the installer:
    - **Windows (no Python required):** double-click `install.exe` for
@@ -182,5 +182,5 @@ report the filename in the error.
   still inherit from theirs. Both coexist.
 - **4 leaf-level collisions are skipped.** Bambu ships `PolyLite ASA @BBL
   H2D / H2DP / X1C / X1E 0.2 nozzle` directly -- we don't override them.
-- **VERSION 1.2.2** -- see `_meta/conflict_log.md` for chemistry
+- **VERSION 1.2.3** -- see `_meta/conflict_log.md` for chemistry
   resolution details.

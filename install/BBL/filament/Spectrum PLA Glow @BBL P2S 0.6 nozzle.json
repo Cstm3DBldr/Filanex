@@ -3,7 +3,7 @@
     "name": "Spectrum PLA Glow @BBL P2S 0.6 nozzle",
     "inherits": "Spectrum PLA Glow @base",
     "from": "system",
-    "setting_id": "GFSW13_23",
+    "setting_id": "GFSW13_17",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

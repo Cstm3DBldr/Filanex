@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Luminous @BBL X1C 0.8 nozzle",
     "inherits": "Panchroma PLA Luminous @base",
     "from": "system",
-    "setting_id": "GFSL15_20",
+    "setting_id": "GFSL15_15",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

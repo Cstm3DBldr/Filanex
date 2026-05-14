@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Luminous @BBL H2D 0.8 nozzle",
     "inherits": "PolyLite PLA Luminous @base",
     "from": "system",
-    "setting_id": "GFSL40_36",
+    "setting_id": "GFSL40_28",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

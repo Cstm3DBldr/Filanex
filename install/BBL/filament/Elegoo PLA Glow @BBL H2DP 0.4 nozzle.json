@@ -3,7 +3,7 @@
     "name": "Elegoo PLA Glow @BBL H2DP 0.4 nozzle",
     "inherits": "Elegoo PLA Glow @base",
     "from": "system",
-    "setting_id": "GFSD15_38",
+    "setting_id": "GFSD15_29",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

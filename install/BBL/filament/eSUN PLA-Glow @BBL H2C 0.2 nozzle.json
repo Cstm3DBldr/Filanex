@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Glow @BBL H2C 0.2 nozzle",
     "inherits": "eSUN PLA-Glow @base",
     "from": "system",
-    "setting_id": "GFSE48_29",
+    "setting_id": "GFSE48_22",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

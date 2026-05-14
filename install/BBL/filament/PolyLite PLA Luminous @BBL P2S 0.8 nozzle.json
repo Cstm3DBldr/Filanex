@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Luminous @BBL P2S 0.8 nozzle",
     "inherits": "PolyLite PLA Luminous @base",
     "from": "system",
-    "setting_id": "GFSL40_24",
+    "setting_id": "GFSL40_18",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

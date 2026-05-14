@@ -3,7 +3,7 @@
     "name": "Snapmaker PLA Glow @BBL H2DP 0.8 nozzle",
     "inherits": "Snapmaker PLA Glow @base",
     "from": "system",
-    "setting_id": "GFS105_40",
+    "setting_id": "GFS105_31",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

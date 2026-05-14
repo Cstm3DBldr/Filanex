@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Luminous @BBL X1 0.6 nozzle",
     "inherits": "Panchroma PLA Luminous @base",
     "from": "system",
-    "setting_id": "GFSL15_15",
+    "setting_id": "GFSL15_11",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

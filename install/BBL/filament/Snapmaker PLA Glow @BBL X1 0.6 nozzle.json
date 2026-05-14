@@ -3,7 +3,7 @@
     "name": "Snapmaker PLA Glow @BBL X1 0.6 nozzle",
     "inherits": "Snapmaker PLA Glow @base",
     "from": "system",
-    "setting_id": "GFS105_15",
+    "setting_id": "GFS105_11",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

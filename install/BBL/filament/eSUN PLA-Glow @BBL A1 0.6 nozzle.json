@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Glow @BBL A1 0.6 nozzle",
     "inherits": "eSUN PLA-Glow @base",
     "from": "system",
-    "setting_id": "GFSE48_03",
+    "setting_id": "GFSE48_02",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

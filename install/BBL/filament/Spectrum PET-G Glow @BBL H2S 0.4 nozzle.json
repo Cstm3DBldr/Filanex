@@ -3,7 +3,7 @@
     "name": "Spectrum PET-G Glow @BBL H2S 0.4 nozzle",
     "inherits": "Spectrum PET-G Glow @base",
     "from": "system",
-    "setting_id": "GFSW08_42",
+    "setting_id": "GFSW08_32",
     "instantiation": "true",
     "counter_coef_2": [
         "0.007"
