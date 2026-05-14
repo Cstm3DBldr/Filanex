@@ -9,21 +9,27 @@ A multi-vendor, conflict-resolved filament profile distribution for Bambu Studio
 
 Filanex curates filament chemistry across 27 vendors (Polymaker, eSUN, Creality, Elegoo, Anycubic, Ultimaker, Fillamentum, ColorFabb, Spectrum, Hatchbox, Ultrafuse, Snapmaker, Flashforge, Prusa Polymers, Fiberlogy, Filatech, Extrudr, Eryone, FlyingBear, addnorth, Eolas Prints, InfiMech, Numakers, Orca Arena, Peopoly, Overture, SUNLU) and ships them as drop-in profiles for Bambu Studio. Cross-source disagreements are resolved against published vendor TDS data using a calibration anchored to Bambu Lab's own published-data-vs-slicer behavior — keeping you off the ragged edge of every aspirational max-speed claim.
 
-## Install
+## Install (Windows)
 
-1. **Download** [`install/install.exe`](install/install.exe) (Windows, ~11 MB)
-2. **Close Bambu Studio** if it's open
+**One file, no zip extraction.** Download `install.exe` and run it.
+
+1. **Download** just the `.exe` — [`install/install.exe`](install/install.exe) (~11 MB). Save it to a normal folder (Desktop, Downloads, anywhere). Don't double-click into a `.zip` preview — Windows extracts only the .exe to a temp folder and you'll get an error.
+2. **Close Bambu Studio** if it's open.
 3. **Double-click** `install.exe`. The wizard will:
-   - Locate your Bambu Studio user-data folder
-   - Show a picker — tick the vendors / lines / materials you want
-   - Back up your current `BBL.json` + `BBL/filament/` to a timestamped folder
-   - Install the picked profiles
-   - Auto-enable them in Bambu Studio's filament dropdown so they show up immediately
+   - Locate your Bambu Studio user-data folder.
+   - Download the latest filament-profile bundle from this repo into a temp folder (one-time, automatic — no manual zip step).
+   - Show a picker — tick the vendors / lines / materials you want.
+   - Back up your current `BBL.json` + `BBL/filament/` to a timestamped folder.
+   - Install the picked profiles.
+   - Auto-enable them in Bambu Studio's filament dropdown so they show up immediately.
+   - Clean up the temp folder when you click Finish.
 4. **Re-launch Bambu Studio**. New vendors appear in the filament selector.
 
-The installer is self-updating — when a new version ships, it offers an in-place update on next launch.
+The installer is self-updating: when a new `install.exe` version ships it offers an in-place update on next launch. Profile-data updates happen automatically every run — the bundle is re-fetched from this repo each time, so the installer always has the latest chemistry.
 
-The `install.exe` is a self-contained PyInstaller binary (Python + GUI baked in, no external dependencies). For non-Windows or if you'd rather see what's happening, the same logic ships as [`install.py`](install/install.py) + [`install.bat`](install/install.bat) inside the bundle dir; run with Python 3.9+.
+`install.exe` is a self-contained PyInstaller binary — Python + GUI + branding baked in. Nothing else needs to be installed.
+
+**Non-Windows / Python users:** the same logic ships as [`install/install.py`](install/install.py); run with Python 3.9+ in any environment with Tk. The `.py` flow expects the bundle (`additions.json` + `BBL/filament/`) next to it OR will fetch it from this repo at runtime — same behavior as the `.exe`.
 
 ## What you're installing
 

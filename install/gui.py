@@ -275,7 +275,24 @@ class Wizard(tk.Tk):
 
     def _cancel(self) -> None:
         self.exit_code = 1
+        self._cleanup_fetched_bundle()
         self.destroy()
+
+    def _cleanup_fetched_bundle(self) -> None:
+        """Remove the temp directory where we extracted github's
+        bundle zip (additions.json + BBL/filament/*). Lets install.exe
+        run as a true one-file download: nothing is left on disk
+        after the wizard closes except the user's actual install in
+        Bambu Studio's system folder."""
+        target = self.fetched_bundle_dir
+        self.fetched_bundle_dir = None
+        if target is None:
+            return
+        try:
+            import shutil
+            shutil.rmtree(target, ignore_errors=True)
+        except Exception:
+            pass  # best-effort -- Windows holds temp files occasionally
 
     # ==================================================================
     # Step: welcome
@@ -1259,6 +1276,7 @@ class Wizard(tk.Tk):
 
     def _finish(self) -> None:
         self.exit_code = self._return_code or 0
+        self._cleanup_fetched_bundle()
         self.destroy()
 
     # ==================================================================
