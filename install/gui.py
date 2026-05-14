@@ -758,14 +758,27 @@ class Wizard(tk.Tk):
         else:
             self.title_var.set("Pick what to install")
 
-        if not self._fetch_attempted:
-            # First time hitting the picker this session -- try to grab
-            # the latest bundle from DISTRIBUTION_BASE_URL so any new
-            # vendors / lines / materials added since this .exe was
-            # built show up in the picker.
-            self.subtitle_var.set("Checking for updated profile data online...")
+        # Retry the fetch if (a) we've never tried, OR (b) we tried
+        # and failed (no fetched_bundle_dir) AND there's no local
+        # bundle alongside install.exe -- without a successful fetch
+        # we have no data to feed the picker, so dead-ending here is
+        # worse than retrying.
+        local_additions = self.install_mod.HERE / "additions.json"
+        no_local_bundle = not local_additions.is_file()
+        need_fetch_retry = (
+            self._fetch_attempted
+            and self.fetched_bundle_dir is None
+            and no_local_bundle
+        )
+        if not self._fetch_attempted or need_fetch_retry:
+            self.subtitle_var.set(
+                "Downloading filament profiles..." if no_local_bundle
+                else "Checking for updated profile data online..."
+            )
             self._show_picker_loading()
             self._set_buttons(back=True, next_text="Next >", next_enabled=False)
+            # Reset the flag so the worker writes the result fresh.
+            self._fetch_attempted = False
             threading.Thread(
                 target=self._fetch_bundle_worker, daemon=True
             ).start()
@@ -819,10 +832,49 @@ class Wizard(tk.Tk):
                 additions_path.read_text(encoding="utf-8")
             )["filament_list_additions"]
         except FileNotFoundError:
+            # Common cause: user ran install.exe from inside a Windows
+            # zip preview, which extracts ONLY the .exe to a temp
+            # directory (not the sibling additions.json / BBL/
+            # filament). The earlier _fetch_bundle_worker probably
+            # also failed (network) since fetched_bundle_dir is None.
+            # Give them a clear path forward instead of a dead-end.
+            here_str = str(self.install_mod.HERE)
+            in_zip_preview = (
+                "AppData\\Local\\Temp" in here_str
+                or ".zip\\" in here_str
+                or ".zip." in here_str
+            )
+            url = self.install_mod.DISTRIBUTION_BASE_URL
+            msg_parts = [
+                "Couldn't find the bundled filament profile data.",
+                "",
+                f"Expected: {additions_path}",
+                "",
+            ]
+            if in_zip_preview:
+                msg_parts += [
+                    "It looks like you ran install.exe from INSIDE a ",
+                    "Windows zip preview. Windows only extracts install.exe ",
+                    "to a temp folder when you do that, not the sibling ",
+                    "files install.exe needs.",
+                    "",
+                    "FIX: close this wizard, find the .zip you downloaded, ",
+                    "RIGHT-click it, choose 'Extract All...', pick a real ",
+                    "folder, then run install.exe from THAT folder.",
+                    "",
+                ]
+            msg_parts += [
+                "Alternatively the installer can download the bundle on ",
+                "demand from github -- but that auto-fetch step earlier ",
+                "in this run also came up empty (no internet, github ",
+                "unreachable, or a corporate firewall blocking ",
+                "raw.githubusercontent.com).",
+                "",
+                f"Source URL: {url}/additions.json",
+            ]
             messagebox.showerror(
                 "Missing bundle",
-                f"Couldn't find additions.json.\n"
-                f"Expected: {additions_path}",
+                "\n".join(msg_parts),
                 parent=self,
             )
             self._goto_step("action")
