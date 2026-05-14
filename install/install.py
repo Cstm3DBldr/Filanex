@@ -134,6 +134,20 @@ def _emit_progress(verb: str, current: int, total: int) -> None:
         print(f"[PROGRESS {verb}] {current}/{total}", flush=True)
 
 
+def _emit_phase(label: str) -> None:
+    """Emit a phase-change marker. Non-counted phases (loading the
+    bundle, filtering selection, writing BBL.json, updating the
+    slicer's enable list) still take perceptible time but have no
+    natural per-item progress. This marker lets the wizard at least
+    update the label so the user sees motion through each step.
+
+    Encoded as a degenerate [PROGRESS] marker with 0/0 so the GUI
+    parser recognizes it via the same regex but treats total=0 as
+    "label-only update, don't touch the bar percentage".
+    """
+    print(f"[PROGRESS {label}] 0/0", flush=True)
+
+
 # ---------------------------------------------------------------------------
 # Hashing + JSON IO
 # ---------------------------------------------------------------------------
@@ -430,13 +444,20 @@ def save_picker_prefs(prefs: dict) -> None:
 
 def load_bundle(src_additions: Path, src_filament_dir: Path) -> dict:
     """Returns {entries, files, database_version}."""
+    _emit_phase("Reading bundle manifest")
     doc = json.loads(src_additions.read_text(encoding="utf-8"))
     entries = doc["filament_list_additions"]
     database_version = doc.get("database_version")
+    _emit_phase("Hashing bundle files")
     files: dict[str, str] = {}
-    for p in src_filament_dir.iterdir():
-        if p.is_file():
-            files[p.name] = file_sha256(p)
+    # Enumerate first so we have a total for the progress bar; then
+    # hash each. With 16k bundle files this loop alone takes a second
+    # or two on a modern SSD and was previously invisible.
+    paths = [p for p in src_filament_dir.iterdir() if p.is_file()]
+    total = len(paths)
+    for i, p in enumerate(paths, 1):
+        files[p.name] = file_sha256(p)
+        _emit_progress("Hashing bundle files", i, total)
     return {
         "entries": entries,
         "files": files,
@@ -641,6 +662,7 @@ def cmd_install(
     bundle = load_bundle(src_additions, src_filament_dir)
 
     if selection is not None:
+        _emit_phase("Filtering selection")
         before_entries = len(bundle["entries"])
         before_files = len(bundle["files"])
         bundle = filter_bundle_by_selection(bundle, selection)
@@ -709,8 +731,10 @@ def _do_fresh_install(
             existing_by_name[entry["name"]] = entry
             added_entries.append(entry)
     if added_entries:
+        _emit_phase("Updating BBL.json")
         atomic_write_json(user_bbl_path, user_bbl)
 
+    _emit_phase("Saving install record")
     save_tracking(system_dir, build_tracking(
         installed_files, added_entries + inherited_entries,
         database_version=bundle.get("database_version"),
@@ -721,6 +745,7 @@ def _do_fresh_install(
     # prior user state to preserve. Inherited entries (matched by hash
     # but already on disk) get enabled too since the user has no
     # historical disable choice for them.
+    _emit_phase("Enabling in Bambu Studio dropdown")
     enable_names = [e["name"] for e in added_entries + inherited_entries]
     enable_result = enable_filaments_in_user_conf(system_dir, enable_names)
 
@@ -855,6 +880,7 @@ def _do_upgrade(
     # actually appended in this run.
     added_entries, skipped_entries = manifest_add_entries(user_bbl, bundle["entries"])
 
+    _emit_phase("Updating BBL.json")
     atomic_write_json(user_bbl_path, user_bbl)
 
     # Post-upgrade ownership = previously owned (still in bundle) + newly
@@ -866,6 +892,7 @@ def _do_upgrade(
         e for e in bundle["entries"]
         if e["name"] in still_owned_names or e["name"] in newly_added_names
     ]
+    _emit_phase("Saving install record")
     save_tracking(system_dir, build_tracking(
         new_owned_files, new_owned_entries,
         database_version=bundle.get("database_version"),
@@ -877,6 +904,7 @@ def _do_upgrade(
     # disable choices -- a regression they reported. Disable any
     # obsolete entries (we used to own them, no longer in bundle) so
     # the dropdown doesn't accumulate dead references.
+    _emit_phase("Enabling in Bambu Studio dropdown")
     enable_names = [e["name"] for e in added_entries]
     disable_names = list(obsolete_names)
     enable_result = enable_filaments_in_user_conf(

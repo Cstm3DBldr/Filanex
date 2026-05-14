@@ -1041,9 +1041,15 @@ class Wizard(tk.Tk):
 
     def _append_progress(self, s: str) -> None:
         # Pull out progress markers; suppress them from the log and
-        # keep only the LATEST marker (since setting the var multiple
-        # times in one event handler only ever paints the final value
-        # anyway -- intermediate var.set()s never reach the screen).
+        # keep only the LATEST marker per drain pass. Setting the var
+        # multiple times in one event handler only paints the final
+        # value anyway; consolidating to one var.set + one paint is
+        # what actually shows the user motion.
+        #
+        # Two marker shapes from install.py:
+        #   [PROGRESS Phase] N/total      counted, drives bar
+        #   [PROGRESS Phase] 0/0          phase-only, switches bar to
+        #                                  indeterminate (animated marquee)
         latest_marker: tuple[str, int, int] | None = None
         if "[PROGRESS" in s:
             visible: list[str] = []
@@ -1063,16 +1069,31 @@ class Wizard(tk.Tk):
             self.progress_text.configure(state="disabled")
         if latest_marker is not None:
             verb, current, total = latest_marker
-            pct = (current / total * 100) if total > 0 else 0
             try:
-                self.progress_pct_var.set(pct)
-                self.progress_status_var.set(
-                    f"{verb}: {current:,} of {total:,} ({pct:.0f}%)"
-                )
+                if total <= 0:
+                    # Phase-only marker -- the work has no per-item
+                    # progress (json parse, conf rewrite, etc). Switch
+                    # the bar to indeterminate marquee so the user can
+                    # still see the wizard is working.
+                    if self.progress_bar.cget("mode") != "indeterminate":
+                        self.progress_bar.configure(mode="indeterminate")
+                        self.progress_bar.start(20)
+                    self.progress_status_var.set(f"{verb}...")
+                else:
+                    # Counted progress -- switch back to determinate
+                    # and snap to the percentage.
+                    if self.progress_bar.cget("mode") != "determinate":
+                        self.progress_bar.stop()
+                        self.progress_bar.configure(mode="determinate")
+                    pct = (current / total * 100) if total > 0 else 0
+                    self.progress_pct_var.set(pct)
+                    self.progress_status_var.set(
+                        f"{verb}: {current:,} of {total:,} ({pct:.0f}%)"
+                    )
                 # Force a paint NOW. Without this Tk batches var-trace
-                # redraws and the bar only paints once at the end --
+                # redraws and the bar only paints at the end --
                 # update_idletasks() drains pending redraw events
-                # synchronously so the user sees this frame's pct.
+                # synchronously so this frame's value shows up.
                 self.progress_bar.update_idletasks()
             except Exception:
                 pass  # widgets gone (window closed) -- best-effort
@@ -1080,7 +1101,12 @@ class Wizard(tk.Tk):
     def _on_progress_complete(self) -> None:
         rc = self._return_code or 0
         # Snap to 100% so the bar doesn't linger mid-fill on completion.
+        # Also stop the indeterminate marquee if a phase-only marker
+        # left it spinning.
         try:
+            if self.progress_bar.cget("mode") == "indeterminate":
+                self.progress_bar.stop()
+                self.progress_bar.configure(mode="determinate")
             self.progress_pct_var.set(100.0)
             self.progress_status_var.set(
                 "Done." if rc == 0 else f"Finished with exit code {rc}."
