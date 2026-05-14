@@ -3,7 +3,7 @@
     "name": "Hatchbox PLA Glow in the Dark @BBL H2DP 0.8 nozzle",
     "inherits": "Hatchbox PLA Glow in the Dark @base",
     "from": "system",
-    "setting_id": "GFSH05_31",
+    "setting_id": "GFSH05_30",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

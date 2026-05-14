@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "database_version": "1.2.3",
-  "installer_version": "1.4.3",
+  "database_version": "1.2.4",
+  "installer_version": "1.4.4",
   "filament_list_additions": [
     {
       "name": "addnorth Adura X @base",
@@ -21940,14 +21940,6 @@
       "is_base": false
     },
     {
-      "name": "Elegoo PLA Glow @BBL H2C 0.2 nozzle",
-      "sub_path": "filament/Elegoo PLA Glow @BBL H2C 0.2 nozzle.json",
-      "vendor": "Elegoo",
-      "line": "PLA Glow",
-      "material": "PLA",
-      "is_base": false
-    },
-    {
       "name": "Elegoo PLA Glow @BBL H2C 0.4 nozzle",
       "sub_path": "filament/Elegoo PLA Glow @BBL H2C 0.4 nozzle.json",
       "vendor": "Elegoo",
@@ -38030,14 +38022,6 @@
     {
       "name": "eSUN PLA-Glow @BBL A1M 0.8 nozzle",
       "sub_path": "filament/eSUN PLA-Glow @BBL A1M 0.8 nozzle.json",
-      "vendor": "eSUN",
-      "line": "PLA-Glow",
-      "material": "PLA",
-      "is_base": false
-    },
-    {
-      "name": "eSUN PLA-Glow @BBL H2C 0.2 nozzle",
-      "sub_path": "filament/eSUN PLA-Glow @BBL H2C 0.2 nozzle.json",
       "vendor": "eSUN",
       "line": "PLA-Glow",
       "material": "PLA",
@@ -68220,14 +68204,6 @@
       "is_base": false
     },
     {
-      "name": "Hatchbox PLA Glow in the Dark @BBL H2C 0.2 nozzle",
-      "sub_path": "filament/Hatchbox PLA Glow in the Dark @BBL H2C 0.2 nozzle.json",
-      "vendor": "Hatchbox",
-      "line": "PLA Glow in the Dark",
-      "material": "PLA",
-      "is_base": false
-    },
-    {
       "name": "Hatchbox PLA Glow in the Dark @BBL H2C 0.4 nozzle",
       "sub_path": "filament/Hatchbox PLA Glow in the Dark @BBL H2C 0.4 nozzle.json",
       "vendor": "Hatchbox",
@@ -89660,14 +89636,6 @@
       "is_base": false
     },
     {
-      "name": "Panchroma PLA Glow @BBL H2C 0.2 nozzle",
-      "sub_path": "filament/Panchroma PLA Glow @BBL H2C 0.2 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Panchroma",
-      "material": "PLA Glow",
-      "is_base": false
-    },
-    {
       "name": "Panchroma PLA Glow @BBL H2C 0.4 nozzle",
       "sub_path": "filament/Panchroma PLA Glow @BBL H2C 0.4 nozzle.json",
       "vendor": "Polymaker",
@@ -89926,14 +89894,6 @@
     {
       "name": "Panchroma PLA Luminous @BBL A1M 0.8 nozzle",
       "sub_path": "filament/Panchroma PLA Luminous @BBL A1M 0.8 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Panchroma",
-      "material": "PLA Luminous",
-      "is_base": false
-    },
-    {
-      "name": "Panchroma PLA Luminous @BBL H2C 0.2 nozzle",
-      "sub_path": "filament/Panchroma PLA Luminous @BBL H2C 0.2 nozzle.json",
       "vendor": "Polymaker",
       "line": "Panchroma",
       "material": "PLA Luminous",
@@ -97476,14 +97436,6 @@
       "is_base": false
     },
     {
-      "name": "PolyLite PLA Glow @BBL H2C 0.2 nozzle",
-      "sub_path": "filament/PolyLite PLA Glow @BBL H2C 0.2 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "PolyLite",
-      "material": "PLA Glow",
-      "is_base": false
-    },
-    {
       "name": "PolyLite PLA Glow @BBL H2C 0.4 nozzle",
       "sub_path": "filament/PolyLite PLA Glow @BBL H2C 0.4 nozzle.json",
       "vendor": "Polymaker",
@@ -97742,14 +97694,6 @@
     {
       "name": "PolyLite PLA Luminous @BBL A1M 0.8 nozzle",
       "sub_path": "filament/PolyLite PLA Luminous @BBL A1M 0.8 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "PolyLite",
-      "material": "PLA Luminous",
-      "is_base": false
-    },
-    {
-      "name": "PolyLite PLA Luminous @BBL H2C 0.2 nozzle",
-      "sub_path": "filament/PolyLite PLA Luminous @BBL H2C 0.2 nozzle.json",
       "vendor": "Polymaker",
       "line": "PolyLite",
       "material": "PLA Luminous",
@@ -114316,14 +114260,6 @@
       "is_base": false
     },
     {
-      "name": "Snapmaker PLA Glow @BBL H2C 0.2 nozzle",
-      "sub_path": "filament/Snapmaker PLA Glow @BBL H2C 0.2 nozzle.json",
-      "vendor": "Snapmaker",
-      "line": "PLA Glow",
-      "material": "PLA",
-      "is_base": false
-    },
-    {
       "name": "Snapmaker PLA Glow @BBL H2C 0.4 nozzle",
       "sub_path": "filament/Snapmaker PLA Glow @BBL H2C 0.4 nozzle.json",
       "vendor": "Snapmaker",
@@ -117388,14 +117324,6 @@
       "is_base": false
     },
     {
-      "name": "Spectrum PET-G Glow @BBL H2C 0.2 nozzle",
-      "sub_path": "filament/Spectrum PET-G Glow @BBL H2C 0.2 nozzle.json",
-      "vendor": "Spectrum",
-      "line": "PET-G Glow",
-      "material": "PETG",
-      "is_base": false
-    },
-    {
       "name": "Spectrum PET-G Glow @BBL H2C 0.4 nozzle",
       "sub_path": "filament/Spectrum PET-G Glow @BBL H2C 0.4 nozzle.json",
       "vendor": "Spectrum",
@@ -118814,14 +118742,6 @@
     {
       "name": "Spectrum PLA Glow @BBL A1M 0.8 nozzle",
       "sub_path": "filament/Spectrum PLA Glow @BBL A1M 0.8 nozzle.json",
-      "vendor": "Spectrum",
-      "line": "PLA Glow",
-      "material": "PLA",
-      "is_base": false
-    },
-    {
-      "name": "Spectrum PLA Glow @BBL H2C 0.2 nozzle",
-      "sub_path": "filament/Spectrum PLA Glow @BBL H2C 0.2 nozzle.json",
       "vendor": "Spectrum",
       "line": "PLA Glow",
       "material": "PLA",
