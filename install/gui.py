@@ -33,6 +33,7 @@ from __future__ import annotations
 import io
 import json
 import queue
+import re
 import sys
 import threading
 import time
@@ -884,11 +885,28 @@ class Wizard(tk.Tk):
             "uninstall": "Uninstalling",
         }.get(self.action, "Working")
         self.title_var.set(f"{verb} Filanex profiles")
-        self.subtitle_var.set("Please wait. The installer will tell you when it's done.")
+        self.subtitle_var.set("Please wait. Do not close the wizard or Bambu Studio.")
+
+        # Determinate progress bar. install.py emits "[PROGRESS verb]
+        # n/total" markers from its file-copy loops; _append_progress
+        # parses them, suppresses the line from the visible log, and
+        # drives this bar. Bundle is 16k+ files; without this the
+        # wizard looks frozen for ~30s.
+        self.progress_pct_var = tk.DoubleVar(value=0.0)
+        self.progress_bar = ttk.Progressbar(
+            self.content, mode="determinate", maximum=100,
+            variable=self.progress_pct_var, length=560,
+        )
+        self.progress_bar.pack(fill="x", pady=(2, 4))
+        self.progress_status_var = tk.StringVar(value="Starting...")
+        ttk.Label(
+            self.content, textvariable=self.progress_status_var,
+            foreground="#555", font=("Segoe UI", 9),
+        ).pack(anchor="w", pady=(0, 8))
 
         self.progress_text = tk.Text(
             self.content, wrap="word", font=("Consolas", 9),
-            bg="#fafafa", height=24,
+            bg="#fafafa", height=20,
         )
         self.progress_text.pack(fill="both", expand=True)
         self.progress_text.configure(state="disabled")
@@ -970,7 +988,33 @@ class Wizard(tk.Tk):
         else:
             self.after(80, self._poll_queue)
 
+    # Matches "[PROGRESS Installing files] 1234/16699" from install.py.
+    _PROGRESS_RE = re.compile(r"\[PROGRESS\s+([^\]]+)\]\s+(\d+)\s*/\s*(\d+)")
+
     def _append_progress(self, s: str) -> None:
+        # Pull out progress markers; suppress them from the log and
+        # update the bar instead. Non-marker lines pass through.
+        if "[PROGRESS" in s:
+            visible: list[str] = []
+            for line in s.splitlines(keepends=True):
+                m = self._PROGRESS_RE.search(line)
+                if m:
+                    verb = m.group(1).strip()
+                    current = int(m.group(2))
+                    total = int(m.group(3))
+                    pct = (current / total * 100) if total > 0 else 0
+                    try:
+                        self.progress_pct_var.set(pct)
+                        self.progress_status_var.set(
+                            f"{verb}: {current:,} of {total:,} ({pct:.0f}%)"
+                        )
+                    except Exception:
+                        pass  # widgets gone (window closed) -- best-effort
+                else:
+                    visible.append(line)
+            s = "".join(visible)
+            if not s:
+                return
         self.progress_text.configure(state="normal")
         self.progress_text.insert("end", s)
         self.progress_text.see("end")
@@ -978,6 +1022,14 @@ class Wizard(tk.Tk):
 
     def _on_progress_complete(self) -> None:
         rc = self._return_code or 0
+        # Snap to 100% so the bar doesn't linger mid-fill on completion.
+        try:
+            self.progress_pct_var.set(100.0)
+            self.progress_status_var.set(
+                "Done." if rc == 0 else f"Finished with exit code {rc}."
+            )
+        except Exception:
+            pass
         self._append_progress(f"\n--- Finished (exit code {rc}) ---\n")
         self.next_btn.configure(state="normal")
         # Re-enable Back + Cancel so the user can navigate to a different

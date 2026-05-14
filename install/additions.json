@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "database_version": "1.2.4",
-  "installer_version": "1.1.0",
+  "installer_version": "1.1.2",
   "filament_list_additions": [
     {
       "name": "addnorth Adura X @base",

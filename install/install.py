@@ -63,7 +63,7 @@ TRACKING_TOOL = "polymaker-installer/1"
 # field to this constant; if remote is newer, it offers a self-update.
 # bundle_bbl_inject.py parses this constant out of install.py and stamps
 # it into the additions.json it ships, so they always match per release.
-INSTALLER_VERSION = "1.1.0"
+INSTALLER_VERSION = "1.1.2"
 
 # Stable URL for the `update` subcommand. Points at the BBL-injection
 # bundle on the project's default branch via GitHub raw. Override with
@@ -113,6 +113,22 @@ def banner(msg: str) -> None:
 
 def section(msg: str) -> None:
     print(f"\n--- {msg} ---")
+
+
+# Throttle so a 16k-file install doesn't generate 16k stdout lines.
+_PROGRESS_EVERY_N = 50
+
+
+def _emit_progress(verb: str, current: int, total: int) -> None:
+    """Emit a structured progress marker. The wizard parses these out
+    of stdout to drive a determinate progress bar; CLI users just see
+    them in the log. Throttled to roughly every _PROGRESS_EVERY_N
+    items + always on the final tick so the bar always reaches 100%.
+    """
+    if total <= 0:
+        return
+    if current == total or current % _PROGRESS_EVERY_N == 0 or current == 1:
+        print(f"[PROGRESS {verb}] {current}/{total}", flush=True)
 
 
 # ---------------------------------------------------------------------------
@@ -635,7 +651,8 @@ def _do_fresh_install(
     # (someone else's file -- not ours to touch).
     installed_files: list[dict] = []
     files_added = files_inherited = files_skipped = 0
-    for filename, sha in bundle["files"].items():
+    total_files = len(bundle["files"])
+    for i, (filename, sha) in enumerate(bundle["files"].items(), 1):
         src = src_filament_dir / filename
         dst = target_filament / filename
         if dst.exists():
@@ -643,6 +660,7 @@ def _do_fresh_install(
                 live_sha = file_sha256(dst)
             except OSError:
                 files_skipped += 1
+                _emit_progress("Installing files", i, total_files)
                 continue
             if live_sha == sha:
                 # Same content -- claim as ours.
@@ -650,10 +668,12 @@ def _do_fresh_install(
                 files_inherited += 1
             else:
                 files_skipped += 1
+            _emit_progress("Installing files", i, total_files)
             continue
         shutil.copy2(src, dst)
         installed_files.append({"filename": filename, "sha256": sha})
         files_added += 1
+        _emit_progress("Installing files", i, total_files)
 
     # Manifest entries: claim names already in the user's filament_list
     # too (inheritance) -- if BBL.json already has "PolyLite ASA @BBL ..."
@@ -732,7 +752,8 @@ def _do_upgrade(
     files_added = files_removed = files_remove_kept = files_unowned = 0
     new_owned_files: list[dict] = []
 
-    for filename, new_sha in new_files.items():
+    total_new_files = len(new_files)
+    for i, (filename, new_sha) in enumerate(new_files.items(), 1):
         src = src_filament_dir / filename
         dst = target_filament / filename
         prev_sha = prev_files.get(filename)
@@ -744,11 +765,13 @@ def _do_upgrade(
                 # User added a file matching one of our names. Don't touch
                 # the file (skip-existing) AND don't claim ownership.
                 files_unowned += 1
+                _emit_progress("Upgrading files", i, total_new_files)
                 continue
             if live_sha == new_sha:
                 # We owned it; it's already the new version. Keep ownership.
                 files_unchanged += 1
                 new_owned_files.append({"filename": filename, "sha256": new_sha})
+                _emit_progress("Upgrading files", i, total_new_files)
                 continue
             if live_sha != prev_sha and not force:
                 # We owned it, user modified it. Preserve, keep ORIGINAL
@@ -756,6 +779,7 @@ def _do_upgrade(
                 print(f"  WARN: keeping user-modified {filename}")
                 files_kept_modified += 1
                 new_owned_files.append({"filename": filename, "sha256": prev_sha})
+                _emit_progress("Upgrading files", i, total_new_files)
                 continue
             # We owned it, untouched (or --force). Replace with new version.
             shutil.copy2(src, dst)
@@ -766,21 +790,26 @@ def _do_upgrade(
             shutil.copy2(src, dst)
             files_added += 1
             new_owned_files.append({"filename": filename, "sha256": new_sha})
+        _emit_progress("Upgrading files", i, total_new_files)
 
     # Files that were in the previous install but no longer in the bundle.
     obsolete_filenames = set(prev_files) - set(new_files)
-    for filename in obsolete_filenames:
+    total_obsolete = len(obsolete_filenames)
+    for i, filename in enumerate(sorted(obsolete_filenames), 1):
         dst = target_filament / filename
         if not dst.exists():
+            _emit_progress("Cleaning obsolete", i, total_obsolete)
             continue
         live_sha = file_sha256(dst)
         prev_sha = prev_files[filename]
         if live_sha != prev_sha and not force:
             print(f"  WARN: keeping user-modified obsolete {filename}")
             files_remove_kept += 1
+            _emit_progress("Cleaning obsolete", i, total_obsolete)
             continue
         dst.unlink()
         files_removed += 1
+        _emit_progress("Cleaning obsolete", i, total_obsolete)
 
     # Manifest reconciliation. Same invariant: post-upgrade tracking
     # includes only entries we previously owned (still in bundle) plus
@@ -888,20 +917,24 @@ def cmd_uninstall(system_dir: Path, force: bool) -> int:
     target_filament = system_dir / "BBL" / "filament"
 
     files_removed = files_kept_modified = 0
-    for entry in tracking["filament_files"]:
+    total_to_remove = len(tracking["filament_files"])
+    for i, entry in enumerate(tracking["filament_files"], 1):
         filename = entry["filename"]
         recorded_sha = entry["sha256"]
         dst = target_filament / filename
         if not dst.exists():
+            _emit_progress("Removing files", i, total_to_remove)
             continue
         if not force:
             live_sha = file_sha256(dst)
             if live_sha != recorded_sha:
                 print(f"  WARN: keeping user-modified {filename}")
                 files_kept_modified += 1
+                _emit_progress("Removing files", i, total_to_remove)
                 continue
         dst.unlink()
         files_removed += 1
+        _emit_progress("Removing files", i, total_to_remove)
 
     user_bbl_path = system_dir / "BBL.json"
     user_bbl = json.loads(user_bbl_path.read_text(encoding="utf-8"))
