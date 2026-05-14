@@ -109,26 +109,30 @@ class Wizard(tk.Tk):
         self.focus_force()
 
     def _read_local_db_version(self) -> str | None:
-        """Return the database_version of the bundle currently sitting
-        next to install.exe, or None if it can't be read. Used to
-        compare local vs remote profile-data versions on the update
-        screen.
+        """Return the database_version reflecting what's CURRENTLY
+        installed on the user's machine. After install, the tracking
+        file (BambuStudio/system/.polymaker-install.json) records
+        bundle_database_version from the last successful install --
+        that's the source of truth for "what's installed now". The
+        bundle's additions.json next to install.exe is shipped once
+        with the .exe and never updates after subsequent auto-fetches,
+        so it's a misleading source for the current state.
 
-        For a frozen PyInstaller .exe, additions.json lives next to
-        the .exe binary (NOT in sys._MEIPASS, which is only the temp
-        extraction dir for bundled payload). Search the install_mod's
-        HERE constant (which already does this lookup correctly) plus
-        a few common bundle-zip layouts.
+        Priority order:
+          1. tracking file's `bundle_database_version` (what was last
+             installed -- updates after every successful install)
+          2. additions.json next to install.exe (only useful when no
+             prior install exists)
         """
         try:
+            tracked = self.tracking.get("bundle_database_version") if self.tracking else None
+            if tracked:
+                return tracked
             here = getattr(self.install_mod, "HERE", None)
             search_roots = []
             if here is not None:
                 search_roots.append(Path(here))
-            # Source-tree fallback (running install.py directly)
             search_roots.append(Path(__file__).resolve().parent)
-            # Last-ditch: check what we tracked from the prior install
-            tracked = self.tracking.get("bundle_database_version") if self.tracking else None
             for root in search_roots:
                 for cand in (root / "additions.json",
                              root / "BBL-injection" / "additions.json",
@@ -137,8 +141,7 @@ class Wizard(tk.Tk):
                         return json.loads(
                             cand.read_text(encoding="utf-8")
                         ).get("database_version")
-            # Nothing on disk -- fall back to what we previously installed
-            return tracked
+            return None
         except Exception:
             return None
 
@@ -408,13 +411,22 @@ class Wizard(tk.Tk):
 
     @staticmethod
     def _fmt_count_diff(local: int | None, remote: int | None) -> str:
+        """Profile count display. NOT an "upgrade arrow" -- the user
+        may pick a subset on the next screen, so showing "previous N
+        ==> new M" was misleading. Show installed-vs-available
+        explicitly instead.
+        """
         if local is None:
-            return f"{remote:,}" if remote is not None else "(unknown)"
+            return f"{remote:,} available in bundle" if remote is not None else "(unknown)"
         if remote is None or remote == local:
-            return f"{local:,}"
-        diff = remote - local
-        sign = "+" if diff > 0 else ""
-        return f"previous {local:,}  ==>  new {remote:,}  ({sign}{diff:,})"
+            return f"{local:,} installed"
+        if remote > local:
+            extra = remote - local
+            return (f"{local:,} installed, {remote:,} available in bundle "
+                    f"(+{extra:,} more if you select them)")
+        # local > remote (rare -- bundle shrank): note the obsolete entries
+        obsolete = local - remote
+        return f"{local:,} installed, {remote:,} in current bundle ({obsolete:,} obsolete)"
 
     def _local_profile_count(self) -> int | None:
         """Profiles currently tracked as installed by us."""
@@ -480,14 +492,24 @@ class Wizard(tk.Tk):
         ).pack(anchor="w", pady=(20, 12))
 
         if not installer_changed:
-            # Either fully current OR only profile data drift -- both
-            # resolve via clicking Next + running Install/Update.
-            if db_changed or count_changed:
+            if db_changed:
+                # Actually newer DATA on github -- fetch will happen.
                 ttk.Label(
                     self.content,
                     text="The newer profile data will download "
                          "automatically when you click Install or Update on "
                          "the next screens.",
+                    foreground="#444", justify="left", wraplength=540,
+                ).pack(anchor="w", pady=(0, 12))
+            elif count_changed:
+                # Version matches -- you have the same bundle locally,
+                # you just installed a subset of it. Adding more is a
+                # picker choice, not a download.
+                ttk.Label(
+                    self.content,
+                    text="The next screen lets you select additional "
+                         "vendors / product lines to install from the "
+                         "bundle you already have.",
                     foreground="#444", justify="left", wraplength=540,
                 ).pack(anchor="w", pady=(0, 12))
             self._set_buttons(back=True, next_text="Next >", next_enabled=True)
@@ -885,7 +907,11 @@ class Wizard(tk.Tk):
             "uninstall": "Uninstalling",
         }.get(self.action, "Working")
         self.title_var.set(f"{verb} Filanex profiles")
-        self.subtitle_var.set("Please wait. Do not close the wizard or Bambu Studio.")
+        # Bambu was already verified closed in the pre-flight step;
+        # the actual risk is the user OPENING Bambu mid-install (it
+        # would lock BBL.json) or force-closing the wizard.
+        self.subtitle_var.set(
+            "Please wait. Don't open Bambu Studio until this finishes.")
 
         # Determinate progress bar. install.py emits "[PROGRESS verb]
         # n/total" markers from its file-copy loops; _append_progress
@@ -994,6 +1020,7 @@ class Wizard(tk.Tk):
     def _append_progress(self, s: str) -> None:
         # Pull out progress markers; suppress them from the log and
         # update the bar instead. Non-marker lines pass through.
+        bar_changed = False
         if "[PROGRESS" in s:
             visible: list[str] = []
             for line in s.splitlines(keepends=True):
@@ -1008,17 +1035,29 @@ class Wizard(tk.Tk):
                         self.progress_status_var.set(
                             f"{verb}: {current:,} of {total:,} ({pct:.0f}%)"
                         )
+                        bar_changed = True
                     except Exception:
                         pass  # widgets gone (window closed) -- best-effort
                 else:
                     visible.append(line)
             s = "".join(visible)
-            if not s:
+            if not s and not bar_changed:
                 return
-        self.progress_text.configure(state="normal")
-        self.progress_text.insert("end", s)
-        self.progress_text.see("end")
-        self.progress_text.configure(state="disabled")
+        if s:
+            self.progress_text.configure(state="normal")
+            self.progress_text.insert("end", s)
+            self.progress_text.see("end")
+            self.progress_text.configure(state="disabled")
+        # Force immediate visual paint so the bar/label move during the
+        # run instead of jumping to 100% at the end. Without this Tk
+        # batches the var updates and only paints when the main thread
+        # next goes idle -- but the poll loop keeps re-scheduling itself,
+        # so idle never comes.
+        if bar_changed:
+            try:
+                self.progress_bar.update_idletasks()
+            except Exception:
+                pass
 
     def _on_progress_complete(self) -> None:
         rc = self._return_code or 0

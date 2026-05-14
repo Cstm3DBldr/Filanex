@@ -116,7 +116,10 @@ def section(msg: str) -> None:
 
 
 # Throttle so a 16k-file install doesn't generate 16k stdout lines.
-_PROGRESS_EVERY_N = 50
+# Tighter than 50 -- want visible bar motion even when files are tiny
+# JSONs that copy in <1ms each. 16k / 25 = 640 markers across an
+# install, ~2 per Tk paint frame at 100ms polls. Visible motion.
+_PROGRESS_EVERY_N = 25
 
 
 def _emit_progress(verb: str, current: int, total: int) -> None:
