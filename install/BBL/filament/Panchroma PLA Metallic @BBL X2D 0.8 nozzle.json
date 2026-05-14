@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Metallic @BBL X2D 0.8 nozzle",
     "inherits": "Panchroma PLA Metallic @base",
     "from": "system",
-    "setting_id": "GFSL18_28",
+    "setting_id": "GFSL18_21",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

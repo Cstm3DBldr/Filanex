@@ -3,7 +3,7 @@
     "name": "Elegoo PLA Metallic @BBL H2DP 0.8 nozzle",
     "inherits": "Elegoo PLA Metallic @base",
     "from": "system",
-    "setting_id": "GFSD18_40",
+    "setting_id": "GFSD18_30",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

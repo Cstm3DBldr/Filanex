@@ -3,7 +3,7 @@
     "name": "Elegoo PLA Sparkle @BBL X1C 0.8 nozzle",
     "inherits": "Elegoo PLA Sparkle @base",
     "from": "system",
-    "setting_id": "GFSD21_20",
+    "setting_id": "GFSD21_15",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

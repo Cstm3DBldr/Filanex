@@ -3,7 +3,7 @@
     "name": "Spectrum WOOD @BBL P2S 0.6 nozzle",
     "inherits": "Spectrum WOOD @base",
     "from": "system",
-    "setting_id": "GFSW21_23",
+    "setting_id": "GFSW21_17",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

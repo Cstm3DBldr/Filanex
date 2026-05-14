@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Celestial @BBL H2D 0.6 nozzle",
     "inherits": "Panchroma PLA Celestial @base",
     "from": "system",
-    "setting_id": "GFSL12_35",
+    "setting_id": "GFSL12_26",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

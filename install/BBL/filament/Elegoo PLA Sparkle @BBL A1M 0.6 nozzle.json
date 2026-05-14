@@ -3,7 +3,7 @@
     "name": "Elegoo PLA Sparkle @BBL A1M 0.6 nozzle",
     "inherits": "Elegoo PLA Sparkle @base",
     "from": "system",
-    "setting_id": "GFSD21_07",
+    "setting_id": "GFSD21_05",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Metal @BBL P2S 0.6 nozzle",
     "inherits": "Orca Arena Arena PLA Metal @base",
     "from": "system",
-    "setting_id": "GFS113_23",
+    "setting_id": "GFS113_17",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

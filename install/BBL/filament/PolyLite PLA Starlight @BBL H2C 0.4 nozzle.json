@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Starlight @BBL H2C 0.4 nozzle",
     "inherits": "PolyLite PLA Starlight @base",
     "from": "system",
-    "setting_id": "GFSL44_30",
+    "setting_id": "GFSL44_22",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

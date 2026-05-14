@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Galaxy @BBL H2S 0.6 nozzle",
     "inherits": "Panchroma PLA Galaxy @base",
     "from": "system",
-    "setting_id": "GFSL13_43",
+    "setting_id": "GFSL13_32",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

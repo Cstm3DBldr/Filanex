@@ -3,7 +3,7 @@
     "name": "Elegoo PLA Metallic @BBL P1S 0.8 nozzle",
     "inherits": "Elegoo PLA Metallic @base",
     "from": "system",
-    "setting_id": "GFSD18_12",
+    "setting_id": "GFSD18_09",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

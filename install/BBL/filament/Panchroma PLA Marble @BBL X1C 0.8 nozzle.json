@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Marble @BBL X1C 0.8 nozzle",
     "inherits": "Panchroma PLA Marble @base",
     "from": "system",
-    "setting_id": "GFSL16_20",
+    "setting_id": "GFSL16_15",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

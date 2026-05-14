@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Marble @BBL P2S 0.8 nozzle",
     "inherits": "Panchroma PLA Marble @base",
     "from": "system",
-    "setting_id": "GFSL16_24",
+    "setting_id": "GFSL16_18",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

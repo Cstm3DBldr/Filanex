@@ -3,7 +3,7 @@
     "name": "eSUN Marble PLA @BBL X1C 0.8 nozzle",
     "inherits": "eSUN Marble PLA @base",
     "from": "system",
-    "setting_id": "GFSE21_20",
+    "setting_id": "GFSE21_15",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

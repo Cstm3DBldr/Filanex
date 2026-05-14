@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Galaxy @BBL P2S 0.6 nozzle",
     "inherits": "PolyLite PLA Galaxy @base",
     "from": "system",
-    "setting_id": "GFSL38_23",
+    "setting_id": "GFSL38_17",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

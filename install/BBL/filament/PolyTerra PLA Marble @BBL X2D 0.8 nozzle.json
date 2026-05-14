@@ -3,7 +3,7 @@
     "name": "PolyTerra PLA Marble @BBL X2D 0.8 nozzle",
     "inherits": "PolyTerra PLA Marble @base",
     "from": "system",
-    "setting_id": "GFSL70_28",
+    "setting_id": "GFSL70_21",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

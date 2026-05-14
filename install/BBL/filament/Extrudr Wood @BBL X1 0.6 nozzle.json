@@ -3,7 +3,7 @@
     "name": "Extrudr Wood @BBL X1 0.6 nozzle",
     "inherits": "Extrudr Wood @base",
     "from": "system",
-    "setting_id": "GFSX11_15",
+    "setting_id": "GFSX11_11",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

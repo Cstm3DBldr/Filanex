@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Pro Metallic @BBL X1 0.6 nozzle",
     "inherits": "PolyLite PLA Pro Metallic @base",
     "from": "system",
-    "setting_id": "GFSL43_15",
+    "setting_id": "GFSL43_11",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

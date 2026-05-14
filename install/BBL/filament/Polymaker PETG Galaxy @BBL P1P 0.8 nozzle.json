@@ -3,7 +3,7 @@
     "name": "Polymaker PETG Galaxy @BBL P1P 0.8 nozzle",
     "inherits": "Polymaker PETG Galaxy @base",
     "from": "system",
-    "setting_id": "GFSL53_12",
+    "setting_id": "GFSL53_09",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"

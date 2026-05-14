@@ -3,7 +3,7 @@
     "name": "SUNLU PLA Marble @BBL A1 0.4 nozzle",
     "inherits": "SUNLU PLA Marble @SUNLU base",
     "from": "system",
-    "setting_id": "GFSY10_02",
+    "setting_id": "GFSY10_01",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

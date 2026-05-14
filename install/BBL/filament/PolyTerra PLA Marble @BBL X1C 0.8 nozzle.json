@@ -3,7 +3,7 @@
     "name": "PolyTerra PLA Marble @BBL X1C 0.8 nozzle",
     "inherits": "PolyTerra PLA Marble @base",
     "from": "system",
-    "setting_id": "GFSL70_20",
+    "setting_id": "GFSL70_15",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

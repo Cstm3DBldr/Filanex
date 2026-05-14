@@ -3,7 +3,7 @@
     "name": "Hatchbox Stone PLA @BBL X1C 0.8 nozzle",
     "inherits": "Hatchbox Stone PLA @base",
     "from": "system",
-    "setting_id": "GFSH13_20",
+    "setting_id": "GFSH13_15",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

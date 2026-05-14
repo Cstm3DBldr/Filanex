@@ -3,7 +3,7 @@
     "name": "Spectrum PLA Glitter @BBL X2D 0.8 nozzle",
     "inherits": "Spectrum PLA Glitter @base",
     "from": "system",
-    "setting_id": "GFSW12_28",
+    "setting_id": "GFSW12_21",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

@@ -3,7 +3,7 @@
     "name": "Hatchbox Stone PLA @BBL X2D 0.4 nozzle",
     "inherits": "Hatchbox Stone PLA @base",
     "from": "system",
-    "setting_id": "GFSH13_26",
+    "setting_id": "GFSH13_19",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

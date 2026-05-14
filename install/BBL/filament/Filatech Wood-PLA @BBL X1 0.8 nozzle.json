@@ -3,7 +3,7 @@
     "name": "Filatech Wood-PLA @BBL X1 0.8 nozzle",
     "inherits": "Filatech Wood-PLA @base",
     "from": "system",
-    "setting_id": "GFSJ12_16",
+    "setting_id": "GFSJ12_12",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

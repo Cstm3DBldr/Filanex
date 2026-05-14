@@ -3,7 +3,7 @@
     "name": "SUNLU PLA Marble @BBL X2D 0.8 nozzle",
     "inherits": "SUNLU PLA Marble @SUNLU base",
     "from": "system",
-    "setting_id": "GFSY10_28",
+    "setting_id": "GFSY10_21",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

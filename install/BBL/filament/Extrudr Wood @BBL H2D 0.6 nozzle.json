@@ -3,7 +3,7 @@
     "name": "Extrudr Wood @BBL H2D 0.6 nozzle",
     "inherits": "Extrudr Wood @base",
     "from": "system",
-    "setting_id": "GFSX11_35",
+    "setting_id": "GFSX11_26",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

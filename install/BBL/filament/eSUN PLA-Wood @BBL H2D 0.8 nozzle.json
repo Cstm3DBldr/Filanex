@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Wood @BBL H2D 0.8 nozzle",
     "inherits": "eSUN PLA-Wood @base",
     "from": "system",
-    "setting_id": "GFSE60_36",
+    "setting_id": "GFSE60_27",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

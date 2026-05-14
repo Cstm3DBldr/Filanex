@@ -3,7 +3,7 @@
     "name": "Elegoo PLA Galaxy @BBL A1 0.8 nozzle",
     "inherits": "Elegoo PLA Galaxy @base",
     "from": "system",
-    "setting_id": "GFSD14_04",
+    "setting_id": "GFSD14_03",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

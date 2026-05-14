@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Galaxy @BBL X1C 0.6 nozzle",
     "inherits": "PolyLite PLA Galaxy @base",
     "from": "system",
-    "setting_id": "GFSL38_19",
+    "setting_id": "GFSL38_14",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

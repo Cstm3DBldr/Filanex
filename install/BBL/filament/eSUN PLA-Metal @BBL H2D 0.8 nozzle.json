@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Metal @BBL H2D 0.8 nozzle",
     "inherits": "eSUN PLA-Metal @base",
     "from": "system",
-    "setting_id": "GFSE55_36",
+    "setting_id": "GFSE55_27",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Marble @BBL X1C 0.4 nozzle",
     "inherits": "Orca Arena Arena PLA Marble @base",
     "from": "system",
-    "setting_id": "GFS111_18",
+    "setting_id": "GFS111_13",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

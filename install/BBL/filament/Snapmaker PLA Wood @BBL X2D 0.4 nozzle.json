@@ -3,7 +3,7 @@
     "name": "Snapmaker PLA Wood @BBL X2D 0.4 nozzle",
     "inherits": "Snapmaker PLA Wood @base",
     "from": "system",
-    "setting_id": "GFS107_26",
+    "setting_id": "GFS107_19",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

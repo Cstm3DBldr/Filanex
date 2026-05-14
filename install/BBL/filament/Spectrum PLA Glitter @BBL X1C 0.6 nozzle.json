@@ -3,7 +3,7 @@
     "name": "Spectrum PLA Glitter @BBL X1C 0.6 nozzle",
     "inherits": "Spectrum PLA Glitter @base",
     "from": "system",
-    "setting_id": "GFSW12_19",
+    "setting_id": "GFSW12_14",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

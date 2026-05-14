@@ -3,7 +3,7 @@
     "name": "Elegoo PLA Sparkle @BBL H2C 0.8 nozzle",
     "inherits": "Elegoo PLA Sparkle @base",
     "from": "system",
-    "setting_id": "GFSD21_32",
+    "setting_id": "GFSD21_24",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

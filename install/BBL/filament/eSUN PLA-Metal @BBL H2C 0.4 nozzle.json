@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Metal @BBL H2C 0.4 nozzle",
     "inherits": "eSUN PLA-Metal @base",
     "from": "system",
-    "setting_id": "GFSE55_30",
+    "setting_id": "GFSE55_22",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

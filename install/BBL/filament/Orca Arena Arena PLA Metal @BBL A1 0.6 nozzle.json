@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Metal @BBL A1 0.6 nozzle",
     "inherits": "Orca Arena Arena PLA Metal @base",
     "from": "system",
-    "setting_id": "GFS113_03",
+    "setting_id": "GFS113_02",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

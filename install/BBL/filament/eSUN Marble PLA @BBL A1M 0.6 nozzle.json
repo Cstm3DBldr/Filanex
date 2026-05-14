@@ -3,7 +3,7 @@
     "name": "eSUN Marble PLA @BBL A1M 0.6 nozzle",
     "inherits": "eSUN Marble PLA @base",
     "from": "system",
-    "setting_id": "GFSE21_07",
+    "setting_id": "GFSE21_05",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

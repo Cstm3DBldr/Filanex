@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Pro Metallic @BBL X2D 0.8 nozzle",
     "inherits": "PolyLite PLA Pro Metallic @base",
     "from": "system",
-    "setting_id": "GFSL43_28",
+    "setting_id": "GFSL43_21",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

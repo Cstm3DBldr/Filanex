@@ -3,7 +3,7 @@
     "name": "Spectrum WOOD @BBL H2D 0.6 nozzle",
     "inherits": "Spectrum WOOD @base",
     "from": "system",
-    "setting_id": "GFSW21_35",
+    "setting_id": "GFSW21_26",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

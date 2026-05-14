@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Starlight @BBL X1C 0.8 nozzle",
     "inherits": "Panchroma PLA Starlight @base",
     "from": "system",
-    "setting_id": "GFSL22_20",
+    "setting_id": "GFSL22_15",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

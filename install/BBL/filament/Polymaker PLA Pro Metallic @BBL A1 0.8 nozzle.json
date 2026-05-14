@@ -3,7 +3,7 @@
     "name": "Polymaker PLA Pro Metallic @BBL A1 0.8 nozzle",
     "inherits": "Polymaker PLA Pro Metallic @base",
     "from": "system",
-    "setting_id": "GFSL57_04",
+    "setting_id": "GFSL57_03",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

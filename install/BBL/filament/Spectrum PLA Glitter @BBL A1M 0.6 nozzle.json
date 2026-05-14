@@ -3,7 +3,7 @@
     "name": "Spectrum PLA Glitter @BBL A1M 0.6 nozzle",
     "inherits": "Spectrum PLA Glitter @base",
     "from": "system",
-    "setting_id": "GFSW12_07",
+    "setting_id": "GFSW12_05",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

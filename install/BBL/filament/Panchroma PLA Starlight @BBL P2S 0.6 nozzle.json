@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Starlight @BBL P2S 0.6 nozzle",
     "inherits": "Panchroma PLA Starlight @base",
     "from": "system",
-    "setting_id": "GFSL22_23",
+    "setting_id": "GFSL22_17",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

@@ -3,7 +3,7 @@
     "name": "Elegoo PLA Marble @BBL H2DP 0.8 nozzle",
     "inherits": "Elegoo PLA Marble @base",
     "from": "system",
-    "setting_id": "GFSD16_40",
+    "setting_id": "GFSD16_30",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

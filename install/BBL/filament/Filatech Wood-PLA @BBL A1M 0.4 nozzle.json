@@ -3,7 +3,7 @@
     "name": "Filatech Wood-PLA @BBL A1M 0.4 nozzle",
     "inherits": "Filatech Wood-PLA @base",
     "from": "system",
-    "setting_id": "GFSJ12_06",
+    "setting_id": "GFSJ12_04",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

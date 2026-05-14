@@ -3,7 +3,7 @@
     "name": "PolyTerra PLA Marble @BBL H2S 0.4 nozzle",
     "inherits": "PolyTerra PLA Marble @base",
     "from": "system",
-    "setting_id": "GFSL70_42",
+    "setting_id": "GFSL70_31",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

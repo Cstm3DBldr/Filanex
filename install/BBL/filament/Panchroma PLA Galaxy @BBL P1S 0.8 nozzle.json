@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Galaxy @BBL P1S 0.8 nozzle",
     "inherits": "Panchroma PLA Galaxy @base",
     "from": "system",
-    "setting_id": "GFSL13_12",
+    "setting_id": "GFSL13_09",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

@@ -3,7 +3,7 @@
     "name": "Extrudr Wood @BBL P2S 0.8 nozzle",
     "inherits": "Extrudr Wood @base",
     "from": "system",
-    "setting_id": "GFSX11_24",
+    "setting_id": "GFSX11_18",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

@@ -3,7 +3,7 @@
     "name": "SUNLU Wood PLA @BBL H2S 0.6 nozzle",
     "inherits": "SUNLU Wood PLA @SUNLU base",
     "from": "system",
-    "setting_id": "GFSY16_43",
+    "setting_id": "GFSY16_32",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

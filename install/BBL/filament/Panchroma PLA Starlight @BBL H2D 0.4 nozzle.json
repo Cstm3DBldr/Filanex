@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Starlight @BBL H2D 0.4 nozzle",
     "inherits": "Panchroma PLA Starlight @base",
     "from": "system",
-    "setting_id": "GFSL22_34",
+    "setting_id": "GFSL22_25",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

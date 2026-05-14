@@ -3,7 +3,7 @@
     "name": "Hatchbox Stone PLA @BBL X1 0.4 nozzle",
     "inherits": "Hatchbox Stone PLA @base",
     "from": "system",
-    "setting_id": "GFSH13_14",
+    "setting_id": "GFSH13_10",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

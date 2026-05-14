@@ -3,7 +3,7 @@
     "name": "Hatchbox Stone PLA @BBL A1M 0.6 nozzle",
     "inherits": "Hatchbox Stone PLA @base",
     "from": "system",
-    "setting_id": "GFSH13_07",
+    "setting_id": "GFSH13_05",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

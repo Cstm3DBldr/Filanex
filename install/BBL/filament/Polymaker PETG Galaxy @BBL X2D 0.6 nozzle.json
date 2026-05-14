@@ -3,7 +3,7 @@
     "name": "Polymaker PETG Galaxy @BBL X2D 0.6 nozzle",
     "inherits": "Polymaker PETG Galaxy @base",
     "from": "system",
-    "setting_id": "GFSL53_27",
+    "setting_id": "GFSL53_20",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"

@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Metallic @BBL X1 0.8 nozzle",
     "inherits": "Panchroma PLA Metallic @base",
     "from": "system",
-    "setting_id": "GFSL18_16",
+    "setting_id": "GFSL18_12",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

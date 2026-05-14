@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Galaxy @BBL A1M 0.6 nozzle",
     "inherits": "PolyLite PLA Galaxy @base",
     "from": "system",
-    "setting_id": "GFSL38_07",
+    "setting_id": "GFSL38_05",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

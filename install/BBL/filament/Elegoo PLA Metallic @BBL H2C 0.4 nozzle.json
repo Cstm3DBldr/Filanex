@@ -3,7 +3,7 @@
     "name": "Elegoo PLA Metallic @BBL H2C 0.4 nozzle",
     "inherits": "Elegoo PLA Metallic @base",
     "from": "system",
-    "setting_id": "GFSD18_30",
+    "setting_id": "GFSD18_22",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

@@ -3,7 +3,7 @@
     "name": "Hatchbox Stone PLA @BBL H2DP 0.6 nozzle",
     "inherits": "Hatchbox Stone PLA @base",
     "from": "system",
-    "setting_id": "GFSH13_39",
+    "setting_id": "GFSH13_29",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

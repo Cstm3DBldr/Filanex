@@ -3,7 +3,7 @@
     "name": "eSUN Marble PLA @BBL P2S 0.6 nozzle",
     "inherits": "eSUN Marble PLA @base",
     "from": "system",
-    "setting_id": "GFSE21_23",
+    "setting_id": "GFSE21_17",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

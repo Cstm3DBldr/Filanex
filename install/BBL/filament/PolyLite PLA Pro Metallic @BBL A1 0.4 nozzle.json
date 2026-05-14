@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Pro Metallic @BBL A1 0.4 nozzle",
     "inherits": "PolyLite PLA Pro Metallic @base",
     "from": "system",
-    "setting_id": "GFSL43_02",
+    "setting_id": "GFSL43_01",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

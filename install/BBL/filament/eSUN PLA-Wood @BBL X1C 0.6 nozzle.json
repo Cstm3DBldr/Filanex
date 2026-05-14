@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Wood @BBL X1C 0.6 nozzle",
     "inherits": "eSUN PLA-Wood @base",
     "from": "system",
-    "setting_id": "GFSE60_19",
+    "setting_id": "GFSE60_14",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

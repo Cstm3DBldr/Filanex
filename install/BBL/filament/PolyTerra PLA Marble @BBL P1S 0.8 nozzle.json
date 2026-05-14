@@ -3,7 +3,7 @@
     "name": "PolyTerra PLA Marble @BBL P1S 0.8 nozzle",
     "inherits": "PolyTerra PLA Marble @base",
     "from": "system",
-    "setting_id": "GFSL70_12",
+    "setting_id": "GFSL70_09",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

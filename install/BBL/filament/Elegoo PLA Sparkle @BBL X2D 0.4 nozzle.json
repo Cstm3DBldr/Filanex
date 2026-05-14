@@ -3,7 +3,7 @@
     "name": "Elegoo PLA Sparkle @BBL X2D 0.4 nozzle",
     "inherits": "Elegoo PLA Sparkle @base",
     "from": "system",
-    "setting_id": "GFSD21_26",
+    "setting_id": "GFSD21_19",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

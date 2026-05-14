@@ -3,7 +3,7 @@
     "name": "SUNLU Wood PLA @BBL X1C 0.8 nozzle",
     "inherits": "SUNLU Wood PLA @SUNLU base",
     "from": "system",
-    "setting_id": "GFSY16_20",
+    "setting_id": "GFSY16_15",
     "instantiation": "true",
     "filament_flow_ratio": [
         "1.0",

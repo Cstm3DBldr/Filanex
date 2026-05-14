@@ -3,7 +3,7 @@
     "name": "Extrudr Wood @BBL X1C 0.8 nozzle",
     "inherits": "Extrudr Wood @base",
     "from": "system",
-    "setting_id": "GFSX11_20",
+    "setting_id": "GFSX11_15",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

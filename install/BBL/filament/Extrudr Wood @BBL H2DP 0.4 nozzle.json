@@ -3,7 +3,7 @@
     "name": "Extrudr Wood @BBL H2DP 0.4 nozzle",
     "inherits": "Extrudr Wood @base",
     "from": "system",
-    "setting_id": "GFSX11_38",
+    "setting_id": "GFSX11_28",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

@@ -3,7 +3,7 @@
     "name": "Spectrum PLA Glitter @BBL H2S 0.8 nozzle",
     "inherits": "Spectrum PLA Glitter @base",
     "from": "system",
-    "setting_id": "GFSW12_44",
+    "setting_id": "GFSW12_33",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

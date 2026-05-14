@@ -3,7 +3,7 @@
     "name": "eSUN PLA-marble @BBL H2DP 0.8 nozzle",
     "inherits": "eSUN PLA-marble @base",
     "from": "system",
-    "setting_id": "GFSE53_40",
+    "setting_id": "GFSE53_30",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

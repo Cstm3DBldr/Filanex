@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Wood @BBL X1 0.8 nozzle",
     "inherits": "eSUN PLA-Wood @base",
     "from": "system",
-    "setting_id": "GFSE60_16",
+    "setting_id": "GFSE60_12",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

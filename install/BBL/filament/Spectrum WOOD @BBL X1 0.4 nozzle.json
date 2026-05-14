@@ -3,7 +3,7 @@
     "name": "Spectrum WOOD @BBL X1 0.4 nozzle",
     "inherits": "Spectrum WOOD @base",
     "from": "system",
-    "setting_id": "GFSW21_14",
+    "setting_id": "GFSW21_10",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

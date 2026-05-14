@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Galaxy @BBL X1 0.8 nozzle",
     "inherits": "Panchroma PLA Galaxy @base",
     "from": "system",
-    "setting_id": "GFSL13_16",
+    "setting_id": "GFSL13_12",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

@@ -3,7 +3,7 @@
     "name": "Elegoo PLA Marble @BBL P2S 0.8 nozzle",
     "inherits": "Elegoo PLA Marble @base",
     "from": "system",
-    "setting_id": "GFSD16_24",
+    "setting_id": "GFSD16_18",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

@@ -3,7 +3,7 @@
     "name": "SUNLU Wood PLA @BBL X2D 0.8 nozzle",
     "inherits": "SUNLU Wood PLA @SUNLU base",
     "from": "system",
-    "setting_id": "GFSY16_28",
+    "setting_id": "GFSY16_21",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

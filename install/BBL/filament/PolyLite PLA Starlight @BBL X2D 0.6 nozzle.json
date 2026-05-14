@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Starlight @BBL X2D 0.6 nozzle",
     "inherits": "PolyLite PLA Starlight @base",
     "from": "system",
-    "setting_id": "GFSL44_27",
+    "setting_id": "GFSL44_20",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

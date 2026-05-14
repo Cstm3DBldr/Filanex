@@ -3,7 +3,7 @@
     "name": "SUNLU PLA Marble (High Speed) @BBL X1 0.8 nozzle",
     "inherits": "SUNLU PLA Marble (High Speed) @base",
     "from": "system",
-    "setting_id": "GFSY11_16",
+    "setting_id": "GFSY11_12",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

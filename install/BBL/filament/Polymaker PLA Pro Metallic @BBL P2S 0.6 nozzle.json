@@ -3,7 +3,7 @@
     "name": "Polymaker PLA Pro Metallic @BBL P2S 0.6 nozzle",
     "inherits": "Polymaker PLA Pro Metallic @base",
     "from": "system",
-    "setting_id": "GFSL57_23",
+    "setting_id": "GFSL57_17",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

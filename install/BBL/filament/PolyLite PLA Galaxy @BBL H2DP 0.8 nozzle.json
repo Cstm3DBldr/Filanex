@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Galaxy @BBL H2DP 0.8 nozzle",
     "inherits": "PolyLite PLA Galaxy @base",
     "from": "system",
-    "setting_id": "GFSL38_40",
+    "setting_id": "GFSL38_30",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

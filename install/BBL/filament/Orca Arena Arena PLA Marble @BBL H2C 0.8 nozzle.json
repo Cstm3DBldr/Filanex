@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Marble @BBL H2C 0.8 nozzle",
     "inherits": "Orca Arena Arena PLA Marble @base",
     "from": "system",
-    "setting_id": "GFS111_32",
+    "setting_id": "GFS111_24",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

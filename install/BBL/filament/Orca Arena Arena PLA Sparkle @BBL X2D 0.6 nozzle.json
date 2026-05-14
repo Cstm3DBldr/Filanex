@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Sparkle @BBL X2D 0.6 nozzle",
     "inherits": "Orca Arena Arena PLA Sparkle @base",
     "from": "system",
-    "setting_id": "GFS115_27",
+    "setting_id": "GFS115_20",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

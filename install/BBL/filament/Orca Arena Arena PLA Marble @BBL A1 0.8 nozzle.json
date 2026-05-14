@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Marble @BBL A1 0.8 nozzle",
     "inherits": "Orca Arena Arena PLA Marble @base",
     "from": "system",
-    "setting_id": "GFS111_04",
+    "setting_id": "GFS111_03",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

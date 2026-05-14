@@ -3,7 +3,7 @@
     "name": "SUNLU PLA Marble (High Speed) @BBL H2D 0.6 nozzle",
     "inherits": "SUNLU PLA Marble (High Speed) @base",
     "from": "system",
-    "setting_id": "GFSY11_35",
+    "setting_id": "GFSY11_26",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

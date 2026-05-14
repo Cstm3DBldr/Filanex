@@ -3,7 +3,7 @@
     "name": "Spectrum WOOD @BBL X1C 0.8 nozzle",
     "inherits": "Spectrum WOOD @base",
     "from": "system",
-    "setting_id": "GFSW21_20",
+    "setting_id": "GFSW21_15",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

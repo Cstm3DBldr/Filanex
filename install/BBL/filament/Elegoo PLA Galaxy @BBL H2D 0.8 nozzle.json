@@ -3,7 +3,7 @@
     "name": "Elegoo PLA Galaxy @BBL H2D 0.8 nozzle",
     "inherits": "Elegoo PLA Galaxy @base",
     "from": "system",
-    "setting_id": "GFSD14_36",
+    "setting_id": "GFSD14_27",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

@@ -38,5 +38,11 @@
     ],
     "temperature_vitrification": [
         "170"
-    ]
+    ],
+    "_filanex_advisory": {
+        "matched_variants": [],
+        "min_nozzle_size_mm": 0.4,
+        "hardened_nozzle_required": true,
+        "hardened_nozzle_recommended": false
+    }
 }

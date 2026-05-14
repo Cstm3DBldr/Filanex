@@ -3,7 +3,7 @@
     "name": "Elegoo PLA Marble @BBL A1 0.6 nozzle",
     "inherits": "Elegoo PLA Marble @base",
     "from": "system",
-    "setting_id": "GFSD16_03",
+    "setting_id": "GFSD16_02",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

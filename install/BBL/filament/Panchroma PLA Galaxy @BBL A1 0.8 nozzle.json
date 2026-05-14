@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Galaxy @BBL A1 0.8 nozzle",
     "inherits": "Panchroma PLA Galaxy @base",
     "from": "system",
-    "setting_id": "GFSL13_04",
+    "setting_id": "GFSL13_03",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

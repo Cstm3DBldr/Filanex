@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Metallic @BBL A1 0.8 nozzle",
     "inherits": "Panchroma PLA Metallic @base",
     "from": "system",
-    "setting_id": "GFSL18_04",
+    "setting_id": "GFSL18_03",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

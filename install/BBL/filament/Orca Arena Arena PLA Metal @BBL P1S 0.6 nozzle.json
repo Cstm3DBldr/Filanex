@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Metal @BBL P1S 0.6 nozzle",
     "inherits": "Orca Arena Arena PLA Metal @base",
     "from": "system",
-    "setting_id": "GFS113_11",
+    "setting_id": "GFS113_08",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

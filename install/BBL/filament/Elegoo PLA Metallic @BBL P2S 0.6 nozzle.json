@@ -3,7 +3,7 @@
     "name": "Elegoo PLA Metallic @BBL P2S 0.6 nozzle",
     "inherits": "Elegoo PLA Metallic @base",
     "from": "system",
-    "setting_id": "GFSD18_23",
+    "setting_id": "GFSD18_17",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

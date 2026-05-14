@@ -3,7 +3,7 @@
     "name": "SUNLU PLA Marble @BBL X1C 0.8 nozzle",
     "inherits": "SUNLU PLA Marble @SUNLU base",
     "from": "system",
-    "setting_id": "GFSY10_20",
+    "setting_id": "GFSY10_15",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

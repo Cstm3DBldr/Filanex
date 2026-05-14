@@ -63,7 +63,7 @@ TRACKING_TOOL = "polymaker-installer/1"
 # field to this constant; if remote is newer, it offers a self-update.
 # bundle_bbl_inject.py parses this constant out of install.py and stamps
 # it into the additions.json it ships, so they always match per release.
-INSTALLER_VERSION = "1.4.0"
+INSTALLER_VERSION = "1.4.1"
 
 # Stable URL for the `update` subcommand. Points at the BBL-injection
 # bundle on the project's default branch via GitHub raw. Override with
