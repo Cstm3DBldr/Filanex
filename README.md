@@ -29,6 +29,8 @@ The installer is self-updating: when a new `install.exe` version ships it offers
 
 `install.exe` is a self-contained PyInstaller binary — Python + GUI + branding baked in. Nothing else needs to be installed.
 
+> **Cosmetic warning you may occasionally see:** *"Failed to remove temporary directory: C:\Users\…\AppData\Local\Temp\_MEIxxxx"*. This is the Python bundling system's own bootloader. It happens when Windows hasn't released a file handle by the time the bootloader tries to clean up its own working folder. Safe to ignore — the next `install.exe` launch cleans up the orphaned `_MEI*` folders automatically.
+
 **Non-Windows / Python users:** the same logic ships as [`install/install.py`](install/install.py); run with Python 3.9+ in any environment with Tk. The `.py` flow expects the bundle (`additions.json` + `BBL/filament/`) next to it OR will fetch it from this repo at runtime — same behavior as the `.exe`.
 
 ## What you're installing

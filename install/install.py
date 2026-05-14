@@ -1259,6 +1259,13 @@ def perform_self_update(remote_version: str) -> None:
         creationflags=DETACHED_PROCESS | CREATE_NEW_PROCESS_GROUP,
         close_fds=True,
     )
+    # Brief pause so the new process gets past its PyInstaller
+    # bootloader's _MEI extraction + file-mapping phase before our
+    # parent exits. Without this the parent occasionally sees a
+    # MessageBox 'Failed to remove temporary directory _MEIxxxx'
+    # when its own bootloader tries to clean up before the OS has
+    # fully untangled the two processes' handles.
+    time.sleep(0.5)
 
 
 def cleanup_old_installer() -> None:
@@ -1482,11 +1489,18 @@ def relaunch(exe_path: Path) -> None:
     try:
         if platform.system() == "Darwin":
             subprocess.Popen(["open", "-a", "BambuStudio"])
+        elif platform.system() == "Windows":
+            # os.startfile uses ShellExecute under the hood -- it
+            # returns immediately and the launched process has NO
+            # connection back to our process (no inherited handles,
+            # no parent-child relationship). subprocess.Popen even
+            # with DETACHED_PROCESS still gets PyInstaller's bootloader
+            # confused on exit, occasionally producing a "Failed to
+            # remove temporary directory _MEIxxxx" MessageBox.
+            # ShellExecute sidesteps this entirely.
+            os.startfile(str(exe_path))
         else:
-            kwargs: dict = {}
-            if platform.system() == "Windows":
-                kwargs["creationflags"] = 0x00000200 | 0x00000008
-            subprocess.Popen([str(exe_path)], close_fds=True, **kwargs)
+            subprocess.Popen([str(exe_path)], close_fds=True)
         print("Launched.")
     except Exception as e:
         print(f"Could not auto-launch: {e}")
