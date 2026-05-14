@@ -515,26 +515,56 @@ class Wizard(tk.Tk):
             self._set_buttons(back=True, next_text="Next >", next_enabled=True)
             return
 
-        # Installer self-update available -- offer Update Now button.
+        # Installer self-update available. Make this prominent --
+        # the big blue "Download & Run New Version" button is the
+        # primary path; the bypass goes through the wizard's Next
+        # button (relabeled to make the choice clear). The latest
+        # profile data still installs fine via the current installer
+        # binary because the wire format is stable -- only the .exe's
+        # local code changes between installer versions.
+        primary_row = tk.Frame(self.content, bg="#1976d2")
+        primary_row.pack(fill="x", pady=(4, 12))
+        tk.Button(
+            primary_row,
+            text=f"⬇  Download & Run v{remote_version}",
+            command=lambda: self._do_self_update(remote_version),
+            bg="#1976d2", fg="white",
+            activebackground="#1565c0", activeforeground="white",
+            font=("Segoe UI", 11, "bold"),
+            relief="flat", bd=0, padx=24, pady=10,
+            cursor="hand2",
+        ).pack(fill="x")
+
         ttk.Label(
             self.content,
-            text="If you update, the installer will download the new "
-                 ".exe, swap it in, close this window, and re-open the "
-                 "wizard with the new version. No further clicks needed "
-                 "-- you'll land back at a Welcome screen confirming "
-                 "the update so you can continue.",
-            foreground="#444", justify="left", wraplength=540,
-        ).pack(anchor="w", pady=(0, 12))
+            text=(
+                "Clicking the blue button: closes this wizard, downloads "
+                "the new install.exe, and re-launches it automatically. "
+                "Recommended -- you'll get the latest installer features."
+            ),
+            foreground="#444", justify="left", wraplength=560,
+        ).pack(anchor="w", pady=(0, 16))
 
-        btn_row = ttk.Frame(self.content)
-        btn_row.pack(anchor="w", pady=(8, 0))
-        ttk.Button(
-            btn_row, text=f"Update Now to v{remote_version}",
-            command=lambda: self._do_self_update(remote_version),
-        ).pack(side="left")
+        ttk.Separator(self.content, orient="horizontal").pack(fill="x", pady=(0, 12))
 
-        self._set_buttons(back=True, next_text="Skip update",
-                          next_enabled=True)
+        ttk.Label(
+            self.content,
+            text=(
+                f"OR continue with your current installer (v{installer_v}). "
+                f"The next screen still pulls the latest profile data -- "
+                f"the bundle wire format is stable, so v{installer_v} can "
+                f"install profiles produced for any newer installer."
+            ),
+            foreground="#444", justify="left", wraplength=560,
+        ).pack(anchor="w", pady=(0, 4))
+
+        # Wizard footer Next button is relabeled to make the bypass
+        # path explicit (the primary action is the blue button above).
+        self._set_buttons(
+            back=True,
+            next_text=f"Use current v{installer_v} >",
+            next_enabled=True,
+        )
 
     def _do_self_update(self, remote_version: str) -> None:
         # Replace the page content with a "downloading" spinner, lock
