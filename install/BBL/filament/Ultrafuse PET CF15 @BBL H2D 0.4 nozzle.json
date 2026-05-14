@@ -3,7 +3,7 @@
     "name": "Ultrafuse PET CF15 @BBL H2D 0.4 nozzle",
     "inherits": "Ultrafuse PET CF15 @base",
     "from": "system",
-    "setting_id": "GFSZ10_06",
+    "setting_id": "GFSZ10_16",
     "instantiation": "true",
     "chamber_temperatures": [
         "50"

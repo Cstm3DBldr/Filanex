@@ -3,7 +3,7 @@
     "name": "eSUN PLA-CF @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFE46",
+    "filament_id": "GFE45",
     "instantiation": "false",
     "additional_cooling_fan_speed": [
         "0"

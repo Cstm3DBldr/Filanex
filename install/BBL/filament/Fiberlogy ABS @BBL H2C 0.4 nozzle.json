@@ -3,7 +3,7 @@
     "name": "Fiberlogy ABS @BBL H2C 0.4 nozzle",
     "inherits": "Fiberlogy ABS @base",
     "from": "system",
-    "setting_id": "GFSV01_06",
+    "setting_id": "GFSV01_22",
     "instantiation": "true",
     "fan_max_speed": [
         "20"

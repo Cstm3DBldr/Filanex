@@ -3,7 +3,7 @@
     "name": "PolySonic PLA Pro @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFL69",
+    "filament_id": "GFL66",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

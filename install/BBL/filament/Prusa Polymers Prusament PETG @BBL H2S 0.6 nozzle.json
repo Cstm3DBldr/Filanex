@@ -3,7 +3,7 @@
     "name": "Prusa Polymers Prusament PETG @BBL H2S 0.6 nozzle",
     "inherits": "Prusa Polymers Prusament PETG @base",
     "from": "system",
-    "setting_id": "GFSQ13_11",
+    "setting_id": "GFSQ12_43",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"
@@ -34,8 +34,8 @@
         "8"
     ],
     "filament_max_volumetric_speed": [
-        "19.0",
-        "19.0"
+        "12.75",
+        "12.75"
     ],
     "filament_retraction_length": [
         "0.4",
@@ -80,12 +80,12 @@
         "0"
     ],
     "nozzle_temperature": [
-        "241.25",
-        "241.25"
+        "245.0",
+        "245.0"
     ],
     "nozzle_temperature_initial_layer": [
-        "242.5",
-        "242.5"
+        "245.0",
+        "245.0"
     ],
     "overhang_fan_speed": [
         "100"

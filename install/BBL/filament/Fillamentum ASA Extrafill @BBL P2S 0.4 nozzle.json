@@ -3,7 +3,7 @@
     "name": "Fillamentum ASA Extrafill @BBL P2S 0.4 nozzle",
     "inherits": "Fillamentum ASA Extrafill @base",
     "from": "system",
-    "setting_id": "GFSP02_04",
+    "setting_id": "GFSP02_14",
     "instantiation": "true",
     "activate_air_filtration": [
         "0"

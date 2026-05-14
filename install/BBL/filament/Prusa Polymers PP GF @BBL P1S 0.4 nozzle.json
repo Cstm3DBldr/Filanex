@@ -3,7 +3,7 @@
     "name": "Prusa Polymers PP GF @BBL P1S 0.4 nozzle",
     "inherits": "Prusa Polymers PP GF @base",
     "from": "system",
-    "setting_id": "GFSQ09_03",
+    "setting_id": "GFSQ09_10",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

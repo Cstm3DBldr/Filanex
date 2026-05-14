@@ -1,0 +1,55 @@
+{
+    "type": "filament",
+    "name": "Prusa Polymers Prusament PC Blend @BBL X1E 0.2 nozzle",
+    "inherits": "Prusa Polymers Prusament PC Blend @base",
+    "from": "system",
+    "setting_id": "GFSQ11_09",
+    "instantiation": "true",
+    "chamber_temperatures": [
+        "60"
+    ],
+    "fan_max_speed": [
+        "40"
+    ],
+    "filament_flow_ratio": [
+        "1.0",
+        "1.0"
+    ],
+    "filament_max_volumetric_speed": [
+        "13.0",
+        "13.0"
+    ],
+    "filament_ramming_travel_time": [
+        "0",
+        "0"
+    ],
+    "include": [
+        "fdm_filament_template_direct_dual"
+    ],
+    "long_retractions_when_ec": [
+        "0",
+        "0"
+    ],
+    "nozzle_temperature": [
+        "272.5",
+        "272.5"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "272.5",
+        "272.5"
+    ],
+    "retraction_distances_when_ec": [
+        "0",
+        "0"
+    ],
+    "slow_down_layer_time": [
+        "12"
+    ],
+    "slow_down_min_speed": [
+        "20",
+        "20"
+    ],
+    "compatible_printers": [
+        "Bambu Lab X1E 0.2 nozzle"
+    ]
+}

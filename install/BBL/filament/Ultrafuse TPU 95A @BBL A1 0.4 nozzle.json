@@ -3,7 +3,7 @@
     "name": "Ultrafuse TPU 95A @BBL A1 0.4 nozzle",
     "inherits": "Ultrafuse TPU 95A @base",
     "from": "system",
-    "setting_id": "GFSZ20_01",
+    "setting_id": "GFSZ20_02",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

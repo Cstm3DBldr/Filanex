@@ -3,7 +3,7 @@
     "name": "Extrudr PLA HS @BBL X2D 0.4 nozzle",
     "inherits": "Extrudr PLA HS @base",
     "from": "system",
-    "setting_id": "GFSX08_07",
+    "setting_id": "GFSX08_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

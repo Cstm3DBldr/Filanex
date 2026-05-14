@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Neon @BBL P1S 0.4 nozzle",
     "inherits": "Panchroma PLA Neon @base",
     "from": "system",
-    "setting_id": "GFSL19_03",
+    "setting_id": "GFSL19_10",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

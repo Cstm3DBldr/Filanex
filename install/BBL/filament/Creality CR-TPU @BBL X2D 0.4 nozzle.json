@@ -3,7 +3,7 @@
     "name": "Creality CR-TPU @BBL X2D 0.4 nozzle",
     "inherits": "Creality CR-TPU @base",
     "from": "system",
-    "setting_id": "GFSR05_06",
+    "setting_id": "GFSR05_22",
     "instantiation": "true",
     "eng_plate_temp": [
         "35"

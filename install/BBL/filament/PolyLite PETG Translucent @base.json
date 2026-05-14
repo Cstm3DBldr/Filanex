@@ -3,7 +3,7 @@
     "name": "PolyLite PETG Translucent @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFL38",
+    "filament_id": "GFL35",
     "instantiation": "false",
     "cool_plate_temp": [
         "0.0"

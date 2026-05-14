@@ -3,7 +3,7 @@
     "name": "Spectrum PETG CF @BBL P2S 0.4 nozzle",
     "inherits": "Spectrum PETG CF @base",
     "from": "system",
-    "setting_id": "GFSW11_04",
+    "setting_id": "GFSW11_10",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0022"

@@ -3,7 +3,7 @@
     "name": "addnorth Adura X @BBL H2C 0.4 nozzle",
     "inherits": "addnorth Adura X @base",
     "from": "system",
-    "setting_id": "GFS101_05",
+    "setting_id": "GFS101_13",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

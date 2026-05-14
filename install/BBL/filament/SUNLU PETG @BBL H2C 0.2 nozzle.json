@@ -3,7 +3,7 @@
     "name": "SUNLU PETG @BBL H2C 0.2 nozzle",
     "inherits": "SUNLU PETG @SUNLU base",
     "from": "system",
-    "setting_id": "GFSY04_08",
+    "setting_id": "GFSY04_29",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"
@@ -34,8 +34,8 @@
         "8"
     ],
     "filament_max_volumetric_speed": [
-        "1.0",
-        "1.0"
+        "12.0",
+        "12.0"
     ],
     "filament_pre_cooling_temperature_nc": [
         "205",

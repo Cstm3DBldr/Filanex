@@ -3,7 +3,7 @@
     "name": "Prusa Polymers PVB @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFQ17",
+    "filament_id": "GFQ16",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

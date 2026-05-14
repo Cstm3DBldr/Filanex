@@ -3,7 +3,7 @@
     "name": "Hatchbox Rapid PETG @BBL P1P 0.4 nozzle",
     "inherits": "Hatchbox Rapid PETG @base",
     "from": "system",
-    "setting_id": "GFSH12_03",
+    "setting_id": "GFSH12_10",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"

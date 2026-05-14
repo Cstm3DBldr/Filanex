@@ -3,7 +3,7 @@
     "name": "PolyLite LW-PLA @BBL P1S 0.4 nozzle",
     "inherits": "PolyLite LW-PLA @base",
     "from": "system",
-    "setting_id": "GFSL35_03",
+    "setting_id": "GFSL33_10",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

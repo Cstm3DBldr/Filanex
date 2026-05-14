@@ -3,7 +3,7 @@
     "name": "Creality CR-PLA Carbon @BBL A1M 0.4 nozzle",
     "inherits": "Creality CR-PLA Carbon @base",
     "from": "system",
-    "setting_id": "GFSR03_02",
+    "setting_id": "GFSR03_04",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

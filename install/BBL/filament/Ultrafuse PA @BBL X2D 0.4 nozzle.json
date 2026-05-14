@@ -3,7 +3,7 @@
     "name": "Ultrafuse PA @BBL X2D 0.4 nozzle",
     "inherits": "Ultrafuse PA @base",
     "from": "system",
-    "setting_id": "GFSZ04_04",
+    "setting_id": "GFSZ04_14",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"

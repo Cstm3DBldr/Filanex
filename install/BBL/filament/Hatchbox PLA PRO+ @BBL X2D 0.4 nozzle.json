@@ -3,7 +3,7 @@
     "name": "Hatchbox PLA PRO+ @BBL X2D 0.4 nozzle",
     "inherits": "Hatchbox PLA PRO+ @base",
     "from": "system",
-    "setting_id": "GFSH07_07",
+    "setting_id": "GFSH07_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

@@ -3,7 +3,7 @@
     "name": "SUNLU Wood PLA @SUNLU base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFY19",
+    "filament_id": "GFY16",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

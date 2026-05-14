@@ -3,7 +3,7 @@
     "name": "Fiberlogy Nylon PA12 GF15 @BBL P2S 0.4 nozzle",
     "inherits": "Fiberlogy Nylon PA12 GF15 @base",
     "from": "system",
-    "setting_id": "GFSV23_02",
+    "setting_id": "GFSV23_04",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

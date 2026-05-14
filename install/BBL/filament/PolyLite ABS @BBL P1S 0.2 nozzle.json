@@ -17,8 +17,8 @@
         "nil"
     ],
     "filament_max_volumetric_speed": [
-        "2.0",
-        "2.0"
+        "15.0",
+        "15.0"
     ],
     "filament_retraction_distances_when_cut": [
         "18",
@@ -48,8 +48,8 @@
         "0"
     ],
     "nozzle_temperature": [
-        "258.75",
-        "258.75"
+        "260.0",
+        "260.0"
     ],
     "nozzle_temperature_initial_layer": [
         "255.0",

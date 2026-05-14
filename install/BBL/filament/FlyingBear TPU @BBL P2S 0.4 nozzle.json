@@ -3,7 +3,7 @@
     "name": "FlyingBear TPU @BBL P2S 0.4 nozzle",
     "inherits": "FlyingBear TPU @base",
     "from": "system",
-    "setting_id": "GFS107_05",
+    "setting_id": "GFS107_18",
     "instantiation": "true",
     "eng_plate_temp": [
         "35"

@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena Support W @BBL P2S 0.4 nozzle",
     "inherits": "Orca Arena Arena Support W @base",
     "from": "system",
-    "setting_id": "GFS134_06",
+    "setting_id": "GFS118_22",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

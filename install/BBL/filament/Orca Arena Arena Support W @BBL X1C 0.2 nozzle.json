@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena Support W @BBL X1C 0.2 nozzle",
     "inherits": "Orca Arena Arena Support W @base",
     "from": "system",
-    "setting_id": "GFS133_05",
+    "setting_id": "GFS118_17",
     "instantiation": "true",
     "filament_flow_ratio": [
         "1.0",
@@ -14,8 +14,8 @@
         "1"
     ],
     "filament_max_volumetric_speed": [
-        "0.5",
-        "0.5"
+        "12.0",
+        "12.0"
     ],
     "filament_retraction_distances_when_cut": [
         "18",
@@ -33,12 +33,12 @@
         "0"
     ],
     "nozzle_temperature": [
-        "240.0",
-        "240.0"
+        "220.0",
+        "220.0"
     ],
     "nozzle_temperature_initial_layer": [
-        "240.0",
-        "240.0"
+        "220.0",
+        "220.0"
     ],
     "retraction_distances_when_ec": [
         "0",

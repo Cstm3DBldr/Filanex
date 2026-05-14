@@ -3,7 +3,7 @@
     "name": "SUNLU PETG-CF @BBL A1M 0.4 nozzle",
     "inherits": "SUNLU PETG-CF @base",
     "from": "system",
-    "setting_id": "GFSY07_02",
+    "setting_id": "GFSY05_04",
     "instantiation": "true",
     "filament_max_volumetric_speed": [
         "10.46"

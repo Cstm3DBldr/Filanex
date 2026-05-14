@@ -1,0 +1,14 @@
+{
+    "type": "filament",
+    "name": "Flashforge PETG-CF @BBL A1M 0.8 nozzle",
+    "inherits": "Flashforge PETG-CF @base",
+    "from": "system",
+    "setting_id": "GFSF06_06",
+    "instantiation": "true",
+    "filament_max_volumetric_speed": [
+        "4.18"
+    ],
+    "compatible_printers": [
+        "Bambu Lab A1 mini 0.8 nozzle"
+    ]
+}

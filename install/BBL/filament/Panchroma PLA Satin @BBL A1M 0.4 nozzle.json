@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Satin @BBL A1M 0.4 nozzle",
     "inherits": "Panchroma PLA Satin @base",
     "from": "system",
-    "setting_id": "GFSL20_02",
+    "setting_id": "GFSL20_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

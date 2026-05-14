@@ -3,7 +3,7 @@
     "name": "SUNLU PLA Marble (High Speed) @BBL X2D 0.4 nozzle",
     "inherits": "SUNLU PLA Marble (High Speed) @base",
     "from": "system",
-    "setting_id": "GFSY13_07",
+    "setting_id": "GFSY11_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

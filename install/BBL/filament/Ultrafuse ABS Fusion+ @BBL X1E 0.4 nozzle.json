@@ -3,7 +3,7 @@
     "name": "Ultrafuse ABS Fusion+ @BBL X1E 0.4 nozzle",
     "inherits": "Ultrafuse ABS Fusion+ @base",
     "from": "system",
-    "setting_id": "GFSZ02_03",
+    "setting_id": "GFSZ02_10",
     "instantiation": "true",
     "fan_max_speed": [
         "60"

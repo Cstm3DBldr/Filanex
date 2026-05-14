@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PC @BBL X1C 0.2 nozzle",
     "inherits": "Orca Arena Arena PC @base",
     "from": "system",
-    "setting_id": "GFS106_02",
+    "setting_id": "GFS104_05",
     "instantiation": "true",
     "fan_max_speed": [
         "40"
@@ -13,8 +13,8 @@
         "0.94"
     ],
     "filament_max_volumetric_speed": [
-        "1.0",
-        "1.0"
+        "20.6",
+        "20.6"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -28,8 +28,8 @@
         "0"
     ],
     "nozzle_temperature": [
-        "260.0",
-        "260.0"
+        "280.0",
+        "280.0"
     ],
     "nozzle_temperature_initial_layer": [
         "270.0",

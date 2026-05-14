@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Satin @BBL X1 0.4 nozzle",
     "inherits": "Panchroma PLA Satin @base",
     "from": "system",
-    "setting_id": "GFSL20_04",
+    "setting_id": "GFSL20_14",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

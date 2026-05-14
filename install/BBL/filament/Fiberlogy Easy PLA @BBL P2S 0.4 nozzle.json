@@ -3,7 +3,7 @@
     "name": "Fiberlogy Easy PLA @BBL P2S 0.4 nozzle",
     "inherits": "Fiberlogy Easy PLA @base",
     "from": "system",
-    "setting_id": "GFSV08_06",
+    "setting_id": "GFSV08_22",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

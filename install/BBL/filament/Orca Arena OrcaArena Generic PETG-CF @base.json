@@ -3,7 +3,7 @@
     "name": "Orca Arena OrcaArena Generic PETG-CF @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFO136",
+    "filament_id": "GFO120",
     "instantiation": "false",
     "cool_plate_temp": [
         "0.0"

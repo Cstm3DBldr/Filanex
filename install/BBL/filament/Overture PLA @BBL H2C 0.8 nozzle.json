@@ -3,7 +3,7 @@
     "name": "Overture PLA @BBL H2C 0.8 nozzle",
     "inherits": "Overture PLA @Overture base",
     "from": "system",
-    "setting_id": "GFSO19_08",
+    "setting_id": "GFSO15_32",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"
@@ -40,12 +40,12 @@
         "10"
     ],
     "filament_flow_ratio": [
-        "1.0",
-        "1.0"
+        "0.98",
+        "0.98"
     ],
     "filament_max_volumetric_speed": [
-        "19.0",
-        "19.0"
+        "15.0",
+        "15.0"
     ],
     "filament_pre_cooling_temperature_nc": [
         "180",
@@ -104,12 +104,12 @@
         "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
-        "215.0",
-        "215.0"
+        "220.0",
+        "220.0"
     ],
     "nozzle_temperature_initial_layer": [
-        "222.5",
-        "222.5"
+        "220.0",
+        "220.0"
     ],
     "pre_start_fan_time": [
         "2"

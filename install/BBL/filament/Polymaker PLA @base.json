@@ -3,7 +3,7 @@
     "name": "Polymaker PLA @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFL58",
+    "filament_id": "GFL55",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

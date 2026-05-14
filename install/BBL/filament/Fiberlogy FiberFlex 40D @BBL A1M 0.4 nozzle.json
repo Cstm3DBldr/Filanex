@@ -3,7 +3,7 @@
     "name": "Fiberlogy FiberFlex 40D @BBL A1M 0.4 nozzle",
     "inherits": "Fiberlogy FiberFlex 40D @base",
     "from": "system",
-    "setting_id": "GFSV11_02",
+    "setting_id": "GFSV11_06",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

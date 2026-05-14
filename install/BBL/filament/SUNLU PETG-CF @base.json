@@ -3,7 +3,7 @@
     "name": "SUNLU PETG-CF @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFY07",
+    "filament_id": "GFY05",
     "instantiation": "false",
     "cool_plate_temp": [
         "0"

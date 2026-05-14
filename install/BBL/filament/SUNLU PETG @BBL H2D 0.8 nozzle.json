@@ -3,7 +3,7 @@
     "name": "SUNLU PETG @BBL H2D 0.8 nozzle",
     "inherits": "SUNLU PETG @SUNLU base",
     "from": "system",
-    "setting_id": "GFSY06_09",
+    "setting_id": "GFSY04_36",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"
@@ -19,8 +19,8 @@
         "8"
     ],
     "filament_max_volumetric_speed": [
-        "14.0",
-        "14.0"
+        "12.0",
+        "12.0"
     ],
     "filament_retraction_length": [
         "0.4",

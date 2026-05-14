@@ -3,7 +3,7 @@
     "name": "Anycubic TPU @BBL X1C 0.4 nozzle",
     "inherits": "Anycubic TPU @base",
     "from": "system",
-    "setting_id": "GFSI09_04",
+    "setting_id": "GFSI09_14",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

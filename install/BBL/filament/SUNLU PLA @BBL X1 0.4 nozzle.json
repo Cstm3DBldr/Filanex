@@ -3,7 +3,7 @@
     "name": "SUNLU PLA @BBL X1 0.4 nozzle",
     "inherits": "SUNLU PLA @base",
     "from": "system",
-    "setting_id": "GFSY08_04",
+    "setting_id": "GFSY06_14",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

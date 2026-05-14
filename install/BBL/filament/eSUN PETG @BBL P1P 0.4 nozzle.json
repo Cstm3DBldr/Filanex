@@ -3,7 +3,7 @@
     "name": "eSUN PETG @BBL P1P 0.4 nozzle",
     "inherits": "eSUN PETG @base",
     "from": "system",
-    "setting_id": "GFSE34_03",
+    "setting_id": "GFSE34_10",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"

@@ -3,7 +3,7 @@
     "name": "Prusa Polymers ASA @BBL H2D 0.4 nozzle",
     "inherits": "Prusa Polymers ASA @base",
     "from": "system",
-    "setting_id": "GFSQ01_07",
+    "setting_id": "GFSQ01_26",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

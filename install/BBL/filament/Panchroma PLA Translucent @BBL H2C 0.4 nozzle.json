@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Translucent @BBL H2C 0.4 nozzle",
     "inherits": "Panchroma PLA Translucent @base",
     "from": "system",
-    "setting_id": "GFSL23_08",
+    "setting_id": "GFSL23_30",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

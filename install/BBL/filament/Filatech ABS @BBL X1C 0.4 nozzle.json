@@ -3,7 +3,7 @@
     "name": "Filatech ABS @BBL X1C 0.4 nozzle",
     "inherits": "Filatech ABS @base",
     "from": "system",
-    "setting_id": "GFSJ01_02",
+    "setting_id": "GFSJ01_06",
     "instantiation": "true",
     "fan_max_speed": [
         "60"

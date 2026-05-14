@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Clrar @BBL X1 0.4 nozzle",
     "inherits": "eSUN PLA-Clrar @base",
     "from": "system",
-    "setting_id": "GFSE48_04",
+    "setting_id": "GFSE47_14",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

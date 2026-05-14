@@ -3,7 +3,7 @@
     "name": "Prusa Polymers Prusament PETG @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFQ13",
+    "filament_id": "GFQ12",
     "instantiation": "false",
     "cool_plate_temp": [
         "60.0"
@@ -36,7 +36,7 @@
         "1.0"
     ],
     "filament_max_volumetric_speed": [
-        "19.0"
+        "12.75"
     ],
     "filament_metal_stickiness": [
         "High"
@@ -60,10 +60,10 @@
         "10.6"
     ],
     "nozzle_temperature": [
-        "241.25"
+        "245.0"
     ],
     "nozzle_temperature_initial_layer": [
-        "242.5"
+        "245.0"
     ],
     "nozzle_temperature_range_high": [
         "260.0"

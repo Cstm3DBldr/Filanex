@@ -3,7 +3,7 @@
     "name": "eSUN ePLA-Matte @BBL X2D 0.4 nozzle",
     "inherits": "eSUN ePLA-Matte @base",
     "from": "system",
-    "setting_id": "GFSE13_07",
+    "setting_id": "GFSE13_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

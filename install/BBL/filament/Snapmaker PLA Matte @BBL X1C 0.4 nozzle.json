@@ -3,7 +3,7 @@
     "name": "Snapmaker PLA Matte @BBL X1C 0.4 nozzle",
     "inherits": "Snapmaker PLA Matte @base",
     "from": "system",
-    "setting_id": "GFS106_05",
+    "setting_id": "GFS106_18",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

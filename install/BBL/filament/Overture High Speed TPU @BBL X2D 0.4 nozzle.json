@@ -3,7 +3,7 @@
     "name": "Overture High Speed TPU @BBL X2D 0.4 nozzle",
     "inherits": "Overture High Speed TPU @base",
     "from": "system",
-    "setting_id": "GFSO07_06",
+    "setting_id": "GFSO07_22",
     "instantiation": "true",
     "eng_plate_temp": [
         "35"

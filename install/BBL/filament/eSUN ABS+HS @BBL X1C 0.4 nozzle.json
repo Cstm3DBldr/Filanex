@@ -3,7 +3,7 @@
     "name": "eSUN ABS+HS @BBL X1C 0.4 nozzle",
     "inherits": "eSUN ABS+HS @base",
     "from": "system",
-    "setting_id": "GFSE05_02",
+    "setting_id": "GFSE05_06",
     "instantiation": "true",
     "fan_max_speed": [
         "60"

@@ -3,7 +3,7 @@
     "name": "Fiberlogy HS PLA Clear @BBL P2S 0.4 nozzle",
     "inherits": "Fiberlogy HS PLA Clear @base",
     "from": "system",
-    "setting_id": "GFSV15_06",
+    "setting_id": "GFSV15_22",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

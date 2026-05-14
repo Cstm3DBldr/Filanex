@@ -3,7 +3,7 @@
     "name": "Extrudr PLA HS @BBL A1M 0.4 nozzle",
     "inherits": "Extrudr PLA HS @base",
     "from": "system",
-    "setting_id": "GFSX08_02",
+    "setting_id": "GFSX08_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

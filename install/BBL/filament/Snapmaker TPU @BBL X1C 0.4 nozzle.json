@@ -3,7 +3,7 @@
     "name": "Snapmaker TPU @BBL X1C 0.4 nozzle",
     "inherits": "Snapmaker TPU @base",
     "from": "system",
-    "setting_id": "GFS109_04",
+    "setting_id": "GFS109_14",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

@@ -3,7 +3,7 @@
     "name": "addnorth Rigid X @BBL A1M 0.4 nozzle",
     "inherits": "addnorth Rigid X @base",
     "from": "system",
-    "setting_id": "GFS106_02",
+    "setting_id": "GFS106_04",
     "instantiation": "true",
     "filament_max_volumetric_speed": [
         "9"

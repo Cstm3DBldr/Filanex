@@ -3,7 +3,7 @@
     "name": "Overture ASA Basic @BBL H2C 0.4 nozzle",
     "inherits": "Overture ASA Basic @base",
     "from": "system",
-    "setting_id": "GFSO04_06",
+    "setting_id": "GFSO04_22",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

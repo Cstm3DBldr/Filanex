@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena Support W @BBL P2S 0.2 nozzle",
     "inherits": "Orca Arena Arena Support W @base",
     "from": "system",
-    "setting_id": "GFS133_06",
+    "setting_id": "GFS118_21",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"
@@ -36,8 +36,8 @@
         "3"
     ],
     "filament_max_volumetric_speed": [
-        "0.5",
-        "0.5"
+        "12.0",
+        "12.0"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -74,12 +74,12 @@
         "0"
     ],
     "nozzle_temperature": [
-        "240.0",
-        "240.0"
+        "220.0",
+        "220.0"
     ],
     "nozzle_temperature_initial_layer": [
-        "240.0",
-        "240.0"
+        "220.0",
+        "220.0"
     ],
     "retraction_distances_when_ec": [
         "0",

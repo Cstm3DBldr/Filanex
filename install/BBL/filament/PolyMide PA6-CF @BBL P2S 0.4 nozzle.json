@@ -3,7 +3,7 @@
     "name": "PolyMide PA6-CF @BBL P2S 0.4 nozzle",
     "inherits": "PolyMide PA6-CF @base",
     "from": "system",
-    "setting_id": "GFSL65_03",
+    "setting_id": "GFSL62_07",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"

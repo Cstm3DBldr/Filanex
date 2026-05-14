@@ -3,7 +3,7 @@
     "name": "Ultrafuse ASA @BBL H2D 0.4 nozzle",
     "inherits": "Ultrafuse ASA @base",
     "from": "system",
-    "setting_id": "GFSZ03_07",
+    "setting_id": "GFSZ03_26",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

@@ -3,7 +3,7 @@
     "name": "Polymaker PLA Pro Metallic @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFL60",
+    "filament_id": "GFL57",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

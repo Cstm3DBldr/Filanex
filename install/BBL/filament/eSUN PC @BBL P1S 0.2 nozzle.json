@@ -1,0 +1,29 @@
+{
+    "type": "filament",
+    "name": "eSUN PC @BBL P1S 0.2 nozzle",
+    "inherits": "eSUN PC @base",
+    "from": "system",
+    "setting_id": "GFSE26_01",
+    "instantiation": "true",
+    "eng_plate_temp": [
+        "100"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "100"
+    ],
+    "hot_plate_temp": [
+        "100"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "100"
+    ],
+    "textured_plate_temp": [
+        "110.0"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "100"
+    ],
+    "compatible_printers": [
+        "Bambu Lab P1S 0.2 nozzle"
+    ]
+}

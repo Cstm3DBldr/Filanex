@@ -3,7 +3,7 @@
     "name": "Fiberlogy Impact PLA @BBL A1 0.4 nozzle",
     "inherits": "Fiberlogy Impact PLA @base",
     "from": "system",
-    "setting_id": "GFSV16_01",
+    "setting_id": "GFSV16_02",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

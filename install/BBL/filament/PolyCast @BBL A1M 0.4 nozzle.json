@@ -3,7 +3,7 @@
     "name": "PolyCast @BBL A1M 0.4 nozzle",
     "inherits": "PolyCast @base",
     "from": "system",
-    "setting_id": "GFSL25_02",
+    "setting_id": "GFSL25_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

@@ -1,0 +1,29 @@
+{
+    "type": "filament",
+    "name": "Elegoo PC @BBL P1S 0.8 nozzle",
+    "inherits": "Elegoo PC @base",
+    "from": "system",
+    "setting_id": "GFSD04_04",
+    "instantiation": "true",
+    "eng_plate_temp": [
+        "100"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "100"
+    ],
+    "hot_plate_temp": [
+        "105.0"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "105.0"
+    ],
+    "textured_plate_temp": [
+        "105.0"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "100"
+    ],
+    "compatible_printers": [
+        "Bambu Lab P1S 0.8 nozzle"
+    ]
+}

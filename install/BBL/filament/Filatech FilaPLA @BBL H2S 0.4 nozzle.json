@@ -3,7 +3,7 @@
     "name": "Filatech FilaPLA @BBL H2S 0.4 nozzle",
     "inherits": "Filatech FilaPLA @base",
     "from": "system",
-    "setting_id": "GFSJ03_11",
+    "setting_id": "GFSJ03_42",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

@@ -3,7 +3,7 @@
     "name": "SUNLU PLA Matte @BBL P1S 0.4 nozzle",
     "inherits": "SUNLU PLA Matte @SUNLU base",
     "from": "system",
-    "setting_id": "GFSY15_03",
+    "setting_id": "GFSY12_10",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

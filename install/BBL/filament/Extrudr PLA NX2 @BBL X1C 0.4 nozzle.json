@@ -3,7 +3,7 @@
     "name": "Extrudr PLA NX2 @BBL X1C 0.4 nozzle",
     "inherits": "Extrudr PLA NX2 @base",
     "from": "system",
-    "setting_id": "GFSX10_05",
+    "setting_id": "GFSX10_18",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

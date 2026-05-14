@@ -3,7 +3,7 @@
     "name": "Creality HP-TPU @BBL H2C 0.4 nozzle",
     "inherits": "Creality HP-TPU @base",
     "from": "system",
-    "setting_id": "GFSR10_07",
+    "setting_id": "GFSR10_26",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

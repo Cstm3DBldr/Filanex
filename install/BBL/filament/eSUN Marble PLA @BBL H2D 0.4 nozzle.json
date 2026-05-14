@@ -3,7 +3,7 @@
     "name": "eSUN Marble PLA @BBL H2D 0.4 nozzle",
     "inherits": "eSUN Marble PLA @base",
     "from": "system",
-    "setting_id": "GFSE21_09",
+    "setting_id": "GFSE21_34",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

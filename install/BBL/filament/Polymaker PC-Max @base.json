@@ -3,7 +3,7 @@
     "name": "Polymaker PC-Max @base",
     "inherits": "fdm_filament_pc",
     "from": "system",
-    "filament_id": "GFL54",
+    "filament_id": "GFL51",
     "instantiation": "false",
     "filament_vendor": [
         "Polymaker"

@@ -3,7 +3,7 @@
     "name": "ColorFabb corkFill @BBL X1 0.4 nozzle",
     "inherits": "ColorFabb corkFill @base",
     "from": "system",
-    "setting_id": "GFSK05_04",
+    "setting_id": "GFSK05_14",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

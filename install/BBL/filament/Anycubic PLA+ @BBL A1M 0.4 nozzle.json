@@ -3,7 +3,7 @@
     "name": "Anycubic PLA+ @BBL A1M 0.4 nozzle",
     "inherits": "Anycubic PLA+ @base",
     "from": "system",
-    "setting_id": "GFSI05_02",
+    "setting_id": "GFSI05_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

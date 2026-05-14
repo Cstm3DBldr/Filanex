@@ -3,7 +3,7 @@
     "name": "Snapmaker PLA Matte @BBL H2D 0.4 nozzle",
     "inherits": "Snapmaker PLA Matte @base",
     "from": "system",
-    "setting_id": "GFS106_09",
+    "setting_id": "GFS106_34",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

@@ -3,7 +3,7 @@
     "name": "eSUN PLA+ @BBL H2C 0.2 nozzle",
     "inherits": "eSUN PLA+ @eSUN base",
     "from": "system",
-    "setting_id": "GFSE41_08",
+    "setting_id": "GFSE41_29",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"
@@ -29,8 +29,8 @@
         "0.98"
     ],
     "filament_max_volumetric_speed": [
-        "1.8",
-        "1.8"
+        "19.0",
+        "19.0"
     ],
     "filament_ramming_travel_time": [
         "0",

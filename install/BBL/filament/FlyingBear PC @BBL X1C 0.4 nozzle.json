@@ -3,7 +3,7 @@
     "name": "FlyingBear PC @BBL X1C 0.4 nozzle",
     "inherits": "FlyingBear PC @base",
     "from": "system",
-    "setting_id": "GFS103_02",
+    "setting_id": "GFS103_06",
     "instantiation": "true",
     "eng_plate_temp": [
         "100"

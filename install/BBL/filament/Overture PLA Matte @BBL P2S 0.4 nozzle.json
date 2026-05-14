@@ -3,7 +3,7 @@
     "name": "Overture PLA Matte @BBL P2S 0.4 nozzle",
     "inherits": "Overture PLA Matte @base",
     "from": "system",
-    "setting_id": "GFSO21_06",
+    "setting_id": "GFSO17_22",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

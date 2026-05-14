@@ -1,0 +1,45 @@
+{
+    "type": "filament",
+    "name": "Elegoo PC @BBL X1E 0.6 nozzle",
+    "inherits": "Elegoo PC @base",
+    "from": "system",
+    "setting_id": "GFSD04_11",
+    "instantiation": "true",
+    "eng_plate_temp": [
+        "100"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "100"
+    ],
+    "filament_flow_ratio": [
+        "1.0",
+        "1.0"
+    ],
+    "filament_retraction_length": [
+        "nil",
+        "0.45"
+    ],
+    "filament_z_hop": [
+        "nil",
+        "0.6"
+    ],
+    "filament_z_hop_types": [
+        "nil",
+        "Spiral Lift"
+    ],
+    "hot_plate_temp": [
+        "105.0"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "105.0"
+    ],
+    "textured_plate_temp": [
+        "105.0"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "100"
+    ],
+    "compatible_printers": [
+        "Bambu Lab X1E 0.6 nozzle"
+    ]
+}

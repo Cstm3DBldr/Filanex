@@ -3,7 +3,7 @@
     "name": "Overture ABS Basic @BBL X1C 0.4 nozzle",
     "inherits": "Overture ABS Basic @base",
     "from": "system",
-    "setting_id": "GFSO02_02",
+    "setting_id": "GFSO02_06",
     "instantiation": "true",
     "fan_max_speed": [
         "60"

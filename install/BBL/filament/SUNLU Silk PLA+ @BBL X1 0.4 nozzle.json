@@ -3,7 +3,7 @@
     "name": "SUNLU Silk PLA+ @BBL X1 0.4 nozzle",
     "inherits": "SUNLU Silk PLA+ @SUNLU base",
     "from": "system",
-    "setting_id": "GFSY17_04",
+    "setting_id": "GFSY14_14",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

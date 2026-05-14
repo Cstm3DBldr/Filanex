@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Matte @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFO124",
+    "filament_id": "GFO112",
     "instantiation": "false",
     "filament_cost": [
         "24.99"
@@ -15,7 +15,7 @@
         "0.98"
     ],
     "filament_max_volumetric_speed": [
-        "22.0"
+        "17.0"
     ],
     "filament_vendor": [
         "Orca Arena"

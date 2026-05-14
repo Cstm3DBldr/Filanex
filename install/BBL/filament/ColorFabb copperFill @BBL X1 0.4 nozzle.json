@@ -3,7 +3,7 @@
     "name": "ColorFabb copperFill @BBL X1 0.4 nozzle",
     "inherits": "ColorFabb copperFill @base",
     "from": "system",
-    "setting_id": "GFSK04_04",
+    "setting_id": "GFSK04_14",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

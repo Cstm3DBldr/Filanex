@@ -3,7 +3,7 @@
     "name": "Flashforge ABS @BBL X1C 0.4 nozzle",
     "inherits": "Flashforge ABS @base",
     "from": "system",
-    "setting_id": "GFSF01_02",
+    "setting_id": "GFSF01_06",
     "instantiation": "true",
     "fan_max_speed": [
         "60"

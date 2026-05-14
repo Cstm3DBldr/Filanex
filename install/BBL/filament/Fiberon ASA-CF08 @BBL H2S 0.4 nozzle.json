@@ -3,7 +3,7 @@
     "name": "Fiberon ASA-CF08 @BBL H2S 0.4 nozzle",
     "inherits": "Fiberon ASA-CF08 @base",
     "from": "system",
-    "setting_id": "GFSL01_07",
+    "setting_id": "GFSL01_19",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

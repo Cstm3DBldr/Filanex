@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Sparkle @BBL A1M 0.4 nozzle",
     "inherits": "Orca Arena Arena PLA Sparkle @base",
     "from": "system",
-    "setting_id": "GFS129_02",
+    "setting_id": "GFS115_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

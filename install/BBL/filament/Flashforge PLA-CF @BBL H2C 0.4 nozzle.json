@@ -3,7 +3,7 @@
     "name": "Flashforge PLA-CF @BBL H2C 0.4 nozzle",
     "inherits": "Flashforge PLA-CF @base",
     "from": "system",
-    "setting_id": "GFSF09_06",
+    "setting_id": "GFSF09_16",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0003"

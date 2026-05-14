@@ -3,7 +3,7 @@
     "name": "Spectrum PLA Premium @BBL X1 0.4 nozzle",
     "inherits": "Spectrum PLA Premium @base",
     "from": "system",
-    "setting_id": "GFSW14_04",
+    "setting_id": "GFSW14_14",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

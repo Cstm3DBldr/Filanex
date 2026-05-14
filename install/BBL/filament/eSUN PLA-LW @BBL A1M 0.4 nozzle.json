@@ -3,7 +3,7 @@
     "name": "eSUN PLA-LW @BBL A1M 0.4 nozzle",
     "inherits": "eSUN PLA-LW @base",
     "from": "system",
-    "setting_id": "GFSE52_02",
+    "setting_id": "GFSE51_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

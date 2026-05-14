@@ -3,7 +3,7 @@
     "name": "Spectrum PLA Tough @BBL H2DP 0.4 nozzle",
     "inherits": "Spectrum PLA Tough @base",
     "from": "system",
-    "setting_id": "GFSW17_10",
+    "setting_id": "GFSW17_38",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

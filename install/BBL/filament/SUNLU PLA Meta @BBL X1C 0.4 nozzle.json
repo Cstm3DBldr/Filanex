@@ -3,7 +3,7 @@
     "name": "SUNLU PLA Meta @BBL X1C 0.4 nozzle",
     "inherits": "SUNLU PLA Meta @base",
     "from": "system",
-    "setting_id": "GFSY16_05",
+    "setting_id": "GFSY13_18",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

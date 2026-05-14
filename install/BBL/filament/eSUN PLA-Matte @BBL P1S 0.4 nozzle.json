@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Matte @BBL P1S 0.4 nozzle",
     "inherits": "eSUN PLA-Matte @base",
     "from": "system",
-    "setting_id": "GFSE55_03",
+    "setting_id": "GFSE54_10",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

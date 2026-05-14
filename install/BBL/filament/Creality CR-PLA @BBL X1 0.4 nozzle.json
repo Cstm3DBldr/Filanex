@@ -3,7 +3,7 @@
     "name": "Creality CR-PLA @BBL X1 0.4 nozzle",
     "inherits": "Creality CR-PLA @base",
     "from": "system",
-    "setting_id": "GFSR02_04",
+    "setting_id": "GFSR02_14",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

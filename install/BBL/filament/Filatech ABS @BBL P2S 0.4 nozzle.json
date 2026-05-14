@@ -3,7 +3,7 @@
     "name": "Filatech ABS @BBL P2S 0.4 nozzle",
     "inherits": "Filatech ABS @base",
     "from": "system",
-    "setting_id": "GFSJ01_04",
+    "setting_id": "GFSJ01_14",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

@@ -3,7 +3,7 @@
     "name": "Overture PLA @BBL P2S 0.6 nozzle",
     "inherits": "Overture PLA @Overture base",
     "from": "system",
-    "setting_id": "GFSO18_06",
+    "setting_id": "GFSO15_23",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"
@@ -28,12 +28,12 @@
         "10"
     ],
     "filament_flow_ratio": [
-        "1.0",
-        "1.0"
+        "0.98",
+        "0.98"
     ],
     "filament_max_volumetric_speed": [
-        "16.875",
-        "16.875"
+        "15.0",
+        "15.0"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -78,12 +78,12 @@
         "0"
     ],
     "nozzle_temperature": [
-        "215.0",
-        "215.0"
+        "220.0",
+        "220.0"
     ],
     "nozzle_temperature_initial_layer": [
-        "222.5",
-        "222.5"
+        "220.0",
+        "220.0"
     ],
     "retraction_distances_when_ec": [
         "0",

@@ -3,7 +3,7 @@
     "name": "SUNLU PLA-CF @BBL X1C 0.4 nozzle",
     "inherits": "SUNLU PLA-CF @base",
     "from": "system",
-    "setting_id": "GFSY11_03",
+    "setting_id": "GFSY09_07",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

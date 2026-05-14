@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Luminous @BBL A1M 0.4 nozzle",
     "inherits": "Panchroma PLA Luminous @base",
     "from": "system",
-    "setting_id": "GFSL15_02",
+    "setting_id": "GFSL15_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

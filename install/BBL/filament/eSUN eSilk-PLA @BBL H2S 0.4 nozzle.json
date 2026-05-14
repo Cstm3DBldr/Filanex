@@ -3,7 +3,7 @@
     "name": "eSUN eSilk-PLA @BBL H2S 0.4 nozzle",
     "inherits": "eSUN eSilk-PLA @base",
     "from": "system",
-    "setting_id": "GFSE16_11",
+    "setting_id": "GFSE16_42",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

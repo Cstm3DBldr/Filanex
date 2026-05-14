@@ -3,7 +3,7 @@
     "name": "Overture Silk PLA @BBL X1C 0.4 nozzle",
     "inherits": "Overture Silk PLA @base",
     "from": "system",
-    "setting_id": "GFSO25_05",
+    "setting_id": "GFSO21_18",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

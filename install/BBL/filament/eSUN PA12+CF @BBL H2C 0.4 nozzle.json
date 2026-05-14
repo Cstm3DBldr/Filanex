@@ -3,7 +3,7 @@
     "name": "eSUN PA12+CF @BBL H2C 0.4 nozzle",
     "inherits": "eSUN PA12+CF @base",
     "from": "system",
-    "setting_id": "GFSE25_05",
+    "setting_id": "GFSE25_13",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

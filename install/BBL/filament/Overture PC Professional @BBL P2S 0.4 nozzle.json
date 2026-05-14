@@ -3,7 +3,7 @@
     "name": "Overture PC Professional @BBL P2S 0.4 nozzle",
     "inherits": "Overture PC Professional @base",
     "from": "system",
-    "setting_id": "GFSO12_04",
+    "setting_id": "GFSO11_14",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

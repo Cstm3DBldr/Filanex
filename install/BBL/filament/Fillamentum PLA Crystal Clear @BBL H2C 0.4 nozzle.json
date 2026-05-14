@@ -3,7 +3,7 @@
     "name": "Fillamentum PLA Crystal Clear @BBL H2C 0.4 nozzle",
     "inherits": "Fillamentum PLA Crystal Clear @base",
     "from": "system",
-    "setting_id": "GFSP11_08",
+    "setting_id": "GFSP11_30",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

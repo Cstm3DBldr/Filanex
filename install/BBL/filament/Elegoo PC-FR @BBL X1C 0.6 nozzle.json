@@ -1,0 +1,64 @@
+{
+    "type": "filament",
+    "name": "Elegoo PC-FR @BBL X1C 0.6 nozzle",
+    "inherits": "Elegoo PC-FR @base",
+    "from": "system",
+    "setting_id": "GFSD05_07",
+    "instantiation": "true",
+    "fan_max_speed": [
+        "40"
+    ],
+    "filament_flow_ratio": [
+        "1.0",
+        "1.0"
+    ],
+    "filament_max_volumetric_speed": [
+        "12.485",
+        "12.485"
+    ],
+    "filament_retraction_length": [
+        "nil",
+        "0.45"
+    ],
+    "filament_z_hop": [
+        "nil",
+        "0.6"
+    ],
+    "filament_z_hop_types": [
+        "nil",
+        "Spiral Lift"
+    ],
+    "filament_ramming_travel_time": [
+        "0",
+        "0"
+    ],
+    "include": [
+        "fdm_filament_template_direct_dual"
+    ],
+    "long_retractions_when_ec": [
+        "0",
+        "0"
+    ],
+    "nozzle_temperature": [
+        "275.0",
+        "275.0"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "275.0",
+        "275.0"
+    ],
+    "retraction_distances_when_ec": [
+        "0",
+        "0"
+    ],
+    "slow_down_layer_time": [
+        "12"
+    ],
+    "slow_down_min_speed": [
+        "20",
+        "20"
+    ],
+    "compatible_printers": [
+        "Bambu Lab X1 Carbon 0.6 nozzle"
+    ]
+}

@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Metal @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFO126",
+    "filament_id": "GFO113",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

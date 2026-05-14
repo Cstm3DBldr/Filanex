@@ -3,7 +3,7 @@
     "name": "Hatchbox PLA @BBL H2S 0.4 nozzle",
     "inherits": "Hatchbox PLA @base",
     "from": "system",
-    "setting_id": "GFSH03_11",
+    "setting_id": "GFSH03_42",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

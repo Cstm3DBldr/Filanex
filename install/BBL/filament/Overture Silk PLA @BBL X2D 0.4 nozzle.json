@@ -3,7 +3,7 @@
     "name": "Overture Silk PLA @BBL X2D 0.4 nozzle",
     "inherits": "Overture Silk PLA @base",
     "from": "system",
-    "setting_id": "GFSO25_07",
+    "setting_id": "GFSO21_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

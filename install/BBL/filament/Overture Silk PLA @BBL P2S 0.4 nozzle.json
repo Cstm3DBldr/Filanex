@@ -3,7 +3,7 @@
     "name": "Overture Silk PLA @BBL P2S 0.4 nozzle",
     "inherits": "Overture Silk PLA @base",
     "from": "system",
-    "setting_id": "GFSO25_06",
+    "setting_id": "GFSO21_22",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

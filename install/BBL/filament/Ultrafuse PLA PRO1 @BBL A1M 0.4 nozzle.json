@@ -3,7 +3,7 @@
     "name": "Ultrafuse PLA PRO1 @BBL A1M 0.4 nozzle",
     "inherits": "Ultrafuse PLA PRO1 @base",
     "from": "system",
-    "setting_id": "GFSZ12_02",
+    "setting_id": "GFSZ12_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

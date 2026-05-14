@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA-CF @BBL H2DP 0.4 nozzle",
     "inherits": "Orca Arena Arena PLA-CF @base",
     "from": "system",
-    "setting_id": "GFS115_08",
+    "setting_id": "GFS108_22",
     "instantiation": "true",
     "counter_coef_2": [
         "0.012"

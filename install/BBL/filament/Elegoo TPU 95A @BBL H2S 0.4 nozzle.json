@@ -3,7 +3,7 @@
     "name": "Elegoo TPU 95A @BBL H2S 0.4 nozzle",
     "inherits": "Elegoo TPU 95A @base",
     "from": "system",
-    "setting_id": "GFSD26_10",
+    "setting_id": "GFSD26_38",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

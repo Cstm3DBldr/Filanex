@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Matte @BBL P2S 0.2 nozzle",
     "inherits": "Orca Arena Arena PLA Matte @base",
     "from": "system",
-    "setting_id": "GFS122_06",
+    "setting_id": "GFS112_21",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"
@@ -36,8 +36,8 @@
         "3"
     ],
     "filament_max_volumetric_speed": [
-        "2.0",
-        "2.0"
+        "17.0",
+        "17.0"
     ],
     "filament_ramming_travel_time": [
         "0",

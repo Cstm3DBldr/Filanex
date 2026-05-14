@@ -3,7 +3,7 @@
     "name": "Creality Hyper PC @BBL H2C 0.4 nozzle",
     "inherits": "Creality Hyper PC @base",
     "from": "system",
-    "setting_id": "GFSR14_06",
+    "setting_id": "GFSR14_22",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

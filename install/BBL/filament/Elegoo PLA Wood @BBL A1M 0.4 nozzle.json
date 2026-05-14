@@ -3,7 +3,7 @@
     "name": "Elegoo PLA Wood @BBL A1M 0.4 nozzle",
     "inherits": "Elegoo PLA Wood @base",
     "from": "system",
-    "setting_id": "GFSD22_02",
+    "setting_id": "GFSD22_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

@@ -3,7 +3,7 @@
     "name": "Overture ASA Basic @BBL P2S 0.4 nozzle",
     "inherits": "Overture ASA Basic @base",
     "from": "system",
-    "setting_id": "GFSO04_04",
+    "setting_id": "GFSO04_14",
     "instantiation": "true",
     "activate_air_filtration": [
         "0"

@@ -3,7 +3,7 @@
     "name": "PolyFlex TPU95 @BBL X2D 0.4 nozzle",
     "inherits": "PolyFlex TPU95 @base",
     "from": "system",
-    "setting_id": "GFSL28_06",
+    "setting_id": "GFSL28_22",
     "instantiation": "true",
     "eng_plate_temp": [
         "35"

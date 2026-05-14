@@ -3,7 +3,7 @@
     "name": "Anycubic PETG @BBL X1C 0.4 nozzle",
     "inherits": "Anycubic PETG @base",
     "from": "system",
-    "setting_id": "GFSI03_05",
+    "setting_id": "GFSI03_18",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"

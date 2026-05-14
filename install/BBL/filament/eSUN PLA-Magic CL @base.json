@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Magic CL @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFE53",
+    "filament_id": "GFE52",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

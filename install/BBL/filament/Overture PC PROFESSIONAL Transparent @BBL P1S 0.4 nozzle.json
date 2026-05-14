@@ -3,7 +3,7 @@
     "name": "Overture PC PROFESSIONAL Transparent @BBL P1S 0.4 nozzle",
     "inherits": "Overture PC PROFESSIONAL Transparent @base",
     "from": "system",
-    "setting_id": "GFSO13_01",
+    "setting_id": "GFSO12_02",
     "instantiation": "true",
     "eng_plate_temp": [
         "100"

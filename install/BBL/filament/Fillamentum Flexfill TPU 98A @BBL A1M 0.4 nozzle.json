@@ -3,7 +3,7 @@
     "name": "Fillamentum Flexfill TPU 98A @BBL A1M 0.4 nozzle",
     "inherits": "Fillamentum Flexfill TPU 98A @base",
     "from": "system",
-    "setting_id": "GFSP06_02",
+    "setting_id": "GFSP06_06",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

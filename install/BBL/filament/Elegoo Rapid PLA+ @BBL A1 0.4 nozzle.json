@@ -3,7 +3,7 @@
     "name": "Elegoo Rapid PLA+ @BBL A1 0.4 nozzle",
     "inherits": "Elegoo Rapid PLA+ @base",
     "from": "system",
-    "setting_id": "GFSD24_01",
+    "setting_id": "GFSD24_02",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

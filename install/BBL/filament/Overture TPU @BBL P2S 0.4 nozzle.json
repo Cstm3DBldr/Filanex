@@ -3,7 +3,7 @@
     "name": "Overture TPU @BBL P2S 0.4 nozzle",
     "inherits": "Overture TPU @base",
     "from": "system",
-    "setting_id": "GFSO28_05",
+    "setting_id": "GFSO24_18",
     "instantiation": "true",
     "eng_plate_temp": [
         "35"

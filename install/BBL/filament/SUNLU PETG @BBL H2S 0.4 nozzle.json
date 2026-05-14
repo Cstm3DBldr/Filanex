@@ -3,7 +3,7 @@
     "name": "SUNLU PETG @BBL H2S 0.4 nozzle",
     "inherits": "SUNLU PETG @SUNLU base",
     "from": "system",
-    "setting_id": "GFSY05_11",
+    "setting_id": "GFSY04_42",
     "instantiation": "true",
     "counter_coef_2": [
         "0.007"

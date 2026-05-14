@@ -3,7 +3,7 @@
     "name": "PolyLite LW-PLA @BBL A1M 0.4 nozzle",
     "inherits": "PolyLite LW-PLA @base",
     "from": "system",
-    "setting_id": "GFSL35_02",
+    "setting_id": "GFSL33_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

@@ -3,7 +3,7 @@
     "name": "Polymaker HT-PLA-GF @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFL51",
+    "filament_id": "GFL48",
     "instantiation": "false",
     "additional_cooling_fan_speed": [
         "0"

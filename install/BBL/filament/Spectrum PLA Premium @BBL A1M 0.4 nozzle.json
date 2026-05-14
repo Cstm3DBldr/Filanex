@@ -3,7 +3,7 @@
     "name": "Spectrum PLA Premium @BBL A1M 0.4 nozzle",
     "inherits": "Spectrum PLA Premium @base",
     "from": "system",
-    "setting_id": "GFSW14_02",
+    "setting_id": "GFSW14_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

@@ -3,7 +3,7 @@
     "name": "ColorFabb PLA/PHA @BBL H2D 0.4 nozzle",
     "inherits": "ColorFabb PLA/PHA @base",
     "from": "system",
-    "setting_id": "GFSK13_09",
+    "setting_id": "GFSK13_34",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

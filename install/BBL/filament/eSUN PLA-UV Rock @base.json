@@ -3,7 +3,7 @@
     "name": "eSUN PLA-UV Rock @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFE60",
+    "filament_id": "GFE59",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

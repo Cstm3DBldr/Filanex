@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PETG Basic @BBL A1M 0.2 nozzle",
     "inherits": "Orca Arena Arena PETG Basic @base",
     "from": "system",
-    "setting_id": "GFS112_02",
+    "setting_id": "GFS107_05",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "15"
@@ -21,7 +21,7 @@
         "1"
     ],
     "filament_max_volumetric_speed": [
-        "1.0"
+        "11.0"
     ],
     "filament_retraction_distances_when_cut": [
         "18"

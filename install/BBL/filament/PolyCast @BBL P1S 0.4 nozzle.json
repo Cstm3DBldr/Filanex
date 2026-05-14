@@ -3,7 +3,7 @@
     "name": "PolyCast @BBL P1S 0.4 nozzle",
     "inherits": "PolyCast @base",
     "from": "system",
-    "setting_id": "GFSL25_03",
+    "setting_id": "GFSL25_10",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

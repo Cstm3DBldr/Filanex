@@ -3,7 +3,7 @@
     "name": "Spectrum PET-G Premium HS @BBL A1M 0.4 nozzle",
     "inherits": "Spectrum PET-G Premium HS @base",
     "from": "system",
-    "setting_id": "GFSW10_02",
+    "setting_id": "GFSW10_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "15"

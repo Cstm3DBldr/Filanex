@@ -3,7 +3,7 @@
     "name": "Prusa Polymers PLA Blend @BBL X1C 0.4 nozzle",
     "inherits": "Prusa Polymers PLA Blend @base",
     "from": "system",
-    "setting_id": "GFSQ08_05",
+    "setting_id": "GFSQ08_18",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

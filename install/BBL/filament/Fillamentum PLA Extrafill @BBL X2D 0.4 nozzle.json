@@ -3,7 +3,7 @@
     "name": "Fillamentum PLA Extrafill @BBL X2D 0.4 nozzle",
     "inherits": "Fillamentum PLA Extrafill @base",
     "from": "system",
-    "setting_id": "GFSP12_07",
+    "setting_id": "GFSP12_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

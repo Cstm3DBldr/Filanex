@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Impact @BBL A1 0.4 nozzle",
     "inherits": "Orca Arena Arena PLA Impact @base",
     "from": "system",
-    "setting_id": "GFS120_01",
+    "setting_id": "GFS110_02",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

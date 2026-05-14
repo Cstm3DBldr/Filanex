@@ -3,7 +3,7 @@
     "name": "Elegoo PAHT-CF @BBL H2D 0.4 nozzle",
     "inherits": "Elegoo PAHT-CF @base",
     "from": "system",
-    "setting_id": "GFSD03_06",
+    "setting_id": "GFSD03_16",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

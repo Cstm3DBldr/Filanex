@@ -3,7 +3,7 @@
     "name": "PolyMax PC @BBL X1E 0.4 nozzle",
     "inherits": "PolyMax PC @base",
     "from": "system",
-    "setting_id": "GFSL61_03",
+    "setting_id": "GFSL58_10",
     "instantiation": "true",
     "eng_plate_temp": [
         "100"

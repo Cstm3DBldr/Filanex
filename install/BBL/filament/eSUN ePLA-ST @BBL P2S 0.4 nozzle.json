@@ -3,7 +3,7 @@
     "name": "eSUN ePLA-ST @BBL P2S 0.4 nozzle",
     "inherits": "eSUN ePLA-ST @base",
     "from": "system",
-    "setting_id": "GFSE15_06",
+    "setting_id": "GFSE15_22",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

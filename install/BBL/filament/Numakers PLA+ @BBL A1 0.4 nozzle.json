@@ -3,7 +3,7 @@
     "name": "Numakers PLA+ @BBL A1 0.4 nozzle",
     "inherits": "Numakers PLA+ @base",
     "from": "system",
-    "setting_id": "GFS101_01",
+    "setting_id": "GFS101_02",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

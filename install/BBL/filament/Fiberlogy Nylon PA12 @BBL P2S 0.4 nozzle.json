@@ -3,7 +3,7 @@
     "name": "Fiberlogy Nylon PA12 @BBL P2S 0.4 nozzle",
     "inherits": "Fiberlogy Nylon PA12 @base",
     "from": "system",
-    "setting_id": "GFSV21_03",
+    "setting_id": "GFSV21_10",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"

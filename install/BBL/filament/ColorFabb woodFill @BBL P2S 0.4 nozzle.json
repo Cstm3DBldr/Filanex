@@ -3,7 +3,7 @@
     "name": "ColorFabb woodFill @BBL P2S 0.4 nozzle",
     "inherits": "ColorFabb woodFill @base",
     "from": "system",
-    "setting_id": "GFSK15_06",
+    "setting_id": "GFSK15_22",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

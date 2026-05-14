@@ -3,7 +3,7 @@
     "name": "Elegoo PLA Silk @BBL X1C 0.4 nozzle",
     "inherits": "Elegoo PLA Silk @base",
     "from": "system",
-    "setting_id": "GFSD20_05",
+    "setting_id": "GFSD20_18",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

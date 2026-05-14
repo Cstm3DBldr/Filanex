@@ -3,7 +3,7 @@
     "name": "PolyLite PETG @BBL H2C 0.2 nozzle",
     "inherits": "PolyLite PETG @Polymaker base",
     "from": "system",
-    "setting_id": "GFSL36_08",
+    "setting_id": "GFSL34_29",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"
@@ -34,8 +34,8 @@
         "8"
     ],
     "filament_max_volumetric_speed": [
-        "1.0",
-        "1.0"
+        "11.5",
+        "11.5"
     ],
     "filament_pre_cooling_temperature_nc": [
         "205",
@@ -101,7 +101,7 @@
         "60"
     ],
     "temperature_vitrification": [
-        "75.0"
+        "80.0"
     ],
     "compatible_printers": [
         "Bambu Lab H2C 0.2 nozzle"

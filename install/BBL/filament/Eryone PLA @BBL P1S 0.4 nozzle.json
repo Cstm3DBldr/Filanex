@@ -3,7 +3,7 @@
     "name": "Eryone PLA @BBL P1S 0.4 nozzle",
     "inherits": "Eryone PLA @base",
     "from": "system",
-    "setting_id": "GFS102_03",
+    "setting_id": "GFS102_10",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

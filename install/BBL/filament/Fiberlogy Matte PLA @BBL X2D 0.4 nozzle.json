@@ -3,7 +3,7 @@
     "name": "Fiberlogy Matte PLA @BBL X2D 0.4 nozzle",
     "inherits": "Fiberlogy Matte PLA @base",
     "from": "system",
-    "setting_id": "GFSV19_07",
+    "setting_id": "GFSV19_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

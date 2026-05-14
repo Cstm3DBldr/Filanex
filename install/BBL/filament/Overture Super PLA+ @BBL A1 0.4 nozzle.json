@@ -3,7 +3,7 @@
     "name": "Overture Super PLA+ @BBL A1 0.4 nozzle",
     "inherits": "Overture Super PLA+ @base",
     "from": "system",
-    "setting_id": "GFSO27_01",
+    "setting_id": "GFSO23_02",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

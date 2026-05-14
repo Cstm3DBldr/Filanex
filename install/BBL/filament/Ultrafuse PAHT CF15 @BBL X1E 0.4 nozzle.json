@@ -3,7 +3,7 @@
     "name": "Ultrafuse PAHT CF15 @BBL X1E 0.4 nozzle",
     "inherits": "Ultrafuse PAHT CF15 @base",
     "from": "system",
-    "setting_id": "GFSZ06_02",
+    "setting_id": "GFSZ06_04",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

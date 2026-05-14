@@ -3,7 +3,7 @@
     "name": "Snapmaker PLA Glow @BBL X2D 0.4 nozzle",
     "inherits": "Snapmaker PLA Glow @base",
     "from": "system",
-    "setting_id": "GFS105_07",
+    "setting_id": "GFS105_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

@@ -3,7 +3,7 @@
     "name": "Anycubic TPU @BBL H2D 0.4 nozzle",
     "inherits": "Anycubic TPU @base",
     "from": "system",
-    "setting_id": "GFSI09_08",
+    "setting_id": "GFSI09_30",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

@@ -3,7 +3,7 @@
     "name": "eSUN ePLA-Gloss @BBL X2D 0.4 nozzle",
     "inherits": "eSUN ePLA-Gloss @base",
     "from": "system",
-    "setting_id": "GFSE11_07",
+    "setting_id": "GFSE11_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

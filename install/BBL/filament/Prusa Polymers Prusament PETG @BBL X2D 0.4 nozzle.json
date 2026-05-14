@@ -3,7 +3,7 @@
     "name": "Prusa Polymers Prusament PETG @BBL X2D 0.4 nozzle",
     "inherits": "Prusa Polymers Prusament PETG @base",
     "from": "system",
-    "setting_id": "GFSQ12_07",
+    "setting_id": "GFSQ12_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"

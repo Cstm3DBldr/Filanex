@@ -3,7 +3,7 @@
     "name": "Extrudr FLEX Semisoft @BBL A1M 0.4 nozzle",
     "inherits": "Extrudr FLEX Semisoft @base",
     "from": "system",
-    "setting_id": "GFSX04_02",
+    "setting_id": "GFSX04_06",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

@@ -3,7 +3,7 @@
     "name": "Prusa Polymers PETG V0 @BBL X1C 0.4 nozzle",
     "inherits": "Prusa Polymers PETG V0 @base",
     "from": "system",
-    "setting_id": "GFSQ06_05",
+    "setting_id": "GFSQ06_18",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"

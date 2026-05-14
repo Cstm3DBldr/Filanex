@@ -3,7 +3,7 @@
     "name": "Fiberlogy ABS @BBL P2S 0.4 nozzle",
     "inherits": "Fiberlogy ABS @base",
     "from": "system",
-    "setting_id": "GFSV01_04",
+    "setting_id": "GFSV01_14",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

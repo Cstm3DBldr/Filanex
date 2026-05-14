@@ -3,7 +3,7 @@
     "name": "Fiberlogy HIPS @BBL P2S 0.4 nozzle",
     "inherits": "Fiberlogy HIPS @base",
     "from": "system",
-    "setting_id": "GFSV14_04",
+    "setting_id": "GFSV14_14",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

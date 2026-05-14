@@ -3,7 +3,7 @@
     "name": "SUNLU PETG-CF @BBL X2D 0.4 nozzle",
     "inherits": "SUNLU PETG-CF @base",
     "from": "system",
-    "setting_id": "GFSY07_05",
+    "setting_id": "GFSY05_13",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0022"

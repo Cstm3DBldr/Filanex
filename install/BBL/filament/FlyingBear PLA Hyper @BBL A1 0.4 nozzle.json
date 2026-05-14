@@ -3,7 +3,7 @@
     "name": "FlyingBear PLA Hyper @BBL A1 0.4 nozzle",
     "inherits": "FlyingBear PLA Hyper @base",
     "from": "system",
-    "setting_id": "GFS106_01",
+    "setting_id": "GFS106_02",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

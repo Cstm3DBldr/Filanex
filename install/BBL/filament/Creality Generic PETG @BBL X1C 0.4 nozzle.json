@@ -3,7 +3,7 @@
     "name": "Creality Generic PETG @BBL X1C 0.4 nozzle",
     "inherits": "Creality Generic PETG @base",
     "from": "system",
-    "setting_id": "GFSR07_05",
+    "setting_id": "GFSR07_18",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"

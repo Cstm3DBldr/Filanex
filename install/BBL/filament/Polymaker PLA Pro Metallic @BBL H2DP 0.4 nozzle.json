@@ -3,7 +3,7 @@
     "name": "Polymaker PLA Pro Metallic @BBL H2DP 0.4 nozzle",
     "inherits": "Polymaker PLA Pro Metallic @base",
     "from": "system",
-    "setting_id": "GFSL60_10",
+    "setting_id": "GFSL57_38",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

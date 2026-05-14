@@ -3,7 +3,7 @@
     "name": "Creality CR-TPU @BBL X1 0.4 nozzle",
     "inherits": "Creality CR-TPU @base",
     "from": "system",
-    "setting_id": "GFSR05_03",
+    "setting_id": "GFSR05_10",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

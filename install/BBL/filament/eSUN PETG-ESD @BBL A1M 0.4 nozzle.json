@@ -3,7 +3,7 @@
     "name": "eSUN PETG-ESD @BBL A1M 0.4 nozzle",
     "inherits": "eSUN PETG-ESD @base",
     "from": "system",
-    "setting_id": "GFSE38_02",
+    "setting_id": "GFSE38_04",
     "instantiation": "true",
     "filament_max_volumetric_speed": [
         "15.0"

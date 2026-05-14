@@ -3,7 +3,7 @@
     "name": "eSUN ABS @BBL X2D 0.4 nozzle",
     "inherits": "eSUN ABS @base",
     "from": "system",
-    "setting_id": "GFSE01_05",
+    "setting_id": "GFSE01_18",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

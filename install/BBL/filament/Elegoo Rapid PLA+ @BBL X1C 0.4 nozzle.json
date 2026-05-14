@@ -3,7 +3,7 @@
     "name": "Elegoo Rapid PLA+ @BBL X1C 0.4 nozzle",
     "inherits": "Elegoo Rapid PLA+ @base",
     "from": "system",
-    "setting_id": "GFSD24_05",
+    "setting_id": "GFSD24_18",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

@@ -3,7 +3,7 @@
     "name": "PolyCast @BBL X2D 0.4 nozzle",
     "inherits": "PolyCast @base",
     "from": "system",
-    "setting_id": "GFSL25_07",
+    "setting_id": "GFSL25_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

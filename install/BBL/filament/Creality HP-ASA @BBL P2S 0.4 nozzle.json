@@ -3,7 +3,7 @@
     "name": "Creality HP-ASA @BBL P2S 0.4 nozzle",
     "inherits": "Creality HP-ASA @base",
     "from": "system",
-    "setting_id": "GFSR09_04",
+    "setting_id": "GFSR09_14",
     "instantiation": "true",
     "activate_air_filtration": [
         "0"

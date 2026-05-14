@@ -3,7 +3,7 @@
     "name": "ColorFabb woodFill @BBL X1C 0.4 nozzle",
     "inherits": "ColorFabb woodFill @base",
     "from": "system",
-    "setting_id": "GFSK15_05",
+    "setting_id": "GFSK15_18",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Celestial @BBL X1C 0.4 nozzle",
     "inherits": "Panchroma PLA Celestial @base",
     "from": "system",
-    "setting_id": "GFSL12_05",
+    "setting_id": "GFSL12_18",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

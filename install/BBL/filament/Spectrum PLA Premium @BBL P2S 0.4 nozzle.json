@@ -3,7 +3,7 @@
     "name": "Spectrum PLA Premium @BBL P2S 0.4 nozzle",
     "inherits": "Spectrum PLA Premium @base",
     "from": "system",
-    "setting_id": "GFSW14_06",
+    "setting_id": "GFSW14_22",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

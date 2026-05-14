@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Silk @BBL X2D 0.4 nozzle",
     "inherits": "Orca Arena Arena PLA Silk @base",
     "from": "system",
-    "setting_id": "GFS128_07",
+    "setting_id": "GFS114_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

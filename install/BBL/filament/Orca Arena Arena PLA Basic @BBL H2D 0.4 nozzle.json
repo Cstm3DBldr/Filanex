@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Basic @BBL H2D 0.4 nozzle",
     "inherits": "Orca Arena Arena PLA Basic @base",
     "from": "system",
-    "setting_id": "GFS118_09",
+    "setting_id": "GFS109_34",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

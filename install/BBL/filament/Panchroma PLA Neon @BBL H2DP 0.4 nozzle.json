@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Neon @BBL H2DP 0.4 nozzle",
     "inherits": "Panchroma PLA Neon @base",
     "from": "system",
-    "setting_id": "GFSL19_10",
+    "setting_id": "GFSL19_38",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

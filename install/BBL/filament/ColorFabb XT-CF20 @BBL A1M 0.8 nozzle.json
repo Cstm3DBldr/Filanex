@@ -1,0 +1,14 @@
+{
+    "type": "filament",
+    "name": "ColorFabb XT-CF20 @BBL A1M 0.8 nozzle",
+    "inherits": "ColorFabb XT-CF20 @base",
+    "from": "system",
+    "setting_id": "GFSK16_06",
+    "instantiation": "true",
+    "filament_max_volumetric_speed": [
+        "9"
+    ],
+    "compatible_printers": [
+        "Bambu Lab A1 mini 0.8 nozzle"
+    ]
+}

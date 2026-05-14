@@ -3,7 +3,7 @@
     "name": "Fiberlogy PETG V0 @BBL A1 0.4 nozzle",
     "inherits": "Fiberlogy PETG V0 @base",
     "from": "system",
-    "setting_id": "GFSV30_01",
+    "setting_id": "GFSV30_02",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "15"

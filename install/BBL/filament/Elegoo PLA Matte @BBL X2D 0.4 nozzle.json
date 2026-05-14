@@ -3,7 +3,7 @@
     "name": "Elegoo PLA Matte @BBL X2D 0.4 nozzle",
     "inherits": "Elegoo PLA Matte @base",
     "from": "system",
-    "setting_id": "GFSD17_07",
+    "setting_id": "GFSD17_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

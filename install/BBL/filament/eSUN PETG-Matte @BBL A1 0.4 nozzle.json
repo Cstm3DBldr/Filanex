@@ -3,7 +3,7 @@
     "name": "eSUN PETG-Matte @BBL A1 0.4 nozzle",
     "inherits": "eSUN PETG-Matte @base",
     "from": "system",
-    "setting_id": "GFSE39_01",
+    "setting_id": "GFSE39_02",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "15"

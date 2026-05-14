@@ -3,7 +3,7 @@
     "name": "eSUN PET @BBL A1M 0.4 nozzle",
     "inherits": "eSUN PET @base",
     "from": "system",
-    "setting_id": "GFSE30_02",
+    "setting_id": "GFSE30_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "15"

@@ -3,7 +3,7 @@
     "name": "Creality Soleyin Ultra PLA @BBL X2D 0.4 nozzle",
     "inherits": "Creality Soleyin Ultra PLA @base",
     "from": "system",
-    "setting_id": "GFSR20_07",
+    "setting_id": "GFSR20_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

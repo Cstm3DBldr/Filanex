@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Metal @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFE56",
+    "filament_id": "GFE55",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

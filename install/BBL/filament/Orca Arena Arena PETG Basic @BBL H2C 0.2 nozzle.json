@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PETG Basic @BBL H2C 0.2 nozzle",
     "inherits": "Orca Arena Arena PETG Basic @base",
     "from": "system",
-    "setting_id": "GFS112_08",
+    "setting_id": "GFS107_29",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"
@@ -34,8 +34,8 @@
         "8"
     ],
     "filament_max_volumetric_speed": [
-        "1.0",
-        "1.0"
+        "11.0",
+        "11.0"
     ],
     "filament_pre_cooling_temperature_nc": [
         "205",

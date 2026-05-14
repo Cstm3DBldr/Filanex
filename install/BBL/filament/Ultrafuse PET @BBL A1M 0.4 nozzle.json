@@ -3,7 +3,7 @@
     "name": "Ultrafuse PET @BBL A1M 0.4 nozzle",
     "inherits": "Ultrafuse PET @base",
     "from": "system",
-    "setting_id": "GFSZ09_02",
+    "setting_id": "GFSZ09_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "15"

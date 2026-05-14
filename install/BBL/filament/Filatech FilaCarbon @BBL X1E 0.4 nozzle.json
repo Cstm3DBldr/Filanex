@@ -3,7 +3,7 @@
     "name": "Filatech FilaCarbon @BBL X1E 0.4 nozzle",
     "inherits": "Filatech FilaCarbon @base",
     "from": "system",
-    "setting_id": "GFSJ02_02",
+    "setting_id": "GFSJ02_04",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

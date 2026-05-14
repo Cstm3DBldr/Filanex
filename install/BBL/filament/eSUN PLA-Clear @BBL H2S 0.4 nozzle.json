@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Clear @BBL H2S 0.4 nozzle",
     "inherits": "eSUN PLA-Clear @base",
     "from": "system",
-    "setting_id": "GFSE47_11",
+    "setting_id": "GFSE46_42",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

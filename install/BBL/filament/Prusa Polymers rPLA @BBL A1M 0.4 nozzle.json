@@ -3,7 +3,7 @@
     "name": "Prusa Polymers rPLA @BBL A1M 0.4 nozzle",
     "inherits": "Prusa Polymers rPLA @base",
     "from": "system",
-    "setting_id": "GFSQ19_02",
+    "setting_id": "GFSQ18_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

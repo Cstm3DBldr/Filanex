@@ -3,7 +3,7 @@
     "name": "Overture Matte PLA @BBL P2S 0.2 nozzle",
     "inherits": "Overture Matte PLA @Overture base",
     "from": "system",
-    "setting_id": "GFSO08_06",
+    "setting_id": "GFSO08_21",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"
@@ -36,8 +36,8 @@
         "3"
     ],
     "filament_max_volumetric_speed": [
-        "1.8",
-        "1.8"
+        "16.0",
+        "16.0"
     ],
     "filament_ramming_travel_time": [
         "0",

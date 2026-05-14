@@ -3,7 +3,7 @@
     "name": "Spectrum HIPS-X @BBL X1C 0.4 nozzle",
     "inherits": "Spectrum HIPS-X @base",
     "from": "system",
-    "setting_id": "GFSW02_02",
+    "setting_id": "GFSW02_06",
     "instantiation": "true",
     "fan_max_speed": [
         "60"

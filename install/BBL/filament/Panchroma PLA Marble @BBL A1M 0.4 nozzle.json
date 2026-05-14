@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Marble @BBL A1M 0.4 nozzle",
     "inherits": "Panchroma PLA Marble @base",
     "from": "system",
-    "setting_id": "GFSL16_02",
+    "setting_id": "GFSL16_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

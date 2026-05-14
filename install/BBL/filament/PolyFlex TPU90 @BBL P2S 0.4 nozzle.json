@@ -3,7 +3,7 @@
     "name": "PolyFlex TPU90 @BBL P2S 0.4 nozzle",
     "inherits": "PolyFlex TPU90 @base",
     "from": "system",
-    "setting_id": "GFSL27_05",
+    "setting_id": "GFSL27_18",
     "instantiation": "true",
     "eng_plate_temp": [
         "35"

@@ -3,7 +3,7 @@
     "name": "Ultimaker PP @BBL A1M 0.4 nozzle",
     "inherits": "Ultimaker PP @base",
     "from": "system",
-    "setting_id": "GFSM05_02",
+    "setting_id": "GFSM05_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

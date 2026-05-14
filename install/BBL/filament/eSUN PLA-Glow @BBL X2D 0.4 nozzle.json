@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Glow @BBL X2D 0.4 nozzle",
     "inherits": "eSUN PLA-Glow @base",
     "from": "system",
-    "setting_id": "GFSE49_07",
+    "setting_id": "GFSE48_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

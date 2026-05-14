@@ -3,7 +3,7 @@
     "name": "Snapmaker TPU95 High-Flow @BBL P2S 0.4 nozzle",
     "inherits": "Snapmaker TPU95 High-Flow @base",
     "from": "system",
-    "setting_id": "GFS110_05",
+    "setting_id": "GFS110_18",
     "instantiation": "true",
     "eng_plate_temp": [
         "35"

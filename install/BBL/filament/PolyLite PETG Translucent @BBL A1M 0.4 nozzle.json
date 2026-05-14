@@ -3,7 +3,7 @@
     "name": "PolyLite PETG Translucent @BBL A1M 0.4 nozzle",
     "inherits": "PolyLite PETG Translucent @base",
     "from": "system",
-    "setting_id": "GFSL38_02",
+    "setting_id": "GFSL35_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "15"

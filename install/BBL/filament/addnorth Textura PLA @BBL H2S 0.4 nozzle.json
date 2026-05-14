@@ -3,7 +3,7 @@
     "name": "addnorth Textura PLA @BBL H2S 0.4 nozzle",
     "inherits": "addnorth Textura PLA @base",
     "from": "system",
-    "setting_id": "GFS107_11",
+    "setting_id": "GFS107_42",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

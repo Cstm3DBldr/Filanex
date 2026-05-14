@@ -3,7 +3,7 @@
     "name": "InfiMech FlyingBear PLA Hyper @BBL H2C 0.4 nozzle",
     "inherits": "InfiMech FlyingBear PLA Hyper @base",
     "from": "system",
-    "setting_id": "GFS101_08",
+    "setting_id": "GFS101_30",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

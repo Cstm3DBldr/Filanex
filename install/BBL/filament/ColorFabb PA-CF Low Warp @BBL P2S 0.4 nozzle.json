@@ -3,7 +3,7 @@
     "name": "ColorFabb PA-CF Low Warp @BBL P2S 0.4 nozzle",
     "inherits": "ColorFabb PA-CF Low Warp @base",
     "from": "system",
-    "setting_id": "GFSK12_03",
+    "setting_id": "GFSK12_07",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"

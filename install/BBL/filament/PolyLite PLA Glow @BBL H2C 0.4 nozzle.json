@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Glow @BBL H2C 0.4 nozzle",
     "inherits": "PolyLite PLA Glow @base",
     "from": "system",
-    "setting_id": "GFSL42_08",
+    "setting_id": "GFSL39_30",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

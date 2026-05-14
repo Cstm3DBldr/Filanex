@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Matte @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFE55",
+    "filament_id": "GFE54",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

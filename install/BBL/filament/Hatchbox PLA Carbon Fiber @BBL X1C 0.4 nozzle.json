@@ -3,7 +3,7 @@
     "name": "Hatchbox PLA Carbon Fiber @BBL X1C 0.4 nozzle",
     "inherits": "Hatchbox PLA Carbon Fiber @base",
     "from": "system",
-    "setting_id": "GFSH04_03",
+    "setting_id": "GFSH04_07",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

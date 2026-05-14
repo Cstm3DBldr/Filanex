@@ -3,7 +3,7 @@
     "name": "Fillamentum Nylon FX256 @BBL H2C 0.4 nozzle",
     "inherits": "Fillamentum Nylon FX256 @base",
     "from": "system",
-    "setting_id": "GFSP08_05",
+    "setting_id": "GFSP08_18",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

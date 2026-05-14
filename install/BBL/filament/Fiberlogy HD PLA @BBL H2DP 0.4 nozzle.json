@@ -3,7 +3,7 @@
     "name": "Fiberlogy HD PLA @BBL H2DP 0.4 nozzle",
     "inherits": "Fiberlogy HD PLA @base",
     "from": "system",
-    "setting_id": "GFSV13_10",
+    "setting_id": "GFSV13_38",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

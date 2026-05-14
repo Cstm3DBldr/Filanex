@@ -3,7 +3,7 @@
     "name": "PolyLite PETG @BBL P2S 0.2 nozzle",
     "inherits": "PolyLite PETG @Polymaker base",
     "from": "system",
-    "setting_id": "GFSL36_06",
+    "setting_id": "GFSL34_21",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "40"
@@ -41,8 +41,8 @@
         "3"
     ],
     "filament_max_volumetric_speed": [
-        "1.0",
-        "1.0"
+        "11.5",
+        "11.5"
     ],
     "filament_ramming_travel_time": [
         "0",

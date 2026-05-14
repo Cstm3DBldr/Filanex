@@ -3,7 +3,7 @@
     "name": "eSUN PET @BBL H2DP 0.4 nozzle",
     "inherits": "eSUN PET @base",
     "from": "system",
-    "setting_id": "GFSE30_10",
+    "setting_id": "GFSE30_38",
     "instantiation": "true",
     "counter_coef_2": [
         "0.007"

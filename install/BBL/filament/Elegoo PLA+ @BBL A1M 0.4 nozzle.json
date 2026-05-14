@@ -3,7 +3,7 @@
     "name": "Elegoo PLA+ @BBL A1M 0.4 nozzle",
     "inherits": "Elegoo PLA+ @base",
     "from": "system",
-    "setting_id": "GFSD11_02",
+    "setting_id": "GFSD11_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

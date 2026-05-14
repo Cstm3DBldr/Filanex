@@ -3,7 +3,7 @@
     "name": "Peopoly Lancer PLA-C @BBL X2D 0.4 nozzle",
     "inherits": "Peopoly Lancer PLA-C @base",
     "from": "system",
-    "setting_id": "GFS104_07",
+    "setting_id": "GFS104_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

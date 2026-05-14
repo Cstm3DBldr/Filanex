@@ -3,7 +3,7 @@
     "name": "Flashforge PLA @BBL P2S 0.4 nozzle",
     "inherits": "Flashforge PLA @base",
     "from": "system",
-    "setting_id": "GFSF08_06",
+    "setting_id": "GFSF08_22",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

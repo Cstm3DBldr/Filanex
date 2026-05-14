@@ -3,7 +3,7 @@
     "name": "Creality Generic TPU @BBL A1M 0.4 nozzle",
     "inherits": "Creality Generic TPU @base",
     "from": "system",
-    "setting_id": "GFSR08_02",
+    "setting_id": "GFSR08_06",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

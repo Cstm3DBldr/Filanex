@@ -3,7 +3,7 @@
     "name": "Polymaker PA-CF @BBL X2D 0.4 nozzle",
     "inherits": "Polymaker PA-CF @base",
     "from": "system",
-    "setting_id": "GFSL52_04",
+    "setting_id": "GFSL49_10",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"

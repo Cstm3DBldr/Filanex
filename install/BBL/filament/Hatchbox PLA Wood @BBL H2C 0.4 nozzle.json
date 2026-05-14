@@ -3,7 +3,7 @@
     "name": "Hatchbox PLA Wood @BBL H2C 0.4 nozzle",
     "inherits": "Hatchbox PLA Wood @base",
     "from": "system",
-    "setting_id": "GFSH11_08",
+    "setting_id": "GFSH11_30",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

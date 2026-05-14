@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena ABS @BBL H2S 0.8 nozzle",
     "inherits": "Orca Arena Arena ABS @base",
     "from": "system",
-    "setting_id": "GFS103_09",
+    "setting_id": "GFS101_36",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"
@@ -28,8 +28,8 @@
         "10"
     ],
     "filament_max_volumetric_speed": [
-        "22.0",
-        "22.0"
+        "30.65",
+        "30.65"
     ],
     "filament_retraction_length": [
         "0.4",

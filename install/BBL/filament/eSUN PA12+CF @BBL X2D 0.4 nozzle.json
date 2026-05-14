@@ -3,7 +3,7 @@
     "name": "eSUN PA12+CF @BBL X2D 0.4 nozzle",
     "inherits": "eSUN PA12+CF @base",
     "from": "system",
-    "setting_id": "GFSE25_04",
+    "setting_id": "GFSE25_10",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"

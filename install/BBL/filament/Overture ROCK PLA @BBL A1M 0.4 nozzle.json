@@ -3,7 +3,7 @@
     "name": "Overture ROCK PLA @BBL A1M 0.4 nozzle",
     "inherits": "Overture ROCK PLA @base",
     "from": "system",
-    "setting_id": "GFSO24_02",
+    "setting_id": "GFSO20_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

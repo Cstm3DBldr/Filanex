@@ -3,7 +3,7 @@
     "name": "Fillamentum PC/ABS @BBL P2S 0.4 nozzle",
     "inherits": "Fillamentum PC/ABS @base",
     "from": "system",
-    "setting_id": "GFSP09_04",
+    "setting_id": "GFSP09_14",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

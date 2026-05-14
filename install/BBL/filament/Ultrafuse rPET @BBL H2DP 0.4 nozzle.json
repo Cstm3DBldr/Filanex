@@ -3,7 +3,7 @@
     "name": "Ultrafuse rPET @BBL H2DP 0.4 nozzle",
     "inherits": "Ultrafuse rPET @base",
     "from": "system",
-    "setting_id": "GFSZ16_10",
+    "setting_id": "GFSZ16_38",
     "instantiation": "true",
     "counter_coef_2": [
         "0.007"

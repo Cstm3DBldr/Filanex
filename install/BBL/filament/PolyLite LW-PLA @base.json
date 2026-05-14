@@ -3,7 +3,7 @@
     "name": "PolyLite LW-PLA @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFL35",
+    "filament_id": "GFL33",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

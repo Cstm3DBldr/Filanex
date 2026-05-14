@@ -3,7 +3,7 @@
     "name": "Anycubic PLA-CF @BBL H2DP 0.4 nozzle",
     "inherits": "Anycubic PLA-CF @base",
     "from": "system",
-    "setting_id": "GFSI06_08",
+    "setting_id": "GFSI06_22",
     "instantiation": "true",
     "counter_coef_2": [
         "0.012"

@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Neon @BBL H2DP 0.4 nozzle",
     "inherits": "PolyLite PLA Neon @base",
     "from": "system",
-    "setting_id": "GFSL44_10",
+    "setting_id": "GFSL41_38",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

@@ -3,7 +3,7 @@
     "name": "Peopoly Lancer PETG-C @BBL X1C 0.4 nozzle",
     "inherits": "Peopoly Lancer PETG-C @base",
     "from": "system",
-    "setting_id": "GFS103_05",
+    "setting_id": "GFS103_18",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"

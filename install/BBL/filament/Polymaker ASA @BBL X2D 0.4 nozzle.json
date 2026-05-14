@@ -3,7 +3,7 @@
     "name": "Polymaker ASA @BBL X2D 0.4 nozzle",
     "inherits": "Polymaker ASA @base",
     "from": "system",
-    "setting_id": "GFSL49_05",
+    "setting_id": "GFSL46_18",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

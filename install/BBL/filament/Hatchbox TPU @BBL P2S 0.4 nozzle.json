@@ -3,7 +3,7 @@
     "name": "Hatchbox TPU @BBL P2S 0.4 nozzle",
     "inherits": "Hatchbox TPU @base",
     "from": "system",
-    "setting_id": "GFSH14_05",
+    "setting_id": "GFSH14_18",
     "instantiation": "true",
     "eng_plate_temp": [
         "35"

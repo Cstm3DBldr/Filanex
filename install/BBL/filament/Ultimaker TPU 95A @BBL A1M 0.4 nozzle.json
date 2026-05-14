@@ -3,7 +3,7 @@
     "name": "Ultimaker TPU 95A @BBL A1M 0.4 nozzle",
     "inherits": "Ultimaker TPU 95A @base",
     "from": "system",
-    "setting_id": "GFSM09_02",
+    "setting_id": "GFSM09_06",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

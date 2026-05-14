@@ -3,7 +3,7 @@
     "name": "Fiberon PA12-CF10 @BBL H2C 0.4 nozzle",
     "inherits": "Fiberon PA12-CF10 @base",
     "from": "system",
-    "setting_id": "GFSL02_05",
+    "setting_id": "GFSL02_13",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

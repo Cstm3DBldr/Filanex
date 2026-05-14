@@ -3,7 +3,7 @@
     "name": "Spectrum PETG CF @BBL A1M 0.4 nozzle",
     "inherits": "Spectrum PETG CF @base",
     "from": "system",
-    "setting_id": "GFSW11_02",
+    "setting_id": "GFSW11_04",
     "instantiation": "true",
     "filament_max_volumetric_speed": [
         "9"

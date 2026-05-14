@@ -3,7 +3,7 @@
     "name": "eSUN PLA-CF @BBL P2S 0.4 nozzle",
     "inherits": "eSUN PLA-CF @base",
     "from": "system",
-    "setting_id": "GFSE46_04",
+    "setting_id": "GFSE45_10",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0003"

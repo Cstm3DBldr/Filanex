@@ -3,7 +3,7 @@
     "name": "eSUN eSilk-PLA @BBL P2S 0.4 nozzle",
     "inherits": "eSUN eSilk-PLA @base",
     "from": "system",
-    "setting_id": "GFSE16_06",
+    "setting_id": "GFSE16_22",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

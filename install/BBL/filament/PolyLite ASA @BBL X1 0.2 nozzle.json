@@ -3,15 +3,15 @@
     "name": "PolyLite ASA @BBL X1 0.2 nozzle",
     "inherits": "PolyLite ASA @Polymaker base",
     "from": "system",
-    "setting_id": "GFSL32_01",
+    "setting_id": "GFSL31_01",
     "instantiation": "true",
     "filament_long_retractions_when_cut": [
         "1",
         "1"
     ],
     "filament_max_volumetric_speed": [
-        "2.0",
-        "2.0"
+        "13.0",
+        "13.0"
     ],
     "filament_retraction_distances_when_cut": [
         "18",

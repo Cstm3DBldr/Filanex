@@ -3,7 +3,7 @@
     "name": "PolySupport @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFL70",
+    "filament_id": "GFL67",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

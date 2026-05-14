@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Basic @BBL P1S 0.2 nozzle",
     "inherits": "Orca Arena Arena PLA Basic @base",
     "from": "system",
-    "setting_id": "GFS117_03",
+    "setting_id": "GFS109_09",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",
@@ -18,8 +18,8 @@
         "1"
     ],
     "filament_max_volumetric_speed": [
-        "2.0",
-        "2.0"
+        "16.5",
+        "16.5"
     ],
     "filament_retraction_distances_when_cut": [
         "18",

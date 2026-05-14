@@ -3,7 +3,7 @@
     "name": "Flashforge PLA Basic @BBL H2S 0.4 nozzle",
     "inherits": "Flashforge PLA Basic @base",
     "from": "system",
-    "setting_id": "GFSF10_11",
+    "setting_id": "GFSF10_42",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

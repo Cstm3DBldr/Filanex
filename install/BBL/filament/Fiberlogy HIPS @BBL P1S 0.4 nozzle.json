@@ -3,7 +3,7 @@
     "name": "Fiberlogy HIPS @BBL P1S 0.4 nozzle",
     "inherits": "Fiberlogy HIPS @base",
     "from": "system",
-    "setting_id": "GFSV14_01",
+    "setting_id": "GFSV14_02",
     "instantiation": "true",
     "fan_max_speed": [
         "60"

@@ -3,7 +3,7 @@
     "name": "Spectrum PLA SILK @BBL X2D 0.4 nozzle",
     "inherits": "Spectrum PLA SILK @base",
     "from": "system",
-    "setting_id": "GFSW16_07",
+    "setting_id": "GFSW16_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

@@ -3,7 +3,7 @@
     "name": "Filatech FilaTough @BBL P1S 0.4 nozzle",
     "inherits": "Filatech FilaTough @base",
     "from": "system",
-    "setting_id": "GFSJ04_03",
+    "setting_id": "GFSJ04_10",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

@@ -3,7 +3,7 @@
     "name": "Prusa Polymers PVB @BBL X1 0.4 nozzle",
     "inherits": "Prusa Polymers PVB @base",
     "from": "system",
-    "setting_id": "GFSQ17_04",
+    "setting_id": "GFSQ16_14",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

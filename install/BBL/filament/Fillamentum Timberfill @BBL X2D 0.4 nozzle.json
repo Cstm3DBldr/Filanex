@@ -3,7 +3,7 @@
     "name": "Fillamentum Timberfill @BBL X2D 0.4 nozzle",
     "inherits": "Fillamentum Timberfill @base",
     "from": "system",
-    "setting_id": "GFSP13_07",
+    "setting_id": "GFSP13_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

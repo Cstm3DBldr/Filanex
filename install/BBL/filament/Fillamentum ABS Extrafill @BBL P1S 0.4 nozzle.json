@@ -3,7 +3,7 @@
     "name": "Fillamentum ABS Extrafill @BBL P1S 0.4 nozzle",
     "inherits": "Fillamentum ABS Extrafill @base",
     "from": "system",
-    "setting_id": "GFSP01_01",
+    "setting_id": "GFSP01_02",
     "instantiation": "true",
     "fan_max_speed": [
         "60"

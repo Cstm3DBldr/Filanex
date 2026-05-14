@@ -3,7 +3,7 @@
     "name": "SUNLU PLA Matte @BBL X2D 0.2 nozzle",
     "inherits": "SUNLU PLA Matte @SUNLU base",
     "from": "system",
-    "setting_id": "GFSY14_07",
+    "setting_id": "GFSY12_25",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"
@@ -51,10 +51,10 @@
         "3"
     ],
     "filament_max_volumetric_speed": [
-        "2.0",
-        "2.0",
-        "2.0",
-        "2.0"
+        "16.04",
+        "16.04",
+        "16.04",
+        "16.04"
     ],
     "filament_ramming_travel_time": [
         "0",

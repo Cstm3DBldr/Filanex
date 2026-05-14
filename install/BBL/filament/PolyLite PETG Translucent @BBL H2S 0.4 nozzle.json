@@ -3,7 +3,7 @@
     "name": "PolyLite PETG Translucent @BBL H2S 0.4 nozzle",
     "inherits": "PolyLite PETG Translucent @base",
     "from": "system",
-    "setting_id": "GFSL38_11",
+    "setting_id": "GFSL35_42",
     "instantiation": "true",
     "counter_coef_2": [
         "0.007"

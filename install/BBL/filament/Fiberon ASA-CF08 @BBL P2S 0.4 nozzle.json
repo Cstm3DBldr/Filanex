@@ -3,7 +3,7 @@
     "name": "Fiberon ASA-CF08 @BBL P2S 0.4 nozzle",
     "inherits": "Fiberon ASA-CF08 @base",
     "from": "system",
-    "setting_id": "GFSL01_02",
+    "setting_id": "GFSL01_04",
     "instantiation": "true",
     "activate_air_filtration": [
         "0"

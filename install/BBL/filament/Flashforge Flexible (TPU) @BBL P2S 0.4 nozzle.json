@@ -3,7 +3,7 @@
     "name": "Flashforge Flexible (TPU) @BBL P2S 0.4 nozzle",
     "inherits": "Flashforge Flexible (TPU) @base",
     "from": "system",
-    "setting_id": "GFSF03_05",
+    "setting_id": "GFSF03_18",
     "instantiation": "true",
     "eng_plate_temp": [
         "35"

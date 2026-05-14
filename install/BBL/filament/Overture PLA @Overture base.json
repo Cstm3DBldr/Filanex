@@ -3,19 +3,19 @@
     "name": "Overture PLA @Overture base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFO19",
+    "filament_id": "GFO15",
     "instantiation": "false",
     "filament_cost": [
         "24.99"
     ],
     "filament_density": [
-        "1.2149999999999999"
+        "1.205"
     ],
     "filament_flow_ratio": [
-        "1.0"
+        "0.98"
     ],
     "filament_max_volumetric_speed": [
-        "19.0"
+        "15.0"
     ],
     "filament_vendor": [
         "Overture"

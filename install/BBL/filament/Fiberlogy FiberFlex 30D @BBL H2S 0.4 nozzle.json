@@ -3,7 +3,7 @@
     "name": "Fiberlogy FiberFlex 30D @BBL H2S 0.4 nozzle",
     "inherits": "Fiberlogy FiberFlex 30D @base",
     "from": "system",
-    "setting_id": "GFSV10_10",
+    "setting_id": "GFSV10_38",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

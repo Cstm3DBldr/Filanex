@@ -3,7 +3,7 @@
     "name": "Extrudr GreenTEC @BBL P2S 0.4 nozzle",
     "inherits": "Extrudr GreenTEC @base",
     "from": "system",
-    "setting_id": "GFSX05_06",
+    "setting_id": "GFSX05_22",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

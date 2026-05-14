@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Luminous @BBL P1S 0.4 nozzle",
     "inherits": "PolyLite PLA Luminous @base",
     "from": "system",
-    "setting_id": "GFSL43_03",
+    "setting_id": "GFSL40_10",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

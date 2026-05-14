@@ -1,0 +1,74 @@
+{
+    "type": "filament",
+    "name": "Fiberon ASA-CF08 @BBL X2D 0.6 nozzle",
+    "inherits": "Fiberon ASA-CF08 @base",
+    "from": "system",
+    "setting_id": "GFSL01_08",
+    "instantiation": "true",
+    "chamber_temperatures": [
+        "60"
+    ],
+    "filament_cooling_before_tower": [
+        "10",
+        "10",
+        "10",
+        "10"
+    ],
+    "filament_extruder_compatibility": [
+        "16"
+    ],
+    "filament_flow_ratio": [
+        "0.79",
+        "0.79",
+        "0.79",
+        "0.79"
+    ],
+    "filament_max_volumetric_speed": [
+        "16.0",
+        "16.0",
+        "16.0",
+        "16.0"
+    ],
+    "filament_ramming_travel_time": [
+        "0",
+        "0",
+        "0",
+        "0"
+    ],
+    "filament_tower_interface_print_temp": [
+        "275"
+    ],
+    "include": [
+        "fdm_filament_template_direct_bowden"
+    ],
+    "nozzle_temperature": [
+        "270.0",
+        "270.0",
+        "270.0",
+        "270.0"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "270.0",
+        "270.0",
+        "270.0",
+        "270.0"
+    ],
+    "retraction_distances_when_ec": [
+        "3",
+        "3",
+        "4",
+        "4"
+    ],
+    "slow_down_min_speed": [
+        "20",
+        "20",
+        "20",
+        "20"
+    ],
+    "compatible_printers": [
+        "Bambu Lab X2D 0.6 nozzle"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\n"
+    ]
+}

@@ -3,7 +3,7 @@
     "name": "PolyFlex TPU90 @BBL H2D 0.4 nozzle",
     "inherits": "PolyFlex TPU90 @base",
     "from": "system",
-    "setting_id": "GFSL27_08",
+    "setting_id": "GFSL27_30",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

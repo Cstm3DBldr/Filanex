@@ -3,7 +3,7 @@
     "name": "Elegoo ASA @BBL H2S 0.4 nozzle",
     "inherits": "Elegoo ASA @base",
     "from": "system",
-    "setting_id": "GFSD02_09",
+    "setting_id": "GFSD02_34",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

@@ -3,7 +3,7 @@
     "name": "Fillamentum PETG @BBL A1M 0.4 nozzle",
     "inherits": "Fillamentum PETG @base",
     "from": "system",
-    "setting_id": "GFSP10_02",
+    "setting_id": "GFSP10_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "15"

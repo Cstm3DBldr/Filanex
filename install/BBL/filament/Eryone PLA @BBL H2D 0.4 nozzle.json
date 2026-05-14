@@ -3,7 +3,7 @@
     "name": "Eryone PLA @BBL H2D 0.4 nozzle",
     "inherits": "Eryone PLA @base",
     "from": "system",
-    "setting_id": "GFS102_09",
+    "setting_id": "GFS102_34",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

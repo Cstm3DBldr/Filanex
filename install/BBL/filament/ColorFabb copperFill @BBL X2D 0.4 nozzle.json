@@ -3,7 +3,7 @@
     "name": "ColorFabb copperFill @BBL X2D 0.4 nozzle",
     "inherits": "ColorFabb copperFill @base",
     "from": "system",
-    "setting_id": "GFSK04_07",
+    "setting_id": "GFSK04_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

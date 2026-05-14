@@ -3,7 +3,7 @@
     "name": "SUNLU PETG @BBL X1C 0.4 nozzle",
     "inherits": "SUNLU PETG @SUNLU base",
     "from": "system",
-    "setting_id": "GFSY05_05",
+    "setting_id": "GFSY04_18",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"

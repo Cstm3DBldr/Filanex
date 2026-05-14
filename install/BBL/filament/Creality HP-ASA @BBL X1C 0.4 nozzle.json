@@ -3,7 +3,7 @@
     "name": "Creality HP-ASA @BBL X1C 0.4 nozzle",
     "inherits": "Creality HP-ASA @base",
     "from": "system",
-    "setting_id": "GFSR09_02",
+    "setting_id": "GFSR09_06",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

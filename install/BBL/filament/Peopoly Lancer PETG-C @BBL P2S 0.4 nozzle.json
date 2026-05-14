@@ -3,7 +3,7 @@
     "name": "Peopoly Lancer PETG-C @BBL P2S 0.4 nozzle",
     "inherits": "Peopoly Lancer PETG-C @base",
     "from": "system",
-    "setting_id": "GFS103_06",
+    "setting_id": "GFS103_22",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"

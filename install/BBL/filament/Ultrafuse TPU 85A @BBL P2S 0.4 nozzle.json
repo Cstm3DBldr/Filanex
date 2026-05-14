@@ -3,7 +3,7 @@
     "name": "Ultrafuse TPU 85A @BBL P2S 0.4 nozzle",
     "inherits": "Ultrafuse TPU 85A @base",
     "from": "system",
-    "setting_id": "GFSZ19_05",
+    "setting_id": "GFSZ19_18",
     "instantiation": "true",
     "eng_plate_temp": [
         "35"

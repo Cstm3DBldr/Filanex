@@ -3,7 +3,7 @@
     "name": "Fillamentum Nylon CF15 @BBL P2S 0.4 nozzle",
     "inherits": "Fillamentum Nylon CF15 @base",
     "from": "system",
-    "setting_id": "GFSP07_03",
+    "setting_id": "GFSP07_07",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"

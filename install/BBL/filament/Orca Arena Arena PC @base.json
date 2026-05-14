@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PC @base",
     "inherits": "fdm_filament_pc",
     "from": "system",
-    "filament_id": "GFO109",
+    "filament_id": "GFO104",
     "instantiation": "false",
     "filament_vendor": [
         "Orca Arena"

@@ -3,7 +3,7 @@
     "name": "Creality Hyper PLA-CF @BBL X1C 0.4 nozzle",
     "inherits": "Creality Hyper PLA-CF @base",
     "from": "system",
-    "setting_id": "GFSR18_03",
+    "setting_id": "GFSR18_07",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

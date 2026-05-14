@@ -3,7 +3,7 @@
     "name": "PolyLite ASA @BBL P2S 0.2 nozzle",
     "inherits": "PolyLite ASA @Polymaker base",
     "from": "system",
-    "setting_id": "GFSL32_04",
+    "setting_id": "GFSL31_13",
     "instantiation": "true",
     "activate_air_filtration": [
         "0"
@@ -38,8 +38,8 @@
         "3"
     ],
     "filament_max_volumetric_speed": [
-        "2.0",
-        "2.0"
+        "13.0",
+        "13.0"
     ],
     "filament_ramming_travel_time": [
         "0",

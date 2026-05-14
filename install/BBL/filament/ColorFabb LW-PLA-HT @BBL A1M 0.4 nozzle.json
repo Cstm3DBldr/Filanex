@@ -3,7 +3,7 @@
     "name": "ColorFabb LW-PLA-HT @BBL A1M 0.4 nozzle",
     "inherits": "ColorFabb LW-PLA-HT @base",
     "from": "system",
-    "setting_id": "GFSK08_02",
+    "setting_id": "GFSK08_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

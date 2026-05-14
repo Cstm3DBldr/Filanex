@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Metal @BBL A1M 0.2 nozzle",
     "inherits": "Orca Arena Arena PLA Metal @base",
     "from": "system",
-    "setting_id": "GFS125_02",
+    "setting_id": "GFS113_05",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"
@@ -18,7 +18,7 @@
         "1"
     ],
     "filament_max_volumetric_speed": [
-        "2.0"
+        "16.5"
     ],
     "filament_retraction_distances_when_cut": [
         "18"

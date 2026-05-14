@@ -1,0 +1,83 @@
+{
+    "type": "filament",
+    "name": "Creality CR-TPU @BBL P2S 0.2 nozzle",
+    "inherits": "Creality CR-TPU @base",
+    "from": "system",
+    "setting_id": "GFSR05_17",
+    "instantiation": "true",
+    "eng_plate_temp": [
+        "35"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "35"
+    ],
+    "filament_cooling_before_tower": [
+        "10",
+        "10",
+        "10",
+        "10"
+    ],
+    "filament_extruder_compatibility": [
+        "8"
+    ],
+    "filament_flow_ratio": [
+        "0.98",
+        "0.98",
+        "0.98",
+        "0.98"
+    ],
+    "filament_max_volumetric_speed": [
+        "2.0",
+        "2.0",
+        "2.0",
+        "2.0"
+    ],
+    "filament_printable": [
+        "1"
+    ],
+    "filament_ramming_travel_time": [
+        "0",
+        "0",
+        "0",
+        "0"
+    ],
+    "filament_retraction_length": [
+        "0.4",
+        "0.4",
+        "0.4",
+        "0.4"
+    ],
+    "filament_tower_interface_print_temp": [
+        "230"
+    ],
+    "first_x_layer_fan_speed": [
+        "40"
+    ],
+    "include": [
+        "fdm_filament_template_direct_bowden"
+    ],
+    "nozzle_temperature": [
+        "222.5",
+        "222.5",
+        "222.5",
+        "222.5"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "227.5",
+        "227.5",
+        "227.5",
+        "227.5"
+    ],
+    "retraction_distances_when_ec": [
+        "0",
+        "0",
+        "0",
+        "0"
+    ],
+    "compatible_printers": [
+        "Bambu Lab P2S 0.2 nozzle"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\n"
+    ]
+}

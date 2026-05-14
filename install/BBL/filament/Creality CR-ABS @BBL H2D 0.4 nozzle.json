@@ -3,7 +3,7 @@
     "name": "Creality CR-ABS @BBL H2D 0.4 nozzle",
     "inherits": "Creality CR-ABS @base",
     "from": "system",
-    "setting_id": "GFSR01_07",
+    "setting_id": "GFSR01_26",
     "instantiation": "true",
     "fan_max_speed": [
         "20"

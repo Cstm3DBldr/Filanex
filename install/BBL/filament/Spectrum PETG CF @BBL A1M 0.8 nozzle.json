@@ -1,0 +1,14 @@
+{
+    "type": "filament",
+    "name": "Spectrum PETG CF @BBL A1M 0.8 nozzle",
+    "inherits": "Spectrum PETG CF @base",
+    "from": "system",
+    "setting_id": "GFSW11_06",
+    "instantiation": "true",
+    "filament_max_volumetric_speed": [
+        "9"
+    ],
+    "compatible_printers": [
+        "Bambu Lab A1 mini 0.8 nozzle"
+    ]
+}

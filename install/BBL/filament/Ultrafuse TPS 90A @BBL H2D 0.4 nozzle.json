@@ -3,7 +3,7 @@
     "name": "Ultrafuse TPS 90A @BBL H2D 0.4 nozzle",
     "inherits": "Ultrafuse TPS 90A @base",
     "from": "system",
-    "setting_id": "GFSZ17_08",
+    "setting_id": "GFSZ17_30",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

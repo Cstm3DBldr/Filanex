@@ -3,7 +3,7 @@
     "name": "eSUN PC @BBL X1C 0.4 nozzle",
     "inherits": "eSUN PC @base",
     "from": "system",
-    "setting_id": "GFSE26_02",
+    "setting_id": "GFSE26_06",
     "instantiation": "true",
     "eng_plate_temp": [
         "100"

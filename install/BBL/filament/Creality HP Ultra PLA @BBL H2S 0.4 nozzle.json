@@ -3,7 +3,7 @@
     "name": "Creality HP Ultra PLA @BBL H2S 0.4 nozzle",
     "inherits": "Creality HP Ultra PLA @base",
     "from": "system",
-    "setting_id": "GFSR11_11",
+    "setting_id": "GFSR11_42",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

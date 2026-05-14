@@ -3,7 +3,7 @@
     "name": "Creality CR-PLA @BBL H2DP 0.4 nozzle",
     "inherits": "Creality CR-PLA @base",
     "from": "system",
-    "setting_id": "GFSR02_10",
+    "setting_id": "GFSR02_38",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

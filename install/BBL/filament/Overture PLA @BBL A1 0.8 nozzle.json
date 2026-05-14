@@ -3,7 +3,7 @@
     "name": "Overture PLA @BBL A1 0.8 nozzle",
     "inherits": "Overture PLA @Overture base",
     "from": "system",
-    "setting_id": "GFSO19_01",
+    "setting_id": "GFSO15_04",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"
@@ -18,7 +18,7 @@
         "1"
     ],
     "filament_max_volumetric_speed": [
-        "19.0"
+        "15.0"
     ],
     "filament_retraction_distances_when_cut": [
         "18"
@@ -36,7 +36,7 @@
         "6"
     ],
     "textured_plate_temp": [
-        "55.0"
+        "60.0"
     ],
     "textured_plate_temp_initial_layer": [
         "65"

@@ -1,0 +1,29 @@
+{
+    "type": "filament",
+    "name": "Prusa Polymers PC Blend @BBL P1S 0.8 nozzle",
+    "inherits": "Prusa Polymers PC Blend @base",
+    "from": "system",
+    "setting_id": "GFSQ03_04",
+    "instantiation": "true",
+    "eng_plate_temp": [
+        "100"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "100"
+    ],
+    "hot_plate_temp": [
+        "112.5"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "110.0"
+    ],
+    "textured_plate_temp": [
+        "100"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "100"
+    ],
+    "compatible_printers": [
+        "Bambu Lab P1S 0.8 nozzle"
+    ]
+}

@@ -3,7 +3,7 @@
     "name": "Overture Matte PLA @Overture base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFO09",
+    "filament_id": "GFO08",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

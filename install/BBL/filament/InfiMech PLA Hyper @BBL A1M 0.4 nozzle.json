@@ -3,7 +3,7 @@
     "name": "InfiMech PLA Hyper @BBL A1M 0.4 nozzle",
     "inherits": "InfiMech PLA Hyper @base",
     "from": "system",
-    "setting_id": "GFS102_02",
+    "setting_id": "GFS102_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

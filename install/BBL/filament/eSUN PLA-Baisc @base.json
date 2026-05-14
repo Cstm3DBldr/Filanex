@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Baisc @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFE44",
+    "filament_id": "GFE43",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

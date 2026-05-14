@@ -3,7 +3,7 @@
     "name": "Filatech FilaPLA @BBL P2S 0.4 nozzle",
     "inherits": "Filatech FilaPLA @base",
     "from": "system",
-    "setting_id": "GFSJ03_06",
+    "setting_id": "GFSJ03_22",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

@@ -3,7 +3,7 @@
     "name": "Prusa Polymers PVB @BBL A1M 0.4 nozzle",
     "inherits": "Prusa Polymers PVB @base",
     "from": "system",
-    "setting_id": "GFSQ17_02",
+    "setting_id": "GFSQ16_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

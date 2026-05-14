@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Basic @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFO119",
+    "filament_id": "GFO109",
     "instantiation": "false",
     "filament_cost": [
         "24.99"
@@ -15,7 +15,7 @@
         "0.98"
     ],
     "filament_max_volumetric_speed": [
-        "21.0"
+        "16.5"
     ],
     "filament_vendor": [
         "Orca Arena"

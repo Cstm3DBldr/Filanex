@@ -3,7 +3,7 @@
     "name": "Ultimaker PVA @BBL H2DP 0.4 nozzle",
     "inherits": "Ultimaker PVA @base",
     "from": "system",
-    "setting_id": "GFSM06_09",
+    "setting_id": "GFSM06_34",
     "instantiation": "true",
     "eng_plate_temp": [
         "55"

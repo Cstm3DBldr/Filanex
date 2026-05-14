@@ -3,7 +3,7 @@
     "name": "Prusa Polymers rPLA @BBL X1C 0.4 nozzle",
     "inherits": "Prusa Polymers rPLA @base",
     "from": "system",
-    "setting_id": "GFSQ19_05",
+    "setting_id": "GFSQ18_18",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

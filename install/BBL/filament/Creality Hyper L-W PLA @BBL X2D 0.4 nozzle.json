@@ -3,7 +3,7 @@
     "name": "Creality Hyper L-W PLA @BBL X2D 0.4 nozzle",
     "inherits": "Creality Hyper L-W PLA @base",
     "from": "system",
-    "setting_id": "GFSR13_05",
+    "setting_id": "GFSR13_18",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "0"

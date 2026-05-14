@@ -3,7 +3,7 @@
     "name": "Fiberlogy Matte PETG @BBL A1 0.4 nozzle",
     "inherits": "Fiberlogy Matte PETG @base",
     "from": "system",
-    "setting_id": "GFSV18_01",
+    "setting_id": "GFSV18_02",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "15"

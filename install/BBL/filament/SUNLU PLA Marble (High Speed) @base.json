@@ -3,7 +3,7 @@
     "name": "SUNLU PLA Marble (High Speed) @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFY13",
+    "filament_id": "GFY11",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

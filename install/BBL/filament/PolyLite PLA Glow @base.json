@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Glow @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFL42",
+    "filament_id": "GFL39",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

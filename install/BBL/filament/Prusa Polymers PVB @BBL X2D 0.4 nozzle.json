@@ -3,7 +3,7 @@
     "name": "Prusa Polymers PVB @BBL X2D 0.4 nozzle",
     "inherits": "Prusa Polymers PVB @base",
     "from": "system",
-    "setting_id": "GFSQ17_07",
+    "setting_id": "GFSQ16_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

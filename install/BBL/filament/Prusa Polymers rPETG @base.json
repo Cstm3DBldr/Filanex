@@ -3,7 +3,7 @@
     "name": "Prusa Polymers rPETG @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFQ18",
+    "filament_id": "GFQ17",
     "instantiation": "false",
     "cool_plate_temp": [
         "0"

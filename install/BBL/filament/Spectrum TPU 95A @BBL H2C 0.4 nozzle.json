@@ -3,7 +3,7 @@
     "name": "Spectrum TPU 95A @BBL H2C 0.4 nozzle",
     "inherits": "Spectrum TPU 95A @base",
     "from": "system",
-    "setting_id": "GFSW20_07",
+    "setting_id": "GFSW20_26",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

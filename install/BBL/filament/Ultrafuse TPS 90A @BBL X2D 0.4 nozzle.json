@@ -3,7 +3,7 @@
     "name": "Ultrafuse TPS 90A @BBL X2D 0.4 nozzle",
     "inherits": "Ultrafuse TPS 90A @base",
     "from": "system",
-    "setting_id": "GFSZ17_06",
+    "setting_id": "GFSZ17_22",
     "instantiation": "true",
     "eng_plate_temp": [
         "35"

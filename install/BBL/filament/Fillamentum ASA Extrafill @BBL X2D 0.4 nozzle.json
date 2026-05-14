@@ -3,7 +3,7 @@
     "name": "Fillamentum ASA Extrafill @BBL X2D 0.4 nozzle",
     "inherits": "Fillamentum ASA Extrafill @base",
     "from": "system",
-    "setting_id": "GFSP02_05",
+    "setting_id": "GFSP02_18",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

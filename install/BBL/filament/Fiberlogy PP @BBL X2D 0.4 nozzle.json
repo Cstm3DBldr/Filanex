@@ -3,7 +3,7 @@
     "name": "Fiberlogy PP @BBL X2D 0.4 nozzle",
     "inherits": "Fiberlogy PP @base",
     "from": "system",
-    "setting_id": "GFSV33_07",
+    "setting_id": "GFSV33_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

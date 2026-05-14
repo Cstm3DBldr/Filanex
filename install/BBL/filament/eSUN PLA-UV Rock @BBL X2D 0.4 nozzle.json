@@ -3,7 +3,7 @@
     "name": "eSUN PLA-UV Rock @BBL X2D 0.4 nozzle",
     "inherits": "eSUN PLA-UV Rock @base",
     "from": "system",
-    "setting_id": "GFSE60_07",
+    "setting_id": "GFSE59_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

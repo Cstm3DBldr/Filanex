@@ -3,7 +3,7 @@
     "name": "Prusa Polymers Prusament PETG @BBL A1 0.6 nozzle",
     "inherits": "Prusa Polymers Prusament PETG @base",
     "from": "system",
-    "setting_id": "GFSQ13_01",
+    "setting_id": "GFSQ12_03",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "15"
@@ -21,13 +21,13 @@
         "1"
     ],
     "filament_max_volumetric_speed": [
-        "19.0"
+        "12.75"
     ],
     "filament_retraction_distances_when_cut": [
         "18"
     ],
     "nozzle_temperature": [
-        "241.25"
+        "245.0"
     ],
     "overhang_fan_speed": [
         "100"

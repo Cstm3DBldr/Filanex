@@ -3,7 +3,7 @@
     "name": "Fillamentum Flexfill TPU 98A @BBL P2S 0.4 nozzle",
     "inherits": "Fillamentum Flexfill TPU 98A @base",
     "from": "system",
-    "setting_id": "GFSP06_05",
+    "setting_id": "GFSP06_18",
     "instantiation": "true",
     "eng_plate_temp": [
         "35"

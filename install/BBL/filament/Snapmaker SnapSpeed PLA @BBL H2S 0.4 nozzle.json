@@ -3,7 +3,7 @@
     "name": "Snapmaker SnapSpeed PLA @BBL H2S 0.4 nozzle",
     "inherits": "Snapmaker SnapSpeed PLA @base",
     "from": "system",
-    "setting_id": "GFS108_11",
+    "setting_id": "GFS108_42",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

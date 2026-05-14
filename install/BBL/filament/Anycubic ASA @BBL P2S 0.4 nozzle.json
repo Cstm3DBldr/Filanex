@@ -3,7 +3,7 @@
     "name": "Anycubic ASA @BBL P2S 0.4 nozzle",
     "inherits": "Anycubic ASA @base",
     "from": "system",
-    "setting_id": "GFSI02_04",
+    "setting_id": "GFSI02_14",
     "instantiation": "true",
     "activate_air_filtration": [
         "0"

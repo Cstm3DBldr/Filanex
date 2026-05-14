@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PETG Basic @BBL H2S 0.8 nozzle",
     "inherits": "Orca Arena Arena PETG Basic @base",
     "from": "system",
-    "setting_id": "GFS114_11",
+    "setting_id": "GFS107_44",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"
@@ -34,8 +34,8 @@
         "8"
     ],
     "filament_max_volumetric_speed": [
-        "16.0",
-        "16.0"
+        "11.0",
+        "11.0"
     ],
     "filament_retraction_length": [
         "0.4",

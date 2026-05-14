@@ -3,7 +3,7 @@
     "name": "Overture Silk PLA @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFO25",
+    "filament_id": "GFO21",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

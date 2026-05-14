@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Lite @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFE51",
+    "filament_id": "GFE50",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

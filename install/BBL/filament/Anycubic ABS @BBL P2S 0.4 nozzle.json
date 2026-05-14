@@ -3,7 +3,7 @@
     "name": "Anycubic ABS @BBL P2S 0.4 nozzle",
     "inherits": "Anycubic ABS @base",
     "from": "system",
-    "setting_id": "GFSI01_04",
+    "setting_id": "GFSI01_14",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

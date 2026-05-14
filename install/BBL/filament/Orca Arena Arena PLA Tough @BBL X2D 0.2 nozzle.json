@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Tough @BBL X2D 0.2 nozzle",
     "inherits": "Orca Arena Arena PLA Tough @base",
     "from": "system",
-    "setting_id": "GFS130_07",
+    "setting_id": "GFS116_25",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"
@@ -51,10 +51,10 @@
         "3"
     ],
     "filament_max_volumetric_speed": [
-        "2.0",
-        "2.0",
-        "2.0",
-        "2.0"
+        "16.5",
+        "16.5",
+        "16.5",
+        "16.5"
     ],
     "filament_ramming_travel_time": [
         "0",

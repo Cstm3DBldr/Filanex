@@ -3,7 +3,7 @@
     "name": "SUNLU ABS @BBL H2D 0.4 nozzle",
     "inherits": "SUNLU ABS @base",
     "from": "system",
-    "setting_id": "GFSY01_07",
+    "setting_id": "GFSY01_26",
     "instantiation": "true",
     "fan_max_speed": [
         "20"

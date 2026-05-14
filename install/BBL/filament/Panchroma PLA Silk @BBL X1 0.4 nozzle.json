@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Silk @BBL X1 0.4 nozzle",
     "inherits": "Panchroma PLA Silk @base",
     "from": "system",
-    "setting_id": "GFSL21_04",
+    "setting_id": "GFSL21_14",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

@@ -3,7 +3,7 @@
     "name": "Ultrafuse PP GF30 @BBL A1 0.4 nozzle",
     "inherits": "Ultrafuse PP GF30 @base",
     "from": "system",
-    "setting_id": "GFSZ14_01",
+    "setting_id": "GFSZ14_02",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

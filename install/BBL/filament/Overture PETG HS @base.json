@@ -3,7 +3,7 @@
     "name": "Overture PETG HS @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFO15",
+    "filament_id": "GFO14",
     "instantiation": "false",
     "cool_plate_temp": [
         "30.0"

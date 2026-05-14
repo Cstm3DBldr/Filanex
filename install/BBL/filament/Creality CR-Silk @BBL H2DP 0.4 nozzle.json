@@ -3,7 +3,7 @@
     "name": "Creality CR-Silk @BBL H2DP 0.4 nozzle",
     "inherits": "Creality CR-Silk @base",
     "from": "system",
-    "setting_id": "GFSR04_09",
+    "setting_id": "GFSR04_34",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

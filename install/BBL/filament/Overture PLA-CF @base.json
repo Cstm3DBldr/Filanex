@@ -3,7 +3,7 @@
     "name": "Overture PLA-CF @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFO20",
+    "filament_id": "GFO16",
     "instantiation": "false",
     "additional_cooling_fan_speed": [
         "0"

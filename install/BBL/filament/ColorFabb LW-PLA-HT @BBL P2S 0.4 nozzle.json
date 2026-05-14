@@ -3,7 +3,7 @@
     "name": "ColorFabb LW-PLA-HT @BBL P2S 0.4 nozzle",
     "inherits": "ColorFabb LW-PLA-HT @base",
     "from": "system",
-    "setting_id": "GFSK08_06",
+    "setting_id": "GFSK08_22",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

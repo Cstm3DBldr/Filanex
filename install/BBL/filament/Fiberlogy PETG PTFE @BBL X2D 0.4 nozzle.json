@@ -3,7 +3,7 @@
     "name": "Fiberlogy PETG PTFE @BBL X2D 0.4 nozzle",
     "inherits": "Fiberlogy PETG PTFE @base",
     "from": "system",
-    "setting_id": "GFSV29_07",
+    "setting_id": "GFSV29_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"

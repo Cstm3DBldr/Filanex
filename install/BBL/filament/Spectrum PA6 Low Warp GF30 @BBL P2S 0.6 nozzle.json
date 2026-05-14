@@ -1,0 +1,77 @@
+{
+    "type": "filament",
+    "name": "Spectrum PA6 Low Warp GF30 @BBL P2S 0.6 nozzle",
+    "inherits": "Spectrum PA6 Low Warp GF30 @base",
+    "from": "system",
+    "setting_id": "GFSW05_05",
+    "instantiation": "true",
+    "chamber_temperatures": [
+        "60"
+    ],
+    "filament_cooling_before_tower": [
+        "10",
+        "10",
+        "10",
+        "10"
+    ],
+    "filament_flow_ratio": [
+        "0.96",
+        "0.96",
+        "0.96",
+        "0.96"
+    ],
+    "filament_max_volumetric_speed": [
+        "10.5",
+        "10.5",
+        "10.5",
+        "10.5"
+    ],
+    "filament_ramming_travel_time": [
+        "0",
+        "0",
+        "0",
+        "0"
+    ],
+    "filament_retraction_length": [
+        "1",
+        "1",
+        "nil",
+        "nil"
+    ],
+    "filament_tower_interface_print_temp": [
+        "265"
+    ],
+    "include": [
+        "fdm_filament_template_direct_bowden"
+    ],
+    "nozzle_temperature": [
+        "265.0",
+        "265.0",
+        "265.0",
+        "265.0"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "265.0",
+        "265.0",
+        "265.0",
+        "265.0"
+    ],
+    "retraction_distances_when_ec": [
+        "3",
+        "3",
+        "4",
+        "4"
+    ],
+    "slow_down_min_speed": [
+        "20",
+        "20",
+        "20",
+        "20"
+    ],
+    "compatible_printers": [
+        "Bambu Lab P2S 0.6 nozzle"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\n"
+    ]
+}

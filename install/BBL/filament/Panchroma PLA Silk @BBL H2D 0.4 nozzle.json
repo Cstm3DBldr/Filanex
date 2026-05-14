@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Silk @BBL H2D 0.4 nozzle",
     "inherits": "Panchroma PLA Silk @base",
     "from": "system",
-    "setting_id": "GFSL21_09",
+    "setting_id": "GFSL21_34",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

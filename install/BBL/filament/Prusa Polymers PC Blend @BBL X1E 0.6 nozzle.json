@@ -1,0 +1,45 @@
+{
+    "type": "filament",
+    "name": "Prusa Polymers PC Blend @BBL X1E 0.6 nozzle",
+    "inherits": "Prusa Polymers PC Blend @base",
+    "from": "system",
+    "setting_id": "GFSQ03_11",
+    "instantiation": "true",
+    "eng_plate_temp": [
+        "100"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "100"
+    ],
+    "filament_flow_ratio": [
+        "0.94",
+        "0.945"
+    ],
+    "filament_retraction_length": [
+        "nil",
+        "0.45"
+    ],
+    "filament_z_hop": [
+        "nil",
+        "0.6"
+    ],
+    "filament_z_hop_types": [
+        "nil",
+        "Spiral Lift"
+    ],
+    "hot_plate_temp": [
+        "112.5"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "110.0"
+    ],
+    "textured_plate_temp": [
+        "100"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "100"
+    ],
+    "compatible_printers": [
+        "Bambu Lab X1E 0.6 nozzle"
+    ]
+}

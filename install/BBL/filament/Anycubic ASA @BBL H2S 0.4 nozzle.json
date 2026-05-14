@@ -3,7 +3,7 @@
     "name": "Anycubic ASA @BBL H2S 0.4 nozzle",
     "inherits": "Anycubic ASA @base",
     "from": "system",
-    "setting_id": "GFSI02_09",
+    "setting_id": "GFSI02_34",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

@@ -3,7 +3,7 @@
     "name": "PolySupport @BBL A1 0.4 nozzle",
     "inherits": "PolySupport @base",
     "from": "system",
-    "setting_id": "GFSL70_01",
+    "setting_id": "GFSL67_02",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

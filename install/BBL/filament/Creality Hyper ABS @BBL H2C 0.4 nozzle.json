@@ -3,7 +3,7 @@
     "name": "Creality Hyper ABS @BBL H2C 0.4 nozzle",
     "inherits": "Creality Hyper ABS @base",
     "from": "system",
-    "setting_id": "GFSR12_06",
+    "setting_id": "GFSR12_22",
     "instantiation": "true",
     "fan_max_speed": [
         "20"

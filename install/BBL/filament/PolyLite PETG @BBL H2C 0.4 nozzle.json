@@ -3,7 +3,7 @@
     "name": "PolyLite PETG @BBL H2C 0.4 nozzle",
     "inherits": "PolyLite PETG @Polymaker base",
     "from": "system",
-    "setting_id": "GFSL37_08",
+    "setting_id": "GFSL34_30",
     "instantiation": "true",
     "counter_coef_2": [
         "0.007"

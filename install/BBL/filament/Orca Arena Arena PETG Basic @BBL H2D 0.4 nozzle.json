@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PETG Basic @BBL H2D 0.4 nozzle",
     "inherits": "Orca Arena Arena PETG Basic @base",
     "from": "system",
-    "setting_id": "GFS113_09",
+    "setting_id": "GFS107_34",
     "instantiation": "true",
     "counter_coef_2": [
         "0.007"

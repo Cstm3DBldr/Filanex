@@ -3,7 +3,7 @@
     "name": "Prusa Polymers Prusament ASA @BBL X1 0.4 nozzle",
     "inherits": "Prusa Polymers Prusament ASA @base",
     "from": "system",
-    "setting_id": "GFSQ10_01",
+    "setting_id": "GFSQ10_02",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

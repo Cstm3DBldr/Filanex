@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Clear @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFE47",
+    "filament_id": "GFE46",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

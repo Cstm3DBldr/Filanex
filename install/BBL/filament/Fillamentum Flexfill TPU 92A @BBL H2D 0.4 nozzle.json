@@ -3,7 +3,7 @@
     "name": "Fillamentum Flexfill TPU 92A @BBL H2D 0.4 nozzle",
     "inherits": "Fillamentum Flexfill TPU 92A @base",
     "from": "system",
-    "setting_id": "GFSP05_08",
+    "setting_id": "GFSP05_30",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

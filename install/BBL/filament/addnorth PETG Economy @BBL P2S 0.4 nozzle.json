@@ -3,7 +3,7 @@
     "name": "addnorth PETG Economy @BBL P2S 0.4 nozzle",
     "inherits": "addnorth PETG Economy @base",
     "from": "system",
-    "setting_id": "GFS105_06",
+    "setting_id": "GFS105_22",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"

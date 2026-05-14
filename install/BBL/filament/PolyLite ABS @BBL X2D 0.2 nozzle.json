@@ -3,7 +3,7 @@
     "name": "PolyLite ABS @BBL X2D 0.2 nozzle",
     "inherits": "PolyLite ABS @Polymaker base",
     "from": "system",
-    "setting_id": "GFSL30_05",
+    "setting_id": "GFSL30_17",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"
@@ -45,10 +45,10 @@
         "3"
     ],
     "filament_max_volumetric_speed": [
-        "2.0",
-        "2.0",
-        "2.0",
-        "2.0"
+        "15.0",
+        "15.0",
+        "15.0",
+        "15.0"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -99,10 +99,10 @@
         "fdm_filament_template_direct_bowden"
     ],
     "nozzle_temperature": [
-        "258.75",
-        "258.75",
-        "258.75",
-        "258.75"
+        "260.0",
+        "260.0",
+        "260.0",
+        "260.0"
     ],
     "nozzle_temperature_initial_layer": [
         "255.0",

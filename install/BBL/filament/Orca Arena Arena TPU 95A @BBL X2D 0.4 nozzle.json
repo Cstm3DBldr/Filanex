@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena TPU 95A @BBL X2D 0.4 nozzle",
     "inherits": "Orca Arena Arena TPU 95A @base",
     "from": "system",
-    "setting_id": "GFS135_06",
+    "setting_id": "GFS119_22",
     "instantiation": "true",
     "eng_plate_temp": [
         "35"

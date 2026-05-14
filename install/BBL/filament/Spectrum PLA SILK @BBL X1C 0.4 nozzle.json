@@ -3,7 +3,7 @@
     "name": "Spectrum PLA SILK @BBL X1C 0.4 nozzle",
     "inherits": "Spectrum PLA SILK @base",
     "from": "system",
-    "setting_id": "GFSW16_05",
+    "setting_id": "GFSW16_18",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

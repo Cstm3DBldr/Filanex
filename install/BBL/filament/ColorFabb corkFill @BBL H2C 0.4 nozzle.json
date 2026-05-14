@@ -3,7 +3,7 @@
     "name": "ColorFabb corkFill @BBL H2C 0.4 nozzle",
     "inherits": "ColorFabb corkFill @base",
     "from": "system",
-    "setting_id": "GFSK05_08",
+    "setting_id": "GFSK05_30",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

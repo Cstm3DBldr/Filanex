@@ -3,7 +3,7 @@
     "name": "Ultimaker PP @BBL X2D 0.4 nozzle",
     "inherits": "Ultimaker PP @base",
     "from": "system",
-    "setting_id": "GFSM05_07",
+    "setting_id": "GFSM05_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

@@ -3,7 +3,7 @@
     "name": "Creality CR-PLA @BBL A1M 0.4 nozzle",
     "inherits": "Creality CR-PLA @base",
     "from": "system",
-    "setting_id": "GFSR02_02",
+    "setting_id": "GFSR02_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

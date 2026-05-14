@@ -3,7 +3,7 @@
     "name": "eSUN ePLA-Matte @BBL X1 0.4 nozzle",
     "inherits": "eSUN ePLA-Matte @base",
     "from": "system",
-    "setting_id": "GFSE13_04",
+    "setting_id": "GFSE13_14",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

@@ -3,7 +3,7 @@
     "name": "Overture ABS Basic @BBL X2D 0.4 nozzle",
     "inherits": "Overture ABS Basic @base",
     "from": "system",
-    "setting_id": "GFSO02_05",
+    "setting_id": "GFSO02_18",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

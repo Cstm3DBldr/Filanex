@@ -1,0 +1,53 @@
+{
+    "type": "filament",
+    "name": "Filatech PC @BBL H2DP 0.2 nozzle",
+    "inherits": "Filatech PC @base",
+    "from": "system",
+    "setting_id": "GFSJ07_29",
+    "instantiation": "true",
+    "chamber_temperatures": [
+        "60"
+    ],
+    "fan_max_speed": [
+        "40"
+    ],
+    "filament_flow_ratio": [
+        "0.94",
+        "0.94"
+    ],
+    "filament_max_volumetric_speed": [
+        "8.0",
+        "8.0"
+    ],
+    "filament_ramming_travel_time": [
+        "0",
+        "0"
+    ],
+    "include": [
+        "fdm_filament_template_direct_dual"
+    ],
+    "nozzle_temperature": [
+        "282.5",
+        "282.5"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "282.5",
+        "282.5"
+    ],
+    "slow_down_layer_time": [
+        "12"
+    ],
+    "slow_down_min_speed": [
+        "20",
+        "20"
+    ],
+    "compatible_printers": [
+        "Bambu Lab H2D Pro 0.2 nozzle"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\n"
+    ],
+    "filament_end_gcode": [
+        "; filament end gcode \n"
+    ]
+}

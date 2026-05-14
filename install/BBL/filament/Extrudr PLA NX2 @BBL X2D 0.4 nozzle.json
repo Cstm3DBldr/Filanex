@@ -3,7 +3,7 @@
     "name": "Extrudr PLA NX2 @BBL X2D 0.4 nozzle",
     "inherits": "Extrudr PLA NX2 @base",
     "from": "system",
-    "setting_id": "GFSX10_07",
+    "setting_id": "GFSX10_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

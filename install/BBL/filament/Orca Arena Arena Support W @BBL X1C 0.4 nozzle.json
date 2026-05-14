@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena Support W @BBL X1C 0.4 nozzle",
     "inherits": "Orca Arena Arena Support W @base",
     "from": "system",
-    "setting_id": "GFS134_05",
+    "setting_id": "GFS118_18",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

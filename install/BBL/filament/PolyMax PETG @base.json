@@ -3,7 +3,7 @@
     "name": "PolyMax PETG @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFL62",
+    "filament_id": "GFL59",
     "instantiation": "false",
     "cool_plate_temp": [
         "0"

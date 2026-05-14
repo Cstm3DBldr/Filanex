@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Impact @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFO120",
+    "filament_id": "GFO110",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

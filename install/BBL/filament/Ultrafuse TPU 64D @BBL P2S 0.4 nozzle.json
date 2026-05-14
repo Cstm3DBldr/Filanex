@@ -3,7 +3,7 @@
     "name": "Ultrafuse TPU 64D @BBL P2S 0.4 nozzle",
     "inherits": "Ultrafuse TPU 64D @base",
     "from": "system",
-    "setting_id": "GFSZ18_05",
+    "setting_id": "GFSZ18_18",
     "instantiation": "true",
     "eng_plate_temp": [
         "35"

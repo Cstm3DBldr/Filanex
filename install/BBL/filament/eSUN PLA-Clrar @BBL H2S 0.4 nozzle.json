@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Clrar @BBL H2S 0.4 nozzle",
     "inherits": "eSUN PLA-Clrar @base",
     "from": "system",
-    "setting_id": "GFSE48_11",
+    "setting_id": "GFSE47_42",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

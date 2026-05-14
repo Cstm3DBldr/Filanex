@@ -1,0 +1,54 @@
+{
+    "type": "filament",
+    "name": "Fiberon PA6-CF20 @BBL X1E 0.6 nozzle",
+    "inherits": "Fiberon PA6-CF20 @base",
+    "from": "system",
+    "setting_id": "GFSL03_05",
+    "instantiation": "true",
+    "filament_flow_ratio": [
+        "0.95",
+        "0.95"
+    ],
+    "filament_max_volumetric_speed": [
+        "14.0",
+        "14.0"
+    ],
+    "filament_retraction_length": [
+        "nil",
+        "0.6"
+    ],
+    "filament_z_hop": [
+        "nil",
+        "1"
+    ],
+    "filament_ramming_travel_time": [
+        "0",
+        "0"
+    ],
+    "include": [
+        "fdm_filament_template_direct_dual"
+    ],
+    "long_retractions_when_ec": [
+        "0",
+        "0"
+    ],
+    "nozzle_temperature": [
+        "295.0",
+        "295.0"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "295.0",
+        "295.0"
+    ],
+    "retraction_distances_when_ec": [
+        "0",
+        "0"
+    ],
+    "slow_down_min_speed": [
+        "20",
+        "20"
+    ],
+    "compatible_printers": [
+        "Bambu Lab X1E 0.6 nozzle"
+    ]
+}

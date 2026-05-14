@@ -3,7 +3,7 @@
     "name": "Spectrum Nylon PA6 CF15 @BBL H2C 0.4 nozzle",
     "inherits": "Spectrum Nylon PA6 CF15 @base",
     "from": "system",
-    "setting_id": "GFSW03_05",
+    "setting_id": "GFSW03_13",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

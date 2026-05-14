@@ -3,7 +3,7 @@
     "name": "eSUN PLA-silk @BBL A1 0.4 nozzle",
     "inherits": "eSUN PLA-silk @base",
     "from": "system",
-    "setting_id": "GFSE57_01",
+    "setting_id": "GFSE56_02",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

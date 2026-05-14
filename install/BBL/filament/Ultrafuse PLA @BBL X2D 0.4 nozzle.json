@@ -3,7 +3,7 @@
     "name": "Ultrafuse PLA @BBL X2D 0.4 nozzle",
     "inherits": "Ultrafuse PLA @base",
     "from": "system",
-    "setting_id": "GFSZ11_07",
+    "setting_id": "GFSZ11_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

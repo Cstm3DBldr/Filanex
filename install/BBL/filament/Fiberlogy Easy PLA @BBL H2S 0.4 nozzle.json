@@ -3,7 +3,7 @@
     "name": "Fiberlogy Easy PLA @BBL H2S 0.4 nozzle",
     "inherits": "Fiberlogy Easy PLA @base",
     "from": "system",
-    "setting_id": "GFSV08_11",
+    "setting_id": "GFSV08_42",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

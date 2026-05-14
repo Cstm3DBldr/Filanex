@@ -3,7 +3,7 @@
     "name": "Fiberlogy PC ABS @BBL X1C 0.4 nozzle",
     "inherits": "Fiberlogy PC ABS @base",
     "from": "system",
-    "setting_id": "GFSV24_02",
+    "setting_id": "GFSV24_06",
     "instantiation": "true",
     "eng_plate_temp": [
         "100"

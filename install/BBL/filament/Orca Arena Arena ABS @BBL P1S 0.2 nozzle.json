@@ -17,8 +17,8 @@
         "nil"
     ],
     "filament_max_volumetric_speed": [
-        "2.0",
-        "2.0"
+        "30.65",
+        "30.65"
     ],
     "filament_retraction_distances_when_cut": [
         "18",

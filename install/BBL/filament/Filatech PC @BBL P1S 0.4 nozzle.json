@@ -3,7 +3,7 @@
     "name": "Filatech PC @BBL P1S 0.4 nozzle",
     "inherits": "Filatech PC @base",
     "from": "system",
-    "setting_id": "GFSJ07_01",
+    "setting_id": "GFSJ07_02",
     "instantiation": "true",
     "eng_plate_temp": [
         "100"

@@ -3,7 +3,7 @@
     "name": "SUNLU PETG @BBL P1P 0.8 nozzle",
     "inherits": "SUNLU PETG @SUNLU base",
     "from": "system",
-    "setting_id": "GFSY06_03",
+    "setting_id": "GFSY04_12",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"
@@ -12,16 +12,16 @@
         "20"
     ],
     "filament_flow_ratio": [
-        "0.9424999999999999",
-        "0.9424999999999999"
+        "0.945",
+        "0.945"
     ],
     "filament_long_retractions_when_cut": [
         "1",
         "1"
     ],
     "filament_max_volumetric_speed": [
-        "14.0",
-        "14.0"
+        "12.0",
+        "12.0"
     ],
     "filament_retraction_distances_when_cut": [
         "18",

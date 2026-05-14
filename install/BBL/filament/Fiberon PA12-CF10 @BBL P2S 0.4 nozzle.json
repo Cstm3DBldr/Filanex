@@ -3,7 +3,7 @@
     "name": "Fiberon PA12-CF10 @BBL P2S 0.4 nozzle",
     "inherits": "Fiberon PA12-CF10 @base",
     "from": "system",
-    "setting_id": "GFSL02_03",
+    "setting_id": "GFSL02_07",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"

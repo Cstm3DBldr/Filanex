@@ -3,7 +3,7 @@
     "name": "SUNLU Wood PLA @BBL H2D 0.4 nozzle",
     "inherits": "SUNLU Wood PLA @SUNLU base",
     "from": "system",
-    "setting_id": "GFSY19_09",
+    "setting_id": "GFSY16_34",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

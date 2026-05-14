@@ -3,7 +3,7 @@
     "name": "Overture SILK PLA Silk @BBL A1 0.4 nozzle",
     "inherits": "Overture SILK PLA Silk @base",
     "from": "system",
-    "setting_id": "GFSO26_01",
+    "setting_id": "GFSO22_02",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

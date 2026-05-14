@@ -3,7 +3,7 @@
     "name": "Overture ROCK PLA @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFO24",
+    "filament_id": "GFO20",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

@@ -3,7 +3,7 @@
     "name": "Overture PLA Pro @BBL P2S 0.4 nozzle",
     "inherits": "Overture PLA Pro @base",
     "from": "system",
-    "setting_id": "GFSO22_06",
+    "setting_id": "GFSO18_22",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

@@ -3,7 +3,7 @@
     "name": "Eolas Prints PETG @BBL H2S 0.4 nozzle",
     "inherits": "Eolas Prints PETG @base",
     "from": "system",
-    "setting_id": "GFS101_11",
+    "setting_id": "GFS101_42",
     "instantiation": "true",
     "counter_coef_2": [
         "0.007"

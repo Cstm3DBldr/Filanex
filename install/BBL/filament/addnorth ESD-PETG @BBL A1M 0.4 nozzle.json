@@ -3,7 +3,7 @@
     "name": "addnorth ESD-PETG @BBL A1M 0.4 nozzle",
     "inherits": "addnorth ESD-PETG @base",
     "from": "system",
-    "setting_id": "GFS103_02",
+    "setting_id": "GFS103_04",
     "instantiation": "true",
     "filament_max_volumetric_speed": [
         "9"

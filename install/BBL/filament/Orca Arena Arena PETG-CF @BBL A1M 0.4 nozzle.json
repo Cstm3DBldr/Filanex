@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PETG-CF @BBL A1M 0.4 nozzle",
     "inherits": "Orca Arena Arena PETG-CF @base",
     "from": "system",
-    "setting_id": "GFS111_02",
+    "setting_id": "GFS106_04",
     "instantiation": "true",
     "filament_max_volumetric_speed": [
         "14.0"

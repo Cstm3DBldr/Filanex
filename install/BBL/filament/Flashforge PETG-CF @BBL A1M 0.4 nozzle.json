@@ -3,7 +3,7 @@
     "name": "Flashforge PETG-CF @BBL A1M 0.4 nozzle",
     "inherits": "Flashforge PETG-CF @base",
     "from": "system",
-    "setting_id": "GFSF06_02",
+    "setting_id": "GFSF06_04",
     "instantiation": "true",
     "filament_max_volumetric_speed": [
         "4.18"

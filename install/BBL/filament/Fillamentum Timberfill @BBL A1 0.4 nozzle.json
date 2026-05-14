@@ -3,7 +3,7 @@
     "name": "Fillamentum Timberfill @BBL A1 0.4 nozzle",
     "inherits": "Fillamentum Timberfill @base",
     "from": "system",
-    "setting_id": "GFSP13_01",
+    "setting_id": "GFSP13_02",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

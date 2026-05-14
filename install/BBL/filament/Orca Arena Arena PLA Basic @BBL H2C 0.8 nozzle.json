@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Basic @BBL H2C 0.8 nozzle",
     "inherits": "Orca Arena Arena PLA Basic @base",
     "from": "system",
-    "setting_id": "GFS119_08",
+    "setting_id": "GFS109_32",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"
@@ -44,8 +44,8 @@
         "0.98"
     ],
     "filament_max_volumetric_speed": [
-        "21.0",
-        "21.0"
+        "16.5",
+        "16.5"
     ],
     "filament_pre_cooling_temperature_nc": [
         "180",

@@ -3,7 +3,7 @@
     "name": "Ultrafuse PAHT CF15 @BBL X2D 0.4 nozzle",
     "inherits": "Ultrafuse PAHT CF15 @base",
     "from": "system",
-    "setting_id": "GFSZ06_04",
+    "setting_id": "GFSZ06_10",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"

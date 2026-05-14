@@ -3,7 +3,7 @@
     "name": "Fiberon PA6-GF25 @BBL X2D 0.4 nozzle",
     "inherits": "Fiberon PA6-GF25 @base",
     "from": "system",
-    "setting_id": "GFSL04_03",
+    "setting_id": "GFSL04_07",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

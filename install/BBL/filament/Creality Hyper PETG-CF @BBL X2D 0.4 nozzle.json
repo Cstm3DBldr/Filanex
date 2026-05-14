@@ -3,7 +3,7 @@
     "name": "Creality Hyper PETG-CF @BBL X2D 0.4 nozzle",
     "inherits": "Creality Hyper PETG-CF @base",
     "from": "system",
-    "setting_id": "GFSR16_05",
+    "setting_id": "GFSR16_13",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0022"

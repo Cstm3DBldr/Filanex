@@ -3,7 +3,7 @@
     "name": "Ultrafuse PC GF30 @BBL X1E 0.4 nozzle",
     "inherits": "Ultrafuse PC GF30 @base",
     "from": "system",
-    "setting_id": "GFSZ08_03",
+    "setting_id": "GFSZ08_10",
     "instantiation": "true",
     "eng_plate_temp": [
         "100"

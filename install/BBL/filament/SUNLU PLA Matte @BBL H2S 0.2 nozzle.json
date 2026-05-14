@@ -3,7 +3,7 @@
     "name": "SUNLU PLA Matte @BBL H2S 0.2 nozzle",
     "inherits": "SUNLU PLA Matte @SUNLU base",
     "from": "system",
-    "setting_id": "GFSY14_11",
+    "setting_id": "GFSY12_41",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"
@@ -42,8 +42,8 @@
         "3"
     ],
     "filament_max_volumetric_speed": [
-        "2.0",
-        "2.0"
+        "16.04",
+        "16.04"
     ],
     "filament_ramming_travel_time": [
         "0",

@@ -3,7 +3,7 @@
     "name": "Anycubic ABS @BBL P1S 0.4 nozzle",
     "inherits": "Anycubic ABS @base",
     "from": "system",
-    "setting_id": "GFSI01_01",
+    "setting_id": "GFSI01_02",
     "instantiation": "true",
     "fan_max_speed": [
         "60"

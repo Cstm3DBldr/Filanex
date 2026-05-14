@@ -3,7 +3,7 @@
     "name": "eSUN eTwinkling @BBL X1 0.4 nozzle",
     "inherits": "eSUN eTwinkling @base",
     "from": "system",
-    "setting_id": "GFSE18_04",
+    "setting_id": "GFSE18_14",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

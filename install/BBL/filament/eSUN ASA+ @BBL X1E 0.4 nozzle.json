@@ -3,7 +3,7 @@
     "name": "eSUN ASA+ @BBL X1E 0.4 nozzle",
     "inherits": "eSUN ASA+ @base",
     "from": "system",
-    "setting_id": "GFSE10_03",
+    "setting_id": "GFSE10_10",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

@@ -3,7 +3,7 @@
     "name": "SUNLU Silk PLA+ @BBL A1 0.4 nozzle",
     "inherits": "SUNLU Silk PLA+ @SUNLU base",
     "from": "system",
-    "setting_id": "GFSY17_01",
+    "setting_id": "GFSY14_02",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

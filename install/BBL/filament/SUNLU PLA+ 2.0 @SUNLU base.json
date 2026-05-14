@@ -3,7 +3,7 @@
     "name": "SUNLU PLA+ 2.0 @SUNLU base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFY10",
+    "filament_id": "GFY08",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

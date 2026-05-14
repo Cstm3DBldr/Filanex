@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Celestial @BBL X2D 0.4 nozzle",
     "inherits": "Panchroma PLA Celestial @base",
     "from": "system",
-    "setting_id": "GFSL12_07",
+    "setting_id": "GFSL12_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

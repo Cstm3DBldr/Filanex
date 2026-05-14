@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Pro Metallic @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFL46",
+    "filament_id": "GFL43",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

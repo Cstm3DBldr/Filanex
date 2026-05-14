@@ -3,7 +3,7 @@
     "name": "Fiberlogy MattFlex 40D @BBL A1 0.4 nozzle",
     "inherits": "Fiberlogy MattFlex 40D @base",
     "from": "system",
-    "setting_id": "GFSV20_01",
+    "setting_id": "GFSV20_02",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

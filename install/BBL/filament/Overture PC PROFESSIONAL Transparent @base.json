@@ -3,7 +3,7 @@
     "name": "Overture PC PROFESSIONAL Transparent @base",
     "inherits": "fdm_filament_pc",
     "from": "system",
-    "filament_id": "GFO13",
+    "filament_id": "GFO12",
     "instantiation": "false",
     "filament_vendor": [
         "Overture"

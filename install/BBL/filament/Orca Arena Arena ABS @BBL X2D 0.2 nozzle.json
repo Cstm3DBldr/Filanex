@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena ABS @BBL X2D 0.2 nozzle",
     "inherits": "Orca Arena Arena ABS @base",
     "from": "system",
-    "setting_id": "GFS101_05",
+    "setting_id": "GFS101_17",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"
@@ -45,10 +45,10 @@
         "3"
     ],
     "filament_max_volumetric_speed": [
-        "2.0",
-        "2.0",
-        "2.0",
-        "2.0"
+        "30.65",
+        "30.65",
+        "30.65",
+        "30.65"
     ],
     "filament_ramming_travel_time": [
         "0",

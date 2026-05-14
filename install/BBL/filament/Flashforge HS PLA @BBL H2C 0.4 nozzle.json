@@ -3,7 +3,7 @@
     "name": "Flashforge HS PLA @BBL H2C 0.4 nozzle",
     "inherits": "Flashforge HS PLA @base",
     "from": "system",
-    "setting_id": "GFSF04_08",
+    "setting_id": "GFSF04_30",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

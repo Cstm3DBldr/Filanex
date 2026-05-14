@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PETG Basic @BBL P2S 0.8 nozzle",
     "inherits": "Orca Arena Arena PETG Basic @base",
     "from": "system",
-    "setting_id": "GFS114_06",
+    "setting_id": "GFS107_24",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"
@@ -38,8 +38,8 @@
         "0"
     ],
     "filament_max_volumetric_speed": [
-        "16.0",
-        "16.0"
+        "11.0",
+        "11.0"
     ],
     "filament_ramming_travel_time": [
         "0",

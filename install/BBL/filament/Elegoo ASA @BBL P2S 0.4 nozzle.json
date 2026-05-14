@@ -3,7 +3,7 @@
     "name": "Elegoo ASA @BBL P2S 0.4 nozzle",
     "inherits": "Elegoo ASA @base",
     "from": "system",
-    "setting_id": "GFSD02_04",
+    "setting_id": "GFSD02_14",
     "instantiation": "true",
     "activate_air_filtration": [
         "0"

@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Sparkle @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFO129",
+    "filament_id": "GFO115",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

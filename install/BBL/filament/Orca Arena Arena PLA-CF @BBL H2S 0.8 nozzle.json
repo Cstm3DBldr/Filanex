@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA-CF @BBL H2S 0.8 nozzle",
     "inherits": "Orca Arena Arena PLA-CF @base",
     "from": "system",
-    "setting_id": "GFS116_09",
+    "setting_id": "GFS108_27",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0003"
@@ -35,8 +35,8 @@
         "0.98"
     ],
     "filament_max_volumetric_speed": [
-        "18.0",
-        "18.0"
+        "13.5",
+        "13.5"
     ],
     "filament_pre_cooling_temperature_nc": [
         "190",
@@ -82,12 +82,12 @@
         "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
-        "230.0",
-        "230.0"
+        "225.0",
+        "225.0"
     ],
     "nozzle_temperature_initial_layer": [
-        "230.0",
-        "230.0"
+        "225.0",
+        "225.0"
     ],
     "slow_down_min_speed": [
         "20",

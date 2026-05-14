@@ -1,0 +1,14 @@
+{
+    "type": "filament",
+    "name": "Orca Arena OrcaArena Generic PETG-CF @BBL A1M 0.8 nozzle",
+    "inherits": "Orca Arena OrcaArena Generic PETG-CF @base",
+    "from": "system",
+    "setting_id": "GFS120_06",
+    "instantiation": "true",
+    "filament_max_volumetric_speed": [
+        "10.0"
+    ],
+    "compatible_printers": [
+        "Bambu Lab A1 mini 0.8 nozzle"
+    ]
+}

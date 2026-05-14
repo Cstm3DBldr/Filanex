@@ -3,7 +3,7 @@
     "name": "Fiberlogy ESD ABS @BBL P2S 0.4 nozzle",
     "inherits": "Fiberlogy ESD ABS @base",
     "from": "system",
-    "setting_id": "GFSV09_04",
+    "setting_id": "GFSV09_14",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Galaxy @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFL41",
+    "filament_id": "GFL38",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

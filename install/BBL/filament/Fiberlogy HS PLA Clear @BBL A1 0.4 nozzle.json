@@ -3,7 +3,7 @@
     "name": "Fiberlogy HS PLA Clear @BBL A1 0.4 nozzle",
     "inherits": "Fiberlogy HS PLA Clear @base",
     "from": "system",
-    "setting_id": "GFSV15_01",
+    "setting_id": "GFSV15_02",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

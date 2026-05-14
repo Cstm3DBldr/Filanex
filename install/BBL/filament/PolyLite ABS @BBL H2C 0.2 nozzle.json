@@ -3,7 +3,7 @@
     "name": "PolyLite ABS @BBL H2C 0.2 nozzle",
     "inherits": "PolyLite ABS @Polymaker base",
     "from": "system",
-    "setting_id": "GFSL30_06",
+    "setting_id": "GFSL30_21",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"
@@ -34,8 +34,8 @@
         "10"
     ],
     "filament_max_volumetric_speed": [
-        "2.0",
-        "2.0"
+        "15.0",
+        "15.0"
     ],
     "filament_pre_cooling_temperature_nc": [
         "230",
@@ -77,8 +77,8 @@
         "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
-        "258.75",
-        "258.75"
+        "260.0",
+        "260.0"
     ],
     "nozzle_temperature_initial_layer": [
         "255.0",

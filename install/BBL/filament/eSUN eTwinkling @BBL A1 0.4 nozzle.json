@@ -3,7 +3,7 @@
     "name": "eSUN eTwinkling @BBL A1 0.4 nozzle",
     "inherits": "eSUN eTwinkling @base",
     "from": "system",
-    "setting_id": "GFSE18_01",
+    "setting_id": "GFSE18_02",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

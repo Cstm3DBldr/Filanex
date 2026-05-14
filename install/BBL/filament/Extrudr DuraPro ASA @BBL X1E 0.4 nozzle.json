@@ -3,7 +3,7 @@
     "name": "Extrudr DuraPro ASA @BBL X1E 0.4 nozzle",
     "inherits": "Extrudr DuraPro ASA @base",
     "from": "system",
-    "setting_id": "GFSX02_03",
+    "setting_id": "GFSX02_10",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

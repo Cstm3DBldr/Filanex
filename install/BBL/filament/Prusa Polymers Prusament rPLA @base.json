@@ -3,7 +3,7 @@
     "name": "Prusa Polymers Prusament rPLA @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFQ16",
+    "filament_id": "GFQ15",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

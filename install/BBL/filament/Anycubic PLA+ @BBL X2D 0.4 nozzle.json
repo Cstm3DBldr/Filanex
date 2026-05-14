@@ -3,7 +3,7 @@
     "name": "Anycubic PLA+ @BBL X2D 0.4 nozzle",
     "inherits": "Anycubic PLA+ @base",
     "from": "system",
-    "setting_id": "GFSI05_07",
+    "setting_id": "GFSI05_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

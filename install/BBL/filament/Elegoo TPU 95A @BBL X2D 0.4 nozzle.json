@@ -3,7 +3,7 @@
     "name": "Elegoo TPU 95A @BBL X2D 0.4 nozzle",
     "inherits": "Elegoo TPU 95A @base",
     "from": "system",
-    "setting_id": "GFSD26_06",
+    "setting_id": "GFSD26_22",
     "instantiation": "true",
     "eng_plate_temp": [
         "35"

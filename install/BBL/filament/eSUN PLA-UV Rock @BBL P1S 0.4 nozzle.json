@@ -3,7 +3,7 @@
     "name": "eSUN PLA-UV Rock @BBL P1S 0.4 nozzle",
     "inherits": "eSUN PLA-UV Rock @base",
     "from": "system",
-    "setting_id": "GFSE60_03",
+    "setting_id": "GFSE59_10",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

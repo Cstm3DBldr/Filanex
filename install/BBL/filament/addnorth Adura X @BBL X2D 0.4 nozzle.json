@@ -3,7 +3,7 @@
     "name": "addnorth Adura X @BBL X2D 0.4 nozzle",
     "inherits": "addnorth Adura X @base",
     "from": "system",
-    "setting_id": "GFS101_04",
+    "setting_id": "GFS101_10",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"

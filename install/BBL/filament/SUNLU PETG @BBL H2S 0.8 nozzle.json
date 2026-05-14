@@ -3,7 +3,7 @@
     "name": "SUNLU PETG @BBL H2S 0.8 nozzle",
     "inherits": "SUNLU PETG @SUNLU base",
     "from": "system",
-    "setting_id": "GFSY06_11",
+    "setting_id": "GFSY04_44",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"
@@ -34,8 +34,8 @@
         "8"
     ],
     "filament_max_volumetric_speed": [
-        "14.0",
-        "14.0"
+        "12.0",
+        "12.0"
     ],
     "filament_retraction_length": [
         "0.4",

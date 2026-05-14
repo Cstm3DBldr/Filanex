@@ -3,7 +3,7 @@
     "name": "Polymaker PETG @BBL X2D 0.4 nozzle",
     "inherits": "Polymaker PETG @base",
     "from": "system",
-    "setting_id": "GFSL55_07",
+    "setting_id": "GFSL52_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"

@@ -3,7 +3,7 @@
     "name": "eSUN PLA-silk @BBL H2C 0.4 nozzle",
     "inherits": "eSUN PLA-silk @base",
     "from": "system",
-    "setting_id": "GFSE57_07",
+    "setting_id": "GFSE56_26",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

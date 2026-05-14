@@ -3,7 +3,7 @@
     "name": "Creality Hyper PC @BBL X1E 0.4 nozzle",
     "inherits": "Creality Hyper PC @base",
     "from": "system",
-    "setting_id": "GFSR14_03",
+    "setting_id": "GFSR14_10",
     "instantiation": "true",
     "eng_plate_temp": [
         "100"

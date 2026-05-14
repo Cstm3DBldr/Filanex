@@ -3,7 +3,7 @@
     "name": "Polymaker HT-PLA @BBL X1C 0.4 nozzle",
     "inherits": "Polymaker HT-PLA @base",
     "from": "system",
-    "setting_id": "GFSL50_05",
+    "setting_id": "GFSL47_18",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

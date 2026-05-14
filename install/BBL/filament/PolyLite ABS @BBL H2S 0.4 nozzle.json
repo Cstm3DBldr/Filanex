@@ -3,7 +3,7 @@
     "name": "PolyLite ABS @BBL H2S 0.4 nozzle",
     "inherits": "PolyLite ABS @Polymaker base",
     "from": "system",
-    "setting_id": "GFSL31_09",
+    "setting_id": "GFSL30_34",
     "instantiation": "true",
     "fan_max_speed": [
         "20"

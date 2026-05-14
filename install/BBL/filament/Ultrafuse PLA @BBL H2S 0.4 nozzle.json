@@ -3,7 +3,7 @@
     "name": "Ultrafuse PLA @BBL H2S 0.4 nozzle",
     "inherits": "Ultrafuse PLA @base",
     "from": "system",
-    "setting_id": "GFSZ11_11",
+    "setting_id": "GFSZ11_42",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

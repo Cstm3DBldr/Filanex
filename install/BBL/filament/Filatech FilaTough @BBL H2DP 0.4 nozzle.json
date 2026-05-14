@@ -3,7 +3,7 @@
     "name": "Filatech FilaTough @BBL H2DP 0.4 nozzle",
     "inherits": "Filatech FilaTough @base",
     "from": "system",
-    "setting_id": "GFSJ04_10",
+    "setting_id": "GFSJ04_38",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

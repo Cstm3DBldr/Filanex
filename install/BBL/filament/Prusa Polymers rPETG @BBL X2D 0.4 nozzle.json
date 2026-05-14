@@ -3,7 +3,7 @@
     "name": "Prusa Polymers rPETG @BBL X2D 0.4 nozzle",
     "inherits": "Prusa Polymers rPETG @base",
     "from": "system",
-    "setting_id": "GFSQ18_07",
+    "setting_id": "GFSQ17_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"

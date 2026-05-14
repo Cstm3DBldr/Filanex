@@ -3,7 +3,7 @@
     "name": "Spectrum Nylon PA6 NT @BBL X2D 0.4 nozzle",
     "inherits": "Spectrum Nylon PA6 NT @base",
     "from": "system",
-    "setting_id": "GFSW04_04",
+    "setting_id": "GFSW04_14",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"

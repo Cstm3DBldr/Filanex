@@ -3,7 +3,7 @@
     "name": "Creality Hyper PETG @BBL A1M 0.4 nozzle",
     "inherits": "Creality Hyper PETG @base",
     "from": "system",
-    "setting_id": "GFSR15_02",
+    "setting_id": "GFSR15_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "15"

@@ -3,7 +3,7 @@
     "name": "ColorFabb XT-CF20 @BBL P2S 0.4 nozzle",
     "inherits": "ColorFabb XT-CF20 @base",
     "from": "system",
-    "setting_id": "GFSK16_04",
+    "setting_id": "GFSK16_10",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0022"

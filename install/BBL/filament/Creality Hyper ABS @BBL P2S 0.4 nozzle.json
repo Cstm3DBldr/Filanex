@@ -3,7 +3,7 @@
     "name": "Creality Hyper ABS @BBL P2S 0.4 nozzle",
     "inherits": "Creality Hyper ABS @base",
     "from": "system",
-    "setting_id": "GFSR12_04",
+    "setting_id": "GFSR12_14",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

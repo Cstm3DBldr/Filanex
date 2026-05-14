@@ -3,7 +3,7 @@
     "name": "Ultrafuse TPU 64D @BBL H2S 0.4 nozzle",
     "inherits": "Ultrafuse TPU 64D @base",
     "from": "system",
-    "setting_id": "GFSZ18_10",
+    "setting_id": "GFSZ18_38",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

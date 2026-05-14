@@ -3,7 +3,7 @@
     "name": "Extrudr DuraPro ABS @BBL H2C 0.4 nozzle",
     "inherits": "Extrudr DuraPro ABS @base",
     "from": "system",
-    "setting_id": "GFSX01_06",
+    "setting_id": "GFSX01_22",
     "instantiation": "true",
     "fan_max_speed": [
         "20"

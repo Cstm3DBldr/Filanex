@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena ABS @BBL X2D 0.4 nozzle",
     "inherits": "Orca Arena Arena ABS @base",
     "from": "system",
-    "setting_id": "GFS102_05",
+    "setting_id": "GFS101_18",
     "instantiation": "true",
     "chamber_temperatures": [
         "65"

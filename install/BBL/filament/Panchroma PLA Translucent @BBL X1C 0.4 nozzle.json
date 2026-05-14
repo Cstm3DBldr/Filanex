@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Translucent @BBL X1C 0.4 nozzle",
     "inherits": "Panchroma PLA Translucent @base",
     "from": "system",
-    "setting_id": "GFSL23_05",
+    "setting_id": "GFSL23_18",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

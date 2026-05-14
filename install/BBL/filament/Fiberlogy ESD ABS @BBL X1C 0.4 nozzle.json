@@ -3,7 +3,7 @@
     "name": "Fiberlogy ESD ABS @BBL X1C 0.4 nozzle",
     "inherits": "Fiberlogy ESD ABS @base",
     "from": "system",
-    "setting_id": "GFSV09_02",
+    "setting_id": "GFSV09_06",
     "instantiation": "true",
     "fan_max_speed": [
         "60"

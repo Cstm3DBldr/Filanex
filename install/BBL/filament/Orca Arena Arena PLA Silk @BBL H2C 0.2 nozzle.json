@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Silk @BBL H2C 0.2 nozzle",
     "inherits": "Orca Arena Arena PLA Silk @base",
     "from": "system",
-    "setting_id": "GFS127_08",
+    "setting_id": "GFS114_29",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"
@@ -29,8 +29,8 @@
         "0.98"
     ],
     "filament_max_volumetric_speed": [
-        "2.0",
-        "2.0"
+        "12.0",
+        "12.0"
     ],
     "filament_ramming_travel_time": [
         "0",

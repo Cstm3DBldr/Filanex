@@ -3,7 +3,7 @@
     "name": "Fiberlogy Matte PLA @BBL H2D 0.4 nozzle",
     "inherits": "Fiberlogy Matte PLA @base",
     "from": "system",
-    "setting_id": "GFSV19_09",
+    "setting_id": "GFSV19_34",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

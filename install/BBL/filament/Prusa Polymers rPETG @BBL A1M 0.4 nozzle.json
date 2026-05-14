@@ -3,7 +3,7 @@
     "name": "Prusa Polymers rPETG @BBL A1M 0.4 nozzle",
     "inherits": "Prusa Polymers rPETG @base",
     "from": "system",
-    "setting_id": "GFSQ18_02",
+    "setting_id": "GFSQ17_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "15"

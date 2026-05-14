@@ -3,7 +3,7 @@
     "name": "ColorFabb bronzeFill @BBL A1 0.4 nozzle",
     "inherits": "ColorFabb bronzeFill @base",
     "from": "system",
-    "setting_id": "GFSK01_01",
+    "setting_id": "GFSK01_02",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

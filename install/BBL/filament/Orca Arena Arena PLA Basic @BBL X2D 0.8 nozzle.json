@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Basic @BBL X2D 0.8 nozzle",
     "inherits": "Orca Arena Arena PLA Basic @base",
     "from": "system",
-    "setting_id": "GFS119_07",
+    "setting_id": "GFS109_28",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"
@@ -36,10 +36,10 @@
         "0.98"
     ],
     "filament_max_volumetric_speed": [
-        "21.0",
-        "21.0",
-        "21.0",
-        "21.0"
+        "16.5",
+        "16.5",
+        "16.5",
+        "16.5"
     ],
     "filament_ramming_travel_time": [
         "0",

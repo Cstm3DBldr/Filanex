@@ -3,7 +3,7 @@
     "name": "Elegoo PLA Marble @BBL X1 0.4 nozzle",
     "inherits": "Elegoo PLA Marble @base",
     "from": "system",
-    "setting_id": "GFSD16_04",
+    "setting_id": "GFSD16_14",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena ABS @BBL H2C 0.4 nozzle",
     "inherits": "Orca Arena Arena ABS @base",
     "from": "system",
-    "setting_id": "GFS102_06",
+    "setting_id": "GFS101_22",
     "instantiation": "true",
     "fan_max_speed": [
         "20"

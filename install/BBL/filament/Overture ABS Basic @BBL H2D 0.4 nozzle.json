@@ -3,7 +3,7 @@
     "name": "Overture ABS Basic @BBL H2D 0.4 nozzle",
     "inherits": "Overture ABS Basic @base",
     "from": "system",
-    "setting_id": "GFSO02_07",
+    "setting_id": "GFSO02_26",
     "instantiation": "true",
     "fan_max_speed": [
         "20"

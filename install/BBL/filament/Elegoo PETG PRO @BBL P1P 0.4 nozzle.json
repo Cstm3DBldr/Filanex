@@ -3,7 +3,7 @@
     "name": "Elegoo PETG PRO @BBL P1P 0.4 nozzle",
     "inherits": "Elegoo PETG PRO @base",
     "from": "system",
-    "setting_id": "GFSD08_03",
+    "setting_id": "GFSD08_10",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"

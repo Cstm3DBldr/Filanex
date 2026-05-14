@@ -3,7 +3,7 @@
     "name": "SUNLU PLA-CF @BBL H2D 0.4 nozzle",
     "inherits": "SUNLU PLA-CF @base",
     "from": "system",
-    "setting_id": "GFSY11_07",
+    "setting_id": "GFSY09_19",
     "instantiation": "true",
     "counter_coef_2": [
         "0.012"

@@ -3,7 +3,7 @@
     "name": "ColorFabb LW-PLA @BBL X2D 0.4 nozzle",
     "inherits": "ColorFabb LW-PLA @base",
     "from": "system",
-    "setting_id": "GFSK07_07",
+    "setting_id": "GFSK07_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

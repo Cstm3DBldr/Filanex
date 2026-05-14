@@ -3,7 +3,7 @@
     "name": "Overture PETG HS @BBL A1 0.4 nozzle",
     "inherits": "Overture PETG HS @base",
     "from": "system",
-    "setting_id": "GFSO15_01",
+    "setting_id": "GFSO14_02",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "15"

@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Clrar @BBL P2S 0.4 nozzle",
     "inherits": "eSUN PLA-Clrar @base",
     "from": "system",
-    "setting_id": "GFSE48_06",
+    "setting_id": "GFSE47_22",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Silk @BBL X1C 0.4 nozzle",
     "inherits": "Orca Arena Arena PLA Silk @base",
     "from": "system",
-    "setting_id": "GFS128_05",
+    "setting_id": "GFS114_18",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

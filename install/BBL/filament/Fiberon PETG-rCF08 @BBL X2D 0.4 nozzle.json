@@ -3,7 +3,7 @@
     "name": "Fiberon PETG-rCF08 @BBL X2D 0.4 nozzle",
     "inherits": "Fiberon PETG-rCF08 @base",
     "from": "system",
-    "setting_id": "GFSL08_05",
+    "setting_id": "GFSL08_13",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0022"

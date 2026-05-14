@@ -3,7 +3,7 @@
     "name": "Hatchbox PLA UV Color Changing @BBL A1M 0.4 nozzle",
     "inherits": "Hatchbox PLA UV Color Changing @base",
     "from": "system",
-    "setting_id": "GFSH10_02",
+    "setting_id": "GFSH10_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PC @BBL H2DP 0.6 nozzle",
     "inherits": "Orca Arena Arena PC @base",
     "from": "system",
-    "setting_id": "GFS108_08",
+    "setting_id": "GFS104_31",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"
@@ -43,8 +43,8 @@
         "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
-        "260.0",
-        "260.0"
+        "280.0",
+        "280.0"
     ],
     "nozzle_temperature_initial_layer": [
         "270.0",

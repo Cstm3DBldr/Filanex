@@ -3,7 +3,7 @@
     "name": "Ultrafuse PLA PRO1 @BBL P1S 0.4 nozzle",
     "inherits": "Ultrafuse PLA PRO1 @base",
     "from": "system",
-    "setting_id": "GFSZ12_03",
+    "setting_id": "GFSZ12_10",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

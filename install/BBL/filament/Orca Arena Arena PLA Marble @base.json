@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Marble @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFO121",
+    "filament_id": "GFO111",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

@@ -3,7 +3,7 @@
     "name": "Ultimaker PVA @BBL A1 0.4 nozzle",
     "inherits": "Ultimaker PVA @base",
     "from": "system",
-    "setting_id": "GFSM06_01",
+    "setting_id": "GFSM06_02",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

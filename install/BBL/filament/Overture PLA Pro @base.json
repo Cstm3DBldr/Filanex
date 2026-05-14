@@ -3,7 +3,7 @@
     "name": "Overture PLA Pro @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFO22",
+    "filament_id": "GFO18",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

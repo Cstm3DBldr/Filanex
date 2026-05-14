@@ -3,7 +3,7 @@
     "name": "Prusa Polymers PP GF @BBL H2C 0.4 nozzle",
     "inherits": "Prusa Polymers PP GF @base",
     "from": "system",
-    "setting_id": "GFSQ09_08",
+    "setting_id": "GFSQ09_30",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

@@ -3,7 +3,7 @@
     "name": "ColorFabb glowFill @BBL X2D 0.4 nozzle",
     "inherits": "ColorFabb glowFill @base",
     "from": "system",
-    "setting_id": "GFSK06_07",
+    "setting_id": "GFSK06_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

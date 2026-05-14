@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Wood @BBL A1M 0.4 nozzle",
     "inherits": "eSUN PLA-Wood @base",
     "from": "system",
-    "setting_id": "GFSE61_02",
+    "setting_id": "GFSE60_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

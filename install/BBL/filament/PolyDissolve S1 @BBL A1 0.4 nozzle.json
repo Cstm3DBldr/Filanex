@@ -3,7 +3,7 @@
     "name": "PolyDissolve S1 @BBL A1 0.4 nozzle",
     "inherits": "PolyDissolve S1 @base",
     "from": "system",
-    "setting_id": "GFSL26_01",
+    "setting_id": "GFSL26_02",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

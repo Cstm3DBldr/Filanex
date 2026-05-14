@@ -3,7 +3,7 @@
     "name": "Elegoo PC-FR @BBL P2S 0.4 nozzle",
     "inherits": "Elegoo PC-FR @base",
     "from": "system",
-    "setting_id": "GFSD05_04",
+    "setting_id": "GFSD05_14",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

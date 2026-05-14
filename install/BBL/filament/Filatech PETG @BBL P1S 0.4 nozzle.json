@@ -3,7 +3,7 @@
     "name": "Filatech PETG @BBL P1S 0.4 nozzle",
     "inherits": "Filatech PETG @base",
     "from": "system",
-    "setting_id": "GFSJ08_04",
+    "setting_id": "GFSJ08_14",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"

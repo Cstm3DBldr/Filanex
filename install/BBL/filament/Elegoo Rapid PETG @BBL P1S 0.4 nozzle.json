@@ -3,7 +3,7 @@
     "name": "Elegoo Rapid PETG @BBL P1S 0.4 nozzle",
     "inherits": "Elegoo Rapid PETG @base",
     "from": "system",
-    "setting_id": "GFSD23_04",
+    "setting_id": "GFSD23_14",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"

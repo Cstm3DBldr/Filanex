@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena Support W @BBL H2D 0.4 nozzle",
     "inherits": "Orca Arena Arena Support W @base",
     "from": "system",
-    "setting_id": "GFS134_09",
+    "setting_id": "GFS118_34",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

@@ -1,0 +1,29 @@
+{
+    "type": "filament",
+    "name": "Ultrafuse PC GF30 @BBL P1S 0.2 nozzle",
+    "inherits": "Ultrafuse PC GF30 @base",
+    "from": "system",
+    "setting_id": "GFSZ08_01",
+    "instantiation": "true",
+    "eng_plate_temp": [
+        "100"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "100"
+    ],
+    "hot_plate_temp": [
+        "90.0"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "90.0"
+    ],
+    "textured_plate_temp": [
+        "100"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "100"
+    ],
+    "compatible_printers": [
+        "Bambu Lab P1S 0.2 nozzle"
+    ]
+}

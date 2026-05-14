@@ -3,7 +3,7 @@
     "name": "Flashforge Flexible (TPU) @BBL X1C 0.4 nozzle",
     "inherits": "Flashforge Flexible (TPU) @base",
     "from": "system",
-    "setting_id": "GFSF03_04",
+    "setting_id": "GFSF03_14",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

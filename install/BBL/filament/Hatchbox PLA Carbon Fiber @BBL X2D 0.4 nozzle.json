@@ -3,7 +3,7 @@
     "name": "Hatchbox PLA Carbon Fiber @BBL X2D 0.4 nozzle",
     "inherits": "Hatchbox PLA Carbon Fiber @base",
     "from": "system",
-    "setting_id": "GFSH04_05",
+    "setting_id": "GFSH04_13",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0003"

@@ -3,7 +3,7 @@
     "name": "Anycubic PLA Matte @BBL P1S 0.4 nozzle",
     "inherits": "Anycubic PLA Matte @base",
     "from": "system",
-    "setting_id": "GFSI07_03",
+    "setting_id": "GFSI07_10",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

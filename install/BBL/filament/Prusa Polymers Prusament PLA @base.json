@@ -3,7 +3,7 @@
     "name": "Prusa Polymers Prusament PLA @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFQ14",
+    "filament_id": "GFQ13",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

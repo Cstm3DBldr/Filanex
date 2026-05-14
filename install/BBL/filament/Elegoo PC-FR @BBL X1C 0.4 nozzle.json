@@ -3,7 +3,7 @@
     "name": "Elegoo PC-FR @BBL X1C 0.4 nozzle",
     "inherits": "Elegoo PC-FR @base",
     "from": "system",
-    "setting_id": "GFSD05_02",
+    "setting_id": "GFSD05_06",
     "instantiation": "true",
     "eng_plate_temp": [
         "100"

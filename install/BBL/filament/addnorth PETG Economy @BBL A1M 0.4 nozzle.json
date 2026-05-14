@@ -3,7 +3,7 @@
     "name": "addnorth PETG Economy @BBL A1M 0.4 nozzle",
     "inherits": "addnorth PETG Economy @base",
     "from": "system",
-    "setting_id": "GFS105_02",
+    "setting_id": "GFS105_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "15"

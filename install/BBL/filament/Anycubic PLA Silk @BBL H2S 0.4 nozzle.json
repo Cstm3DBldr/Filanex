@@ -3,7 +3,7 @@
     "name": "Anycubic PLA Silk @BBL H2S 0.4 nozzle",
     "inherits": "Anycubic PLA Silk @base",
     "from": "system",
-    "setting_id": "GFSI08_11",
+    "setting_id": "GFSI08_42",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

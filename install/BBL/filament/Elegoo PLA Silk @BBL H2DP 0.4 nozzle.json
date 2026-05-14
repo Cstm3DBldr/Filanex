@@ -3,7 +3,7 @@
     "name": "Elegoo PLA Silk @BBL H2DP 0.4 nozzle",
     "inherits": "Elegoo PLA Silk @base",
     "from": "system",
-    "setting_id": "GFSD20_10",
+    "setting_id": "GFSD20_38",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

@@ -3,7 +3,7 @@
     "name": "Spectrum PET-G Glow @BBL A1M 0.4 nozzle",
     "inherits": "Spectrum PET-G Glow @base",
     "from": "system",
-    "setting_id": "GFSW08_02",
+    "setting_id": "GFSW08_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "15"

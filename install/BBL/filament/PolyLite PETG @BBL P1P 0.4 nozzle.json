@@ -3,7 +3,7 @@
     "name": "PolyLite PETG @BBL P1P 0.4 nozzle",
     "inherits": "PolyLite PETG @Polymaker base",
     "from": "system",
-    "setting_id": "GFSL37_03",
+    "setting_id": "GFSL34_10",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"

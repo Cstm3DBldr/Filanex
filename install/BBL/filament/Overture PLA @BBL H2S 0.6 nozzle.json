@@ -3,7 +3,7 @@
     "name": "Overture PLA @BBL H2S 0.6 nozzle",
     "inherits": "Overture PLA @Overture base",
     "from": "system",
-    "setting_id": "GFSO18_11",
+    "setting_id": "GFSO15_43",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"
@@ -34,12 +34,12 @@
         "10"
     ],
     "filament_flow_ratio": [
-        "1.0",
-        "1.0"
+        "0.98",
+        "0.98"
     ],
     "filament_max_volumetric_speed": [
-        "16.875",
-        "16.875"
+        "15.0",
+        "15.0"
     ],
     "filament_retraction_length": [
         "0.4",
@@ -84,12 +84,12 @@
         "0"
     ],
     "nozzle_temperature": [
-        "215.0",
-        "215.0"
+        "220.0",
+        "220.0"
     ],
     "nozzle_temperature_initial_layer": [
-        "222.5",
-        "222.5"
+        "220.0",
+        "220.0"
     ],
     "pre_start_fan_time": [
         "2"

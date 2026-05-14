@@ -3,7 +3,7 @@
     "name": "Hatchbox PLA SILK @BBL P2S 0.4 nozzle",
     "inherits": "Hatchbox PLA SILK @base",
     "from": "system",
-    "setting_id": "GFSH08_06",
+    "setting_id": "GFSH08_22",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

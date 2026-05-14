@@ -3,7 +3,7 @@
     "name": "Elegoo PLA Glow @BBL P1S 0.4 nozzle",
     "inherits": "Elegoo PLA Glow @base",
     "from": "system",
-    "setting_id": "GFSD15_03",
+    "setting_id": "GFSD15_10",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

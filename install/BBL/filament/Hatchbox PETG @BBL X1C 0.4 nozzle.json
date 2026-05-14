@@ -3,7 +3,7 @@
     "name": "Hatchbox PETG @BBL X1C 0.4 nozzle",
     "inherits": "Hatchbox PETG @base",
     "from": "system",
-    "setting_id": "GFSH02_05",
+    "setting_id": "GFSH02_18",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"

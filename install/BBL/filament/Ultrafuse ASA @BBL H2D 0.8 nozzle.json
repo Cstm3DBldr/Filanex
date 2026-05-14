@@ -1,0 +1,73 @@
+{
+    "type": "filament",
+    "name": "Ultrafuse ASA @BBL H2D 0.8 nozzle",
+    "inherits": "Ultrafuse ASA @base",
+    "from": "system",
+    "setting_id": "GFSZ03_28",
+    "instantiation": "true",
+    "chamber_temperatures": [
+        "65"
+    ],
+    "filament_cooling_before_tower": [
+        "10",
+        "10"
+    ],
+    "filament_max_volumetric_speed": [
+        "12.75",
+        "12.75"
+    ],
+    "filament_retraction_length": [
+        "0.4",
+        "0.4"
+    ],
+    "filament_wipe": [
+        "1",
+        "1"
+    ],
+    "filament_wipe_distance": [
+        "1",
+        "1"
+    ],
+    "filament_z_hop_types": [
+        "Spiral Lift",
+        "Spiral Lift"
+    ],
+    "filament_ramming_travel_time": [
+        "0",
+        "0"
+    ],
+    "filament_extruder_id": [
+        "1",
+        "1"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "filament_change_length": [
+        "4"
+    ],
+    "include": [
+        "fdm_filament_template_direct_dual"
+    ],
+    "nozzle_temperature": [
+        "265.0",
+        "265.0"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "265.0",
+        "265.0"
+    ],
+    "slow_down_min_speed": [
+        "20",
+        "20"
+    ],
+    "compatible_printers": [
+        "Bambu Lab H2D 0.8 nozzle"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\n"
+    ],
+    "filament_end_gcode": [
+        "; filament end gcode \n"
+    ]
+}
