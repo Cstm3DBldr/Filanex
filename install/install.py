@@ -304,7 +304,21 @@ def back_up(system_dir: Path) -> Path:
         shutil.copy2(bbl_json, backup_dir / "BBL.json")
     filament_dir = system_dir / "BBL" / "filament"
     if filament_dir.exists():
-        shutil.copytree(filament_dir, backup_dir / "BBL" / "filament")
+        # Instrumented per-file copy instead of shutil.copytree so we
+        # can emit progress markers. With 16k existing profile JSONs
+        # this loop is the BIGGEST silent freeze in an install --
+        # without progress here the bar appears stuck before the
+        # main file-write loop even starts.
+        dst_filament = backup_dir / "BBL" / "filament"
+        dst_filament.mkdir(parents=True)
+        all_files = [p for p in filament_dir.rglob("*") if p.is_file()]
+        total = len(all_files)
+        for i, src in enumerate(all_files, 1):
+            rel = src.relative_to(filament_dir)
+            dst = dst_filament / rel
+            dst.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(src, dst)
+            _emit_progress("Backing up existing", i, total)
     tracking = system_dir / TRACKING_FILENAME
     if tracking.exists():
         shutil.copy2(tracking, backup_dir / TRACKING_FILENAME)

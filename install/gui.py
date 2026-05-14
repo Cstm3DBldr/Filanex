@@ -907,11 +907,23 @@ class Wizard(tk.Tk):
             "uninstall": "Uninstalling",
         }.get(self.action, "Working")
         self.title_var.set(f"{verb} Filanex profiles")
-        # Bambu was already verified closed in the pre-flight step;
-        # the actual risk is the user OPENING Bambu mid-install (it
-        # would lock BBL.json) or force-closing the wizard.
-        self.subtitle_var.set(
-            "Please wait. Don't open Bambu Studio until this finishes.")
+        # Standard subtitle (small grey). The prominent
+        # don't-open-Bambu warning goes in the content area below as
+        # a styled banner so it actually catches the user's eye.
+        self.subtitle_var.set("This may take a minute -- 16k+ profiles.")
+
+        # Prominent warning banner. Tomato-red background, white bold
+        # text. Sits above the progress bar so it's the first thing
+        # the user sees on this page.
+        warning = tk.Frame(self.content, bg="#c0392b")
+        warning.pack(fill="x", pady=(0, 10))
+        tk.Label(
+            warning,
+            text="⚠  Don't open Bambu Studio until this finishes  ⚠",
+            bg="#c0392b", fg="white",
+            font=("Segoe UI", 11, "bold"),
+            pady=8,
+        ).pack(fill="x")
 
         # Determinate progress bar. install.py emits "[PROGRESS verb]
         # n/total" markers from its file-copy loops; _append_progress
@@ -1003,61 +1015,67 @@ class Wizard(tk.Tk):
         self._stdout_queue.put("\n")  # flush
 
     def _poll_queue(self) -> None:
+        # Drain everything queued since last poll into ONE batch, then
+        # process. Progress markers get reduced to just the latest
+        # marker per `verb` -- intermediate values (which would never
+        # have painted anyway because they'd all be overwritten in the
+        # same Tk event handler) are dropped. Non-progress lines
+        # accumulate so the log still shows section banners + warnings.
+        chunks: list[str] = []
         try:
             while True:
-                chunk = self._stdout_queue.get_nowait()
-                self._append_progress(chunk)
+                chunks.append(self._stdout_queue.get_nowait())
         except queue.Empty:
             pass
+        if chunks:
+            self._append_progress("".join(chunks))
         if self._return_code is not None and self._stdout_queue.empty():
             self._on_progress_complete()
         else:
-            self.after(80, self._poll_queue)
+            # Aggressive poll rate so the bar gets fresh frames even
+            # when the worker is hammering markers in rapid succession.
+            self.after(40, self._poll_queue)
 
     # Matches "[PROGRESS Installing files] 1234/16699" from install.py.
     _PROGRESS_RE = re.compile(r"\[PROGRESS\s+([^\]]+)\]\s+(\d+)\s*/\s*(\d+)")
 
     def _append_progress(self, s: str) -> None:
         # Pull out progress markers; suppress them from the log and
-        # update the bar instead. Non-marker lines pass through.
-        bar_changed = False
+        # keep only the LATEST marker (since setting the var multiple
+        # times in one event handler only ever paints the final value
+        # anyway -- intermediate var.set()s never reach the screen).
+        latest_marker: tuple[str, int, int] | None = None
         if "[PROGRESS" in s:
             visible: list[str] = []
             for line in s.splitlines(keepends=True):
                 m = self._PROGRESS_RE.search(line)
                 if m:
-                    verb = m.group(1).strip()
-                    current = int(m.group(2))
-                    total = int(m.group(3))
-                    pct = (current / total * 100) if total > 0 else 0
-                    try:
-                        self.progress_pct_var.set(pct)
-                        self.progress_status_var.set(
-                            f"{verb}: {current:,} of {total:,} ({pct:.0f}%)"
-                        )
-                        bar_changed = True
-                    except Exception:
-                        pass  # widgets gone (window closed) -- best-effort
+                    latest_marker = (
+                        m.group(1).strip(), int(m.group(2)), int(m.group(3))
+                    )
                 else:
                     visible.append(line)
             s = "".join(visible)
-            if not s and not bar_changed:
-                return
         if s:
             self.progress_text.configure(state="normal")
             self.progress_text.insert("end", s)
             self.progress_text.see("end")
             self.progress_text.configure(state="disabled")
-        # Force immediate visual paint so the bar/label move during the
-        # run instead of jumping to 100% at the end. Without this Tk
-        # batches the var updates and only paints when the main thread
-        # next goes idle -- but the poll loop keeps re-scheduling itself,
-        # so idle never comes.
-        if bar_changed:
+        if latest_marker is not None:
+            verb, current, total = latest_marker
+            pct = (current / total * 100) if total > 0 else 0
             try:
+                self.progress_pct_var.set(pct)
+                self.progress_status_var.set(
+                    f"{verb}: {current:,} of {total:,} ({pct:.0f}%)"
+                )
+                # Force a paint NOW. Without this Tk batches var-trace
+                # redraws and the bar only paints once at the end --
+                # update_idletasks() drains pending redraw events
+                # synchronously so the user sees this frame's pct.
                 self.progress_bar.update_idletasks()
             except Exception:
-                pass
+                pass  # widgets gone (window closed) -- best-effort
 
     def _on_progress_complete(self) -> None:
         rc = self._return_code or 0
