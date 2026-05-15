@@ -276,7 +276,7 @@ class Wizard(tk.Tk):
     def _cancel(self) -> None:
         self.exit_code = 1
         self._cleanup_fetched_bundle()
-        self.destroy()
+        self._hard_exit()
 
     def _cleanup_fetched_bundle(self) -> None:
         """Remove the temp directory where we extracted github's
@@ -293,6 +293,37 @@ class Wizard(tk.Tk):
             shutil.rmtree(target, ignore_errors=True)
         except Exception:
             pass  # best-effort -- Windows holds temp files occasionally
+
+    def _hard_exit(self) -> None:
+        """Tear down Tk and exit. In the frozen PyInstaller .exe build,
+        skip Python's normal atexit chain via os._exit so PyInstaller's
+        bootloader doesn't try to delete its own _MEI working folder
+        on the way out. The bootloader's cleanup races against
+        Tcl/Tk DLL unload + Windows file-handle release, and when it
+        loses (often when Bambu Studio was launched and is loading
+        DLLs concurrently), it pops a 'Failed to remove temporary
+        directory' MessageBox in the user's face.
+
+        The orphan _MEI dir we leave behind is harmless -- PyInstaller's
+        bootloader sweeps stale _MEI* dirs from %TEMP% at the start of
+        EVERY .exe launch, so the next run cleans it up automatically.
+
+        Source-tree runs (install.py via Python) use the normal exit
+        path -- there's no _MEI to worry about.
+        """
+        try:
+            self.destroy()
+        except Exception:
+            pass
+        if getattr(sys, "frozen", False) and sys.platform == "win32":
+            # Drain any pending events so the wizard window vanishes
+            # before we go nuclear.
+            try:
+                self.update_idletasks()
+            except Exception:
+                pass
+            import os as _os
+            _os._exit(self.exit_code if self.exit_code is not None else 0)
 
     # ==================================================================
     # Step: welcome
@@ -636,7 +667,8 @@ class Wizard(tk.Tk):
         # Success -- the new .exe is already starting. Close ourselves
         # so the disk file is fully released.
         self.exit_code = 0
-        self.destroy()
+        self._cleanup_fetched_bundle()
+        self._hard_exit()
 
     def _next_from_update_check(self) -> None:
         # User clicked Next on the update_check page (either "you're
@@ -1277,7 +1309,7 @@ class Wizard(tk.Tk):
     def _finish(self) -> None:
         self.exit_code = self._return_code or 0
         self._cleanup_fetched_bundle()
-        self.destroy()
+        self._hard_exit()
 
     # ==================================================================
     # Step: status (read-only)
@@ -1303,7 +1335,8 @@ class Wizard(tk.Tk):
 
     def _finish_ok(self) -> None:
         self.exit_code = 0
-        self.destroy()
+        self._cleanup_fetched_bundle()
+        self._hard_exit()
 
 
 # ---------------------------------------------------------------------------
