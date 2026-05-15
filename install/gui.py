@@ -18,8 +18,7 @@ User flow when install.exe is double-clicked:
     6. Progress page         -- live log streaming the existing
                                 cmd_install / cmd_update / cmd_uninstall
                                 output. Cancel disabled while running;
-                                [Re-launch Bambu Studio] [Finish]
-                                appear on completion.
+                                [Finish] appears on completion.
 
 For the Status action: from page 2 we jump straight to a status-text
 page (one screen), [< Back] [Finish].
@@ -1187,12 +1186,6 @@ class Wizard(tk.Tk):
         sb.place(in_=self.progress_text, relx=1.0, rely=0,
                  relheight=1.0, anchor="ne", width=14)
 
-        self.relaunch_btn = ttk.Button(
-            self.content, text="Re-launch Bambu Studio",
-            command=self._do_relaunch, state="disabled",
-        )
-        self.relaunch_btn.pack(side="left", anchor="s", pady=(8, 0))
-
         # Disable the wizard's Cancel + Back during the run, hide Next
         # until completion turns it into Finish.
         self.cancel_btn.state(["disabled"])
@@ -1351,18 +1344,6 @@ class Wizard(tk.Tk):
         self.back_btn.state(["!disabled"])
         self.back_btn.pack(side="left")
         self.cancel_btn.configure(state="normal")
-        # Re-launch button: use the path captured at preflight if Bambu
-        # was running then, OR fall back to locating an installed Bambu
-        # Studio so the button works in the normal flow (user closed
-        # Bambu BEFORE opening the wizard).
-        if rc == 0 and self.action != "uninstall":
-            if self.exe_path is None:
-                try:
-                    self.exe_path = self.install_mod.find_bambu_install_path()
-                except Exception:
-                    self.exe_path = None
-            if self.exe_path is not None:
-                self.relaunch_btn.configure(state="normal")
         # Pull the latest "==..." banner out of the captured stdout so
         # the title can reflect exactly what the cmd reported.
         text = self.progress_text.get("1.0", "end")
@@ -1379,11 +1360,12 @@ class Wizard(tk.Tk):
                 self.title_var.set("Install complete")
                 self.subtitle_var.set(banner or
                     "See the log below for details. "
-                    "Click Re-launch Bambu Studio or Finish.")
+                    "Click Finish to close, then launch Bambu Studio.")
             elif self.action == "update":
                 self.title_var.set("Update complete")
                 self.subtitle_var.set(banner or
-                    "See the log below. Click Re-launch Bambu Studio or Finish.")
+                    "See the log below. "
+                    "Click Finish to close, then launch Bambu Studio.")
             elif self.action == "uninstall":
                 self.title_var.set("Uninstall complete")
                 self.subtitle_var.set(banner or
@@ -1394,17 +1376,6 @@ class Wizard(tk.Tk):
         else:
             self.title_var.set("Finished with errors")
             self.subtitle_var.set("See the log above; click Finish to close.")
-
-    def _do_relaunch(self) -> None:
-        if self.exe_path is None:
-            return
-        try:
-            self.install_mod.relaunch(self.exe_path)
-            self._append_progress(
-                f"\nLaunching {self.exe_path} ... close this window when ready.\n"
-            )
-        except Exception as e:
-            messagebox.showerror("Re-launch failed", str(e), parent=self)
 
     def _finish(self) -> None:
         self.exit_code = self._return_code or 0
