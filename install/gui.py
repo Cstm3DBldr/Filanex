@@ -296,20 +296,39 @@ class Wizard(tk.Tk):
 
     def _hard_exit(self) -> None:
         """Tear down Tk and exit. In the frozen PyInstaller .exe build,
-        skip Python's normal atexit chain via os._exit so PyInstaller's
-        bootloader doesn't try to delete its own _MEI working folder
-        on the way out. The bootloader's cleanup races against
-        Tcl/Tk DLL unload + Windows file-handle release, and when it
-        loses (often when Bambu Studio was launched and is loading
-        DLLs concurrently), it pops a 'Failed to remove temporary
-        directory' MessageBox in the user's face.
+        we have to kill the BOOTLOADER PARENT process before exiting
+        ourselves, otherwise it shows a 'Failed to remove temporary
+        directory _MEIxxxx' MessageBox on the way out.
 
-        The orphan _MEI dir we leave behind is harmless -- PyInstaller's
-        bootloader sweeps stale _MEI* dirs from %TEMP% at the start of
-        EVERY .exe launch, so the next run cleans it up automatically.
+        Why this is needed:
+            PyInstaller --onefile is actually two processes:
+              1) Bootloader parent: extracts the bundle to %TEMP%\\_MEIxxxx,
+                 spawns itself as a child, waits for child to exit.
+              2) Child: loads python from _MEIxxxx and runs our code.
+            When the child exits, the parent runs `rmtree(_MEIxxxx)`. If
+            any file is still locked (Tcl/Tk DLLs are memory-mapped and
+            Windows is slow to release them, especially when Bambu Studio
+            was just launched and is loading its own DLLs concurrently),
+            the bootloader pops an unconditional MessageBox.
+
+            os._exit() in the child doesn't help -- the parent runs
+            cleanup *after* WaitForSingleObject(child) returns, regardless
+            of how the child died. The only way to suppress the MessageBox
+            is to prevent the parent's cleanup from running at all.
+
+        How we do it:
+            From the child, find the parent PID, verify the parent's
+            image is the same .exe as ours (i.e. it really is our
+            bootloader, not cmd.exe / explorer.exe / etc.), then
+            TerminateProcess on it. Then os._exit ourselves.
+
+        Why the orphan _MEI dir is fine:
+            PyInstaller's bootloader sweeps stale _MEI* dirs from %TEMP%
+            at the start of EVERY .exe launch, so the next install.exe
+            run cleans it up automatically.
 
         Source-tree runs (install.py via Python) use the normal exit
-        path -- there's no _MEI to worry about.
+        path -- no _MEI, no bootloader, nothing to worry about.
         """
         try:
             self.destroy()
@@ -322,8 +341,89 @@ class Wizard(tk.Tk):
                 self.update_idletasks()
             except Exception:
                 pass
+            try:
+                self._terminate_bootloader_parent()
+            except Exception:
+                pass
             import os as _os
             _os._exit(self.exit_code if self.exit_code is not None else 0)
+
+    def _terminate_bootloader_parent(self) -> None:
+        """Kill the PyInstaller --onefile bootloader parent process,
+        but ONLY if it's actually our own .exe (same image path) -- so
+        if the user launched us from cmd.exe or Explorer we don't
+        accidentally kill those. See _hard_exit() docstring for the
+        why."""
+        import ctypes
+        from ctypes import wintypes
+
+        PROCESS_QUERY_LIMITED_INFORMATION = 0x1000
+        PROCESS_TERMINATE = 0x0001
+
+        class PROCESS_BASIC_INFORMATION(ctypes.Structure):
+            _fields_ = [
+                ("Reserved1", ctypes.c_void_p),
+                ("PebBaseAddress", ctypes.c_void_p),
+                ("Reserved2_0", ctypes.c_void_p),
+                ("Reserved2_1", ctypes.c_void_p),
+                ("UniqueProcessId", ctypes.c_void_p),
+                ("InheritedFromUniqueProcessId", ctypes.c_void_p),
+            ]
+
+        ntdll = ctypes.windll.ntdll
+        kernel32 = ctypes.windll.kernel32
+
+        # Get our parent PID via NtQueryInformationProcess.
+        pbi = PROCESS_BASIC_INFORMATION()
+        ret_len = wintypes.ULONG(0)
+        status = ntdll.NtQueryInformationProcess(
+            kernel32.GetCurrentProcess(),
+            0,  # ProcessBasicInformation
+            ctypes.byref(pbi),
+            ctypes.sizeof(pbi),
+            ctypes.byref(ret_len),
+        )
+        if status != 0 or not pbi.InheritedFromUniqueProcessId:
+            return
+        parent_pid = int(pbi.InheritedFromUniqueProcessId)
+
+        # Open parent for image-path query + terminate. If we can't even
+        # open it (already gone, access denied), nothing to do.
+        h_query = kernel32.OpenProcess(
+            PROCESS_QUERY_LIMITED_INFORMATION, False, parent_pid
+        )
+        if not h_query:
+            return
+        try:
+            buf = ctypes.create_unicode_buffer(2048)
+            size = wintypes.DWORD(len(buf))
+            ok = kernel32.QueryFullProcessImageNameW(
+                h_query, 0, buf, ctypes.byref(size)
+            )
+            if not ok:
+                return
+            parent_image = buf.value
+        finally:
+            kernel32.CloseHandle(h_query)
+
+        # Only kill if the parent is the same .exe as us (our bootloader).
+        try:
+            my_image = sys.executable
+            same = (Path(parent_image).resolve() == Path(my_image).resolve())
+        except Exception:
+            same = False
+        if not same:
+            return
+
+        h_term = kernel32.OpenProcess(PROCESS_TERMINATE, False, parent_pid)
+        if not h_term:
+            return
+        try:
+            kernel32.TerminateProcess(
+                h_term, self.exit_code if self.exit_code is not None else 0
+            )
+        finally:
+            kernel32.CloseHandle(h_term)
 
     # ==================================================================
     # Step: welcome
