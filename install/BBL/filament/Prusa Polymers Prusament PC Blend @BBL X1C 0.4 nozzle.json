@@ -6,25 +6,25 @@
     "setting_id": "GFSQ11_06",
     "instantiation": "true",
     "eng_plate_temp": [
-        "100"
+        "110"
     ],
     "eng_plate_temp_initial_layer": [
-        "100"
+        "110"
     ],
     "fan_max_speed": [
         "20"
     ],
     "filament_max_volumetric_speed": [
-        "13.0"
+        "8.0"
     ],
     "hot_plate_temp": [
-        "113.75"
+        "110"
     ],
     "hot_plate_temp_initial_layer": [
-        "108.75"
+        "110"
     ],
     "nozzle_temperature": [
-        "272.5"
+        "275.0"
     ],
     "reduce_fan_stop_start_freq": [
         "0"
@@ -33,12 +33,24 @@
         "12"
     ],
     "textured_plate_temp": [
-        "110.0"
+        "110"
     ],
     "textured_plate_temp_initial_layer": [
-        "100"
+        "110"
     ],
     "compatible_printers": [
         "Bambu Lab X1 Carbon 0.4 nozzle"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

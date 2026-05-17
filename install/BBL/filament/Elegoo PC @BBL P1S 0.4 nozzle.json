@@ -15,16 +15,16 @@
         "20"
     ],
     "filament_max_volumetric_speed": [
-        "11.485"
+        "6.97"
     ],
     "hot_plate_temp": [
-        "105.0"
+        "100"
     ],
     "hot_plate_temp_initial_layer": [
-        "105.0"
+        "100"
     ],
     "nozzle_temperature": [
-        "267.5"
+        "275.0"
     ],
     "reduce_fan_stop_start_freq": [
         "0"
@@ -33,12 +33,24 @@
         "12"
     ],
     "textured_plate_temp": [
-        "105.0"
+        "100"
     ],
     "textured_plate_temp_initial_layer": [
         "100"
     ],
     "compatible_printers": [
         "Bambu Lab P1S 0.4 nozzle"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

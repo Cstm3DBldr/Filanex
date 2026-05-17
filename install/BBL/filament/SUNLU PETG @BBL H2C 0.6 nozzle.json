@@ -38,8 +38,8 @@
         "0.945"
     ],
     "filament_max_volumetric_speed": [
-        "12.0",
-        "12.0"
+        "10.5",
+        "10.5"
     ],
     "filament_pre_cooling_temperature_nc": [
         "205",
@@ -119,10 +119,10 @@
         "20"
     ],
     "supertack_plate_temp": [
-        "60"
+        "70"
     ],
     "supertack_plate_temp_initial_layer": [
-        "60"
+        "70"
     ],
     "temperature_vitrification": [
         "68.0"
@@ -135,5 +135,29 @@
     ],
     "filament_end_gcode": [
         "; filament end gcode \n"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "eng_plate_temp": [
+        "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "0"
+    ],
+    "hot_plate_temp": [
+        "60"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "60"
+    ],
+    "textured_plate_temp": [
+        "60"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "60"
     ]
 }

@@ -23,12 +23,12 @@
         "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
-        "247.5",
-        "247.5"
+        "255.0",
+        "255.0"
     ],
     "nozzle_temperature_initial_layer": [
-        "247.5",
-        "247.5"
+        "255.0",
+        "255.0"
     ],
     "slow_down_layer_time": [
         "12"
@@ -45,5 +45,35 @@
     ],
     "filament_end_gcode": [
         "; filament end gcode \n"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "eng_plate_temp": [
+        "110"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "110"
+    ],
+    "hot_plate_temp": [
+        "110"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "110"
+    ],
+    "textured_plate_temp": [
+        "110"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "110"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

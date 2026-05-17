@@ -21,10 +21,10 @@
         "0.076"
     ],
     "eng_plate_temp": [
-        "55"
+        "0"
     ],
     "eng_plate_temp_initial_layer": [
-        "55"
+        "0"
     ],
     "fan_min_speed": [
         "80"
@@ -42,8 +42,8 @@
         "3"
     ],
     "filament_max_volumetric_speed": [
-        "10.44",
-        "10.44"
+        "4.88",
+        "4.88"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -72,12 +72,12 @@
         "0"
     ],
     "nozzle_temperature": [
-        "210.0",
-        "210.0"
+        "220.0",
+        "220.0"
     ],
     "nozzle_temperature_initial_layer": [
-        "210.0",
-        "210.0"
+        "220.0",
+        "220.0"
     ],
     "pre_start_fan_time": [
         "2"
@@ -87,10 +87,10 @@
         "0"
     ],
     "supertack_plate_temp": [
-        "40"
+        "35"
     ],
     "supertack_plate_temp_initial_layer": [
-        "40"
+        "35"
     ],
     "slow_down_min_speed": [
         "20",
@@ -104,5 +104,23 @@
     ],
     "filament_end_gcode": [
         "; filament end gcode \n"
+    ],
+    "cool_plate_temp": [
+        "35"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "35"
+    ],
+    "hot_plate_temp": [
+        "55"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "55"
+    ],
+    "textured_plate_temp": [
+        "55"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "55"
     ]
 }

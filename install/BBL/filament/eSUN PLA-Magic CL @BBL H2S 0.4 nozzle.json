@@ -24,10 +24,10 @@
         "18"
     ],
     "hot_plate_temp": [
-        "52.5"
+        "65"
     ],
     "hot_plate_temp_initial_layer": [
-        "52.5"
+        "65"
     ],
     "pre_start_fan_time": [
         "2"
@@ -36,12 +36,30 @@
         "6"
     ],
     "textured_plate_temp": [
-        "65.0"
+        "65"
     ],
     "textured_plate_temp_initial_layer": [
         "65"
     ],
     "compatible_printers": [
         "Bambu Lab H2S 0.4 nozzle"
+    ],
+    "cool_plate_temp": [
+        "35"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "35"
+    ],
+    "eng_plate_temp": [
+        "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "0"
+    ],
+    "supertack_plate_temp": [
+        "35"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "35"
     ]
 }

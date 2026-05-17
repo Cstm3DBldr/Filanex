@@ -31,10 +31,10 @@
         "eSUN"
     ],
     "hot_plate_temp": [
-        "100.0"
+        "100"
     ],
     "hot_plate_temp_initial_layer": [
-        "100.0"
+        "100"
     ],
     "impact_strength_z": [
         "4.9"
@@ -49,9 +49,21 @@
         "12"
     ],
     "textured_plate_temp": [
-        "100.0"
+        "100"
     ],
     "textured_plate_temp_initial_layer": [
         "100"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

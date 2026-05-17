@@ -20,8 +20,8 @@
         "1"
     ],
     "filament_max_volumetric_speed": [
-        "11.5",
-        "11.5"
+        "8.0",
+        "8.0"
     ],
     "filament_retraction_distances_when_cut": [
         "18",
@@ -51,8 +51,8 @@
         "240.0"
     ],
     "nozzle_temperature_initial_layer": [
-        "240.0",
-        "240.0"
+        "245.0",
+        "245.0"
     ],
     "overhang_fan_speed": [
         "100"
@@ -70,5 +70,35 @@
     ],
     "compatible_printers": [
         "Bambu Lab P1P 0.2 nozzle"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "eng_plate_temp": [
+        "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "0"
+    ],
+    "hot_plate_temp": [
+        "90"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "90"
+    ],
+    "textured_plate_temp": [
+        "90"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "90"
+    ],
+    "supertack_plate_temp": [
+        "70"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "70"
     ]
 }

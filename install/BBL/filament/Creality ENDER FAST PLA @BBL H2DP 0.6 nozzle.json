@@ -18,10 +18,10 @@
         "0.088"
     ],
     "eng_plate_temp": [
-        "55"
+        "0"
     ],
     "eng_plate_temp_initial_layer": [
-        "55"
+        "0"
     ],
     "fan_max_speed": [
         "80"
@@ -34,8 +34,8 @@
         "0.95"
     ],
     "filament_max_volumetric_speed": [
-        "21.96",
-        "21.96"
+        "20.92",
+        "20.92"
     ],
     "filament_retraction_length": [
         "0.4",
@@ -75,10 +75,10 @@
         "2"
     ],
     "supertack_plate_temp": [
-        "40"
+        "35"
     ],
     "supertack_plate_temp_initial_layer": [
-        "40"
+        "35"
     ],
     "slow_down_min_speed": [
         "20",
@@ -92,5 +92,23 @@
     ],
     "filament_end_gcode": [
         "; filament end gcode \n"
+    ],
+    "cool_plate_temp": [
+        "50"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "50"
+    ],
+    "hot_plate_temp": [
+        "50"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "50"
+    ],
+    "textured_plate_temp": [
+        "50"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "50"
     ]
 }

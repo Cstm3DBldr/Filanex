@@ -7,10 +7,10 @@
     "instantiation": "false",
     "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "eng_plate_temp": [
-        "100"
+        "110"
     ],
     "eng_plate_temp_initial_layer": [
-        "100"
+        "110"
     ],
     "fan_max_speed": [
         "35"
@@ -31,27 +31,39 @@
         "Fiberlogy"
     ],
     "hot_plate_temp": [
-        "105.0"
+        "110"
     ],
     "hot_plate_temp_initial_layer": [
-        "102.5"
+        "110"
     ],
     "impact_strength_z": [
         "4.9"
     ],
     "nozzle_temperature": [
-        "261.25"
+        "262.5"
     ],
     "nozzle_temperature_initial_layer": [
-        "261.25"
+        "262.5"
     ],
     "slow_down_layer_time": [
         "12"
     ],
     "textured_plate_temp": [
-        "100"
+        "110"
     ],
     "textured_plate_temp_initial_layer": [
-        "100"
+        "110"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

@@ -28,10 +28,10 @@
         "Spiral Lift"
     ],
     "hot_plate_temp": [
-        "100.0"
+        "100"
     ],
     "hot_plate_temp_initial_layer": [
-        "100.0"
+        "100"
     ],
     "textured_plate_temp": [
         "100"
@@ -41,5 +41,17 @@
     ],
     "compatible_printers": [
         "Bambu Lab X1E 0.6 nozzle"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

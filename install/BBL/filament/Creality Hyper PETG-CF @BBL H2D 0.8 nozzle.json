@@ -28,8 +28,8 @@
         "10"
     ],
     "filament_max_volumetric_speed": [
-        "15.46",
-        "15.46"
+        "10.0",
+        "10.0"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -65,10 +65,10 @@
         "100"
     ],
     "supertack_plate_temp": [
-        "60"
+        "70"
     ],
     "supertack_plate_temp_initial_layer": [
-        "60"
+        "70"
     ],
     "compatible_printers": [
         "Bambu Lab H2D 0.8 nozzle"
@@ -78,5 +78,29 @@
     ],
     "filament_end_gcode": [
         "; filament end gcode \n"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "eng_plate_temp": [
+        "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "0"
+    ],
+    "hot_plate_temp": [
+        "80"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "80"
+    ],
+    "textured_plate_temp": [
+        "80"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "80"
     ]
 }

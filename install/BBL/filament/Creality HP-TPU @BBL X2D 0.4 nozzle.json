@@ -6,10 +6,10 @@
     "setting_id": "GFSR10_22",
     "instantiation": "true",
     "eng_plate_temp": [
-        "35"
+        "40"
     ],
     "eng_plate_temp_initial_layer": [
-        "35"
+        "40"
     ],
     "filament_cooling_before_tower": [
         "10",
@@ -79,5 +79,29 @@
     ],
     "filament_start_gcode": [
         "; filament start gcode\n"
+    ],
+    "cool_plate_temp": [
+        "35"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "35"
+    ],
+    "hot_plate_temp": [
+        "40"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "40"
+    ],
+    "textured_plate_temp": [
+        "40"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "40"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

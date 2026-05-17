@@ -13,8 +13,8 @@
         "1"
     ],
     "filament_max_volumetric_speed": [
-        "18.5",
-        "18.5"
+        "15.0",
+        "15.0"
     ],
     "filament_retraction_distances_when_cut": [
         "18",
@@ -32,12 +32,12 @@
         "0"
     ],
     "nozzle_temperature": [
-        "257.5",
-        "257.5"
+        "260.0",
+        "260.0"
     ],
     "nozzle_temperature_initial_layer": [
-        "257.5",
-        "257.5"
+        "260.0",
+        "260.0"
     ],
     "retraction_distances_when_ec": [
         "0",
@@ -52,5 +52,35 @@
     ],
     "compatible_printers": [
         "Bambu Lab X1E 0.2 nozzle"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "eng_plate_temp": [
+        "100"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "100"
+    ],
+    "hot_plate_temp": [
+        "100"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "100"
+    ],
+    "textured_plate_temp": [
+        "100"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "100"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

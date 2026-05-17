@@ -25,10 +25,10 @@
         "5.7"
     ],
     "nozzle_temperature": [
-        "248.75"
+        "250.0"
     ],
     "nozzle_temperature_initial_layer": [
-        "248.75"
+        "250.0"
     ],
     "overhang_fan_speed": [
         "40"
@@ -38,5 +38,35 @@
     ],
     "temperature_vitrification": [
         "170"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "eng_plate_temp": [
+        "92"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "92"
+    ],
+    "hot_plate_temp": [
+        "92"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "92"
+    ],
+    "textured_plate_temp": [
+        "92"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "92"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

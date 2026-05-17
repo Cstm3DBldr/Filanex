@@ -19,9 +19,39 @@
         "88.7"
     ],
     "nozzle_temperature": [
-        "222.5"
+        "230.0"
     ],
     "nozzle_temperature_initial_layer": [
-        "222.5"
+        "230.0"
+    ],
+    "cool_plate_temp": [
+        "30"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "30"
+    ],
+    "eng_plate_temp": [
+        "38"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "38"
+    ],
+    "hot_plate_temp": [
+        "38"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "38"
+    ],
+    "textured_plate_temp": [
+        "38"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "38"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

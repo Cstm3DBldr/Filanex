@@ -16,8 +16,8 @@
         "10"
     ],
     "filament_max_volumetric_speed": [
-        "10.94",
-        "10.94"
+        "4.88",
+        "4.88"
     ],
     "filament_retraction_length": [
         "0.4",
@@ -49,8 +49,8 @@
         "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
-        "252.5",
-        "252.5"
+        "255.0",
+        "255.0"
     ],
     "nozzle_temperature_initial_layer": [
         "250.0",
@@ -71,5 +71,35 @@
     ],
     "filament_end_gcode": [
         "; filament end gcode \n"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "eng_plate_temp": [
+        "90"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "90"
+    ],
+    "hot_plate_temp": [
+        "90"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "90"
+    ],
+    "textured_plate_temp": [
+        "90"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "90"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

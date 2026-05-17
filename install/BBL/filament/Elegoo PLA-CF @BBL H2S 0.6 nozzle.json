@@ -6,10 +6,10 @@
     "setting_id": "GFSD12_26",
     "instantiation": "true",
     "eng_plate_temp": [
-        "55"
+        "0"
     ],
     "eng_plate_temp_initial_layer": [
-        "55"
+        "0"
     ],
     "filament_cooling_before_tower": [
         "10",
@@ -20,8 +20,8 @@
         "0.98"
     ],
     "filament_max_volumetric_speed": [
-        "16.46",
-        "16.46"
+        "12.0",
+        "12.0"
     ],
     "filament_retraction_length": [
         "0.4",
@@ -53,12 +53,12 @@
         "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
-        "222.5",
-        "222.5"
+        "225.0",
+        "225.0"
     ],
     "nozzle_temperature_initial_layer": [
-        "222.5",
-        "222.5"
+        "225.0",
+        "225.0"
     ],
     "slow_down_min_speed": [
         "20",
@@ -72,5 +72,29 @@
     ],
     "filament_end_gcode": [
         "; filament end gcode \n"
+    ],
+    "cool_plate_temp": [
+        "45"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "45"
+    ],
+    "hot_plate_temp": [
+        "65"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "65"
+    ],
+    "textured_plate_temp": [
+        "65"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "65"
+    ],
+    "supertack_plate_temp": [
+        "35"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "35"
     ]
 }

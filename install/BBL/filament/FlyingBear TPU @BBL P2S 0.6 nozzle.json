@@ -6,10 +6,10 @@
     "setting_id": "GFS107_19",
     "instantiation": "true",
     "eng_plate_temp": [
-        "35"
+        "40"
     ],
     "eng_plate_temp_initial_layer": [
-        "35"
+        "40"
     ],
     "filament_cooling_before_tower": [
         "10",
@@ -57,16 +57,16 @@
         "fdm_filament_template_direct_bowden"
     ],
     "nozzle_temperature": [
-        "220.0",
-        "220.0",
-        "220.0",
-        "220.0"
+        "230.0",
+        "230.0",
+        "230.0",
+        "230.0"
     ],
     "nozzle_temperature_initial_layer": [
-        "220.0",
-        "220.0",
-        "220.0",
-        "220.0"
+        "230.0",
+        "230.0",
+        "230.0",
+        "230.0"
     ],
     "retraction_distances_when_ec": [
         "0",
@@ -79,5 +79,29 @@
     ],
     "filament_start_gcode": [
         "; filament start gcode\n"
+    ],
+    "cool_plate_temp": [
+        "30"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "30"
+    ],
+    "hot_plate_temp": [
+        "40"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "40"
+    ],
+    "textured_plate_temp": [
+        "40"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "40"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

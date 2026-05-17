@@ -21,7 +21,7 @@
         "1"
     ],
     "filament_max_volumetric_speed": [
-        "11.5"
+        "8.0"
     ],
     "filament_retraction_distances_when_cut": [
         "18"
@@ -40,5 +40,35 @@
     ],
     "compatible_printers": [
         "Bambu Lab A1 mini 0.6 nozzle"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "eng_plate_temp": [
+        "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "0"
+    ],
+    "hot_plate_temp": [
+        "80"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "80"
+    ],
+    "textured_plate_temp": [
+        "80"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "80"
+    ],
+    "supertack_plate_temp": [
+        "70"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "70"
     ]
 }

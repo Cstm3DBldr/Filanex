@@ -12,18 +12,30 @@
         "100"
     ],
     "hot_plate_temp": [
-        "113.75"
+        "100"
     ],
     "hot_plate_temp_initial_layer": [
-        "108.75"
+        "100"
     ],
     "textured_plate_temp": [
-        "110.0"
+        "100"
     ],
     "textured_plate_temp_initial_layer": [
         "100"
     ],
     "compatible_printers": [
         "Bambu Lab P1S 0.2 nozzle"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

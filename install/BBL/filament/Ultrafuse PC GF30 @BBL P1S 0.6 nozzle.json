@@ -6,10 +6,10 @@
     "setting_id": "GFSZ08_03",
     "instantiation": "true",
     "eng_plate_temp": [
-        "100"
+        "90"
     ],
     "eng_plate_temp_initial_layer": [
-        "100"
+        "90"
     ],
     "filament_flow_ratio": [
         "0.94",
@@ -28,18 +28,30 @@
         "Spiral Lift"
     ],
     "hot_plate_temp": [
-        "90.0"
+        "90"
     ],
     "hot_plate_temp_initial_layer": [
-        "90.0"
+        "90"
     ],
     "textured_plate_temp": [
-        "100"
+        "90"
     ],
     "textured_plate_temp_initial_layer": [
-        "100"
+        "90"
     ],
     "compatible_printers": [
         "Bambu Lab P1S 0.6 nozzle"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

@@ -6,10 +6,10 @@
     "setting_id": "GFSI09_22",
     "instantiation": "true",
     "eng_plate_temp": [
-        "35"
+        "55"
     ],
     "eng_plate_temp_initial_layer": [
-        "35"
+        "55"
     ],
     "filament_cooling_before_tower": [
         "10",
@@ -79,5 +79,29 @@
     ],
     "filament_start_gcode": [
         "; filament start gcode\n"
+    ],
+    "cool_plate_temp": [
+        "45"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "45"
+    ],
+    "hot_plate_temp": [
+        "55"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "55"
+    ],
+    "textured_plate_temp": [
+        "55"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "55"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

@@ -21,10 +21,10 @@
         "-0.025"
     ],
     "eng_plate_temp": [
-        "100"
+        "0"
     ],
     "eng_plate_temp_initial_layer": [
-        "100"
+        "0"
     ],
     "filament_change_length": [
         "4"
@@ -81,12 +81,12 @@
         "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
-        "292.5",
-        "292.5"
+        "300.0",
+        "300.0"
     ],
     "nozzle_temperature_initial_layer": [
-        "292.5",
-        "292.5"
+        "300.0",
+        "300.0"
     ],
     "temperature_vitrification": [
         "79.3"
@@ -99,5 +99,29 @@
     ],
     "filament_end_gcode": [
         "; filament end gcode \n"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "hot_plate_temp": [
+        "75"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "75"
+    ],
+    "textured_plate_temp": [
+        "75"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "75"
+    ],
+    "supertack_plate_temp": [
+        "70"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "70"
     ]
 }

@@ -61,5 +61,35 @@
     ],
     "filament_end_gcode": [
         "; filament end gcode \n"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "eng_plate_temp": [
+        "92"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "92"
+    ],
+    "hot_plate_temp": [
+        "92"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "92"
+    ],
+    "textured_plate_temp": [
+        "92"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "92"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

@@ -6,10 +6,10 @@
     "setting_id": "GFSK14_19",
     "instantiation": "true",
     "eng_plate_temp": [
-        "35"
+        "30"
     ],
     "eng_plate_temp_initial_layer": [
-        "35"
+        "30"
     ],
     "filament_cooling_before_tower": [
         "10",
@@ -79,5 +79,29 @@
     ],
     "filament_start_gcode": [
         "; filament start gcode\n"
+    ],
+    "cool_plate_temp": [
+        "45"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "45"
+    ],
+    "hot_plate_temp": [
+        "30"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "30"
+    ],
+    "textured_plate_temp": [
+        "30"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "30"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

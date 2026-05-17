@@ -7,16 +7,16 @@
     "instantiation": "false",
     "description": "When printing this filament, there's a risk of nozzle clogging, oozing, warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "cool_plate_temp": [
-        "52.5"
+        "0"
     ],
     "cool_plate_temp_initial_layer": [
         "0"
     ],
     "eng_plate_temp": [
-        "80"
+        "0"
     ],
     "eng_plate_temp_initial_layer": [
-        "80"
+        "0"
     ],
     "fan_cooling_layer_time": [
         "5"
@@ -67,10 +67,10 @@
         "150"
     ],
     "hot_plate_temp": [
-        "80.0"
+        "105"
     ],
     "hot_plate_temp_initial_layer": [
-        "70.0"
+        "105"
     ],
     "impact_strength_z": [
         "4.5"
@@ -97,22 +97,22 @@
         "40"
     ],
     "supertack_plate_temp": [
-        "80"
+        "70"
     ],
     "supertack_plate_temp_initial_layer": [
-        "80"
+        "70"
     ],
     "slow_down_layer_time": [
         "2"
     ],
     "temperature_vitrification": [
-        "105.0"
+        "110.0"
     ],
     "textured_plate_temp": [
-        "97.5"
+        "105"
     ],
     "textured_plate_temp_initial_layer": [
-        "100"
+        "105"
     ],
     "filament_start_gcode": [
         "; filament start gcode\n{if (bed_temperature[current_extruder] >80)||(bed_temperature_initial_layer[current_extruder] >80)}M106 P3 S255\n{elsif (bed_temperature[current_extruder] >60)||(bed_temperature_initial_layer[current_extruder] >60)}M106 P3 S180\n{endif}\n\n{if activate_air_filtration[current_extruder] && support_air_filtration}\nM106 P3 S{during_print_exhaust_fan_speed_num[current_extruder]} \n{endif}"

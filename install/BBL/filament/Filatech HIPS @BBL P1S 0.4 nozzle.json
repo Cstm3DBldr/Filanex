@@ -52,8 +52,8 @@
         "225.0"
     ],
     "nozzle_temperature_initial_layer": [
-        "222.5",
-        "222.5"
+        "225.0",
+        "225.0"
     ],
     "retraction_distances_when_ec": [
         "0",
@@ -68,5 +68,35 @@
     ],
     "compatible_printers": [
         "Bambu Lab P1S 0.4 nozzle"
+    ],
+    "cool_plate_temp": [
+        "35"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "35"
+    ],
+    "eng_plate_temp": [
+        "100"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "100"
+    ],
+    "hot_plate_temp": [
+        "100"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "100"
+    ],
+    "textured_plate_temp": [
+        "100"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "100"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

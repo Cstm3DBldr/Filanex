@@ -27,7 +27,7 @@
         "18"
     ],
     "nozzle_temperature": [
-        "235.0"
+        "240.0"
     ],
     "overhang_fan_speed": [
         "100"
@@ -40,5 +40,35 @@
     ],
     "compatible_printers": [
         "Bambu Lab A1 0.6 nozzle"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "eng_plate_temp": [
+        "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "0"
+    ],
+    "hot_plate_temp": [
+        "80"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "80"
+    ],
+    "textured_plate_temp": [
+        "80"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "80"
+    ],
+    "supertack_plate_temp": [
+        "70"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "70"
     ]
 }

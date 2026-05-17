@@ -21,10 +21,10 @@
         "0.0183"
     ],
     "eng_plate_temp": [
-        "100"
+        "90"
     ],
     "eng_plate_temp_initial_layer": [
-        "100"
+        "90"
     ],
     "fan_max_speed": [
         "40"
@@ -66,10 +66,10 @@
         "Spiral Lift"
     ],
     "hot_plate_temp": [
-        "90.0"
+        "90"
     ],
     "hot_plate_temp_initial_layer": [
-        "90.0"
+        "90"
     ],
     "hole_coef_2": [
         "0.0009"
@@ -110,15 +110,27 @@
         "20"
     ],
     "textured_plate_temp": [
-        "100"
+        "90"
     ],
     "textured_plate_temp_initial_layer": [
-        "100"
+        "90"
     ],
     "compatible_printers": [
         "Bambu Lab P2S 0.6 nozzle"
     ],
     "filament_start_gcode": [
         "; filament start gcode\n"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

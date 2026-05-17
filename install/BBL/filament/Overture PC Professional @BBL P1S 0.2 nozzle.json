@@ -6,24 +6,36 @@
     "setting_id": "GFSO11_01",
     "instantiation": "true",
     "eng_plate_temp": [
-        "100"
+        "98"
     ],
     "eng_plate_temp_initial_layer": [
-        "100"
+        "98"
     ],
     "hot_plate_temp": [
-        "97.5"
+        "98"
     ],
     "hot_plate_temp_initial_layer": [
-        "97.5"
+        "98"
     ],
     "textured_plate_temp": [
-        "100"
+        "98"
     ],
     "textured_plate_temp_initial_layer": [
-        "100"
+        "98"
     ],
     "compatible_printers": [
         "Bambu Lab P1S 0.2 nozzle"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

@@ -24,10 +24,10 @@
         "0"
     ],
     "hot_plate_temp": [
-        "60.0"
+        "60"
     ],
     "hot_plate_temp_initial_layer": [
-        "65"
+        "60"
     ],
     "include": [
         "fdm_filament_template_direct_dual"
@@ -53,12 +53,30 @@
         "20"
     ],
     "textured_plate_temp": [
-        "65"
+        "60"
     ],
     "textured_plate_temp_initial_layer": [
-        "65"
+        "60"
     ],
     "compatible_printers": [
         "Bambu Lab P1P 0.2 nozzle"
+    ],
+    "cool_plate_temp": [
+        "35"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "35"
+    ],
+    "eng_plate_temp": [
+        "60"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "60"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

@@ -142,5 +142,35 @@
     ],
     "filament_start_gcode": [
         "; filament start gcode\n"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "eng_plate_temp": [
+        "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "0"
+    ],
+    "hot_plate_temp": [
+        "40"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "40"
+    ],
+    "textured_plate_temp": [
+        "40"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "40"
+    ],
+    "supertack_plate_temp": [
+        "70"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "70"
     ]
 }

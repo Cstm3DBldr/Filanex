@@ -22,6 +22,36 @@
         "230.0"
     ],
     "nozzle_temperature_initial_layer": [
-        "227.5"
+        "230.0"
+    ],
+    "cool_plate_temp": [
+        "30"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "30"
+    ],
+    "eng_plate_temp": [
+        "40"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "40"
+    ],
+    "hot_plate_temp": [
+        "40"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "40"
+    ],
+    "textured_plate_temp": [
+        "40"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "40"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

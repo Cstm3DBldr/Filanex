@@ -57,5 +57,35 @@
     ],
     "compatible_printers": [
         "Bambu Lab X1 0.8 nozzle"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "eng_plate_temp": [
+        "105"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "105"
+    ],
+    "hot_plate_temp": [
+        "105"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "105"
+    ],
+    "textured_plate_temp": [
+        "105"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "105"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

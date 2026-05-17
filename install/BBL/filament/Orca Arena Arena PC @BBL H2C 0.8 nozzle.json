@@ -35,8 +35,8 @@
         "0.94"
     ],
     "filament_max_volumetric_speed": [
-        "20.6",
-        "20.6"
+        "18.0",
+        "18.0"
     ],
     "filament_pre_cooling_temperature_nc": [
         "240",
@@ -109,7 +109,7 @@
         "20"
     ],
     "temperature_vitrification": [
-        "130.0"
+        "140.0"
     ],
     "compatible_printers": [
         "Bambu Lab H2C 0.8 nozzle"
@@ -119,5 +119,35 @@
     ],
     "filament_end_gcode": [
         "; filament end gcode \n"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "eng_plate_temp": [
+        "110"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "110"
+    ],
+    "hot_plate_temp": [
+        "110"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "110"
+    ],
+    "textured_plate_temp": [
+        "110"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "110"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

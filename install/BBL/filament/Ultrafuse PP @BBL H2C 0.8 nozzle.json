@@ -21,10 +21,10 @@
         "0.014"
     ],
     "eng_plate_temp": [
-        "55"
+        "70"
     ],
     "eng_plate_temp_initial_layer": [
-        "55"
+        "70"
     ],
     "fan_max_speed": [
         "80"
@@ -104,12 +104,12 @@
         "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
-        "235.0",
-        "235.0"
+        "240.0",
+        "240.0"
     ],
     "nozzle_temperature_initial_layer": [
-        "235.0",
-        "235.0"
+        "240.0",
+        "240.0"
     ],
     "pre_start_fan_time": [
         "2"
@@ -119,10 +119,10 @@
         "20"
     ],
     "supertack_plate_temp": [
-        "40"
+        "0"
     ],
     "supertack_plate_temp_initial_layer": [
-        "40"
+        "0"
     ],
     "compatible_printers": [
         "Bambu Lab H2C 0.8 nozzle"
@@ -132,5 +132,23 @@
     ],
     "filament_end_gcode": [
         "; filament end gcode \n"
+    ],
+    "cool_plate_temp": [
+        "35"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "35"
+    ],
+    "hot_plate_temp": [
+        "70"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "70"
+    ],
+    "textured_plate_temp": [
+        "70"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "70"
     ]
 }

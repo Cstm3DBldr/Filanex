@@ -70,12 +70,12 @@
         "0"
     ],
     "nozzle_temperature": [
-        "242.5",
-        "242.5"
+        "255.0",
+        "255.0"
     ],
     "nozzle_temperature_initial_layer": [
-        "240.0",
-        "240.0"
+        "250.0",
+        "250.0"
     ],
     "retraction_distances_when_ec": [
         "0",
@@ -89,5 +89,35 @@
     ],
     "filament_start_gcode": [
         "; filament start gcode\n"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "eng_plate_temp": [
+        "105"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "105"
+    ],
+    "hot_plate_temp": [
+        "105"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "105"
+    ],
+    "textured_plate_temp": [
+        "105"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "105"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

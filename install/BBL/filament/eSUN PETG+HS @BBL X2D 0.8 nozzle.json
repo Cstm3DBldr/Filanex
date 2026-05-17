@@ -42,10 +42,10 @@
         "1.0"
     ],
     "filament_max_volumetric_speed": [
-        "13.5",
-        "13.5",
-        "13.5",
-        "13.5"
+        "7.0",
+        "7.0",
+        "7.0",
+        "7.0"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -108,16 +108,16 @@
         "fdm_filament_template_direct_bowden"
     ],
     "nozzle_temperature": [
-        "255.0",
-        "255.0",
-        "255.0",
-        "255.0"
+        "260.0",
+        "260.0",
+        "260.0",
+        "260.0"
     ],
     "nozzle_temperature_initial_layer": [
-        "255.0",
-        "255.0",
-        "255.0",
-        "255.0"
+        "260.0",
+        "260.0",
+        "260.0",
+        "260.0"
     ],
     "overhang_fan_speed": [
         "100"
@@ -142,5 +142,35 @@
     ],
     "filament_start_gcode": [
         "; filament start gcode\n"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "eng_plate_temp": [
+        "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "0"
+    ],
+    "hot_plate_temp": [
+        "90"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "90"
+    ],
+    "textured_plate_temp": [
+        "90"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "90"
+    ],
+    "supertack_plate_temp": [
+        "70"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "70"
     ]
 }

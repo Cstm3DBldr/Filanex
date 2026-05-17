@@ -7,10 +7,10 @@
     "instantiation": "false",
     "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "eng_plate_temp": [
-        "100"
+        "95"
     ],
     "eng_plate_temp_initial_layer": [
-        "100"
+        "95"
     ],
     "fan_max_speed": [
         "35"
@@ -25,33 +25,45 @@
         "0.98"
     ],
     "filament_max_volumetric_speed": [
-        "13.67"
+        "12.0"
     ],
     "filament_vendor": [
         "Elegoo"
     ],
     "hot_plate_temp": [
-        "92.5"
+        "95"
     ],
     "hot_plate_temp_initial_layer": [
-        "95.0"
+        "95"
     ],
     "impact_strength_z": [
         "4.9"
     ],
     "nozzle_temperature": [
-        "262.5"
+        "270.0"
     ],
     "nozzle_temperature_initial_layer": [
-        "262.5"
+        "270.0"
     ],
     "slow_down_layer_time": [
         "12"
     ],
     "textured_plate_temp": [
-        "95.0"
+        "95"
     ],
     "textured_plate_temp_initial_layer": [
-        "100"
+        "95"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

@@ -28,12 +28,12 @@
         "0"
     ],
     "nozzle_temperature": [
-        "282.5",
-        "282.5"
+        "290.0",
+        "290.0"
     ],
     "nozzle_temperature_initial_layer": [
-        "282.5",
-        "282.5"
+        "290.0",
+        "290.0"
     ],
     "retraction_distances_when_ec": [
         "0",
@@ -48,5 +48,35 @@
     ],
     "compatible_printers": [
         "Bambu Lab X1 Carbon 0.8 nozzle"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "eng_plate_temp": [
+        "110"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "110"
+    ],
+    "hot_plate_temp": [
+        "110"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "110"
+    ],
+    "textured_plate_temp": [
+        "110"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "110"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

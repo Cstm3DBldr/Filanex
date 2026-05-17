@@ -50,10 +50,10 @@
         "0.4"
     ],
     "hot_plate_temp": [
-        "100.0"
+        "100"
     ],
     "hot_plate_temp_initial_layer": [
-        "100.0"
+        "100"
     ],
     "hole_coef_2": [
         "0.0009"
@@ -104,5 +104,17 @@
     ],
     "filament_start_gcode": [
         "; filament start gcode\n"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

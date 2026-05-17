@@ -6,22 +6,22 @@
     "setting_id": "GFS104_10",
     "instantiation": "true",
     "eng_plate_temp": [
-        "100"
+        "110"
     ],
     "eng_plate_temp_initial_layer": [
-        "100"
+        "110"
     ],
     "fan_max_speed": [
         "20"
     ],
     "filament_max_volumetric_speed": [
-        "20.6"
+        "18.0"
     ],
     "hot_plate_temp": [
-        "110.0"
+        "110"
     ],
     "hot_plate_temp_initial_layer": [
-        "110.0"
+        "110"
     ],
     "nozzle_temperature": [
         "280.0"
@@ -33,12 +33,24 @@
         "12"
     ],
     "textured_plate_temp": [
-        "110.0"
+        "110"
     ],
     "textured_plate_temp_initial_layer": [
-        "100"
+        "110"
     ],
     "compatible_printers": [
         "Bambu Lab X1E 0.4 nozzle"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

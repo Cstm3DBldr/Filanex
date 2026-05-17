@@ -42,10 +42,10 @@
         "0.9524999999999999"
     ],
     "filament_max_volumetric_speed": [
-        "14.25",
-        "14.25",
-        "14.25",
-        "14.25"
+        "12.5",
+        "12.5",
+        "12.5",
+        "12.5"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -142,5 +142,35 @@
     ],
     "filament_start_gcode": [
         "; filament start gcode\n"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "eng_plate_temp": [
+        "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "0"
+    ],
+    "hot_plate_temp": [
+        "75"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "75"
+    ],
+    "textured_plate_temp": [
+        "75"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "75"
+    ],
+    "supertack_plate_temp": [
+        "70"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "70"
     ]
 }

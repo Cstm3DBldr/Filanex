@@ -126,10 +126,10 @@
         "fdm_filament_template_direct_bowden"
     ],
     "nozzle_temperature": [
-        "237.5",
-        "237.5",
-        "237.5",
-        "237.5"
+        "245.0",
+        "245.0",
+        "245.0",
+        "245.0"
     ],
     "nozzle_temperature_initial_layer": [
         "245.0",
@@ -160,5 +160,35 @@
     ],
     "filament_start_gcode": [
         "; filament start gcode\n"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "eng_plate_temp": [
+        "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "0"
+    ],
+    "hot_plate_temp": [
+        "80"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "80"
+    ],
+    "textured_plate_temp": [
+        "80"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "80"
+    ],
+    "supertack_plate_temp": [
+        "70"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "70"
     ]
 }

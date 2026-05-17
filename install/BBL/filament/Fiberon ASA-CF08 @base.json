@@ -36,10 +36,10 @@
         "95"
     ],
     "hot_plate_temp": [
-        "97.5"
+        "100"
     ],
     "hot_plate_temp_initial_layer": [
-        "97.5"
+        "100"
     ],
     "impact_strength_z": [
         "9.4"
@@ -51,7 +51,7 @@
         "270.0"
     ],
     "nozzle_temperature_range_low": [
-        "255.0"
+        "260.0"
     ],
     "slow_down_layer_time": [
         "12"
@@ -60,10 +60,22 @@
         "108.0"
     ],
     "textured_plate_temp": [
-        "100.0"
+        "100"
     ],
     "textured_plate_temp_initial_layer": [
         "100"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ],
     "_filanex_advisory": {
         "matched_variants": [],

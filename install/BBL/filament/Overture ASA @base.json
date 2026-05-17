@@ -25,33 +25,45 @@
         "0.965"
     ],
     "filament_max_volumetric_speed": [
-        "6.745"
+        "3.49"
     ],
     "filament_vendor": [
         "Overture"
     ],
     "hot_plate_temp": [
-        "91.25"
+        "100"
     ],
     "hot_plate_temp_initial_layer": [
-        "91.25"
+        "100"
     ],
     "impact_strength_z": [
         "4.9"
     ],
     "nozzle_temperature": [
-        "265.0"
+        "270.0"
     ],
     "nozzle_temperature_initial_layer": [
-        "265.0"
+        "270.0"
     ],
     "slow_down_layer_time": [
         "12"
     ],
     "textured_plate_temp": [
-        "100.0"
+        "100"
     ],
     "textured_plate_temp_initial_layer": [
         "100"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
     ]
 }

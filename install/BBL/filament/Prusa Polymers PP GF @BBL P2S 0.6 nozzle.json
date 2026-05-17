@@ -18,10 +18,10 @@
         "0.014"
     ],
     "eng_plate_temp": [
-        "55"
+        "95"
     ],
     "eng_plate_temp_initial_layer": [
-        "55"
+        "95"
     ],
     "filament_cooling_before_tower": [
         "10",
@@ -94,15 +94,33 @@
         "20"
     ],
     "supertack_plate_temp": [
-        "40"
+        "0"
     ],
     "supertack_plate_temp_initial_layer": [
-        "40"
+        "0"
     ],
     "compatible_printers": [
         "Bambu Lab P2S 0.6 nozzle"
     ],
     "filament_start_gcode": [
         "; filament start gcode\n"
+    ],
+    "cool_plate_temp": [
+        "35"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "35"
+    ],
+    "hot_plate_temp": [
+        "95"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "95"
+    ],
+    "textured_plate_temp": [
+        "95"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "95"
     ]
 }
