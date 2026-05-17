@@ -3,10 +3,10 @@
     "name": "Fiberon PPS-CF10 @BBL H2C 0.8 nozzle",
     "inherits": "Fiberon PPS-CF10 @base",
     "from": "system",
-    "setting_id": "GFSL09_06",
+    "setting_id": "GFSL09_04",
     "instantiation": "true",
     "chamber_temperatures": [
-        "65"
+        "0"
     ],
     "counter_coef_2": [
         "0.0003"
@@ -28,12 +28,12 @@
         "10"
     ],
     "filament_flow_ratio": [
-        "0.96",
-        "0.96"
+        "1.02",
+        "1.02"
     ],
     "filament_max_volumetric_speed": [
-        "6",
-        "6"
+        "200",
+        "200"
     ],
     "filament_pre_cooling_temperature_nc": [
         "280",
@@ -78,15 +78,15 @@
         "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
-        "330.0",
-        "330.0"
+        "300",
+        "300"
     ],
     "nozzle_temperature_initial_layer": [
-        "330.0",
-        "330.0"
+        "300",
+        "300"
     ],
     "temperature_vitrification": [
-        "150"
+        "267"
     ],
     "compatible_printers": [
         "Bambu Lab H2C 0.8 nozzle"

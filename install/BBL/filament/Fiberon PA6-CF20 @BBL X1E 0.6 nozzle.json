@@ -3,19 +3,19 @@
     "name": "Fiberon PA6-CF20 @BBL X1E 0.6 nozzle",
     "inherits": "Fiberon PA6-CF20 @base",
     "from": "system",
-    "setting_id": "GFSL03_05",
+    "setting_id": "GFSL03_03",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.95",
         "0.95"
     ],
     "filament_max_volumetric_speed": [
-        "14.0",
-        "14.0"
+        "14",
+        "14"
     ],
     "filament_retraction_length": [
         "nil",
-        "0.6"
+        "nil"
     ],
     "filament_z_hop": [
         "nil",
@@ -33,12 +33,12 @@
         "0"
     ],
     "nozzle_temperature": [
-        "300.0",
-        "300.0"
+        "300",
+        "300"
     ],
     "nozzle_temperature_initial_layer": [
-        "300.0",
-        "300.0"
+        "300",
+        "300"
     ],
     "retraction_distances_when_ec": [
         "0",
@@ -58,22 +58,22 @@
         "0"
     ],
     "eng_plate_temp": [
-        "45"
+        "100"
     ],
     "eng_plate_temp_initial_layer": [
-        "45"
+        "100"
     ],
     "hot_plate_temp": [
-        "45"
+        "100"
     ],
     "hot_plate_temp_initial_layer": [
-        "45"
+        "100"
     ],
     "textured_plate_temp": [
-        "45"
+        "100"
     ],
     "textured_plate_temp_initial_layer": [
-        "45"
+        "100"
     ],
     "supertack_plate_temp": [
         "0"

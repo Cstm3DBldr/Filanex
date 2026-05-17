@@ -3,7 +3,7 @@
     "name": "Fiberon PETG-rCF08 @BBL X2D 0.6 nozzle",
     "inherits": "Fiberon PETG-rCF08 @base",
     "from": "system",
-    "setting_id": "GFSL08_14",
+    "setting_id": "GFSL08_09",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0022"
@@ -42,10 +42,10 @@
         "0.95"
     ],
     "filament_max_volumetric_speed": [
-        "12.0",
-        "12.0",
-        "12.0",
-        "12.0"
+        "12",
+        "12",
+        "12",
+        "12"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -81,16 +81,16 @@
         "fdm_filament_template_direct_bowden"
     ],
     "nozzle_temperature": [
-        "270.0",
-        "270.0",
-        "270.0",
-        "270.0"
+        "270",
+        "270",
+        "270",
+        "270"
     ],
     "nozzle_temperature_initial_layer": [
-        "270.0",
-        "270.0",
-        "270.0",
-        "270.0"
+        "270",
+        "270",
+        "270",
+        "270"
     ],
     "overhang_fan_speed": [
         "100"
@@ -120,16 +120,16 @@
         "0"
     ],
     "hot_plate_temp": [
-        "70"
+        "80"
     ],
     "hot_plate_temp_initial_layer": [
-        "70"
+        "80"
     ],
     "textured_plate_temp": [
-        "70"
+        "80"
     ],
     "textured_plate_temp_initial_layer": [
-        "70"
+        "80"
     ],
     "supertack_plate_temp": [
         "70"

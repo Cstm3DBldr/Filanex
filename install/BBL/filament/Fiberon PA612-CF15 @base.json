@@ -7,10 +7,10 @@
     "instantiation": "false",
     "description": "When printing this filament, there's a risk of nozzle clogging, oozing, warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "filament_cost": [
-        "84.99"
+        "94.99"
     ],
     "filament_density": [
-        "1.09"
+        "1.03"
     ],
     "filament_flow_ratio": [
         "0.96"
@@ -25,10 +25,10 @@
         "5.7"
     ],
     "nozzle_temperature": [
-        "275.0"
+        "290"
     ],
     "nozzle_temperature_initial_layer": [
-        "275.0"
+        "290"
     ],
     "overhang_fan_speed": [
         "40"
@@ -37,7 +37,7 @@
         "0%"
     ],
     "temperature_vitrification": [
-        "170"
+        "206.2"
     ],
     "cool_plate_temp": [
         "0"
@@ -46,22 +46,22 @@
         "0"
     ],
     "eng_plate_temp": [
-        "45"
+        "100"
     ],
     "eng_plate_temp_initial_layer": [
-        "45"
+        "100"
     ],
     "hot_plate_temp": [
-        "45"
+        "100"
     ],
     "hot_plate_temp_initial_layer": [
-        "45"
+        "100"
     ],
     "textured_plate_temp": [
-        "45"
+        "100"
     ],
     "textured_plate_temp_initial_layer": [
-        "45"
+        "100"
     ],
     "supertack_plate_temp": [
         "0"

@@ -3,7 +3,7 @@
     "name": "Fiberon PET-CF17 @BBL P2S 0.6 nozzle",
     "inherits": "Fiberon PET-CF17 @base",
     "from": "system",
-    "setting_id": "GFSL06_08",
+    "setting_id": "GFSL06_05",
     "instantiation": "true",
     "chamber_temperatures": [
         "50"
@@ -48,10 +48,10 @@
         "0.95"
     ],
     "filament_max_volumetric_speed": [
-        "12.0",
-        "12.0",
-        "12.0",
-        "12.0"
+        "12",
+        "12",
+        "12",
+        "12"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -62,8 +62,8 @@
     "filament_retraction_length": [
         "nil",
         "nil",
-        "3",
-        "3"
+        "nil",
+        "nil"
     ],
     "filament_tower_interface_print_temp": [
         "270"
@@ -84,16 +84,16 @@
         "fdm_filament_template_direct_bowden"
     ],
     "nozzle_temperature": [
-        "300.0",
-        "300.0",
-        "300.0",
-        "300.0"
+        "300",
+        "300",
+        "300",
+        "300"
     ],
     "nozzle_temperature_initial_layer": [
-        "300.0",
-        "300.0",
-        "300.0",
-        "300.0"
+        "300",
+        "300",
+        "300",
+        "300"
     ],
     "overhang_fan_speed": [
         "50"
@@ -126,16 +126,16 @@
         "0"
     ],
     "hot_plate_temp": [
-        "75"
+        "80"
     ],
     "hot_plate_temp_initial_layer": [
-        "75"
+        "80"
     ],
     "textured_plate_temp": [
-        "75"
+        "80"
     ],
     "textured_plate_temp_initial_layer": [
-        "75"
+        "80"
     ],
     "supertack_plate_temp": [
         "70"

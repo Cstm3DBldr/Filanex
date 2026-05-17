@@ -10,16 +10,16 @@
         "30"
     ],
     "filament_cost": [
-        "175"
+        "77.99"
     ],
     "filament_density": [
         "1.29"
     ],
     "filament_max_volumetric_speed": [
-        "6"
+        "200"
     ],
     "filament_type": [
-        "PPS-CF"
+        "PP-CF"
     ],
     "filament_vendor": [
         "Polymaker"
@@ -28,7 +28,7 @@
         "2.8"
     ],
     "nozzle_temperature_range_low": [
-        "310.0"
+        "310"
     ],
     "overhang_fan_threshold": [
         "25%"
@@ -37,7 +37,7 @@
         "40"
     ],
     "temperature_vitrification": [
-        "220"
+        "267"
     ],
     "cool_plate_temp": [
         "0"

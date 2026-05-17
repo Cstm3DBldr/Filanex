@@ -3,7 +3,7 @@
     "name": "Fiberon PA6-CF20 @BBL H2S 0.6 nozzle",
     "inherits": "Fiberon PA6-CF20 @base",
     "from": "system",
-    "setting_id": "GFSL03_20",
+    "setting_id": "GFSL03_13",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"
@@ -32,8 +32,8 @@
         "0.95"
     ],
     "filament_max_volumetric_speed": [
-        "14.0",
-        "14.0"
+        "14",
+        "14"
     ],
     "filament_pre_cooling_temperature_nc": [
         "235",
@@ -75,12 +75,12 @@
         "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
-        "300.0",
-        "300.0"
+        "300",
+        "300"
     ],
     "nozzle_temperature_initial_layer": [
-        "300.0",
-        "300.0"
+        "300",
+        "300"
     ],
     "slow_down_min_speed": [
         "20",
@@ -105,22 +105,22 @@
         "0"
     ],
     "eng_plate_temp": [
-        "45"
+        "100"
     ],
     "eng_plate_temp_initial_layer": [
-        "45"
+        "100"
     ],
     "hot_plate_temp": [
-        "45"
+        "100"
     ],
     "hot_plate_temp_initial_layer": [
-        "45"
+        "100"
     ],
     "textured_plate_temp": [
-        "45"
+        "100"
     ],
     "textured_plate_temp_initial_layer": [
-        "45"
+        "100"
     ],
     "supertack_plate_temp": [
         "0"

@@ -3,7 +3,7 @@
     "name": "Fiberon PA612-CF15 @BBL P2S 0.8 nozzle",
     "inherits": "Fiberon PA612-CF15 @base",
     "from": "system",
-    "setting_id": "GFSL05_09",
+    "setting_id": "GFSL05_06",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"
@@ -54,16 +54,16 @@
         "fdm_filament_template_direct_bowden"
     ],
     "nozzle_temperature": [
-        "275.0",
-        "275.0",
-        "275.0",
-        "275.0"
+        "290",
+        "290",
+        "290",
+        "290"
     ],
     "nozzle_temperature_initial_layer": [
-        "275.0",
-        "275.0",
-        "275.0",
-        "275.0"
+        "290",
+        "290",
+        "290",
+        "290"
     ],
     "retraction_distances_when_ec": [
         "3",
@@ -90,22 +90,22 @@
         "0"
     ],
     "eng_plate_temp": [
-        "45"
+        "100"
     ],
     "eng_plate_temp_initial_layer": [
-        "45"
+        "100"
     ],
     "hot_plate_temp": [
-        "45"
+        "100"
     ],
     "hot_plate_temp_initial_layer": [
-        "45"
+        "100"
     ],
     "textured_plate_temp": [
-        "45"
+        "100"
     ],
     "textured_plate_temp_initial_layer": [
-        "45"
+        "100"
     ],
     "supertack_plate_temp": [
         "0"

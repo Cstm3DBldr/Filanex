@@ -3,7 +3,7 @@
     "name": "Fiberon PA6-CF20 @BBL X2D 0.6 nozzle",
     "inherits": "Fiberon PA6-CF20 @base",
     "from": "system",
-    "setting_id": "GFSL03_08",
+    "setting_id": "GFSL03_05",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"
@@ -42,10 +42,10 @@
         "0.95"
     ],
     "filament_max_volumetric_speed": [
-        "14.0",
-        "14.0",
-        "14.0",
-        "14.0"
+        "14",
+        "14",
+        "14",
+        "14"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -54,8 +54,8 @@
         "0"
     ],
     "filament_retraction_length": [
-        "1",
-        "1",
+        "nil",
+        "nil",
         "nil",
         "nil"
     ],
@@ -90,16 +90,16 @@
         "fdm_filament_template_direct_bowden"
     ],
     "nozzle_temperature": [
-        "300.0",
-        "300.0",
-        "300.0",
-        "300.0"
+        "300",
+        "300",
+        "300",
+        "300"
     ],
     "nozzle_temperature_initial_layer": [
-        "300.0",
-        "300.0",
-        "300.0",
-        "300.0"
+        "300",
+        "300",
+        "300",
+        "300"
     ],
     "overhang_fan_speed": [
         "55"
@@ -129,22 +129,22 @@
         "0"
     ],
     "eng_plate_temp": [
-        "45"
+        "100"
     ],
     "eng_plate_temp_initial_layer": [
-        "45"
+        "100"
     ],
     "hot_plate_temp": [
-        "45"
+        "100"
     ],
     "hot_plate_temp_initial_layer": [
-        "45"
+        "100"
     ],
     "textured_plate_temp": [
-        "45"
+        "100"
     ],
     "textured_plate_temp_initial_layer": [
-        "45"
+        "100"
     ],
     "supertack_plate_temp": [
         "0"

@@ -16,7 +16,7 @@
         "10"
     ],
     "filament_cost": [
-        "79.99"
+        "83.99"
     ],
     "filament_density": [
         "1.17"
@@ -34,10 +34,10 @@
         "15.5"
     ],
     "nozzle_temperature": [
-        "300.0"
+        "300"
     ],
     "nozzle_temperature_initial_layer": [
-        "300.0"
+        "300"
     ],
     "overhang_fan_speed": [
         "40"
@@ -55,22 +55,22 @@
         "0"
     ],
     "eng_plate_temp": [
-        "45"
+        "100"
     ],
     "eng_plate_temp_initial_layer": [
-        "45"
+        "100"
     ],
     "hot_plate_temp": [
-        "45"
+        "100"
     ],
     "hot_plate_temp_initial_layer": [
-        "45"
+        "100"
     ],
     "textured_plate_temp": [
-        "45"
+        "100"
     ],
     "textured_plate_temp_initial_layer": [
-        "45"
+        "100"
     ],
     "supertack_plate_temp": [
         "0"
