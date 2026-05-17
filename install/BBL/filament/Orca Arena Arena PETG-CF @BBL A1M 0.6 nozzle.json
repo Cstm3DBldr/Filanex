@@ -6,7 +6,7 @@
     "setting_id": "GFS106_05",
     "instantiation": "true",
     "filament_max_volumetric_speed": [
-        "14.0"
+        "11.5"
     ],
     "compatible_printers": [
         "Bambu Lab A1 mini 0.6 nozzle"

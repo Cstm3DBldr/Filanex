@@ -12,8 +12,8 @@
         "60"
     ],
     "filament_max_volumetric_speed": [
-        "25",
-        "35"
+        "8",
+        "8"
     ],
     "filament_retraction_length": [
         "0.4",

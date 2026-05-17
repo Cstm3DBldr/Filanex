@@ -40,9 +40,9 @@
     ],
     "filament_max_volumetric_speed": [
         "16",
-        "25",
         "16",
-        "18"
+        "16",
+        "16"
     ],
     "filament_ramming_travel_time": [
         "0",

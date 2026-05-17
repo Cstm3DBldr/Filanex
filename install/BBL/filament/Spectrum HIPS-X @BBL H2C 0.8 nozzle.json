@@ -35,8 +35,8 @@
         "0.98"
     ],
     "filament_max_volumetric_speed": [
-        "25",
-        "30"
+        "8",
+        "8"
     ],
     "filament_pre_cooling_temperature_nc": [
         "230",

@@ -6,7 +6,7 @@
     "setting_id": "GFSL08_04",
     "instantiation": "true",
     "filament_max_volumetric_speed": [
-        "12"
+        "11.5"
     ],
     "compatible_printers": [
         "Bambu Lab A1 mini 0.8 nozzle"
