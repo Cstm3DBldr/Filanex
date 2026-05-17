@@ -6,7 +6,7 @@
     "setting_id": "GFSW02_27",
     "instantiation": "true",
     "chamber_temperatures": [
-        "65"
+        "0"
     ],
     "fan_max_speed": [
         "60"

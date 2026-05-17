@@ -3,7 +3,7 @@
     "name": "Fiberon PETG-rCF08 @BBL H2D 0.6 nozzle",
     "inherits": "Fiberon PETG-rCF08 @base",
     "from": "system",
-    "setting_id": "GFSL08_13",
+    "setting_id": "GFSL08_20",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "30"
@@ -84,5 +84,8 @@
     ],
     "textured_plate_temp_initial_layer": [
         "80"
+    ],
+    "chamber_temperatures": [
+        "0"
     ]
 }

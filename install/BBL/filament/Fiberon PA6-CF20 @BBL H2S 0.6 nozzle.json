@@ -3,10 +3,10 @@
     "name": "Fiberon PA6-CF20 @BBL H2S 0.6 nozzle",
     "inherits": "Fiberon PA6-CF20 @base",
     "from": "system",
-    "setting_id": "GFSL03_13",
+    "setting_id": "GFSL03_20",
     "instantiation": "true",
     "chamber_temperatures": [
-        "60"
+        "0"
     ],
     "counter_coef_2": [
         "-0.0016"

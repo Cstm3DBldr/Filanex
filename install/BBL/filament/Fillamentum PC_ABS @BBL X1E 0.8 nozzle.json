@@ -6,7 +6,7 @@
     "setting_id": "GFSP09_12",
     "instantiation": "true",
     "chamber_temperatures": [
-        "60"
+        "50"
     ],
     "fan_max_speed": [
         "40"

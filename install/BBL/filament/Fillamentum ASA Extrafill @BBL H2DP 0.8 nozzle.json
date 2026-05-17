@@ -6,7 +6,7 @@
     "setting_id": "GFSP02_32",
     "instantiation": "true",
     "chamber_temperatures": [
-        "65"
+        "40"
     ],
     "filament_max_volumetric_speed": [
         "18",

@@ -86780,6 +86780,14 @@
       "is_base": false
     },
     {
+      "name": "Fiberon PA12-CF10 @BBL H2C 0.4 nozzle",
+      "sub_path": "filament/Fiberon PA12-CF10 @BBL H2C 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PA12-CF10",
+      "is_base": false
+    },
+    {
       "name": "Fiberon PA12-CF10 @BBL H2C 0.6 nozzle",
       "sub_path": "filament/Fiberon PA12-CF10 @BBL H2C 0.6 nozzle.json",
       "vendor": "Polymaker",
@@ -86790,6 +86798,14 @@
     {
       "name": "Fiberon PA12-CF10 @BBL H2C 0.8 nozzle",
       "sub_path": "filament/Fiberon PA12-CF10 @BBL H2C 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PA12-CF10",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PA12-CF10 @BBL H2D 0.4 nozzle",
+      "sub_path": "filament/Fiberon PA12-CF10 @BBL H2D 0.4 nozzle.json",
       "vendor": "Polymaker",
       "line": "Fiberon",
       "material": "PA12-CF10",
@@ -86812,6 +86828,14 @@
       "is_base": false
     },
     {
+      "name": "Fiberon PA12-CF10 @BBL H2DP 0.4 nozzle",
+      "sub_path": "filament/Fiberon PA12-CF10 @BBL H2DP 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PA12-CF10",
+      "is_base": false
+    },
+    {
       "name": "Fiberon PA12-CF10 @BBL H2DP 0.6 nozzle",
       "sub_path": "filament/Fiberon PA12-CF10 @BBL H2DP 0.6 nozzle.json",
       "vendor": "Polymaker",
@@ -86822,6 +86846,14 @@
     {
       "name": "Fiberon PA12-CF10 @BBL H2DP 0.8 nozzle",
       "sub_path": "filament/Fiberon PA12-CF10 @BBL H2DP 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PA12-CF10",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PA12-CF10 @BBL H2S 0.4 nozzle",
+      "sub_path": "filament/Fiberon PA12-CF10 @BBL H2S 0.4 nozzle.json",
       "vendor": "Polymaker",
       "line": "Fiberon",
       "material": "PA12-CF10",
@@ -86844,6 +86876,14 @@
       "is_base": false
     },
     {
+      "name": "Fiberon PA12-CF10 @BBL P2S 0.4 nozzle",
+      "sub_path": "filament/Fiberon PA12-CF10 @BBL P2S 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PA12-CF10",
+      "is_base": false
+    },
+    {
       "name": "Fiberon PA12-CF10 @BBL P2S 0.6 nozzle",
       "sub_path": "filament/Fiberon PA12-CF10 @BBL P2S 0.6 nozzle.json",
       "vendor": "Polymaker",
@@ -86854,6 +86894,14 @@
     {
       "name": "Fiberon PA12-CF10 @BBL P2S 0.8 nozzle",
       "sub_path": "filament/Fiberon PA12-CF10 @BBL P2S 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PA12-CF10",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PA12-CF10 @BBL X1C 0.4 nozzle",
+      "sub_path": "filament/Fiberon PA12-CF10 @BBL X1C 0.4 nozzle.json",
       "vendor": "Polymaker",
       "line": "Fiberon",
       "material": "PA12-CF10",
@@ -86876,6 +86924,14 @@
       "is_base": false
     },
     {
+      "name": "Fiberon PA12-CF10 @BBL X1E 0.4 nozzle",
+      "sub_path": "filament/Fiberon PA12-CF10 @BBL X1E 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PA12-CF10",
+      "is_base": false
+    },
+    {
       "name": "Fiberon PA12-CF10 @BBL X1E 0.6 nozzle",
       "sub_path": "filament/Fiberon PA12-CF10 @BBL X1E 0.6 nozzle.json",
       "vendor": "Polymaker",
@@ -86886,6 +86942,14 @@
     {
       "name": "Fiberon PA12-CF10 @BBL X1E 0.8 nozzle",
       "sub_path": "filament/Fiberon PA12-CF10 @BBL X1E 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PA12-CF10",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PA12-CF10 @BBL X2D 0.4 nozzle",
+      "sub_path": "filament/Fiberon PA12-CF10 @BBL X2D 0.4 nozzle.json",
       "vendor": "Polymaker",
       "line": "Fiberon",
       "material": "PA12-CF10",
@@ -86908,6 +86972,14 @@
       "is_base": false
     },
     {
+      "name": "Fiberon PA6-CF20 @BBL H2C 0.4 nozzle",
+      "sub_path": "filament/Fiberon PA6-CF20 @BBL H2C 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PA6-CF20",
+      "is_base": false
+    },
+    {
       "name": "Fiberon PA6-CF20 @BBL H2C 0.6 nozzle",
       "sub_path": "filament/Fiberon PA6-CF20 @BBL H2C 0.6 nozzle.json",
       "vendor": "Polymaker",
@@ -86918,6 +86990,14 @@
     {
       "name": "Fiberon PA6-CF20 @BBL H2C 0.8 nozzle",
       "sub_path": "filament/Fiberon PA6-CF20 @BBL H2C 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PA6-CF20",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PA6-CF20 @BBL H2D 0.4 nozzle",
+      "sub_path": "filament/Fiberon PA6-CF20 @BBL H2D 0.4 nozzle.json",
       "vendor": "Polymaker",
       "line": "Fiberon",
       "material": "PA6-CF20",
@@ -86940,6 +87020,14 @@
       "is_base": false
     },
     {
+      "name": "Fiberon PA6-CF20 @BBL H2DP 0.4 nozzle",
+      "sub_path": "filament/Fiberon PA6-CF20 @BBL H2DP 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PA6-CF20",
+      "is_base": false
+    },
+    {
       "name": "Fiberon PA6-CF20 @BBL H2DP 0.6 nozzle",
       "sub_path": "filament/Fiberon PA6-CF20 @BBL H2DP 0.6 nozzle.json",
       "vendor": "Polymaker",
@@ -86950,6 +87038,14 @@
     {
       "name": "Fiberon PA6-CF20 @BBL H2DP 0.8 nozzle",
       "sub_path": "filament/Fiberon PA6-CF20 @BBL H2DP 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PA6-CF20",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PA6-CF20 @BBL H2S 0.4 nozzle",
+      "sub_path": "filament/Fiberon PA6-CF20 @BBL H2S 0.4 nozzle.json",
       "vendor": "Polymaker",
       "line": "Fiberon",
       "material": "PA6-CF20",
@@ -86972,6 +87068,14 @@
       "is_base": false
     },
     {
+      "name": "Fiberon PA6-CF20 @BBL X1C 0.4 nozzle",
+      "sub_path": "filament/Fiberon PA6-CF20 @BBL X1C 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PA6-CF20",
+      "is_base": false
+    },
+    {
       "name": "Fiberon PA6-CF20 @BBL X1C 0.6 nozzle",
       "sub_path": "filament/Fiberon PA6-CF20 @BBL X1C 0.6 nozzle.json",
       "vendor": "Polymaker",
@@ -86988,6 +87092,14 @@
       "is_base": false
     },
     {
+      "name": "Fiberon PA6-CF20 @BBL X1E 0.4 nozzle",
+      "sub_path": "filament/Fiberon PA6-CF20 @BBL X1E 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PA6-CF20",
+      "is_base": false
+    },
+    {
       "name": "Fiberon PA6-CF20 @BBL X1E 0.6 nozzle",
       "sub_path": "filament/Fiberon PA6-CF20 @BBL X1E 0.6 nozzle.json",
       "vendor": "Polymaker",
@@ -86998,6 +87110,14 @@
     {
       "name": "Fiberon PA6-CF20 @BBL X1E 0.8 nozzle",
       "sub_path": "filament/Fiberon PA6-CF20 @BBL X1E 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PA6-CF20",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PA6-CF20 @BBL X2D 0.4 nozzle",
+      "sub_path": "filament/Fiberon PA6-CF20 @BBL X2D 0.4 nozzle.json",
       "vendor": "Polymaker",
       "line": "Fiberon",
       "material": "PA6-CF20",
@@ -87188,6 +87308,14 @@
       "is_base": false
     },
     {
+      "name": "Fiberon PA612-CF15 @BBL H2C 0.4 nozzle",
+      "sub_path": "filament/Fiberon PA612-CF15 @BBL H2C 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PA612-CF15",
+      "is_base": false
+    },
+    {
       "name": "Fiberon PA612-CF15 @BBL H2C 0.6 nozzle",
       "sub_path": "filament/Fiberon PA612-CF15 @BBL H2C 0.6 nozzle.json",
       "vendor": "Polymaker",
@@ -87198,6 +87326,14 @@
     {
       "name": "Fiberon PA612-CF15 @BBL H2C 0.8 nozzle",
       "sub_path": "filament/Fiberon PA612-CF15 @BBL H2C 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PA612-CF15",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PA612-CF15 @BBL H2D 0.4 nozzle",
+      "sub_path": "filament/Fiberon PA612-CF15 @BBL H2D 0.4 nozzle.json",
       "vendor": "Polymaker",
       "line": "Fiberon",
       "material": "PA612-CF15",
@@ -87220,6 +87356,14 @@
       "is_base": false
     },
     {
+      "name": "Fiberon PA612-CF15 @BBL H2DP 0.4 nozzle",
+      "sub_path": "filament/Fiberon PA612-CF15 @BBL H2DP 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PA612-CF15",
+      "is_base": false
+    },
+    {
       "name": "Fiberon PA612-CF15 @BBL H2DP 0.6 nozzle",
       "sub_path": "filament/Fiberon PA612-CF15 @BBL H2DP 0.6 nozzle.json",
       "vendor": "Polymaker",
@@ -87230,6 +87374,14 @@
     {
       "name": "Fiberon PA612-CF15 @BBL H2DP 0.8 nozzle",
       "sub_path": "filament/Fiberon PA612-CF15 @BBL H2DP 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PA612-CF15",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PA612-CF15 @BBL H2S 0.4 nozzle",
+      "sub_path": "filament/Fiberon PA612-CF15 @BBL H2S 0.4 nozzle.json",
       "vendor": "Polymaker",
       "line": "Fiberon",
       "material": "PA612-CF15",
@@ -87252,6 +87404,14 @@
       "is_base": false
     },
     {
+      "name": "Fiberon PA612-CF15 @BBL P2S 0.4 nozzle",
+      "sub_path": "filament/Fiberon PA612-CF15 @BBL P2S 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PA612-CF15",
+      "is_base": false
+    },
+    {
       "name": "Fiberon PA612-CF15 @BBL P2S 0.6 nozzle",
       "sub_path": "filament/Fiberon PA612-CF15 @BBL P2S 0.6 nozzle.json",
       "vendor": "Polymaker",
@@ -87262,6 +87422,14 @@
     {
       "name": "Fiberon PA612-CF15 @BBL P2S 0.8 nozzle",
       "sub_path": "filament/Fiberon PA612-CF15 @BBL P2S 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PA612-CF15",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PA612-CF15 @BBL X1C 0.4 nozzle",
+      "sub_path": "filament/Fiberon PA612-CF15 @BBL X1C 0.4 nozzle.json",
       "vendor": "Polymaker",
       "line": "Fiberon",
       "material": "PA612-CF15",
@@ -87284,6 +87452,14 @@
       "is_base": false
     },
     {
+      "name": "Fiberon PA612-CF15 @BBL X1E 0.4 nozzle",
+      "sub_path": "filament/Fiberon PA612-CF15 @BBL X1E 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PA612-CF15",
+      "is_base": false
+    },
+    {
       "name": "Fiberon PA612-CF15 @BBL X1E 0.6 nozzle",
       "sub_path": "filament/Fiberon PA612-CF15 @BBL X1E 0.6 nozzle.json",
       "vendor": "Polymaker",
@@ -87294,6 +87470,14 @@
     {
       "name": "Fiberon PA612-CF15 @BBL X1E 0.8 nozzle",
       "sub_path": "filament/Fiberon PA612-CF15 @BBL X1E 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PA612-CF15",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PA612-CF15 @BBL X2D 0.4 nozzle",
+      "sub_path": "filament/Fiberon PA612-CF15 @BBL X2D 0.4 nozzle.json",
       "vendor": "Polymaker",
       "line": "Fiberon",
       "material": "PA612-CF15",
@@ -87316,6 +87500,14 @@
       "is_base": false
     },
     {
+      "name": "Fiberon PET-CF17 @BBL H2C 0.4 nozzle",
+      "sub_path": "filament/Fiberon PET-CF17 @BBL H2C 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PET-CF17",
+      "is_base": false
+    },
+    {
       "name": "Fiberon PET-CF17 @BBL H2C 0.6 nozzle",
       "sub_path": "filament/Fiberon PET-CF17 @BBL H2C 0.6 nozzle.json",
       "vendor": "Polymaker",
@@ -87326,6 +87518,14 @@
     {
       "name": "Fiberon PET-CF17 @BBL H2C 0.8 nozzle",
       "sub_path": "filament/Fiberon PET-CF17 @BBL H2C 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PET-CF17",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PET-CF17 @BBL H2D 0.4 nozzle",
+      "sub_path": "filament/Fiberon PET-CF17 @BBL H2D 0.4 nozzle.json",
       "vendor": "Polymaker",
       "line": "Fiberon",
       "material": "PET-CF17",
@@ -87348,6 +87548,14 @@
       "is_base": false
     },
     {
+      "name": "Fiberon PET-CF17 @BBL H2DP 0.4 nozzle",
+      "sub_path": "filament/Fiberon PET-CF17 @BBL H2DP 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PET-CF17",
+      "is_base": false
+    },
+    {
       "name": "Fiberon PET-CF17 @BBL H2DP 0.6 nozzle",
       "sub_path": "filament/Fiberon PET-CF17 @BBL H2DP 0.6 nozzle.json",
       "vendor": "Polymaker",
@@ -87358,6 +87566,14 @@
     {
       "name": "Fiberon PET-CF17 @BBL H2DP 0.8 nozzle",
       "sub_path": "filament/Fiberon PET-CF17 @BBL H2DP 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PET-CF17",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PET-CF17 @BBL H2S 0.4 nozzle",
+      "sub_path": "filament/Fiberon PET-CF17 @BBL H2S 0.4 nozzle.json",
       "vendor": "Polymaker",
       "line": "Fiberon",
       "material": "PET-CF17",
@@ -87380,6 +87596,14 @@
       "is_base": false
     },
     {
+      "name": "Fiberon PET-CF17 @BBL P2S 0.4 nozzle",
+      "sub_path": "filament/Fiberon PET-CF17 @BBL P2S 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PET-CF17",
+      "is_base": false
+    },
+    {
       "name": "Fiberon PET-CF17 @BBL P2S 0.6 nozzle",
       "sub_path": "filament/Fiberon PET-CF17 @BBL P2S 0.6 nozzle.json",
       "vendor": "Polymaker",
@@ -87390,6 +87614,14 @@
     {
       "name": "Fiberon PET-CF17 @BBL P2S 0.8 nozzle",
       "sub_path": "filament/Fiberon PET-CF17 @BBL P2S 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PET-CF17",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PET-CF17 @BBL X1C 0.4 nozzle",
+      "sub_path": "filament/Fiberon PET-CF17 @BBL X1C 0.4 nozzle.json",
       "vendor": "Polymaker",
       "line": "Fiberon",
       "material": "PET-CF17",
@@ -87412,6 +87644,14 @@
       "is_base": false
     },
     {
+      "name": "Fiberon PET-CF17 @BBL X1E 0.4 nozzle",
+      "sub_path": "filament/Fiberon PET-CF17 @BBL X1E 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PET-CF17",
+      "is_base": false
+    },
+    {
       "name": "Fiberon PET-CF17 @BBL X1E 0.6 nozzle",
       "sub_path": "filament/Fiberon PET-CF17 @BBL X1E 0.6 nozzle.json",
       "vendor": "Polymaker",
@@ -87422,6 +87662,14 @@
     {
       "name": "Fiberon PET-CF17 @BBL X1E 0.8 nozzle",
       "sub_path": "filament/Fiberon PET-CF17 @BBL X1E 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PET-CF17",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PET-CF17 @BBL X2D 0.4 nozzle",
+      "sub_path": "filament/Fiberon PET-CF17 @BBL X2D 0.4 nozzle.json",
       "vendor": "Polymaker",
       "line": "Fiberon",
       "material": "PET-CF17",
@@ -87796,6 +88044,14 @@
       "is_base": false
     },
     {
+      "name": "Fiberon PETG-rCF08 @BBL A1 0.4 nozzle",
+      "sub_path": "filament/Fiberon PETG-rCF08 @BBL A1 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PETG-rCF08",
+      "is_base": false
+    },
+    {
       "name": "Fiberon PETG-rCF08 @BBL A1 0.6 nozzle",
       "sub_path": "filament/Fiberon PETG-rCF08 @BBL A1 0.6 nozzle.json",
       "vendor": "Polymaker",
@@ -87806,6 +88062,14 @@
     {
       "name": "Fiberon PETG-rCF08 @BBL A1 0.8 nozzle",
       "sub_path": "filament/Fiberon PETG-rCF08 @BBL A1 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PETG-rCF08",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PETG-rCF08 @BBL A1M 0.4 nozzle",
+      "sub_path": "filament/Fiberon PETG-rCF08 @BBL A1M 0.4 nozzle.json",
       "vendor": "Polymaker",
       "line": "Fiberon",
       "material": "PETG-rCF08",
@@ -87828,6 +88092,14 @@
       "is_base": false
     },
     {
+      "name": "Fiberon PETG-rCF08 @BBL H2C 0.4 nozzle",
+      "sub_path": "filament/Fiberon PETG-rCF08 @BBL H2C 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PETG-rCF08",
+      "is_base": false
+    },
+    {
       "name": "Fiberon PETG-rCF08 @BBL H2C 0.6 nozzle",
       "sub_path": "filament/Fiberon PETG-rCF08 @BBL H2C 0.6 nozzle.json",
       "vendor": "Polymaker",
@@ -87838,6 +88110,14 @@
     {
       "name": "Fiberon PETG-rCF08 @BBL H2C 0.8 nozzle",
       "sub_path": "filament/Fiberon PETG-rCF08 @BBL H2C 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PETG-rCF08",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PETG-rCF08 @BBL H2D 0.4 nozzle",
+      "sub_path": "filament/Fiberon PETG-rCF08 @BBL H2D 0.4 nozzle.json",
       "vendor": "Polymaker",
       "line": "Fiberon",
       "material": "PETG-rCF08",
@@ -87860,6 +88140,14 @@
       "is_base": false
     },
     {
+      "name": "Fiberon PETG-rCF08 @BBL H2DP 0.4 nozzle",
+      "sub_path": "filament/Fiberon PETG-rCF08 @BBL H2DP 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PETG-rCF08",
+      "is_base": false
+    },
+    {
       "name": "Fiberon PETG-rCF08 @BBL H2DP 0.6 nozzle",
       "sub_path": "filament/Fiberon PETG-rCF08 @BBL H2DP 0.6 nozzle.json",
       "vendor": "Polymaker",
@@ -87870,6 +88158,14 @@
     {
       "name": "Fiberon PETG-rCF08 @BBL H2DP 0.8 nozzle",
       "sub_path": "filament/Fiberon PETG-rCF08 @BBL H2DP 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PETG-rCF08",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PETG-rCF08 @BBL P2S 0.4 nozzle",
+      "sub_path": "filament/Fiberon PETG-rCF08 @BBL P2S 0.4 nozzle.json",
       "vendor": "Polymaker",
       "line": "Fiberon",
       "material": "PETG-rCF08",
@@ -87892,6 +88188,14 @@
       "is_base": false
     },
     {
+      "name": "Fiberon PETG-rCF08 @BBL X1C 0.4 nozzle",
+      "sub_path": "filament/Fiberon PETG-rCF08 @BBL X1C 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PETG-rCF08",
+      "is_base": false
+    },
+    {
       "name": "Fiberon PETG-rCF08 @BBL X1C 0.6 nozzle",
       "sub_path": "filament/Fiberon PETG-rCF08 @BBL X1C 0.6 nozzle.json",
       "vendor": "Polymaker",
@@ -87902,6 +88206,14 @@
     {
       "name": "Fiberon PETG-rCF08 @BBL X1C 0.8 nozzle",
       "sub_path": "filament/Fiberon PETG-rCF08 @BBL X1C 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PETG-rCF08",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PETG-rCF08 @BBL X2D 0.4 nozzle",
+      "sub_path": "filament/Fiberon PETG-rCF08 @BBL X2D 0.4 nozzle.json",
       "vendor": "Polymaker",
       "line": "Fiberon",
       "material": "PETG-rCF08",
@@ -87924,6 +88236,14 @@
       "is_base": false
     },
     {
+      "name": "Fiberon PPS-CF10 @BBL H2C 0.4 nozzle",
+      "sub_path": "filament/Fiberon PPS-CF10 @BBL H2C 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PPS-CF10",
+      "is_base": false
+    },
+    {
       "name": "Fiberon PPS-CF10 @BBL H2C 0.6 nozzle",
       "sub_path": "filament/Fiberon PPS-CF10 @BBL H2C 0.6 nozzle.json",
       "vendor": "Polymaker",
@@ -87934,6 +88254,14 @@
     {
       "name": "Fiberon PPS-CF10 @BBL H2C 0.8 nozzle",
       "sub_path": "filament/Fiberon PPS-CF10 @BBL H2C 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PPS-CF10",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PPS-CF10 @BBL H2D 0.4 nozzle",
+      "sub_path": "filament/Fiberon PPS-CF10 @BBL H2D 0.4 nozzle.json",
       "vendor": "Polymaker",
       "line": "Fiberon",
       "material": "PPS-CF10",
@@ -87956,6 +88284,14 @@
       "is_base": false
     },
     {
+      "name": "Fiberon PPS-CF10 @BBL H2DP 0.4 nozzle",
+      "sub_path": "filament/Fiberon PPS-CF10 @BBL H2DP 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PPS-CF10",
+      "is_base": false
+    },
+    {
       "name": "Fiberon PPS-CF10 @BBL H2DP 0.6 nozzle",
       "sub_path": "filament/Fiberon PPS-CF10 @BBL H2DP 0.6 nozzle.json",
       "vendor": "Polymaker",
@@ -87972,6 +88308,14 @@
       "is_base": false
     },
     {
+      "name": "Fiberon PPS-CF10 @BBL H2S 0.4 nozzle",
+      "sub_path": "filament/Fiberon PPS-CF10 @BBL H2S 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PPS-CF10",
+      "is_base": false
+    },
+    {
       "name": "Fiberon PPS-CF10 @BBL H2S 0.6 nozzle",
       "sub_path": "filament/Fiberon PPS-CF10 @BBL H2S 0.6 nozzle.json",
       "vendor": "Polymaker",
@@ -87982,6 +88326,14 @@
     {
       "name": "Fiberon PPS-CF10 @BBL H2S 0.8 nozzle",
       "sub_path": "filament/Fiberon PPS-CF10 @BBL H2S 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PPS-CF10",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PPS-CF10 @BBL X1E 0.4 nozzle",
+      "sub_path": "filament/Fiberon PPS-CF10 @BBL X1E 0.4 nozzle.json",
       "vendor": "Polymaker",
       "line": "Fiberon",
       "material": "PPS-CF10",

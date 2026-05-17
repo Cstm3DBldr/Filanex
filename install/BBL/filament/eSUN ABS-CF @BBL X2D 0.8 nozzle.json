@@ -6,7 +6,7 @@
     "setting_id": "GFSE06_09",
     "instantiation": "true",
     "chamber_temperatures": [
-        "60"
+        "40"
     ],
     "filament_cooling_before_tower": [
         "10",

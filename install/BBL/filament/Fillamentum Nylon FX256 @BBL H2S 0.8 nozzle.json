@@ -6,7 +6,7 @@
     "setting_id": "GFSP08_32",
     "instantiation": "true",
     "chamber_temperatures": [
-        "60"
+        "0"
     ],
     "filament_cooling_before_tower": [
         "10",

@@ -3,13 +3,13 @@
     "name": "Fiberon PA12-CF10 @BBL X2D 0.6 nozzle",
     "inherits": "Fiberon PA12-CF10 @base",
     "from": "system",
-    "setting_id": "GFSL02_07",
+    "setting_id": "GFSL02_11",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"
     ],
     "chamber_temperatures": [
-        "0"
+        "60"
     ],
     "fan_cooling_layer_time": [
         "5"

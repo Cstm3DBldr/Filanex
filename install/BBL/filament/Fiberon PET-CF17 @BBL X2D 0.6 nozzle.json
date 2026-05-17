@@ -3,10 +3,10 @@
     "name": "Fiberon PET-CF17 @BBL X2D 0.6 nozzle",
     "inherits": "Fiberon PET-CF17 @base",
     "from": "system",
-    "setting_id": "GFSL06_07",
+    "setting_id": "GFSL06_11",
     "instantiation": "true",
     "chamber_temperatures": [
-        "50"
+        "0"
     ],
     "counter_coef_2": [
         "-0.0004"

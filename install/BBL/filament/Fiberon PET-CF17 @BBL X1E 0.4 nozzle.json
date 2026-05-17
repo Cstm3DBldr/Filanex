@@ -1,0 +1,127 @@
+{
+    "type": "filament",
+    "name": "Fiberon PET-CF17 @BBL X1E 0.4 nozzle",
+    "inherits": "Fiberon PET-CF17 @base",
+    "from": "system",
+    "setting_id": "GFSL06_04",
+    "instantiation": "true",
+    "chamber_temperatures": [
+        "0"
+    ],
+    "counter_coef_2": [
+        "-0.0004"
+    ],
+    "counter_coef_3": [
+        "-0.0156"
+    ],
+    "counter_limit_max": [
+        "-0.015"
+    ],
+    "counter_limit_min": [
+        "-0.025"
+    ],
+    "eng_plate_temp": [
+        "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "0"
+    ],
+    "filament_change_length": [
+        "4"
+    ],
+    "filament_cooling_before_tower": [
+        "10",
+        "10"
+    ],
+    "filament_flow_ratio": [
+        "0.95",
+        "0.95"
+    ],
+    "filament_max_volumetric_speed": [
+        "8",
+        "8"
+    ],
+    "filament_pre_cooling_temperature_nc": [
+        "230",
+        "230"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "filament_prime_volume_nc": [
+        "30"
+    ],
+    "filament_ramming_travel_time": [
+        "0",
+        "0"
+    ],
+    "filament_ramming_travel_time_nc": [
+        "1",
+        "1"
+    ],
+    "first_x_layer_fan_speed": [
+        "0"
+    ],
+    "filament_change_length_nc": [
+        "4"
+    ],
+    "hole_coef_2": [
+        "-0.0003"
+    ],
+    "hole_coef_3": [
+        "0.1741"
+    ],
+    "hole_limit_max": [
+        "0.174"
+    ],
+    "hole_limit_min": [
+        "0.167"
+    ],
+    "include": [
+        "fdm_filament_template_direct_dual"
+    ],
+    "nozzle_temperature": [
+        "300",
+        "300"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "300",
+        "300"
+    ],
+    "temperature_vitrification": [
+        "79.3"
+    ],
+    "compatible_printers": [
+        "Bambu Lab X1E 0.4 nozzle"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\n"
+    ],
+    "filament_end_gcode": [
+        "; filament end gcode \n"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "hot_plate_temp": [
+        "80"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "80"
+    ],
+    "textured_plate_temp": [
+        "80"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "80"
+    ],
+    "supertack_plate_temp": [
+        "70"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "70"
+    ]
+}

@@ -6,7 +6,7 @@
     "setting_id": "GFSQ10_32",
     "instantiation": "true",
     "chamber_temperatures": [
-        "65"
+        "40"
     ],
     "filament_max_volumetric_speed": [
         "11.0",

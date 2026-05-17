@@ -122,5 +122,8 @@
     ],
     "textured_plate_temp_initial_layer": [
         "58"
+    ],
+    "chamber_temperatures": [
+        "0"
     ]
 }

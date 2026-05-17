@@ -6,7 +6,7 @@
     "setting_id": "GFSW01_27",
     "instantiation": "true",
     "chamber_temperatures": [
-        "65"
+        "40"
     ],
     "filament_cooling_before_tower": [
         "10",

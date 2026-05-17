@@ -99,5 +99,8 @@
     ],
     "supertack_plate_temp_initial_layer": [
         "35"
+    ],
+    "chamber_temperatures": [
+        "0"
     ]
 }

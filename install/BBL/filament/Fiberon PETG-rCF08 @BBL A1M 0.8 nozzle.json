@@ -3,7 +3,7 @@
     "name": "Fiberon PETG-rCF08 @BBL A1M 0.8 nozzle",
     "inherits": "Fiberon PETG-rCF08 @base",
     "from": "system",
-    "setting_id": "GFSL08_04",
+    "setting_id": "GFSL08_06",
     "instantiation": "true",
     "filament_max_volumetric_speed": [
         "11.5"
@@ -40,5 +40,8 @@
     ],
     "supertack_plate_temp_initial_layer": [
         "70"
+    ],
+    "chamber_temperatures": [
+        "0"
     ]
 }

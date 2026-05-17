@@ -6,7 +6,7 @@
     "setting_id": "GFSD05_22",
     "instantiation": "true",
     "chamber_temperatures": [
-        "60"
+        "0"
     ],
     "fan_max_speed": [
         "40"

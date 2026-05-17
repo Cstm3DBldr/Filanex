@@ -6,7 +6,7 @@
     "setting_id": "GFSX02_21",
     "instantiation": "true",
     "chamber_temperatures": [
-        "60"
+        "0"
     ],
     "counter_coef_2": [
         "0.0094"

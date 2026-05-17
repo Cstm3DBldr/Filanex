@@ -6,7 +6,7 @@
     "setting_id": "GFS101_15",
     "instantiation": "true",
     "chamber_temperatures": [
-        "65"
+        "0"
     ],
     "counter_coef_2": [
         "0.0124"

@@ -6,7 +6,7 @@
     "setting_id": "GFSZ10_02",
     "instantiation": "true",
     "chamber_temperatures": [
-        "50"
+        "0"
     ],
     "counter_coef_2": [
         "-0.0004"

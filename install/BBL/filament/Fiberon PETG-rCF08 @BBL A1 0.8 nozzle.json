@@ -3,7 +3,7 @@
     "name": "Fiberon PETG-rCF08 @BBL A1 0.8 nozzle",
     "inherits": "Fiberon PETG-rCF08 @base",
     "from": "system",
-    "setting_id": "GFSL08_02",
+    "setting_id": "GFSL08_03",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "30"
@@ -58,5 +58,8 @@
     ],
     "supertack_plate_temp_initial_layer": [
         "70"
+    ],
+    "chamber_temperatures": [
+        "0"
     ]
 }

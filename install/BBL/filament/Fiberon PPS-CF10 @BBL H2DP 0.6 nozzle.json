@@ -3,10 +3,10 @@
     "name": "Fiberon PPS-CF10 @BBL H2DP 0.6 nozzle",
     "inherits": "Fiberon PPS-CF10 @base",
     "from": "system",
-    "setting_id": "GFSL09_07",
+    "setting_id": "GFSL09_11",
     "instantiation": "true",
     "chamber_temperatures": [
-        "0"
+        "60"
     ],
     "counter_coef_2": [
         "0.0003"

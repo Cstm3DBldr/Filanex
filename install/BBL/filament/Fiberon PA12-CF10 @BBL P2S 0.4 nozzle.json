@@ -1,0 +1,116 @@
+{
+    "type": "filament",
+    "name": "Fiberon PA12-CF10 @BBL P2S 0.4 nozzle",
+    "inherits": "Fiberon PA12-CF10 @base",
+    "from": "system",
+    "setting_id": "GFSL02_07",
+    "instantiation": "true",
+    "additional_fan_full_speed_layer": [
+        "2"
+    ],
+    "chamber_temperatures": [
+        "0"
+    ],
+    "fan_cooling_layer_time": [
+        "5"
+    ],
+    "fan_max_speed": [
+        "30"
+    ],
+    "fan_min_speed": [
+        "10"
+    ],
+    "filament_cooling_before_tower": [
+        "10",
+        "10",
+        "10",
+        "10"
+    ],
+    "filament_flow_ratio": [
+        "0.95",
+        "0.95",
+        "0.95",
+        "0.95"
+    ],
+    "filament_max_volumetric_speed": [
+        "8",
+        "8",
+        "8",
+        "8"
+    ],
+    "filament_ramming_travel_time": [
+        "0",
+        "0",
+        "0",
+        "0"
+    ],
+    "filament_tower_interface_print_temp": [
+        "290"
+    ],
+    "full_fan_speed_layer": [
+        "2"
+    ],
+    "include": [
+        "fdm_filament_template_direct_bowden"
+    ],
+    "nozzle_temperature": [
+        "300",
+        "300",
+        "300",
+        "300"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "300",
+        "300",
+        "300",
+        "300"
+    ],
+    "retraction_distances_when_ec": [
+        "3",
+        "3",
+        "4",
+        "4"
+    ],
+    "slow_down_min_speed": [
+        "20",
+        "20",
+        "20",
+        "20"
+    ],
+    "compatible_printers": [
+        "Bambu Lab P2S 0.4 nozzle"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\n"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "eng_plate_temp": [
+        "100"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "100"
+    ],
+    "hot_plate_temp": [
+        "100"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "100"
+    ],
+    "textured_plate_temp": [
+        "100"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "100"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "type": "filament",
+    "name": "Fiberon PETG-rCF08 @BBL A1M 0.4 nozzle",
+    "inherits": "Fiberon PETG-rCF08 @base",
+    "from": "system",
+    "setting_id": "GFSL08_04",
+    "instantiation": "true",
+    "filament_max_volumetric_speed": [
+        "11.5"
+    ],
+    "compatible_printers": [
+        "Bambu Lab A1 mini 0.4 nozzle"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "eng_plate_temp": [
+        "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "0"
+    ],
+    "hot_plate_temp": [
+        "80"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "80"
+    ],
+    "textured_plate_temp": [
+        "80"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "80"
+    ],
+    "supertack_plate_temp": [
+        "70"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "70"
+    ],
+    "chamber_temperatures": [
+        "0"
+    ]
+}

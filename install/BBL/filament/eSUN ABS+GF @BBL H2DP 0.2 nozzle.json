@@ -6,7 +6,7 @@
     "setting_id": "GFSE04_29",
     "instantiation": "true",
     "chamber_temperatures": [
-        "65"
+        "40"
     ],
     "fan_max_speed": [
         "60"

@@ -6,7 +6,7 @@
     "setting_id": "GFSE26_25",
     "instantiation": "true",
     "chamber_temperatures": [
-        "60"
+        "50"
     ],
     "fan_max_speed": [
         "40"

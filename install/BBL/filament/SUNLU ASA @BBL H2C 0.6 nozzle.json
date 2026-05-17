@@ -6,7 +6,7 @@
     "setting_id": "GFSY02_23",
     "instantiation": "true",
     "chamber_temperatures": [
-        "65"
+        "0"
     ],
     "counter_coef_2": [
         "0.0094"

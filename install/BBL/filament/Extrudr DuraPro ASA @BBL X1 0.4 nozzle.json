@@ -6,7 +6,7 @@
     "setting_id": "GFSX02_02",
     "instantiation": "true",
     "chamber_temperatures": [
-        "60"
+        "0"
     ],
     "filament_long_retractions_when_cut": [
         "1",

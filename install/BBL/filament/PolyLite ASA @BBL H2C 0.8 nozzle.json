@@ -6,7 +6,7 @@
     "setting_id": "GFSL31_24",
     "instantiation": "true",
     "chamber_temperatures": [
-        "65"
+        "0"
     ],
     "counter_coef_2": [
         "0.0094"

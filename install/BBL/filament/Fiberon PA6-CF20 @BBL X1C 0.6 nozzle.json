@@ -3,7 +3,7 @@
     "name": "Fiberon PA6-CF20 @BBL X1C 0.6 nozzle",
     "inherits": "Fiberon PA6-CF20 @base",
     "from": "system",
-    "setting_id": "GFSL03_01",
+    "setting_id": "GFSL03_02",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.95",
@@ -79,6 +79,9 @@
         "0"
     ],
     "supertack_plate_temp_initial_layer": [
+        "0"
+    ],
+    "chamber_temperatures": [
         "0"
     ]
 }
