@@ -6,7 +6,7 @@
     "setting_id": "GFSE06_17",
     "instantiation": "true",
     "chamber_temperatures": [
-        "40"
+        "60"
     ],
     "filament_flow_ratio": [
         "0.88",

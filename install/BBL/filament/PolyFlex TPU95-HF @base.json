@@ -7,10 +7,10 @@
     "instantiation": "false",
     "description": "This filament is too soft and not compatible with the AMS. Printing it is of many requirements, and to get better printing quality, please refer to this wiki: TPU printing guide.",
     "filament_cost": [
-        "41.99"
+        "54.99"
     ],
     "filament_density": [
-        "1.22"
+        "1.16"
     ],
     "filament_vendor": [
         "Polymaker"
@@ -19,10 +19,10 @@
         "88.7"
     ],
     "nozzle_temperature": [
-        "210.0"
+        "225"
     ],
     "nozzle_temperature_initial_layer": [
-        "210.0"
+        "220"
     ],
     "cool_plate_temp": [
         "45"
@@ -31,22 +31,22 @@
         "45"
     ],
     "eng_plate_temp": [
-        "38"
+        "45"
     ],
     "eng_plate_temp_initial_layer": [
-        "38"
+        "45"
     ],
     "hot_plate_temp": [
-        "38"
+        "45"
     ],
     "hot_plate_temp_initial_layer": [
-        "38"
+        "45"
     ],
     "textured_plate_temp": [
-        "38"
+        "45"
     ],
     "textured_plate_temp_initial_layer": [
-        "38"
+        "45"
     ],
     "supertack_plate_temp": [
         "0"
