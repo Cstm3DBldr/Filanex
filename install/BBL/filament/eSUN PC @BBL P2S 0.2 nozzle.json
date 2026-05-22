@@ -6,7 +6,7 @@
     "setting_id": "GFSE26_13",
     "instantiation": "true",
     "chamber_temperatures": [
-        "0"
+        "50"
     ],
     "counter_coef_2": [
         "0.0081"

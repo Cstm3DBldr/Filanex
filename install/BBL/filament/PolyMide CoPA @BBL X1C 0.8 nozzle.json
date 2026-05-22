@@ -6,7 +6,7 @@
     "setting_id": "GFSL61_04",
     "instantiation": "true",
     "chamber_temperatures": [
-        "0"
+        "60"
     ],
     "filament_cooling_before_tower": [
         "10",

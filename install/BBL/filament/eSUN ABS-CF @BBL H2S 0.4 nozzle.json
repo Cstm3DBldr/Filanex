@@ -6,7 +6,7 @@
     "setting_id": "GFSE06_19",
     "instantiation": "true",
     "chamber_temperatures": [
-        "0"
+        "40"
     ],
     "eng_plate_temp": [
         "105"

@@ -6,7 +6,7 @@
     "setting_id": "GFS102_03",
     "instantiation": "true",
     "chamber_temperatures": [
-        "0"
+        "60"
     ],
     "filament_cooling_before_tower": [
         "10",
