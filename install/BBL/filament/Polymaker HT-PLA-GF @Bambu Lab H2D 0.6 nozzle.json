@@ -1,19 +1,42 @@
 {
-    "type": "filament",
-    "name": "Polymaker HT-PLA-GF @Bambu Lab H2D 0.6 nozzle",
-    "inherits": "Polymaker HT-PLA-GF @base",
-    "from": "system",
-    "setting_id": "GFSL48_20",
-    "instantiation": "true",
+    "chamber_temperatures": [
+        "0"
+    ],
+    "cool_plate_temp": [
+        "35"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "35"
+    ],
+    "default_filament_colour": [
+        ""
+    ],
     "eng_plate_temp": [
         "0"
     ],
     "eng_plate_temp_initial_layer": [
         "0"
     ],
-    "filament_cooling_before_tower": [
-        "10",
-        "10"
+    "fan_cooling_layer_time": [
+        "100"
+    ],
+    "fan_max_speed": [
+        "100"
+    ],
+    "fan_min_speed": [
+        "100"
+    ],
+    "filament_cost": [
+        "33"
+    ],
+    "filament_density": [
+        "1.33"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_end_gcode": [
+        "; filament end gcode \n"
     ],
     "filament_flow_ratio": [
         "0.98",
@@ -23,9 +46,95 @@
         "15",
         "15"
     ],
+    "filament_minimal_purge_on_wipe_tower": [
+        "15"
+    ],
+    "filament_notes": "",
     "filament_retraction_length": [
         "nil",
         "nil"
+    ],
+    "filament_shrink": [
+        "100%"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\n"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
+    "filament_vendor": [
+        "Polymaker"
+    ],
+    "hot_plate_temp": [
+        "55"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "55"
+    ],
+    "nozzle_temperature": [
+        "230",
+        "230"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "230",
+        "230"
+    ],
+    "nozzle_temperature_range_high": [
+        "240"
+    ],
+    "nozzle_temperature_range_low": [
+        "190"
+    ],
+    "overhang_fan_speed": [
+        "100"
+    ],
+    "overhang_fan_threshold": [
+        "50%"
+    ],
+    "pressure_advance": [
+        "0.02"
+    ],
+    "slow_down_layer_time": [
+        "8"
+    ],
+    "slow_down_min_speed": [
+        "20",
+        "20"
+    ],
+    "supertack_plate_temp": [
+        "35"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "35"
+    ],
+    "temperature_vitrification": [
+        "59.76"
+    ],
+    "textured_plate_temp": [
+        "55"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "55"
+    ],
+    "type": "filament",
+    "from": "User",
+    "filament_id": "GFL93",
+    "instantiation": "true",
+    "additional_cooling_fan_speed": [
+        "0"
+    ],
+    "impact_strength_z": [
+        "7.8"
+    ],
+    "required_nozzle_HRC": [
+        "40"
+    ],
+    "name": "Polymaker HT-PLA-GF @Bambu Lab H2D 0.6 nozzle",
+    "setting_id": "GFSL93_04",
+    "filament_cooling_before_tower": [
+        "10",
+        "10"
     ],
     "filament_wipe": [
         "1",
@@ -52,52 +161,11 @@
     "include": [
         "fdm_filament_template_direct_dual"
     ],
-    "nozzle_temperature": [
-        "230",
-        "230"
-    ],
-    "nozzle_temperature_initial_layer": [
-        "230",
-        "230"
-    ],
-    "slow_down_min_speed": [
-        "20",
-        "20"
-    ],
     "compatible_printers": [
         "Bambu Lab H2D 0.6 nozzle"
     ],
-    "filament_start_gcode": [
-        "; filament start gcode\n"
+    "filament_settings_id": [
+        "Polymaker HT-PLA-GF @BBL H2D"
     ],
-    "filament_end_gcode": [
-        "; filament end gcode \n"
-    ],
-    "cool_plate_temp": [
-        "35"
-    ],
-    "cool_plate_temp_initial_layer": [
-        "35"
-    ],
-    "hot_plate_temp": [
-        "55"
-    ],
-    "hot_plate_temp_initial_layer": [
-        "55"
-    ],
-    "textured_plate_temp": [
-        "55"
-    ],
-    "textured_plate_temp_initial_layer": [
-        "55"
-    ],
-    "supertack_plate_temp": [
-        "35"
-    ],
-    "supertack_plate_temp_initial_layer": [
-        "35"
-    ],
-    "chamber_temperatures": [
-        "0"
-    ]
+    "version": "2.5.0.18"
 }

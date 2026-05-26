@@ -1,10 +1,152 @@
 {
+    "chamber_temperatures": [
+        "0"
+    ],
+    "cool_plate_temp": [
+        "35"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "35"
+    ],
+    "default_filament_colour": [
+        ""
+    ],
+    "eng_plate_temp": [
+        "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "0"
+    ],
+    "fan_cooling_layer_time": [
+        "100"
+    ],
+    "fan_max_speed": [
+        "100"
+    ],
+    "fan_min_speed": [
+        "80"
+    ],
+    "filament_cost": [
+        "22.99"
+    ],
+    "filament_density": [
+        "1.19"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_end_gcode": [
+        "; filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+        "0.97",
+        "0.97"
+    ],
+    "filament_max_volumetric_speed": [
+        "15",
+        "15"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+        "15"
+    ],
+    "filament_notes": "",
+    "filament_retraction_length": [
+        "nil",
+        "nil"
+    ],
+    "filament_shrink": [
+        "100%"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\n"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
+    "filament_vendor": [
+        "Polymaker"
+    ],
+    "hot_plate_temp": [
+        "55"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "55"
+    ],
+    "nozzle_temperature": [
+        "222",
+        "222"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "222",
+        "222"
+    ],
+    "nozzle_temperature_range_high": [
+        "230"
+    ],
+    "nozzle_temperature_range_low": [
+        "190"
+    ],
+    "overhang_fan_speed": [
+        "100"
+    ],
+    "overhang_fan_threshold": [
+        "50%"
+    ],
+    "pressure_advance": [
+        "0.02"
+    ],
+    "slow_down_layer_time": [
+        "6"
+    ],
+    "slow_down_min_speed": [
+        "20",
+        "20"
+    ],
+    "supertack_plate_temp": [
+        "35"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "35"
+    ],
+    "temperature_vitrification": [
+        "61"
+    ],
+    "textured_plate_temp": [
+        "55"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "55"
+    ],
     "type": "filament",
-    "name": "PolyLite PLA @Bambu Lab H2S 0.6 nozzle",
-    "inherits": "PolyLite PLA @Polymaker base",
-    "from": "system",
-    "setting_id": "GFSL36_43",
+    "from": "User",
+    "filament_id": "GFL60",
     "instantiation": "true",
+    "filament_scarf_seam_type": [
+        "none"
+    ],
+    "filament_scarf_height": [
+        "10%"
+    ],
+    "filament_scarf_gap": [
+        "0%"
+    ],
+    "filament_scarf_length": [
+        "10"
+    ],
+    "filament_change_length": [
+        "4"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "13.8"
+    ],
+    "compatible_printers": [
+        "Bambu Lab H2S 0.6 nozzle"
+    ],
+    "name": "PolyLite PLA @Bambu Lab H2S 0.6 nozzle",
+    "setting_id": "GFSL60_06",
     "additional_cooling_fan_speed": [
         "75"
     ],
@@ -20,30 +162,9 @@
     "counter_limit_max": [
         "0.076"
     ],
-    "eng_plate_temp": [
-        "0"
-    ],
-    "eng_plate_temp_initial_layer": [
-        "0"
-    ],
-    "fan_min_speed": [
-        "80"
-    ],
     "filament_cooling_before_tower": [
         "10",
         "10"
-    ],
-    "filament_flow_ratio": [
-        "0.97",
-        "0.97"
-    ],
-    "filament_max_volumetric_speed": [
-        "15",
-        "15"
-    ],
-    "filament_retraction_length": [
-        "nil",
-        "nil"
     ],
     "filament_wipe": [
         "1",
@@ -60,9 +181,6 @@
     "filament_ramming_travel_time": [
         "0",
         "0"
-    ],
-    "filament_change_length": [
-        "4"
     ],
     "hole_coef_2": [
         "-0.0028"
@@ -83,14 +201,6 @@
         "0",
         "0"
     ],
-    "nozzle_temperature": [
-        "222",
-        "222"
-    ],
-    "nozzle_temperature_initial_layer": [
-        "222",
-        "222"
-    ],
     "pre_start_fan_time": [
         "2"
     ],
@@ -98,47 +208,8 @@
         "0",
         "0"
     ],
-    "supertack_plate_temp": [
-        "35"
+    "filament_settings_id": [
+        "PolyLite PLA @BBL H2S"
     ],
-    "supertack_plate_temp_initial_layer": [
-        "35"
-    ],
-    "slow_down_layer_time": [
-        "6"
-    ],
-    "slow_down_min_speed": [
-        "20",
-        "20"
-    ],
-    "compatible_printers": [
-        "Bambu Lab H2S 0.6 nozzle"
-    ],
-    "filament_start_gcode": [
-        "; filament start gcode\n"
-    ],
-    "filament_end_gcode": [
-        "; filament end gcode \n"
-    ],
-    "cool_plate_temp": [
-        "35"
-    ],
-    "cool_plate_temp_initial_layer": [
-        "35"
-    ],
-    "hot_plate_temp": [
-        "55"
-    ],
-    "hot_plate_temp_initial_layer": [
-        "55"
-    ],
-    "textured_plate_temp": [
-        "55"
-    ],
-    "textured_plate_temp_initial_layer": [
-        "55"
-    ],
-    "chamber_temperatures": [
-        "0"
-    ]
+    "version": "2.5.0.18"
 }

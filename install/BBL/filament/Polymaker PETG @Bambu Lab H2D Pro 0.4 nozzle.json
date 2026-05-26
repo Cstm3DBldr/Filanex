@@ -1,10 +1,139 @@
 {
+    "chamber_temperatures": [
+        "0"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "default_filament_colour": [
+        ""
+    ],
+    "eng_plate_temp": [
+        "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "0"
+    ],
+    "fan_cooling_layer_time": [
+        "20"
+    ],
+    "fan_max_speed": [
+        "40"
+    ],
+    "fan_min_speed": [
+        "20"
+    ],
+    "filament_cost": [
+        "30"
+    ],
+    "filament_density": [
+        "1.3"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_end_gcode": [
+        "; filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+        "0.95"
+    ],
+    "filament_max_volumetric_speed": [
+        "16",
+        "16"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+        "15"
+    ],
+    "filament_notes": "",
+    "filament_retraction_length": [
+        "0.8",
+        "0.8"
+    ],
+    "filament_shrink": [
+        "100%"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\n"
+    ],
+    "filament_type": [
+        "PETG"
+    ],
+    "filament_vendor": [
+        "Polymaker"
+    ],
+    "hot_plate_temp": [
+        "80"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "80"
+    ],
+    "nozzle_temperature": [
+        "250",
+        "250"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "250",
+        "250"
+    ],
+    "nozzle_temperature_range_high": [
+        "260"
+    ],
+    "nozzle_temperature_range_low": [
+        "240"
+    ],
+    "overhang_fan_speed": [
+        "100"
+    ],
+    "overhang_fan_threshold": [
+        "10%"
+    ],
+    "pressure_advance": [
+        "0.02"
+    ],
+    "slow_down_layer_time": [
+        "10"
+    ],
+    "slow_down_min_speed": [
+        "20",
+        "20"
+    ],
+    "supertack_plate_temp": [
+        "70"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "70"
+    ],
+    "temperature_vitrification": [
+        "71.24"
+    ],
+    "textured_plate_temp": [
+        "80"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "80"
+    ],
     "type": "filament",
-    "name": "Polymaker PETG @Bambu Lab H2D Pro 0.4 nozzle",
-    "inherits": "Polymaker PETG @base",
-    "from": "system",
-    "setting_id": "GFSL52_38",
+    "from": "User",
+    "filament_id": "GFL94",
     "instantiation": "true",
+    "filament_metal_stickiness": [
+        "High"
+    ],
+    "filament_change_length": [
+        "12"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "10.6"
+    ],
+    "name": "Polymaker PETG @Bambu Lab H2D Pro 0.4 nozzle",
+    "setting_id": "GFSL94_05",
     "counter_coef_2": [
         "0.007"
     ],
@@ -13,20 +142,6 @@
     ],
     "counter_limit_max": [
         "0.1"
-    ],
-    "fan_cooling_layer_time": [
-        "20"
-    ],
-    "fan_min_speed": [
-        "20"
-    ],
-    "filament_max_volumetric_speed": [
-        "16",
-        "16"
-    ],
-    "filament_retraction_length": [
-        "0.8",
-        "0.8"
     ],
     "filament_wipe": [
         "1",
@@ -59,67 +174,14 @@
     "include": [
         "fdm_filament_template_direct_dual"
     ],
-    "nozzle_temperature": [
-        "250",
-        "250"
-    ],
-    "nozzle_temperature_initial_layer": [
-        "250",
-        "250"
-    ],
-    "overhang_fan_speed": [
-        "100"
-    ],
     "pre_start_fan_time": [
         "2"
-    ],
-    "supertack_plate_temp": [
-        "70"
-    ],
-    "supertack_plate_temp_initial_layer": [
-        "70"
-    ],
-    "slow_down_layer_time": [
-        "10"
-    ],
-    "slow_down_min_speed": [
-        "20",
-        "20"
     ],
     "compatible_printers": [
         "Bambu Lab H2D Pro 0.4 nozzle"
     ],
-    "filament_start_gcode": [
-        "; filament start gcode\n"
+    "filament_settings_id": [
+        "Polymaker PETG @BBL H2DP"
     ],
-    "filament_end_gcode": [
-        "; filament end gcode \n"
-    ],
-    "cool_plate_temp": [
-        "0"
-    ],
-    "cool_plate_temp_initial_layer": [
-        "0"
-    ],
-    "eng_plate_temp": [
-        "0"
-    ],
-    "eng_plate_temp_initial_layer": [
-        "0"
-    ],
-    "hot_plate_temp": [
-        "80"
-    ],
-    "hot_plate_temp_initial_layer": [
-        "80"
-    ],
-    "textured_plate_temp": [
-        "80"
-    ],
-    "textured_plate_temp_initial_layer": [
-        "80"
-    ],
-    "chamber_temperatures": [
-        "0"
-    ]
+    "version": "2.5.0.18"
 }

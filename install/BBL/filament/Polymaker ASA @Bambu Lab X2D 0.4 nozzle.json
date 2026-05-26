@@ -1,13 +1,144 @@
 {
-    "type": "filament",
-    "name": "Polymaker ASA @Bambu Lab X2D 0.4 nozzle",
-    "inherits": "Polymaker ASA @base",
-    "from": "system",
-    "setting_id": "GFSL46_18",
-    "instantiation": "true",
     "chamber_temperatures": [
         "40"
     ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "default_filament_colour": [
+        ""
+    ],
+    "eng_plate_temp": [
+        "90"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "90"
+    ],
+    "fan_cooling_layer_time": [
+        "35"
+    ],
+    "fan_max_speed": [
+        "35"
+    ],
+    "fan_min_speed": [
+        "5"
+    ],
+    "filament_cost": [
+        "33"
+    ],
+    "filament_density": [
+        "1.13"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_end_gcode": [
+        "; filament end gcode \n\n"
+    ],
+    "filament_flow_ratio": [
+        "0.97",
+        "0.97",
+        "0.97",
+        "0.97"
+    ],
+    "filament_max_volumetric_speed": [
+        "12",
+        "12",
+        "12",
+        "12"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+        "15"
+    ],
+    "filament_notes": "",
+    "filament_retraction_length": [
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "filament_shrink": [
+        "100%"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\n"
+    ],
+    "filament_type": [
+        "ASA"
+    ],
+    "filament_vendor": [
+        "Polymaker"
+    ],
+    "hot_plate_temp": [
+        "90"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "90"
+    ],
+    "nozzle_temperature": [
+        "260",
+        "260",
+        "260",
+        "260"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "260",
+        "260",
+        "260",
+        "260"
+    ],
+    "nozzle_temperature_range_high": [
+        "280"
+    ],
+    "nozzle_temperature_range_low": [
+        "240"
+    ],
+    "overhang_fan_speed": [
+        "80"
+    ],
+    "overhang_fan_threshold": [
+        "25%"
+    ],
+    "pressure_advance": [
+        "0.02"
+    ],
+    "slow_down_layer_time": [
+        "12"
+    ],
+    "slow_down_min_speed": [
+        "20",
+        "20",
+        "20",
+        "20"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
+    ],
+    "temperature_vitrification": [
+        "100"
+    ],
+    "textured_plate_temp": [
+        "90"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "90"
+    ],
+    "type": "filament",
+    "from": "User",
+    "filament_id": "GFL89",
+    "instantiation": "true",
+    "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
+    "impact_strength_z": [
+        "4.9"
+    ],
+    "name": "Polymaker ASA @Bambu Lab X2D 0.4 nozzle",
+    "setting_id": "GFSL89_11",
     "counter_coef_2": [
         "0.0094"
     ],
@@ -29,18 +160,6 @@
     "filament_extruder_compatibility": [
         "24"
     ],
-    "filament_flow_ratio": [
-        "0.97",
-        "0.97",
-        "0.97",
-        "0.97"
-    ],
-    "filament_max_volumetric_speed": [
-        "12",
-        "12",
-        "12",
-        "12"
-    ],
     "filament_ramming_travel_time": [
         "0",
         "0",
@@ -52,12 +171,6 @@
         "10",
         "10",
         "10"
-    ],
-    "filament_retraction_length": [
-        "nil",
-        "nil",
-        "nil",
-        "nil"
     ],
     "filament_tower_interface_print_temp": [
         "270"
@@ -95,64 +208,17 @@
     "include": [
         "fdm_filament_template_direct_bowden"
     ],
-    "nozzle_temperature": [
-        "260",
-        "260",
-        "260",
-        "260"
-    ],
-    "nozzle_temperature_initial_layer": [
-        "260",
-        "260",
-        "260",
-        "260"
-    ],
     "retraction_distances_when_ec": [
         "3",
         "3",
         "4",
         "4"
     ],
-    "slow_down_min_speed": [
-        "20",
-        "20",
-        "20",
-        "20"
-    ],
     "compatible_printers": [
         "Bambu Lab X2D 0.4 nozzle"
     ],
-    "filament_start_gcode": [
-        "; filament start gcode\n"
+    "filament_settings_id": [
+        "Polymaker ASA @BBL X2D"
     ],
-    "cool_plate_temp": [
-        "0"
-    ],
-    "cool_plate_temp_initial_layer": [
-        "0"
-    ],
-    "eng_plate_temp": [
-        "90"
-    ],
-    "eng_plate_temp_initial_layer": [
-        "90"
-    ],
-    "hot_plate_temp": [
-        "90"
-    ],
-    "hot_plate_temp_initial_layer": [
-        "90"
-    ],
-    "textured_plate_temp": [
-        "90"
-    ],
-    "textured_plate_temp_initial_layer": [
-        "90"
-    ],
-    "supertack_plate_temp": [
-        "0"
-    ],
-    "supertack_plate_temp_initial_layer": [
-        "0"
-    ]
+    "version": "2.5.0.18"
 }

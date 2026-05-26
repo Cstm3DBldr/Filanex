@@ -1,16 +1,39 @@
 {
-    "type": "filament",
-    "name": "Fiberon PA12-CF10 @Bambu Lab H2S 0.4 nozzle",
-    "inherits": "Fiberon PA12-CF10 @base",
-    "from": "system",
-    "setting_id": "GFSL02_22",
-    "instantiation": "true",
     "chamber_temperatures": [
         "60"
     ],
-    "filament_cooling_before_tower": [
-        "10",
-        "10"
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "eng_plate_temp": [
+        "100"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "100"
+    ],
+    "fan_cooling_layer_time": [
+        "15"
+    ],
+    "fan_max_speed": [
+        "100"
+    ],
+    "fan_min_speed": [
+        "0"
+    ],
+    "filament_cost": [
+        "99.99"
+    ],
+    "filament_density": [
+        "1.06"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_end_gcode": [
+        "; filament end gcode \n"
     ],
     "filament_flow_ratio": [
         "0.95",
@@ -19,6 +42,78 @@
     "filament_max_volumetric_speed": [
         "8",
         "8"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+        "15"
+    ],
+    "filament_retraction_length": [
+        "nil",
+        "nil"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\n"
+    ],
+    "filament_type": [
+        "PA-CF"
+    ],
+    "filament_vendor": [
+        "Polymaker"
+    ],
+    "hot_plate_temp": [
+        "100"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "100"
+    ],
+    "nozzle_temperature": [
+        "300",
+        "300"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "300",
+        "300"
+    ],
+    "nozzle_temperature_range_high": [
+        "300"
+    ],
+    "nozzle_temperature_range_low": [
+        "280"
+    ],
+    "overhang_fan_speed": [
+        "40"
+    ],
+    "overhang_fan_threshold": [
+        "0%"
+    ],
+    "slow_down_layer_time": [
+        "2"
+    ],
+    "slow_down_min_speed": [
+        "20",
+        "20"
+    ],
+    "temperature_vitrification": [
+        "55"
+    ],
+    "textured_plate_temp": [
+        "100"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "100"
+    ],
+    "type": "filament",
+    "from": "User",
+    "filament_id": "GFL02",
+    "instantiation": "true",
+    "description": "When printing this filament, there's a risk of nozzle clogging, oozing, warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
+    "impact_strength_z": [
+        "5.7"
+    ],
+    "name": "Fiberon PA12-CF10 @Bambu Lab H2S 0.4 nozzle",
+    "setting_id": "GFSL02_04",
+    "filament_cooling_before_tower": [
+        "10",
+        "10"
     ],
     "filament_prime_volume": [
         "30"
@@ -50,51 +145,13 @@
     "include": [
         "fdm_filament_template_direct_dual"
     ],
-    "nozzle_temperature": [
-        "300",
-        "300"
-    ],
-    "nozzle_temperature_initial_layer": [
-        "300",
-        "300"
-    ],
-    "slow_down_min_speed": [
-        "20",
-        "20"
-    ],
     "compatible_printers": [
         "Bambu Lab H2S 0.4 nozzle"
     ],
-    "filament_start_gcode": [
-        "; filament start gcode\n"
+    "filament_settings_id": [
+        "Fiberon PA12-CF10 @BBL H2S"
     ],
-    "filament_end_gcode": [
-        "; filament end gcode \n"
-    ],
-    "cool_plate_temp": [
-        "0"
-    ],
-    "cool_plate_temp_initial_layer": [
-        "0"
-    ],
-    "eng_plate_temp": [
-        "100"
-    ],
-    "eng_plate_temp_initial_layer": [
-        "100"
-    ],
-    "hot_plate_temp": [
-        "100"
-    ],
-    "hot_plate_temp_initial_layer": [
-        "100"
-    ],
-    "textured_plate_temp": [
-        "100"
-    ],
-    "textured_plate_temp_initial_layer": [
-        "100"
-    ],
+    "version": "2.5.0.18",
     "supertack_plate_temp": [
         "0"
     ],

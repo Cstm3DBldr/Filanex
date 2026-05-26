@@ -1,18 +1,21 @@
 {
-    "type": "filament",
-    "name": "PolyLite PETG @Bambu Lab H2S 0.4 nozzle",
-    "inherits": "PolyLite PETG @Polymaker base",
-    "from": "system",
-    "setting_id": "GFSL34_42",
-    "instantiation": "true",
-    "counter_coef_2": [
-        "0.007"
+    "chamber_temperatures": [
+        "0"
     ],
-    "counter_coef_3": [
-        "0.003"
+    "cool_plate_temp": [
+        "0"
     ],
-    "counter_limit_max": [
-        "0.1"
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "default_filament_colour": [
+        ""
+    ],
+    "eng_plate_temp": [
+        "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "0"
     ],
     "fan_cooling_layer_time": [
         "20"
@@ -23,20 +26,129 @@
     "fan_min_speed": [
         "20"
     ],
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_density": [
+        "1.25"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_end_gcode": [
+        "; filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+        "0.96"
+    ],
+    "filament_max_volumetric_speed": [
+        "8",
+        "8"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+        "15"
+    ],
+    "filament_notes": "",
+    "filament_retraction_length": [
+        "nil",
+        "nil"
+    ],
+    "filament_shrink": [
+        "100%"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\n"
+    ],
+    "filament_type": [
+        "PETG"
+    ],
+    "filament_vendor": [
+        "Polymaker"
+    ],
+    "hot_plate_temp": [
+        "80"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "80"
+    ],
+    "nozzle_temperature": [
+        "255",
+        "255"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "255",
+        "255"
+    ],
+    "nozzle_temperature_range_high": [
+        "270"
+    ],
+    "nozzle_temperature_range_low": [
+        "220"
+    ],
+    "overhang_fan_speed": [
+        "100"
+    ],
+    "overhang_fan_threshold": [
+        "10%"
+    ],
+    "pressure_advance": [
+        "0.02"
+    ],
+    "slow_down_layer_time": [
+        "10"
+    ],
+    "slow_down_min_speed": [
+        "20",
+        "20"
+    ],
+    "supertack_plate_temp": [
+        "70"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "70"
+    ],
+    "temperature_vitrification": [
+        "81"
+    ],
+    "textured_plate_temp": [
+        "80"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "80"
+    ],
+    "type": "filament",
+    "from": "User",
+    "filament_id": "GFL57",
+    "instantiation": "true",
+    "filament_metal_stickiness": [
+        "High"
+    ],
+    "filament_change_length": [
+        "4"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "10.6"
+    ],
+    "name": "PolyLite PETG @Bambu Lab H2S 0.4 nozzle",
+    "setting_id": "GFSL56_06",
+    "counter_coef_2": [
+        "0.007"
+    ],
+    "counter_coef_3": [
+        "0.003"
+    ],
+    "counter_limit_max": [
+        "0.1"
+    ],
     "filament_cooling_before_tower": [
         "10",
         "10"
     ],
     "filament_tower_ironing_area": [
         "8"
-    ],
-    "filament_max_volumetric_speed": [
-        "8",
-        "8"
-    ],
-    "filament_retraction_length": [
-        "nil",
-        "nil"
     ],
     "filament_wipe": [
         "1",
@@ -54,9 +166,6 @@
         "0",
         "0"
     ],
-    "filament_change_length": [
-        "4"
-    ],
     "hole_coef_2": [
         "-0.006"
     ],
@@ -69,67 +178,14 @@
     "include": [
         "fdm_filament_template_direct_dual"
     ],
-    "nozzle_temperature": [
-        "255",
-        "255"
-    ],
-    "nozzle_temperature_initial_layer": [
-        "255",
-        "255"
-    ],
-    "overhang_fan_speed": [
-        "100"
-    ],
     "pre_start_fan_time": [
         "2"
-    ],
-    "supertack_plate_temp": [
-        "70"
-    ],
-    "supertack_plate_temp_initial_layer": [
-        "70"
-    ],
-    "slow_down_layer_time": [
-        "10"
-    ],
-    "slow_down_min_speed": [
-        "20",
-        "20"
     ],
     "compatible_printers": [
         "Bambu Lab H2S 0.4 nozzle"
     ],
-    "filament_start_gcode": [
-        "; filament start gcode\n"
+    "filament_settings_id": [
+        "PolyLite PETG @BBL H2S"
     ],
-    "filament_end_gcode": [
-        "; filament end gcode \n"
-    ],
-    "cool_plate_temp": [
-        "0"
-    ],
-    "cool_plate_temp_initial_layer": [
-        "0"
-    ],
-    "eng_plate_temp": [
-        "0"
-    ],
-    "eng_plate_temp_initial_layer": [
-        "0"
-    ],
-    "hot_plate_temp": [
-        "80"
-    ],
-    "hot_plate_temp_initial_layer": [
-        "80"
-    ],
-    "textured_plate_temp": [
-        "80"
-    ],
-    "textured_plate_temp_initial_layer": [
-        "80"
-    ],
-    "chamber_temperatures": [
-        "0"
-    ]
+    "version": "2.5.0.18"
 }

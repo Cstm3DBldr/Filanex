@@ -1,126 +1,6 @@
 {
-    "type": "filament",
-    "name": "Fiberon PA6-CF20 @Bambu Lab X2D 0.4 nozzle",
-    "inherits": "Fiberon PA6-CF20 @base",
-    "from": "system",
-    "setting_id": "GFSL03_07",
-    "instantiation": "true",
     "chamber_temperatures": [
         "60"
-    ],
-    "counter_coef_2": [
-        "-0.0016"
-    ],
-    "counter_coef_3": [
-        "0.0031"
-    ],
-    "counter_limit_max": [
-        "0.0031"
-    ],
-    "counter_limit_min": [
-        "-0.038"
-    ],
-    "fan_max_speed": [
-        "40"
-    ],
-    "fan_min_speed": [
-        "20"
-    ],
-    "filament_cooling_before_tower": [
-        "10",
-        "10",
-        "10",
-        "10"
-    ],
-    "filament_extruder_compatibility": [
-        "16"
-    ],
-    "filament_flow_ratio": [
-        "0.95",
-        "0.95",
-        "0.95",
-        "0.95"
-    ],
-    "filament_max_volumetric_speed": [
-        "8",
-        "8",
-        "8",
-        "8"
-    ],
-    "filament_ramming_travel_time": [
-        "0",
-        "0",
-        "0",
-        "0"
-    ],
-    "filament_retraction_length": [
-        "nil",
-        "nil",
-        "nil",
-        "nil"
-    ],
-    "filament_tower_interface_print_temp": [
-        "275"
-    ],
-    "filament_wipe": [
-        "1",
-        "1",
-        "1",
-        "1"
-    ],
-    "filament_wipe_distance": [
-        "1",
-        "1",
-        "1",
-        "1"
-    ],
-    "hole_coef_2": [
-        "-0.0051"
-    ],
-    "hole_coef_3": [
-        "0.2194"
-    ],
-    "hole_limit_max": [
-        "0.2194"
-    ],
-    "hole_limit_min": [
-        "0.092"
-    ],
-    "include": [
-        "fdm_filament_template_direct_bowden"
-    ],
-    "nozzle_temperature": [
-        "300",
-        "300",
-        "300",
-        "300"
-    ],
-    "nozzle_temperature_initial_layer": [
-        "300",
-        "300",
-        "300",
-        "300"
-    ],
-    "overhang_fan_speed": [
-        "55"
-    ],
-    "retraction_distances_when_ec": [
-        "3",
-        "3",
-        "4",
-        "4"
-    ],
-    "slow_down_min_speed": [
-        "20",
-        "20",
-        "20",
-        "20"
-    ],
-    "compatible_printers": [
-        "Bambu Lab X2D 0.4 nozzle"
-    ],
-    "filament_start_gcode": [
-        "; filament start gcode\n"
     ],
     "cool_plate_temp": [
         "0"
@@ -134,11 +14,96 @@
     "eng_plate_temp_initial_layer": [
         "100"
     ],
+    "fan_cooling_layer_time": [
+        "5"
+    ],
+    "fan_max_speed": [
+        "30"
+    ],
+    "fan_min_speed": [
+        "10"
+    ],
+    "filament_cost": [
+        "83.99"
+    ],
+    "filament_density": [
+        "1.17"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_end_gcode": [
+        "; filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+        "0.95",
+        "0.95",
+        "0.95",
+        "0.95"
+    ],
+    "filament_max_volumetric_speed": [
+        "8",
+        "8",
+        "8",
+        "8"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+        "15"
+    ],
+    "filament_retraction_length": [
+        "nil",
+        "nil"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\n"
+    ],
+    "filament_type": [
+        "PA6-CF"
+    ],
+    "filament_vendor": [
+        "Polymaker"
+    ],
     "hot_plate_temp": [
         "100"
     ],
     "hot_plate_temp_initial_layer": [
         "100"
+    ],
+    "nozzle_temperature": [
+        "300",
+        "300",
+        "300",
+        "300"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "300",
+        "300",
+        "300",
+        "300"
+    ],
+    "nozzle_temperature_range_high": [
+        "300"
+    ],
+    "nozzle_temperature_range_low": [
+        "280"
+    ],
+    "overhang_fan_speed": [
+        "40"
+    ],
+    "overhang_fan_threshold": [
+        "0%"
+    ],
+    "slow_down_layer_time": [
+        "2"
+    ],
+    "slow_down_min_speed": [
+        "20",
+        "20",
+        "20",
+        "20"
+    ],
+    "temperature_vitrification": [
+        "74.2"
     ],
     "textured_plate_temp": [
         "100"
@@ -146,6 +111,53 @@
     "textured_plate_temp_initial_layer": [
         "100"
     ],
+    "type": "filament",
+    "from": "User",
+    "filament_id": "GFL03",
+    "instantiation": "true",
+    "description": "When printing this filament, there's a risk of nozzle clogging, oozing, warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
+    "impact_strength_z": [
+        "5.7"
+    ],
+    "name": "Fiberon PA6-CF20 @Bambu Lab X2D 0.4 nozzle",
+    "setting_id": "GFSL03_10",
+    "additional_fan_full_speed_layer": [
+        "2"
+    ],
+    "filament_cooling_before_tower": [
+        "10",
+        "10",
+        "10",
+        "10"
+    ],
+    "filament_ramming_travel_time": [
+        "0",
+        "0",
+        "0",
+        "0"
+    ],
+    "filament_tower_interface_print_temp": [
+        "290"
+    ],
+    "full_fan_speed_layer": [
+        "2"
+    ],
+    "include": [
+        "fdm_filament_template_direct_bowden"
+    ],
+    "retraction_distances_when_ec": [
+        "3",
+        "3",
+        "4",
+        "4"
+    ],
+    "compatible_printers": [
+        "Bambu Lab X2D 0.4 nozzle"
+    ],
+    "filament_settings_id": [
+        "Fiberon PA6-CF20 @BBL X2D"
+    ],
+    "version": "2.5.0.18",
     "supertack_plate_temp": [
         "0"
     ],

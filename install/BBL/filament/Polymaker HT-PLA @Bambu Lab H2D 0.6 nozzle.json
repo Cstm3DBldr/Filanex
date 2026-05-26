@@ -1,21 +1,15 @@
 {
-    "type": "filament",
-    "name": "Polymaker HT-PLA @Bambu Lab H2D 0.6 nozzle",
-    "inherits": "Polymaker HT-PLA @base",
-    "from": "system",
-    "setting_id": "GFSL47_35",
-    "instantiation": "true",
-    "additional_cooling_fan_speed": [
-        "75"
+    "chamber_temperatures": [
+        "0"
     ],
-    "counter_coef_2": [
-        "0.003"
+    "cool_plate_temp": [
+        "35"
     ],
-    "counter_coef_3": [
-        "0.01"
+    "cool_plate_temp_initial_layer": [
+        "35"
     ],
-    "counter_limit_max": [
-        "0.088"
+    "default_filament_colour": [
+        ""
     ],
     "eng_plate_temp": [
         "0"
@@ -23,15 +17,26 @@
     "eng_plate_temp_initial_layer": [
         "0"
     ],
+    "fan_cooling_layer_time": [
+        "100"
+    ],
     "fan_max_speed": [
-        "80"
+        "100"
     ],
     "fan_min_speed": [
-        "60"
+        "100"
     ],
-    "filament_cooling_before_tower": [
-        "10",
-        "10"
+    "filament_cost": [
+        "26.99"
+    ],
+    "filament_density": [
+        "1.287"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_end_gcode": [
+        "; filament end gcode \n"
     ],
     "filament_flow_ratio": [
         "0.98",
@@ -41,38 +46,31 @@
         "16",
         "16"
     ],
+    "filament_minimal_purge_on_wipe_tower": [
+        "15"
+    ],
+    "filament_notes": "",
     "filament_retraction_length": [
         "nil",
         "nil"
     ],
-    "filament_wipe": [
-        "1",
-        "1"
+    "filament_shrink": [
+        "100%"
     ],
-    "filament_wipe_distance": [
-        "1",
-        "1"
+    "filament_start_gcode": [
+        "; filament start gcode\n"
     ],
-    "filament_z_hop_types": [
-        "Spiral Lift",
-        "Spiral Lift"
+    "filament_type": [
+        "PLA"
     ],
-    "filament_ramming_travel_time": [
-        "0",
-        "0"
+    "filament_vendor": [
+        "Polymaker"
     ],
-    "filament_extruder_id": [
-        "1",
-        "1"
+    "hot_plate_temp": [
+        "55"
     ],
-    "filament_change_length": [
-        "4"
-    ],
-    "hole_coef_3": [
-        "0.18"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
+    "hot_plate_temp_initial_layer": [
+        "55"
     ],
     "nozzle_temperature": [
         "220",
@@ -82,8 +80,27 @@
         "220",
         "220"
     ],
-    "pre_start_fan_time": [
-        "2"
+    "nozzle_temperature_range_high": [
+        "230"
+    ],
+    "nozzle_temperature_range_low": [
+        "210"
+    ],
+    "overhang_fan_speed": [
+        "100"
+    ],
+    "overhang_fan_threshold": [
+        "50%"
+    ],
+    "pressure_advance": [
+        "0.02"
+    ],
+    "slow_down_layer_time": [
+        "4"
+    ],
+    "slow_down_min_speed": [
+        "20",
+        "20"
     ],
     "supertack_plate_temp": [
         "35"
@@ -91,30 +108,8 @@
     "supertack_plate_temp_initial_layer": [
         "35"
     ],
-    "slow_down_min_speed": [
-        "20",
-        "20"
-    ],
-    "compatible_printers": [
-        "Bambu Lab H2D 0.6 nozzle"
-    ],
-    "filament_start_gcode": [
-        "; filament start gcode\n"
-    ],
-    "filament_end_gcode": [
-        "; filament end gcode \n"
-    ],
-    "cool_plate_temp": [
-        "35"
-    ],
-    "cool_plate_temp_initial_layer": [
-        "35"
-    ],
-    "hot_plate_temp": [
-        "55"
-    ],
-    "hot_plate_temp_initial_layer": [
-        "55"
+    "temperature_vitrification": [
+        "59.8"
     ],
     "textured_plate_temp": [
         "55"
@@ -122,7 +117,97 @@
     "textured_plate_temp_initial_layer": [
         "55"
     ],
-    "chamber_temperatures": [
+    "type": "filament",
+    "from": "User",
+    "filament_id": "GFL91",
+    "instantiation": "true",
+    "filament_scarf_seam_type": [
+        "none"
+    ],
+    "impact_strength_z": [
+        "12.3"
+    ],
+    "name": "Polymaker HT-PLA @Bambu Lab H2D 0.6 nozzle",
+    "setting_id": "GFSL91_04",
+    "additional_cooling_fan_speed": [
+        "75"
+    ],
+    "counter_coef_2": [
+        "0.003"
+    ],
+    "counter_coef_3": [
+        "0.024"
+    ],
+    "counter_limit_max": [
+        "0.1"
+    ],
+    "filament_cooling_before_tower": [
+        "10",
+        "10"
+    ],
+    "filament_wipe": [
+        "1",
+        "1"
+    ],
+    "filament_wipe_distance": [
+        "1",
+        "1"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "filament_prime_volume_nc": [
+        "30"
+    ],
+    "filament_z_hop_types": [
+        "Spiral Lift",
+        "Spiral Lift"
+    ],
+    "filament_pre_cooling_temperature_nc": [
+        "180",
+        "180"
+    ],
+    "filament_ramming_travel_time": [
+        "0",
         "0"
-    ]
+    ],
+    "filament_ramming_travel_time_nc": [
+        "1",
+        "1"
+    ],
+    "filament_retract_length_nc": [
+        "18",
+        "18"
+    ],
+    "filament_change_length": [
+        "4"
+    ],
+    "first_x_layer_fan_speed": [
+        "0"
+    ],
+    "filament_change_length_nc": [
+        "4"
+    ],
+    "hole_coef_2": [
+        "-0.0081"
+    ],
+    "hole_coef_3": [
+        "0.2041"
+    ],
+    "hole_limit_min": [
+        "0.08"
+    ],
+    "include": [
+        "fdm_filament_template_direct_dual"
+    ],
+    "pre_start_fan_time": [
+        "2"
+    ],
+    "compatible_printers": [
+        "Bambu Lab H2D 0.6 nozzle"
+    ],
+    "filament_settings_id": [
+        "Polymaker HT-PLA @BBL H2D"
+    ],
+    "version": "2.5.0.18"
 }
