@@ -52,6 +52,15 @@
     "compatible_printers": [
         "Bambu Lab X1E 0.2 nozzle"
     ],
+    "filament_settings_id": [
+        "FlyingBear PC @BBL X1E"
+    ],
+    "filament_vendor": [
+        "FlyingBear"
+    ],
+    "filament_type": [
+        "PC"
+    ],
     "cool_plate_temp": [
         "0"
     ],

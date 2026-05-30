@@ -38,6 +38,15 @@
     "compatible_printers": [
         "Bambu Lab H2S 0.4 nozzle"
     ],
+    "filament_settings_id": [
+        "Flashforge ABS @BBL H2S"
+    ],
+    "filament_vendor": [
+        "Flashforge"
+    ],
+    "filament_type": [
+        "ABS"
+    ],
     "cool_plate_temp": [
         "0"
     ],

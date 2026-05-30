@@ -71,6 +71,15 @@
     "compatible_printers": [
         "Bambu Lab P1P 0.4 nozzle"
     ],
+    "filament_settings_id": [
+        "Snapmaker PETG @BBL P1P"
+    ],
+    "filament_vendor": [
+        "Snapmaker"
+    ],
+    "filament_type": [
+        "PETG"
+    ],
     "cool_plate_temp": [
         "65"
     ],

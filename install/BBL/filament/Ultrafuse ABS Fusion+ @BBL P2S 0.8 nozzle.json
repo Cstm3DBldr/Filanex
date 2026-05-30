@@ -90,6 +90,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "Ultrafuse ABS Fusion+ @BBL P2S"
+    ],
+    "filament_vendor": [
+        "Ultrafuse"
+    ],
+    "filament_type": [
+        "ABS"
+    ],
     "cool_plate_temp": [
         "0"
     ],

@@ -71,6 +71,15 @@
     "compatible_printers": [
         "Bambu Lab P1P 0.6 nozzle"
     ],
+    "filament_settings_id": [
+        "Creality Generic PETG @BBL P1P"
+    ],
+    "filament_vendor": [
+        "Creality"
+    ],
+    "filament_type": [
+        "PETG"
+    ],
     "cool_plate_temp": [
         "70"
     ],

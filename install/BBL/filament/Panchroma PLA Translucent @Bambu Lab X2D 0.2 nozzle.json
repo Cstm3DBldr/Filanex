@@ -149,6 +149,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "Panchroma PLA Translucent @BBL X2D"
+    ],
+    "filament_vendor": [
+        "Polymaker"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
     "cool_plate_temp": [
         "35"
     ],

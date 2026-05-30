@@ -47,6 +47,15 @@
     "compatible_printers": [
         "Bambu Lab A1 mini 0.4 nozzle"
     ],
+    "filament_settings_id": [
+        "PolyLite PLA-CF @BBL A1M"
+    ],
+    "filament_vendor": [
+        "Polymaker"
+    ],
+    "filament_type": [
+        "PLA-CF"
+    ],
     "cool_plate_temp": [
         "45"
     ],

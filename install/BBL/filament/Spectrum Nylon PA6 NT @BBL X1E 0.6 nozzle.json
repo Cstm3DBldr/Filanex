@@ -71,6 +71,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Spectrum Nylon PA6 NT @BBL X1E"
+    ],
+    "filament_vendor": [
+        "Spectrum"
+    ],
+    "filament_type": [
+        "PA"
+    ],
     "cool_plate_temp": [
         "0"
     ],

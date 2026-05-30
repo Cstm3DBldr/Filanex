@@ -65,6 +65,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Prusa Polymers Prusament PVB @BBL H2DP"
+    ],
+    "filament_vendor": [
+        "Prusa Polymers"
+    ],
+    "filament_type": [
+        "PVB"
+    ],
     "cool_plate_temp": [
         "35"
     ],

@@ -38,6 +38,15 @@
     "compatible_printers": [
         "Bambu Lab X1 Carbon 0.6 nozzle"
     ],
+    "filament_settings_id": [
+        "Creality CR-Silk @BBL X1C"
+    ],
+    "filament_vendor": [
+        "Creality"
+    ],
+    "filament_type": [
+        "PLA-Silk"
+    ],
     "cool_plate_temp": [
         "35"
     ],

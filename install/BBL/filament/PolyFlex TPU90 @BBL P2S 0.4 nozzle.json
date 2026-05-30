@@ -80,6 +80,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "PolyFlex TPU90 @BBL P2S"
+    ],
+    "filament_vendor": [
+        "Polymaker"
+    ],
+    "filament_type": [
+        "TPU"
+    ],
     "cool_plate_temp": [
         "45"
     ],

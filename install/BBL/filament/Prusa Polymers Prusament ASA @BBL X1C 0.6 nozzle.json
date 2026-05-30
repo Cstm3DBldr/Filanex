@@ -58,6 +58,15 @@
     "compatible_printers": [
         "Bambu Lab X1 Carbon 0.6 nozzle"
     ],
+    "filament_settings_id": [
+        "Prusa Polymers Prusament ASA @BBL X1C"
+    ],
+    "filament_vendor": [
+        "Prusa Polymers"
+    ],
+    "filament_type": [
+        "ASA"
+    ],
     "cool_plate_temp": [
         "0"
     ],

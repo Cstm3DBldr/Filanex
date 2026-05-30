@@ -131,6 +131,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "Flashforge ABS @BBL P2S"
+    ],
+    "filament_vendor": [
+        "Flashforge"
+    ],
+    "filament_type": [
+        "ABS"
+    ],
     "cool_plate_temp": [
         "0"
     ],

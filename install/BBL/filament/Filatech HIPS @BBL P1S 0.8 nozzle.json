@@ -69,6 +69,15 @@
     "compatible_printers": [
         "Bambu Lab P1S 0.8 nozzle"
     ],
+    "filament_settings_id": [
+        "Filatech HIPS @BBL P1S"
+    ],
+    "filament_vendor": [
+        "Filatech"
+    ],
+    "filament_type": [
+        "HIPS"
+    ],
     "cool_plate_temp": [
         "35"
     ],

@@ -80,6 +80,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "Anycubic TPU @BBL P2S"
+    ],
+    "filament_vendor": [
+        "Anycubic"
+    ],
+    "filament_type": [
+        "TPU"
+    ],
     "cool_plate_temp": [
         "45"
     ],

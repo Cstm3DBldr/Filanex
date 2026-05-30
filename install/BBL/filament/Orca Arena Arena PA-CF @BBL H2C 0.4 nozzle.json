@@ -71,6 +71,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Orca Arena Arena PA-CF @BBL H2C"
+    ],
+    "filament_vendor": [
+        "Orca Arena"
+    ],
+    "filament_type": [
+        "PA-CF"
+    ],
     "cool_plate_temp": [
         "0"
     ],

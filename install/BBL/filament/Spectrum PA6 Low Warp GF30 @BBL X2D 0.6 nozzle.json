@@ -74,6 +74,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "Spectrum PA6 Low Warp GF30 @BBL X2D"
+    ],
+    "filament_vendor": [
+        "Spectrum"
+    ],
+    "filament_type": [
+        "PA-GF"
+    ],
     "cool_plate_temp": [
         "0"
     ],

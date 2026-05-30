@@ -79,6 +79,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Spectrum PETG CF @BBL H2DP"
+    ],
+    "filament_vendor": [
+        "Spectrum"
+    ],
+    "filament_type": [
+        "PETG-CF"
+    ],
     "cool_plate_temp": [
         "65"
     ],

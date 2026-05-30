@@ -80,6 +80,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "Overture TPU @BBL P2S"
+    ],
+    "filament_vendor": [
+        "Overture"
+    ],
+    "filament_type": [
+        "TPU"
+    ],
     "cool_plate_temp": [
         "30"
     ],

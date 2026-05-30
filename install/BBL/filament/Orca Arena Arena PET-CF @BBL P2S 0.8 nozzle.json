@@ -119,6 +119,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "Orca Arena Arena PET-CF @BBL P2S"
+    ],
+    "filament_vendor": [
+        "Orca Arena"
+    ],
+    "filament_type": [
+        "PET-CF"
+    ],
     "cool_plate_temp": [
         "65"
     ],

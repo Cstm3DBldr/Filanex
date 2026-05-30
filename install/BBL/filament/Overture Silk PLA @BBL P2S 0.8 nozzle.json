@@ -109,6 +109,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "Overture Silk PLA @BBL P2S"
+    ],
+    "filament_vendor": [
+        "Overture"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
     "cool_plate_temp": [
         "35"
     ],

@@ -44,6 +44,15 @@
     "compatible_printers": [
         "Bambu Lab H2C 0.4 nozzle"
     ],
+    "filament_settings_id": [
+        "Orca Arena Arena PLA Matte @BBL H2C"
+    ],
+    "filament_vendor": [
+        "Orca Arena"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
     "cool_plate_temp": [
         "60"
     ],

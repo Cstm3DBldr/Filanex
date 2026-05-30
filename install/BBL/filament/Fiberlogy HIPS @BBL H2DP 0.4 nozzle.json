@@ -38,6 +38,15 @@
     "compatible_printers": [
         "Bambu Lab H2D Pro 0.4 nozzle"
     ],
+    "filament_settings_id": [
+        "Fiberlogy HIPS @BBL H2DP"
+    ],
+    "filament_vendor": [
+        "Fiberlogy"
+    ],
+    "filament_type": [
+        "HIPS"
+    ],
     "cool_plate_temp": [
         "35"
     ],

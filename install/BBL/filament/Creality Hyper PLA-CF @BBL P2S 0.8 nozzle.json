@@ -87,6 +87,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "Creality Hyper PLA-CF @BBL P2S"
+    ],
+    "filament_vendor": [
+        "Creality"
+    ],
+    "filament_type": [
+        "PLA-CF"
+    ],
     "cool_plate_temp": [
         "50"
     ],

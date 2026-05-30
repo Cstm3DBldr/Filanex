@@ -44,6 +44,15 @@
     "compatible_printers": [
         "Bambu Lab A1 mini 0.6 nozzle"
     ],
+    "filament_settings_id": [
+        "Overture ROCK PLA @BBL A1M"
+    ],
+    "filament_vendor": [
+        "Overture"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
     "cool_plate_temp": [
         "60"
     ],

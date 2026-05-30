@@ -105,6 +105,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "Orca Arena Arena PLA Sparkle @BBL P2S"
+    ],
+    "filament_vendor": [
+        "Orca Arena"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
     "cool_plate_temp": [
         "60"
     ],

@@ -104,6 +104,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "Creality Hyper L-W PLA @BBL X2D"
+    ],
+    "filament_vendor": [
+        "Creality"
+    ],
+    "filament_type": [
+        "PLA-LW"
+    ],
     "cool_plate_temp": [
         "35"
     ],

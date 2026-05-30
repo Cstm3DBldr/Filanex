@@ -81,6 +81,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Polymaker PLA Pro @BBL H2DP"
+    ],
+    "filament_vendor": [
+        "Polymaker"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
     "cool_plate_temp": [
         "42"
     ],

@@ -81,6 +81,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Peopoly Lancer PLA-C @BBL H2DP"
+    ],
+    "filament_vendor": [
+        "Peopoly"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
     "cool_plate_temp": [
         "60"
     ],

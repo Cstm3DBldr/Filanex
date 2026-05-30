@@ -38,6 +38,15 @@
     "compatible_printers": [
         "Bambu Lab H2C 0.4 nozzle"
     ],
+    "filament_settings_id": [
+        "Anycubic ABS @BBL H2C"
+    ],
+    "filament_vendor": [
+        "Anycubic"
+    ],
+    "filament_type": [
+        "ABS"
+    ],
     "cool_plate_temp": [
         "0"
     ],

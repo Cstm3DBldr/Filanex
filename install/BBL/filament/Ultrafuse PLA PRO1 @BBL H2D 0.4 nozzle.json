@@ -44,6 +44,15 @@
     "compatible_printers": [
         "Bambu Lab H2D 0.4 nozzle"
     ],
+    "filament_settings_id": [
+        "Ultrafuse PLA PRO1 @BBL H2D"
+    ],
+    "filament_vendor": [
+        "Ultrafuse"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
     "cool_plate_temp": [
         "35"
     ],

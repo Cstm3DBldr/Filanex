@@ -71,6 +71,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Prusa Polymers PA11 CF @BBL H2C"
+    ],
+    "filament_vendor": [
+        "Prusa Polymers"
+    ],
+    "filament_type": [
+        "PA-CF"
+    ],
     "cool_plate_temp": [
         "0"
     ],

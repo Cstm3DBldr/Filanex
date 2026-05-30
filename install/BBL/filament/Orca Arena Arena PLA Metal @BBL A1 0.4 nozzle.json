@@ -44,6 +44,15 @@
     "compatible_printers": [
         "Bambu Lab A1 0.4 nozzle"
     ],
+    "filament_settings_id": [
+        "Orca Arena Arena PLA Metal @BBL A1"
+    ],
+    "filament_vendor": [
+        "Orca Arena"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
     "cool_plate_temp": [
         "60"
     ],

@@ -112,6 +112,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Fiberlogy FiberFlex 30D @BBL A1M"
+    ],
+    "filament_vendor": [
+        "Fiberlogy"
+    ],
+    "filament_type": [
+        "TPU"
+    ],
     "cool_plate_temp": [
         "45"
     ],

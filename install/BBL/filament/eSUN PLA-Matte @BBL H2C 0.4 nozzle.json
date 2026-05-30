@@ -44,6 +44,15 @@
     "compatible_printers": [
         "Bambu Lab H2C 0.4 nozzle"
     ],
+    "filament_settings_id": [
+        "eSUN PLA-Matte @BBL H2C"
+    ],
+    "filament_vendor": [
+        "eSUN"
+    ],
+    "filament_type": [
+        "PLA-Matte"
+    ],
     "cool_plate_temp": [
         "35"
     ],

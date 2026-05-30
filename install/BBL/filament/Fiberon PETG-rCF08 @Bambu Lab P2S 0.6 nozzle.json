@@ -91,6 +91,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "Fiberon PETG-rCF08 @BBL P2S"
+    ],
+    "filament_vendor": [
+        "Polymaker"
+    ],
+    "filament_type": [
+        "PETG-CF"
+    ],
     "cool_plate_temp": [
         "65"
     ],

@@ -71,6 +71,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Polymaker PA12-CF @BBL H2C"
+    ],
+    "filament_vendor": [
+        "Polymaker"
+    ],
+    "filament_type": [
+        "PA12-CF"
+    ],
     "cool_plate_temp": [
         "0"
     ],

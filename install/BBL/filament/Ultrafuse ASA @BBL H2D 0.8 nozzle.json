@@ -70,6 +70,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Ultrafuse ASA @BBL H2D"
+    ],
+    "filament_vendor": [
+        "Ultrafuse"
+    ],
+    "filament_type": [
+        "ASA"
+    ],
     "cool_plate_temp": [
         "0"
     ],

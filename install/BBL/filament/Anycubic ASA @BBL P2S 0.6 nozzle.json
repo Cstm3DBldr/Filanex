@@ -99,6 +99,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "Anycubic ASA @BBL P2S"
+    ],
+    "filament_vendor": [
+        "Anycubic"
+    ],
+    "filament_type": [
+        "ASA"
+    ],
     "cool_plate_temp": [
         "0"
     ],

@@ -41,6 +41,15 @@
     "compatible_printers": [
         "Bambu Lab A1 mini 0.4 nozzle"
     ],
+    "filament_settings_id": [
+        "addnorth PETG Economy @BBL A1M"
+    ],
+    "filament_vendor": [
+        "addnorth"
+    ],
+    "filament_type": [
+        "PETG"
+    ],
     "cool_plate_temp": [
         "65"
     ],

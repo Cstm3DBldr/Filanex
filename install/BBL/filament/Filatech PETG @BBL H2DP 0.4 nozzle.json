@@ -95,6 +95,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Filatech PETG @BBL H2DP"
+    ],
+    "filament_vendor": [
+        "Filatech"
+    ],
+    "filament_type": [
+        "PETG"
+    ],
     "cool_plate_temp": [
         "65"
     ],

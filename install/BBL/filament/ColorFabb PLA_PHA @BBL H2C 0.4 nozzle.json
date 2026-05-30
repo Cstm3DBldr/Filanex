@@ -44,6 +44,15 @@
     "compatible_printers": [
         "Bambu Lab H2C 0.4 nozzle"
     ],
+    "filament_settings_id": [
+        "ColorFabb PLA/PHA @BBL H2C"
+    ],
+    "filament_vendor": [
+        "ColorFabb"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
     "cool_plate_temp": [
         "35"
     ],

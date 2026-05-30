@@ -74,6 +74,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "PolyDissolve S1 @BBL X2D"
+    ],
+    "filament_vendor": [
+        "Polymaker"
+    ],
+    "filament_type": [
+        "PVA"
+    ],
     "cool_plate_temp": [
         "35"
     ],

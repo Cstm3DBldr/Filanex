@@ -71,6 +71,15 @@
     "compatible_printers": [
         "Bambu Lab X1 Carbon 0.6 nozzle"
     ],
+    "filament_settings_id": [
+        "Prusa Polymers rPETG @BBL X1C"
+    ],
+    "filament_vendor": [
+        "Prusa Polymers"
+    ],
+    "filament_type": [
+        "PETG"
+    ],
     "cool_plate_temp": [
         "65"
     ],

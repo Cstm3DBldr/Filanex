@@ -76,6 +76,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Filatech ABS @BBL H2D"
+    ],
+    "filament_vendor": [
+        "Filatech"
+    ],
+    "filament_type": [
+        "ABS"
+    ],
     "cool_plate_temp": [
         "0"
     ],

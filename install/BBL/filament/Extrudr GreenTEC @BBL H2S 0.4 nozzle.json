@@ -44,6 +44,15 @@
     "compatible_printers": [
         "Bambu Lab H2S 0.4 nozzle"
     ],
+    "filament_settings_id": [
+        "Extrudr GreenTEC @BBL H2S"
+    ],
+    "filament_vendor": [
+        "Extrudr"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
     "cool_plate_temp": [
         "35"
     ],

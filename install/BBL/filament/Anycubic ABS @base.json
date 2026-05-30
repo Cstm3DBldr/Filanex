@@ -18,6 +18,9 @@
     "impact_strength_z": [
         "7.4"
     ],
+    "filament_type": [
+        "ABS"
+    ],
     "cool_plate_temp": [
         "0"
     ],

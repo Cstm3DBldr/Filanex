@@ -42,6 +42,15 @@
     "compatible_printers": [
         "Bambu Lab X1E 0.6 nozzle"
     ],
+    "filament_settings_id": [
+        "Ultimaker PC @BBL X1E"
+    ],
+    "filament_vendor": [
+        "Ultimaker"
+    ],
+    "filament_type": [
+        "PC"
+    ],
     "cool_plate_temp": [
         "0"
     ],

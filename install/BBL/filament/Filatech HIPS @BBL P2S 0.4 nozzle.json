@@ -131,6 +131,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "Filatech HIPS @BBL P2S"
+    ],
+    "filament_vendor": [
+        "Filatech"
+    ],
+    "filament_type": [
+        "HIPS"
+    ],
     "cool_plate_temp": [
         "35"
     ],

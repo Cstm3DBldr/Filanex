@@ -56,6 +56,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Anycubic ASA @BBL H2DP"
+    ],
+    "filament_vendor": [
+        "Anycubic"
+    ],
+    "filament_type": [
+        "ASA"
+    ],
     "cool_plate_temp": [
         "0"
     ],

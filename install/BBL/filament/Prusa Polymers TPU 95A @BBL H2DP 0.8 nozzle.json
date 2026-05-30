@@ -112,6 +112,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Prusa Polymers TPU 95A @BBL H2DP"
+    ],
+    "filament_vendor": [
+        "Prusa Polymers"
+    ],
+    "filament_type": [
+        "TPU"
+    ],
     "cool_plate_temp": [
         "45"
     ],

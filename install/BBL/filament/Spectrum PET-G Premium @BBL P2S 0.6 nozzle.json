@@ -117,6 +117,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "Spectrum PET-G Premium @BBL P2S"
+    ],
+    "filament_vendor": [
+        "Spectrum"
+    ],
+    "filament_type": [
+        "PETG"
+    ],
     "cool_plate_temp": [
         "65"
     ],

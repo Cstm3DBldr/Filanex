@@ -80,6 +80,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "Fiberlogy MattFlex 40D @BBL X2D"
+    ],
+    "filament_vendor": [
+        "Fiberlogy"
+    ],
+    "filament_type": [
+        "TPU"
+    ],
     "cool_plate_temp": [
         "45"
     ],

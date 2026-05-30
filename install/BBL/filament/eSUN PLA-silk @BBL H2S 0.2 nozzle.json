@@ -96,6 +96,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "eSUN PLA-silk @BBL H2S"
+    ],
+    "filament_vendor": [
+        "eSUN"
+    ],
+    "filament_type": [
+        "PLA-Silk"
+    ],
     "cool_plate_temp": [
         "35"
     ],

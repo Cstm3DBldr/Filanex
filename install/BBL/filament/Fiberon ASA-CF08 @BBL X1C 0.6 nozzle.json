@@ -43,6 +43,15 @@
     "compatible_printers": [
         "Bambu Lab X1 Carbon 0.6 nozzle"
     ],
+    "filament_settings_id": [
+        "Fiberon ASA-CF08 @BBL X1C"
+    ],
+    "filament_vendor": [
+        "Polymaker"
+    ],
+    "filament_type": [
+        "ASA-CF"
+    ],
     "cool_plate_temp": [
         "0"
     ],

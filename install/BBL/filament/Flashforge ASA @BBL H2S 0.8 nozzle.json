@@ -114,6 +114,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Flashforge ASA @BBL H2S"
+    ],
+    "filament_vendor": [
+        "Flashforge"
+    ],
+    "filament_type": [
+        "ASA"
+    ],
     "cool_plate_temp": [
         "0"
     ],

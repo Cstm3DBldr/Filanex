@@ -61,6 +61,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Extrudr PETG @BBL H2DP"
+    ],
+    "filament_vendor": [
+        "Extrudr"
+    ],
+    "filament_type": [
+        "PETG"
+    ],
     "cool_plate_temp": [
         "65"
     ],

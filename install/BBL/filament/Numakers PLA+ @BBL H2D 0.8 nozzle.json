@@ -88,6 +88,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Numakers PLA+ @BBL H2D"
+    ],
+    "filament_vendor": [
+        "Numakers"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
     "cool_plate_temp": [
         "35"
     ],

@@ -29,6 +29,15 @@
     "compatible_printers": [
         "Bambu Lab A1 0.8 nozzle"
     ],
+    "filament_settings_id": [
+        "addnorth ESD-PETG @BBL A1"
+    ],
+    "filament_vendor": [
+        "addnorth"
+    ],
+    "filament_type": [
+        "PETG-ESD"
+    ],
     "cool_plate_temp": [
         "65"
     ],

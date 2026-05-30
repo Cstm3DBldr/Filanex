@@ -44,6 +44,15 @@
     "compatible_printers": [
         "Bambu Lab H2C 0.4 nozzle"
     ],
+    "filament_settings_id": [
+        "Snapmaker SnapSpeed PLA @BBL H2C"
+    ],
+    "filament_vendor": [
+        "Snapmaker"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
     "cool_plate_temp": [
         "35"
     ],

@@ -71,6 +71,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Filatech PA @BBL X1C"
+    ],
+    "filament_vendor": [
+        "Filatech"
+    ],
+    "filament_type": [
+        "PA"
+    ],
     "cool_plate_temp": [
         "0"
     ],

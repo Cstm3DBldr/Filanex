@@ -71,6 +71,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Fiberlogy Nylon PA12 @BBL H2S"
+    ],
+    "filament_vendor": [
+        "Fiberlogy"
+    ],
+    "filament_type": [
+        "PA"
+    ],
     "cool_plate_temp": [
         "0"
     ],

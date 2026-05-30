@@ -72,6 +72,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Fiberlogy HIPS @BBL H2D"
+    ],
+    "filament_vendor": [
+        "Fiberlogy"
+    ],
+    "filament_type": [
+        "HIPS"
+    ],
     "cool_plate_temp": [
         "35"
     ],

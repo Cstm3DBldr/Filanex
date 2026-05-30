@@ -41,6 +41,15 @@
     "compatible_printers": [
         "Bambu Lab A1 0.8 nozzle"
     ],
+    "filament_settings_id": [
+        "Ultimaker PVA @BBL A1"
+    ],
+    "filament_vendor": [
+        "Ultimaker"
+    ],
+    "filament_type": [
+        "PVA"
+    ],
     "cool_plate_temp": [
         "35"
     ],

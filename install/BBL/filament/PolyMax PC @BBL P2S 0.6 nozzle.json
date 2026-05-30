@@ -121,6 +121,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "PolyMax PC @BBL P2S"
+    ],
+    "filament_vendor": [
+        "Polymaker"
+    ],
+    "filament_type": [
+        "PC"
+    ],
     "cool_plate_temp": [
         "0"
     ],

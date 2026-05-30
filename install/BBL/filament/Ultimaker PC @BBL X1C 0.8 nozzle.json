@@ -49,6 +49,15 @@
     "compatible_printers": [
         "Bambu Lab X1 Carbon 0.8 nozzle"
     ],
+    "filament_settings_id": [
+        "Ultimaker PC @BBL X1C"
+    ],
+    "filament_vendor": [
+        "Ultimaker"
+    ],
+    "filament_type": [
+        "PC"
+    ],
     "cool_plate_temp": [
         "0"
     ],

@@ -76,6 +76,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Filatech HIPS @BBL H2D"
+    ],
+    "filament_vendor": [
+        "Filatech"
+    ],
+    "filament_type": [
+        "HIPS"
+    ],
     "cool_plate_temp": [
         "35"
     ],

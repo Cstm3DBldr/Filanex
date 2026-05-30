@@ -117,6 +117,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "addnorth PETG Economy @BBL P2S"
+    ],
+    "filament_vendor": [
+        "addnorth"
+    ],
+    "filament_type": [
+        "PETG"
+    ],
     "cool_plate_temp": [
         "65"
     ],

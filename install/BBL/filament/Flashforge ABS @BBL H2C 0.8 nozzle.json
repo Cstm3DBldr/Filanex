@@ -120,6 +120,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Flashforge ABS @BBL H2C"
+    ],
+    "filament_vendor": [
+        "Flashforge"
+    ],
+    "filament_type": [
+        "ABS"
+    ],
     "cool_plate_temp": [
         "0"
     ],

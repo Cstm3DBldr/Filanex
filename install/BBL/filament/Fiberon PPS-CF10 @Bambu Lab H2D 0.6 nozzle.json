@@ -97,6 +97,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Fiberon PPS-CF10 @BBL H2D"
+    ],
+    "filament_vendor": [
+        "Polymaker"
+    ],
+    "filament_type": [
+        "PP-CF"
+    ],
     "cool_plate_temp": [
         "0"
     ],

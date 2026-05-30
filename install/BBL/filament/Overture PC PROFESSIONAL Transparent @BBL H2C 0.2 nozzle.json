@@ -60,6 +60,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Overture PC PROFESSIONAL Transparent @BBL H2C"
+    ],
+    "filament_vendor": [
+        "Overture"
+    ],
+    "filament_type": [
+        "PC"
+    ],
     "cool_plate_temp": [
         "0"
     ],

@@ -52,6 +52,15 @@
     "compatible_printers": [
         "Bambu Lab X1E 0.8 nozzle"
     ],
+    "filament_settings_id": [
+        "Creality Hyper PC @BBL X1E"
+    ],
+    "filament_vendor": [
+        "Creality"
+    ],
+    "filament_type": [
+        "PC"
+    ],
     "cool_plate_temp": [
         "0"
     ],

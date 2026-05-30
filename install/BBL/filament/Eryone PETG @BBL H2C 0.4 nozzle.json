@@ -105,6 +105,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Eryone PETG @BBL H2C"
+    ],
+    "filament_vendor": [
+        "Eryone"
+    ],
+    "filament_type": [
+        "PETG"
+    ],
     "cool_plate_temp": [
         "60"
     ],

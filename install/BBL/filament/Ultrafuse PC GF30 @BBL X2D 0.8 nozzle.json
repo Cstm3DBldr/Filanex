@@ -122,6 +122,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "Ultrafuse PC GF30 @BBL X2D"
+    ],
+    "filament_vendor": [
+        "Ultrafuse"
+    ],
+    "filament_type": [
+        "PC"
+    ],
     "cool_plate_temp": [
         "0"
     ],

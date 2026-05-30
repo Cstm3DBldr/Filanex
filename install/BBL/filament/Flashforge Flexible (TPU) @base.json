@@ -24,6 +24,9 @@
     "nozzle_temperature_initial_layer": [
         "210.0"
     ],
+    "filament_type": [
+        "TPU"
+    ],
     "cool_plate_temp": [
         "45"
     ],

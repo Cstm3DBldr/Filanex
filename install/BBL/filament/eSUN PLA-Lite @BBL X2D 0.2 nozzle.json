@@ -149,6 +149,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "eSUN PLA-Lite @BBL X2D"
+    ],
+    "filament_vendor": [
+        "eSUN"
+    ],
+    "filament_type": [
+        "PLA-Lite"
+    ],
     "cool_plate_temp": [
         "35"
     ],

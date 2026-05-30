@@ -81,6 +81,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "ColorFabb LW-PLA @BBL H2DP"
+    ],
+    "filament_vendor": [
+        "ColorFabb"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
     "cool_plate_temp": [
         "35"
     ],

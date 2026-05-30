@@ -98,6 +98,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Fiberon PA6-CF20 @BBL X1C"
+    ],
+    "filament_vendor": [
+        "Polymaker"
+    ],
+    "filament_type": [
+        "PA6-CF"
+    ],
     "cool_plate_temp": [
         "0"
     ],

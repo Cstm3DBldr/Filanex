@@ -134,6 +134,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "eSUN PLA-silk @BBL P2S"
+    ],
+    "filament_vendor": [
+        "eSUN"
+    ],
+    "filament_type": [
+        "PLA-Silk"
+    ],
     "cool_plate_temp": [
         "35"
     ],

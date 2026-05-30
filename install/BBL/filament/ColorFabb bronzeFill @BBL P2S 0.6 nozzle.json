@@ -105,6 +105,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "ColorFabb bronzeFill @BBL P2S"
+    ],
+    "filament_vendor": [
+        "ColorFabb"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
     "cool_plate_temp": [
         "35"
     ],

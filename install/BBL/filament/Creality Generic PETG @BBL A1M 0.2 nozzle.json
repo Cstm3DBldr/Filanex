@@ -41,6 +41,15 @@
     "compatible_printers": [
         "Bambu Lab A1 mini 0.2 nozzle"
     ],
+    "filament_settings_id": [
+        "Creality Generic PETG @BBL A1M"
+    ],
+    "filament_vendor": [
+        "Creality"
+    ],
+    "filament_type": [
+        "PETG"
+    ],
     "cool_plate_temp": [
         "70"
     ],

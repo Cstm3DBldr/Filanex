@@ -41,6 +41,15 @@
     "compatible_printers": [
         "Bambu Lab P1S 0.4 nozzle"
     ],
+    "filament_settings_id": [
+        "Ultimaker PC @BBL P1S"
+    ],
+    "filament_vendor": [
+        "Ultimaker"
+    ],
+    "filament_type": [
+        "PC"
+    ],
     "cool_plate_temp": [
         "0"
     ],

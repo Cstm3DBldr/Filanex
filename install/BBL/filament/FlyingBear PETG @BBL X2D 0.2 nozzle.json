@@ -161,6 +161,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "FlyingBear PETG @BBL X2D"
+    ],
+    "filament_vendor": [
+        "FlyingBear"
+    ],
+    "filament_type": [
+        "PETG"
+    ],
     "cool_plate_temp": [
         "60"
     ],

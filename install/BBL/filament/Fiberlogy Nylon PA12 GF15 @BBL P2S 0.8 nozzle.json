@@ -74,6 +74,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "Fiberlogy Nylon PA12 GF15 @BBL P2S"
+    ],
+    "filament_vendor": [
+        "Fiberlogy"
+    ],
+    "filament_type": [
+        "PA-GF"
+    ],
     "cool_plate_temp": [
         "0"
     ],

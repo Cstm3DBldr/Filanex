@@ -44,6 +44,15 @@
     "compatible_printers": [
         "Bambu Lab H2D 0.4 nozzle"
     ],
+    "filament_settings_id": [
+        "PolySmooth @BBL H2D"
+    ],
+    "filament_vendor": [
+        "Polymaker"
+    ],
+    "filament_type": [
+        "PVB"
+    ],
     "cool_plate_temp": [
         "35"
     ],

@@ -80,6 +80,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "ColorFabb varioShore TPU @BBL X2D"
+    ],
+    "filament_vendor": [
+        "ColorFabb"
+    ],
+    "filament_type": [
+        "TPU"
+    ],
     "cool_plate_temp": [
         "45"
     ],

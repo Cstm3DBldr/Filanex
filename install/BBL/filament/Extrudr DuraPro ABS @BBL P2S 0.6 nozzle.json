@@ -91,6 +91,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "Extrudr DuraPro ABS @BBL P2S"
+    ],
+    "filament_vendor": [
+        "Extrudr"
+    ],
+    "filament_type": [
+        "ABS"
+    ],
     "cool_plate_temp": [
         "0"
     ],

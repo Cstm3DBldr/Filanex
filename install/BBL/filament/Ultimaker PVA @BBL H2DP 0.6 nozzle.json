@@ -81,6 +81,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Ultimaker PVA @BBL H2DP"
+    ],
+    "filament_vendor": [
+        "Ultimaker"
+    ],
+    "filament_type": [
+        "PVA"
+    ],
     "cool_plate_temp": [
         "35"
     ],

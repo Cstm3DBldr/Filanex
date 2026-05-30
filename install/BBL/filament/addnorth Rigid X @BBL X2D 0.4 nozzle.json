@@ -107,6 +107,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "addnorth Rigid X @BBL X2D"
+    ],
+    "filament_vendor": [
+        "addnorth"
+    ],
+    "filament_type": [
+        "PETG-CF"
+    ],
     "cool_plate_temp": [
         "65"
     ],

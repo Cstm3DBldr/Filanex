@@ -119,6 +119,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Fillamentum PETG @BBL H2S"
+    ],
+    "filament_vendor": [
+        "Fillamentum"
+    ],
+    "filament_type": [
+        "PETG"
+    ],
     "cool_plate_temp": [
         "65"
     ],

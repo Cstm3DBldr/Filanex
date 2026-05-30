@@ -41,6 +41,15 @@
     "compatible_printers": [
         "Bambu Lab A1 0.4 nozzle"
     ],
+    "filament_settings_id": [
+        "PolyDissolve S1 @BBL A1"
+    ],
+    "filament_vendor": [
+        "Polymaker"
+    ],
+    "filament_type": [
+        "PVA"
+    ],
     "cool_plate_temp": [
         "35"
     ],

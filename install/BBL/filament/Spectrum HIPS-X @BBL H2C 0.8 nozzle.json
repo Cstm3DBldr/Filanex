@@ -120,6 +120,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Spectrum HIPS-X @BBL H2C"
+    ],
+    "filament_vendor": [
+        "Spectrum"
+    ],
+    "filament_type": [
+        "HIPS"
+    ],
     "cool_plate_temp": [
         "35"
     ],

@@ -69,6 +69,15 @@
     "compatible_printers": [
         "Bambu Lab P1S 0.4 nozzle"
     ],
+    "filament_settings_id": [
+        "FlyingBear ABS @BBL P1S"
+    ],
+    "filament_vendor": [
+        "FlyingBear"
+    ],
+    "filament_type": [
+        "ABS"
+    ],
     "cool_plate_temp": [
         "0"
     ],

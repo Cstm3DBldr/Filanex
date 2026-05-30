@@ -69,6 +69,15 @@
     "compatible_printers": [
         "Bambu Lab X1 Carbon 0.4 nozzle"
     ],
+    "filament_settings_id": [
+        "Creality Hyper ABS @BBL X1C"
+    ],
+    "filament_vendor": [
+        "Creality"
+    ],
+    "filament_type": [
+        "ABS"
+    ],
     "cool_plate_temp": [
         "0"
     ],

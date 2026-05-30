@@ -41,6 +41,15 @@
     "compatible_printers": [
         "Bambu Lab A1 0.4 nozzle"
     ],
+    "filament_settings_id": [
+        "Orca Arena Arena PETG Basic @BBL A1"
+    ],
+    "filament_vendor": [
+        "Orca Arena"
+    ],
+    "filament_type": [
+        "PETG"
+    ],
     "cool_plate_temp": [
         "65"
     ],

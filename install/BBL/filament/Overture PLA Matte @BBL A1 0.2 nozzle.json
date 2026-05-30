@@ -44,6 +44,15 @@
     "compatible_printers": [
         "Bambu Lab A1 0.2 nozzle"
     ],
+    "filament_settings_id": [
+        "Overture PLA Matte @BBL A1"
+    ],
+    "filament_vendor": [
+        "Overture"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
     "cool_plate_temp": [
         "35"
     ],

@@ -44,6 +44,15 @@
     "compatible_printers": [
         "Bambu Lab A1 mini 0.2 nozzle"
     ],
+    "filament_settings_id": [
+        "Fillamentum PLA Extrafill @BBL A1M"
+    ],
+    "filament_vendor": [
+        "Fillamentum"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
     "cool_plate_temp": [
         "35"
     ],

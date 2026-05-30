@@ -75,6 +75,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "eSUN PLA-Matte @BBL H2D"
+    ],
+    "filament_vendor": [
+        "eSUN"
+    ],
+    "filament_type": [
+        "PLA-Matte"
+    ],
     "cool_plate_temp": [
         "35"
     ],

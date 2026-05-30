@@ -119,6 +119,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "Peopoly Lancer PET-CF @BBL X2D"
+    ],
+    "filament_vendor": [
+        "Peopoly"
+    ],
+    "filament_type": [
+        "PET-CF"
+    ],
     "cool_plate_temp": [
         "105"
     ],

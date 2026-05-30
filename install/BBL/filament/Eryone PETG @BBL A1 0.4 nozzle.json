@@ -41,6 +41,15 @@
     "compatible_printers": [
         "Bambu Lab A1 0.4 nozzle"
     ],
+    "filament_settings_id": [
+        "Eryone PETG @BBL A1"
+    ],
+    "filament_vendor": [
+        "Eryone"
+    ],
+    "filament_type": [
+        "PETG"
+    ],
     "cool_plate_temp": [
         "60"
     ],

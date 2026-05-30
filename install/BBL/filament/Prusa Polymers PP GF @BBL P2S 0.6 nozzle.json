@@ -105,6 +105,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "Prusa Polymers PP GF @BBL P2S"
+    ],
+    "filament_vendor": [
+        "Prusa Polymers"
+    ],
+    "filament_type": [
+        "PP"
+    ],
     "cool_plate_temp": [
         "35"
     ],

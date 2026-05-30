@@ -38,6 +38,15 @@
     "compatible_printers": [
         "Bambu Lab H2D Pro 0.4 nozzle"
     ],
+    "filament_settings_id": [
+        "SUNLU ABS @BBL H2DP"
+    ],
+    "filament_vendor": [
+        "SUNLU"
+    ],
+    "filament_type": [
+        "ABS"
+    ],
     "cool_plate_temp": [
         "0"
     ],

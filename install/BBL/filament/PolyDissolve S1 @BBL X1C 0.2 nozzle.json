@@ -43,6 +43,15 @@
     "compatible_printers": [
         "Bambu Lab X1 Carbon 0.2 nozzle"
     ],
+    "filament_settings_id": [
+        "PolyDissolve S1 @BBL X1C"
+    ],
+    "filament_vendor": [
+        "Polymaker"
+    ],
+    "filament_type": [
+        "PVA"
+    ],
     "cool_plate_temp": [
         "35"
     ],

@@ -69,6 +69,15 @@
     "compatible_printers": [
         "Bambu Lab X1 Carbon 0.4 nozzle"
     ],
+    "filament_settings_id": [
+        "Spectrum HIPS-X @BBL X1C"
+    ],
+    "filament_vendor": [
+        "Spectrum"
+    ],
+    "filament_type": [
+        "HIPS"
+    ],
     "cool_plate_temp": [
         "35"
     ],

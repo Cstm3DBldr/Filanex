@@ -51,6 +51,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "addnorth ESD-PETG @BBL H2DP"
+    ],
+    "filament_vendor": [
+        "addnorth"
+    ],
+    "filament_type": [
+        "PETG-ESD"
+    ],
     "cool_plate_temp": [
         "65"
     ],

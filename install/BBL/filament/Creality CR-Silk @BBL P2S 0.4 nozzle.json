@@ -134,6 +134,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "Creality CR-Silk @BBL P2S"
+    ],
+    "filament_vendor": [
+        "Creality"
+    ],
+    "filament_type": [
+        "PLA-Silk"
+    ],
     "cool_plate_temp": [
         "35"
     ],

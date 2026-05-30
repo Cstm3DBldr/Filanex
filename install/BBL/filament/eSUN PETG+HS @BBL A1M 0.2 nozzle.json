@@ -41,6 +41,15 @@
     "compatible_printers": [
         "Bambu Lab A1 mini 0.2 nozzle"
     ],
+    "filament_settings_id": [
+        "eSUN PETG+HS @BBL A1M"
+    ],
+    "filament_vendor": [
+        "eSUN"
+    ],
+    "filament_type": [
+        "PETG"
+    ],
     "cool_plate_temp": [
         "70"
     ],

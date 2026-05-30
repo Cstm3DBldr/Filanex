@@ -78,6 +78,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Ultrafuse PA6 GF30 @BBL H2D"
+    ],
+    "filament_vendor": [
+        "Ultrafuse"
+    ],
+    "filament_type": [
+        "PA-GF"
+    ],
     "cool_plate_temp": [
         "0"
     ],

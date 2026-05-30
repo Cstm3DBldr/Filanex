@@ -71,6 +71,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Fillamentum Nylon CF15 @BBL H2DP"
+    ],
+    "filament_vendor": [
+        "Fillamentum"
+    ],
+    "filament_type": [
+        "PA-CF"
+    ],
     "cool_plate_temp": [
         "0"
     ],

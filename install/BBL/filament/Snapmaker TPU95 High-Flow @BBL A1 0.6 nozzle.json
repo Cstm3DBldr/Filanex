@@ -112,6 +112,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Snapmaker TPU95 High-Flow @BBL A1"
+    ],
+    "filament_vendor": [
+        "Snapmaker"
+    ],
+    "filament_type": [
+        "TPU"
+    ],
     "cool_plate_temp": [
         "45"
     ],

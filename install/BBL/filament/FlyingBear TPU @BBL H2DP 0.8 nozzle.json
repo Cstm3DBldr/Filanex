@@ -112,6 +112,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "FlyingBear TPU @BBL H2DP"
+    ],
+    "filament_vendor": [
+        "FlyingBear"
+    ],
+    "filament_type": [
+        "TPU"
+    ],
     "cool_plate_temp": [
         "30"
     ],

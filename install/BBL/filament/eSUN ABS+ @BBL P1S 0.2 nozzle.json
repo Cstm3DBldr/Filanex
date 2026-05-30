@@ -69,6 +69,15 @@
     "compatible_printers": [
         "Bambu Lab P1S 0.2 nozzle"
     ],
+    "filament_settings_id": [
+        "eSUN ABS+ @BBL P1S"
+    ],
+    "filament_vendor": [
+        "eSUN"
+    ],
+    "filament_type": [
+        "ABS+"
+    ],
     "cool_plate_temp": [
         "0"
     ],

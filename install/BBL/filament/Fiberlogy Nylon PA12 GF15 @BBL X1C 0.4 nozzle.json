@@ -78,6 +78,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Fiberlogy Nylon PA12 GF15 @BBL X1C"
+    ],
+    "filament_vendor": [
+        "Fiberlogy"
+    ],
+    "filament_type": [
+        "PA-GF"
+    ],
     "cool_plate_temp": [
         "0"
     ],

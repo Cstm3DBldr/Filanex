@@ -38,6 +38,15 @@
     "compatible_printers": [
         "Bambu Lab H2D Pro 0.4 nozzle"
     ],
+    "filament_settings_id": [
+        "Ultrafuse ABS Fusion+ @BBL H2DP"
+    ],
+    "filament_vendor": [
+        "Ultrafuse"
+    ],
+    "filament_type": [
+        "ABS"
+    ],
     "cool_plate_temp": [
         "0"
     ],

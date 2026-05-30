@@ -44,6 +44,15 @@
     "compatible_printers": [
         "Bambu Lab A1 0.6 nozzle"
     ],
+    "filament_settings_id": [
+        "eSUN PLA-Matte @BBL A1"
+    ],
+    "filament_vendor": [
+        "eSUN"
+    ],
+    "filament_type": [
+        "PLA-Matte"
+    ],
     "cool_plate_temp": [
         "35"
     ],

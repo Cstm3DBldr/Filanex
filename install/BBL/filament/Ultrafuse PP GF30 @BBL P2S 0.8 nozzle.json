@@ -109,6 +109,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "Ultrafuse PP GF30 @BBL P2S"
+    ],
+    "filament_vendor": [
+        "Ultrafuse"
+    ],
+    "filament_type": [
+        "PP"
+    ],
     "cool_plate_temp": [
         "35"
     ],

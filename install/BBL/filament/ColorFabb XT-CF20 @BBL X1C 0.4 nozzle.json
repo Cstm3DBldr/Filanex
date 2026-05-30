@@ -63,6 +63,15 @@
     "compatible_printers": [
         "Bambu Lab X1 Carbon 0.4 nozzle"
     ],
+    "filament_settings_id": [
+        "ColorFabb XT-CF20 @BBL X1C"
+    ],
+    "filament_vendor": [
+        "ColorFabb"
+    ],
+    "filament_type": [
+        "PETG-CF"
+    ],
     "cool_plate_temp": [
         "65"
     ],

@@ -69,6 +69,15 @@
     "compatible_printers": [
         "Bambu Lab P1S 0.2 nozzle"
     ],
+    "filament_settings_id": [
+        "Ultrafuse ABS Fusion+ @BBL P1S"
+    ],
+    "filament_vendor": [
+        "Ultrafuse"
+    ],
+    "filament_type": [
+        "ABS"
+    ],
     "cool_plate_temp": [
         "0"
     ],

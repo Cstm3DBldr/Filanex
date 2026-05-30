@@ -58,6 +58,15 @@
     "compatible_printers": [
         "Bambu Lab X1 0.8 nozzle"
     ],
+    "filament_settings_id": [
+        "Fiberlogy Matte ASA @BBL X1"
+    ],
+    "filament_vendor": [
+        "Fiberlogy"
+    ],
+    "filament_type": [
+        "ASA"
+    ],
     "cool_plate_temp": [
         "0"
     ],

@@ -73,6 +73,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Flashforge PLA-CF @BBL H2S"
+    ],
+    "filament_vendor": [
+        "Flashforge"
+    ],
+    "filament_type": [
+        "PLA-CF"
+    ],
     "cool_plate_temp": [
         "35"
     ],

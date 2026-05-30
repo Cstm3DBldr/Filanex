@@ -44,6 +44,15 @@
     "compatible_printers": [
         "Bambu Lab A1 0.4 nozzle"
     ],
+    "filament_settings_id": [
+        "Anycubic PLA Silk @BBL A1"
+    ],
+    "filament_vendor": [
+        "Anycubic"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
     "cool_plate_temp": [
         "35"
     ],

@@ -44,6 +44,15 @@
     "compatible_printers": [
         "Bambu Lab H2D Pro 0.4 nozzle"
     ],
+    "filament_settings_id": [
+        "Overture PLA PROFESSIONAL @BBL H2DP"
+    ],
+    "filament_vendor": [
+        "Overture"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
     "cool_plate_temp": [
         "60"
     ],

@@ -61,6 +61,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "eSUN PETG-ESD @BBL H2C"
+    ],
+    "filament_vendor": [
+        "eSUN"
+    ],
+    "filament_type": [
+        "PETG-ESD"
+    ],
     "cool_plate_temp": [
         "60"
     ],

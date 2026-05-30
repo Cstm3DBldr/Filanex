@@ -72,6 +72,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "SUNLU PLA+ @BBL H2C"
+    ],
+    "filament_vendor": [
+        "SUNLU"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
     "cool_plate_temp": [
         "35"
     ],

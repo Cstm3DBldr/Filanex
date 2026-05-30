@@ -74,6 +74,15 @@
     "filament_start_gcode": [
         "; filament start gcode\n"
     ],
+    "filament_settings_id": [
+        "Fiberon PA6-GF25 @BBL P2S"
+    ],
+    "filament_vendor": [
+        "Polymaker"
+    ],
+    "filament_type": [
+        "PA6-GF"
+    ],
     "cool_plate_temp": [
         "0"
     ],

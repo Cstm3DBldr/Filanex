@@ -69,6 +69,15 @@
     "compatible_printers": [
         "Bambu Lab P1S 0.8 nozzle"
     ],
+    "filament_settings_id": [
+        "Overture ABS @BBL P1S"
+    ],
+    "filament_vendor": [
+        "Overture"
+    ],
+    "filament_type": [
+        "ABS"
+    ],
     "cool_plate_temp": [
         "0"
     ],

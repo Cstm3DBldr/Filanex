@@ -60,6 +60,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Fiberon ASA-CF08 @BBL H2D"
+    ],
+    "filament_vendor": [
+        "Polymaker"
+    ],
+    "filament_type": [
+        "ASA-CF"
+    ],
     "cool_plate_temp": [
         "0"
     ],

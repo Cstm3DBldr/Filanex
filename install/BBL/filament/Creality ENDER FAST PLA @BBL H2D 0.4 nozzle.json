@@ -44,6 +44,15 @@
     "compatible_printers": [
         "Bambu Lab H2D 0.4 nozzle"
     ],
+    "filament_settings_id": [
+        "Creality ENDER FAST PLA @BBL H2D"
+    ],
+    "filament_vendor": [
+        "Creality"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
     "cool_plate_temp": [
         "50"
     ],

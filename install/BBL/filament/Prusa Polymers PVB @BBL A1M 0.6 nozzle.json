@@ -44,6 +44,15 @@
     "compatible_printers": [
         "Bambu Lab A1 mini 0.6 nozzle"
     ],
+    "filament_settings_id": [
+        "Prusa Polymers PVB @BBL A1M"
+    ],
+    "filament_vendor": [
+        "Prusa Polymers"
+    ],
+    "filament_type": [
+        "PVB"
+    ],
     "cool_plate_temp": [
         "35"
     ],

@@ -102,6 +102,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Hatchbox PLA Carbon Fiber @BBL H2C"
+    ],
+    "filament_vendor": [
+        "Hatchbox"
+    ],
+    "filament_type": [
+        "PLA-CF"
+    ],
     "cool_plate_temp": [
         "35"
     ],

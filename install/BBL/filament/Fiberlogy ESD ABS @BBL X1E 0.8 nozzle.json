@@ -53,6 +53,15 @@
     "compatible_printers": [
         "Bambu Lab X1E 0.8 nozzle"
     ],
+    "filament_settings_id": [
+        "Fiberlogy ESD ABS @BBL X1E"
+    ],
+    "filament_vendor": [
+        "Fiberlogy"
+    ],
+    "filament_type": [
+        "ABS"
+    ],
     "cool_plate_temp": [
         "0"
     ],

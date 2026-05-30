@@ -133,6 +133,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "Snapmaker PLA Glow @BBL H2C"
+    ],
+    "filament_vendor": [
+        "Snapmaker"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
     "cool_plate_temp": [
         "35"
     ],

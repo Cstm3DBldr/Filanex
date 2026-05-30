@@ -72,6 +72,15 @@
     "filament_end_gcode": [
         "; filament end gcode \n"
     ],
+    "filament_settings_id": [
+        "FlyingBear PLA @BBL H2D"
+    ],
+    "filament_vendor": [
+        "FlyingBear"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
     "cool_plate_temp": [
         "60"
     ],

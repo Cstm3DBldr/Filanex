@@ -71,6 +71,15 @@
     "compatible_printers": [
         "Bambu Lab P1S 0.2 nozzle"
     ],
+    "filament_settings_id": [
+        "Peopoly Lancer PETG-C @BBL P1S"
+    ],
+    "filament_vendor": [
+        "Peopoly"
+    ],
+    "filament_type": [
+        "PETG"
+    ],
     "cool_plate_temp": [
         "60"
     ],

@@ -49,6 +49,15 @@
     "compatible_printers": [
         "Bambu Lab X1 Carbon 0.8 nozzle"
     ],
+    "filament_settings_id": [
+        "Overture PC Professional @BBL X1C"
+    ],
+    "filament_vendor": [
+        "Overture"
+    ],
+    "filament_type": [
+        "PC"
+    ],
     "cool_plate_temp": [
         "0"
     ],
