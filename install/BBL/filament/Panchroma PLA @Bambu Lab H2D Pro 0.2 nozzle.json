@@ -6,10 +6,10 @@
         "35"
     ],
     "eng_plate_temp": [
-        "0"
+        "55"
     ],
     "eng_plate_temp_initial_layer": [
-        "0"
+        "55"
     ],
     "fan_cooling_layer_time": [
         "100"
@@ -141,10 +141,10 @@
         "2"
     ],
     "supertack_plate_temp": [
-        "35"
+        "45"
     ],
     "supertack_plate_temp_initial_layer": [
-        "35"
+        "45"
     ],
     "filament_settings_id": [
         "Panchroma PLA @BBL H2DP"

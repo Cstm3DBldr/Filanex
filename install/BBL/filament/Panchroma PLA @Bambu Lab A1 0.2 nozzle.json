@@ -6,10 +6,10 @@
         "35"
     ],
     "eng_plate_temp": [
-        "0"
+        "55"
     ],
     "eng_plate_temp_initial_layer": [
-        "0"
+        "55"
     ],
     "fan_cooling_layer_time": [
         "80"
@@ -136,10 +136,10 @@
     ],
     "version": "2.5.0.18",
     "supertack_plate_temp": [
-        "35"
+        "45"
     ],
     "supertack_plate_temp_initial_layer": [
-        "35"
+        "45"
     ],
     "chamber_temperatures": [
         "0"

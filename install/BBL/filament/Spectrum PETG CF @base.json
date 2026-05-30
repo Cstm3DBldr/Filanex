@@ -6,16 +6,16 @@
     "filament_id": "GFW11",
     "instantiation": "false",
     "cool_plate_temp": [
-        "0"
+        "65"
     ],
     "cool_plate_temp_initial_layer": [
-        "0"
+        "65"
     ],
     "eng_plate_temp": [
-        "0"
+        "70"
     ],
     "eng_plate_temp_initial_layer": [
-        "0"
+        "70"
     ],
     "fan_max_speed": [
         "30"

@@ -61,10 +61,10 @@
         "35"
     ],
     "eng_plate_temp": [
-        "0"
+        "25"
     ],
     "eng_plate_temp_initial_layer": [
-        "0"
+        "25"
     ],
     "hot_plate_temp": [
         "25"
@@ -79,10 +79,10 @@
         "25"
     ],
     "supertack_plate_temp": [
-        "35"
+        "45"
     ],
     "supertack_plate_temp_initial_layer": [
-        "35"
+        "45"
     ],
     "chamber_temperatures": [
         "0"

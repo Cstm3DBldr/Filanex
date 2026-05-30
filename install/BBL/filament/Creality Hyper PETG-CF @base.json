@@ -6,16 +6,16 @@
     "filament_id": "GFR16",
     "instantiation": "false",
     "cool_plate_temp": [
-        "0"
+        "70"
     ],
     "cool_plate_temp_initial_layer": [
-        "0"
+        "70"
     ],
     "eng_plate_temp": [
-        "0"
+        "80"
     ],
     "eng_plate_temp_initial_layer": [
-        "0"
+        "80"
     ],
     "fan_max_speed": [
         "30"

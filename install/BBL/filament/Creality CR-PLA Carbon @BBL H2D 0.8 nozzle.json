@@ -15,10 +15,10 @@
         "0.07"
     ],
     "eng_plate_temp": [
-        "0"
+        "50"
     ],
     "eng_plate_temp_initial_layer": [
-        "0"
+        "50"
     ],
     "filament_cooling_before_tower": [
         "10",
@@ -107,10 +107,10 @@
         "50"
     ],
     "supertack_plate_temp": [
-        "35"
+        "45"
     ],
     "supertack_plate_temp_initial_layer": [
-        "35"
+        "45"
     ],
     "chamber_temperatures": [
         "0"

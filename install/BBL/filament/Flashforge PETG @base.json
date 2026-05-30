@@ -6,16 +6,16 @@
     "filament_id": "GFF05",
     "instantiation": "false",
     "cool_plate_temp": [
-        "0"
+        "60"
     ],
     "cool_plate_temp_initial_layer": [
-        "0"
+        "60"
     ],
     "eng_plate_temp": [
-        "0"
+        "80"
     ],
     "eng_plate_temp_initial_layer": [
-        "0"
+        "80"
     ],
     "fan_cooling_layer_time": [
         "30"

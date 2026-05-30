@@ -9,10 +9,10 @@
         "75"
     ],
     "eng_plate_temp": [
-        "0"
+        "30"
     ],
     "eng_plate_temp_initial_layer": [
-        "0"
+        "30"
     ],
     "fan_max_speed": [
         "80"
@@ -54,10 +54,10 @@
         "2"
     ],
     "supertack_plate_temp": [
-        "35"
+        "45"
     ],
     "supertack_plate_temp_initial_layer": [
-        "35"
+        "45"
     ],
     "slow_down_min_speed": [
         "20",

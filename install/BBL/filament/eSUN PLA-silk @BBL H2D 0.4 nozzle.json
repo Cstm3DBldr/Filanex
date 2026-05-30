@@ -21,10 +21,10 @@
         "-0.0218"
     ],
     "eng_plate_temp": [
-        "0"
+        "65"
     ],
     "eng_plate_temp_initial_layer": [
-        "0"
+        "65"
     ],
     "filament_change_length": [
         "4"

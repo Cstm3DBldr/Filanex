@@ -6,16 +6,16 @@
     "filament_id": "GFE38",
     "instantiation": "false",
     "cool_plate_temp": [
-        "0"
+        "60"
     ],
     "cool_plate_temp_initial_layer": [
-        "0"
+        "60"
     ],
     "eng_plate_temp": [
-        "0"
+        "70"
     ],
     "eng_plate_temp_initial_layer": [
-        "0"
+        "70"
     ],
     "fan_max_speed": [
         "30"

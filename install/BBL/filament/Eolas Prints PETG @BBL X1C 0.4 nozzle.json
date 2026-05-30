@@ -72,16 +72,16 @@
         "Bambu Lab X1 Carbon 0.4 nozzle"
     ],
     "cool_plate_temp": [
-        "0"
+        "60"
     ],
     "cool_plate_temp_initial_layer": [
-        "0"
+        "60"
     ],
     "eng_plate_temp": [
-        "0"
+        "90"
     ],
     "eng_plate_temp_initial_layer": [
-        "0"
+        "90"
     ],
     "hot_plate_temp": [
         "90"

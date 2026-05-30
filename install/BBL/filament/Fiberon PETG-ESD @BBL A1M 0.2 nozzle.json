@@ -42,16 +42,16 @@
         "Bambu Lab A1 mini 0.2 nozzle"
     ],
     "cool_plate_temp": [
-        "0"
+        "65"
     ],
     "cool_plate_temp_initial_layer": [
-        "0"
+        "65"
     ],
     "eng_plate_temp": [
-        "0"
+        "60"
     ],
     "eng_plate_temp_initial_layer": [
-        "0"
+        "60"
     ],
     "hot_plate_temp": [
         "60"

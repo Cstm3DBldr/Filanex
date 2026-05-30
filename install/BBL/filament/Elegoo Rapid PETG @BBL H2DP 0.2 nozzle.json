@@ -62,16 +62,16 @@
         "; filament end gcode \n"
     ],
     "cool_plate_temp": [
-        "0"
+        "60"
     ],
     "cool_plate_temp_initial_layer": [
-        "0"
+        "60"
     ],
     "eng_plate_temp": [
-        "0"
+        "88"
     ],
     "eng_plate_temp_initial_layer": [
-        "0"
+        "88"
     ],
     "hot_plate_temp": [
         "88"

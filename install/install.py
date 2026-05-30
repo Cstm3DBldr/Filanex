@@ -182,6 +182,123 @@ def detect_system_dir(override: Path | None) -> Path:
     return p
 
 
+def detect_user_printers(system_dir: Path) -> set[str]:
+    """Detect which Bambu printers the user has configured / actively
+    uses in Bambu Studio. Returns a set of canonical printer names like
+    {"H2C", "X1 Carbon", "A1 mini"} -- empty set if detection fails or
+    the user has no clear printer preference.
+
+    Three signals, in order of authority:
+      1. BambuStudio.conf field `user_last_selected_machine` -- the
+         printer the user most recently picked in the slicer UI.
+      2. BambuStudio.conf field `machine` -- the printer in the active
+         project.
+      3. Existing filament profiles in <system_dir>/BBL/filament/ that
+         reference specific printers in their compatible_printers list.
+
+    The detection feeds the install pipeline's printer filter -- if the
+    user has only an H2C, we won't install filament leaves whose
+    compatible_printers is exclusively for other printers (eliminating
+    the "Unsupported" flood in the slicer's filament dropdown).
+
+    Returns an empty set if we can't make a confident determination;
+    the caller should treat that as "install for all printers" (current
+    behavior pre-filter).
+    """
+    found: set[str] = set()
+    # system_dir is typically <appdata>/BambuStudio/system; the conf
+    # lives one level up.
+    conf_path = system_dir.parent / "BambuStudio.conf"
+    if conf_path.exists():
+        try:
+            text = conf_path.read_text(encoding="utf-8", errors="ignore")
+        except Exception:
+            text = ""
+        # Parse simple JSON-style "key": "value" pairs we care about.
+        # The conf is a JSON object but we only need a couple of fields,
+        # so regex-grep is more resilient to malformed input than full
+        # json.loads.
+        import re as _re
+        for key in ("user_last_selected_machine", "machine"):
+            m = _re.search(rf'"{key}"\s*:\s*"([^"]+)"', text)
+            if m:
+                # Value might be a machine GUID (printer-side internal
+                # ID) or a human name like "Bambu Lab H2C 0.4 nozzle".
+                # We only care about the human names.
+                val = m.group(1).strip()
+                if val.startswith("Bambu Lab "):
+                    # Strip "Bambu Lab " prefix and " <nozzle> nozzle" suffix
+                    # to get the canonical printer name (e.g. "H2C", "X1 Carbon").
+                    body = val[len("Bambu Lab "):].strip()
+                    body = _re.sub(r"\s+\d\.\d nozzle$", "", body).strip()
+                    if body:
+                        found.add(body)
+    # Also harvest any printer names referenced in filament-list-additions
+    # tracking file (printers the user has installed Filanex profiles for).
+    # This handles the multi-printer case where the user added profiles
+    # for several printers across past install runs.
+    tracking = system_dir / TRACKING_FILENAME
+    if tracking.exists():
+        try:
+            t = json.loads(tracking.read_text(encoding="utf-8"))
+            for entry in t.get("entries", []):
+                name = entry.get("name", "")
+                # Names look like "<line> @Bambu Lab <printer> <nozzle> nozzle"
+                # or "<line> @BBL <short> <nozzle> nozzle".
+                import re as _re
+                m = _re.search(r"@Bambu Lab (.+?) \d\.\d nozzle$", name)
+                if m:
+                    found.add(m.group(1).strip())
+                else:
+                    m = _re.search(r"@BBL ([A-Za-z0-9]+) \d\.\d nozzle$", name)
+                    if m:
+                        # Short name -> canonical (e.g. X1C -> "X1 Carbon",
+                        # H2DP -> "H2D Pro"). Hardcoded a few common
+                        # abbreviations; unknowns get passed through.
+                        short = m.group(1)
+                        canonical = {
+                            "X1C": "X1 Carbon",
+                            "H2DP": "H2D Pro",
+                            "A1M": "A1 mini",
+                        }.get(short, short)
+                        found.add(canonical)
+        except Exception:
+            pass
+    return found
+
+
+def printer_matches_entry(entry_name: str, allowed_printers: set[str]) -> bool:
+    """Return True if entry_name's printer (parsed from "@Bambu Lab X"
+    or "@BBL X" suffix) is in allowed_printers, OR the entry is a @base
+    (no printer-specific binding) OR allowed_printers is empty (filter
+    disabled).
+
+    Handles both naming conventions:
+      "Polymaker PA12-CF @BBL H2C 0.4 nozzle"        -> printer="H2C"
+      "Fiberon PA12-CF10 @Bambu Lab H2C 0.4 nozzle"  -> printer="H2C"
+    """
+    if not allowed_printers:
+        return True  # filter disabled
+    if " @base" in entry_name:
+        return True  # @base files always kept; leaves anchor them
+    import re as _re
+    # "@Bambu Lab <printer> <nozzle> nozzle"
+    m = _re.search(r"@Bambu Lab (.+?) \d\.\d nozzle$", entry_name)
+    if m:
+        return m.group(1).strip() in allowed_printers
+    # "@BBL <short> <nozzle> nozzle"
+    m = _re.search(r"@BBL ([A-Za-z0-9]+) \d\.\d nozzle$", entry_name)
+    if m:
+        short = m.group(1)
+        canonical = {
+            "X1C": "X1 Carbon",
+            "H2DP": "H2D Pro",
+            "A1M": "A1 mini",
+        }.get(short, short)
+        return canonical in allowed_printers or short in allowed_printers
+    return True  # unparseable -- keep to be safe
+
+
 def find_bambu_process() -> tuple[bool, Path | None]:
     osname = platform.system()
     names = PROCESS_NAMES.get(osname, [])
@@ -681,9 +798,12 @@ def atomic_write_text(path: Path, text: str) -> None:
 # Install / Upgrade
 # ---------------------------------------------------------------------------
 
-def filter_bundle_by_selection(bundle: dict, selection) -> dict:
+def filter_bundle_by_selection(bundle: dict, selection,
+                                printer_filter: set[str] | None = None) -> dict:
     """Return a new bundle dict keeping only entries / files whose
-    (vendor, line, material) is in selection.profile_keys.
+    (vendor, line, material) is in selection.profile_keys AND -- if
+    `printer_filter` is provided -- whose printer (parsed from the
+    entry name) is in that set.
 
     Bucketing must match picker.build_tree() exactly or selections
     silently drop. Newer bundles (>= db v1.1.3) ship explicit
@@ -694,7 +814,14 @@ def filter_bundle_by_selection(bundle: dict, selection) -> dict:
 
     @base entries are always kept when ANY material in their (vendor,
     line) is picked -- they're chemistry roots and the picker doesn't
-    show them as user-pickable items."""
+    show them as user-pickable items.
+
+    printer_filter: when non-empty, drops leaves whose printer isn't
+    in the set. Eliminates "Unsupported"-section flood in Bambu Studio
+    for users with one or two printers (they don't need ~10 printers'
+    worth of leaves for every line). @base entries are never filtered
+    by printer (they have no printer binding).
+    """
     from picker import parse_entry_name
 
     # Pre-compute the set of (vendor, line) pairs the user picked any
@@ -721,8 +848,12 @@ def filter_bundle_by_selection(bundle: dict, selection) -> dict:
                 keep_names.add(entry["name"])
                 continue
             tup = parsed
-        if tup in selection.profile_keys:
-            keep_names.add(entry["name"])
+        if tup not in selection.profile_keys:
+            continue
+        # Apply printer filter for leaves.
+        if printer_filter and not printer_matches_entry(entry["name"], printer_filter):
+            continue
+        keep_names.add(entry["name"])
     filtered_entries = [e for e in bundle["entries"] if e["name"] in keep_names]
     keep_filenames = {e["sub_path"].split("/")[-1] for e in filtered_entries}
     filtered_files = {
@@ -765,9 +896,22 @@ def cmd_install(
         _emit_phase("Filtering selection")
         before_entries = len(bundle["entries"])
         before_files = len(bundle["files"])
-        bundle = filter_bundle_by_selection(bundle, selection)
+        # Detect user's installed printers to filter out leaves for
+        # printers they don't have. Otherwise the slicer's Unsupported
+        # section fills with profiles for printers the user can never use.
+        detected_printers = detect_user_printers(system_dir)
+        if detected_printers:
+            print(f"  Detected printers in your Bambu Studio: "
+                  f"{', '.join(sorted(detected_printers))}")
+            print(f"  Only installing filament profiles compatible with these printers.")
+        else:
+            print(f"  Could not auto-detect your printers from BambuStudio.conf; "
+                  f"installing for all printers.")
+        bundle = filter_bundle_by_selection(
+            bundle, selection, printer_filter=detected_printers or None,
+        )
         print(
-            f"  Filtered bundle by user selection: "
+            f"  Filtered bundle by user selection + printer: "
             f"{len(bundle['entries'])}/{before_entries} entries, "
             f"{len(bundle['files'])}/{before_files} files."
         )

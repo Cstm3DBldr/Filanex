@@ -7,16 +7,16 @@
     "instantiation": "false",
     "description": "When printing this filament, there's a risk of nozzle clogging, oozing, warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "cool_plate_temp": [
-        "0"
+        "65"
     ],
     "cool_plate_temp_initial_layer": [
-        "0"
+        "65"
     ],
     "eng_plate_temp": [
-        "0"
+        "100"
     ],
     "eng_plate_temp_initial_layer": [
-        "0"
+        "100"
     ],
     "fan_cooling_layer_time": [
         "5"

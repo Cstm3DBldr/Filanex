@@ -15,10 +15,10 @@
         "0.07"
     ],
     "eng_plate_temp": [
-        "0"
+        "60"
     ],
     "eng_plate_temp_initial_layer": [
-        "0"
+        "60"
     ],
     "filament_flow_ratio": [
         "1.02",
@@ -97,10 +97,10 @@
         "60"
     ],
     "supertack_plate_temp": [
-        "35"
+        "45"
     ],
     "supertack_plate_temp_initial_layer": [
-        "35"
+        "45"
     ],
     "chamber_temperatures": [
         "0"
