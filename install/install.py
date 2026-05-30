@@ -1056,15 +1056,24 @@ def _do_upgrade(
                 new_owned_files.append({"filename": filename, "sha256": new_sha})
                 _emit_progress("Upgrading files", i, total_new_files)
                 continue
-            if live_sha != prev_sha and not force:
-                # We owned it, user modified it. Preserve, keep ORIGINAL
-                # install-time hash so the modification stays flagged.
-                print(f"  WARN: keeping user-modified {filename}")
-                files_kept_modified += 1
-                new_owned_files.append({"filename": filename, "sha256": prev_sha})
-                _emit_progress("Upgrading files", i, total_new_files)
-                continue
-            # We owned it, untouched (or --force). Replace with new version.
+            # We owned it; live hash differs from our new bundle. Always
+            # overwrite -- the file lives in <system>/BBL/filament/ which
+            # is the slicer's read-only stock-profile area. Anything in
+            # there that we own should ALWAYS reflect our latest bundle.
+            #
+            # Hash mismatches from prev_sha happen for two reasons in this
+            # folder, neither of which is "user customization":
+            #   1. Bambu Studio's profile-sync downloaded a stock-profile
+            #      update from Bambu's CDN since our last install.
+            #      Without overwriting, our overlay reverts to whatever
+            #      Bambu's server pushed (often broken values we
+            #      explicitly fixed -- e.g. PA-CF stock = 40°C bed).
+            #   2. Stale install from an older Filanex version. Latest
+            #      bundle should always win for our own profiles.
+            #
+            # Real user customizations save to user/<id>/filament/ (a
+            # different folder Bambu Studio writes to when users save
+            # tweaks via the UI). That folder is untouched by us.
             shutil.copy2(src, dst)
             files_replaced += 1
             new_owned_files.append({"filename": filename, "sha256": new_sha})
@@ -1085,11 +1094,11 @@ def _do_upgrade(
             continue
         live_sha = file_sha256(dst)
         prev_sha = prev_files[filename]
-        if live_sha != prev_sha and not force:
-            print(f"  WARN: keeping user-modified obsolete {filename}")
-            files_remove_kept += 1
-            _emit_progress("Cleaning obsolete", i, total_obsolete)
-            continue
+        # Same logic as the upgrade branch above: anything we previously
+        # owned that's now obsolete (rolled out of the bundle) is always
+        # deleted. Hash mismatch doesn't indicate user customization in
+        # the system/BBL/filament/ folder -- user customs go to
+        # user/<id>/filament/ instead.
         dst.unlink()
         files_removed += 1
         _emit_progress("Cleaning obsolete", i, total_obsolete)
@@ -1211,13 +1220,11 @@ def cmd_uninstall(system_dir: Path, force: bool) -> int:
         if not dst.exists():
             _emit_progress("Removing files", i, total_to_remove)
             continue
-        if not force:
-            live_sha = file_sha256(dst)
-            if live_sha != recorded_sha:
-                print(f"  WARN: keeping user-modified {filename}")
-                files_kept_modified += 1
-                _emit_progress("Removing files", i, total_to_remove)
-                continue
+        # Always delete on uninstall. Files in <system>/BBL/filament/
+        # that we own are stock-overrides; user customizations live in
+        # user/<id>/filament/ instead. Hash mismatches here would be
+        # Bambu's profile-sync changing our file, NOT user edits, so
+        # there's no user work to preserve.
         dst.unlink()
         files_removed += 1
         _emit_progress("Removing files", i, total_to_remove)
