@@ -627,6 +627,43 @@ POLYMAKER_BRAND_PREFIXES = (
 )
 
 
+def restore_bambu_base_files_from_backup(filament_dir: Path) -> int:
+    """Restore any @base.json.filanex-bambu-backup files by renaming
+    back to .json. A prior installer release wrongly disabled Bambu's
+    @base files (PolyLite PLA @base.json etc.), which broke Bambu's
+    subfolder leaves (P1P/PolyLite PLA @BBL P1P.json) that inherit
+    from those @bases. This restore step undoes the damage on the
+    next install. Safe to run unconditionally -- only acts on
+    @base.filanex-bambu-backup files, leaves all other backups alone."""
+    if not filament_dir.exists():
+        return 0
+    restored = 0
+    for f in filament_dir.iterdir():
+        if not f.is_file():
+            continue
+        # Match "<something> @base.json.filanex-bambu-backup"
+        if not f.name.endswith(".json" + BACKUP_EXT):
+            continue
+        # Strip .filanex-bambu-backup suffix to get the original filename
+        original_name = f.name[: -len(BACKUP_EXT)]
+        if "@base" not in original_name:
+            continue  # only restore @base files
+        target = f.parent / original_name
+        if target.exists():
+            # Original already exists somehow -- delete the backup
+            try:
+                f.unlink()
+            except OSError:
+                pass
+            continue
+        try:
+            f.rename(target)
+            restored += 1
+        except OSError as e:
+            print(f"  WARN: couldn't restore Bambu @base {f.name}: {e}")
+    return restored
+
+
 def backup_and_disable_bambu_polymaker_stock(
     filament_dir: Path, our_filenames: set,
 ) -> int:
@@ -644,7 +681,16 @@ def backup_and_disable_bambu_polymaker_stock(
     a reliable signal that Bambu themselves use consistently across
     all 28 Polymaker product lines.
 
-    User can manually restore by renaming .filanex-bambu-backup -> .json.
+    IMPORTANT: @base files are NEVER disabled. Bambu has subfolder
+    leaves (P1P/PolyLite PLA @BBL P1P.json etc.) that inherit from
+    the top-level @base; disabling the @base would break those leaves
+    with "Failed loading configuration file" errors. The @base files
+    are just chemistry roots -- they don't show up in the slicer
+    dropdown as selectable filaments, so leaving them in place doesn't
+    cause Unsupported entries.
+
+    User can manually restore any disabled file by renaming
+    .filanex-bambu-backup -> .json.
 
     Returns count of files disabled."""
     if not filament_dir.exists():
@@ -655,6 +701,11 @@ def backup_and_disable_bambu_polymaker_stock(
             continue
         if f.name in our_filenames:
             continue  # we're about to overwrite this with our copy
+        # NEVER disable @base files -- other Bambu leaves inherit from
+        # them and would fail to load. @bases don't appear in the
+        # dropdown as selectable filaments anyway.
+        if "@base" in f.stem:
+            continue
         # Match by filename brand prefix.
         is_polymaker = any(f.name.startswith(p) for p in POLYMAKER_BRAND_PREFIXES)
         if not is_polymaker:
@@ -1144,9 +1195,18 @@ def _do_fresh_install(
     _emit_phase("Disabling Bambu's legacy vendor-subfolder files")
     legacy_disabled = disable_bambu_legacy_subfolders(system_dir)
 
+    # Restore any @base files we wrongly disabled in a prior release.
+    # Earlier installer versions renamed Bambu @base files to
+    # .filanex-bambu-backup, which broke Bambu's subfolder leaves
+    # (P1P/PolyLite PLA @BBL P1P.json etc.) that inherit from those
+    # @bases with "Failed loading configuration file" errors.
+    _emit_phase("Restoring Bambu @base files (if any were wrongly disabled)")
+    base_restored = restore_bambu_base_files_from_backup(target_filament)
+
     # Disable Bambu's top-level Polymaker stock files we DON'T overlay
     # (different printer/nozzle combos or SKUs we don't have). Eliminates
-    # ALL setting_id collisions in the GFSL namespace.
+    # ALL setting_id collisions in the GFSL namespace. NEVER disables
+    # @base files -- other Bambu leaves inherit from them.
     _emit_phase("Disabling Bambu stock Polymaker files we don't overlay")
     our_filenames = {e["sub_path"].split("/")[-1] for e in bundle["entries"]}
     bambu_disabled = backup_and_disable_bambu_polymaker_stock(
@@ -1160,6 +1220,9 @@ def _do_fresh_install(
           f"(existing files with different content -- not ours)")
     print(f"  Legacy stock disabled: {legacy_disabled}  "
           f"(Bambu BBL/filament/Polymaker/* renamed to .filanex-disabled)")
+    if base_restored:
+        print(f"  Bambu @base files restored: {base_restored}  "
+              f"(undoing prior incorrect disable; needed for subfolder leaves)")
     print(f"  Bambu stock backed up: {bambu_disabled}  "
           f"(top-level Polymaker .json files we don't overlay renamed to .filanex-bambu-backup)")
     print(f"  Entries appended:    {len(added_entries)}")
@@ -1339,7 +1402,14 @@ def _do_upgrade(
     _emit_phase("Disabling Bambu's legacy vendor-subfolder files")
     legacy_disabled = disable_bambu_legacy_subfolders(system_dir)
 
+    # Restore any @base files wrongly disabled by a prior installer
+    # version (caused "Failed loading configuration file" for subfolder
+    # leaves that inherit from those @bases).
+    _emit_phase("Restoring Bambu @base files (if any were wrongly disabled)")
+    base_restored = restore_bambu_base_files_from_backup(target_filament)
+
     # Disable Bambu's top-level Polymaker stock files we DON'T overlay.
+    # NEVER disables @base files -- other Bambu leaves inherit from them.
     _emit_phase("Disabling Bambu stock Polymaker files we don't overlay")
     our_filenames = {e["sub_path"].split("/")[-1] for e in bundle["entries"]}
     bambu_disabled = backup_and_disable_bambu_polymaker_stock(
@@ -1352,6 +1422,9 @@ def _do_upgrade(
     print(f"  Files removed:                     {files_removed}")
     print(f"  Legacy stock disabled:             {legacy_disabled}  "
           f"(Bambu's BBL/filament/Polymaker/*.json renamed .filanex-disabled)")
+    if base_restored:
+        print(f"  Bambu @base files restored:        {base_restored}  "
+              f"(fixes 'Failed loading configuration file' errors from prior install)")
     print(f"  Bambu stock backed up:             {bambu_disabled}  "
           f"(top-level Polymaker .json files we don't overlay renamed to .filanex-bambu-backup)")
     print(f"  Files matching name but not ours:  {files_unowned}")
