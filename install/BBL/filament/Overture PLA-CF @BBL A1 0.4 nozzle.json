@@ -53,9 +53,6 @@
     "filament_vendor": [
         "Overture"
     ],
-    "filament_type": [
-        "PLA-CF"
-    ],
     "cool_plate_temp": [
         "35"
     ],

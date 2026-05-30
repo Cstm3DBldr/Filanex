@@ -149,9 +149,6 @@
     "filament_vendor": [
         "Filatech"
     ],
-    "filament_type": [
-        "PETG"
-    ],
     "cool_plate_temp": [
         "65"
     ],

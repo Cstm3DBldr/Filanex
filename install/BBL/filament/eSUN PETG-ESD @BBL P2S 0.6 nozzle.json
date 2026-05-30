@@ -97,9 +97,6 @@
     "filament_vendor": [
         "eSUN"
     ],
-    "filament_type": [
-        "PETG-ESD"
-    ],
     "cool_plate_temp": [
         "60"
     ],

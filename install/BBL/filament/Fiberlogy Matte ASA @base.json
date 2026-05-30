@@ -54,9 +54,6 @@
     "textured_plate_temp_initial_layer": [
         "100"
     ],
-    "filament_type": [
-        "ASA"
-    ],
     "cool_plate_temp": [
         "0"
     ],

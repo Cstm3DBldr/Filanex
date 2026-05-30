@@ -96,9 +96,6 @@
     "filament_vendor": [
         "Snapmaker"
     ],
-    "filament_type": [
-        "ABS"
-    ],
     "cool_plate_temp": [
         "0"
     ],

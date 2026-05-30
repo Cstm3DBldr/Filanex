@@ -60,9 +60,6 @@
     "filament_vendor": [
         "Polymaker"
     ],
-    "filament_type": [
-        "ASA-CF"
-    ],
     "cool_plate_temp": [
         "0"
     ],

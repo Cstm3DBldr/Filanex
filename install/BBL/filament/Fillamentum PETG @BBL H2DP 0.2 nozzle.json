@@ -67,9 +67,6 @@
     "filament_vendor": [
         "Fillamentum"
     ],
-    "filament_type": [
-        "PETG"
-    ],
     "cool_plate_temp": [
         "65"
     ],

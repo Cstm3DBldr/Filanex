@@ -59,9 +59,6 @@
     "filament_vendor": [
         "Flashforge"
     ],
-    "filament_type": [
-        "ABS"
-    ],
     "cool_plate_temp": [
         "0"
     ],

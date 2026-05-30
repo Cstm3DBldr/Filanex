@@ -67,9 +67,6 @@
     "filament_vendor": [
         "Polymaker"
     ],
-    "filament_type": [
-        "PVA"
-    ],
     "cool_plate_temp": [
         "35"
     ],

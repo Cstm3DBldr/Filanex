@@ -65,9 +65,6 @@
     "filament_vendor": [
         "eSUN"
     ],
-    "filament_type": [
-        "PETG"
-    ],
     "cool_plate_temp": [
         "70"
     ],

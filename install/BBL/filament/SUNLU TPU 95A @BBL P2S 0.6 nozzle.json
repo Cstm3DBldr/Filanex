@@ -86,9 +86,6 @@
     "filament_vendor": [
         "SUNLU"
     ],
-    "filament_type": [
-        "TPU"
-    ],
     "cool_plate_temp": [
         "45"
     ],

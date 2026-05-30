@@ -111,9 +111,6 @@
     "filament_vendor": [
         "Spectrum"
     ],
-    "filament_type": [
-        "PLA"
-    ],
     "cool_plate_temp": [
         "35"
     ],

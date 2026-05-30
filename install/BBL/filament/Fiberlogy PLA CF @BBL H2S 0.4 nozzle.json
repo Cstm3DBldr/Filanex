@@ -108,9 +108,6 @@
     "filament_vendor": [
         "Fiberlogy"
     ],
-    "filament_type": [
-        "PLA-CF"
-    ],
     "cool_plate_temp": [
         "35"
     ],

@@ -80,9 +80,6 @@
     "filament_vendor": [
         "Ultrafuse"
     ],
-    "filament_type": [
-        "PA-GF"
-    ],
     "cool_plate_temp": [
         "0"
     ],

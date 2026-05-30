@@ -113,9 +113,6 @@
     "filament_vendor": [
         "Hatchbox"
     ],
-    "filament_type": [
-        "PETG"
-    ],
     "cool_plate_temp": [
         "65"
     ],

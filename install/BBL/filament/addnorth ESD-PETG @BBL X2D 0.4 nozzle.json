@@ -113,9 +113,6 @@
     "filament_vendor": [
         "addnorth"
     ],
-    "filament_type": [
-        "PETG-ESD"
-    ],
     "cool_plate_temp": [
         "65"
     ],

@@ -125,9 +125,6 @@
     "filament_vendor": [
         "Ultrafuse"
     ],
-    "filament_type": [
-        "PET-CF"
-    ],
     "cool_plate_temp": [
         "65"
     ],

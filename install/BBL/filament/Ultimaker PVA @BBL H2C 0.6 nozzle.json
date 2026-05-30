@@ -87,9 +87,6 @@
     "filament_vendor": [
         "Ultimaker"
     ],
-    "filament_type": [
-        "PVA"
-    ],
     "cool_plate_temp": [
         "35"
     ],

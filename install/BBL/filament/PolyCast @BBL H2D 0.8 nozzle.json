@@ -94,9 +94,6 @@
     "filament_vendor": [
         "Polymaker"
     ],
-    "filament_type": [
-        "PVB"
-    ],
     "cool_plate_temp": [
         "35"
     ],
