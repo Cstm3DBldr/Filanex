@@ -154,5 +154,8 @@
     "filament_settings_id": [
         "Polymaker ASA @BBL X1E"
     ],
-    "version": "2.5.0.18"
+    "version": "2.5.0.18",
+    "activate_air_filtration": [
+        "1"
+    ]
 }

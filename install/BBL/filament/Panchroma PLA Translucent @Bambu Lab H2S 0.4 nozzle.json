@@ -153,5 +153,8 @@
     "filament_settings_id": [
         "Panchroma PLA Translucent @BBL H2S"
     ],
-    "version": "2.5.0.18"
+    "version": "2.5.0.18",
+    "activate_air_filtration": [
+        "0"
+    ]
 }

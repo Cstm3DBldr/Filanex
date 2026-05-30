@@ -80,6 +80,9 @@
     "chamber_temperatures": [
         "60"
     ],
+    "activate_air_filtration": [
+        "1"
+    ],
     "_filanex_advisory": {
         "matched_variants": [],
         "min_nozzle_size_mm": 0.4,

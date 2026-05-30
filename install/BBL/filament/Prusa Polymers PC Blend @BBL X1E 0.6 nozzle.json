@@ -62,5 +62,8 @@
     ],
     "chamber_temperatures": [
         "50"
+    ],
+    "activate_air_filtration": [
+        "1"
     ]
 }

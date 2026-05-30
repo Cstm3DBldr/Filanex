@@ -168,5 +168,8 @@
     "filament_settings_id": [
         "PolyLite PETG @BBL X1C"
     ],
-    "version": "2.5.0.18"
+    "version": "2.5.0.18",
+    "activate_air_filtration": [
+        "0"
+    ]
 }

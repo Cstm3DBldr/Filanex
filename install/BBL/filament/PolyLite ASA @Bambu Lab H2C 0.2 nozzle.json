@@ -187,5 +187,8 @@
     "filament_settings_id": [
         "PolyLite ASA @BBL H2C"
     ],
-    "version": "2.5.0.18"
+    "version": "2.5.0.18",
+    "activate_air_filtration": [
+        "1"
+    ]
 }

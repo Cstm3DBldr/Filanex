@@ -127,5 +127,8 @@
     ],
     "supertack_plate_temp_initial_layer": [
         "0"
+    ],
+    "activate_air_filtration": [
+        "1"
     ]
 }

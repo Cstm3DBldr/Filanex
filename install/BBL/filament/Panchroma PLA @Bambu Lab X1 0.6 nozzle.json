@@ -185,5 +185,8 @@
     "filament_settings_id": [
         "Panchroma PLA @BBL X1"
     ],
-    "version": "2.5.0.18"
+    "version": "2.5.0.18",
+    "activate_air_filtration": [
+        "0"
+    ]
 }

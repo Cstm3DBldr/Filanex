@@ -182,5 +182,8 @@
     "filament_settings_id": [
         "Polymaker ASA @BBL H2D"
     ],
-    "version": "2.5.0.18"
+    "version": "2.5.0.18",
+    "activate_air_filtration": [
+        "1"
+    ]
 }

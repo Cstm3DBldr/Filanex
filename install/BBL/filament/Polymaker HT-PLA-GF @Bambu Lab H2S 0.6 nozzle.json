@@ -167,5 +167,8 @@
     "filament_settings_id": [
         "Polymaker HT-PLA-GF @BBL H2S"
     ],
-    "version": "2.5.0.18"
+    "version": "2.5.0.18",
+    "activate_air_filtration": [
+        "0"
+    ]
 }

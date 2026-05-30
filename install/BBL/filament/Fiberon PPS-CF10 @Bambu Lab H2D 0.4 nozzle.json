@@ -192,5 +192,8 @@
     "filament_settings_id": [
         "Fiberon PPS-CF10 @BBL H2D"
     ],
-    "version": "2.5.0.18"
+    "version": "2.5.0.18",
+    "activate_air_filtration": [
+        "1"
+    ]
 }

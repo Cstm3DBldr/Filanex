@@ -96,5 +96,8 @@
     ],
     "chamber_temperatures": [
         "0"
+    ],
+    "activate_air_filtration": [
+        "0"
     ]
 }

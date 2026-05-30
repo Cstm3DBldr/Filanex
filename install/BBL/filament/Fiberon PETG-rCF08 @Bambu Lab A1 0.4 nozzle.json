@@ -129,5 +129,8 @@
     "version": "2.5.0.18",
     "chamber_temperatures": [
         "0"
+    ],
+    "activate_air_filtration": [
+        "0"
     ]
 }
