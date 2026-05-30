@@ -813,22 +813,37 @@ def hash_bundle_files(bundle: dict) -> None:
 # ---------------------------------------------------------------------------
 
 def manifest_add_entries(
-    user_bbl: dict, entries_to_add: list[dict]
-) -> tuple[list[dict], list[dict]]:
+    user_bbl: dict, entries_to_add: list[dict],
+    our_prev_names: set[str] | None = None,
+) -> tuple[list[dict], list[dict], list[dict]]:
     """Append entries whose name isn't already in filament_list. Returns
-    (added, skipped) -- the actual entry dicts, so callers can record
-    exactly what they appended (don't track entries we didn't add)."""
+    (added, already_ours, foreign):
+      - added: entries new to BBL.json this run (we appended them)
+      - already_ours: in BBL.json AND in our previous tracking
+                      (re-install case -- we owned these before)
+      - foreign: in BBL.json but NOT in our tracking (user added them
+                 or another tool put them there; we don't claim them)
+
+    The two skipped categories matter for the install summary: a
+    re-install user seeing "1376 entries skipped (not ours)" thinks
+    something broke, when really 1376 entries are just from their
+    previous Filanex install."""
     existing = {e["name"] for e in user_bbl.get("filament_list", [])}
+    our_prev = our_prev_names or set()
     added: list[dict] = []
-    skipped: list[dict] = []
+    already_ours: list[dict] = []
+    foreign: list[dict] = []
     for entry in entries_to_add:
         if entry["name"] in existing:
-            skipped.append(entry)
+            if entry["name"] in our_prev:
+                already_ours.append(entry)
+            else:
+                foreign.append(entry)
             continue
         user_bbl.setdefault("filament_list", []).append(entry)
         existing.add(entry["name"])
         added.append(entry)
-    return added, skipped
+    return added, already_ours, foreign
 
 
 def manifest_remove_entries(user_bbl: dict, names_to_remove: set[str]) -> int:
@@ -1279,8 +1294,15 @@ def _do_upgrade(
                 sub_path_updates += 1
 
     # 3. Append new entries (skip-existing). We track only what we
-    # actually appended in this run.
-    added_entries, skipped_entries = manifest_add_entries(user_bbl, bundle["entries"])
+    # actually appended in this run. The three-way split distinguishes:
+    #   - added: brand new entries
+    #   - already_ours: in BBL.json AND in our previous tracking
+    #     (re-install scenario -- we owned these from a past run)
+    #   - foreign: in BBL.json but NOT in our tracking (user added
+    #     a profile with the same name independently)
+    added_entries, already_ours_entries, foreign_entries = manifest_add_entries(
+        user_bbl, bundle["entries"], our_prev_names=prev_entry_names,
+    )
 
     _emit_phase("Updating BBL.json")
     atomic_write_json(user_bbl_path, user_bbl)
@@ -1332,10 +1354,12 @@ def _do_upgrade(
           f"(Bambu's BBL/filament/Polymaker/*.json renamed .filanex-disabled)")
     print(f"  Bambu stock backed up:             {bambu_disabled}  "
           f"(top-level Polymaker .json files we don't overlay renamed to .filanex-bambu-backup)")
-    print(f"  User-modified files preserved:     {files_kept_modified + files_remove_kept}")
     print(f"  Files matching name but not ours:  {files_unowned}")
-    print(f"  Entries added:                     {len(added_entries)}")
-    print(f"  Entries skipped (not ours):        {len(skipped_entries)}")
+    print(f"  Entries added (new this run):      {len(added_entries)}")
+    print(f"  Entries already from prior install:{len(already_ours_entries)}")
+    if foreign_entries:
+        print(f"  Entries from other sources:        {len(foreign_entries)}  "
+              f"(user or another tool added these with the same name; we don't claim them)")
     print(f"  Entries removed:                   {entries_removed}")
     print(f"  sub_path updates:                  {sub_path_updates}")
     if enable_result is None:
