@@ -560,6 +560,48 @@ def _prune_old_backups(system_dir: Path, keep: int = BACKUP_RETENTION) -> None:
               f"{min(len(backups), keep)}.")
 
 
+# Vendors whose Bambu-Studio-shipped legacy subfolder files we sweep
+# during install. Bambu Studio's filament folder contains both:
+#   - Top-level files: <line> @Bambu Lab <printer> <nozzle> nozzle.json
+#     (new naming, what we overlay)
+#   - Vendor subfolders: BBL/filament/<vendor>/<line> @BBL <short>.json
+#     (Bambu's older naming, predates the @Bambu Lab convention)
+#
+# The subfolder legacy files persist in user installs and pollute the
+# slicer's dropdown with "Unsupported" entries on printers they
+# weren't tested for (typically X1C and H2D only -- so on H2C they all
+# appear unsupported). We disable them by renaming .json -> .filanex-
+# disabled (rather than deleting outright) so the user can restore
+# manually if Bambu's profile-sync re-adds them or if needed for
+# debugging.
+LEGACY_SUBFOLDER_VENDORS = {"Polymaker"}
+
+
+def disable_bambu_legacy_subfolders(system_dir: Path) -> int:
+    """Walk BBL/filament/<vendor>/ for vendors in LEGACY_SUBFOLDER_VENDORS
+    and rename every *.json -> *.filanex-disabled. Bambu Studio's
+    profile loader only loads .json files so the renamed ones become
+    invisible. Returns the count of files disabled."""
+    filament_dir = system_dir / "BBL" / "filament"
+    if not filament_dir.exists():
+        return 0
+    disabled = 0
+    for vendor in LEGACY_SUBFOLDER_VENDORS:
+        vdir = filament_dir / vendor
+        if not vdir.is_dir():
+            continue
+        for f in vdir.iterdir():
+            if not f.is_file() or f.suffix != ".json":
+                continue
+            new_path = f.with_suffix(".filanex-disabled")
+            try:
+                f.rename(new_path)
+                disabled += 1
+            except OSError as e:
+                print(f"  WARN: couldn't disable legacy {f.name}: {e}")
+    return disabled
+
+
 # ---------------------------------------------------------------------------
 # Tracking file
 # ---------------------------------------------------------------------------
@@ -824,17 +866,23 @@ def filter_bundle_by_selection(bundle: dict, selection,
     """
     from picker import parse_entry_name
 
-    # Pre-compute the set of (vendor, line) pairs the user picked any
-    # material for. Used to keep @base entries even though they aren't
-    # in selection.profile_keys.
-    picked_vendor_lines = {(v, l) for (v, l, _m) in selection.profile_keys}
-
     keep_names: set[str] = set()
     for entry in bundle["entries"]:
         if entry.get("is_base"):
+            # @base files are kept only when the user picked the
+            # SPECIFIC (vendor, line, material) for that @base -- not
+            # just any material in the (vendor, line). Each @base has
+            # its own material (e.g. "PolyLite PLA @Polymaker base"
+            # is material=PLA; "PolyLite PLA Glow @base" is material=
+            # "PLA Glow"). Without this check, picking PolyLite HT-PLA
+            # would also keep the PolyLite PLA @base, but no PLA
+            # leaves get kept, leaving an orphan @base in the user's
+            # filament library that Bambu Studio shows as a broken
+            # "Unsupported" entry.
             v = entry.get("vendor")
             l = entry.get("line")
-            if v is not None and l is not None and (v, l) in picked_vendor_lines:
+            m = entry.get("material")
+            if v is not None and l is not None and m is not None and (v, l, m) in selection.profile_keys:
                 keep_names.add(entry["name"])
             continue
         # Prefer explicit picker fields over name-regex (the regex
@@ -990,11 +1038,19 @@ def _do_fresh_install(
     enable_names = [e["name"] for e in added_entries + inherited_entries]
     enable_result = enable_filaments_in_user_conf(system_dir, enable_names)
 
+    # Disable Bambu's legacy vendor-subfolder files (BBL/filament/Polymaker/
+    # etc.) so they stop polluting the slicer dropdown as Unsupported
+    # entries on printers they weren't tested for.
+    _emit_phase("Disabling Bambu's legacy vendor-subfolder files")
+    legacy_disabled = disable_bambu_legacy_subfolders(system_dir)
+
     print(f"  Files added:         {files_added}")
     print(f"  Files inherited:     {files_inherited}  "
           f"(existing files with matching content -- now tracked)")
     print(f"  Files skipped:       {files_skipped}  "
           f"(existing files with different content -- not ours)")
+    print(f"  Legacy stock disabled: {legacy_disabled}  "
+          f"(Bambu BBL/filament/Polymaker/* renamed to .filanex-disabled)")
     print(f"  Entries appended:    {len(added_entries)}")
     print(f"  Entries inherited:   {len(inherited_entries)}")
     if enable_result is None:
@@ -1161,10 +1217,16 @@ def _do_upgrade(
         system_dir, enable_names, disable_names,
     )
 
+    # Disable Bambu's legacy vendor-subfolder files.
+    _emit_phase("Disabling Bambu's legacy vendor-subfolder files")
+    legacy_disabled = disable_bambu_legacy_subfolders(system_dir)
+
     print(f"  Files added:                       {files_added}")
     print(f"  Files replaced:                    {files_replaced}")
     print(f"  Files unchanged:                   {files_unchanged}")
     print(f"  Files removed:                     {files_removed}")
+    print(f"  Legacy stock disabled:             {legacy_disabled}  "
+          f"(Bambu's BBL/filament/Polymaker/*.json renamed .filanex-disabled)")
     print(f"  User-modified files preserved:     {files_kept_modified + files_remove_kept}")
     print(f"  Files matching name but not ours:  {files_unowned}")
     print(f"  Entries added:                     {len(added_entries)}")
