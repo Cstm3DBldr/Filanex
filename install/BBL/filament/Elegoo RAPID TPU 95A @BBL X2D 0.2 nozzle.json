@@ -6,10 +6,10 @@
     "setting_id": "GFSD25_21",
     "instantiation": "true",
     "eng_plate_temp": [
-        "38"
+        "45"
     ],
     "eng_plate_temp_initial_layer": [
-        "38"
+        "45"
     ],
     "filament_cooling_before_tower": [
         "10",
@@ -87,16 +87,16 @@
         "30"
     ],
     "hot_plate_temp": [
-        "38"
+        "45"
     ],
     "hot_plate_temp_initial_layer": [
-        "38"
+        "45"
     ],
     "textured_plate_temp": [
-        "38"
+        "45"
     ],
     "textured_plate_temp_initial_layer": [
-        "38"
+        "45"
     ],
     "supertack_plate_temp": [
         "0"

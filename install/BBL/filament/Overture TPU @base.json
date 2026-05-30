@@ -31,22 +31,22 @@
         "30"
     ],
     "eng_plate_temp": [
-        "35"
+        "45"
     ],
     "eng_plate_temp_initial_layer": [
-        "35"
+        "45"
     ],
     "hot_plate_temp": [
-        "35"
+        "45"
     ],
     "hot_plate_temp_initial_layer": [
-        "35"
+        "45"
     ],
     "textured_plate_temp": [
-        "35"
+        "45"
     ],
     "textured_plate_temp_initial_layer": [
-        "35"
+        "45"
     ],
     "supertack_plate_temp": [
         "0"

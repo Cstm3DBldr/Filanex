@@ -99,22 +99,22 @@
         "65"
     ],
     "eng_plate_temp": [
-        "60"
+        "80"
     ],
     "eng_plate_temp_initial_layer": [
-        "60"
+        "80"
     ],
     "hot_plate_temp": [
-        "60"
+        "80"
     ],
     "hot_plate_temp_initial_layer": [
-        "60"
+        "80"
     ],
     "textured_plate_temp": [
-        "60"
+        "80"
     ],
     "textured_plate_temp_initial_layer": [
-        "60"
+        "80"
     ],
     "chamber_temperatures": [
         "0"

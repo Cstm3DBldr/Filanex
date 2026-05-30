@@ -52,7 +52,7 @@
         "20"
     ],
     "textured_plate_temp_initial_layer": [
-        "80"
+        "90"
     ],
     "compatible_printers": [
         "Bambu Lab X1E 0.6 nozzle"
@@ -64,19 +64,19 @@
         "0"
     ],
     "eng_plate_temp": [
-        "80"
+        "90"
     ],
     "eng_plate_temp_initial_layer": [
-        "80"
+        "90"
     ],
     "hot_plate_temp": [
-        "80"
+        "90"
     ],
     "hot_plate_temp_initial_layer": [
-        "80"
+        "90"
     ],
     "textured_plate_temp": [
-        "80"
+        "90"
     ],
     "supertack_plate_temp": [
         "0"

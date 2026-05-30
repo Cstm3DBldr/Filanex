@@ -6,10 +6,10 @@
     "setting_id": "GFSZ08_02",
     "instantiation": "true",
     "eng_plate_temp": [
-        "90"
+        "100"
     ],
     "eng_plate_temp_initial_layer": [
-        "90"
+        "100"
     ],
     "fan_max_speed": [
         "20"
@@ -18,10 +18,10 @@
         "18"
     ],
     "hot_plate_temp": [
-        "90"
+        "100"
     ],
     "hot_plate_temp_initial_layer": [
-        "90"
+        "100"
     ],
     "nozzle_temperature": [
         "330.0"
@@ -33,10 +33,10 @@
         "12"
     ],
     "textured_plate_temp": [
-        "90"
+        "100"
     ],
     "textured_plate_temp_initial_layer": [
-        "90"
+        "100"
     ],
     "compatible_printers": [
         "Bambu Lab P1S 0.4 nozzle"

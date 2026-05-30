@@ -6,10 +6,10 @@
     "setting_id": "GFSO11_11",
     "instantiation": "true",
     "eng_plate_temp": [
-        "98"
+        "110"
     ],
     "eng_plate_temp_initial_layer": [
-        "98"
+        "110"
     ],
     "filament_flow_ratio": [
         "0.94",
@@ -28,16 +28,16 @@
         "Spiral Lift"
     ],
     "hot_plate_temp": [
-        "98"
+        "110"
     ],
     "hot_plate_temp_initial_layer": [
-        "98"
+        "110"
     ],
     "textured_plate_temp": [
-        "98"
+        "110"
     ],
     "textured_plate_temp_initial_layer": [
-        "98"
+        "110"
     ],
     "compatible_printers": [
         "Bambu Lab X1E 0.6 nozzle"

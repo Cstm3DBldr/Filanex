@@ -85,22 +85,22 @@
         "0"
     ],
     "eng_plate_temp": [
-        "38"
+        "100"
     ],
     "eng_plate_temp_initial_layer": [
-        "38"
+        "100"
     ],
     "hot_plate_temp": [
-        "38"
+        "100"
     ],
     "hot_plate_temp_initial_layer": [
-        "38"
+        "100"
     ],
     "textured_plate_temp": [
-        "38"
+        "100"
     ],
     "textured_plate_temp_initial_layer": [
-        "38"
+        "100"
     ],
     "supertack_plate_temp": [
         "0"

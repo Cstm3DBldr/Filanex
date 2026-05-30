@@ -24,10 +24,10 @@
         "18"
     ],
     "hot_plate_temp": [
-        "42"
+        "55"
     ],
     "hot_plate_temp_initial_layer": [
-        "42"
+        "55"
     ],
     "nozzle_temperature": [
         "200.0"
@@ -39,10 +39,10 @@
         "6"
     ],
     "textured_plate_temp": [
-        "42"
+        "55"
     ],
     "textured_plate_temp_initial_layer": [
-        "42"
+        "55"
     ],
     "compatible_printers": [
         "Bambu Lab A1 mini 0.8 nozzle"
@@ -54,10 +54,10 @@
         "35"
     ],
     "eng_plate_temp": [
-        "42"
+        "55"
     ],
     "eng_plate_temp_initial_layer": [
-        "42"
+        "55"
     ],
     "supertack_plate_temp": [
         "45"

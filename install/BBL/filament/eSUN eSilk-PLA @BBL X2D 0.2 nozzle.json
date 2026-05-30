@@ -18,10 +18,10 @@
         "0.014"
     ],
     "eng_plate_temp": [
-        "45"
+        "55"
     ],
     "eng_plate_temp_initial_layer": [
-        "45"
+        "55"
     ],
     "filament_cooling_before_tower": [
         "10",
@@ -156,16 +156,16 @@
         "35"
     ],
     "hot_plate_temp": [
-        "45"
+        "55"
     ],
     "hot_plate_temp_initial_layer": [
-        "45"
+        "55"
     ],
     "textured_plate_temp": [
-        "45"
+        "55"
     ],
     "textured_plate_temp_initial_layer": [
-        "45"
+        "55"
     ],
     "supertack_plate_temp": [
         "0"

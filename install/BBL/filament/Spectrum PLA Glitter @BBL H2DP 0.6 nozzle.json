@@ -18,10 +18,10 @@
         "0.088"
     ],
     "eng_plate_temp": [
-        "25"
+        "55"
     ],
     "eng_plate_temp_initial_layer": [
-        "25"
+        "55"
     ],
     "fan_max_speed": [
         "80"
@@ -100,16 +100,16 @@
         "35"
     ],
     "hot_plate_temp": [
-        "25"
+        "55"
     ],
     "hot_plate_temp_initial_layer": [
-        "25"
+        "55"
     ],
     "textured_plate_temp": [
-        "25"
+        "55"
     ],
     "textured_plate_temp_initial_layer": [
-        "25"
+        "55"
     ],
     "chamber_temperatures": [
         "0"

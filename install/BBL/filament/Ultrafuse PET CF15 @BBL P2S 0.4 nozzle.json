@@ -21,10 +21,10 @@
         "-0.025"
     ],
     "eng_plate_temp": [
-        "75"
+        "80"
     ],
     "eng_plate_temp_initial_layer": [
-        "75"
+        "80"
     ],
     "fan_max_speed": [
         "45"
@@ -126,16 +126,16 @@
         "65"
     ],
     "hot_plate_temp": [
-        "75"
+        "80"
     ],
     "hot_plate_temp_initial_layer": [
-        "75"
+        "80"
     ],
     "textured_plate_temp": [
-        "75"
+        "80"
     ],
     "textured_plate_temp_initial_layer": [
-        "75"
+        "80"
     ],
     "supertack_plate_temp": [
         "70"

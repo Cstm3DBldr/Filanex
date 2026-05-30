@@ -6,10 +6,10 @@
     "setting_id": "GFSL58_03",
     "instantiation": "true",
     "eng_plate_temp": [
-        "98"
+        "100"
     ],
     "eng_plate_temp_initial_layer": [
-        "98"
+        "100"
     ],
     "filament_flow_ratio": [
         "0.94",
@@ -28,16 +28,16 @@
         "Spiral Lift"
     ],
     "hot_plate_temp": [
-        "98"
+        "100"
     ],
     "hot_plate_temp_initial_layer": [
-        "98"
+        "100"
     ],
     "textured_plate_temp": [
-        "98"
+        "100"
     ],
     "textured_plate_temp_initial_layer": [
-        "98"
+        "100"
     ],
     "compatible_printers": [
         "Bambu Lab P1S 0.6 nozzle"

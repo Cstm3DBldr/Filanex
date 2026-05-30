@@ -6,10 +6,10 @@
     "setting_id": "GFSO11_10",
     "instantiation": "true",
     "eng_plate_temp": [
-        "98"
+        "110"
     ],
     "eng_plate_temp_initial_layer": [
-        "98"
+        "110"
     ],
     "fan_max_speed": [
         "20"
@@ -18,10 +18,10 @@
         "3.49"
     ],
     "hot_plate_temp": [
-        "98"
+        "110"
     ],
     "hot_plate_temp_initial_layer": [
-        "98"
+        "110"
     ],
     "nozzle_temperature": [
         "260.0"
@@ -33,10 +33,10 @@
         "12"
     ],
     "textured_plate_temp": [
-        "98"
+        "110"
     ],
     "textured_plate_temp_initial_layer": [
-        "98"
+        "110"
     ],
     "compatible_printers": [
         "Bambu Lab X1E 0.4 nozzle"

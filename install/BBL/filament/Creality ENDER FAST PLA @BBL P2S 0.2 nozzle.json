@@ -18,10 +18,10 @@
         "0.014"
     ],
     "eng_plate_temp": [
-        "50"
+        "55"
     ],
     "eng_plate_temp_initial_layer": [
-        "50"
+        "55"
     ],
     "filament_cooling_before_tower": [
         "10",
@@ -108,16 +108,16 @@
         "50"
     ],
     "hot_plate_temp": [
-        "50"
+        "55"
     ],
     "hot_plate_temp_initial_layer": [
-        "50"
+        "55"
     ],
     "textured_plate_temp": [
-        "50"
+        "55"
     ],
     "textured_plate_temp_initial_layer": [
-        "50"
+        "55"
     ],
     "chamber_temperatures": [
         "0"

@@ -6,22 +6,22 @@
     "setting_id": "GFSO11_04",
     "instantiation": "true",
     "eng_plate_temp": [
-        "98"
+        "100"
     ],
     "eng_plate_temp_initial_layer": [
-        "98"
+        "100"
     ],
     "hot_plate_temp": [
-        "98"
+        "100"
     ],
     "hot_plate_temp_initial_layer": [
-        "98"
+        "100"
     ],
     "textured_plate_temp": [
-        "98"
+        "100"
     ],
     "textured_plate_temp_initial_layer": [
-        "98"
+        "100"
     ],
     "compatible_printers": [
         "Bambu Lab P1S 0.8 nozzle"
