@@ -3,7 +3,7 @@
     "name": "Numakers PLA+ @BBL H2C 0.6 nozzle",
     "inherits": "Numakers PLA+ @base",
     "from": "system",
-    "setting_id": "GFS101_31",
+    "setting_id": "GFS188_31",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

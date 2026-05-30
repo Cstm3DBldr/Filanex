@@ -3,7 +3,7 @@
     "name": "FlyingBear PLA @BBL X1C 0.6 nozzle",
     "inherits": "FlyingBear PLA @base",
     "from": "system",
-    "setting_id": "GFS105_19",
+    "setting_id": "GFS187_19",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

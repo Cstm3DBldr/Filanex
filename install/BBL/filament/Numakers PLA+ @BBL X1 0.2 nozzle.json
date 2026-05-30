@@ -3,7 +3,7 @@
     "name": "Numakers PLA+ @BBL X1 0.2 nozzle",
     "inherits": "Numakers PLA+ @base",
     "from": "system",
-    "setting_id": "GFS101_13",
+    "setting_id": "GFS192_13",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.99",

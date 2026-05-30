@@ -3,7 +3,7 @@
     "name": "Snapmaker PLA @BBL X1 0.2 nozzle",
     "inherits": "Snapmaker PLA @base",
     "from": "system",
-    "setting_id": "GFS104_13",
+    "setting_id": "GFS1108_13",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

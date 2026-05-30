@@ -3,7 +3,7 @@
     "name": "FlyingBear PC @BBL X1C 0.2 nozzle",
     "inherits": "FlyingBear PC @base",
     "from": "system",
-    "setting_id": "GFS103_05",
+    "setting_id": "GFS185_05",
     "instantiation": "true",
     "fan_max_speed": [
         "40"

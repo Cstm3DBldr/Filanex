@@ -3,7 +3,7 @@
     "name": "Snapmaker TPU95 High-Flow @BBL H2S 0.6 nozzle",
     "inherits": "Snapmaker TPU95 High-Flow @base",
     "from": "system",
-    "setting_id": "GFS110_39",
+    "setting_id": "GFS195_39",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

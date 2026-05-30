@@ -3,7 +3,7 @@
     "name": "FlyingBear PA-CF @BBL P2S 0.8 nozzle",
     "inherits": "FlyingBear PA-CF @base",
     "from": "system",
-    "setting_id": "GFS102_09",
+    "setting_id": "GFS184_09",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"

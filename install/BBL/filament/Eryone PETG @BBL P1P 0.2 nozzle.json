@@ -3,7 +3,7 @@
     "name": "Eryone PETG @BBL P1P 0.2 nozzle",
     "inherits": "Eryone PETG @base",
     "from": "system",
-    "setting_id": "GFS101_09",
+    "setting_id": "GFS181_09",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"

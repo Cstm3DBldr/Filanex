@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena ABS @BBL P2S 0.2 nozzle",
     "inherits": "Orca Arena Arena ABS @base",
     "from": "system",
-    "setting_id": "GFS101_13",
+    "setting_id": "GFS193_13",
     "instantiation": "true",
     "activate_air_filtration": [
         "0"

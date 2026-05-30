@@ -3,7 +3,7 @@
     "name": "Eryone PETG @BBL X2D 0.2 nozzle",
     "inherits": "Eryone PETG @base",
     "from": "system",
-    "setting_id": "GFS101_25",
+    "setting_id": "GFS180_25",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"

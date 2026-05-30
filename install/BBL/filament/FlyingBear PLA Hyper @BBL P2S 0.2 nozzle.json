@@ -3,7 +3,7 @@
     "name": "FlyingBear PLA Hyper @BBL P2S 0.2 nozzle",
     "inherits": "FlyingBear PLA Hyper @base",
     "from": "system",
-    "setting_id": "GFS106_21",
+    "setting_id": "GFS188_21",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

@@ -3,7 +3,7 @@
     "name": "Snapmaker SnapSpeed PLA @BBL H2C 0.2 nozzle",
     "inherits": "Snapmaker SnapSpeed PLA @base",
     "from": "system",
-    "setting_id": "GFS108_29",
+    "setting_id": "GFS1102_29",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

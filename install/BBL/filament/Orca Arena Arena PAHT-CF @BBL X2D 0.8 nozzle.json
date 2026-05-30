@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PAHT-CF @BBL X2D 0.8 nozzle",
     "inherits": "Orca Arena Arena PAHT-CF @base",
     "from": "system",
-    "setting_id": "GFS103_12",
+    "setting_id": "GFS195_12",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"

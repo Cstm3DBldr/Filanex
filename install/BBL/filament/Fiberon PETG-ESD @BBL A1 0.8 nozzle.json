@@ -3,7 +3,7 @@
     "name": "Fiberon PETG-ESD @BBL A1 0.8 nozzle",
     "inherits": "Fiberon PETG-ESD @Polymaker base",
     "from": "system",
-    "setting_id": "GFSL07_04",
+    "setting_id": "GFSL82_04",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "15"

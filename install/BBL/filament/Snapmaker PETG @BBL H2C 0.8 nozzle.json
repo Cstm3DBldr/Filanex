@@ -3,7 +3,7 @@
     "name": "Snapmaker PETG @BBL H2C 0.8 nozzle",
     "inherits": "Snapmaker PETG @base",
     "from": "system",
-    "setting_id": "GFS103_32",
+    "setting_id": "GFS197_32",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"

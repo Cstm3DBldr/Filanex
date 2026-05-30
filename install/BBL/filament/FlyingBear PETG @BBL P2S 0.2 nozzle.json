@@ -3,7 +3,7 @@
     "name": "FlyingBear PETG @BBL P2S 0.2 nozzle",
     "inherits": "FlyingBear PETG @base",
     "from": "system",
-    "setting_id": "GFS104_21",
+    "setting_id": "GFS186_21",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "40"

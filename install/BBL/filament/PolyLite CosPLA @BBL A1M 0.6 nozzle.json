@@ -3,7 +3,7 @@
     "name": "PolyLite CosPLA @BBL A1M 0.6 nozzle",
     "inherits": "PolyLite CosPLA @base",
     "from": "system",
-    "setting_id": "GFSL32_07",
+    "setting_id": "GFSL107_07",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

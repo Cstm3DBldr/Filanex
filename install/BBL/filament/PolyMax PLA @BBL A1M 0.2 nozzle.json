@@ -3,7 +3,7 @@
     "name": "PolyMax PLA @BBL A1M 0.2 nozzle",
     "inherits": "PolyMax PLA @base",
     "from": "system",
-    "setting_id": "GFSL60_05",
+    "setting_id": "GFSL123_05",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

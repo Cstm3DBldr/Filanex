@@ -3,7 +3,7 @@
     "name": "PolyDissolve S1 @BBL X1C 0.2 nozzle",
     "inherits": "PolyDissolve S1 @base",
     "from": "system",
-    "setting_id": "GFSL26_13",
+    "setting_id": "GFSL96_13",
     "instantiation": "true",
     "filament_flow_ratio": [
         "1",

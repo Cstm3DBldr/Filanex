@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PETG-CF @BBL H2D 0.8 nozzle",
     "inherits": "Orca Arena Arena PETG-CF @base",
     "from": "system",
-    "setting_id": "GFS106_21",
+    "setting_id": "GFS198_21",
     "instantiation": "true",
     "counter_coef_2": [
         "0.00565"

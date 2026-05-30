@@ -3,7 +3,7 @@
     "name": "Eolas Prints PETG @BBL X1C 0.2 nozzle",
     "inherits": "Eolas Prints PETG @base",
     "from": "system",
-    "setting_id": "GFS101_17",
+    "setting_id": "GFS180_17",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"

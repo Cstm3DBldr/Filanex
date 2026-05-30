@@ -3,7 +3,7 @@
     "name": "Eolas Prints PETG @BBL P2S 0.2 nozzle",
     "inherits": "Eolas Prints PETG @base",
     "from": "system",
-    "setting_id": "GFS101_21",
+    "setting_id": "GFS180_21",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "40"

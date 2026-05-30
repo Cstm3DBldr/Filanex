@@ -3,7 +3,7 @@
     "name": "Peopoly Lancer PLA-C @BBL H2C 0.2 nozzle",
     "inherits": "Peopoly Lancer PLA-C @base",
     "from": "system",
-    "setting_id": "GFS104_29",
+    "setting_id": "GFS194_29",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

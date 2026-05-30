@@ -3,7 +3,7 @@
     "name": "Peopoly Lancer ABS-GF @BBL H2C 0.6 nozzle",
     "inherits": "Peopoly Lancer ABS-GF @base",
     "from": "system",
-    "setting_id": "GFS101_23",
+    "setting_id": "GFS1101_23",
     "instantiation": "true",
     "chamber_temperatures": [
         "40"

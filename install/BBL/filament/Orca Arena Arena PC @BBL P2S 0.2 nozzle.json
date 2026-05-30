@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PC @BBL P2S 0.2 nozzle",
     "inherits": "Orca Arena Arena PC @base",
     "from": "system",
-    "setting_id": "GFS104_13",
+    "setting_id": "GFS196_13",
     "instantiation": "true",
     "chamber_temperatures": [
         "0"
