@@ -3,7 +3,7 @@
     "name": "FlyingBear ABS @BBL X1C 0.2 nozzle",
     "inherits": "FlyingBear ABS @base",
     "from": "system",
-    "setting_id": "GFS103_31",
+    "setting_id": "GFS183_05",
     "instantiation": "true",
     "fan_max_speed": [
         "60"

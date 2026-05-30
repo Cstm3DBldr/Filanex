@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Metallic @Bambu Lab X2D 0.2 nozzle",
     "inherits": "Panchroma PLA Metallic @base",
     "from": "system",
-    "setting_id": "GFSL18_30",
+    "setting_id": "GFSL18_25",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

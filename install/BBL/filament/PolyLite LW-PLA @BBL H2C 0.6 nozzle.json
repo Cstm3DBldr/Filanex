@@ -3,7 +3,7 @@
     "name": "PolyLite LW-PLA @BBL H2C 0.6 nozzle",
     "inherits": "PolyLite LW-PLA @base",
     "from": "system",
-    "setting_id": "GFSL33_42",
+    "setting_id": "GFSL33_31",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

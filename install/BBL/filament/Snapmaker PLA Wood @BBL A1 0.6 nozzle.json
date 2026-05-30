@@ -3,7 +3,7 @@
     "name": "Snapmaker PLA Wood @BBL A1 0.6 nozzle",
     "inherits": "Snapmaker PLA Wood @base",
     "from": "system",
-    "setting_id": "GFS120_35",
+    "setting_id": "GFS1111_02",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

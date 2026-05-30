@@ -3,7 +3,7 @@
     "name": "Peopoly Lancer ABS-GF @BBL X1E 0.2 nozzle",
     "inherits": "Peopoly Lancer ABS-GF @base",
     "from": "system",
-    "setting_id": "GFS113_93",
+    "setting_id": "GFS1101_09",
     "instantiation": "true",
     "fan_max_speed": [
         "60"

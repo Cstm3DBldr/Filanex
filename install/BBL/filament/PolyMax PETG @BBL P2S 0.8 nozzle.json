@@ -3,7 +3,7 @@
     "name": "PolyMax PETG @BBL P2S 0.8 nozzle",
     "inherits": "PolyMax PETG @base",
     "from": "system",
-    "setting_id": "GFSL59_35",
+    "setting_id": "GFSL59_24",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"

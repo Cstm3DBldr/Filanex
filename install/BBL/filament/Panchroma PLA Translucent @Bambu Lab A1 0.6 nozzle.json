@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Translucent @Bambu Lab A1 0.6 nozzle",
     "inherits": "Panchroma PLA Translucent @base",
     "from": "system",
-    "setting_id": "GFSL23_12",
+    "setting_id": "GFSL104_03",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

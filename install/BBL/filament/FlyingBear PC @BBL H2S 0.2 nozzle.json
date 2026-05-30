@@ -3,7 +3,7 @@
     "name": "FlyingBear PC @BBL H2S 0.2 nozzle",
     "inherits": "FlyingBear PC @base",
     "from": "system",
-    "setting_id": "GFS104_64",
+    "setting_id": "GFS103_33",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0081"

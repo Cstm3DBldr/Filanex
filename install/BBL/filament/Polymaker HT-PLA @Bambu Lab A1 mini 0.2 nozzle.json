@@ -3,7 +3,7 @@
     "name": "Polymaker HT-PLA @Bambu Lab A1 mini 0.2 nozzle",
     "inherits": "Polymaker HT-PLA @base",
     "from": "system",
-    "setting_id": "GFSL47_12",
+    "setting_id": "GFSL118_05",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

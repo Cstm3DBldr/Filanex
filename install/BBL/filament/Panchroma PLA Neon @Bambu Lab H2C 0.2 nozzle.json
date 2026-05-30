@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Neon @Bambu Lab H2C 0.2 nozzle",
     "inherits": "Panchroma PLA Neon @base",
     "from": "system",
-    "setting_id": "GFSL19_33",
+    "setting_id": "GFSL19_29",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

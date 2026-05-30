@@ -3,7 +3,7 @@
     "name": "Fiberon PA12-CF10 @Bambu Lab X1 Carbon 0.8 nozzle",
     "inherits": "Fiberon PA12-CF10 @base",
     "from": "system",
-    "setting_id": "GFSL02_03",
+    "setting_id": "GFSL81_03",
     "instantiation": "true",
     "chamber_temperatures": [
         "0"

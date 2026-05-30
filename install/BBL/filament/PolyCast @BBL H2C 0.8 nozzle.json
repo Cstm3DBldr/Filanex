@@ -3,7 +3,7 @@
     "name": "PolyCast @BBL H2C 0.8 nozzle",
     "inherits": "PolyCast @base",
     "from": "system",
-    "setting_id": "GFSL25_43",
+    "setting_id": "GFSL25_32",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

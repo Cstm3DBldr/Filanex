@@ -3,7 +3,7 @@
     "name": "Panchroma PLA UV Shift @BBL X1C 0.2 nozzle",
     "inherits": "Panchroma PLA UV Shift @base",
     "from": "system",
-    "setting_id": "GFSL24_28",
+    "setting_id": "GFSL24_17",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

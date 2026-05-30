@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Matte @BBL P2S 0.2 nozzle",
     "inherits": "Orca Arena Arena PLA Matte @base",
     "from": "system",
-    "setting_id": "GFS113_17",
+    "setting_id": "GFS112_21",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

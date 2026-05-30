@@ -3,7 +3,7 @@
     "name": "Fiberon ASA-CF08 @BBL X1C 0.6 nozzle",
     "inherits": "Fiberon ASA-CF08 @base",
     "from": "system",
-    "setting_id": "GFSL01_02",
+    "setting_id": "GFSL80_02",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.79",

@@ -3,7 +3,7 @@
     "name": "FlyingBear PETG @BBL H2D 0.6 nozzle",
     "inherits": "FlyingBear PETG @base",
     "from": "system",
-    "setting_id": "GFS105_47",
+    "setting_id": "GFS183_35",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"

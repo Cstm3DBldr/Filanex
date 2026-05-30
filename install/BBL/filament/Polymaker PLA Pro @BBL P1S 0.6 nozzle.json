@@ -3,7 +3,7 @@
     "name": "Polymaker PLA Pro @BBL P1S 0.6 nozzle",
     "inherits": "Polymaker PLA Pro @base",
     "from": "system",
-    "setting_id": "GFSL56_22",
+    "setting_id": "GFSL112_11",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

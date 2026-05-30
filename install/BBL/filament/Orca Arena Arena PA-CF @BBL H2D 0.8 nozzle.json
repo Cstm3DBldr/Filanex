@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PA-CF @BBL H2D 0.8 nozzle",
     "inherits": "Orca Arena Arena PA-CF @base",
     "from": "system",
-    "setting_id": "GFS109_86",
+    "setting_id": "GFS194_18",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

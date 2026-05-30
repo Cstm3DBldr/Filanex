@@ -3,7 +3,7 @@
     "name": "Eryone PLA @BBL P2S 0.8 nozzle",
     "inherits": "Eryone PLA @base",
     "from": "system",
-    "setting_id": "GFS102_81",
+    "setting_id": "GFS182_24",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

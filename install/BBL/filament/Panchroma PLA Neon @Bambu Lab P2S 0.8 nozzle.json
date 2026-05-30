@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Neon @Bambu Lab P2S 0.8 nozzle",
     "inherits": "Panchroma PLA Neon @base",
     "from": "system",
-    "setting_id": "GFSL19_29",
+    "setting_id": "GFSL19_24",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

@@ -3,7 +3,7 @@
     "name": "PolyLite LW-PLA @BBL X2D 0.6 nozzle",
     "inherits": "PolyLite LW-PLA @base",
     "from": "system",
-    "setting_id": "GFSL33_38",
+    "setting_id": "GFSL33_27",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

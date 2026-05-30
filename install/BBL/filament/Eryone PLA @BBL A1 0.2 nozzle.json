@@ -3,7 +3,7 @@
     "name": "Eryone PLA @BBL A1 0.2 nozzle",
     "inherits": "Eryone PLA @base",
     "from": "system",
-    "setting_id": "GFS102_58",
+    "setting_id": "GFS182_01",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

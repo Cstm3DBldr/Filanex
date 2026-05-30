@@ -3,7 +3,7 @@
     "name": "Polymaker PLA Pro @BBL X1C 0.8 nozzle",
     "inherits": "Polymaker PLA Pro @base",
     "from": "system",
-    "setting_id": "GFSL56_31",
+    "setting_id": "GFSL56_20",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

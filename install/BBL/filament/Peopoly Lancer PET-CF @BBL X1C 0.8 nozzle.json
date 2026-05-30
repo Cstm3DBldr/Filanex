@@ -3,7 +3,7 @@
     "name": "Peopoly Lancer PET-CF @BBL X1C 0.8 nozzle",
     "inherits": "Peopoly Lancer PET-CF @base",
     "from": "system",
-    "setting_id": "GFS114_68",
+    "setting_id": "GFS1102_03",
     "instantiation": "true",
     "chamber_temperatures": [
         "0"

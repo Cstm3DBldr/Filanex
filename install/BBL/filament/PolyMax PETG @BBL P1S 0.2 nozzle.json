@@ -3,7 +3,7 @@
     "name": "PolyMax PETG @BBL P1S 0.2 nozzle",
     "inherits": "PolyMax PETG @base",
     "from": "system",
-    "setting_id": "GFSL59_24",
+    "setting_id": "GFSL109_13",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"

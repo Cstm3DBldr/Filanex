@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Neon @Bambu Lab A1 mini 0.2 nozzle",
     "inherits": "Panchroma PLA Neon @base",
     "from": "system",
-    "setting_id": "GFSL19_15",
+    "setting_id": "GFSL102_05",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

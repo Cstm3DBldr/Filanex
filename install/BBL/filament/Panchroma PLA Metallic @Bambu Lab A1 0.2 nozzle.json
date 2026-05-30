@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Metallic @Bambu Lab A1 0.2 nozzle",
     "inherits": "Panchroma PLA Metallic @base",
     "from": "system",
-    "setting_id": "GFSL18_07",
+    "setting_id": "GFSL86_01",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

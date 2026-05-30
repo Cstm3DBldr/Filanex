@@ -3,7 +3,7 @@
     "name": "Snapmaker SnapSpeed PLA @BBL P2S 0.8 nozzle",
     "inherits": "Snapmaker SnapSpeed PLA @base",
     "from": "system",
-    "setting_id": "GFS120_90",
+    "setting_id": "GFS1112_24",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

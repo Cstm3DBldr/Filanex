@@ -3,7 +3,7 @@
     "name": "Fiberon PA12-CF10 @Bambu Lab X2D 0.8 nozzle",
     "inherits": "Fiberon PA12-CF10 @base",
     "from": "system",
-    "setting_id": "GFSL02_13",
+    "setting_id": "GFSL02_12",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"

@@ -3,7 +3,7 @@
     "name": "Polymaker PLA Pro @BBL P2S 0.2 nozzle",
     "inherits": "Polymaker PLA Pro @base",
     "from": "system",
-    "setting_id": "GFSL56_32",
+    "setting_id": "GFSL56_21",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

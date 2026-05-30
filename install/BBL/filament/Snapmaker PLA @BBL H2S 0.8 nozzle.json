@@ -3,7 +3,7 @@
     "name": "Snapmaker PLA @BBL H2S 0.8 nozzle",
     "inherits": "Snapmaker PLA @base",
     "from": "system",
-    "setting_id": "GFS118_90",
+    "setting_id": "GFS190_44",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

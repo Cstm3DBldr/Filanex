@@ -3,7 +3,7 @@
     "name": "Snapmaker PETG @BBL H2DP 0.8 nozzle",
     "inherits": "Snapmaker PETG @base",
     "from": "system",
-    "setting_id": "GFS117_97",
+    "setting_id": "GFS190_40",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"

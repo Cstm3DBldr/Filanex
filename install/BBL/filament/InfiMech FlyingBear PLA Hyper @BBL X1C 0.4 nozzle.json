@@ -3,7 +3,7 @@
     "name": "InfiMech FlyingBear PLA Hyper @BBL X1C 0.4 nozzle",
     "inherits": "InfiMech FlyingBear PLA Hyper @base",
     "from": "system",
-    "setting_id": "GFS106_87",
+    "setting_id": "GFS190_18",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

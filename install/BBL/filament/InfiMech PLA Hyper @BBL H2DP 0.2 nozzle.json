@@ -3,7 +3,7 @@
     "name": "InfiMech PLA Hyper @BBL H2DP 0.2 nozzle",
     "inherits": "InfiMech PLA Hyper @base",
     "from": "system",
-    "setting_id": "GFS108_80",
+    "setting_id": "GFS186_37",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

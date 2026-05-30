@@ -3,7 +3,7 @@
     "name": "PolyLite CosPLA @BBL X1C 0.6 nozzle",
     "inherits": "PolyLite CosPLA @base",
     "from": "system",
-    "setting_id": "GFSL32_30",
+    "setting_id": "GFSL32_19",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

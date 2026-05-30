@@ -3,7 +3,7 @@
     "name": "Snapmaker PLA Matte @BBL P2S 0.8 nozzle",
     "inherits": "Snapmaker PLA Matte @base",
     "from": "system",
-    "setting_id": "GFS119_88",
+    "setting_id": "GFS1110_24",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

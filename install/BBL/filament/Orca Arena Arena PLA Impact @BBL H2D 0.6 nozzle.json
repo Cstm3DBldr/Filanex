@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Impact @BBL H2D 0.6 nozzle",
     "inherits": "Orca Arena Arena PLA Impact @base",
     "from": "system",
-    "setting_id": "GFS112_53",
+    "setting_id": "GFS110_35",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

@@ -3,7 +3,7 @@
     "name": "Snapmaker ABS @BBL H2C 0.2 nozzle",
     "inherits": "Snapmaker ABS @base",
     "from": "system",
-    "setting_id": "GFS116_77",
+    "setting_id": "GFS1105_21",
     "instantiation": "true",
     "chamber_temperatures": [
         "40"

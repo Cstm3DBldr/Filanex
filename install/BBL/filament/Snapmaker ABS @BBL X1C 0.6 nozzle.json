@@ -3,7 +3,7 @@
     "name": "Snapmaker ABS @BBL X1C 0.6 nozzle",
     "inherits": "Snapmaker ABS @base",
     "from": "system",
-    "setting_id": "GFS116_63",
+    "setting_id": "GFS1105_07",
     "instantiation": "true",
     "fan_max_speed": [
         "60"

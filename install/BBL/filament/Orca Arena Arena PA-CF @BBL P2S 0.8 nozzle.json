@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PA-CF @BBL P2S 0.8 nozzle",
     "inherits": "Orca Arena Arena PA-CF @base",
     "from": "system",
-    "setting_id": "GFS109_77",
+    "setting_id": "GFS194_09",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"
