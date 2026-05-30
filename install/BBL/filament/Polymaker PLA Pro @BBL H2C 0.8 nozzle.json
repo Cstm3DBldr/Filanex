@@ -139,6 +139,9 @@
     "filament_vendor": [
         "Polymaker"
     ],
+    "filament_type": [
+        "PLA"
+    ],
     "cool_plate_temp": [
         "42"
     ],

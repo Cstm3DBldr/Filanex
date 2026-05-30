@@ -137,6 +137,9 @@
     "filament_vendor": [
         "Extrudr"
     ],
+    "filament_type": [
+        "ABS"
+    ],
     "cool_plate_temp": [
         "0"
     ],

@@ -72,6 +72,9 @@
     "filament_vendor": [
         "Creality"
     ],
+    "filament_type": [
+        "ASA"
+    ],
     "cool_plate_temp": [
         "0"
     ],

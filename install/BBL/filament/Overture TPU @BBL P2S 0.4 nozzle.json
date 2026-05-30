@@ -86,6 +86,9 @@
     "filament_vendor": [
         "Overture"
     ],
+    "filament_type": [
+        "TPU"
+    ],
     "cool_plate_temp": [
         "30"
     ],

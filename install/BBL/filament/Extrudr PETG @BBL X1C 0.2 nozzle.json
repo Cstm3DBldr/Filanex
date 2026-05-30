@@ -65,6 +65,9 @@
     "filament_vendor": [
         "Extrudr"
     ],
+    "filament_type": [
+        "PETG"
+    ],
     "cool_plate_temp": [
         "65"
     ],

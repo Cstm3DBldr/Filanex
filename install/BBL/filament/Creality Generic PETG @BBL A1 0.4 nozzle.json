@@ -47,6 +47,9 @@
     "filament_vendor": [
         "Creality"
     ],
+    "filament_type": [
+        "PETG"
+    ],
     "cool_plate_temp": [
         "70"
     ],

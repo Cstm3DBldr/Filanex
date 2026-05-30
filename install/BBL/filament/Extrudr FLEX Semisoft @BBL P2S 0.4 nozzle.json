@@ -86,6 +86,9 @@
     "filament_vendor": [
         "Extrudr"
     ],
+    "filament_type": [
+        "TPU"
+    ],
     "cool_plate_temp": [
         "45"
     ],

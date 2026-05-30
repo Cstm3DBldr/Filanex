@@ -114,6 +114,9 @@
     "filament_vendor": [
         "Overture"
     ],
+    "filament_type": [
+        "PC"
+    ],
     "cool_plate_temp": [
         "0"
     ],

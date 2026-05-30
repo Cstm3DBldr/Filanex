@@ -94,6 +94,9 @@
     "filament_vendor": [
         "Ultimaker"
     ],
+    "filament_type": [
+        "PP"
+    ],
     "cool_plate_temp": [
         "35"
     ],

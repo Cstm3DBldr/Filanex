@@ -102,6 +102,9 @@
     "filament_vendor": [
         "Creality"
     ],
+    "filament_type": [
+        "PLA"
+    ],
     "cool_plate_temp": [
         "35"
     ],

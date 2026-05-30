@@ -53,6 +53,9 @@
     "filament_vendor": [
         "Extrudr"
     ],
+    "filament_type": [
+        "ASA"
+    ],
     "cool_plate_temp": [
         "0"
     ],

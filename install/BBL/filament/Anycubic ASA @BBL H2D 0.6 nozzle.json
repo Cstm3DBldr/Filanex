@@ -72,6 +72,9 @@
     "filament_vendor": [
         "Anycubic"
     ],
+    "filament_type": [
+        "ASA"
+    ],
     "cool_plate_temp": [
         "0"
     ],

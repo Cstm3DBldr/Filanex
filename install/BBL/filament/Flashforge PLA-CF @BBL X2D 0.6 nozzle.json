@@ -128,6 +128,9 @@
     "filament_vendor": [
         "Flashforge"
     ],
+    "filament_type": [
+        "PLA-CF"
+    ],
     "cool_plate_temp": [
         "35"
     ],

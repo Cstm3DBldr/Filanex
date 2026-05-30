@@ -86,6 +86,9 @@
     "filament_vendor": [
         "Anycubic"
     ],
+    "filament_type": [
+        "TPU"
+    ],
     "cool_plate_temp": [
         "45"
     ],

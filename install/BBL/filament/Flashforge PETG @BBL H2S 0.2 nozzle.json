@@ -113,6 +113,9 @@
     "filament_vendor": [
         "Flashforge"
     ],
+    "filament_type": [
+        "PETG"
+    ],
     "cool_plate_temp": [
         "60"
     ],

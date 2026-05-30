@@ -97,6 +97,9 @@
     "filament_vendor": [
         "FlyingBear"
     ],
+    "filament_type": [
+        "ABS"
+    ],
     "cool_plate_temp": [
         "0"
     ],

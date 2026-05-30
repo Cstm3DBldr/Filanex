@@ -134,6 +134,9 @@
     "filament_vendor": [
         "eSUN"
     ],
+    "filament_type": [
+        "PLA"
+    ],
     "cool_plate_temp": [
         "50"
     ],

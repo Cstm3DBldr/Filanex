@@ -77,6 +77,9 @@
     "filament_vendor": [
         "Spectrum"
     ],
+    "filament_type": [
+        "PA-CF"
+    ],
     "cool_plate_temp": [
         "0"
     ],

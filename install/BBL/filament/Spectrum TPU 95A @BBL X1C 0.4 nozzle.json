@@ -118,6 +118,9 @@
     "filament_vendor": [
         "Spectrum"
     ],
+    "filament_type": [
+        "TPU"
+    ],
     "cool_plate_temp": [
         "45"
     ],

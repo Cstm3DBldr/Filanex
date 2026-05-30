@@ -107,6 +107,9 @@
     "filament_vendor": [
         "Filatech"
     ],
+    "filament_type": [
+        "ABS"
+    ],
     "cool_plate_temp": [
         "0"
     ],

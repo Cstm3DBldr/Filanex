@@ -98,6 +98,9 @@
     "filament_vendor": [
         "Fiberlogy"
     ],
+    "filament_type": [
+        "PETG"
+    ],
     "cool_plate_temp": [
         "65"
     ],

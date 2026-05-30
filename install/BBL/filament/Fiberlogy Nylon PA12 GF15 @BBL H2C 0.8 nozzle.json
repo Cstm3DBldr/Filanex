@@ -84,6 +84,9 @@
     "filament_vendor": [
         "Fiberlogy"
     ],
+    "filament_type": [
+        "PA-GF"
+    ],
     "cool_plate_temp": [
         "0"
     ],

@@ -86,6 +86,9 @@
     "filament_vendor": [
         "eSUN"
     ],
+    "filament_type": [
+        "ABS-GF"
+    ],
     "cool_plate_temp": [
         "0"
     ],

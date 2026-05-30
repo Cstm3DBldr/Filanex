@@ -93,6 +93,9 @@
     "filament_vendor": [
         "Overture"
     ],
+    "filament_type": [
+        "ASA"
+    ],
     "cool_plate_temp": [
         "0"
     ],

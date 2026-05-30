@@ -111,6 +111,9 @@
     "filament_vendor": [
         "Ultrafuse"
     ],
+    "filament_type": [
+        "PP"
+    ],
     "cool_plate_temp": [
         "35"
     ],

@@ -89,6 +89,9 @@
     "filament_vendor": [
         "Filatech"
     ],
+    "filament_type": [
+        "PA"
+    ],
     "cool_plate_temp": [
         "0"
     ],

@@ -53,6 +53,9 @@
     "filament_vendor": [
         "Hatchbox"
     ],
+    "filament_type": [
+        "PLA-CF"
+    ],
     "cool_plate_temp": [
         "35"
     ],
