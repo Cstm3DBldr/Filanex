@@ -896,22 +896,15 @@ def cmd_install(
         _emit_phase("Filtering selection")
         before_entries = len(bundle["entries"])
         before_files = len(bundle["files"])
-        # Detect user's installed printers to filter out leaves for
-        # printers they don't have. Otherwise the slicer's Unsupported
-        # section fills with profiles for printers the user can never use.
-        detected_printers = detect_user_printers(system_dir)
-        if detected_printers:
-            print(f"  Detected printers in your Bambu Studio: "
-                  f"{', '.join(sorted(detected_printers))}")
-            print(f"  Only installing filament profiles compatible with these printers.")
-        else:
-            print(f"  Could not auto-detect your printers from BambuStudio.conf; "
-                  f"installing for all printers.")
-        bundle = filter_bundle_by_selection(
-            bundle, selection, printer_filter=detected_printers or None,
-        )
+        # NOTE: per-printer auto-filter was tried briefly but reverted --
+        # users who swap printers regularly need ALL leaves installed.
+        # Bambu Studio's own slicer handles per-printer compatibility
+        # (showing only matching leaves for the currently-selected
+        # printer); the "Unsupported" section listing leaves for other
+        # printers is the slicer's correct UX, not a problem to fix.
+        bundle = filter_bundle_by_selection(bundle, selection)
         print(
-            f"  Filtered bundle by user selection + printer: "
+            f"  Filtered bundle by user selection: "
             f"{len(bundle['entries'])}/{before_entries} entries, "
             f"{len(bundle['files'])}/{before_files} files."
         )
