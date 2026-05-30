@@ -3,7 +3,7 @@
     "name": "Snapmaker Nylon @BBL H2S 0.8 nozzle",
     "inherits": "Snapmaker Nylon @base",
     "from": "system",
-    "setting_id": "GFS196_32",
+    "setting_id": "GFS117_57",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

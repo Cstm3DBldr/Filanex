@@ -3,7 +3,7 @@
     "name": "FlyingBear ABS @BBL P2S 0.6 nozzle",
     "inherits": "FlyingBear ABS @base",
     "from": "system",
-    "setting_id": "GFS183_15",
+    "setting_id": "GFS103_41",
     "instantiation": "true",
     "chamber_temperatures": [
         "0"

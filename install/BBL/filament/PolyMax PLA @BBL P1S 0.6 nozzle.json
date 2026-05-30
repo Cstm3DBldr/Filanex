@@ -3,7 +3,7 @@
     "name": "PolyMax PLA @BBL P1S 0.6 nozzle",
     "inherits": "PolyMax PLA @base",
     "from": "system",
-    "setting_id": "GFSL116_11",
+    "setting_id": "GFSL60_22",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

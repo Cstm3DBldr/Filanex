@@ -3,7 +3,7 @@
     "name": "Snapmaker PETG @BBL A1 0.2 nozzle",
     "inherits": "Snapmaker PETG @base",
     "from": "system",
-    "setting_id": "GFS1107_01",
+    "setting_id": "GFS117_58",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "15"

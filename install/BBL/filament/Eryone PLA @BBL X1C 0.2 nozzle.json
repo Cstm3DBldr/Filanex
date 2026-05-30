@@ -3,7 +3,7 @@
     "name": "Eryone PLA @BBL X1C 0.2 nozzle",
     "inherits": "Eryone PLA @base",
     "from": "system",
-    "setting_id": "GFS182_17",
+    "setting_id": "GFS102_74",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

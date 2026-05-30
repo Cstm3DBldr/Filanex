@@ -3,7 +3,7 @@
     "name": "Panchroma PLA UV Shift @BBL P2S 0.2 nozzle",
     "inherits": "Panchroma PLA UV Shift @base",
     "from": "system",
-    "setting_id": "GFSL24_21",
+    "setting_id": "GFSL24_32",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

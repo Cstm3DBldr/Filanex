@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PC @BBL H2C 0.6 nozzle",
     "inherits": "Orca Arena Arena PC @base",
     "from": "system",
-    "setting_id": "GFS196_23",
+    "setting_id": "GFS110_40",
     "instantiation": "true",
     "chamber_temperatures": [
         "50"

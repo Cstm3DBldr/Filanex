@@ -3,7 +3,7 @@
     "name": "Snapmaker ABS @BBL P2S 0.6 nozzle",
     "inherits": "Snapmaker ABS @base",
     "from": "system",
-    "setting_id": "GFS1105_15",
+    "setting_id": "GFS116_71",
     "instantiation": "true",
     "chamber_temperatures": [
         "0"

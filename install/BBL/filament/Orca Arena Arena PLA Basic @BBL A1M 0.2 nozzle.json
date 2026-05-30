@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Basic @BBL A1M 0.2 nozzle",
     "inherits": "Orca Arena Arena PLA Basic @base",
     "from": "system",
-    "setting_id": "GFS109_05",
+    "setting_id": "GFS111_78",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

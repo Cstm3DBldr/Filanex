@@ -3,7 +3,7 @@
     "name": "Peopoly Lancer PLA-C @BBL X1C 0.6 nozzle",
     "inherits": "Peopoly Lancer PLA-C @base",
     "from": "system",
-    "setting_id": "GFS1104_19",
+    "setting_id": "GFS115_86",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

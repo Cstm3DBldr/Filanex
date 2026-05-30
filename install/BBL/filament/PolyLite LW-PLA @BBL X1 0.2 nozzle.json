@@ -3,7 +3,7 @@
     "name": "PolyLite LW-PLA @BBL X1 0.2 nozzle",
     "inherits": "PolyLite LW-PLA @base",
     "from": "system",
-    "setting_id": "GFSL102_13",
+    "setting_id": "GFSL33_24",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

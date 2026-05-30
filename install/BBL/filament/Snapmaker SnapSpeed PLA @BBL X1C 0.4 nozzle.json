@@ -3,7 +3,7 @@
     "name": "Snapmaker SnapSpeed PLA @BBL X1C 0.4 nozzle",
     "inherits": "Snapmaker SnapSpeed PLA @base",
     "from": "system",
-    "setting_id": "GFS1112_18",
+    "setting_id": "GFS120_84",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

@@ -3,7 +3,7 @@
     "name": "Panchroma PLA UV Shift @BBL H2DP 0.2 nozzle",
     "inherits": "Panchroma PLA UV Shift @base",
     "from": "system",
-    "setting_id": "GFSL24_37",
+    "setting_id": "GFSL24_48",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

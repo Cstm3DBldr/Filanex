@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PC @BBL X1E 0.8 nozzle",
     "inherits": "Orca Arena Arena PC @base",
     "from": "system",
-    "setting_id": "GFS196_12",
+    "setting_id": "GFS110_29",
     "instantiation": "true",
     "chamber_temperatures": [
         "50"

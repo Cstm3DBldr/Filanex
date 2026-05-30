@@ -3,7 +3,7 @@
     "name": "Fiberon PA612-CF15 @Bambu Lab P2S 0.6 nozzle",
     "inherits": "Fiberon PA612-CF15 @base",
     "from": "system",
-    "setting_id": "GFSL83_08",
+    "setting_id": "GFSL05_10",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"

@@ -3,7 +3,7 @@
     "name": "InfiMech FlyingBear PLA Hyper @BBL A1M 0.8 nozzle",
     "inherits": "InfiMech FlyingBear PLA Hyper @base",
     "from": "system",
-    "setting_id": "GFS190_08",
+    "setting_id": "GFS106_77",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

@@ -3,7 +3,7 @@
     "name": "FlyingBear TPU @BBL H2S 0.2 nozzle",
     "inherits": "FlyingBear TPU @base",
     "from": "system",
-    "setting_id": "GFS184_37",
+    "setting_id": "GFS107_81",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

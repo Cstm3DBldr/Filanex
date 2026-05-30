@@ -3,7 +3,7 @@
     "name": "Snapmaker SnapSpeed PLA @BBL X2D 0.6 nozzle",
     "inherits": "Snapmaker SnapSpeed PLA @base",
     "from": "system",
-    "setting_id": "GFS1103_27",
+    "setting_id": "GFS120_93",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

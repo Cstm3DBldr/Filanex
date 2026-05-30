@@ -3,7 +3,7 @@
     "name": "Peopoly Lancer PLA-C @BBL A1M 0.6 nozzle",
     "inherits": "Peopoly Lancer PLA-C @base",
     "from": "system",
-    "setting_id": "GFS1104_07",
+    "setting_id": "GFS115_74",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

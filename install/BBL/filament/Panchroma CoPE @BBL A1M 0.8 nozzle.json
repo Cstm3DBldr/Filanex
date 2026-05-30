@@ -3,7 +3,7 @@
     "name": "Panchroma CoPE @BBL A1M 0.8 nozzle",
     "inherits": "Panchroma CoPE @base",
     "from": "system",
-    "setting_id": "GFSL86_08",
+    "setting_id": "GFSL10_16",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

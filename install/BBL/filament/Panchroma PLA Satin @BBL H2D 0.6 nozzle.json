@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Satin @BBL H2D 0.6 nozzle",
     "inherits": "Panchroma PLA Satin @base",
     "from": "system",
-    "setting_id": "GFSL20_35",
+    "setting_id": "GFSL20_46",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

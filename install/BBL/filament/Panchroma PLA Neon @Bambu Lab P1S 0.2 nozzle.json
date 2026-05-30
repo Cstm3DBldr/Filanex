@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Neon @Bambu Lab P1S 0.2 nozzle",
     "inherits": "Panchroma PLA Neon @base",
     "from": "system",
-    "setting_id": "GFSL101_09",
+    "setting_id": "GFSL19_18",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

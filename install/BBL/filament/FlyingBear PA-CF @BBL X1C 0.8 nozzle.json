@@ -3,7 +3,7 @@
     "name": "FlyingBear PA-CF @BBL X1C 0.8 nozzle",
     "inherits": "FlyingBear PA-CF @base",
     "from": "system",
-    "setting_id": "GFS184_03",
+    "setting_id": "GFS103_65",
     "instantiation": "true",
     "chamber_temperatures": [
         "0"

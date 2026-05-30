@@ -3,7 +3,7 @@
     "name": "Snapmaker SnapSpeed PLA @BBL X1C 0.2 nozzle",
     "inherits": "Snapmaker SnapSpeed PLA @base",
     "from": "system",
-    "setting_id": "GFS1112_17",
+    "setting_id": "GFS120_83",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

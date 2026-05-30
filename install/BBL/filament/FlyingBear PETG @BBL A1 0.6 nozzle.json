@@ -3,7 +3,7 @@
     "name": "FlyingBear PETG @BBL A1 0.6 nozzle",
     "inherits": "FlyingBear PETG @base",
     "from": "system",
-    "setting_id": "GFS186_03",
+    "setting_id": "GFS104_70",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "15"

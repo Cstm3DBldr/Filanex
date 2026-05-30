@@ -3,7 +3,7 @@
     "name": "Numakers PLA+ @BBL X2D 0.8 nozzle",
     "inherits": "Numakers PLA+ @base",
     "from": "system",
-    "setting_id": "GFS188_28",
+    "setting_id": "GFS109_16",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

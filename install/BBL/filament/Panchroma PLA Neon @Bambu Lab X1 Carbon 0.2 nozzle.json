@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Neon @Bambu Lab X1 Carbon 0.2 nozzle",
     "inherits": "Panchroma PLA Neon @base",
     "from": "system",
-    "setting_id": "GFSL19_17",
+    "setting_id": "GFSL19_24",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

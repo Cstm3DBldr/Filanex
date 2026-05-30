@@ -3,7 +3,7 @@
     "name": "PolyMax PLA @BBL X1C 0.2 nozzle",
     "inherits": "PolyMax PLA @base",
     "from": "system",
-    "setting_id": "GFSL60_17",
+    "setting_id": "GFSL60_28",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

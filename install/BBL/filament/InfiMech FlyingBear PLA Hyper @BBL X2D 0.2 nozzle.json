@@ -3,7 +3,7 @@
     "name": "InfiMech FlyingBear PLA Hyper @BBL X2D 0.2 nozzle",
     "inherits": "InfiMech FlyingBear PLA Hyper @base",
     "from": "system",
-    "setting_id": "GFS186_25",
+    "setting_id": "GFS106_94",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

@@ -3,7 +3,7 @@
     "name": "Snapmaker PLA Matte @BBL X1C 0.8 nozzle",
     "inherits": "Snapmaker PLA Matte @base",
     "from": "system",
-    "setting_id": "GFS1110_20",
+    "setting_id": "GFS119_84",
     "instantiation": "true",
     "filament_flow_ratio": [
         "1.01",

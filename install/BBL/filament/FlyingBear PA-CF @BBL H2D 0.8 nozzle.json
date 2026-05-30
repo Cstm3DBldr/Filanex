@@ -3,7 +3,7 @@
     "name": "FlyingBear PA-CF @BBL H2D 0.8 nozzle",
     "inherits": "FlyingBear PA-CF @base",
     "from": "system",
-    "setting_id": "GFS184_18",
+    "setting_id": "GFS103_80",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

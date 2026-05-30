@@ -3,7 +3,7 @@
     "name": "Numakers PLA+ @BBL P2S 0.4 nozzle",
     "inherits": "Numakers PLA+ @base",
     "from": "system",
-    "setting_id": "GFS192_22",
+    "setting_id": "GFS109_10",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

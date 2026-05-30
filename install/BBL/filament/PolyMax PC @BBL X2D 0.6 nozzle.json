@@ -3,7 +3,7 @@
     "name": "PolyMax PC @BBL X2D 0.6 nozzle",
     "inherits": "PolyMax PC @base",
     "from": "system",
-    "setting_id": "GFSL58_19",
+    "setting_id": "GFSL58_30",
     "instantiation": "true",
     "chamber_temperatures": [
         "50"

@@ -3,7 +3,7 @@
     "name": "FlyingBear PC @BBL X1E 0.2 nozzle",
     "inherits": "FlyingBear PC @base",
     "from": "system",
-    "setting_id": "GFS185_09",
+    "setting_id": "GFS103_95",
     "instantiation": "true",
     "chamber_temperatures": [
         "50"

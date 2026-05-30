@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Impact @BBL X1C 0.2 nozzle",
     "inherits": "Orca Arena Arena PLA Impact @base",
     "from": "system",
-    "setting_id": "GFS110_17",
+    "setting_id": "GFS112_35",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.95",

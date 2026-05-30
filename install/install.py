@@ -602,6 +602,91 @@ def disable_bambu_legacy_subfolders(system_dir: Path) -> int:
     return disabled
 
 
+# Top-level Bambu stock Polymaker files we DON'T overlay (different
+# printer/nozzle combos or SKUs we don't have) get renamed to
+# .filanex-bambu-backup at install time. This eliminates all setting_id
+# collision risk in Bambu Studio's GFSL-prefix namespace: with all
+# Bambu stock Polymaker files disabled, the only profiles in that
+# namespace are ours, so the slicer can't accidentally hide our leaves
+# via dedupe-by-setting_id.
+#
+# Restoration: rename .filanex-bambu-backup -> .json (manual or on
+# uninstall).
+BACKUP_EXT = ".filanex-bambu-backup"
+
+
+# Polymaker brand prefixes used to detect Bambu's stock Polymaker files
+# by filename (Bambu's stock LEAVES often have filament_vendor=None
+# because it's set only at @base level; matching the @base/leaf chain
+# is fragile, so we match by filename brand prefix instead, which
+# Bambu has been consistent about).
+POLYMAKER_BRAND_PREFIXES = (
+    "PolyLite ", "PolyTerra ", "Polymaker ", "Panchroma ", "Fiberon ",
+    "PolyFlex ", "PolyMax ", "PolyMide ", "PolySmooth", "PolySupport",
+    "PolyCast", "PolyDissolve", "PolySonic ", "PolyWood",
+)
+
+
+def backup_and_disable_bambu_polymaker_stock(
+    filament_dir: Path, our_filenames: set,
+) -> int:
+    """Walk filament_dir for top-level .json files matching any
+    Polymaker brand prefix (PolyLite, PolyTerra, Polymaker, Panchroma,
+    Fiberon, PolyFlex, PolyMax, PolyMide, PolySmooth, PolySupport,
+    PolyCast, PolyDissolve, PolySonic, PolyWood). Files in our_filenames
+    get LEFT ALONE (they're about to be overwritten by our copy).
+    Files NOT in our_filenames get renamed to .filanex-bambu-backup
+    so Bambu Studio's profile loader ignores them.
+
+    Matching by filename prefix (not filament_vendor field) because
+    Bambu's stock leaves often have vendor=None at leaf level -- the
+    vendor is only in the @base via inheritance. Filename prefix is
+    a reliable signal that Bambu themselves use consistently across
+    all 28 Polymaker product lines.
+
+    User can manually restore by renaming .filanex-bambu-backup -> .json.
+
+    Returns count of files disabled."""
+    if not filament_dir.exists():
+        return 0
+    disabled = 0
+    for f in filament_dir.iterdir():
+        if not f.is_file() or f.suffix != ".json":
+            continue
+        if f.name in our_filenames:
+            continue  # we're about to overwrite this with our copy
+        # Match by filename brand prefix.
+        is_polymaker = any(f.name.startswith(p) for p in POLYMAKER_BRAND_PREFIXES)
+        if not is_polymaker:
+            # Backup check: also catch files where vendor is set at
+            # leaf level (some Bambu lines do this for newer SKUs).
+            try:
+                d = json.loads(f.read_text(encoding="utf-8"))
+                v = d.get("filament_vendor")
+                if isinstance(v, list) and v:
+                    v = v[0]
+                if v == "Polymaker":
+                    is_polymaker = True
+            except Exception:
+                pass
+        if not is_polymaker:
+            continue
+        new_path = f.parent / (f.name + BACKUP_EXT)
+        # If a backup for this filename already exists from a previous
+        # run, leave it (the first backup is closest to Bambu's pristine)
+        # and just delete the current file (which is Bambu's CDN-restored
+        # copy from a profile-sync).
+        try:
+            if new_path.exists():
+                f.unlink()
+            else:
+                f.rename(new_path)
+            disabled += 1
+        except OSError as e:
+            print(f"  WARN: couldn't disable Bambu stock {f.name}: {e}")
+    return disabled
+
+
 # ---------------------------------------------------------------------------
 # Tracking file
 # ---------------------------------------------------------------------------
@@ -1044,6 +1129,15 @@ def _do_fresh_install(
     _emit_phase("Disabling Bambu's legacy vendor-subfolder files")
     legacy_disabled = disable_bambu_legacy_subfolders(system_dir)
 
+    # Disable Bambu's top-level Polymaker stock files we DON'T overlay
+    # (different printer/nozzle combos or SKUs we don't have). Eliminates
+    # ALL setting_id collisions in the GFSL namespace.
+    _emit_phase("Disabling Bambu stock Polymaker files we don't overlay")
+    our_filenames = {e["sub_path"].split("/")[-1] for e in bundle["entries"]}
+    bambu_disabled = backup_and_disable_bambu_polymaker_stock(
+        target_filament, our_filenames,
+    )
+
     print(f"  Files added:         {files_added}")
     print(f"  Files inherited:     {files_inherited}  "
           f"(existing files with matching content -- now tracked)")
@@ -1051,6 +1145,8 @@ def _do_fresh_install(
           f"(existing files with different content -- not ours)")
     print(f"  Legacy stock disabled: {legacy_disabled}  "
           f"(Bambu BBL/filament/Polymaker/* renamed to .filanex-disabled)")
+    print(f"  Bambu stock backed up: {bambu_disabled}  "
+          f"(top-level Polymaker .json files we don't overlay renamed to .filanex-bambu-backup)")
     print(f"  Entries appended:    {len(added_entries)}")
     print(f"  Entries inherited:   {len(inherited_entries)}")
     if enable_result is None:
@@ -1221,12 +1317,21 @@ def _do_upgrade(
     _emit_phase("Disabling Bambu's legacy vendor-subfolder files")
     legacy_disabled = disable_bambu_legacy_subfolders(system_dir)
 
+    # Disable Bambu's top-level Polymaker stock files we DON'T overlay.
+    _emit_phase("Disabling Bambu stock Polymaker files we don't overlay")
+    our_filenames = {e["sub_path"].split("/")[-1] for e in bundle["entries"]}
+    bambu_disabled = backup_and_disable_bambu_polymaker_stock(
+        target_filament, our_filenames,
+    )
+
     print(f"  Files added:                       {files_added}")
     print(f"  Files replaced:                    {files_replaced}")
     print(f"  Files unchanged:                   {files_unchanged}")
     print(f"  Files removed:                     {files_removed}")
     print(f"  Legacy stock disabled:             {legacy_disabled}  "
           f"(Bambu's BBL/filament/Polymaker/*.json renamed .filanex-disabled)")
+    print(f"  Bambu stock backed up:             {bambu_disabled}  "
+          f"(top-level Polymaker .json files we don't overlay renamed to .filanex-bambu-backup)")
     print(f"  User-modified files preserved:     {files_kept_modified + files_remove_kept}")
     print(f"  Files matching name but not ours:  {files_unowned}")
     print(f"  Entries added:                     {len(added_entries)}")

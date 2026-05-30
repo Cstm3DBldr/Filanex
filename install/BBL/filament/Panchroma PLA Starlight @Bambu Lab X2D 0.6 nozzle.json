@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Starlight @Bambu Lab X2D 0.6 nozzle",
     "inherits": "Panchroma PLA Starlight @base",
     "from": "system",
-    "setting_id": "GFSL22_20",
+    "setting_id": "GFSL22_24",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

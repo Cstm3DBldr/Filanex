@@ -3,7 +3,7 @@
     "name": "FlyingBear PLA @BBL H2S 0.2 nozzle",
     "inherits": "FlyingBear PLA @base",
     "from": "system",
-    "setting_id": "GFS183_41",
+    "setting_id": "GFS105_97",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

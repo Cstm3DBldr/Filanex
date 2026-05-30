@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PET-CF @BBL X1C 0.6 nozzle",
     "inherits": "Orca Arena Arena PET-CF @base",
     "from": "system",
-    "setting_id": "GFS197_02",
+    "setting_id": "GFS110_55",
     "instantiation": "true",
     "chamber_temperatures": [
         "0"

@@ -3,7 +3,7 @@
     "name": "PolyCast @BBL P2S 0.8 nozzle",
     "inherits": "PolyCast @base",
     "from": "system",
-    "setting_id": "GFSL25_24",
+    "setting_id": "GFSL25_35",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

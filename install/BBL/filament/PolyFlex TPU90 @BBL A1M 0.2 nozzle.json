@@ -3,7 +3,7 @@
     "name": "PolyFlex TPU90 @BBL A1M 0.2 nozzle",
     "inherits": "PolyFlex TPU90 @base",
     "from": "system",
-    "setting_id": "GFSL110_05",
+    "setting_id": "GFSL27_16",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

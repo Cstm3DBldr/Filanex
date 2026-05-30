@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Matte @Bambu Lab X1 Carbon 0.2 nozzle",
     "inherits": "Panchroma PLA Matte @base",
     "from": "system",
-    "setting_id": "GFSL17_17",
+    "setting_id": "GFSL17_20",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

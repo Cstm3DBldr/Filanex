@@ -3,7 +3,7 @@
     "name": "Peopoly Lancer PETG-C @BBL P2S 0.2 nozzle",
     "inherits": "Peopoly Lancer PETG-C @base",
     "from": "system",
-    "setting_id": "GFS1103_21",
+    "setting_id": "GFS115_44",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "40"

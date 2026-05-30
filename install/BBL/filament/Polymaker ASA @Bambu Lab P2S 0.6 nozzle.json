@@ -3,7 +3,7 @@
     "name": "Polymaker ASA @Bambu Lab P2S 0.6 nozzle",
     "inherits": "Polymaker ASA @base",
     "from": "system",
-    "setting_id": "GFSL46_15",
+    "setting_id": "GFSL46_16",
     "instantiation": "true",
     "activate_air_filtration": [
         "0"

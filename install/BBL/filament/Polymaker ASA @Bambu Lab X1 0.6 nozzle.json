@@ -3,7 +3,7 @@
     "name": "Polymaker ASA @Bambu Lab X1 0.6 nozzle",
     "inherits": "Polymaker ASA @base",
     "from": "system",
-    "setting_id": "GFSL117_03",
+    "setting_id": "GFSL46_05",
     "instantiation": "true",
     "fan_min_speed": [
         "25"

@@ -3,7 +3,7 @@
     "name": "PolyMax PLA @BBL H2C 0.6 nozzle",
     "inherits": "PolyMax PLA @base",
     "from": "system",
-    "setting_id": "GFSL60_31",
+    "setting_id": "GFSL60_42",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

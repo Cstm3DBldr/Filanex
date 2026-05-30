@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA Matte @BBL A1M 0.8 nozzle",
     "inherits": "Orca Arena Arena PLA Matte @base",
     "from": "system",
-    "setting_id": "GFS112_08",
+    "setting_id": "GFS113_04",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

@@ -3,7 +3,7 @@
     "name": "Panchroma CoPE @BBL X1 0.6 nozzle",
     "inherits": "Panchroma CoPE @base",
     "from": "system",
-    "setting_id": "GFSL10_15",
+    "setting_id": "GFSL10_23",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

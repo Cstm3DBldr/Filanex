@@ -3,7 +3,7 @@
     "name": "Snapmaker PLA @BBL A1M 0.2 nozzle",
     "inherits": "Snapmaker PLA @base",
     "from": "system",
-    "setting_id": "GFS1108_05",
+    "setting_id": "GFS118_51",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

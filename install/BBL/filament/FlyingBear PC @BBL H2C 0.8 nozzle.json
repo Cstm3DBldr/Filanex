@@ -3,7 +3,7 @@
     "name": "FlyingBear PC @BBL H2C 0.8 nozzle",
     "inherits": "FlyingBear PC @base",
     "from": "system",
-    "setting_id": "GFS185_24",
+    "setting_id": "GFS104_55",
     "instantiation": "true",
     "chamber_temperatures": [
         "50"

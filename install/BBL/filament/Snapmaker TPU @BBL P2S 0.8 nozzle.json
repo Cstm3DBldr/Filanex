@@ -3,7 +3,7 @@
     "name": "Snapmaker TPU @BBL P2S 0.8 nozzle",
     "inherits": "Snapmaker TPU @base",
     "from": "system",
-    "setting_id": "GFS1113_20",
+    "setting_id": "GFS121_31",
     "instantiation": "true",
     "eng_plate_temp": [
         "45"

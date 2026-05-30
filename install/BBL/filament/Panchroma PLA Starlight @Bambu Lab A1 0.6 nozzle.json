@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Starlight @Bambu Lab A1 0.6 nozzle",
     "inherits": "Panchroma PLA Starlight @base",
     "from": "system",
-    "setting_id": "GFSL101_02",
+    "setting_id": "GFSL22_07",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

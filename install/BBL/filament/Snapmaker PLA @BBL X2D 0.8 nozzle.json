@@ -3,7 +3,7 @@
     "name": "Snapmaker PLA @BBL X2D 0.8 nozzle",
     "inherits": "Snapmaker PLA @base",
     "from": "system",
-    "setting_id": "GFS198_28",
+    "setting_id": "GFS118_74",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

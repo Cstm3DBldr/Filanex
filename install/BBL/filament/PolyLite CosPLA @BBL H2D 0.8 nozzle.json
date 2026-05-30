@@ -3,7 +3,7 @@
     "name": "PolyLite CosPLA @BBL H2D 0.8 nozzle",
     "inherits": "PolyLite CosPLA @base",
     "from": "system",
-    "setting_id": "GFSL32_36",
+    "setting_id": "GFSL32_47",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

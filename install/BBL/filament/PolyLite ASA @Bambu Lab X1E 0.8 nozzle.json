@@ -3,7 +3,7 @@
     "name": "PolyLite ASA @Bambu Lab X1E 0.8 nozzle",
     "inherits": "PolyLite ASA @Polymaker base",
     "from": "system",
-    "setting_id": "GFSL106_12",
+    "setting_id": "GFSL31_17",
     "instantiation": "true",
     "chamber_temperatures": [
         "40"

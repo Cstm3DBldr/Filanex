@@ -3,7 +3,7 @@
     "name": "FlyingBear PLA Hyper @BBL H2D 0.2 nozzle",
     "inherits": "FlyingBear PLA Hyper @base",
     "from": "system",
-    "setting_id": "GFS106_33",
+    "setting_id": "GFS106_58",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"
