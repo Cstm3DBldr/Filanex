@@ -3,7 +3,7 @@
     "name": "Fiberon PETG-rCF08 @Bambu Lab X1 Carbon 0.8 nozzle",
     "inherits": "Fiberon PETG-rCF08 @base",
     "from": "system",
-    "setting_id": "GFSL08_09",
+    "setting_id": "GFSL86_09",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "30"

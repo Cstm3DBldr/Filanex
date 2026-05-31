@@ -9132,11 +9132,27 @@
             "is_base": true
         },
         {
+            "name": "Fiberon PA612-ESD @base",
+            "sub_path": "filament/Fiberon PA612-ESD @base.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": true
+        },
+        {
             "name": "Fiberon PET-CF17 @base",
             "sub_path": "filament/Fiberon PET-CF17 @base.json",
             "vendor": "Polymaker",
             "line": "Fiberon",
             "material": "PET-CF17",
+            "is_base": true
+        },
+        {
+            "name": "Fiberon PET-GF15 @base",
+            "sub_path": "filament/Fiberon PET-GF15 @base.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
             "is_base": true
         },
         {
@@ -9292,6 +9308,22 @@
             "is_base": true
         },
         {
+            "name": "PolyCast PVB @base",
+            "sub_path": "filament/PolyCast PVB @base.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": true
+        },
+        {
+            "name": "PolyDissolve @base",
+            "sub_path": "filament/PolyDissolve @base.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": true
+        },
+        {
             "name": "PolyDissolve S1 @base",
             "sub_path": "filament/PolyDissolve S1 @base.json",
             "vendor": "Polymaker",
@@ -9345,6 +9377,22 @@
             "vendor": "Polymaker",
             "line": "PolyLite",
             "material": "CosPLA",
+            "is_base": true
+        },
+        {
+            "name": "PolyLite CosPLA Version A @base",
+            "sub_path": "filament/PolyLite CosPLA Version A @base.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": true
+        },
+        {
+            "name": "PolyLite CosPLA Version B @base",
+            "sub_path": "filament/PolyLite CosPLA Version B @base.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
             "is_base": true
         },
         {
@@ -9548,11 +9596,27 @@
             "is_base": true
         },
         {
+            "name": "Polymaker PPS-GF20 @base",
+            "sub_path": "filament/Polymaker PPS-GF20 @base.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": true
+        },
+        {
             "name": "PolyMax PC @base",
             "sub_path": "filament/PolyMax PC @base.json",
             "vendor": "Polymaker",
             "line": "PolyMax",
             "material": "PC",
+            "is_base": true
+        },
+        {
+            "name": "PolyMax PC-FR @base",
+            "sub_path": "filament/PolyMax PC-FR @base.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
             "is_base": true
         },
         {
@@ -9601,6 +9665,14 @@
             "vendor": "Polymaker",
             "line": "PolySmooth",
             "material": "PVB",
+            "is_base": true
+        },
+        {
+            "name": "PolySmooth PLA @base",
+            "sub_path": "filament/PolySmooth PLA @base.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
             "is_base": true
         },
         {
@@ -94428,6 +94500,422 @@
             "is_base": false
         },
         {
+            "name": "Fiberon PA612-ESD @BBL A1 0.2 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL A1 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL A1 0.4 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL A1 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL A1 0.6 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL A1 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL A1 0.8 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL A1 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL A1M 0.2 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL A1M 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL A1M 0.4 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL A1M 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL A1M 0.6 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL A1M 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL A1M 0.8 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL A1M 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL H2C 0.2 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL H2C 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL H2C 0.4 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL H2C 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL H2C 0.6 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL H2C 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL H2C 0.8 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL H2C 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL H2D 0.2 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL H2D 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL H2D 0.4 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL H2D 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL H2D 0.6 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL H2D 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL H2D 0.8 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL H2D 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL H2DP 0.2 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL H2DP 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL H2DP 0.4 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL H2DP 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL H2DP 0.6 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL H2DP 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL H2DP 0.8 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL H2DP 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL H2S 0.2 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL H2S 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL H2S 0.4 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL H2S 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL H2S 0.6 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL H2S 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL H2S 0.8 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL H2S 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL P1P 0.2 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL P1P 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL P1P 0.4 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL P1P 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL P1P 0.6 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL P1P 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL P1P 0.8 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL P1P 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL P1S 0.2 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL P1S 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL P1S 0.4 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL P1S 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL P1S 0.6 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL P1S 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL P1S 0.8 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL P1S 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL P2S 0.2 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL P2S 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL P2S 0.4 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL P2S 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL P2S 0.6 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL P2S 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL P2S 0.8 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL P2S 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL X1 0.2 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL X1 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL X1 0.4 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL X1 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL X1 0.6 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL X1 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL X1 0.8 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL X1 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL X1C 0.2 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL X1C 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL X1C 0.4 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL X1C 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL X1C 0.6 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL X1C 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL X1C 0.8 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL X1C 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL X1E 0.2 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL X1E 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL X1E 0.4 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL X1E 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL X1E 0.6 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL X1E 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL X1E 0.8 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL X1E 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL X2D 0.2 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL X2D 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL X2D 0.4 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL X2D 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL X2D 0.6 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL X2D 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PA612-ESD @BBL X2D 0.8 nozzle",
+            "sub_path": "filament/Fiberon PA612-ESD @BBL X2D 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PA612-ESD",
+            "is_base": false
+        },
+        {
             "name": "Fiberon PET-CF17 @Bambu Lab H2C 0.4 nozzle",
             "sub_path": "filament/Fiberon PET-CF17 @Bambu Lab H2C 0.4 nozzle.json",
             "vendor": "Polymaker",
@@ -94617,6 +95105,318 @@
             "vendor": "Polymaker",
             "line": "Fiberon",
             "material": "PET-CF17",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL A1 0.4 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL A1 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL A1 0.6 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL A1 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL A1 0.8 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL A1 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL A1M 0.4 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL A1M 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL A1M 0.6 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL A1M 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL A1M 0.8 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL A1M 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL H2C 0.4 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL H2C 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL H2C 0.6 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL H2C 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL H2C 0.8 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL H2C 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL H2D 0.4 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL H2D 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL H2D 0.6 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL H2D 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL H2D 0.8 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL H2D 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL H2DP 0.4 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL H2DP 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL H2DP 0.6 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL H2DP 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL H2DP 0.8 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL H2DP 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL H2S 0.4 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL H2S 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL H2S 0.6 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL H2S 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL H2S 0.8 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL H2S 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL P1P 0.4 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL P1P 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL P1P 0.6 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL P1P 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL P1P 0.8 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL P1P 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL P1S 0.4 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL P1S 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL P1S 0.6 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL P1S 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL P1S 0.8 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL P1S 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL P2S 0.4 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL P2S 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL P2S 0.6 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL P2S 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL P2S 0.8 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL P2S 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL X1 0.4 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL X1 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL X1 0.6 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL X1 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL X1 0.8 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL X1 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL X1C 0.4 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL X1C 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL X1C 0.6 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL X1C 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL X1C 0.8 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL X1C 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL X1E 0.4 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL X1E 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL X1E 0.6 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL X1E 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL X1E 0.8 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL X1E 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL X2D 0.4 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL X2D 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL X2D 0.6 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL X2D 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
+            "is_base": false
+        },
+        {
+            "name": "Fiberon PET-GF15 @BBL X2D 0.8 nozzle",
+            "sub_path": "filament/Fiberon PET-GF15 @BBL X2D 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Fiberon",
+            "material": "PET-GF15",
             "is_base": false
         },
         {
@@ -100388,6 +101188,838 @@
             "is_base": false
         },
         {
+            "name": "PolyCast PVB @BBL A1 0.2 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL A1 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL A1 0.4 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL A1 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL A1 0.6 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL A1 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL A1 0.8 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL A1 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL A1M 0.2 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL A1M 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL A1M 0.4 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL A1M 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL A1M 0.6 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL A1M 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL A1M 0.8 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL A1M 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL H2C 0.2 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL H2C 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL H2C 0.4 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL H2C 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL H2C 0.6 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL H2C 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL H2C 0.8 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL H2C 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL H2D 0.2 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL H2D 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL H2D 0.4 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL H2D 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL H2D 0.6 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL H2D 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL H2D 0.8 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL H2D 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL H2DP 0.2 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL H2DP 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL H2DP 0.4 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL H2DP 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL H2DP 0.6 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL H2DP 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL H2DP 0.8 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL H2DP 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL H2S 0.2 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL H2S 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL H2S 0.4 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL H2S 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL H2S 0.6 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL H2S 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL H2S 0.8 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL H2S 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL P1P 0.2 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL P1P 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL P1P 0.4 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL P1P 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL P1P 0.6 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL P1P 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL P1P 0.8 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL P1P 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL P1S 0.2 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL P1S 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL P1S 0.4 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL P1S 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL P1S 0.6 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL P1S 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL P1S 0.8 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL P1S 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL P2S 0.2 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL P2S 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL P2S 0.4 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL P2S 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL P2S 0.6 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL P2S 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL P2S 0.8 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL P2S 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL X1 0.2 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL X1 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL X1 0.4 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL X1 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL X1 0.6 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL X1 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL X1 0.8 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL X1 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL X1C 0.2 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL X1C 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL X1C 0.4 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL X1C 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL X1C 0.6 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL X1C 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL X1C 0.8 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL X1C 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL X1E 0.2 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL X1E 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL X1E 0.4 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL X1E 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL X1E 0.6 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL X1E 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL X1E 0.8 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL X1E 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL X2D 0.2 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL X2D 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL X2D 0.4 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL X2D 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL X2D 0.6 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL X2D 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyCast PVB @BBL X2D 0.8 nozzle",
+            "sub_path": "filament/PolyCast PVB @BBL X2D 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyCast",
+            "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL A1 0.2 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL A1 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL A1 0.4 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL A1 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL A1 0.6 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL A1 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL A1 0.8 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL A1 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL A1M 0.2 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL A1M 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL A1M 0.4 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL A1M 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL A1M 0.6 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL A1M 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL A1M 0.8 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL A1M 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL H2C 0.2 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL H2C 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL H2C 0.4 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL H2C 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL H2C 0.6 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL H2C 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL H2C 0.8 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL H2C 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL H2D 0.2 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL H2D 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL H2D 0.4 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL H2D 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL H2D 0.6 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL H2D 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL H2D 0.8 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL H2D 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL H2DP 0.2 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL H2DP 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL H2DP 0.4 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL H2DP 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL H2DP 0.6 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL H2DP 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL H2DP 0.8 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL H2DP 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL H2S 0.2 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL H2S 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL H2S 0.4 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL H2S 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL H2S 0.6 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL H2S 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL H2S 0.8 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL H2S 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL P1P 0.2 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL P1P 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL P1P 0.4 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL P1P 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL P1P 0.6 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL P1P 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL P1P 0.8 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL P1P 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL P1S 0.2 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL P1S 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL P1S 0.4 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL P1S 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL P1S 0.6 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL P1S 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL P1S 0.8 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL P1S 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL P2S 0.2 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL P2S 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL P2S 0.4 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL P2S 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL P2S 0.6 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL P2S 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL P2S 0.8 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL P2S 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL X1 0.2 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL X1 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL X1 0.4 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL X1 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL X1 0.6 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL X1 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL X1 0.8 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL X1 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL X1C 0.2 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL X1C 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL X1C 0.4 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL X1C 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL X1C 0.6 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL X1C 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL X1C 0.8 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL X1C 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL X1E 0.2 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL X1E 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL X1E 0.4 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL X1E 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL X1E 0.6 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL X1E 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL X1E 0.8 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL X1E 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL X2D 0.2 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL X2D 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL X2D 0.4 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL X2D 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL X2D 0.6 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL X2D 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
+            "name": "PolyDissolve @BBL X2D 0.8 nozzle",
+            "sub_path": "filament/PolyDissolve @BBL X2D 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyDissolve",
+            "material": "PVA",
+            "is_base": false
+        },
+        {
             "name": "PolyDissolve S1 @BBL A1 0.2 nozzle",
             "sub_path": "filament/PolyDissolve S1 @BBL A1 0.2 nozzle.json",
             "vendor": "Polymaker",
@@ -102561,6 +104193,838 @@
             "vendor": "Polymaker",
             "line": "PolyLite",
             "material": "CosPLA",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL A1 0.2 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL A1 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL A1 0.4 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL A1 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL A1 0.6 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL A1 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL A1 0.8 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL A1 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL A1M 0.2 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL A1M 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL A1M 0.4 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL A1M 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL A1M 0.6 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL A1M 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL A1M 0.8 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL A1M 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL H2C 0.2 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL H2C 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL H2C 0.4 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL H2C 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL H2C 0.6 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL H2C 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL H2C 0.8 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL H2C 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL H2D 0.2 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL H2D 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL H2D 0.4 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL H2D 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL H2D 0.6 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL H2D 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL H2D 0.8 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL H2D 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL H2DP 0.2 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL H2DP 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL H2DP 0.4 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL H2DP 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL H2DP 0.6 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL H2DP 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL H2DP 0.8 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL H2DP 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL H2S 0.2 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL H2S 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL H2S 0.4 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL H2S 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL H2S 0.6 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL H2S 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL H2S 0.8 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL H2S 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL P1P 0.2 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL P1P 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL P1P 0.4 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL P1P 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL P1P 0.6 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL P1P 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL P1P 0.8 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL P1P 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL P1S 0.2 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL P1S 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL P1S 0.4 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL P1S 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL P1S 0.6 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL P1S 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL P1S 0.8 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL P1S 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL P2S 0.2 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL P2S 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL P2S 0.4 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL P2S 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL P2S 0.6 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL P2S 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL P2S 0.8 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL P2S 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL X1 0.2 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL X1 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL X1 0.4 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL X1 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL X1 0.6 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL X1 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL X1 0.8 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL X1 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL X1C 0.2 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL X1C 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL X1C 0.4 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL X1C 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL X1C 0.6 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL X1C 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL X1C 0.8 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL X1C 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL X1E 0.2 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL X1E 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL X1E 0.4 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL X1E 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL X1E 0.6 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL X1E 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL X1E 0.8 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL X1E 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL X2D 0.2 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL X2D 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL X2D 0.4 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL X2D 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL X2D 0.6 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL X2D 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version A @BBL X2D 0.8 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version A @BBL X2D 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version A",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL A1 0.2 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL A1 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL A1 0.4 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL A1 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL A1 0.6 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL A1 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL A1 0.8 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL A1 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL A1M 0.2 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL A1M 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL A1M 0.4 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL A1M 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL A1M 0.6 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL A1M 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL A1M 0.8 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL A1M 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL H2C 0.2 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL H2C 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL H2C 0.4 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL H2C 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL H2C 0.6 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL H2C 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL H2C 0.8 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL H2C 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL H2D 0.2 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL H2D 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL H2D 0.4 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL H2D 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL H2D 0.6 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL H2D 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL H2D 0.8 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL H2D 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL H2DP 0.2 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL H2DP 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL H2DP 0.4 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL H2DP 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL H2DP 0.6 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL H2DP 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL H2DP 0.8 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL H2DP 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL H2S 0.2 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL H2S 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL H2S 0.4 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL H2S 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL H2S 0.6 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL H2S 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL H2S 0.8 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL H2S 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL P1P 0.2 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL P1P 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL P1P 0.4 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL P1P 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL P1P 0.6 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL P1P 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL P1P 0.8 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL P1P 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL P1S 0.2 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL P1S 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL P1S 0.4 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL P1S 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL P1S 0.6 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL P1S 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL P1S 0.8 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL P1S 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL P2S 0.2 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL P2S 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL P2S 0.4 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL P2S 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL P2S 0.6 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL P2S 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL P2S 0.8 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL P2S 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL X1 0.2 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL X1 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL X1 0.4 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL X1 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL X1 0.6 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL X1 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL X1 0.8 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL X1 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL X1C 0.2 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL X1C 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL X1C 0.4 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL X1C 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL X1C 0.6 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL X1C 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL X1C 0.8 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL X1C 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL X1E 0.2 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL X1E 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL X1E 0.4 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL X1E 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL X1E 0.6 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL X1E 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL X1E 0.8 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL X1E 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL X2D 0.2 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL X2D 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL X2D 0.4 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL X2D 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL X2D 0.6 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL X2D 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
+            "is_base": false
+        },
+        {
+            "name": "PolyLite CosPLA Version B @BBL X2D 0.8 nozzle",
+            "sub_path": "filament/PolyLite CosPLA Version B @BBL X2D 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyLite",
+            "material": "CosPLA Version B",
             "is_base": false
         },
         {
@@ -110204,6 +112668,246 @@
             "is_base": false
         },
         {
+            "name": "Polymaker PPS-GF20 @BBL H2C 0.4 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL H2C 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL H2C 0.6 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL H2C 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL H2C 0.8 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL H2C 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL H2D 0.4 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL H2D 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL H2D 0.6 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL H2D 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL H2D 0.8 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL H2D 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL H2DP 0.4 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL H2DP 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL H2DP 0.6 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL H2DP 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL H2DP 0.8 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL H2DP 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL H2S 0.4 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL H2S 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL H2S 0.6 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL H2S 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL H2S 0.8 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL H2S 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL P1S 0.4 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL P1S 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL P1S 0.6 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL P1S 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL P1S 0.8 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL P1S 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL P2S 0.4 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL P2S 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL P2S 0.6 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL P2S 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL P2S 0.8 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL P2S 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL X1 0.4 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL X1 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL X1 0.6 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL X1 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL X1 0.8 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL X1 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL X1C 0.4 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL X1C 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL X1C 0.6 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL X1C 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL X1C 0.8 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL X1C 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL X1E 0.4 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL X1E 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL X1E 0.6 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL X1E 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL X1E 0.8 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL X1E 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL X2D 0.4 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL X2D 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL X2D 0.6 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL X2D 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
+            "name": "Polymaker PPS-GF20 @BBL X2D 0.8 nozzle",
+            "sub_path": "filament/Polymaker PPS-GF20 @BBL X2D 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "Polymaker",
+            "material": "PPS-GF20",
+            "is_base": false
+        },
+        {
             "name": "PolyMax PC @BBL H2C 0.2 nozzle",
             "sub_path": "filament/PolyMax PC @BBL H2C 0.2 nozzle.json",
             "vendor": "Polymaker",
@@ -110489,6 +113193,358 @@
             "vendor": "Polymaker",
             "line": "PolyMax",
             "material": "PC",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL H2C 0.2 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL H2C 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL H2C 0.4 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL H2C 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL H2C 0.6 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL H2C 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL H2C 0.8 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL H2C 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL H2D 0.2 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL H2D 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL H2D 0.4 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL H2D 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL H2D 0.6 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL H2D 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL H2D 0.8 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL H2D 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL H2DP 0.2 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL H2DP 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL H2DP 0.4 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL H2DP 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL H2DP 0.6 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL H2DP 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL H2DP 0.8 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL H2DP 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL H2S 0.2 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL H2S 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL H2S 0.4 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL H2S 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL H2S 0.6 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL H2S 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL H2S 0.8 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL H2S 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL P1P 0.2 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL P1P 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL P1P 0.4 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL P1P 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL P1P 0.6 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL P1P 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL P1P 0.8 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL P1P 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL P1S 0.2 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL P1S 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL P1S 0.4 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL P1S 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL P1S 0.6 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL P1S 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL P1S 0.8 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL P1S 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL P2S 0.2 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL P2S 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL P2S 0.4 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL P2S 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL P2S 0.6 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL P2S 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL P2S 0.8 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL P2S 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL X1 0.2 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL X1 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL X1 0.4 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL X1 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL X1 0.6 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL X1 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL X1 0.8 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL X1 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL X1C 0.2 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL X1C 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL X1C 0.4 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL X1C 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL X1C 0.6 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL X1C 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL X1C 0.8 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL X1C 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL X1E 0.2 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL X1E 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL X1E 0.4 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL X1E 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL X1E 0.6 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL X1E 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL X1E 0.8 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL X1E 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL X2D 0.2 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL X2D 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL X2D 0.4 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL X2D 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL X2D 0.6 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL X2D 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
+            "is_base": false
+        },
+        {
+            "name": "PolyMax PC-FR @BBL X2D 0.8 nozzle",
+            "sub_path": "filament/PolyMax PC-FR @BBL X2D 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolyMax",
+            "material": "PC-FR",
             "is_base": false
         },
         {
@@ -112161,6 +115217,422 @@
             "vendor": "Polymaker",
             "line": "PolySmooth",
             "material": "PVB",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL A1 0.2 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL A1 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL A1 0.4 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL A1 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL A1 0.6 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL A1 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL A1 0.8 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL A1 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL A1M 0.2 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL A1M 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL A1M 0.4 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL A1M 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL A1M 0.6 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL A1M 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL A1M 0.8 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL A1M 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL H2C 0.2 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL H2C 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL H2C 0.4 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL H2C 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL H2C 0.6 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL H2C 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL H2C 0.8 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL H2C 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL H2D 0.2 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL H2D 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL H2D 0.4 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL H2D 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL H2D 0.6 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL H2D 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL H2D 0.8 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL H2D 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL H2DP 0.2 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL H2DP 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL H2DP 0.4 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL H2DP 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL H2DP 0.6 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL H2DP 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL H2DP 0.8 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL H2DP 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL H2S 0.2 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL H2S 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL H2S 0.4 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL H2S 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL H2S 0.6 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL H2S 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL H2S 0.8 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL H2S 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL P1P 0.2 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL P1P 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL P1P 0.4 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL P1P 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL P1P 0.6 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL P1P 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL P1P 0.8 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL P1P 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL P1S 0.2 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL P1S 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL P1S 0.4 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL P1S 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL P1S 0.6 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL P1S 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL P1S 0.8 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL P1S 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL P2S 0.2 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL P2S 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL P2S 0.4 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL P2S 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL P2S 0.6 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL P2S 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL P2S 0.8 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL P2S 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL X1 0.2 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL X1 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL X1 0.4 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL X1 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL X1 0.6 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL X1 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL X1 0.8 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL X1 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL X1C 0.2 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL X1C 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL X1C 0.4 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL X1C 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL X1C 0.6 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL X1C 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL X1C 0.8 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL X1C 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL X1E 0.2 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL X1E 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL X1E 0.4 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL X1E 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL X1E 0.6 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL X1E 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL X1E 0.8 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL X1E 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL X2D 0.2 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL X2D 0.2 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL X2D 0.4 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL X2D 0.4 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL X2D 0.6 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL X2D 0.6 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
+            "is_base": false
+        },
+        {
+            "name": "PolySmooth PLA @BBL X2D 0.8 nozzle",
+            "sub_path": "filament/PolySmooth PLA @BBL X2D 0.8 nozzle.json",
+            "vendor": "Polymaker",
+            "line": "PolySmooth",
+            "material": "PLA",
             "is_base": false
         },
         {

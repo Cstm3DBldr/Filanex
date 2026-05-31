@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Pro @BBL A1M 0.8 nozzle",
     "inherits": "PolyLite PLA Pro @base",
     "from": "system",
-    "setting_id": "GFSL115_08",
+    "setting_id": "GFSL48_08",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

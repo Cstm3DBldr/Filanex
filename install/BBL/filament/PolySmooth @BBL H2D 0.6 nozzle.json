@@ -3,7 +3,7 @@
     "name": "PolySmooth @BBL H2D 0.6 nozzle",
     "inherits": "PolySmooth @base",
     "from": "system",
-    "setting_id": "GFSL64_35",
+    "setting_id": "GFSL72_35",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

@@ -3,7 +3,7 @@
     "name": "Polymaker PC-Max @BBL X1C 0.2 nozzle",
     "inherits": "Polymaker PC-Max @base",
     "from": "system",
-    "setting_id": "GFSL51_05",
+    "setting_id": "GFSL123_05",
     "instantiation": "true",
     "fan_max_speed": [
         "40"

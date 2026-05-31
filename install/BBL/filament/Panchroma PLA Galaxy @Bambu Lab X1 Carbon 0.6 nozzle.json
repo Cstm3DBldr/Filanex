@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Galaxy @Bambu Lab X1 Carbon 0.6 nozzle",
     "inherits": "Panchroma PLA Galaxy @base",
     "from": "system",
-    "setting_id": "GFSL13_14",
+    "setting_id": "GFSL15_14",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

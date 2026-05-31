@@ -3,7 +3,7 @@
     "name": "PolyLite PLA @Bambu Lab A1 0.8 nozzle",
     "inherits": "PolyLite PLA @Polymaker base",
     "from": "system",
-    "setting_id": "GFSL36_04",
+    "setting_id": "GFSL106_04",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

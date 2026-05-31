@@ -3,7 +3,7 @@
     "name": "Panchroma PLA UV Shift @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFL24",
+    "filament_id": "GFL26",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

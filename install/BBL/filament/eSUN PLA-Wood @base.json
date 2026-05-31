@@ -80,15 +80,5 @@
     ],
     "activate_air_filtration": [
         "0"
-    ],
-    "_filanex_advisory": {
-        "matched_variants": [
-            "Wood"
-        ],
-        "min_nozzle_size_mm": 0.4,
-        "max_nozzle_size_mm": 0.8,
-        "hardened_nozzle_required": false,
-        "hardened_nozzle_recommended": false,
-        "abrasive_reason": "Wood: Most wood-effect filaments are foaming or polymer-based. 0.4 for clog avoidance. Vendor-specific exceptions for actual wood-fiber via product_overrides"
-    }
+    ]
 }

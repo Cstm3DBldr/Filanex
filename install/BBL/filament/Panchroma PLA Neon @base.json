@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Neon @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFL19",
+    "filament_id": "GFL21",
     "instantiation": "false",
     "filament_cost": [
         "29.99"

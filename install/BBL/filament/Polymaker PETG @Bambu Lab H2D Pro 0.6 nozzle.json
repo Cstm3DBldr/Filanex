@@ -3,7 +3,7 @@
     "name": "Polymaker PETG @Bambu Lab H2D Pro 0.6 nozzle",
     "inherits": "Polymaker PETG @base",
     "from": "system",
-    "setting_id": "GFSL52_39",
+    "setting_id": "GFSL58_39",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"

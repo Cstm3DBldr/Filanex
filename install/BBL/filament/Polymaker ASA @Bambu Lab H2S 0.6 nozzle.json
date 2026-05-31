@@ -3,7 +3,7 @@
     "name": "Polymaker ASA @Bambu Lab H2S 0.6 nozzle",
     "inherits": "Polymaker ASA @base",
     "from": "system",
-    "setting_id": "GFSL46_35",
+    "setting_id": "GFSL52_35",
     "instantiation": "true",
     "chamber_temperatures": [
         "40"

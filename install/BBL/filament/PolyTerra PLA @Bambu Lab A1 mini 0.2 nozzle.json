@@ -3,7 +3,7 @@
     "name": "PolyTerra PLA @Bambu Lab A1 mini 0.2 nozzle",
     "inherits": "PolyTerra PLA @Polymaker base",
     "from": "system",
-    "setting_id": "GFSL68_05",
+    "setting_id": "GFSL77_05",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

@@ -3,7 +3,7 @@
     "name": "PolyLite PETG Translucent @Bambu Lab H2C 0.2 nozzle",
     "inherits": "PolyLite PETG Translucent @base",
     "from": "system",
-    "setting_id": "GFSL35_29",
+    "setting_id": "GFSL41_29",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"

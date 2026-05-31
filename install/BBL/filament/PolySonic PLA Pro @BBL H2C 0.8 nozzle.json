@@ -3,7 +3,7 @@
     "name": "PolySonic PLA Pro @BBL H2C 0.8 nozzle",
     "inherits": "PolySonic PLA Pro @base",
     "from": "system",
-    "setting_id": "GFSL66_32",
+    "setting_id": "GFSL75_32",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

@@ -3,7 +3,7 @@
     "name": "PolyLite PETG Translucent @Bambu Lab X1 Carbon 0.8 nozzle",
     "inherits": "PolyLite PETG Translucent @base",
     "from": "system",
-    "setting_id": "GFSL35_20",
+    "setting_id": "GFSL41_20",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"

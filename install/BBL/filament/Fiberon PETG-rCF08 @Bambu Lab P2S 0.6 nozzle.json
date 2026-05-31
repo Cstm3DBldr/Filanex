@@ -3,7 +3,7 @@
     "name": "Fiberon PETG-rCF08 @Bambu Lab P2S 0.6 nozzle",
     "inherits": "Fiberon PETG-rCF08 @base",
     "from": "system",
-    "setting_id": "GFSL08_11",
+    "setting_id": "GFSL84_11",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0022"

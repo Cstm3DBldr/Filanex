@@ -3,7 +3,7 @@
     "name": "PolyTerra PLA+ @BBL X1 0.8 nozzle",
     "inherits": "PolyTerra PLA+ @base",
     "from": "system",
-    "setting_id": "GFSL69_16",
+    "setting_id": "GFSL78_16",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.95",

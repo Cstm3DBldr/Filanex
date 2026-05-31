@@ -3,7 +3,7 @@
     "name": "PolyMide CoPA @BBL H2D 0.6 nozzle",
     "inherits": "PolyMide CoPA @base",
     "from": "system",
-    "setting_id": "GFSL61_23",
+    "setting_id": "GFSL69_23",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

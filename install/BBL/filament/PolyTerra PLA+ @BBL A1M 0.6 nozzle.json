@@ -3,7 +3,7 @@
     "name": "PolyTerra PLA+ @BBL A1M 0.6 nozzle",
     "inherits": "PolyTerra PLA+ @base",
     "from": "system",
-    "setting_id": "GFSL69_07",
+    "setting_id": "GFSL78_07",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Matte @Bambu Lab P1S 0.8 nozzle",
     "inherits": "Panchroma PLA Matte @base",
     "from": "system",
-    "setting_id": "GFSL86_12",
+    "setting_id": "GFSL88_12",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

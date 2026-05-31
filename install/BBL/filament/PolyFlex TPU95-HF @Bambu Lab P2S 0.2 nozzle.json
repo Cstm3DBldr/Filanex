@@ -3,7 +3,7 @@
     "name": "PolyFlex TPU95-HF @Bambu Lab P2S 0.2 nozzle",
     "inherits": "PolyFlex TPU95-HF @base",
     "from": "system",
-    "setting_id": "GFSL29_17",
+    "setting_id": "GFSL33_17",
     "instantiation": "true",
     "eng_plate_temp": [
         "45"

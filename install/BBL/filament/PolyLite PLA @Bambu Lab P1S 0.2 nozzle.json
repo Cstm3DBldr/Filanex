@@ -3,7 +3,7 @@
     "name": "PolyLite PLA @Bambu Lab P1S 0.2 nozzle",
     "inherits": "PolyLite PLA @Polymaker base",
     "from": "system",
-    "setting_id": "GFSL36_09",
+    "setting_id": "GFSL116_09",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

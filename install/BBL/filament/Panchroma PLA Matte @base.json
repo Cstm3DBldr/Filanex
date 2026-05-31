@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Matte @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFL17",
+    "filament_id": "GFL19",
     "instantiation": "false",
     "filament_cost": [
         "20.99"

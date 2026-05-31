@@ -3,7 +3,7 @@
     "name": "Fiberon PET-CF17 @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFL06",
+    "filament_id": "GFL07",
     "instantiation": "false",
     "description": "When printing this filament, there's a risk of nozzle clogging, oozing, warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "cool_plate_temp": [
@@ -122,12 +122,5 @@
     ],
     "activate_air_filtration": [
         "0"
-    ],
-    "_filanex_advisory": {
-        "matched_variants": [],
-        "min_nozzle_size_mm": 0.4,
-        "max_nozzle_size_mm": 0.8,
-        "hardened_nozzle_required": true,
-        "hardened_nozzle_recommended": false
-    }
+    ]
 }

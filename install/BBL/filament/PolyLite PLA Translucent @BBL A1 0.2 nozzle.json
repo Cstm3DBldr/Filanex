@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Translucent @BBL A1 0.2 nozzle",
     "inherits": "PolyLite PLA Translucent @base",
     "from": "system",
-    "setting_id": "GFSL45_01",
+    "setting_id": "GFSL51_01",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

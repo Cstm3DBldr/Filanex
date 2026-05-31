@@ -3,7 +3,7 @@
     "name": "PolyLite PLA @Bambu Lab X1 Carbon 0.2 nozzle",
     "inherits": "PolyLite PLA @Polymaker base",
     "from": "system",
-    "setting_id": "GFSL36_17",
+    "setting_id": "GFSL42_17",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.97",

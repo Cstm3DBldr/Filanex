@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Glow @Bambu Lab A1 0.8 nozzle",
     "inherits": "Panchroma PLA Glow @base",
     "from": "system",
-    "setting_id": "GFSL14_03",
+    "setting_id": "GFSL100_03",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

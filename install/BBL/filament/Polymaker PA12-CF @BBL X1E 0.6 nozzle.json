@@ -3,7 +3,7 @@
     "name": "Polymaker PA12-CF @BBL X1E 0.6 nozzle",
     "inherits": "Polymaker PA12-CF @base",
     "from": "system",
-    "setting_id": "GFSL50_05",
+    "setting_id": "GFSL122_05",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"

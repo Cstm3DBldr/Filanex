@@ -3,7 +3,7 @@
     "name": "Polymaker HT-PLA @Bambu Lab H2D 0.8 nozzle",
     "inherits": "Polymaker HT-PLA @base",
     "from": "system",
-    "setting_id": "GFSL47_36",
+    "setting_id": "GFSL53_36",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

@@ -3,7 +3,7 @@
     "name": "PolyLite ASA @Bambu Lab H2C 0.8 nozzle",
     "inherits": "PolyLite ASA @Polymaker base",
     "from": "system",
-    "setting_id": "GFSL31_24",
+    "setting_id": "GFSL35_24",
     "instantiation": "true",
     "chamber_temperatures": [
         "40"

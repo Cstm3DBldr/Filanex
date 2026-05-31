@@ -3,7 +3,7 @@
     "name": "Panchroma PLA @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFL11",
+    "filament_id": "GFL13",
     "instantiation": "false",
     "filament_cost": [
         "19.99"

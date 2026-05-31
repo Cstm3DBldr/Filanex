@@ -3,7 +3,7 @@
     "name": "PolyLite PLA-CF @BBL H2S 0.8 nozzle",
     "inherits": "PolyLite PLA-CF @base",
     "from": "system",
-    "setting_id": "GFSL37_27",
+    "setting_id": "GFSL43_27",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0003"

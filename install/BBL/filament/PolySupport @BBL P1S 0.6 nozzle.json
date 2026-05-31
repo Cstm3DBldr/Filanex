@@ -3,7 +3,7 @@
     "name": "PolySupport @BBL P1S 0.6 nozzle",
     "inherits": "PolySupport @base",
     "from": "system",
-    "setting_id": "GFSL67_11",
+    "setting_id": "GFSL76_11",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

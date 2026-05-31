@@ -3,7 +3,7 @@
     "name": "PolyMax PC @BBL H2C 0.6 nozzle",
     "inherits": "PolyMax PC @base",
     "from": "system",
-    "setting_id": "GFSL58_23",
+    "setting_id": "GFSL65_23",
     "instantiation": "true",
     "chamber_temperatures": [
         "50"

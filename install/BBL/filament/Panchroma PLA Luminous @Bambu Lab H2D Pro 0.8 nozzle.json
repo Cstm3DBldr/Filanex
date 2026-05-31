@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Luminous @Bambu Lab H2D Pro 0.8 nozzle",
     "inherits": "Panchroma PLA Luminous @base",
     "from": "system",
-    "setting_id": "GFSL15_30",
+    "setting_id": "GFSL17_30",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

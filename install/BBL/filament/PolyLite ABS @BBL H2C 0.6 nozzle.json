@@ -3,7 +3,7 @@
     "name": "PolyLite ABS @BBL H2C 0.6 nozzle",
     "inherits": "PolyLite ABS @Polymaker base",
     "from": "system",
-    "setting_id": "GFSL30_23",
+    "setting_id": "GFSL34_23",
     "instantiation": "true",
     "chamber_temperatures": [
         "40"

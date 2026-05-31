@@ -3,7 +3,7 @@
     "name": "PolyMide CoPA @BBL X2D 0.8 nozzle",
     "inherits": "PolyMide CoPA @base",
     "from": "system",
-    "setting_id": "GFSL61_16",
+    "setting_id": "GFSL69_16",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"

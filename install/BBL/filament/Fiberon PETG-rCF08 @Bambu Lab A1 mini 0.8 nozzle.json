@@ -3,7 +3,7 @@
     "name": "Fiberon PETG-rCF08 @Bambu Lab A1 mini 0.8 nozzle",
     "inherits": "Fiberon PETG-rCF08 @base",
     "from": "system",
-    "setting_id": "GFSL08_06",
+    "setting_id": "GFSL87_06",
     "instantiation": "true",
     "filament_max_volumetric_speed": [
         "11.5"

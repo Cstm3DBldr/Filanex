@@ -3,7 +3,7 @@
     "name": "PolySonic PLA @BBL X1C 0.8 nozzle",
     "inherits": "PolySonic PLA @base",
     "from": "system",
-    "setting_id": "GFSL65_20",
+    "setting_id": "GFSL74_20",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.95",

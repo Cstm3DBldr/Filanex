@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Translucent @BBL H2D 0.6 nozzle",
     "inherits": "PolyLite PLA Translucent @base",
     "from": "system",
-    "setting_id": "GFSL45_35",
+    "setting_id": "GFSL51_35",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

@@ -3,7 +3,7 @@
     "name": "PolyMide CoPA @BBL X1C 0.2 nozzle",
     "inherits": "PolyMide CoPA @base",
     "from": "system",
-    "setting_id": "GFSL61_01",
+    "setting_id": "GFSL69_01",
     "instantiation": "true",
     "chamber_temperatures": [
         "0"

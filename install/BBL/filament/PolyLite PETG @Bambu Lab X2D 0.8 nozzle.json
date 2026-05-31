@@ -3,7 +3,7 @@
     "name": "PolyLite PETG @Bambu Lab X2D 0.8 nozzle",
     "inherits": "PolyLite PETG @Polymaker base",
     "from": "system",
-    "setting_id": "GFSL34_28",
+    "setting_id": "GFSL40_28",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"

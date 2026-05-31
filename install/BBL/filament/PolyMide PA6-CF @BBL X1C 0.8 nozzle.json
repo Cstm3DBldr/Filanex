@@ -3,7 +3,7 @@
     "name": "PolyMide PA6-CF @BBL X1C 0.8 nozzle",
     "inherits": "PolyMide PA6-CF @base",
     "from": "system",
-    "setting_id": "GFSL62_03",
+    "setting_id": "GFSL70_03",
     "instantiation": "true",
     "chamber_temperatures": [
         "0"

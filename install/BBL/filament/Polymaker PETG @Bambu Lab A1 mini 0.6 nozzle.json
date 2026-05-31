@@ -3,7 +3,7 @@
     "name": "Polymaker PETG @Bambu Lab A1 mini 0.6 nozzle",
     "inherits": "Polymaker PETG @base",
     "from": "system",
-    "setting_id": "GFSL52_07",
+    "setting_id": "GFSL110_07",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "15"

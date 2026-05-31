@@ -3,7 +3,7 @@
     "name": "PolySupport @BBL X1C 0.8 nozzle",
     "inherits": "PolySupport @base",
     "from": "system",
-    "setting_id": "GFSL67_20",
+    "setting_id": "GFSL76_20",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

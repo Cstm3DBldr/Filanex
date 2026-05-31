@@ -3,7 +3,7 @@
     "name": "Polymaker PETG @Bambu Lab H2C 0.2 nozzle",
     "inherits": "Polymaker PETG @base",
     "from": "system",
-    "setting_id": "GFSL52_29",
+    "setting_id": "GFSL58_29",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"

@@ -3,7 +3,7 @@
     "name": "Polymaker HT-PLA @Bambu Lab X1 Carbon 0.2 nozzle",
     "inherits": "Polymaker HT-PLA @base",
     "from": "system",
-    "setting_id": "GFSL47_17",
+    "setting_id": "GFSL53_17",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

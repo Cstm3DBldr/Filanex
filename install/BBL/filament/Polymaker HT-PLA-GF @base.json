@@ -3,7 +3,7 @@
     "name": "Polymaker HT-PLA-GF @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFL48",
+    "filament_id": "GFL54",
     "instantiation": "false",
     "additional_cooling_fan_speed": [
         "0"
@@ -76,12 +76,5 @@
     ],
     "activate_air_filtration": [
         "0"
-    ],
-    "_filanex_advisory": {
-        "matched_variants": [],
-        "min_nozzle_size_mm": 0.4,
-        "max_nozzle_size_mm": 0.8,
-        "hardened_nozzle_required": true,
-        "hardened_nozzle_recommended": false
-    }
+    ]
 }

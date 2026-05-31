@@ -3,7 +3,7 @@
     "name": "Polymaker PLA @BBL H2DP 0.8 nozzle",
     "inherits": "Polymaker PLA @base",
     "from": "system",
-    "setting_id": "GFSL55_40",
+    "setting_id": "GFSL61_40",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

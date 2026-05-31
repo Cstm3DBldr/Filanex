@@ -3,7 +3,7 @@
     "name": "PolyLite PLA-CF @BBL A1M 0.8 nozzle",
     "inherits": "PolyLite PLA-CF @base",
     "from": "system",
-    "setting_id": "GFSL37_06",
+    "setting_id": "GFSL111_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

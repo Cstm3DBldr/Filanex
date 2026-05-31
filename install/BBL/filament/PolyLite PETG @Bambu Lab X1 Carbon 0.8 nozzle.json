@@ -3,7 +3,7 @@
     "name": "PolyLite PETG @Bambu Lab X1 Carbon 0.8 nozzle",
     "inherits": "PolyLite PETG @Polymaker base",
     "from": "system",
-    "setting_id": "GFSL34_20",
+    "setting_id": "GFSL40_20",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"

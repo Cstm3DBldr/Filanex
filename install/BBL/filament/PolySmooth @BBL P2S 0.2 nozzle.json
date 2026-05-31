@@ -3,7 +3,7 @@
     "name": "PolySmooth @BBL P2S 0.2 nozzle",
     "inherits": "PolySmooth @base",
     "from": "system",
-    "setting_id": "GFSL64_21",
+    "setting_id": "GFSL72_21",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

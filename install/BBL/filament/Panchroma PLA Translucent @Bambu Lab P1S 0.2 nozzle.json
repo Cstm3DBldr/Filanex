@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Translucent @Bambu Lab P1S 0.2 nozzle",
     "inherits": "Panchroma PLA Translucent @base",
     "from": "system",
-    "setting_id": "GFSL105_09",
+    "setting_id": "GFSL108_09",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

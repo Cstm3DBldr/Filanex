@@ -627,6 +627,161 @@ POLYMAKER_BRAND_PREFIXES = (
 )
 
 
+def restore_disabled_bambu_legacy_subfolders(system_dir: Path) -> int:
+    """Reverse disable_bambu_legacy_subfolders by renaming
+    .filanex-disabled files back to .json in BBL/filament/<vendor>/
+    subfolders. Used on uninstall to leave Bambu's stock state intact.
+    Returns count restored."""
+    filament_dir = system_dir / "BBL" / "filament"
+    if not filament_dir.exists():
+        return 0
+    restored = 0
+    for vendor in LEGACY_SUBFOLDER_VENDORS:
+        vdir = filament_dir / vendor
+        if not vdir.is_dir():
+            continue
+        for f in vdir.iterdir():
+            if not f.is_file() or f.suffix != ".filanex-disabled":
+                continue
+            target = f.with_suffix(".json")
+            if target.exists():
+                # Original already exists (e.g. Bambu's profile-sync
+                # re-downloaded); delete the disabled copy to avoid
+                # duplicate confusion.
+                try:
+                    f.unlink()
+                except OSError:
+                    pass
+                continue
+            try:
+                f.rename(target)
+                restored += 1
+            except OSError as e:
+                print(f"  WARN: couldn't restore legacy {f.name}: {e}")
+    return restored
+
+
+def backup_bambu_stock_polymaker_root_files(
+    filament_dir: Path,
+    our_filenames: set[str],
+) -> int:
+    """Back up Bambu's stock Polymaker .json files in BBL/filament/ root
+    (NOT subfolders) that AREN'T part of our overlay. Rename
+    .json -> .json.filanex-bambu-backup so Bambu Studio stops loading
+    them.
+
+    Why: Bambu ships flat per-printer Polymaker profiles for some
+    SKUs/printers (e.g. Fiberon PA6-CF20 for H2D/X1C/H2S but NOT H2C).
+    These show up as "Unsupported" entries in the picker for any
+    printer not in their compatible_printers list. Since our overlay
+    (force-installed for Polymaker) provides comprehensive coverage
+    across every printer, these Bambu stock files are redundant noise
+    that pollutes the dropdown.
+
+    Skip rules:
+    - Files OUR overlay wrote at the same filename: those get
+      overwritten during the file-write step, no need to back them up
+      separately (we own the active version).
+    - Files NOT matching a Polymaker brand prefix.
+    - Subfolder contents (we leave those alone -- inheritance chain
+      risk inside Polymaker/ subfolder broke past attempts).
+
+    Restoration: restore_all_bambu_polymaker_backups scans for the
+    .filanex-bambu-backup extension and renames them back to .json on
+    uninstall.
+
+    Returns count backed up."""
+    if not filament_dir.exists():
+        return 0
+    backed_up = 0
+    for f in filament_dir.iterdir():
+        if not f.is_file() or f.suffix != ".json":
+            continue
+        name = f.name
+        if not any(name.startswith(p) for p in POLYMAKER_BRAND_PREFIXES):
+            continue
+        # Skip files we'll overwrite during the write step
+        if name in our_filenames:
+            continue
+        new_path = f.parent / (f.name + BACKUP_EXT)
+        if new_path.exists():
+            # Backup already exists from a prior run; the current .json
+            # is a new download from Bambu's CDN. Delete it (the backup
+            # preserves the original from before we ever touched it).
+            try:
+                f.unlink()
+                backed_up += 1
+            except OSError as e:
+                print(f"  WARN: couldn't remove duplicate Bambu stock {name}: {e}")
+            continue
+        try:
+            f.rename(new_path)
+            backed_up += 1
+        except OSError as e:
+            print(f"  WARN: couldn't back up Bambu stock {name}: {e}")
+    return backed_up
+
+
+def cleanup_user_folder_polymaker_copies(system_dir: Path) -> int:
+    """Scan user/<id>/filament/ for Bambu Studio auto-copy files
+    (* - Copy.json / * - Copy.info) whose base name matches one of our
+    Polymaker brand prefixes. Move them to a timestamped backup folder
+    under user/<id>/_filanex-userfile-backup-<timestamp>/.
+
+    Why: Bambu Studio creates "<name> - Copy" auto-saves when the user
+    clicks Edit/Save-As on a stock profile. These accumulate over
+    install/uninstall cycles and show up as Unsupported entries
+    (compatible_printers is often empty on auto-copies). The user has
+    no use for these; they were created accidentally during prior
+    install testing.
+
+    Backup-then-move is reversible: the timestamped folder lets the
+    user restore manually if they discover a copy they actually wanted.
+
+    Returns count moved."""
+    # system_dir is .../BambuStudio/system; user folder is sibling
+    user_root = system_dir.parent / "user"
+    if not user_root.exists():
+        return 0
+    moved = 0
+    timestamp = dt.datetime.now().strftime("%Y%m%d-%H%M%S")
+    for user_id_dir in user_root.iterdir():
+        if not user_id_dir.is_dir():
+            continue
+        filament_dir = user_id_dir / "filament"
+        if not filament_dir.is_dir():
+            continue
+        backup_dir = None  # lazy create per user-id
+        for f in filament_dir.iterdir():
+            if not f.is_file():
+                continue
+            if f.suffix not in (".json", ".info"):
+                continue
+            name = f.name
+            # Bambu Studio's auto-copy filename pattern
+            if " - Copy" not in name:
+                continue
+            stem = f.stem
+            if not any(stem.startswith(p) for p in POLYMAKER_BRAND_PREFIXES):
+                continue
+            if backup_dir is None:
+                backup_dir = (
+                    user_id_dir / f"_filanex-userfile-backup-{timestamp}"
+                )
+                try:
+                    backup_dir.mkdir(exist_ok=True)
+                except OSError as e:
+                    print(f"  WARN: couldn't create backup dir {backup_dir}: {e}")
+                    backup_dir = None
+                    continue
+            try:
+                shutil.move(str(f), str(backup_dir / name))
+                moved += 1
+            except OSError as e:
+                print(f"  WARN: couldn't move user copy {f.name}: {e}")
+    return moved
+
+
 def restore_all_bambu_polymaker_backups(filament_dir: Path) -> int:
     """Restore ALL Bambu Polymaker .filanex-bambu-backup files by
     renaming back to .json. The disable-and-rename approach turned out
@@ -1154,15 +1309,29 @@ def _do_fresh_install(
     _emit_phase("Disabling Bambu's legacy vendor-subfolder files")
     legacy_disabled = disable_bambu_legacy_subfolders(system_dir)
 
+    # Back up Bambu's stock Polymaker files in BBL/filament/ root that
+    # AREN'T part of our overlay -- those flat per-printer profiles
+    # show as Unsupported entries when the user's current printer
+    # isn't in their compatible_printers list. Our overlay covers
+    # every printer, so these are redundant noise.
+    _emit_phase("Backing up Bambu's stock Polymaker root files we don't own")
+    our_filenames = set(bundle["files"].keys())
+    bambu_root_backed_up = backup_bambu_stock_polymaker_root_files(
+        target_filament, our_filenames,
+    )
+
+    # Clean up Bambu Studio's auto-copy files (* - Copy.json/.info) in
+    # the user folder for any Polymaker SKU. These are leftovers from
+    # accidental Edit/Save-As clicks and have empty compatible_printers
+    # so they always show as Unsupported.
+    _emit_phase("Cleaning up Bambu Studio auto-copy files in user folder")
+    user_copies_moved = cleanup_user_folder_polymaker_copies(system_dir)
+
     # Restore all Bambu Polymaker .filanex-bambu-backup files from prior
-    # install runs. The disable-Bambu-stock approach broke Bambu's
-    # multi-level inheritance chains (P1P subfolder leaves inherit from
-    # top-level @BBL X1C mid-level leaves, etc.) -- removing ANY Bambu
-    # stock file caused "Failed loading configuration file" errors.
-    # The new strategy: leave Bambu stock in place, rely on our
-    # overlay filenames matching Bambu's (overwrite wins) plus
-    # gen_setting_id collision avoidance in export_bambu.py.
-    _emit_phase("Restoring Bambu stock files from any prior disable")
+    # install runs IF our current bundle now owns that filename (we may
+    # have added overlay coverage that wasn't there before). Otherwise
+    # leave the backup in place.
+    _emit_phase("Restoring Bambu stock files we now overlay")
     bambu_restored = restore_all_bambu_polymaker_backups(target_filament)
 
     print(f"  Files added:         {files_added}")
@@ -1172,6 +1341,12 @@ def _do_fresh_install(
           f"(existing files with different content -- not ours)")
     print(f"  Legacy stock disabled: {legacy_disabled}  "
           f"(Bambu BBL/filament/Polymaker/* renamed to .filanex-disabled)")
+    if bambu_root_backed_up:
+        print(f"  Bambu root stock backed up: {bambu_root_backed_up}  "
+              f"(BBL/filament/<line> @Bambu Lab *.json we don't overlay -> .filanex-bambu-backup)")
+    if user_copies_moved:
+        print(f"  User-folder copies moved: {user_copies_moved}  "
+              f"(* - Copy.json/.info -> _filanex-userfile-backup-<timestamp>/)")
     if bambu_restored:
         print(f"  Bambu stock restored: {bambu_restored}  "
               f"(undoing prior over-aggressive disable that broke inheritance)")
@@ -1352,13 +1527,24 @@ def _do_upgrade(
     _emit_phase("Disabling Bambu's legacy vendor-subfolder files")
     legacy_disabled = disable_bambu_legacy_subfolders(system_dir)
 
-    # Restore ALL Bambu Polymaker .filanex-bambu-backup files from
-    # prior install runs. The disable-Bambu-stock approach broke
-    # Bambu's multi-level inheritance chains -- removing ANY Bambu
-    # stock file (not just @base) caused "Failed loading configuration
-    # file" errors because subfolder leaves inherit from mid-level
-    # top-level leaves like "PolyLite PLA @BBL X1C".
-    _emit_phase("Restoring Bambu stock files from any prior disable")
+    # Back up Bambu's stock Polymaker files in BBL/filament/ root that
+    # AREN'T part of our overlay. See _do_install for rationale.
+    _emit_phase("Backing up Bambu's stock Polymaker root files we don't own")
+    our_filenames = set(bundle["files"].keys())
+    bambu_root_backed_up = backup_bambu_stock_polymaker_root_files(
+        target_filament, our_filenames,
+    )
+
+    # Clean up Bambu Studio's auto-copy files (* - Copy.json/.info) in
+    # the user folder for any Polymaker SKU.
+    _emit_phase("Cleaning up Bambu Studio auto-copy files in user folder")
+    user_copies_moved = cleanup_user_folder_polymaker_copies(system_dir)
+
+    # Restore Bambu Polymaker .filanex-bambu-backup files where our
+    # bundle now overlays the same filename (the backup is redundant
+    # since our overlay is the active file). Other backups stay in
+    # place so an uninstall can fully restore the original state.
+    _emit_phase("Restoring Bambu stock files we now overlay")
     bambu_restored = restore_all_bambu_polymaker_backups(target_filament)
 
     print(f"  Files added:                       {files_added}")
@@ -1367,6 +1553,12 @@ def _do_upgrade(
     print(f"  Files removed:                     {files_removed}")
     print(f"  Legacy stock disabled:             {legacy_disabled}  "
           f"(Bambu's BBL/filament/Polymaker/*.json renamed .filanex-disabled)")
+    if bambu_root_backed_up:
+        print(f"  Bambu root stock backed up:        {bambu_root_backed_up}  "
+              f"(BBL/filament/<line> @Bambu Lab *.json we don't overlay -> .filanex-bambu-backup)")
+    if user_copies_moved:
+        print(f"  User-folder copies moved:          {user_copies_moved}  "
+              f"(* - Copy.json/.info -> _filanex-userfile-backup-<timestamp>/)")
     if bambu_restored:
         print(f"  Bambu stock restored:              {bambu_restored}  "
               f"(fixes 'Failed loading configuration file' errors from prior install)")
@@ -1448,6 +1640,18 @@ def cmd_uninstall(system_dir: Path, force: bool) -> int:
     enable_filaments_in_user_conf(
         system_dir, names_to_enable=[], names_to_disable=list(names_to_remove),
     )
+
+    # Restore Bambu's stock state: undo subfolder disables and undo
+    # root-level backups so the user's slicer is exactly as it was
+    # before they ran the installer. Without these, uninstalling
+    # Filanex would leave the user with NO Polymaker profiles (we
+    # removed ours; Bambu's are still hidden as .filanex-disabled /
+    # .filanex-bambu-backup).
+    legacy_restored = restore_disabled_bambu_legacy_subfolders(system_dir)
+    bambu_root_restored = restore_all_bambu_polymaker_backups(target_filament)
+    if legacy_restored or bambu_root_restored:
+        print(f"  Bambu stock restored:  "
+              f"{legacy_restored} subfolder + {bambu_root_restored} root files")
 
     if files_kept_modified == 0:
         tracking_path(system_dir).unlink()

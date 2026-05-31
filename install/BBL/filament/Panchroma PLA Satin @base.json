@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Satin @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFL20",
+    "filament_id": "GFL22",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

@@ -3,7 +3,7 @@
     "name": "Polymaker PETG @Bambu Lab P2S 0.2 nozzle",
     "inherits": "Polymaker PETG @base",
     "from": "system",
-    "setting_id": "GFSL52_21",
+    "setting_id": "GFSL58_21",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "40"

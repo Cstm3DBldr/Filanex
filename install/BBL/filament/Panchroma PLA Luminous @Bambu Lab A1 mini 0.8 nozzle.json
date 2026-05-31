@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Luminous @Bambu Lab A1 mini 0.8 nozzle",
     "inherits": "Panchroma PLA Luminous @base",
     "from": "system",
-    "setting_id": "GFSL15_06",
+    "setting_id": "GFSL101_06",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

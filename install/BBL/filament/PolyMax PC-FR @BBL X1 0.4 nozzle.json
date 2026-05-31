@@ -1,0 +1,71 @@
+{
+    "type": "filament",
+    "name": "PolyMax PC-FR @BBL X1 0.4 nozzle",
+    "inherits": "PolyMax PC-FR @base",
+    "from": "system",
+    "setting_id": "GFSL66_30",
+    "instantiation": "true",
+    "eng_plate_temp": [
+        "110"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "110"
+    ],
+    "fan_max_speed": [
+        "20"
+    ],
+    "filament_max_volumetric_speed": [
+        "4"
+    ],
+    "hot_plate_temp": [
+        "110"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "110"
+    ],
+    "nozzle_temperature": [
+        "275"
+    ],
+    "reduce_fan_stop_start_freq": [
+        "0"
+    ],
+    "slow_down_layer_time": [
+        "12"
+    ],
+    "textured_plate_temp": [
+        "110"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "110"
+    ],
+    "compatible_printers": [
+        "Bambu Lab X1 0.4 nozzle"
+    ],
+    "filament_settings_id": [
+        "PolyMax PC-FR @BBL X1"
+    ],
+    "filament_vendor": [
+        "Polymaker"
+    ],
+    "filament_type": [
+        "PC"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
+    ],
+    "chamber_temperatures": [
+        "0"
+    ],
+    "activate_air_filtration": [
+        "0"
+    ]
+}

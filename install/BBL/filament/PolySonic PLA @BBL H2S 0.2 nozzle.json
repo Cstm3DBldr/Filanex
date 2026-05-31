@@ -3,7 +3,7 @@
     "name": "PolySonic PLA @BBL H2S 0.2 nozzle",
     "inherits": "PolySonic PLA @base",
     "from": "system",
-    "setting_id": "GFSL65_41",
+    "setting_id": "GFSL74_41",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

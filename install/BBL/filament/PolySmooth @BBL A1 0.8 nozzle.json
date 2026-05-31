@@ -3,7 +3,7 @@
     "name": "PolySmooth @BBL A1 0.8 nozzle",
     "inherits": "PolySmooth @base",
     "from": "system",
-    "setting_id": "GFSL64_04",
+    "setting_id": "GFSL72_04",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

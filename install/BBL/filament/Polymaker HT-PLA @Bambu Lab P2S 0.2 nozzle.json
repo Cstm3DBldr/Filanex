@@ -3,7 +3,7 @@
     "name": "Polymaker HT-PLA @Bambu Lab P2S 0.2 nozzle",
     "inherits": "Polymaker HT-PLA @base",
     "from": "system",
-    "setting_id": "GFSL47_21",
+    "setting_id": "GFSL53_21",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

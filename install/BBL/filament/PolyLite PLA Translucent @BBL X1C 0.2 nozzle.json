@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Translucent @BBL X1C 0.2 nozzle",
     "inherits": "PolyLite PLA Translucent @base",
     "from": "system",
-    "setting_id": "GFSL45_17",
+    "setting_id": "GFSL51_17",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

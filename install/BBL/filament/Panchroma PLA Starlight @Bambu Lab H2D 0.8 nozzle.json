@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Starlight @Bambu Lab H2D 0.8 nozzle",
     "inherits": "Panchroma PLA Starlight @base",
     "from": "system",
-    "setting_id": "GFSL22_27",
+    "setting_id": "GFSL24_27",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

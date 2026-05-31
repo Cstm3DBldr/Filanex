@@ -3,7 +3,7 @@
     "name": "Polymaker PETG HF @BBL P2S 0.2 nozzle",
     "inherits": "Polymaker PETG HF @base",
     "from": "system",
-    "setting_id": "GFSL54_21",
+    "setting_id": "GFSL60_21",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "40"

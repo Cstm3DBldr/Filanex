@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Matte @Bambu Lab H2S 0.2 nozzle",
     "inherits": "Panchroma PLA Matte @base",
     "from": "system",
-    "setting_id": "GFSL17_41",
+    "setting_id": "GFSL19_41",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

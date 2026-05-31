@@ -3,7 +3,7 @@
     "name": "Panchroma CoPE @BBL X1C 0.8 nozzle",
     "inherits": "Panchroma CoPE @base",
     "from": "system",
-    "setting_id": "GFSL10_20",
+    "setting_id": "GFSL12_20",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

@@ -3,7 +3,7 @@
     "name": "Fiberon PET-CF17 @Bambu Lab X1 Carbon 0.6 nozzle",
     "inherits": "Fiberon PET-CF17 @base",
     "from": "system",
-    "setting_id": "GFSL06_02",
+    "setting_id": "GFSL86_02",
     "instantiation": "true",
     "chamber_temperatures": [
         "0"

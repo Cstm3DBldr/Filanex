@@ -3,7 +3,7 @@
     "name": "PolyFlex TPU95-HF @Bambu Lab A1 mini 0.2 nozzle",
     "inherits": "PolyFlex TPU95-HF @base",
     "from": "system",
-    "setting_id": "GFSL29_05",
+    "setting_id": "GFSL116_05",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

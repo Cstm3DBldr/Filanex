@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Marble @Bambu Lab A1 0.8 nozzle",
     "inherits": "Panchroma PLA Marble @base",
     "from": "system",
-    "setting_id": "GFSL97_03",
+    "setting_id": "GFSL102_03",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

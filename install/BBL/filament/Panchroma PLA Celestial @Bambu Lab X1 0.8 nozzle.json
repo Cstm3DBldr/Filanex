@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Celestial @Bambu Lab X1 0.8 nozzle",
     "inherits": "Panchroma PLA Celestial @base",
     "from": "system",
-    "setting_id": "GFSL12_12",
+    "setting_id": "GFSL14_12",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

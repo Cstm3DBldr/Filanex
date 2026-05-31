@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Glow @Bambu Lab H2S 0.6 nozzle",
     "inherits": "Panchroma PLA Glow @base",
     "from": "system",
-    "setting_id": "GFSL14_32",
+    "setting_id": "GFSL16_32",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

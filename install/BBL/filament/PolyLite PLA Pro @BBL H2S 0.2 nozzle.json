@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Pro @BBL H2S 0.2 nozzle",
     "inherits": "PolyLite PLA Pro @base",
     "from": "system",
-    "setting_id": "GFSL42_41",
+    "setting_id": "GFSL48_41",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

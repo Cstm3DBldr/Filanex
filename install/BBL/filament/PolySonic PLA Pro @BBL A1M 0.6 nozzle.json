@@ -3,7 +3,7 @@
     "name": "PolySonic PLA Pro @BBL A1M 0.6 nozzle",
     "inherits": "PolySonic PLA Pro @base",
     "from": "system",
-    "setting_id": "GFSL66_07",
+    "setting_id": "GFSL75_07",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"

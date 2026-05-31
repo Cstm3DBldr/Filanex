@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Luminous @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFL15",
+    "filament_id": "GFL17",
     "instantiation": "false",
     "filament_cost": [
         "29.99"
@@ -80,15 +80,5 @@
     ],
     "activate_air_filtration": [
         "0"
-    ],
-    "_filanex_advisory": {
-        "matched_variants": [
-            "Luminous"
-        ],
-        "min_nozzle_size_mm": 0.2,
-        "max_nozzle_size_mm": 0.8,
-        "hardened_nozzle_required": true,
-        "hardened_nozzle_recommended": false,
-        "abrasive_reason": "Luminous: Phosphor pigment"
-    }
+    ]
 }

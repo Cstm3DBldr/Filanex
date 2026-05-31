@@ -3,7 +3,7 @@
     "name": "Panchroma CoPE @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFL10",
+    "filament_id": "GFL12",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

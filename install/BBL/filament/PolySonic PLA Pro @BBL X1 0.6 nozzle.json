@@ -3,7 +3,7 @@
     "name": "PolySonic PLA Pro @BBL X1 0.6 nozzle",
     "inherits": "PolySonic PLA Pro @base",
     "from": "system",
-    "setting_id": "GFSL66_15",
+    "setting_id": "GFSL75_15",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",

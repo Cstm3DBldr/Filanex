@@ -3,7 +3,7 @@
     "name": "PolyTerra PLA @Bambu Lab P2S 0.8 nozzle",
     "inherits": "PolyTerra PLA @Polymaker base",
     "from": "system",
-    "setting_id": "GFSL68_24",
+    "setting_id": "GFSL77_24",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

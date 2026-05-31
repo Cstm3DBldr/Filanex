@@ -3,7 +3,7 @@
     "name": "PolyTerra PLA @Bambu Lab X1 Carbon 0.8 nozzle",
     "inherits": "PolyTerra PLA @Polymaker base",
     "from": "system",
-    "setting_id": "GFSL68_20",
+    "setting_id": "GFSL77_20",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

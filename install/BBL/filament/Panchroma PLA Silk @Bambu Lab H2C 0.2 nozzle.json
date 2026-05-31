@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Silk @Bambu Lab H2C 0.2 nozzle",
     "inherits": "Panchroma PLA Silk @base",
     "from": "system",
-    "setting_id": "GFSL21_29",
+    "setting_id": "GFSL23_29",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

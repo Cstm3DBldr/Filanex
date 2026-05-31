@@ -3,7 +3,7 @@
     "name": "PolyFlex TPU95-HF @Bambu Lab H2D Pro 0.2 nozzle",
     "inherits": "PolyFlex TPU95-HF @base",
     "from": "system",
-    "setting_id": "GFSL29_33",
+    "setting_id": "GFSL33_33",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"

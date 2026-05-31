@@ -3,7 +3,7 @@
     "name": "PolyLite CosPLA @BBL X2D 0.8 nozzle",
     "inherits": "PolyLite CosPLA @base",
     "from": "system",
-    "setting_id": "GFSL32_28",
+    "setting_id": "GFSL36_28",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"

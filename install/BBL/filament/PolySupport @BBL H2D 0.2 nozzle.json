@@ -3,7 +3,7 @@
     "name": "PolySupport @BBL H2D 0.2 nozzle",
     "inherits": "PolySupport @base",
     "from": "system",
-    "setting_id": "GFSL67_33",
+    "setting_id": "GFSL76_33",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

@@ -3,7 +3,7 @@
     "name": "Fiberon PETG-ESD @Polymaker base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFL07",
+    "filament_id": "GFL09",
     "instantiation": "false",
     "cool_plate_temp": [
         "65"

@@ -3,7 +3,7 @@
     "name": "PolyLite PLA Pro Metallic @BBL X1C 0.2 nozzle",
     "inherits": "PolyLite PLA Pro Metallic @base",
     "from": "system",
-    "setting_id": "GFSL43_17",
+    "setting_id": "GFSL49_17",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.99",

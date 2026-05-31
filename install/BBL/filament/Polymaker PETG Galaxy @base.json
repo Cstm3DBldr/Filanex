@@ -3,7 +3,7 @@
     "name": "Polymaker PETG Galaxy @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFL53",
+    "filament_id": "GFL59",
     "instantiation": "false",
     "cool_plate_temp": [
         "65"
@@ -100,15 +100,5 @@
     ],
     "activate_air_filtration": [
         "0"
-    ],
-    "_filanex_advisory": {
-        "matched_variants": [
-            "Galaxy"
-        ],
-        "min_nozzle_size_mm": 0.4,
-        "max_nozzle_size_mm": 0.8,
-        "hardened_nozzle_required": false,
-        "hardened_nozzle_recommended": false,
-        "abrasive_reason": "Galaxy: Sparkle/glitter flakes (aluminum); 0.4 to avoid clogging. Polymaker/Bambu/Anycubic explicitly say brass is fine"
-    }
+    ]
 }

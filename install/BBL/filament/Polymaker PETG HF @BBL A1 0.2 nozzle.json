@@ -3,7 +3,7 @@
     "name": "Polymaker PETG HF @BBL A1 0.2 nozzle",
     "inherits": "Polymaker PETG HF @base",
     "from": "system",
-    "setting_id": "GFSL54_01",
+    "setting_id": "GFSL116_01",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "15"

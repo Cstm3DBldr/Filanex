@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Galaxy @Bambu Lab H2D Pro 0.6 nozzle",
     "inherits": "Panchroma PLA Galaxy @base",
     "from": "system",
-    "setting_id": "GFSL13_29",
+    "setting_id": "GFSL15_29",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

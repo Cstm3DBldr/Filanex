@@ -3,7 +3,7 @@
     "name": "PolyTerra PLA @Bambu Lab H2S 0.6 nozzle",
     "inherits": "PolyTerra PLA @Polymaker base",
     "from": "system",
-    "setting_id": "GFSL68_43",
+    "setting_id": "GFSL77_43",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

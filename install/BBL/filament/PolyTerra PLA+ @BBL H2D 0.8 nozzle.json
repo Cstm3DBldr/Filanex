@@ -3,7 +3,7 @@
     "name": "PolyTerra PLA+ @BBL H2D 0.8 nozzle",
     "inherits": "PolyTerra PLA+ @base",
     "from": "system",
-    "setting_id": "GFSL69_36",
+    "setting_id": "GFSL78_36",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"

@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Marble @Bambu Lab X1 0.8 nozzle",
     "inherits": "Panchroma PLA Marble @base",
     "from": "system",
-    "setting_id": "GFSL84_12",
+    "setting_id": "GFSL87_12",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

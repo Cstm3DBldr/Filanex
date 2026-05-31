@@ -3,7 +3,7 @@
     "name": "PolySmooth @BBL X1C 0.8 nozzle",
     "inherits": "PolySmooth @base",
     "from": "system",
-    "setting_id": "GFSL64_20",
+    "setting_id": "GFSL72_20",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",

@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Glow @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFL14",
+    "filament_id": "GFL16",
     "instantiation": "false",
     "filament_cost": [
         "29.99"
@@ -80,15 +80,5 @@
     ],
     "activate_air_filtration": [
         "0"
-    ],
-    "_filanex_advisory": {
-        "matched_variants": [
-            "Glow"
-        ],
-        "min_nozzle_size_mm": 0.2,
-        "max_nozzle_size_mm": 0.8,
-        "hardened_nozzle_required": true,
-        "hardened_nozzle_recommended": false,
-        "abrasive_reason": "Glow: Phosphor pigment wears brass/stainless. Bambu/Polymaker/eSUN/Elegoo explicitly require hardened"
-    }
+    ]
 }

@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Metallic @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFL18",
+    "filament_id": "GFL20",
     "instantiation": "false",
     "filament_cost": [
         "29.99"

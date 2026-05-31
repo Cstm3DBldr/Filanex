@@ -3,7 +3,7 @@
     "name": "Polymaker HT-PLA-GF @Bambu Lab X2D 0.8 nozzle",
     "inherits": "Polymaker HT-PLA-GF @base",
     "from": "system",
-    "setting_id": "GFSL48_15",
+    "setting_id": "GFSL54_15",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0003"

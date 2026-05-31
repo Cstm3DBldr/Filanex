@@ -3,7 +3,7 @@
     "name": "Polymaker PC-Max @BBL X1E 0.2 nozzle",
     "inherits": "Polymaker PC-Max @base",
     "from": "system",
-    "setting_id": "GFSL51_09",
+    "setting_id": "GFSL122_09",
     "instantiation": "true",
     "chamber_temperatures": [
         "50"

@@ -3,7 +3,7 @@
     "name": "PolyMax PETG @BBL H2D 0.6 nozzle",
     "inherits": "PolyMax PETG @base",
     "from": "system",
-    "setting_id": "GFSL59_35",
+    "setting_id": "GFSL67_35",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"

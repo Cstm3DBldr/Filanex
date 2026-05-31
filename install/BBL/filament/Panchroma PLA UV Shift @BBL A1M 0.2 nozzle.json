@@ -3,7 +3,7 @@
     "name": "Panchroma PLA UV Shift @BBL A1M 0.2 nozzle",
     "inherits": "Panchroma PLA UV Shift @base",
     "from": "system",
-    "setting_id": "GFSL107_05",
+    "setting_id": "GFSL110_05",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"
