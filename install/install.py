@@ -1103,23 +1103,15 @@ def filter_bundle_by_selection(bundle: dict, selection,
     """
     from picker import parse_entry_name
 
-    # Vendors whose entries we ALWAYS install regardless of picker
-    # selection. Currently Polymaker -- our profiles are explicit
-    # OVERLAYS on top of Bambu's stock Polymaker library, and Bambu's
-    # stock has gaps (e.g. ships PolyLite ABS for A1/P1P/X1C but not
-    # H2C). If we skip our overlay because the user didn't tick that
-    # specific Polymaker line in the picker, Bambu's stock leaves
-    # remain with no H2C variant and the line shows as Unsupported
-    # for H2C users. The whole point of the overlay is filling those
-    # gaps unconditionally; the picker shouldn't be able to opt out
-    # of overlays.
-    FORCE_INSTALL_VENDORS = {"Polymaker"}
+    # The picker is the single source of truth for what gets installed.
+    # No force-install bypass. If the user wants a vendor's overlay,
+    # they tick it; if they don't, we don't install it. Previous
+    # FORCE_INSTALL_VENDORS = {"Polymaker"} rule was reverted because
+    # it shipped 2,651 Polymaker entries even when the user wanted
+    # something smaller -- which is exactly what the picker is for.
 
     keep_names: set[str] = set()
     for entry in bundle["entries"]:
-        entry_vendor = entry.get("vendor")
-        force_install = entry_vendor in FORCE_INSTALL_VENDORS
-
         if entry.get("is_base"):
             # @base files are kept only when the user picked the
             # SPECIFIC (vendor, line, material) for that @base -- not
@@ -1131,24 +1123,11 @@ def filter_bundle_by_selection(bundle: dict, selection,
             # leaves get kept, leaving an orphan @base in the user's
             # filament library that Bambu Studio shows as a broken
             # "Unsupported" entry.
-            #
-            # EXCEPTION: force-install vendors (Polymaker) get their
-            # @base unconditionally -- we want comprehensive overlay
-            # coverage regardless of picker.
-            if force_install:
-                keep_names.add(entry["name"])
-                continue
             v = entry.get("vendor")
             l = entry.get("line")
             m = entry.get("material")
             if v is not None and l is not None and m is not None and (v, l, m) in selection.profile_keys:
                 keep_names.add(entry["name"])
-            continue
-        # Force-install vendors bypass picker filtering entirely.
-        if force_install:
-            if printer_filter and not printer_matches_entry(entry["name"], printer_filter):
-                continue
-            keep_names.add(entry["name"])
             continue
         # Prefer explicit picker fields over name-regex (the regex
         # silently mis-buckets vendor-prefixed names like
