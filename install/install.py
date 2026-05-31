@@ -838,6 +838,147 @@ def cleanup_user_folder_polymaker_copies(system_dir: Path) -> int:
     return moved
 
 
+def cleanup_user_base_synced_files(
+    system_dir: Path, picked_vendors: set[str],
+) -> int:
+    """Back up cloud-synced Bambu user-base filament files in
+    user/<id>/filament/base/ that match picked vendor brand prefixes.
+
+    Why this exists (the long version):
+      Bambu Studio syncs the user's Bambu Lab cloud filament library
+      down into user/<id>/filament/base/. The contents are per-printer
+      Bambu stock leaves (Fiberon ASA-CF08 @Bambu Lab H2D 0.4 nozzle
+      etc.) with single-printer compatible_printers. When the user's
+      current printer isn't covered by ANY of these (e.g. H2C user
+      with cloud entries only for H2D/H2S/X1/X2D), the picker shows
+      the lines under Unsupported.
+
+      This was the actual root cause of the "5 persistent Fiberon
+      entries in Unsupported" issue Mike chased for an hour -- the
+      system/, Program Files/, and even our overlay were all clean,
+      but this third location (which I'd never inspected) held the
+      stock leaves causing the Unsupported display.
+
+      sync_user_preset = false in Preferences should prevent the
+      cloud pull, but past sync state still lingers in the folder.
+
+    Returns count moved (counts .json + .info pairs separately).
+    """
+    user_root = system_dir.parent / "user"
+    if not user_root.exists():
+        return 0
+
+    # Compute target prefixes from picked vendors
+    target_prefixes: list[str] = []
+    for vendor, prefixes in VENDOR_TO_BAMBU_BRAND_PREFIXES.items():
+        if vendor in picked_vendors:
+            target_prefixes.extend(prefixes)
+    if not target_prefixes:
+        return 0
+
+    moved = 0
+    timestamp = dt.datetime.now().strftime("%Y%m%d-%H%M%S")
+    for user_id_dir in user_root.iterdir():
+        if not user_id_dir.is_dir():
+            continue
+        base_dir = user_id_dir / "filament" / "base"
+        if not base_dir.is_dir():
+            continue
+        backup_dir = None
+        for f in base_dir.iterdir():
+            if not f.is_file():
+                continue
+            if f.suffix not in (".json", ".info"):
+                continue
+            name = f.name
+            if not any(name.startswith(p) for p in target_prefixes):
+                continue
+            if backup_dir is None:
+                backup_dir = (
+                    user_id_dir / f"_filanex-userbase-backup-{timestamp}"
+                )
+                try:
+                    backup_dir.mkdir(exist_ok=True)
+                except OSError as e:
+                    print(f"  WARN: couldn't create backup dir {backup_dir}: {e}")
+                    backup_dir = None
+                    continue
+            try:
+                shutil.move(str(f), str(backup_dir / name))
+                moved += 1
+            except OSError as e:
+                print(f"  WARN: couldn't move user base file {f.name}: {e}")
+    return moved
+
+
+def deep_wipe_bambu_install_resources(picked_vendors: set[str]) -> tuple[int, bool]:
+    """Back up files in Bambu Studio's bundled resources folder
+    (<Program Files>/Bambu Studio/resources/profiles/BBL/filament/)
+    that match picked vendor brand prefixes.
+
+    Why: Bambu Studio's install_bundles_rsrc() hardcodes
+    "always update configs from resource to vendor for BBL", meaning
+    every startup it copies bundled resources into system/. Wiping
+    only system/ means Bambu re-installs the stock files on next
+    launch. Wiping the SOURCE (Program Files) stops the re-extraction.
+
+    Requirements:
+      - Admin privileges (Program Files is protected). If we can't
+        write, log a warning and skip -- not a fatal error.
+      - Bambu Studio not running (file locks otherwise).
+
+    Survives until Bambu Studio updates (a Bambu update overwrites
+    Program Files). User must re-run install.exe as admin after each
+    Bambu Studio update.
+
+    Returns (count_backed_up, ran_with_admin).
+    """
+    bambu_resource = Path(
+        r"C:\Program Files\Bambu Studio\resources\profiles\BBL\filament"
+    )
+    if not bambu_resource.exists():
+        return (0, False)
+
+    # Probe write access -- the cleanest test for admin
+    probe = bambu_resource / ".filanex_write_probe"
+    try:
+        probe.touch()
+        probe.unlink()
+    except (PermissionError, OSError):
+        return (0, False)
+
+    # Compute target prefixes from picked vendors
+    target_prefixes: list[str] = []
+    for vendor, prefixes in VENDOR_TO_BAMBU_BRAND_PREFIXES.items():
+        if vendor in picked_vendors:
+            target_prefixes.extend(prefixes)
+    if not target_prefixes:
+        return (0, True)
+
+    backed_up = 0
+    for f in bambu_resource.iterdir():
+        if not f.is_file() or f.suffix != ".json":
+            continue
+        name = f.name
+        if not any(name.startswith(p) for p in target_prefixes):
+            continue
+        new_path = f.parent / (f.name + BACKUP_EXT)
+        if new_path.exists():
+            # Prior backup exists; current .json is from a Bambu update.
+            try:
+                f.unlink()
+                backed_up += 1
+            except OSError as e:
+                print(f"  WARN: couldn't remove duplicate {name}: {e}")
+            continue
+        try:
+            f.rename(new_path)
+            backed_up += 1
+        except OSError as e:
+            print(f"  WARN: couldn't back up {name}: {e}")
+    return (backed_up, True)
+
+
 def restore_all_bambu_polymaker_backups(filament_dir: Path) -> int:
     """Restore ALL Bambu Polymaker .filanex-bambu-backup files by
     renaming back to .json. The disable-and-rename approach turned out
@@ -1379,6 +1520,22 @@ def _do_fresh_install(
     _emit_phase("Cleaning up Bambu Studio auto-copy files in user folder")
     user_copies_moved = cleanup_user_folder_polymaker_copies(system_dir)
 
+    # Wipe cloud-synced Bambu user-base profiles for picked vendors.
+    # user/<id>/filament/base/ holds per-printer Bambu stock leaves
+    # the cloud library pushed down (often single-printer compat,
+    # missing H2C variants). These were the actual root cause of
+    # the persistent Fiberon-in-Unsupported issue.
+    _emit_phase("Cleaning cloud-synced user-base for picked vendors")
+    user_base_moved = cleanup_user_base_synced_files(system_dir, picked_vendors)
+
+    # Deep wipe: Bambu Studio's bundled resources in Program Files.
+    # install_bundles_rsrc() re-extracts these at every launch
+    # (hardcoded "always update for BBL"), so wiping only system/
+    # leaves stock files coming back. Requires admin. If we're not
+    # running elevated, log a warning and skip -- not fatal.
+    _emit_phase("Deep wipe of Bambu Studio install resources (admin)")
+    deep_wiped, deep_wipe_ran = deep_wipe_bambu_install_resources(picked_vendors)
+
     # NOTE: We do NOT restore .filanex-bambu-backup files on install --
     # those are exactly the Bambu stock files we just wiped to fix
     # Unsupported entries. Restoring them would undo the wipe in the
@@ -1398,6 +1555,15 @@ def _do_fresh_install(
     if user_copies_moved:
         print(f"  User-folder copies moved: {user_copies_moved}  "
               f"(* - Copy.json/.info -> _filanex-userfile-backup-<timestamp>/)")
+    if user_base_moved:
+        print(f"  Cloud-sync user-base moved: {user_base_moved}  "
+              f"(user/<id>/filament/base/* -> _filanex-userbase-backup-<timestamp>/)")
+    if deep_wipe_ran:
+        print(f"  Deep wipe (Program Files): {deep_wiped}  "
+              f"(Bambu Studio install resources -> .filanex-bambu-backup)")
+    else:
+        print(f"  Deep wipe (Program Files): SKIPPED  "
+              f"(re-run as Administrator to wipe Bambu's bundled resources too)")
     if bambu_restored:
         print(f"  Bambu stock restored: {bambu_restored}  "
               f"(undoing prior over-aggressive disable that broke inheritance)")
@@ -1592,6 +1758,15 @@ def _do_upgrade(
     _emit_phase("Cleaning up Bambu Studio auto-copy files in user folder")
     user_copies_moved = cleanup_user_folder_polymaker_copies(system_dir)
 
+    # Wipe cloud-synced Bambu user-base profiles. See _do_install.
+    _emit_phase("Cleaning cloud-synced user-base for picked vendors")
+    user_base_moved = cleanup_user_base_synced_files(system_dir, picked_vendors)
+
+    # Deep wipe: Bambu Studio's bundled resources in Program Files.
+    # See _do_install.
+    _emit_phase("Deep wipe of Bambu Studio install resources (admin)")
+    deep_wiped, deep_wipe_ran = deep_wipe_bambu_install_resources(picked_vendors)
+
     # NOTE: We do NOT restore .filanex-bambu-backup files on upgrade
     # either -- those are Bambu stock files the previous install wiped
     # to fix Unsupported entries. Restoring them would re-introduce
@@ -1611,6 +1786,15 @@ def _do_upgrade(
     if user_copies_moved:
         print(f"  User-folder copies moved:          {user_copies_moved}  "
               f"(* - Copy.json/.info -> _filanex-userfile-backup-<timestamp>/)")
+    if user_base_moved:
+        print(f"  Cloud-sync user-base moved:        {user_base_moved}  "
+              f"(user/<id>/filament/base/* -> _filanex-userbase-backup-<timestamp>/)")
+    if deep_wipe_ran:
+        print(f"  Deep wipe (Program Files):         {deep_wiped}  "
+              f"(Bambu Studio install resources -> .filanex-bambu-backup)")
+    else:
+        print(f"  Deep wipe (Program Files):         SKIPPED  "
+              f"(re-run as Administrator to wipe Bambu's bundled resources too)")
     if bambu_restored:
         print(f"  Bambu stock restored:              {bambu_restored}  "
               f"(fixes 'Failed loading configuration file' errors from prior install)")
