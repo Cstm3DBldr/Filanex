@@ -1379,12 +1379,11 @@ def _do_fresh_install(
     _emit_phase("Cleaning up Bambu Studio auto-copy files in user folder")
     user_copies_moved = cleanup_user_folder_polymaker_copies(system_dir)
 
-    # Restore all Bambu Polymaker .filanex-bambu-backup files from prior
-    # install runs IF our current bundle now owns that filename (we may
-    # have added overlay coverage that wasn't there before). Otherwise
-    # leave the backup in place.
-    _emit_phase("Restoring Bambu stock files we now overlay")
-    bambu_restored = restore_all_bambu_polymaker_backups(target_filament)
+    # NOTE: We do NOT restore .filanex-bambu-backup files on install --
+    # those are exactly the Bambu stock files we just wiped to fix
+    # Unsupported entries. Restoring them would undo the wipe in the
+    # same run. Restoration only happens on uninstall.
+    bambu_restored = 0
 
     print(f"  Files added:         {files_added}")
     print(f"  Files inherited:     {files_inherited}  "
@@ -1593,12 +1592,12 @@ def _do_upgrade(
     _emit_phase("Cleaning up Bambu Studio auto-copy files in user folder")
     user_copies_moved = cleanup_user_folder_polymaker_copies(system_dir)
 
-    # Restore Bambu Polymaker .filanex-bambu-backup files where our
-    # bundle now overlays the same filename (the backup is redundant
-    # since our overlay is the active file). Other backups stay in
-    # place so an uninstall can fully restore the original state.
-    _emit_phase("Restoring Bambu stock files we now overlay")
-    bambu_restored = restore_all_bambu_polymaker_backups(target_filament)
+    # NOTE: We do NOT restore .filanex-bambu-backup files on upgrade
+    # either -- those are Bambu stock files the previous install wiped
+    # to fix Unsupported entries. Restoring them would re-introduce
+    # the Unsupported entries we just removed. Restoration only
+    # happens on uninstall.
+    bambu_restored = 0
 
     print(f"  Files added:                       {files_added}")
     print(f"  Files replaced:                    {files_replaced}")
