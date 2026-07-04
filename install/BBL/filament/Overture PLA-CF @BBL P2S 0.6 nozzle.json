@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "Overture PLA-CF @BBL P2S 0.6 nozzle",
-    "inherits": "Overture PLA-CF @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSO16_11",
     "instantiation": "true",
     "counter_coef_2": [
@@ -57,9 +56,6 @@
     ],
     "hole_limit_min": [
         "0.048"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "long_retractions_when_ec": [
         "0",
@@ -125,5 +121,33 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "230.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "filament_density": [
+        "1.31"
+    ],
+    "nozzle_temperature_range_low": [
+        "190.0"
+    ],
+    "filament_id": "GFO16",
+    "additional_cooling_fan_speed": [
+        "0"
+    ],
+    "filament_cost": [
+        "34.99"
+    ],
+    "impact_strength_z": [
+        "7.8"
+    ],
+    "required_nozzle_HRC": [
+        "40"
+    ],
+    "slow_down_layer_time": [
+        "8"
     ]
 }

@@ -49,7 +49,13 @@
         "0"
     ],
     "chamber_temperatures": [
-        "40"
+        "60"
+    ],
+    "filament_max_volumetric_speed": [
+        "15.0"
+    ],
+    "nozzle_temperature": [
+        "260.0"
     ],
     "activate_air_filtration": [
         "1"

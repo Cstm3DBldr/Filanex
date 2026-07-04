@@ -1,9 +1,8 @@
 {
     "type": "filament",
     "name": "PolyMax PETG @BBL H2D 0.2 nozzle",
-    "inherits": "PolyMax PETG @base",
-    "from": "system",
-    "setting_id": "GFSL67_33",
+    "from": "User",
+    "setting_id": "GFSL71_33",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"
@@ -28,9 +27,6 @@
     ],
     "filament_change_length": [
         "4"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
         "245.0",
@@ -106,5 +102,39 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "260.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "filament_density": [
+        "1.24"
+    ],
+    "nozzle_temperature_range_low": [
+        "230.0"
+    ],
+    "filament_id": "GFL71",
+    "fan_max_speed": [
+        "40"
+    ],
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_flow_ratio": [
+        "0.95"
+    ],
+    "filament_metal_stickiness": [
+        "High"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "10.6"
+    ],
+    "overhang_fan_threshold": [
+        "10%"
     ]
 }

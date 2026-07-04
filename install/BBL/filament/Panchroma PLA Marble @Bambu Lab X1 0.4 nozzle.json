@@ -119,7 +119,7 @@
     ],
     "type": "filament",
     "from": "User",
-    "filament_id": "GFL24",
+    "filament_id": "GFL19",
     "instantiation": "true",
     "filament_scarf_seam_type": [
         "none"
@@ -146,7 +146,7 @@
         "Bambu Lab X1 0.4 nozzle"
     ],
     "name": "Panchroma PLA Marble @Bambu Lab X1 0.4 nozzle",
-    "setting_id": "GFSL24_10",
+    "setting_id": "GFSL106_10",
     "filament_deretraction_speed": [
         "nil",
         "50"

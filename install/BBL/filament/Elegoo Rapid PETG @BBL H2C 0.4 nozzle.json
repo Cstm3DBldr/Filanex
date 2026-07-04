@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "Elegoo Rapid PETG @BBL H2C 0.4 nozzle",
-    "inherits": "Elegoo Rapid PETG @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSD23_30",
     "instantiation": "true",
     "counter_coef_2": [
@@ -65,9 +64,6 @@
     ],
     "hole_limit_min": [
         "0.1"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
         "255.0",
@@ -143,5 +139,39 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "270.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "temperature_vitrification": [
+        "70.0"
+    ],
+    "filament_density": [
+        "1.2850000000000001"
+    ],
+    "nozzle_temperature_range_low": [
+        "240.0"
+    ],
+    "filament_flow_ratio": [
+        "0.98"
+    ],
+    "filament_id": "GFD23",
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_metal_stickiness": [
+        "High"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "10.6"
+    ],
+    "overhang_fan_threshold": [
+        "10%"
     ]
 }

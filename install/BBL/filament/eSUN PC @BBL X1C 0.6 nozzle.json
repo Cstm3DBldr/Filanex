@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "eSUN PC @BBL X1C 0.6 nozzle",
-    "inherits": "eSUN PC @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSE26_07",
     "instantiation": "true",
     "fan_max_speed": [
@@ -31,9 +30,6 @@
     "filament_ramming_travel_time": [
         "0",
         "0"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "long_retractions_when_ec": [
         "0",
@@ -105,5 +101,15 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "filament_id": "GFE26",
+    "filament_cost": [
+        "39.99"
+    ],
+    "filament_density": [
+        "1.185"
+    ],
+    "impact_strength_z": [
+        "9.0"
     ]
 }

@@ -1,0 +1,141 @@
+{
+    "type": "filament",
+    "name": "PolySupport for PA12 @BBL H2C 0.6 nozzle",
+    "from": "User",
+    "setting_id": "GFSL81_19",
+    "instantiation": "true",
+    "chamber_temperatures": [
+        "60"
+    ],
+    "filament_cooling_before_tower": [
+        "10",
+        "10"
+    ],
+    "filament_flow_ratio": [
+        "0.96",
+        "0.96"
+    ],
+    "filament_max_volumetric_speed": [
+        "8",
+        "8"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "filament_prime_volume_nc": [
+        "30"
+    ],
+    "filament_pre_cooling_temperature_nc": [
+        "250",
+        "250"
+    ],
+    "filament_ramming_travel_time": [
+        "0",
+        "0"
+    ],
+    "filament_ramming_travel_time_nc": [
+        "1",
+        "1"
+    ],
+    "filament_change_length": [
+        "4"
+    ],
+    "first_x_layer_fan_speed": [
+        "0"
+    ],
+    "filament_change_length_nc": [
+        "4"
+    ],
+    "nozzle_temperature": [
+        "300.0",
+        "300.0"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "300.0",
+        "300.0"
+    ],
+    "slow_down_min_speed": [
+        "20",
+        "20"
+    ],
+    "compatible_printers": [
+        "Bambu Lab H2C 0.6 nozzle"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\n"
+    ],
+    "filament_end_gcode": [
+        "; filament end gcode \n"
+    ],
+    "filament_settings_id": [
+        "PolySupport for PA12 @BBL H2C"
+    ],
+    "filament_vendor": [
+        "Polymaker"
+    ],
+    "filament_type": [
+        "PA"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "eng_plate_temp": [
+        "100"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "100"
+    ],
+    "hot_plate_temp": [
+        "100"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "100"
+    ],
+    "textured_plate_temp": [
+        "100"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "100"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
+    ],
+    "activate_air_filtration": [
+        "1"
+    ],
+    "nozzle_temperature_range_high": [
+        "300.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "temperature_vitrification": [
+        "117.0"
+    ],
+    "filament_density": [
+        "1.29"
+    ],
+    "nozzle_temperature_range_low": [
+        "270.0"
+    ],
+    "filament_id": "GFL81",
+    "description": "When printing this filament, there's a risk of nozzle clogging, oozing, warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
+    "filament_cost": [
+        "84.99"
+    ],
+    "impact_strength_z": [
+        "5.7"
+    ],
+    "overhang_fan_speed": [
+        "40"
+    ],
+    "overhang_fan_threshold": [
+        "0%"
+    ]
+}

@@ -72,6 +72,30 @@
     "chamber_temperatures": [
         "60"
     ],
+    "nozzle_temperature_range_high": [
+        "350"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_retraction_length": [
+        "nil"
+    ],
+    "pressure_advance": [
+        "0.02"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "300",
+        "300"
+    ],
+    "nozzle_temperature": [
+        "300",
+        "300"
+    ],
+    "filament_flow_ratio": [
+        "1.02",
+        "1.02"
+    ],
     "activate_air_filtration": [
         "1"
     ]

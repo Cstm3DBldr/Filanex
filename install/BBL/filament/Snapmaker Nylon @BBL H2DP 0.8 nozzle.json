@@ -1,9 +1,8 @@
 {
     "type": "filament",
     "name": "Snapmaker Nylon @BBL H2DP 0.8 nozzle",
-    "inherits": "Snapmaker Nylon @base",
-    "from": "system",
-    "setting_id": "GFS196_28",
+    "from": "User",
+    "setting_id": "GFS1116_28",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"
@@ -46,9 +45,6 @@
     ],
     "filament_change_length_nc": [
         "4"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
         "290",
@@ -112,5 +108,25 @@
     ],
     "activate_air_filtration": [
         "1"
+    ],
+    "filament_id": "GFS102",
+    "description": "When printing this filament, there's a risk of nozzle clogging, oozing, warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
+    "filament_cost": [
+        "84.99"
+    ],
+    "filament_density": [
+        "1.09"
+    ],
+    "impact_strength_z": [
+        "5.7"
+    ],
+    "overhang_fan_speed": [
+        "40"
+    ],
+    "overhang_fan_threshold": [
+        "0%"
+    ],
+    "temperature_vitrification": [
+        "170"
     ]
 }

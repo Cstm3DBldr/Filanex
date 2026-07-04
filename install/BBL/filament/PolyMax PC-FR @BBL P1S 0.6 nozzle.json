@@ -1,9 +1,8 @@
 {
     "type": "filament",
     "name": "PolyMax PC-FR @BBL P1S 0.6 nozzle",
-    "inherits": "PolyMax PC-FR @base",
-    "from": "system",
-    "setting_id": "GFSL66_23",
+    "from": "User",
+    "setting_id": "GFSL70_23",
     "instantiation": "true",
     "eng_plate_temp": [
         "100"
@@ -31,9 +30,6 @@
     ],
     "hot_plate_temp_initial_layer": [
         "100"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "long_retractions_when_ec": [
         "0",
@@ -93,5 +89,42 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "filament_cost": [
+        "59.99"
+    ],
+    "nozzle_temperature_range_high": [
+        "280"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "temperature_vitrification": [
+        "116"
+    ],
+    "filament_retraction_length": [
+        "nil"
+    ],
+    "default_filament_colour": [
+        ""
+    ],
+    "filament_shrink": [
+        "100%"
+    ],
+    "filament_density": [
+        "1.2"
+    ],
+    "pressure_advance": [
+        "0.02"
+    ],
+    "nozzle_temperature_range_low": [
+        "260"
+    ],
+    "filament_notes": [
+        ""
+    ],
+    "filament_id": "GFL70",
+    "impact_strength_z": [
+        "8"
     ]
 }

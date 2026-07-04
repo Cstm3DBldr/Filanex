@@ -128,7 +128,7 @@
     ],
     "type": "filament",
     "from": "User",
-    "filament_id": "GFL44",
+    "filament_id": "GFL34",
     "instantiation": "true",
     "description": "This filament is too soft and not compatible with the AMS. Printing it is of many requirements, and to get better printing quality, please refer to this wiki: TPU printing guide.",
     "impact_strength_z": [

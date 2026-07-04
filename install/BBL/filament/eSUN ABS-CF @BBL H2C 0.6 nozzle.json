@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "eSUN ABS-CF @BBL H2C 0.6 nozzle",
-    "inherits": "eSUN ABS-CF @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSE06_11",
     "instantiation": "true",
     "chamber_temperatures": [
@@ -49,9 +48,6 @@
     ],
     "filament_change_length_nc": [
         "4"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
         "260.0",
@@ -115,5 +111,30 @@
     ],
     "activate_air_filtration": [
         "1"
+    ],
+    "nozzle_temperature_range_high": [
+        "270.0"
+    ],
+    "filament_density": [
+        "1.06"
+    ],
+    "nozzle_temperature_range_low": [
+        "240.0"
+    ],
+    "filament_id": "GFE06",
+    "fan_max_speed": [
+        "25"
+    ],
+    "filament_cost": [
+        "36.99"
+    ],
+    "filament_dev_drying_cooling_temperature": [
+        "95"
+    ],
+    "impact_strength_z": [
+        "9.4"
+    ],
+    "slow_down_layer_time": [
+        "12"
     ]
 }

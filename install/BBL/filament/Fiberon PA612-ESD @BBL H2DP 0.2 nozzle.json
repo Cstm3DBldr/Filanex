@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "Fiberon PA612-ESD @BBL H2DP 0.2 nozzle",
-    "inherits": "Fiberon PA612-ESD @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSL06_17",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
@@ -31,9 +30,6 @@
     "filament_ramming_travel_time": [
         "0",
         "0"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
         "300",
@@ -97,5 +93,60 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "filament_cost": [
+        "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "300"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "temperature_vitrification": [
+        "190"
+    ],
+    "filament_retraction_length": [
+        "nil"
+    ],
+    "default_filament_colour": [
+        ""
+    ],
+    "filament_shrink": [
+        "100%"
+    ],
+    "filament_density": [
+        "1.1"
+    ],
+    "pressure_advance": [
+        "0.02"
+    ],
+    "nozzle_temperature_range_low": [
+        "280"
+    ],
+    "filament_notes": [
+        ""
+    ],
+    "filament_id": "GFL06",
+    "filament_scarf_seam_type": [
+        "none"
+    ],
+    "filament_scarf_height": [
+        "10%"
+    ],
+    "filament_scarf_gap": [
+        "0%"
+    ],
+    "filament_scarf_length": [
+        "10"
+    ],
+    "filament_change_length": [
+        "5"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "13.8"
     ]
 }

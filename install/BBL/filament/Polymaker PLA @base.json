@@ -3,7 +3,7 @@
     "name": "Polymaker PLA @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFL61",
+    "filament_id": "GFL66",
     "instantiation": "false",
     "filament_cost": [
         "24.99"
@@ -77,6 +77,24 @@
     ],
     "chamber_temperatures": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "230.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "temperature_vitrification": [
+        "59.0"
+    ],
+    "nozzle_temperature_range_low": [
+        "190.0"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "220.0"
+    ],
+    "nozzle_temperature": [
+        "220.0"
     ],
     "activate_air_filtration": [
         "0"

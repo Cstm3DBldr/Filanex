@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "Spectrum Nylon PA6 CF15 @BBL P2S 0.8 nozzle",
-    "inherits": "Spectrum Nylon PA6 CF15 @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSW03_09",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
@@ -49,9 +48,6 @@
     ],
     "full_fan_speed_layer": [
         "2"
-    ],
-    "include": [
-        "fdm_filament_template_direct_bowden"
     ],
     "nozzle_temperature": [
         "275.0",
@@ -124,5 +120,34 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "290.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "filament_density": [
+        "1.25"
+    ],
+    "nozzle_temperature_range_low": [
+        "260.0"
+    ],
+    "filament_id": "GFW03",
+    "description": "When printing this filament, there's a risk of nozzle clogging, oozing, warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
+    "filament_cost": [
+        "84.99"
+    ],
+    "impact_strength_z": [
+        "5.7"
+    ],
+    "overhang_fan_speed": [
+        "40"
+    ],
+    "overhang_fan_threshold": [
+        "0%"
+    ],
+    "temperature_vitrification": [
+        "170"
     ]
 }

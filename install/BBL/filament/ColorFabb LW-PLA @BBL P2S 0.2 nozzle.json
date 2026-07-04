@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "ColorFabb LW-PLA @BBL P2S 0.2 nozzle",
-    "inherits": "ColorFabb LW-PLA @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSK07_21",
     "instantiation": "true",
     "counter_coef_2": [
@@ -65,9 +64,6 @@
     ],
     "hole_limit_min": [
         "0.05"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "long_retractions_when_ec": [
         "0",
@@ -133,5 +129,42 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "260.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "filament_density": [
+        "1.32"
+    ],
+    "nozzle_temperature_range_low": [
+        "195.0"
+    ],
+    "filament_id": "GFK07",
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_scarf_seam_type": [
+        "none"
+    ],
+    "filament_scarf_height": [
+        "10%"
+    ],
+    "filament_scarf_gap": [
+        "0%"
+    ],
+    "filament_scarf_length": [
+        "10"
+    ],
+    "filament_change_length": [
+        "5"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "13.8"
     ]
 }

@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "Elegoo PLA-CF @BBL H2DP 0.8 nozzle",
-    "inherits": "Elegoo PLA-CF @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSD12_24",
     "instantiation": "true",
     "counter_coef_2": [
@@ -53,9 +52,6 @@
     ],
     "hole_coef_3": [
         "0.1974"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
         "225.0",
@@ -116,5 +112,36 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "240.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "temperature_vitrification": [
+        "45.0"
+    ],
+    "filament_density": [
+        "1.225"
+    ],
+    "nozzle_temperature_range_low": [
+        "210.0"
+    ],
+    "filament_id": "GFD12",
+    "additional_cooling_fan_speed": [
+        "0"
+    ],
+    "filament_cost": [
+        "34.99"
+    ],
+    "impact_strength_z": [
+        "7.8"
+    ],
+    "required_nozzle_HRC": [
+        "40"
+    ],
+    "slow_down_layer_time": [
+        "8"
     ]
 }

@@ -1,9 +1,8 @@
 {
     "type": "filament",
     "name": "Peopoly Lancer PETG-C @BBL X2D 0.2 nozzle",
-    "inherits": "Peopoly Lancer PETG-C @base",
-    "from": "system",
-    "setting_id": "GFS194_25",
+    "from": "User",
+    "setting_id": "GFS1114_25",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"
@@ -122,9 +121,6 @@
     "hole_limit_min": [
         "0.09"
     ],
-    "include": [
-        "fdm_filament_template_direct_bowden"
-    ],
     "nozzle_temperature": [
         "225.0",
         "225.0",
@@ -205,5 +201,39 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "270.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "temperature_vitrification": [
+        "160.0"
+    ],
+    "filament_density": [
+        "1.27"
+    ],
+    "nozzle_temperature_range_low": [
+        "220.0"
+    ],
+    "filament_id": "GFP103",
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_metal_stickiness": [
+        "High"
+    ],
+    "filament_change_length": [
+        "12"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "10.6"
+    ],
+    "overhang_fan_threshold": [
+        "10%"
     ]
 }

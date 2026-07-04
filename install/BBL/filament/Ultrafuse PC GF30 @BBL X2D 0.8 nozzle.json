@@ -1,12 +1,11 @@
 {
     "type": "filament",
     "name": "Ultrafuse PC GF30 @BBL X2D 0.8 nozzle",
-    "inherits": "Ultrafuse PC GF30 @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSZ08_20",
     "instantiation": "true",
     "chamber_temperatures": [
-        "50"
+        "60"
     ],
     "counter_coef_2": [
         "0.0081"
@@ -86,9 +85,6 @@
     "hole_limit_min": [
         "0.0725"
     ],
-    "include": [
-        "fdm_filament_template_direct_bowden"
-    ],
     "nozzle_temperature": [
         "330.0",
         "330.0",
@@ -163,5 +159,24 @@
     ],
     "activate_air_filtration": [
         "1"
+    ],
+    "nozzle_temperature_range_high": [
+        "330.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "filament_density": [
+        "1.263"
+    ],
+    "nozzle_temperature_range_low": [
+        "280.0"
+    ],
+    "filament_id": "GFZ08",
+    "filament_cost": [
+        "39.99"
+    ],
+    "impact_strength_z": [
+        "9.0"
     ]
 }

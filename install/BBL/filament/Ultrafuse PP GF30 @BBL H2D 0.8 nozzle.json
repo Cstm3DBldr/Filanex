@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "Ultrafuse PP GF30 @BBL H2D 0.8 nozzle",
-    "inherits": "Ultrafuse PP GF30 @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSZ14_36",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
@@ -54,9 +53,6 @@
     ],
     "filament_change_length": [
         "4"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
         "250.0",
@@ -120,5 +116,39 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "260.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "filament_density": [
+        "1.066"
+    ],
+    "nozzle_temperature_range_low": [
+        "240.0"
+    ],
+    "filament_id": "GFZ14",
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_scarf_seam_type": [
+        "none"
+    ],
+    "filament_scarf_height": [
+        "10%"
+    ],
+    "filament_scarf_gap": [
+        "0%"
+    ],
+    "filament_scarf_length": [
+        "10"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "13.8"
     ]
 }

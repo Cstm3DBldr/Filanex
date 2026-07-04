@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "Fiberon PET-CF17 @Bambu Lab H2S 0.6 nozzle",
-    "inherits": "Fiberon PET-CF17 @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSL07_23",
     "instantiation": "true",
     "chamber_temperatures": [
@@ -77,9 +76,6 @@
     "hole_limit_min": [
         "0.167"
     ],
-    "include": [
-        "fdm_filament_template_direct_dual"
-    ],
     "nozzle_temperature": [
         "300",
         "300"
@@ -135,5 +131,74 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "filament_cost": [
+        "89.99"
+    ],
+    "nozzle_temperature_range_high": [
+        "300"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_retraction_length": [
+        "nil",
+        "nil"
+    ],
+    "filament_density": [
+        "1.34"
+    ],
+    "nozzle_temperature_range_low": [
+        "270"
+    ],
+    "filament_id": "GFL07",
+    "description": "When printing this filament, there's a risk of nozzle clogging, oozing, warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
+    "fan_cooling_layer_time": [
+        "5"
+    ],
+    "fan_max_speed": [
+        "30"
+    ],
+    "fan_min_speed": [
+        "10"
+    ],
+    "filament_adhesiveness_category": [
+        "800"
+    ],
+    "filament_dev_chamber_drying_bed_temperature": [
+        "90"
+    ],
+    "filament_dev_ams_drying_ams_limitations": [
+        "1"
+    ],
+    "filament_dev_ams_drying_heat_distortion_temperature": [
+        "165"
+    ],
+    "filament_dev_drying_cooling_temperature": [
+        "150"
+    ],
+    "filament_dev_ams_drying_temperature": [
+        "65",
+        "80",
+        "65",
+        "80"
+    ],
+    "filament_dev_drying_softening_temperature": [
+        "150"
+    ],
+    "impact_strength_z": [
+        "4.5"
+    ],
+    "overhang_fan_speed": [
+        "40"
+    ],
+    "overhang_fan_threshold": [
+        "0%"
+    ],
+    "required_nozzle_HRC": [
+        "40"
+    ],
+    "slow_down_layer_time": [
+        "2"
     ]
 }

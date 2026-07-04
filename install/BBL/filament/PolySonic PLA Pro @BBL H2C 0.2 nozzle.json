@@ -1,9 +1,8 @@
 {
     "type": "filament",
     "name": "PolySonic PLA Pro @BBL H2C 0.2 nozzle",
-    "inherits": "PolySonic PLA Pro @base",
-    "from": "system",
-    "setting_id": "GFSL75_29",
+    "from": "User",
+    "setting_id": "GFSL79_29",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"
@@ -38,9 +37,6 @@
     ],
     "filament_change_length": [
         "4"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
         "220.0",
@@ -104,5 +100,42 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "230.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "temperature_vitrification": [
+        "55.0"
+    ],
+    "filament_density": [
+        "1.23"
+    ],
+    "nozzle_temperature_range_low": [
+        "210.0"
+    ],
+    "filament_id": "GFL79",
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_scarf_seam_type": [
+        "none"
+    ],
+    "filament_scarf_height": [
+        "10%"
+    ],
+    "filament_scarf_gap": [
+        "0%"
+    ],
+    "filament_scarf_length": [
+        "10"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "13.8"
     ]
 }

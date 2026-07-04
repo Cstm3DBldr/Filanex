@@ -1,0 +1,81 @@
+{
+    "type": "filament",
+    "name": "Polymaker ABS Max @base",
+    "inherits": "fdm_filament_abs",
+    "from": "system",
+    "filament_id": "GFL54",
+    "instantiation": "false",
+    "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_flow_ratio": [
+        "0.92"
+    ],
+    "filament_vendor": [
+        "Polymaker"
+    ],
+    "impact_strength_z": [
+        "7.4"
+    ],
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "eng_plate_temp": [
+        "110"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "110"
+    ],
+    "hot_plate_temp": [
+        "110"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "110"
+    ],
+    "textured_plate_temp": [
+        "110"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "110"
+    ],
+    "supertack_plate_temp": [
+        "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "0"
+    ],
+    "chamber_temperatures": [
+        "60"
+    ],
+    "filament_max_volumetric_speed": [
+        "8.0"
+    ],
+    "nozzle_temperature_range_high": [
+        "280.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "temperature_vitrification": [
+        "127.4"
+    ],
+    "filament_density": [
+        "1.06"
+    ],
+    "nozzle_temperature_range_low": [
+        "260.0"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "280.0"
+    ],
+    "nozzle_temperature": [
+        "280.0"
+    ],
+    "activate_air_filtration": [
+        "1"
+    ]
+}

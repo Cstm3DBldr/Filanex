@@ -1,12 +1,11 @@
 {
     "type": "filament",
     "name": "eSUN ABS+HS @BBL X2D 0.8 nozzle",
-    "inherits": "eSUN ABS+HS @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSE05_20",
     "instantiation": "true",
     "chamber_temperatures": [
-        "40"
+        "60"
     ],
     "counter_coef_2": [
         "0.0124"
@@ -95,9 +94,6 @@
     "hole_limit_min": [
         "0.1119"
     ],
-    "include": [
-        "fdm_filament_template_direct_bowden"
-    ],
     "nozzle_temperature": [
         "260.0",
         "260.0",
@@ -172,5 +168,13 @@
     ],
     "activate_air_filtration": [
         "1"
+    ],
+    "filament_id": "GFE05",
+    "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
+    "filament_cost": [
+        "24.99"
+    ],
+    "impact_strength_z": [
+        "7.4"
     ]
 }

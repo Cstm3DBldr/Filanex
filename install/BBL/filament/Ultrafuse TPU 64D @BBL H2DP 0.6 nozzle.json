@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "Ultrafuse TPU 64D @BBL H2DP 0.6 nozzle",
-    "inherits": "Ultrafuse TPU 64D @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSZ18_35",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
@@ -81,9 +80,6 @@
     "filament_change_length_nc": [
         "4"
     ],
-    "include": [
-        "fdm_filament_template_direct_dual"
-    ],
     "nozzle_temperature": [
         "242.5",
         "242.5"
@@ -150,5 +146,25 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "255.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "filament_density": [
+        "1.157"
+    ],
+    "nozzle_temperature_range_low": [
+        "230.0"
+    ],
+    "filament_id": "GFZ18",
+    "description": "This filament is too soft and not compatible with the AMS. Printing it is of many requirements, and to get better printing quality, please refer to this wiki: TPU printing guide.",
+    "filament_cost": [
+        "41.99"
+    ],
+    "impact_strength_z": [
+        "88.7"
     ]
 }

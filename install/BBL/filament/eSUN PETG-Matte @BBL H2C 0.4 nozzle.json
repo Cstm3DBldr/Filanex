@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "eSUN PETG-Matte @BBL H2C 0.4 nozzle",
-    "inherits": "eSUN PETG-Matte @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSE39_30",
     "instantiation": "true",
     "counter_coef_2": [
@@ -65,9 +64,6 @@
     ],
     "hole_limit_min": [
         "0.1"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
         "260.0",
@@ -143,5 +139,33 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "260.0"
+    ],
+    "filament_density": [
+        "1.35"
+    ],
+    "nozzle_temperature_range_low": [
+        "240.0"
+    ],
+    "filament_flow_ratio": [
+        "0.98"
+    ],
+    "filament_id": "GFE39",
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_metal_stickiness": [
+        "High"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "10.6"
+    ],
+    "overhang_fan_threshold": [
+        "10%"
     ]
 }

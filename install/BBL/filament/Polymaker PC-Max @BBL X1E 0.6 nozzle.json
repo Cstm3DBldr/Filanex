@@ -1,9 +1,8 @@
 {
     "type": "filament",
     "name": "Polymaker PC-Max @BBL X1E 0.6 nozzle",
-    "inherits": "Polymaker PC-Max @base",
-    "from": "system",
-    "setting_id": "GFSL112_11",
+    "from": "User",
+    "setting_id": "GFSL62_11",
     "instantiation": "true",
     "eng_plate_temp": [
         "110"
@@ -64,9 +63,37 @@
         "0"
     ],
     "chamber_temperatures": [
-        "50"
+        "60"
     ],
     "activate_air_filtration": [
         "1"
+    ],
+    "filament_max_volumetric_speed": [
+        "8.0"
+    ],
+    "nozzle_temperature_range_high": [
+        "270.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "filament_density": [
+        "1.1949999999999998"
+    ],
+    "nozzle_temperature_range_low": [
+        "250.0"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "270.0"
+    ],
+    "nozzle_temperature": [
+        "270.0"
+    ],
+    "filament_id": "GFL62",
+    "filament_cost": [
+        "39.99"
+    ],
+    "impact_strength_z": [
+        "9.0"
     ]
 }

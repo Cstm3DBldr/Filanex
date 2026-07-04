@@ -1,9 +1,8 @@
 {
     "type": "filament",
     "name": "Snapmaker ABS @BBL X1C 0.2 nozzle",
-    "inherits": "Snapmaker ABS @base",
-    "from": "system",
-    "setting_id": "GFS1105_05",
+    "from": "User",
+    "setting_id": "GFS1125_05",
     "instantiation": "true",
     "fan_max_speed": [
         "60"
@@ -23,9 +22,6 @@
     "filament_ramming_travel_time": [
         "0",
         "0"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "long_retractions_when_ec": [
         "0",
@@ -97,5 +93,19 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "filament_id": "GFS101",
+    "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_flow_ratio": [
+        "0.95"
+    ],
+    "impact_strength_z": [
+        "7.4"
     ]
 }

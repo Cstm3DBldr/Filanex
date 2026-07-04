@@ -120,6 +120,27 @@
     "chamber_temperatures": [
         "0"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_retraction_length": [
+        "nil"
+    ],
+    "default_filament_colour": [
+        ""
+    ],
+    "filament_shrink": [
+        "100%"
+    ],
+    "pressure_advance": [
+        "0.02"
+    ],
+    "filament_notes": [
+        ""
+    ],
+    "filament_flow_ratio": [
+        "1"
+    ],
     "activate_air_filtration": [
         "0"
     ]

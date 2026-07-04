@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "Prusa Polymers Prusament PETG @BBL H2C 0.6 nozzle",
-    "inherits": "Prusa Polymers Prusament PETG @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSQ12_31",
     "instantiation": "true",
     "counter_coef_2": [
@@ -94,9 +93,6 @@
     "hole_limit_min": [
         "0.09"
     ],
-    "include": [
-        "fdm_filament_template_direct_dual"
-    ],
     "nozzle_temperature": [
         "250.0",
         "250.0"
@@ -174,5 +170,36 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "260.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "filament_density": [
+        "1.27"
+    ],
+    "nozzle_temperature_range_low": [
+        "220.0"
+    ],
+    "filament_id": "GFQ12",
+    "fan_max_speed": [
+        "40"
+    ],
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_metal_stickiness": [
+        "High"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "10.6"
+    ],
+    "overhang_fan_threshold": [
+        "10%"
     ]
 }

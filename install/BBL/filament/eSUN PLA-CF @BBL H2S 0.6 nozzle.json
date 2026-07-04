@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "eSUN PLA-CF @BBL H2S 0.6 nozzle",
-    "inherits": "eSUN PLA-CF @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSE45_26",
     "instantiation": "true",
     "eng_plate_temp": [
@@ -48,9 +47,6 @@
     ],
     "filament_change_length": [
         "4"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
         "230.0",
@@ -111,5 +107,36 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "230.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "temperature_vitrification": [
+        "60.0"
+    ],
+    "filament_density": [
+        "1.21"
+    ],
+    "nozzle_temperature_range_low": [
+        "190.0"
+    ],
+    "filament_id": "GFE45",
+    "additional_cooling_fan_speed": [
+        "0"
+    ],
+    "filament_cost": [
+        "34.99"
+    ],
+    "impact_strength_z": [
+        "7.8"
+    ],
+    "required_nozzle_HRC": [
+        "40"
+    ],
+    "slow_down_layer_time": [
+        "8"
     ]
 }

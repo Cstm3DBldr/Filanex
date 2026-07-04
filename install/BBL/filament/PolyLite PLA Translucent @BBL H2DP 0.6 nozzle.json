@@ -1,9 +1,8 @@
 {
     "type": "filament",
     "name": "PolyLite PLA Translucent @BBL H2DP 0.6 nozzle",
-    "inherits": "PolyLite PLA Translucent @base",
-    "from": "system",
-    "setting_id": "GFSL51_39",
+    "from": "User",
+    "setting_id": "GFSL53_39",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"
@@ -59,9 +58,6 @@
     ],
     "hole_coef_3": [
         "0.18"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
         "220.0",
@@ -125,5 +121,45 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "230.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "temperature_vitrification": [
+        "61.0"
+    ],
+    "filament_density": [
+        "1.17"
+    ],
+    "nozzle_temperature_range_low": [
+        "190.0"
+    ],
+    "filament_id": "GFL53",
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_scarf_seam_type": [
+        "none"
+    ],
+    "filament_scarf_height": [
+        "10%"
+    ],
+    "filament_scarf_gap": [
+        "0%"
+    ],
+    "filament_scarf_length": [
+        "10"
+    ],
+    "filament_change_length": [
+        "5"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "13.8"
     ]
 }

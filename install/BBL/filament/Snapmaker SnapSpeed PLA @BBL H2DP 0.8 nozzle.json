@@ -1,9 +1,8 @@
 {
     "type": "filament",
     "name": "Snapmaker SnapSpeed PLA @BBL H2DP 0.8 nozzle",
-    "inherits": "Snapmaker SnapSpeed PLA @base",
-    "from": "system",
-    "setting_id": "GFS193_40",
+    "from": "User",
+    "setting_id": "GFS1113_40",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"
@@ -47,9 +46,6 @@
     "filament_ramming_travel_time": [
         "0",
         "0"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
         "220",
@@ -113,5 +109,33 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "filament_id": "GFS108",
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_density": [
+        "1.26"
+    ],
+    "filament_scarf_seam_type": [
+        "none"
+    ],
+    "filament_scarf_height": [
+        "10%"
+    ],
+    "filament_scarf_gap": [
+        "0%"
+    ],
+    "filament_scarf_length": [
+        "10"
+    ],
+    "filament_change_length": [
+        "5"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "13.8"
     ]
 }

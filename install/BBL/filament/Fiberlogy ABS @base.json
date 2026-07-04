@@ -49,7 +49,28 @@
         "0"
     ],
     "chamber_temperatures": [
-        "40"
+        "60"
+    ],
+    "filament_max_volumetric_speed": [
+        "16"
+    ],
+    "nozzle_temperature_range_high": [
+        "265.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "filament_density": [
+        "1.05"
+    ],
+    "nozzle_temperature_range_low": [
+        "250.0"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "257.5"
+    ],
+    "nozzle_temperature": [
+        "257.5"
     ],
     "activate_air_filtration": [
         "1"

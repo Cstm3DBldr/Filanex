@@ -1,9 +1,8 @@
 {
     "type": "filament",
     "name": "PolyCast PVB @BBL H2C 0.6 nozzle",
-    "inherits": "PolyCast PVB @base",
-    "from": "system",
-    "setting_id": "GFSL104_11",
+    "from": "User",
+    "setting_id": "GFSL29_11",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"
@@ -100,9 +99,6 @@
     "hole_limit_min": [
         "0.05"
     ],
-    "include": [
-        "fdm_filament_template_direct_dual"
-    ],
     "nozzle_temperature": [
         "222",
         "222"
@@ -165,5 +161,54 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "filament_cost": [
+        "66.66"
+    ],
+    "nozzle_temperature_range_high": [
+        "240"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "temperature_vitrification": [
+        "45"
+    ],
+    "default_filament_colour": [
+        ""
+    ],
+    "filament_shrink": [
+        "100%"
+    ],
+    "filament_density": [
+        "1.1"
+    ],
+    "pressure_advance": [
+        "0.02"
+    ],
+    "nozzle_temperature_range_low": [
+        "190"
+    ],
+    "filament_notes": [
+        ""
+    ],
+    "filament_id": "GFL29",
+    "filament_scarf_seam_type": [
+        "none"
+    ],
+    "filament_scarf_height": [
+        "10%"
+    ],
+    "filament_scarf_gap": [
+        "0%"
+    ],
+    "filament_scarf_length": [
+        "10"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "13.8"
     ]
 }

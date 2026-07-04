@@ -1,9 +1,8 @@
 {
     "type": "filament",
     "name": "Polymaker HT-PLA-GF @Bambu Lab X2D 0.8 nozzle",
-    "inherits": "Polymaker HT-PLA-GF @base",
-    "from": "system",
-    "setting_id": "GFSL54_15",
+    "from": "User",
+    "setting_id": "GFSL59_15",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0003"
@@ -89,9 +88,6 @@
     "hole_limit_min": [
         "0.048"
     ],
-    "include": [
-        "fdm_filament_template_direct_bowden"
-    ],
     "nozzle_temperature": [
         "230",
         "230",
@@ -160,5 +156,45 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "filament_cost": [
+        "33"
+    ],
+    "nozzle_temperature_range_high": [
+        "240"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "temperature_vitrification": [
+        "59.76"
+    ],
+    "filament_retraction_length": [
+        "nil"
+    ],
+    "filament_shrink": [
+        "100%"
+    ],
+    "filament_density": [
+        "1.33"
+    ],
+    "pressure_advance": [
+        "0.02"
+    ],
+    "nozzle_temperature_range_low": [
+        "190"
+    ],
+    "filament_id": "GFL59",
+    "additional_cooling_fan_speed": [
+        "0"
+    ],
+    "impact_strength_z": [
+        "7.8"
+    ],
+    "required_nozzle_HRC": [
+        "40"
+    ],
+    "slow_down_layer_time": [
+        "8"
     ]
 }

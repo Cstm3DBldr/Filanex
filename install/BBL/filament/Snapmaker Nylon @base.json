@@ -72,6 +72,9 @@
     "chamber_temperatures": [
         "60"
     ],
+    "filament_max_volumetric_speed": [
+        "8"
+    ],
     "activate_air_filtration": [
         "1"
     ]

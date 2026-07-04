@@ -98,6 +98,12 @@
     "chamber_temperatures": [
         "0"
     ],
+    "filament_diameter": [
+        1.75
+    ],
+    "temperature_vitrification": [
+        "70.0"
+    ],
     "activate_air_filtration": [
         "0"
     ]

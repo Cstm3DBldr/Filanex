@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "Extrudr Wood @BBL H2S 0.6 nozzle",
-    "inherits": "Extrudr Wood @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSX11_32",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
@@ -75,9 +74,6 @@
     ],
     "hole_limit_max": [
         "0.12"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "long_retractions_when_ec": [
         "0",
@@ -152,5 +148,39 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "190.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "nozzle_temperature_range_low": [
+        "170.0"
+    ],
+    "filament_id": "GFX11",
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_density": [
+        "1.26"
+    ],
+    "filament_scarf_seam_type": [
+        "none"
+    ],
+    "filament_scarf_height": [
+        "10%"
+    ],
+    "filament_scarf_gap": [
+        "0%"
+    ],
+    "filament_scarf_length": [
+        "10"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "13.8"
     ]
 }

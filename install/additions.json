@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "database_version": "1.2.6",
+  "database_version": "1.2.7",
   "installer_version": "1.2.4",
   "filament_list_additions": [
     {
@@ -2252,6 +2252,14 @@
       "is_base": true
     },
     {
+      "name": "Fiberon PPS-GF20 @base",
+      "sub_path": "filament/Fiberon PPS-GF20 @base.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PPS-GF20",
+      "is_base": true
+    },
+    {
       "name": "Panchroma CoPE @base",
       "sub_path": "filament/Panchroma CoPE @base.json",
       "vendor": "Polymaker",
@@ -2476,6 +2484,14 @@
       "is_base": true
     },
     {
+      "name": "PolyLite PC @base",
+      "sub_path": "filament/PolyLite PC @base.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": true
+    },
+    {
       "name": "PolyLite PETG @Polymaker base",
       "sub_path": "filament/PolyLite PETG @Polymaker base.json",
       "vendor": "Polymaker",
@@ -2569,6 +2585,30 @@
       "vendor": "Polymaker",
       "line": "PolyLite",
       "material": "PLA Translucent",
+      "is_base": true
+    },
+    {
+      "name": "Polymaker ABS Max @base",
+      "sub_path": "filament/Polymaker ABS Max @base.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": true
+    },
+    {
+      "name": "Polymaker ABS Pro @base",
+      "sub_path": "filament/Polymaker ABS Pro @base.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": true
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @base",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @base.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
       "is_base": true
     },
     {
@@ -2668,14 +2708,6 @@
       "is_base": true
     },
     {
-      "name": "Polymaker PPS-GF20 @base",
-      "sub_path": "filament/Polymaker PPS-GF20 @base.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": true
-    },
-    {
       "name": "PolyMax PC @base",
       "sub_path": "filament/PolyMax PC @base.json",
       "vendor": "Polymaker",
@@ -2769,6 +2801,14 @@
       "vendor": "Polymaker",
       "line": "PolySupport",
       "material": "PVB",
+      "is_base": true
+    },
+    {
+      "name": "PolySupport for PA12 @base",
+      "sub_path": "filament/PolySupport for PA12 @base.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
       "is_base": true
     },
     {
@@ -89156,6 +89196,126 @@
       "is_base": false
     },
     {
+      "name": "Fiberon PPS-GF20 @BBL H2C 0.4 nozzle",
+      "sub_path": "filament/Fiberon PPS-GF20 @BBL H2C 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PPS-GF20",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PPS-GF20 @BBL H2C 0.6 nozzle",
+      "sub_path": "filament/Fiberon PPS-GF20 @BBL H2C 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PPS-GF20",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PPS-GF20 @BBL H2C 0.8 nozzle",
+      "sub_path": "filament/Fiberon PPS-GF20 @BBL H2C 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PPS-GF20",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PPS-GF20 @BBL H2D 0.4 nozzle",
+      "sub_path": "filament/Fiberon PPS-GF20 @BBL H2D 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PPS-GF20",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PPS-GF20 @BBL H2D 0.6 nozzle",
+      "sub_path": "filament/Fiberon PPS-GF20 @BBL H2D 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PPS-GF20",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PPS-GF20 @BBL H2D 0.8 nozzle",
+      "sub_path": "filament/Fiberon PPS-GF20 @BBL H2D 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PPS-GF20",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PPS-GF20 @BBL H2DP 0.4 nozzle",
+      "sub_path": "filament/Fiberon PPS-GF20 @BBL H2DP 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PPS-GF20",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PPS-GF20 @BBL H2DP 0.6 nozzle",
+      "sub_path": "filament/Fiberon PPS-GF20 @BBL H2DP 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PPS-GF20",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PPS-GF20 @BBL H2DP 0.8 nozzle",
+      "sub_path": "filament/Fiberon PPS-GF20 @BBL H2DP 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PPS-GF20",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PPS-GF20 @BBL H2S 0.4 nozzle",
+      "sub_path": "filament/Fiberon PPS-GF20 @BBL H2S 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PPS-GF20",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PPS-GF20 @BBL H2S 0.6 nozzle",
+      "sub_path": "filament/Fiberon PPS-GF20 @BBL H2S 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PPS-GF20",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PPS-GF20 @BBL H2S 0.8 nozzle",
+      "sub_path": "filament/Fiberon PPS-GF20 @BBL H2S 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PPS-GF20",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PPS-GF20 @BBL X1E 0.4 nozzle",
+      "sub_path": "filament/Fiberon PPS-GF20 @BBL X1E 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PPS-GF20",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PPS-GF20 @BBL X1E 0.6 nozzle",
+      "sub_path": "filament/Fiberon PPS-GF20 @BBL X1E 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PPS-GF20",
+      "is_base": false
+    },
+    {
+      "name": "Fiberon PPS-GF20 @BBL X1E 0.8 nozzle",
+      "sub_path": "filament/Fiberon PPS-GF20 @BBL X1E 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Fiberon",
+      "material": "PPS-GF20",
+      "is_base": false
+    },
+    {
       "name": "Panchroma CoPE @BBL A1 0.2 nozzle",
       "sub_path": "filament/Panchroma CoPE @BBL A1 0.2 nozzle.json",
       "vendor": "Polymaker",
@@ -98452,6 +98612,294 @@
       "is_base": false
     },
     {
+      "name": "PolyLite PC @BBL H2C 0.2 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL H2C 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL H2C 0.4 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL H2C 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL H2C 0.6 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL H2C 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL H2C 0.8 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL H2C 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL H2D 0.2 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL H2D 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL H2D 0.4 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL H2D 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL H2D 0.6 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL H2D 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL H2D 0.8 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL H2D 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL H2DP 0.2 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL H2DP 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL H2DP 0.4 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL H2DP 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL H2DP 0.6 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL H2DP 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL H2DP 0.8 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL H2DP 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL H2S 0.2 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL H2S 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL H2S 0.4 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL H2S 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL H2S 0.6 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL H2S 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL H2S 0.8 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL H2S 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL P1S 0.2 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL P1S 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL P1S 0.4 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL P1S 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL P1S 0.6 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL P1S 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL P1S 0.8 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL P1S 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL P2S 0.2 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL P2S 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL P2S 0.4 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL P2S 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL P2S 0.6 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL P2S 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL P2S 0.8 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL P2S 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL X1C 0.2 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL X1C 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL X1C 0.4 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL X1C 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL X1C 0.6 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL X1C 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL X1C 0.8 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL X1C 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL X1E 0.2 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL X1E 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL X1E 0.4 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL X1E 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL X1E 0.6 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL X1E 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL X1E 0.8 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL X1E 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL X2D 0.2 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL X2D 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL X2D 0.4 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL X2D 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL X2D 0.6 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL X2D 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
+      "name": "PolyLite PC @BBL X2D 0.8 nozzle",
+      "sub_path": "filament/PolyLite PC @BBL X2D 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolyLite",
+      "material": "PC",
+      "is_base": false
+    },
+    {
       "name": "PolyLite PETG @Bambu Lab A1 0.2 nozzle",
       "sub_path": "filament/PolyLite PETG @Bambu Lab A1 0.2 nozzle.json",
       "vendor": "Polymaker",
@@ -102188,6 +102636,798 @@
       "is_base": false
     },
     {
+      "name": "Polymaker ABS Max @BBL H2C 0.2 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL H2C 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL H2C 0.4 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL H2C 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL H2C 0.6 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL H2C 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL H2C 0.8 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL H2C 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL H2D 0.2 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL H2D 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL H2D 0.4 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL H2D 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL H2D 0.6 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL H2D 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL H2D 0.8 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL H2D 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL H2DP 0.2 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL H2DP 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL H2DP 0.4 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL H2DP 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL H2DP 0.6 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL H2DP 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL H2DP 0.8 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL H2DP 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL H2S 0.2 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL H2S 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL H2S 0.4 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL H2S 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL H2S 0.6 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL H2S 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL H2S 0.8 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL H2S 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL P1S 0.2 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL P1S 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL P1S 0.4 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL P1S 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL P1S 0.6 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL P1S 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL P1S 0.8 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL P1S 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL P2S 0.2 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL P2S 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL P2S 0.4 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL P2S 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL P2S 0.6 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL P2S 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL P2S 0.8 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL P2S 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL X1C 0.2 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL X1C 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL X1C 0.4 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL X1C 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL X1C 0.6 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL X1C 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL X1C 0.8 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL X1C 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL X1E 0.2 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL X1E 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL X1E 0.4 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL X1E 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL X1E 0.6 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL X1E 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL X1E 0.8 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL X1E 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL X2D 0.2 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL X2D 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL X2D 0.4 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL X2D 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL X2D 0.6 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL X2D 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Max @BBL X2D 0.8 nozzle",
+      "sub_path": "filament/Polymaker ABS Max @BBL X2D 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Max",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL H2C 0.2 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL H2C 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL H2C 0.4 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL H2C 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL H2C 0.6 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL H2C 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL H2C 0.8 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL H2C 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL H2D 0.2 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL H2D 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL H2D 0.4 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL H2D 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL H2D 0.6 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL H2D 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL H2D 0.8 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL H2D 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL H2DP 0.2 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL H2DP 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL H2DP 0.4 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL H2DP 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL H2DP 0.6 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL H2DP 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL H2DP 0.8 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL H2DP 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL H2S 0.2 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL H2S 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL H2S 0.4 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL H2S 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL H2S 0.6 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL H2S 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL H2S 0.8 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL H2S 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL P1S 0.2 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL P1S 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL P1S 0.4 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL P1S 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL P1S 0.6 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL P1S 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL P1S 0.8 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL P1S 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL P2S 0.2 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL P2S 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL P2S 0.4 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL P2S 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL P2S 0.6 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL P2S 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL P2S 0.8 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL P2S 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL X1C 0.2 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL X1C 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL X1C 0.4 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL X1C 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL X1C 0.6 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL X1C 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL X1C 0.8 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL X1C 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL X1E 0.2 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL X1E 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL X1E 0.4 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL X1E 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL X1E 0.6 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL X1E 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL X1E 0.8 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL X1E 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL X2D 0.2 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL X2D 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL X2D 0.4 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL X2D 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL X2D 0.6 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL X2D 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro @BBL X2D 0.8 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro @BBL X2D 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @BBL H2C 0.4 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @BBL H2C 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @BBL H2C 0.6 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @BBL H2C 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @BBL H2C 0.8 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @BBL H2C 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @BBL H2D 0.4 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @BBL H2D 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @BBL H2D 0.6 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @BBL H2D 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @BBL H2D 0.8 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @BBL H2D 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @BBL H2DP 0.4 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @BBL H2DP 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @BBL H2DP 0.6 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @BBL H2DP 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @BBL H2DP 0.8 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @BBL H2DP 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @BBL H2S 0.4 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @BBL H2S 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @BBL H2S 0.6 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @BBL H2S 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @BBL H2S 0.8 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @BBL H2S 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @BBL P1S 0.4 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @BBL P1S 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @BBL P1S 0.6 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @BBL P1S 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @BBL P1S 0.8 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @BBL P1S 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @BBL P2S 0.4 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @BBL P2S 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @BBL P2S 0.6 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @BBL P2S 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @BBL P2S 0.8 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @BBL P2S 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @BBL X1C 0.4 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @BBL X1C 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @BBL X1C 0.6 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @BBL X1C 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @BBL X1C 0.8 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @BBL X1C 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @BBL X1E 0.4 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @BBL X1E 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @BBL X1E 0.6 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @BBL X1E 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @BBL X1E 0.8 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @BBL X1E 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @BBL X2D 0.4 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @BBL X2D 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @BBL X2D 0.6 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @BBL X2D 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
+      "is_base": false
+    },
+    {
+      "name": "Polymaker ABS Pro Galaxy @BBL X2D 0.8 nozzle",
+      "sub_path": "filament/Polymaker ABS Pro Galaxy @BBL X2D 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "Polymaker",
+      "material": "ABS Pro Galaxy",
+      "is_base": false
+    },
+    {
       "name": "Polymaker ASA @Bambu Lab H2C 0.2 nozzle",
       "sub_path": "filament/Polymaker ASA @Bambu Lab H2C 0.2 nozzle.json",
       "vendor": "Polymaker",
@@ -105737,246 +106977,6 @@
       "vendor": "Polymaker",
       "line": "Polymaker",
       "material": "PLA Pro Metallic",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL H2C 0.4 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL H2C 0.4 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL H2C 0.6 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL H2C 0.6 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL H2C 0.8 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL H2C 0.8 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL H2D 0.4 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL H2D 0.4 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL H2D 0.6 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL H2D 0.6 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL H2D 0.8 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL H2D 0.8 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL H2DP 0.4 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL H2DP 0.4 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL H2DP 0.6 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL H2DP 0.6 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL H2DP 0.8 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL H2DP 0.8 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL H2S 0.4 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL H2S 0.4 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL H2S 0.6 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL H2S 0.6 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL H2S 0.8 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL H2S 0.8 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL P1S 0.4 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL P1S 0.4 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL P1S 0.6 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL P1S 0.6 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL P1S 0.8 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL P1S 0.8 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL P2S 0.4 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL P2S 0.4 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL P2S 0.6 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL P2S 0.6 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL P2S 0.8 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL P2S 0.8 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL X1 0.4 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL X1 0.4 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL X1 0.6 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL X1 0.6 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL X1 0.8 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL X1 0.8 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL X1C 0.4 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL X1C 0.4 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL X1C 0.6 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL X1C 0.6 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL X1C 0.8 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL X1C 0.8 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL X1E 0.4 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL X1E 0.4 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL X1E 0.6 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL X1E 0.6 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL X1E 0.8 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL X1E 0.8 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL X2D 0.4 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL X2D 0.4 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL X2D 0.6 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL X2D 0.6 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
-      "is_base": false
-    },
-    {
-      "name": "Polymaker PPS-GF20 @BBL X2D 0.8 nozzle",
-      "sub_path": "filament/Polymaker PPS-GF20 @BBL X2D 0.8 nozzle.json",
-      "vendor": "Polymaker",
-      "line": "Polymaker",
-      "material": "PPS-GF20",
       "is_base": false
     },
     {
@@ -109761,6 +110761,262 @@
       "vendor": "Polymaker",
       "line": "PolySupport",
       "material": "PVB",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL H2C 0.2 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL H2C 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL H2C 0.4 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL H2C 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL H2C 0.6 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL H2C 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL H2C 0.8 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL H2C 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL H2D 0.2 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL H2D 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL H2D 0.4 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL H2D 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL H2D 0.6 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL H2D 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL H2D 0.8 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL H2D 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL H2DP 0.2 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL H2DP 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL H2DP 0.4 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL H2DP 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL H2DP 0.6 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL H2DP 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL H2DP 0.8 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL H2DP 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL H2S 0.2 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL H2S 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL H2S 0.4 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL H2S 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL H2S 0.6 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL H2S 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL H2S 0.8 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL H2S 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL P2S 0.2 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL P2S 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL P2S 0.4 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL P2S 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL P2S 0.6 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL P2S 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL P2S 0.8 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL P2S 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL X1C 0.2 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL X1C 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL X1C 0.4 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL X1C 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL X1C 0.6 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL X1C 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL X1C 0.8 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL X1C 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL X1E 0.2 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL X1E 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL X1E 0.4 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL X1E 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL X1E 0.6 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL X1E 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL X1E 0.8 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL X1E 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL X2D 0.2 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL X2D 0.2 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL X2D 0.4 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL X2D 0.4 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL X2D 0.6 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL X2D 0.6 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
+      "is_base": false
+    },
+    {
+      "name": "PolySupport for PA12 @BBL X2D 0.8 nozzle",
+      "sub_path": "filament/PolySupport for PA12 @BBL X2D 0.8 nozzle.json",
+      "vendor": "Polymaker",
+      "line": "PolySupport",
+      "material": "for PA12",
       "is_base": false
     },
     {

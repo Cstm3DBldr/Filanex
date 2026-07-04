@@ -1,12 +1,11 @@
 {
     "type": "filament",
     "name": "Ultimaker PC @BBL X2D 0.6 nozzle",
-    "inherits": "Ultimaker PC @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSM04_19",
     "instantiation": "true",
     "chamber_temperatures": [
-        "50"
+        "60"
     ],
     "counter_coef_2": [
         "0.0081"
@@ -89,9 +88,6 @@
     "hole_limit_min": [
         "0.0725"
     ],
-    "include": [
-        "fdm_filament_template_direct_bowden"
-    ],
     "nozzle_temperature": [
         "280.0",
         "280.0",
@@ -169,5 +165,18 @@
     ],
     "activate_air_filtration": [
         "1"
+    ],
+    "filament_diameter": [
+        2.85
+    ],
+    "filament_density": [
+        "1.19"
+    ],
+    "filament_id": "GFM04",
+    "filament_cost": [
+        "39.99"
+    ],
+    "impact_strength_z": [
+        "9.0"
     ]
 }

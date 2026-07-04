@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "eSUN PLA-Matte @BBL X2D 0.2 nozzle",
-    "inherits": "eSUN PLA-Matte @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSE54_25",
     "instantiation": "true",
     "counter_coef_2": [
@@ -116,9 +115,6 @@
     "hole_limit_min": [
         "0.046"
     ],
-    "include": [
-        "fdm_filament_template_direct_bowden"
-    ],
     "nozzle_temperature": [
         "220",
         "220",
@@ -187,5 +183,30 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "temperature_vitrification": [
+        "55.0"
+    ],
+    "filament_id": "GFE54",
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_density": [
+        "1.32"
+    ],
+    "filament_scarf_seam_type": [
+        "none"
+    ],
+    "filament_scarf_height": [
+        "5%"
+    ],
+    "filament_scarf_gap": [
+        "0%"
+    ],
+    "filament_scarf_length": [
+        "10"
+    ],
+    "impact_strength_z": [
+        "6.6"
     ]
 }

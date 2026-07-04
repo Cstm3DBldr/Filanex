@@ -67,7 +67,13 @@
         "0"
     ],
     "chamber_temperatures": [
-        "40"
+        "60"
+    ],
+    "nozzle_temperature_range_high": [
+        "270.0"
+    ],
+    "nozzle_temperature_range_low": [
+        "230.0"
     ],
     "activate_air_filtration": [
         "1"

@@ -75,6 +75,9 @@
     "chamber_temperatures": [
         "0"
     ],
+    "filament_diameter": [
+        1.75
+    ],
     "activate_air_filtration": [
         "0"
     ]

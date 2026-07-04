@@ -1,12 +1,11 @@
 {
     "type": "filament",
     "name": "Ultrafuse ASA @BBL H2S 0.8 nozzle",
-    "inherits": "Ultrafuse ASA @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSZ03_36",
     "instantiation": "true",
     "chamber_temperatures": [
-        "40"
+        "60"
     ],
     "counter_coef_2": [
         "0.0094"
@@ -87,9 +86,6 @@
     "hole_limit_min": [
         "0.1261"
     ],
-    "include": [
-        "fdm_filament_template_direct_dual"
-    ],
     "nozzle_temperature": [
         "270.0",
         "270.0"
@@ -155,5 +151,31 @@
     ],
     "activate_air_filtration": [
         "1"
+    ],
+    "nozzle_temperature_range_high": [
+        "280.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "filament_density": [
+        "1.0715"
+    ],
+    "nozzle_temperature_range_low": [
+        "260.0"
+    ],
+    "filament_id": "GFZ03",
+    "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
+    "fan_max_speed": [
+        "35"
+    ],
+    "filament_cost": [
+        "31.99"
+    ],
+    "impact_strength_z": [
+        "4.9"
+    ],
+    "slow_down_layer_time": [
+        "12"
     ]
 }

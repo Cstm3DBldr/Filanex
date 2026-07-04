@@ -1,9 +1,8 @@
 {
     "type": "filament",
     "name": "Orca Arena Arena PLA-CF @BBL H2S 0.8 nozzle",
-    "inherits": "Orca Arena Arena PLA-CF @base",
-    "from": "system",
-    "setting_id": "GFS192_27",
+    "from": "User",
+    "setting_id": "GFS1112_27",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0003"
@@ -78,9 +77,6 @@
     "hole_limit_min": [
         "0.048"
     ],
-    "include": [
-        "fdm_filament_template_direct_dual"
-    ],
     "nozzle_temperature": [
         "225.0",
         "225.0"
@@ -140,5 +136,36 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "250.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "temperature_vitrification": [
+        "60.0"
+    ],
+    "filament_density": [
+        "1.22"
+    ],
+    "nozzle_temperature_range_low": [
+        "210.0"
+    ],
+    "filament_id": "GFO108",
+    "additional_cooling_fan_speed": [
+        "0"
+    ],
+    "filament_cost": [
+        "34.99"
+    ],
+    "impact_strength_z": [
+        "7.8"
+    ],
+    "required_nozzle_HRC": [
+        "40"
+    ],
+    "slow_down_layer_time": [
+        "8"
     ]
 }

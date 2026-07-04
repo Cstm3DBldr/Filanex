@@ -1,9 +1,8 @@
 {
     "type": "filament",
     "name": "Eryone PETG @BBL H2D 0.2 nozzle",
-    "inherits": "Eryone PETG @base",
-    "from": "system",
-    "setting_id": "GFS180_33",
+    "from": "User",
+    "setting_id": "GFS1100_33",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"
@@ -28,9 +27,6 @@
     ],
     "filament_change_length": [
         "4"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
         "245.0",
@@ -106,5 +102,42 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "270.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "temperature_vitrification": [
+        "60.0"
+    ],
+    "filament_density": [
+        "1.255"
+    ],
+    "nozzle_temperature_range_low": [
+        "225.0"
+    ],
+    "filament_flow_ratio": [
+        "0.98"
+    ],
+    "filament_id": "GFR101",
+    "fan_max_speed": [
+        "40"
+    ],
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_metal_stickiness": [
+        "High"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "10.6"
+    ],
+    "overhang_fan_threshold": [
+        "10%"
     ]
 }

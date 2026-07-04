@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "Flashforge PETG-CF @BBL P2S 0.6 nozzle",
-    "inherits": "Flashforge PETG-CF @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSF06_11",
     "instantiation": "true",
     "counter_coef_2": [
@@ -56,9 +55,6 @@
     ],
     "hole_limit_min": [
         "0.075"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "long_retractions_when_ec": [
         "0",
@@ -129,5 +125,42 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "250.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "nozzle_temperature_range_low": [
+        "230.0"
+    ],
+    "filament_id": "GFF06",
+    "filament_cost": [
+        "34.99"
+    ],
+    "filament_density": [
+        "1.25"
+    ],
+    "filament_flow_ratio": [
+        "0.95"
+    ],
+    "filament_metal_stickiness": [
+        "High"
+    ],
+    "impact_strength_z": [
+        "10.7"
+    ],
+    "overhang_fan_threshold": [
+        "10%"
+    ],
+    "required_nozzle_HRC": [
+        "40"
+    ],
+    "slow_down_layer_time": [
+        "6"
+    ],
+    "temperature_vitrification": [
+        "70"
     ]
 }

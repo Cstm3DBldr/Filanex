@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "eSUN PET @BBL H2S 0.8 nozzle",
-    "inherits": "eSUN PET @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSE30_44",
     "instantiation": "true",
     "counter_coef_2": [
@@ -71,9 +70,6 @@
     ],
     "hole_limit_max": [
         "0.2"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "long_retractions_when_ec": [
         "0",
@@ -157,5 +153,33 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "280.0"
+    ],
+    "filament_density": [
+        "1.28"
+    ],
+    "nozzle_temperature_range_low": [
+        "250.0"
+    ],
+    "filament_id": "GFE30",
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_flow_ratio": [
+        "0.95"
+    ],
+    "filament_metal_stickiness": [
+        "High"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "10.6"
+    ],
+    "overhang_fan_threshold": [
+        "10%"
     ]
 }

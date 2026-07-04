@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "eSUN PLA-Lite @BBL X2D 0.2 nozzle",
-    "inherits": "eSUN PLA-Lite @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSE50_25",
     "instantiation": "true",
     "counter_coef_2": [
@@ -116,9 +115,6 @@
     "hole_limit_min": [
         "0.05"
     ],
-    "include": [
-        "fdm_filament_template_direct_bowden"
-    ],
     "nozzle_temperature": [
         "230.0",
         "230.0",
@@ -187,5 +183,36 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "temperature_vitrification": [
+        "55.0"
+    ],
+    "filament_id": "GFE50",
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_density": [
+        "1.26"
+    ],
+    "filament_scarf_seam_type": [
+        "none"
+    ],
+    "filament_scarf_height": [
+        "10%"
+    ],
+    "filament_scarf_gap": [
+        "0%"
+    ],
+    "filament_scarf_length": [
+        "10"
+    ],
+    "filament_change_length": [
+        "5"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "13.8"
     ]
 }

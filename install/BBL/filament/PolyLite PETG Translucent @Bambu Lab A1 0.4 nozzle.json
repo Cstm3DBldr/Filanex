@@ -91,7 +91,7 @@
     ],
     "type": "filament",
     "from": "User",
-    "filament_id": "GFL58",
+    "filament_id": "GFL43",
     "instantiation": "true",
     "filament_metal_stickiness": [
         "High"
@@ -134,5 +134,9 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "filament_retraction_length": [
+        "0.4",
+        "0.4"
     ]
 }

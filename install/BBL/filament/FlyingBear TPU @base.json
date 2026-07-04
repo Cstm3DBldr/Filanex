@@ -57,6 +57,24 @@
     "chamber_temperatures": [
         "0"
     ],
+    "filament_max_volumetric_speed": [
+        "3.0"
+    ],
+    "nozzle_temperature_range_high": [
+        "250.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "temperature_vitrification": [
+        "60.0"
+    ],
+    "nozzle_temperature_range_low": [
+        "200.0"
+    ],
+    "filament_flow_ratio": [
+        "0.94"
+    ],
     "activate_air_filtration": [
         "0"
     ]

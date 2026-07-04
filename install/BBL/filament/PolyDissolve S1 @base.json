@@ -3,7 +3,7 @@
     "name": "PolyDissolve S1 @base",
     "inherits": "fdm_filament_pva",
     "from": "system",
-    "filament_id": "GFL30",
+    "filament_id": "GFL31",
     "instantiation": "false",
     "description": "This is a water-soluble support filament, and usually it is only for the support structure and not for the model body. Printing this filament is of many requirements, and to get better printing quality, please refer to this wiki: PVA Printing Guide.",
     "filament_cost": [
@@ -62,6 +62,15 @@
     ],
     "chamber_temperatures": [
         "0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "nozzle_temperature_initial_layer": [
+        "220.0"
+    ],
+    "nozzle_temperature": [
+        "220.0"
     ],
     "activate_air_filtration": [
         "0"

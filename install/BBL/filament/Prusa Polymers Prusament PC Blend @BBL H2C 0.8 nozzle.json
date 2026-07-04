@@ -1,12 +1,11 @@
 {
     "type": "filament",
     "name": "Prusa Polymers Prusament PC Blend @BBL H2C 0.8 nozzle",
-    "inherits": "Prusa Polymers Prusament PC Blend @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSQ11_24",
     "instantiation": "true",
     "chamber_temperatures": [
-        "50"
+        "60"
     ],
     "counter_coef_2": [
         "0.0081"
@@ -90,9 +89,6 @@
     "hole_limit_min": [
         "0.0725"
     ],
-    "include": [
-        "fdm_filament_template_direct_dual"
-    ],
     "nozzle_temperature": [
         "275.0",
         "275.0"
@@ -161,5 +157,24 @@
     ],
     "activate_air_filtration": [
         "1"
+    ],
+    "nozzle_temperature_range_high": [
+        "290.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "filament_density": [
+        "1.22"
+    ],
+    "nozzle_temperature_range_low": [
+        "260.0"
+    ],
+    "filament_id": "GFQ11",
+    "filament_cost": [
+        "39.99"
+    ],
+    "impact_strength_z": [
+        "9.0"
     ]
 }

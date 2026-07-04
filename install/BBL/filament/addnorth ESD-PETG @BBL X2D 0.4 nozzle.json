@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "addnorth ESD-PETG @BBL X2D 0.4 nozzle",
-    "inherits": "addnorth ESD-PETG @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFS103_13",
     "instantiation": "true",
     "counter_coef_2": [
@@ -77,9 +76,6 @@
     "hole_limit_min": [
         "0.075"
     ],
-    "include": [
-        "fdm_filament_template_direct_bowden"
-    ],
     "nozzle_temperature": [
         "260.0",
         "260.0",
@@ -151,5 +147,39 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "265.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "nozzle_temperature_range_low": [
+        "255.0"
+    ],
+    "filament_id": "GFN103",
+    "filament_cost": [
+        "34.99"
+    ],
+    "filament_density": [
+        "1.25"
+    ],
+    "filament_metal_stickiness": [
+        "High"
+    ],
+    "impact_strength_z": [
+        "10.7"
+    ],
+    "overhang_fan_threshold": [
+        "10%"
+    ],
+    "required_nozzle_HRC": [
+        "40"
+    ],
+    "slow_down_layer_time": [
+        "6"
+    ],
+    "temperature_vitrification": [
+        "70"
     ]
 }

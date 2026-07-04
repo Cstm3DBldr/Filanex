@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "eSUN PC @BBL P2S 0.2 nozzle",
-    "inherits": "eSUN PC @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSE26_13",
     "instantiation": "true",
     "chamber_temperatures": [
@@ -63,9 +62,6 @@
     "hole_limit_min": [
         "0.0725"
     ],
-    "include": [
-        "fdm_filament_template_direct_dual"
-    ],
     "long_retractions_when_ec": [
         "0",
         "0"
@@ -124,5 +120,15 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "filament_id": "GFE26",
+    "filament_cost": [
+        "39.99"
+    ],
+    "filament_density": [
+        "1.185"
+    ],
+    "impact_strength_z": [
+        "9.0"
     ]
 }

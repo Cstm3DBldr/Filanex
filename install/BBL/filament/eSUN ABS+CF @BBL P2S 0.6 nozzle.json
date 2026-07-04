@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "eSUN ABS+CF @BBL P2S 0.6 nozzle",
-    "inherits": "eSUN ABS+CF @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSE03_15",
     "instantiation": "true",
     "chamber_temperatures": [
@@ -58,9 +57,6 @@
     ],
     "hole_limit_min": [
         "0.1119"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "long_retractions_when_ec": [
         "0",
@@ -132,5 +128,16 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "filament_flow_ratio": [
+        "0.88"
+    ],
+    "filament_id": "GFE03",
+    "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
+    "filament_cost": [
+        "24.99"
+    ],
+    "impact_strength_z": [
+        "7.4"
     ]
 }

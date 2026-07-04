@@ -1,12 +1,11 @@
 {
     "type": "filament",
     "name": "eSUN ABS+GF @BBL H2S 0.8 nozzle",
-    "inherits": "eSUN ABS+GF @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSE04_36",
     "instantiation": "true",
     "chamber_temperatures": [
-        "40"
+        "60"
     ],
     "counter_coef_2": [
         "0.0124"
@@ -68,9 +67,6 @@
     ],
     "hole_limit_max": [
         "0.1319"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "long_retractions_when_ec": [
         "0",
@@ -151,5 +147,16 @@
     ],
     "activate_air_filtration": [
         "1"
+    ],
+    "filament_flow_ratio": [
+        "0.94"
+    ],
+    "filament_id": "GFE04",
+    "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
+    "filament_cost": [
+        "24.99"
+    ],
+    "impact_strength_z": [
+        "7.4"
     ]
 }

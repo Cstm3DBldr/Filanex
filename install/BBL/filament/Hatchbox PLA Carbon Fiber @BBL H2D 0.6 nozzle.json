@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "Hatchbox PLA Carbon Fiber @BBL H2D 0.6 nozzle",
-    "inherits": "Hatchbox PLA Carbon Fiber @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSH04_20",
     "instantiation": "true",
     "eng_plate_temp": [
@@ -48,9 +47,6 @@
     ],
     "filament_change_length": [
         "4"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
         "200.0",
@@ -111,5 +107,33 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "220.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "nozzle_temperature_range_low": [
+        "180.0"
+    ],
+    "filament_id": "GFH04",
+    "additional_cooling_fan_speed": [
+        "0"
+    ],
+    "filament_cost": [
+        "34.99"
+    ],
+    "filament_density": [
+        "1.22"
+    ],
+    "impact_strength_z": [
+        "7.8"
+    ],
+    "required_nozzle_HRC": [
+        "40"
+    ],
+    "slow_down_layer_time": [
+        "8"
     ]
 }

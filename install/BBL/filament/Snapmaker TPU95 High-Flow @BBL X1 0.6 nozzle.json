@@ -1,9 +1,8 @@
 {
     "type": "filament",
     "name": "Snapmaker TPU95 High-Flow @BBL X1 0.6 nozzle",
-    "inherits": "Snapmaker TPU95 High-Flow @base",
-    "from": "system",
-    "setting_id": "GFS1114_11",
+    "from": "User",
+    "setting_id": "GFS1134_11",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"
@@ -81,9 +80,6 @@
     "filament_change_length_nc": [
         "4"
     ],
-    "include": [
-        "fdm_filament_template_direct_dual"
-    ],
     "nozzle_temperature": [
         "230",
         "230"
@@ -150,5 +146,16 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "filament_id": "GFS110",
+    "description": "This filament is too soft and not compatible with the AMS. Printing it is of many requirements, and to get better printing quality, please refer to this wiki: TPU printing guide.",
+    "filament_cost": [
+        "41.99"
+    ],
+    "filament_density": [
+        "1.22"
+    ],
+    "impact_strength_z": [
+        "88.7"
     ]
 }

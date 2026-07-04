@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "eSUN PC @BBL X1E 0.6 nozzle",
-    "inherits": "eSUN PC @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSE26_11",
     "instantiation": "true",
     "eng_plate_temp": [
@@ -64,9 +63,28 @@
         "0"
     ],
     "chamber_temperatures": [
-        "50"
+        "60"
     ],
     "activate_air_filtration": [
         "1"
+    ],
+    "filament_max_volumetric_speed": [
+        "18"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "290.0"
+    ],
+    "nozzle_temperature": [
+        "290.0"
+    ],
+    "filament_id": "GFE26",
+    "filament_cost": [
+        "39.99"
+    ],
+    "filament_density": [
+        "1.185"
+    ],
+    "impact_strength_z": [
+        "9.0"
     ]
 }

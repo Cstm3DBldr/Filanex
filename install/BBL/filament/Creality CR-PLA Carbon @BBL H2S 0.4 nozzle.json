@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "Creality CR-PLA Carbon @BBL H2S 0.4 nozzle",
-    "inherits": "Creality CR-PLA Carbon @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSR03_25",
     "instantiation": "true",
     "counter_coef_2": [
@@ -78,9 +77,6 @@
     "hole_limit_min": [
         "0.048"
     ],
-    "include": [
-        "fdm_filament_template_direct_dual"
-    ],
     "nozzle_temperature": [
         "220.0",
         "220.0"
@@ -140,5 +136,36 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "240.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "temperature_vitrification": [
+        "60.0"
+    ],
+    "filament_density": [
+        "1.25"
+    ],
+    "nozzle_temperature_range_low": [
+        "190.0"
+    ],
+    "filament_id": "GFR03",
+    "additional_cooling_fan_speed": [
+        "0"
+    ],
+    "filament_cost": [
+        "34.99"
+    ],
+    "impact_strength_z": [
+        "7.8"
+    ],
+    "required_nozzle_HRC": [
+        "40"
+    ],
+    "slow_down_layer_time": [
+        "8"
     ]
 }

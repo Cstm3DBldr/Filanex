@@ -1,9 +1,8 @@
 {
     "type": "filament",
     "name": "Orca Arena Arena PET-CF @BBL H2C 0.4 nozzle",
-    "inherits": "Orca Arena Arena PET-CF @base",
-    "from": "system",
-    "setting_id": "GFS197_13",
+    "from": "User",
+    "setting_id": "GFS1117_13",
     "instantiation": "true",
     "chamber_temperatures": [
         "0"
@@ -77,9 +76,6 @@
     "hole_limit_min": [
         "0.167"
     ],
-    "include": [
-        "fdm_filament_template_direct_dual"
-    ],
     "nozzle_temperature": [
         "270.0",
         "270.0"
@@ -135,5 +131,70 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "290.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "filament_density": [
+        "1.29"
+    ],
+    "nozzle_temperature_range_low": [
+        "260.0"
+    ],
+    "filament_id": "GFO105",
+    "description": "When printing this filament, there's a risk of nozzle clogging, oozing, warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
+    "fan_cooling_layer_time": [
+        "5"
+    ],
+    "fan_max_speed": [
+        "30"
+    ],
+    "fan_min_speed": [
+        "10"
+    ],
+    "filament_cost": [
+        "84.99"
+    ],
+    "filament_adhesiveness_category": [
+        "800"
+    ],
+    "filament_dev_chamber_drying_bed_temperature": [
+        "90"
+    ],
+    "filament_dev_ams_drying_ams_limitations": [
+        "1"
+    ],
+    "filament_dev_ams_drying_heat_distortion_temperature": [
+        "165"
+    ],
+    "filament_dev_drying_cooling_temperature": [
+        "150"
+    ],
+    "filament_dev_ams_drying_temperature": [
+        "65",
+        "80",
+        "65",
+        "80"
+    ],
+    "filament_dev_drying_softening_temperature": [
+        "150"
+    ],
+    "impact_strength_z": [
+        "4.5"
+    ],
+    "overhang_fan_speed": [
+        "40"
+    ],
+    "overhang_fan_threshold": [
+        "0%"
+    ],
+    "required_nozzle_HRC": [
+        "40"
+    ],
+    "slow_down_layer_time": [
+        "2"
     ]
 }

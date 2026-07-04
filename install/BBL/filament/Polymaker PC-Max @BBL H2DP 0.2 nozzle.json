@@ -1,12 +1,11 @@
 {
     "type": "filament",
     "name": "Polymaker PC-Max @BBL H2DP 0.2 nozzle",
-    "inherits": "Polymaker PC-Max @base",
-    "from": "system",
-    "setting_id": "GFSL57_29",
+    "from": "User",
+    "setting_id": "GFSL62_29",
     "instantiation": "true",
     "chamber_temperatures": [
-        "50"
+        "60"
     ],
     "fan_max_speed": [
         "40"
@@ -22,9 +21,6 @@
     "filament_ramming_travel_time": [
         "0",
         "0"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
         "270.0",
@@ -91,5 +87,24 @@
     ],
     "activate_air_filtration": [
         "1"
+    ],
+    "nozzle_temperature_range_high": [
+        "270.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "filament_density": [
+        "1.1949999999999998"
+    ],
+    "nozzle_temperature_range_low": [
+        "250.0"
+    ],
+    "filament_id": "GFL62",
+    "filament_cost": [
+        "39.99"
+    ],
+    "impact_strength_z": [
+        "9.0"
     ]
 }

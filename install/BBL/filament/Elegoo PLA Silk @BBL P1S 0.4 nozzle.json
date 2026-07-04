@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "Elegoo PLA Silk @BBL P1S 0.4 nozzle",
-    "inherits": "Elegoo PLA Silk @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSD20_10",
     "instantiation": "true",
     "filament_deretraction_speed": [
@@ -40,9 +39,6 @@
     "filament_ramming_travel_time": [
         "0",
         "0"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "long_retractions_when_ec": [
         "0",
@@ -114,5 +110,45 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "240.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "temperature_vitrification": [
+        "45.0"
+    ],
+    "filament_density": [
+        "1.2850000000000001"
+    ],
+    "nozzle_temperature_range_low": [
+        "190.0"
+    ],
+    "filament_id": "GFD20",
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_scarf_seam_type": [
+        "none"
+    ],
+    "filament_scarf_height": [
+        "10%"
+    ],
+    "filament_scarf_gap": [
+        "0%"
+    ],
+    "filament_scarf_length": [
+        "10"
+    ],
+    "filament_change_length": [
+        "5"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "13.8"
     ]
 }

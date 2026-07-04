@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "eSUN ASA+ @BBL P2S 0.6 nozzle",
-    "inherits": "eSUN ASA+ @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSE10_15",
     "instantiation": "true",
     "activate_air_filtration": [
@@ -70,9 +69,6 @@
     "hole_limit_min": [
         "0.1261"
     ],
-    "include": [
-        "fdm_filament_template_direct_dual"
-    ],
     "long_retractions_when_ec": [
         "0",
         "0"
@@ -137,5 +133,25 @@
     ],
     "supertack_plate_temp_initial_layer": [
         "0"
+    ],
+    "filament_flow_ratio": [
+        "1.0"
+    ],
+    "filament_id": "GFE10",
+    "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
+    "fan_max_speed": [
+        "35"
+    ],
+    "filament_cost": [
+        "31.99"
+    ],
+    "filament_density": [
+        "1.05"
+    ],
+    "impact_strength_z": [
+        "4.9"
+    ],
+    "slow_down_layer_time": [
+        "12"
     ]
 }

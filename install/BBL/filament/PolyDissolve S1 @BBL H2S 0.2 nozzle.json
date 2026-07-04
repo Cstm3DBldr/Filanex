@@ -1,9 +1,8 @@
 {
     "type": "filament",
     "name": "PolyDissolve S1 @BBL H2S 0.2 nozzle",
-    "inherits": "PolyDissolve S1 @base",
-    "from": "system",
-    "setting_id": "GFSL30_37",
+    "from": "User",
+    "setting_id": "GFSL31_37",
     "instantiation": "true",
     "eng_plate_temp": [
         "60"
@@ -49,9 +48,6 @@
     ],
     "filament_change_length_nc": [
         "4"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
         "220.0",
@@ -119,5 +115,25 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "225.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "filament_density": [
+        "1.08"
+    ],
+    "nozzle_temperature_range_low": [
+        "215.0"
+    ],
+    "filament_id": "GFL31",
+    "description": "This is a water-soluble support filament, and usually it is only for the support structure and not for the model body. Printing this filament is of many requirements, and to get better printing quality, please refer to this wiki: PVA Printing Guide.",
+    "filament_cost": [
+        "79.98"
+    ],
+    "slow_down_layer_time": [
+        "7"
     ]
 }

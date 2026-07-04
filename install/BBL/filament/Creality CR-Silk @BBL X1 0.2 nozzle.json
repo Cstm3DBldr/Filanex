@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "Creality CR-Silk @BBL X1 0.2 nozzle",
-    "inherits": "Creality CR-Silk @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSR04_09",
     "instantiation": "true",
     "filament_flow_ratio": [
@@ -16,9 +15,6 @@
     "filament_ramming_travel_time": [
         "0",
         "0"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "long_retractions_when_ec": [
         "0",
@@ -90,5 +86,25 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "filament_id": "GFR04",
+    "description": "To make the prints get higher gloss, please dry the filament before use, and set the outer wall speed to be 40 to 60 mm/s when slicing.",
+    "filament_cost": [
+        "29.99"
+    ],
+    "filament_density": [
+        "1.32"
+    ],
+    "filament_scarf_height": [
+        "5%"
+    ],
+    "filament_scarf_gap": [
+        "0%"
+    ],
+    "impact_strength_z": [
+        "4.6"
     ]
 }

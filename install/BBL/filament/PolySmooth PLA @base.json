@@ -3,7 +3,7 @@
     "name": "PolySmooth PLA @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFL73",
+    "filament_id": "GFL77",
     "instantiation": "false",
     "filament_cost": [
         "49"
@@ -77,6 +77,42 @@
     ],
     "chamber_temperatures": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "240"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "temperature_vitrification": [
+        "45"
+    ],
+    "filament_retraction_length": [
+        "nil"
+    ],
+    "default_filament_colour": [
+        ""
+    ],
+    "filament_shrink": [
+        "100%"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
+    "pressure_advance": [
+        "0.02"
+    ],
+    "nozzle_temperature_range_low": [
+        "190"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "215"
+    ],
+    "filament_notes": [
+        ""
+    ],
+    "nozzle_temperature": [
+        "222"
     ],
     "activate_air_filtration": [
         "0"

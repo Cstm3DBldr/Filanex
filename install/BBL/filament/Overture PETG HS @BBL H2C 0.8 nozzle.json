@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "Overture PETG HS @BBL H2C 0.8 nozzle",
-    "inherits": "Overture PETG HS @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSO14_32",
     "instantiation": "true",
     "counter_coef_2": [
@@ -94,9 +93,6 @@
     "hole_limit_min": [
         "0.09"
     ],
-    "include": [
-        "fdm_filament_template_direct_dual"
-    ],
     "nozzle_temperature": [
         "260.0",
         "260.0"
@@ -174,5 +170,36 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "260.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "filament_density": [
+        "1.3"
+    ],
+    "nozzle_temperature_range_low": [
+        "240.0"
+    ],
+    "filament_id": "GFO14",
+    "fan_max_speed": [
+        "40"
+    ],
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_metal_stickiness": [
+        "High"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "10.6"
+    ],
+    "overhang_fan_threshold": [
+        "10%"
     ]
 }

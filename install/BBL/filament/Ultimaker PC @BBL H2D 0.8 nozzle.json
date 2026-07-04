@@ -1,12 +1,11 @@
 {
     "type": "filament",
     "name": "Ultimaker PC @BBL H2D 0.8 nozzle",
-    "inherits": "Ultimaker PC @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSM04_28",
     "instantiation": "true",
     "chamber_temperatures": [
-        "50"
+        "60"
     ],
     "fan_max_speed": [
         "40"
@@ -48,9 +47,6 @@
     ],
     "filament_change_length": [
         "4"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
         "280.0",
@@ -117,5 +113,18 @@
     ],
     "activate_air_filtration": [
         "1"
+    ],
+    "filament_diameter": [
+        2.85
+    ],
+    "filament_density": [
+        "1.19"
+    ],
+    "filament_id": "GFM04",
+    "filament_cost": [
+        "39.99"
+    ],
+    "impact_strength_z": [
+        "9.0"
     ]
 }

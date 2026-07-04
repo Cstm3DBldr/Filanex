@@ -1,9 +1,8 @@
 {
     "type": "filament",
     "name": "Orca Arena Arena PETG-CF @BBL P2S 0.8 nozzle",
-    "inherits": "Orca Arena Arena PETG-CF @base",
-    "from": "system",
-    "setting_id": "GFS198_12",
+    "from": "User",
+    "setting_id": "GFS1118_12",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0022"
@@ -56,9 +55,6 @@
     ],
     "hole_limit_min": [
         "0.075"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "long_retractions_when_ec": [
         "0",
@@ -129,5 +125,42 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "270.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "temperature_vitrification": [
+        "75.0"
+    ],
+    "filament_density": [
+        "1.25"
+    ],
+    "nozzle_temperature_range_low": [
+        "240.0"
+    ],
+    "filament_flow_ratio": [
+        "0.95"
+    ],
+    "filament_id": "GFO106",
+    "filament_cost": [
+        "34.99"
+    ],
+    "filament_metal_stickiness": [
+        "High"
+    ],
+    "impact_strength_z": [
+        "10.7"
+    ],
+    "overhang_fan_threshold": [
+        "10%"
+    ],
+    "required_nozzle_HRC": [
+        "40"
+    ],
+    "slow_down_layer_time": [
+        "6"
     ]
 }

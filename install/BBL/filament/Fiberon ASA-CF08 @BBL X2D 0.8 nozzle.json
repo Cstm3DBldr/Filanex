@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "Fiberon ASA-CF08 @BBL X2D 0.8 nozzle",
-    "inherits": "Fiberon ASA-CF08 @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSL01_09",
     "instantiation": "true",
     "chamber_temperatures": [
@@ -37,9 +36,6 @@
     ],
     "filament_tower_interface_print_temp": [
         "275"
-    ],
-    "include": [
-        "fdm_filament_template_direct_bowden"
     ],
     "nozzle_temperature": [
         "270.0",
@@ -112,5 +108,36 @@
     ],
     "activate_air_filtration": [
         "1"
+    ],
+    "nozzle_temperature_range_high": [
+        "300.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "temperature_vitrification": [
+        "108.0"
+    ],
+    "filament_density": [
+        "1.02"
+    ],
+    "nozzle_temperature_range_low": [
+        "260.0"
+    ],
+    "filament_id": "GFL01",
+    "fan_max_speed": [
+        "25"
+    ],
+    "filament_cost": [
+        "36.99"
+    ],
+    "filament_dev_drying_cooling_temperature": [
+        "95"
+    ],
+    "impact_strength_z": [
+        "9.4"
+    ],
+    "slow_down_layer_time": [
+        "12"
     ]
 }

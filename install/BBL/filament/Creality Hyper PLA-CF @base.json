@@ -74,6 +74,21 @@
     "chamber_temperatures": [
         "0"
     ],
+    "filament_max_volumetric_speed": [
+        "15"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "temperature_vitrification": [
+        "60.0"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "220.0"
+    ],
+    "nozzle_temperature": [
+        "220.0"
+    ],
     "activate_air_filtration": [
         "0"
     ]

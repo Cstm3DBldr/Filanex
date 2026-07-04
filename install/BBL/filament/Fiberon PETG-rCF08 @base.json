@@ -92,6 +92,21 @@
     "chamber_temperatures": [
         "0"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_retraction_length": [
+        "nil",
+        "nil"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "270",
+        "270"
+    ],
+    "nozzle_temperature": [
+        "270",
+        "270"
+    ],
     "activate_air_filtration": [
         "0"
     ]

@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "Fiberlogy HS PLA Clear @BBL H2C 0.6 nozzle",
-    "inherits": "Fiberlogy HS PLA Clear @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSV15_31",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
@@ -100,9 +99,6 @@
     "hole_limit_min": [
         "0.05"
     ],
-    "include": [
-        "fdm_filament_template_direct_dual"
-    ],
     "nozzle_temperature": [
         "235.0",
         "235.0"
@@ -165,5 +161,39 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "250.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "filament_density": [
+        "1.24"
+    ],
+    "nozzle_temperature_range_low": [
+        "220.0"
+    ],
+    "filament_id": "GFV15",
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_scarf_seam_type": [
+        "none"
+    ],
+    "filament_scarf_height": [
+        "10%"
+    ],
+    "filament_scarf_gap": [
+        "0%"
+    ],
+    "filament_scarf_length": [
+        "10"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "13.8"
     ]
 }

@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "Creality CR-TPU @BBL X1C 0.6 nozzle",
-    "inherits": "Creality CR-TPU @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSR05_15",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
@@ -81,9 +80,6 @@
     "filament_change_length_nc": [
         "4"
     ],
-    "include": [
-        "fdm_filament_template_direct_dual"
-    ],
     "nozzle_temperature": [
         "225.0",
         "225.0"
@@ -150,5 +146,28 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "240.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "temperature_vitrification": [
+        "60.0"
+    ],
+    "filament_density": [
+        "1.12"
+    ],
+    "nozzle_temperature_range_low": [
+        "210.0"
+    ],
+    "filament_id": "GFR05",
+    "description": "This filament is too soft and not compatible with the AMS. Printing it is of many requirements, and to get better printing quality, please refer to this wiki: TPU printing guide.",
+    "filament_cost": [
+        "41.99"
+    ],
+    "impact_strength_z": [
+        "88.7"
     ]
 }

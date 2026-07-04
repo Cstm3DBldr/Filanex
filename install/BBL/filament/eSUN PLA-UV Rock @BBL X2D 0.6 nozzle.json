@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "eSUN PLA-UV Rock @BBL X2D 0.6 nozzle",
-    "inherits": "eSUN PLA-UV Rock @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSE59_27",
     "instantiation": "true",
     "counter_coef_2": [
@@ -95,9 +94,6 @@
     "hole_limit_min": [
         "0.05"
     ],
-    "include": [
-        "fdm_filament_template_direct_bowden"
-    ],
     "nozzle_temperature": [
         "220",
         "220",
@@ -166,5 +162,33 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "filament_id": "GFE59",
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_density": [
+        "1.26"
+    ],
+    "filament_scarf_seam_type": [
+        "none"
+    ],
+    "filament_scarf_height": [
+        "10%"
+    ],
+    "filament_scarf_gap": [
+        "0%"
+    ],
+    "filament_scarf_length": [
+        "10"
+    ],
+    "filament_change_length": [
+        "5"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "13.8"
     ]
 }

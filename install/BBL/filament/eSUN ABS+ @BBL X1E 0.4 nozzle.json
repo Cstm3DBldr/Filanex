@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "eSUN ABS+ @BBL X1E 0.4 nozzle",
-    "inherits": "eSUN ABS+ @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSE02_10",
     "instantiation": "true",
     "fan_max_speed": [
@@ -39,9 +38,6 @@
     "filament_ramming_travel_time": [
         "0",
         "0"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "long_retractions_when_ec": [
         "0",
@@ -109,9 +105,20 @@
         "0"
     ],
     "chamber_temperatures": [
-        "40"
+        "60"
     ],
     "activate_air_filtration": [
         "1"
+    ],
+    "filament_flow_ratio": [
+        "1.0"
+    ],
+    "filament_id": "GFE02",
+    "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
+    "filament_cost": [
+        "24.99"
+    ],
+    "impact_strength_z": [
+        "7.4"
     ]
 }

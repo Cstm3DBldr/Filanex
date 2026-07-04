@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "Fiberon PA6-CF20 @Bambu Lab H2D 0.6 nozzle",
-    "inherits": "Fiberon PA6-CF20 @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSL03_14",
     "instantiation": "true",
     "chamber_temperatures": [
@@ -71,9 +70,6 @@
     "hole_limit_min": [
         "0.092"
     ],
-    "include": [
-        "fdm_filament_template_direct_dual"
-    ],
     "nozzle_temperature": [
         "300",
         "300"
@@ -139,5 +135,44 @@
     ],
     "activate_air_filtration": [
         "1"
+    ],
+    "filament_cost": [
+        "83.99"
+    ],
+    "nozzle_temperature_range_high": [
+        "300"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_retraction_length": [
+        "nil",
+        "nil"
+    ],
+    "filament_density": [
+        "1.17"
+    ],
+    "nozzle_temperature_range_low": [
+        "280"
+    ],
+    "filament_id": "GFL03",
+    "description": "When printing this filament, there's a risk of nozzle clogging, oozing, warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
+    "fan_cooling_layer_time": [
+        "5"
+    ],
+    "fan_max_speed": [
+        "30"
+    ],
+    "fan_min_speed": [
+        "10"
+    ],
+    "impact_strength_z": [
+        "15.5"
+    ],
+    "overhang_fan_speed": [
+        "40"
+    ],
+    "overhang_fan_threshold": [
+        "0%"
     ]
 }

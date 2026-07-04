@@ -120,6 +120,17 @@
     "chamber_temperatures": [
         "0"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_retraction_length": [
+        "nil",
+        "nil"
+    ],
+    "filament_flow_ratio": [
+        "0.95",
+        "0.95"
+    ],
     "activate_air_filtration": [
         "0"
     ]

@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "Filatech PC @BBL X1E 0.4 nozzle",
-    "inherits": "Filatech PC @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSJ07_10",
     "instantiation": "true",
     "eng_plate_temp": [
@@ -63,9 +62,34 @@
         "0"
     ],
     "chamber_temperatures": [
-        "50"
+        "60"
     ],
     "activate_air_filtration": [
         "1"
+    ],
+    "nozzle_temperature_range_high": [
+        "310.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "filament_density": [
+        "1.2"
+    ],
+    "nozzle_temperature_range_low": [
+        "270.0"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "290.0"
+    ],
+    "filament_id": "GFJ07",
+    "filament_cost": [
+        "39.99"
+    ],
+    "filament_flow_ratio": [
+        "0.94"
+    ],
+    "impact_strength_z": [
+        "9.0"
     ]
 }

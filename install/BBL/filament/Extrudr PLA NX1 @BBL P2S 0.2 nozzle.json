@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "Extrudr PLA NX1 @BBL P2S 0.2 nozzle",
-    "inherits": "Extrudr PLA NX1 @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSX09_21",
     "instantiation": "true",
     "counter_coef_2": [
@@ -65,9 +64,6 @@
     ],
     "hole_limit_min": [
         "0.05"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "long_retractions_when_ec": [
         "0",
@@ -133,5 +129,42 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "230.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "filament_density": [
+        "1.24"
+    ],
+    "nozzle_temperature_range_low": [
+        "200.0"
+    ],
+    "filament_id": "GFX09",
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_scarf_seam_type": [
+        "none"
+    ],
+    "filament_scarf_height": [
+        "10%"
+    ],
+    "filament_scarf_gap": [
+        "0%"
+    ],
+    "filament_scarf_length": [
+        "10"
+    ],
+    "filament_change_length": [
+        "5"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "13.8"
     ]
 }

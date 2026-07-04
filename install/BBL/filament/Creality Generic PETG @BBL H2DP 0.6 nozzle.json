@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "Creality Generic PETG @BBL H2DP 0.6 nozzle",
-    "inherits": "Creality Generic PETG @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSR07_39",
     "instantiation": "true",
     "fan_cooling_layer_time": [
@@ -41,9 +40,6 @@
     ],
     "filament_tower_ironing_area": [
         "8"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
         "250.0",
@@ -119,5 +115,45 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "270.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "temperature_vitrification": [
+        "80.0"
+    ],
+    "filament_density": [
+        "1.25"
+    ],
+    "nozzle_temperature_range_low": [
+        "220.0"
+    ],
+    "filament_flow_ratio": [
+        "0.8999999999999999"
+    ],
+    "filament_id": "GFR07",
+    "fan_max_speed": [
+        "40"
+    ],
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_metal_stickiness": [
+        "High"
+    ],
+    "filament_change_length": [
+        "12"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "10.6"
+    ],
+    "overhang_fan_threshold": [
+        "10%"
     ]
 }

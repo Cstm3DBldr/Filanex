@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "Fiberlogy PETG PTFE @BBL H2DP 0.6 nozzle",
-    "inherits": "Fiberlogy PETG PTFE @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSV29_39",
     "instantiation": "true",
     "fan_cooling_layer_time": [
@@ -41,9 +40,6 @@
     ],
     "filament_tower_ironing_area": [
         "8"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
         "230.0",
@@ -119,5 +115,42 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "240.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "filament_density": [
+        "1.32"
+    ],
+    "nozzle_temperature_range_low": [
+        "220.0"
+    ],
+    "filament_id": "GFV29",
+    "fan_max_speed": [
+        "40"
+    ],
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_flow_ratio": [
+        "0.95"
+    ],
+    "filament_metal_stickiness": [
+        "High"
+    ],
+    "filament_change_length": [
+        "12"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "10.6"
+    ],
+    "overhang_fan_threshold": [
+        "10%"
     ]
 }

@@ -1,9 +1,8 @@
 {
     "type": "filament",
     "name": "Polymaker PC-Max @BBL P2S 0.6 nozzle",
-    "inherits": "Polymaker PC-Max @base",
-    "from": "system",
-    "setting_id": "GFSL57_15",
+    "from": "User",
+    "setting_id": "GFSL62_15",
     "instantiation": "true",
     "chamber_temperatures": [
         "0"
@@ -83,9 +82,6 @@
     "hole_limit_min": [
         "0.0725"
     ],
-    "include": [
-        "fdm_filament_template_direct_dual"
-    ],
     "long_retractions_when_ec": [
         "0",
         "0"
@@ -144,5 +140,24 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "270.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "filament_density": [
+        "1.1949999999999998"
+    ],
+    "nozzle_temperature_range_low": [
+        "250.0"
+    ],
+    "filament_id": "GFL62",
+    "filament_cost": [
+        "39.99"
+    ],
+    "impact_strength_z": [
+        "9.0"
     ]
 }

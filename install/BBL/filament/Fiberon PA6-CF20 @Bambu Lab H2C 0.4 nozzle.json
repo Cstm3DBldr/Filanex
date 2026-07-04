@@ -110,7 +110,7 @@
         "5.7"
     ],
     "name": "Fiberon PA6-CF20 @Bambu Lab H2C 0.4 nozzle",
-    "setting_id": "GFSL03_01",
+    "setting_id": "GFSL101_10",
     "filament_cooling_before_tower": [
         "10",
         "10"

@@ -1,9 +1,8 @@
 {
     "type": "filament",
     "name": "PolyMax PC @BBL X1C 0.4 nozzle",
-    "inherits": "PolyMax PC @base",
-    "from": "system",
-    "setting_id": "GFSL65_06",
+    "from": "User",
+    "setting_id": "GFSL69_06",
     "instantiation": "true",
     "eng_plate_temp": [
         "110"
@@ -67,5 +66,30 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "270.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "filament_density": [
+        "1.19"
+    ],
+    "nozzle_temperature_range_low": [
+        "250.0"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "260.0"
+    ],
+    "filament_id": "GFL69",
+    "filament_cost": [
+        "39.99"
+    ],
+    "filament_flow_ratio": [
+        "0.94"
+    ],
+    "impact_strength_z": [
+        "9.0"
     ]
 }

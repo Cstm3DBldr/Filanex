@@ -1,9 +1,8 @@
 {
     "type": "filament",
     "name": "Polymaker PETG @Bambu Lab H2S 0.2 nozzle",
-    "inherits": "Polymaker PETG @base",
-    "from": "system",
-    "setting_id": "GFSL58_41",
+    "from": "User",
+    "setting_id": "GFSL63_41",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"
@@ -59,9 +58,6 @@
     ],
     "hole_limit_max": [
         "0.2"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "long_retractions_when_ec": [
         "0",
@@ -145,5 +141,49 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "filament_cost": [
+        "30"
+    ],
+    "nozzle_temperature_range_high": [
+        "260"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "temperature_vitrification": [
+        "71.24"
+    ],
+    "filament_retraction_length": [
+        "0.8",
+        "0.8"
+    ],
+    "filament_shrink": [
+        "100%"
+    ],
+    "filament_density": [
+        "1.3"
+    ],
+    "pressure_advance": [
+        "0.02"
+    ],
+    "nozzle_temperature_range_low": [
+        "240"
+    ],
+    "filament_flow_ratio": [
+        "0.95"
+    ],
+    "filament_id": "GFL63",
+    "filament_metal_stickiness": [
+        "High"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "10.6"
+    ],
+    "overhang_fan_threshold": [
+        "10%"
     ]
 }

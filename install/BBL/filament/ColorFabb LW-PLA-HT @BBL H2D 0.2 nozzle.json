@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "ColorFabb LW-PLA-HT @BBL H2D 0.2 nozzle",
-    "inherits": "ColorFabb LW-PLA-HT @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSK08_33",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
@@ -38,9 +37,6 @@
     ],
     "filament_change_length": [
         "4"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
         "235.0",
@@ -104,5 +100,39 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "250.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "nozzle_temperature_range_low": [
+        "220.0"
+    ],
+    "filament_id": "GFK08",
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_density": [
+        "1.26"
+    ],
+    "filament_scarf_seam_type": [
+        "none"
+    ],
+    "filament_scarf_height": [
+        "10%"
+    ],
+    "filament_scarf_gap": [
+        "0%"
+    ],
+    "filament_scarf_length": [
+        "10"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "13.8"
     ]
 }

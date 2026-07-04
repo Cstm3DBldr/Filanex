@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "eSUN PA @BBL X2D 0.8 nozzle",
-    "inherits": "eSUN PA @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSE22_16",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
@@ -49,9 +48,6 @@
     ],
     "full_fan_speed_layer": [
         "2"
-    ],
-    "include": [
-        "fdm_filament_template_direct_bowden"
     ],
     "nozzle_temperature": [
         "265.0",
@@ -124,5 +120,31 @@
     ],
     "activate_air_filtration": [
         "1"
+    ],
+    "nozzle_temperature_range_high": [
+        "290.0"
+    ],
+    "filament_density": [
+        "1.12"
+    ],
+    "nozzle_temperature_range_low": [
+        "240.0"
+    ],
+    "filament_id": "GFE22",
+    "description": "When printing this filament, there's a risk of nozzle clogging, oozing, warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
+    "filament_cost": [
+        "84.99"
+    ],
+    "impact_strength_z": [
+        "5.7"
+    ],
+    "overhang_fan_speed": [
+        "40"
+    ],
+    "overhang_fan_threshold": [
+        "0%"
+    ],
+    "temperature_vitrification": [
+        "170"
     ]
 }

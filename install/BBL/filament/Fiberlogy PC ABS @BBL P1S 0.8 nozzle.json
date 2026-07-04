@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "Fiberlogy PC ABS @BBL P1S 0.8 nozzle",
-    "inherits": "Fiberlogy PC ABS @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSV24_04",
     "instantiation": "true",
     "eng_plate_temp": [
@@ -52,5 +51,36 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "filament_max_volumetric_speed": [
+        "18"
+    ],
+    "nozzle_temperature_range_high": [
+        "280.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "filament_density": [
+        "1.07"
+    ],
+    "nozzle_temperature_range_low": [
+        "260.0"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "270.0"
+    ],
+    "nozzle_temperature": [
+        "270.0"
+    ],
+    "filament_id": "GFV24",
+    "filament_cost": [
+        "39.99"
+    ],
+    "filament_flow_ratio": [
+        "0.94"
+    ],
+    "impact_strength_z": [
+        "9.0"
     ]
 }

@@ -1,9 +1,8 @@
 {
     "type": "filament",
     "name": "PolyLite PETG @Bambu Lab H2C 0.8 nozzle",
-    "inherits": "PolyLite PETG @Polymaker base",
-    "from": "system",
-    "setting_id": "GFSL40_32",
+    "from": "User",
+    "setting_id": "GFSL42_32",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"
@@ -94,9 +93,6 @@
     "hole_limit_min": [
         "0.09"
     ],
-    "include": [
-        "fdm_filament_template_direct_dual"
-    ],
     "nozzle_temperature": [
         "255",
         "255"
@@ -174,5 +170,42 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "filament_cost": [
+        "24.99"
+    ],
+    "nozzle_temperature_range_high": [
+        "270"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_shrink": [
+        "100%"
+    ],
+    "filament_density": [
+        "1.25"
+    ],
+    "pressure_advance": [
+        "0.02"
+    ],
+    "nozzle_temperature_range_low": [
+        "220"
+    ],
+    "filament_id": "GFL42",
+    "fan_max_speed": [
+        "40"
+    ],
+    "filament_metal_stickiness": [
+        "High"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "10.6"
+    ],
+    "overhang_fan_threshold": [
+        "10%"
     ]
 }

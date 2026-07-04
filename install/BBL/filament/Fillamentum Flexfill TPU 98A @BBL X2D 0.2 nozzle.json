@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "Fillamentum Flexfill TPU 98A @BBL X2D 0.2 nozzle",
-    "inherits": "Fillamentum Flexfill TPU 98A @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSP06_21",
     "instantiation": "true",
     "eng_plate_temp": [
@@ -52,9 +51,6 @@
     ],
     "first_x_layer_fan_speed": [
         "40"
-    ],
-    "include": [
-        "fdm_filament_template_direct_bowden"
     ],
     "nozzle_temperature": [
         "230.0",
@@ -118,5 +114,25 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "240.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "filament_density": [
+        "1.23"
+    ],
+    "nozzle_temperature_range_low": [
+        "220.0"
+    ],
+    "filament_id": "GFP06",
+    "description": "This filament is too soft and not compatible with the AMS. Printing it is of many requirements, and to get better printing quality, please refer to this wiki: TPU printing guide.",
+    "filament_cost": [
+        "41.99"
+    ],
+    "impact_strength_z": [
+        "88.7"
     ]
 }

@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "Prusa Polymers PC Blend @BBL P1S 0.4 nozzle",
-    "inherits": "Prusa Polymers PC Blend @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSQ03_02",
     "instantiation": "true",
     "eng_plate_temp": [
@@ -67,5 +66,30 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "nozzle_temperature_range_high": [
+        "285.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "filament_density": [
+        "1.22"
+    ],
+    "nozzle_temperature_range_low": [
+        "265.0"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "275.0"
+    ],
+    "filament_id": "GFQ03",
+    "filament_cost": [
+        "39.99"
+    ],
+    "filament_flow_ratio": [
+        "0.94"
+    ],
+    "impact_strength_z": [
+        "9.0"
     ]
 }

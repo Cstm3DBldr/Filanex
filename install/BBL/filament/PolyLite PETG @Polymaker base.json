@@ -3,7 +3,7 @@
     "name": "PolyLite PETG @Polymaker base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFL40",
+    "filament_id": "GFL42",
     "instantiation": "false",
     "cool_plate_temp": [
         "65"
@@ -97,6 +97,25 @@
     ],
     "chamber_temperatures": [
         "0"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "temperature_vitrification": [
+        "81"
+    ],
+    "filament_retraction_length": [
+        "nil",
+        "nil"
+    ],
+    "filament_shrink": [
+        "100%"
+    ],
+    "filament_type": [
+        "PETG"
+    ],
+    "pressure_advance": [
+        "0.02"
     ],
     "activate_air_filtration": [
         "0"

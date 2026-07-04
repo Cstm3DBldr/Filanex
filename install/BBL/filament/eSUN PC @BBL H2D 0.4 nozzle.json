@@ -1,12 +1,11 @@
 {
     "type": "filament",
     "name": "eSUN PC @BBL H2D 0.4 nozzle",
-    "inherits": "eSUN PC @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSE26_26",
     "instantiation": "true",
     "chamber_temperatures": [
-        "50"
+        "60"
     ],
     "fan_max_speed": [
         "40"
@@ -38,9 +37,6 @@
     "filament_ramming_travel_time": [
         "0",
         "0"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "nozzle_temperature": [
         "290.0",
@@ -107,5 +103,15 @@
     ],
     "activate_air_filtration": [
         "1"
+    ],
+    "filament_id": "GFE26",
+    "filament_cost": [
+        "39.99"
+    ],
+    "filament_density": [
+        "1.185"
+    ],
+    "impact_strength_z": [
+        "9.0"
     ]
 }

@@ -1,8 +1,7 @@
 {
     "type": "filament",
     "name": "eSUN PLA-Baisc @BBL H2S 0.6 nozzle",
-    "inherits": "eSUN PLA-Baisc @base",
-    "from": "system",
+    "from": "User",
     "setting_id": "GFSE43_43",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
@@ -75,9 +74,6 @@
     ],
     "hole_limit_max": [
         "0.12"
-    ],
-    "include": [
-        "fdm_filament_template_direct_dual"
     ],
     "long_retractions_when_ec": [
         "0",
@@ -152,5 +148,33 @@
     ],
     "activate_air_filtration": [
         "0"
+    ],
+    "temperature_vitrification": [
+        "55.0"
+    ],
+    "filament_id": "GFE43",
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_density": [
+        "1.26"
+    ],
+    "filament_scarf_seam_type": [
+        "none"
+    ],
+    "filament_scarf_height": [
+        "10%"
+    ],
+    "filament_scarf_gap": [
+        "0%"
+    ],
+    "filament_scarf_length": [
+        "10"
+    ],
+    "filament_prime_volume": [
+        "30"
+    ],
+    "impact_strength_z": [
+        "13.8"
     ]
 }

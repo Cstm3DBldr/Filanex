@@ -3,7 +3,7 @@
     "name": "Polymaker HT-PLA-GF @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFL54",
+    "filament_id": "GFL59",
     "instantiation": "false",
     "additional_cooling_fan_speed": [
         "0"
@@ -73,6 +73,30 @@
     ],
     "chamber_temperatures": [
         "0"
+    ],
+    "filament_max_volumetric_speed": [
+        "15"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "temperature_vitrification": [
+        "59.76"
+    ],
+    "filament_retraction_length": [
+        "nil"
+    ],
+    "filament_shrink": [
+        "100%"
+    ],
+    "pressure_advance": [
+        "0.02"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "230"
+    ],
+    "nozzle_temperature": [
+        "230"
     ],
     "activate_air_filtration": [
         "0"

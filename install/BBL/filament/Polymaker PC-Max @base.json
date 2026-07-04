@@ -3,7 +3,7 @@
     "name": "Polymaker PC-Max @base",
     "inherits": "fdm_filament_pc",
     "from": "system",
-    "filament_id": "GFL57",
+    "filament_id": "GFL62",
     "instantiation": "false",
     "filament_vendor": [
         "Polymaker"
@@ -51,7 +51,25 @@
         "0"
     ],
     "chamber_temperatures": [
-        "50"
+        "60"
+    ],
+    "filament_max_volumetric_speed": [
+        "8.0"
+    ],
+    "nozzle_temperature_range_high": [
+        "270.0"
+    ],
+    "filament_diameter": [
+        1.75
+    ],
+    "nozzle_temperature_range_low": [
+        "250.0"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "270.0"
+    ],
+    "nozzle_temperature": [
+        "270.0"
     ],
     "activate_air_filtration": [
         "1"
