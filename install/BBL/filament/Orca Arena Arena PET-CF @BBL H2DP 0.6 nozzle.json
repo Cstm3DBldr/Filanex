@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Orca Arena Arena PET-CF @BBL H2DP 0.6 nozzle",
     "from": "User",
-    "setting_id": "GFS1117_20",
+    "setting_id": "GFSU05_20",
     "instantiation": "true",
     "chamber_temperatures": [
         "0"
@@ -132,19 +132,19 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_density": [
-        "1.29"
-    ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "260.0"
     ],
+    "filament_density": [
+        "1.29"
+    ],
     "nozzle_temperature_range_high": [
         "290.0"
     ],
-    "filament_id": "FLO105",
+    "filament_id": "FLU05",
     "description": "When printing this filament, there's a risk of nozzle clogging, oozing, warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "fan_cooling_layer_time": [
         "5"

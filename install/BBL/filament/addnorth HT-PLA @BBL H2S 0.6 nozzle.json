@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "addnorth HT-PLA @BBL H2S 0.6 nozzle",
     "from": "User",
-    "setting_id": "GFS104_43",
+    "setting_id": "GFSN04_43",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"
@@ -150,7 +150,7 @@
         "0"
     ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "200.0"
@@ -158,7 +158,7 @@
     "nozzle_temperature_range_high": [
         "230.0"
     ],
-    "filament_id": "FLN104",
+    "filament_id": "FLN04",
     "filament_cost": [
         "24.99"
     ],

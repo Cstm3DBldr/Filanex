@@ -68,6 +68,9 @@
     "activate_air_filtration": [
         "0"
     ],
+    "filament_diameter": [
+        "2.85"
+    ],
     "filament_max_volumetric_speed": [
         "18"
     ],
@@ -76,9 +79,6 @@
     ],
     "filament_density": [
         "1.19"
-    ],
-    "filament_diameter": [
-        2.85
     ],
     "filament_id": "FLM04",
     "filament_cost": [

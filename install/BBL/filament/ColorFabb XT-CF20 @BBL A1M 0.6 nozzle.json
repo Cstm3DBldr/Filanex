@@ -55,16 +55,16 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature": [
-        "255.0"
-    ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "240.0"
     ],
     "nozzle_temperature_initial_layer": [
+        "255.0"
+    ],
+    "nozzle_temperature": [
         "255.0"
     ],
     "nozzle_temperature_range_high": [

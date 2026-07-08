@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Peopoly Lancer PETG-C @BBL A1M 0.2 nozzle",
     "from": "User",
-    "setting_id": "GFS1123_05",
+    "setting_id": "GFSU96_22",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "15"
@@ -85,14 +85,8 @@
     "activate_air_filtration": [
         "0"
     ],
-    "temperature_vitrification": [
-        "160.0"
-    ],
-    "filament_density": [
-        "1.27"
-    ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "220.0"
@@ -100,10 +94,16 @@
     "nozzle_temperature_initial_layer": [
         "235.0"
     ],
+    "temperature_vitrification": [
+        "160.0"
+    ],
+    "filament_density": [
+        "1.27"
+    ],
     "nozzle_temperature_range_high": [
         "270.0"
     ],
-    "filament_id": "FLP103",
+    "filament_id": "FLU23",
     "filament_cost": [
         "24.99"
     ],

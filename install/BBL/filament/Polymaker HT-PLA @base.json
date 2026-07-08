@@ -78,32 +78,32 @@
     "chamber_temperatures": [
         "0"
     ],
-    "temperature_vitrification": [
-        "59.8"
-    ],
     "pressure_advance": [
         "0.02"
     ],
     "filament_retraction_length": [
         "nil"
     ],
-    "nozzle_temperature": [
-        "220"
-    ],
-    "filament_type": [
-        "PLA"
-    ],
     "filament_diameter": [
         "1.75"
-    ],
-    "filament_shrink": [
-        "100%"
     ],
     "nozzle_temperature_range_low": [
         "210"
     ],
     "nozzle_temperature_initial_layer": [
         "220"
+    ],
+    "temperature_vitrification": [
+        "59.8"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
+    "nozzle_temperature": [
+        "220"
+    ],
+    "filament_shrink": [
+        "100%"
     ],
     "nozzle_temperature_range_high": [
         "230"

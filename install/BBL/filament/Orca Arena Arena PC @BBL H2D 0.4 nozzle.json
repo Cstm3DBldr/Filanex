@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Orca Arena Arena PC @BBL H2D 0.4 nozzle",
     "from": "User",
-    "setting_id": "GFS1110_26",
+    "setting_id": "GFSU04_26",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"
@@ -104,22 +104,22 @@
     "activate_air_filtration": [
         "1"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "260.0"
+    ],
     "temperature_vitrification": [
         "140.0"
     ],
     "filament_density": [
         "1.04"
     ],
-    "filament_diameter": [
-        1.75
-    ],
-    "nozzle_temperature_range_low": [
-        "260.0"
-    ],
     "nozzle_temperature_range_high": [
         "290.0"
     ],
-    "filament_id": "FLO104",
+    "filament_id": "FLU04",
     "filament_cost": [
         "39.99"
     ],

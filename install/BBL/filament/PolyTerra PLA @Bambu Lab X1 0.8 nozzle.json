@@ -95,8 +95,8 @@
     "activate_air_filtration": [
         "0"
     ],
-    "temperature_vitrification": [
-        "61"
+    "filament_cost": [
+        "21.99"
     ],
     "pressure_advance": [
         "0.02"
@@ -104,20 +104,20 @@
     "filament_retraction_length": [
         "0.4"
     ],
-    "filament_density": [
-        "1.37"
-    ],
-    "filament_cost": [
-        "21.99"
-    ],
     "filament_diameter": [
         "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "190"
+    ],
+    "temperature_vitrification": [
+        "61"
     ],
     "filament_shrink": [
         "100%"
     ],
-    "nozzle_temperature_range_low": [
-        "190"
+    "filament_density": [
+        "1.37"
     ],
     "nozzle_temperature_range_high": [
         "230"

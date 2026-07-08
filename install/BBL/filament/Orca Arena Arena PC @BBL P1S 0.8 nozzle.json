@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Orca Arena Arena PC @BBL P1S 0.8 nozzle",
     "from": "User",
-    "setting_id": "GFS1116_04",
+    "setting_id": "GFSU97_48",
     "instantiation": "true",
     "eng_plate_temp": [
         "100"
@@ -52,6 +52,18 @@
     "activate_air_filtration": [
         "0"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "260.0"
+    ],
+    "filament_flow_ratio": [
+        "0.94"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "270.0"
+    ],
     "temperature_vitrification": [
         "140.0"
     ],
@@ -64,22 +76,10 @@
     "filament_density": [
         "1.04"
     ],
-    "filament_diameter": [
-        1.75
-    ],
-    "nozzle_temperature_range_low": [
-        "260.0"
-    ],
-    "nozzle_temperature_initial_layer": [
-        "270.0"
-    ],
-    "filament_flow_ratio": [
-        "0.94"
-    ],
     "nozzle_temperature_range_high": [
         "290.0"
     ],
-    "filament_id": "FLO104",
+    "filament_id": "FLU04",
     "filament_cost": [
         "39.99"
     ],

@@ -151,12 +151,6 @@
     "activate_air_filtration": [
         "0"
     ],
-    "temperature_vitrification": [
-        "79.3"
-    ],
-    "filament_density": [
-        "1.34"
-    ],
     "filament_cost": [
         "89.99"
     ],
@@ -165,6 +159,12 @@
     ],
     "nozzle_temperature_range_low": [
         "270"
+    ],
+    "temperature_vitrification": [
+        "79.3"
+    ],
+    "filament_density": [
+        "1.34"
     ],
     "nozzle_temperature_range_high": [
         "300"

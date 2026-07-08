@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "PolyLite PETG @Bambu Lab P1S 0.2 nozzle",
     "from": "User",
-    "setting_id": "GFSL112_13",
+    "setting_id": "GFSL86_61",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"
@@ -112,26 +112,26 @@
     "activate_air_filtration": [
         "0"
     ],
-    "temperature_vitrification": [
-        "81"
+    "filament_cost": [
+        "24.99"
     ],
     "pressure_advance": [
         "0.02"
     ],
-    "filament_density": [
-        "1.25"
-    ],
-    "filament_cost": [
-        "24.99"
-    ],
     "filament_diameter": [
         "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "220"
+    ],
+    "temperature_vitrification": [
+        "81"
     ],
     "filament_shrink": [
         "100%"
     ],
-    "nozzle_temperature_range_low": [
-        "220"
+    "filament_density": [
+        "1.25"
     ],
     "nozzle_temperature_range_high": [
         "270"

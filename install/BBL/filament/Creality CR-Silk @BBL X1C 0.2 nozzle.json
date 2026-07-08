@@ -88,7 +88,7 @@
         "0"
     ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "filament_id": "FLR04",
     "description": "To make the prints get higher gloss, please dry the filament before use, and set the outer wall speed to be 40 to 60 mm/s when slicing.",

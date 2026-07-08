@@ -132,21 +132,21 @@
     "activate_air_filtration": [
         "0"
     ],
+    "filament_cost": [
+        "89.99"
+    ],
     "filament_retraction_length": [
         "nil",
         "nil"
-    ],
-    "filament_density": [
-        "1.34"
-    ],
-    "filament_cost": [
-        "89.99"
     ],
     "filament_diameter": [
         "1.75"
     ],
     "nozzle_temperature_range_low": [
         "270"
+    ],
+    "filament_density": [
+        "1.34"
     ],
     "nozzle_temperature_range_high": [
         "300"

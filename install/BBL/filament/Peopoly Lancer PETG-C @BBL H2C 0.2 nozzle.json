@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Peopoly Lancer PETG-C @BBL H2C 0.2 nozzle",
     "from": "User",
-    "setting_id": "GFS1113_29",
+    "setting_id": "GFSU03_29",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"
@@ -147,11 +147,8 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_density": [
-        "1.27"
-    ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "220.0"
@@ -159,10 +156,13 @@
     "filament_flow_ratio": [
         "0.9"
     ],
+    "filament_density": [
+        "1.27"
+    ],
     "nozzle_temperature_range_high": [
         "270.0"
     ],
-    "filament_id": "FLP103",
+    "filament_id": "FLU23",
     "fan_max_speed": [
         "40"
     ],

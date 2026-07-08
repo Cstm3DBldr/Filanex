@@ -3,7 +3,7 @@
     "name": "Snapmaker ABS @base",
     "inherits": "fdm_filament_abs",
     "from": "system",
-    "filament_id": "FLS101",
+    "filament_id": "FLS01",
     "instantiation": "false",
     "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "filament_cost": [
@@ -51,11 +51,11 @@
     "chamber_temperatures": [
         "60"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
     "filament_max_volumetric_speed": [
         "16"
-    ],
-    "filament_diameter": [
-        1.75
     ],
     "activate_air_filtration": [
         "1"

@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "FlyingBear PC @BBL H2S 0.8 nozzle",
     "from": "User",
-    "setting_id": "GFS103_36",
+    "setting_id": "GFSC03_36",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"
@@ -146,22 +146,22 @@
     "activate_air_filtration": [
         "1"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "240.0"
+    ],
     "temperature_vitrification": [
         "140.0"
     ],
     "filament_density": [
         "1.04"
     ],
-    "filament_diameter": [
-        1.75
-    ],
-    "nozzle_temperature_range_low": [
-        "240.0"
-    ],
     "nozzle_temperature_range_high": [
         "280.0"
     ],
-    "filament_id": "FLF103",
+    "filament_id": "FLC03",
     "filament_cost": [
         "39.99"
     ],

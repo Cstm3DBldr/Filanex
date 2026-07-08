@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "InfiMech PLA Hyper @BBL A1M 0.2 nozzle",
     "from": "User",
-    "setting_id": "GFS1111_05",
+    "setting_id": "GFSG95_35",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"
@@ -76,6 +76,18 @@
     "activate_air_filtration": [
         "0"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "190.0"
+    ],
+    "filament_flow_ratio": [
+        "0.94"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "220.0"
+    ],
     "temperature_vitrification": [
         "60.0"
     ],
@@ -85,22 +97,10 @@
     "filament_density": [
         "1.24"
     ],
-    "filament_diameter": [
-        1.75
-    ],
-    "nozzle_temperature_range_low": [
-        "190.0"
-    ],
-    "nozzle_temperature_initial_layer": [
-        "220.0"
-    ],
-    "filament_flow_ratio": [
-        "0.94"
-    ],
     "nozzle_temperature_range_high": [
         "230.0"
     ],
-    "filament_id": "FLI102",
+    "filament_id": "FLG02",
     "filament_cost": [
         "24.99"
     ],

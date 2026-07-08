@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Snapmaker PLA Wood @BBL X1 0.4 nozzle",
     "from": "User",
-    "setting_id": "GFS1131_10",
+    "setting_id": "GFSS07_10",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",
@@ -112,7 +112,7 @@
         "0"
     ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "190.0"
@@ -120,7 +120,7 @@
     "nozzle_temperature_range_high": [
         "210.0"
     ],
-    "filament_id": "FLS107",
+    "filament_id": "FLS07",
     "filament_cost": [
         "24.99"
     ],

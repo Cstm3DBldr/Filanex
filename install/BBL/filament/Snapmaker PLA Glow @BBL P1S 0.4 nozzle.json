@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Snapmaker PLA Glow @BBL P1S 0.4 nozzle",
     "from": "User",
-    "setting_id": "GFS1129_07",
+    "setting_id": "GFSS96_67",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",
@@ -112,7 +112,7 @@
         "0"
     ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "190.0"
@@ -120,7 +120,7 @@
     "nozzle_temperature_range_high": [
         "230.0"
     ],
-    "filament_id": "FLS105",
+    "filament_id": "FLS05",
     "filament_cost": [
         "24.99"
     ],

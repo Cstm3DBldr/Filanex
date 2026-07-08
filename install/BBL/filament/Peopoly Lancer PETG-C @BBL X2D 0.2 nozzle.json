@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Peopoly Lancer PETG-C @BBL X2D 0.2 nozzle",
     "from": "User",
-    "setting_id": "GFS1114_25",
+    "setting_id": "GFSU96_42",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"
@@ -202,22 +202,22 @@
     "activate_air_filtration": [
         "0"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "220.0"
+    ],
     "temperature_vitrification": [
         "160.0"
     ],
     "filament_density": [
         "1.27"
     ],
-    "filament_diameter": [
-        1.75
-    ],
-    "nozzle_temperature_range_low": [
-        "220.0"
-    ],
     "nozzle_temperature_range_high": [
         "270.0"
     ],
-    "filament_id": "FLP103",
+    "filament_id": "FLU23",
     "filament_cost": [
         "24.99"
     ],

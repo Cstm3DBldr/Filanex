@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Polymaker HT-PLA-GF @Bambu Lab P2S 0.8 nozzle",
     "from": "User",
-    "setting_id": "GFSL127_12",
+    "setting_id": "GFSL84_29",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0003"
@@ -122,8 +122,8 @@
     "activate_air_filtration": [
         "0"
     ],
-    "temperature_vitrification": [
-        "59.76"
+    "filament_cost": [
+        "33"
     ],
     "pressure_advance": [
         "0.02"
@@ -131,20 +131,20 @@
     "filament_retraction_length": [
         "nil"
     ],
-    "filament_density": [
-        "1.33"
-    ],
-    "filament_cost": [
-        "33"
-    ],
     "filament_diameter": [
         "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "190"
+    ],
+    "temperature_vitrification": [
+        "59.76"
     ],
     "filament_shrink": [
         "100%"
     ],
-    "nozzle_temperature_range_low": [
-        "190"
+    "filament_density": [
+        "1.33"
     ],
     "nozzle_temperature_range_high": [
         "240"

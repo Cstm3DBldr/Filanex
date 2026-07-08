@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "PolyLite PLA @Bambu Lab A1 mini 0.8 nozzle",
     "from": "User",
-    "setting_id": "GFSL126_08",
+    "setting_id": "GFSL86_75",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"
@@ -76,8 +76,8 @@
     "activate_air_filtration": [
         "0"
     ],
-    "temperature_vitrification": [
-        "61"
+    "filament_cost": [
+        "22.99"
     ],
     "pressure_advance": [
         "0.02"
@@ -86,32 +86,32 @@
         "nil",
         "nil"
     ],
-    "nozzle_temperature": [
-        "222",
-        "222"
-    ],
-    "filament_density": [
-        "1.19"
-    ],
-    "filament_cost": [
-        "22.99"
-    ],
     "filament_diameter": [
         "1.75"
     ],
-    "filament_shrink": [
-        "100%"
-    ],
     "nozzle_temperature_range_low": [
         "190"
+    ],
+    "filament_flow_ratio": [
+        "0.97",
+        "0.97"
     ],
     "nozzle_temperature_initial_layer": [
         "222",
         "222"
     ],
-    "filament_flow_ratio": [
-        "0.97",
-        "0.97"
+    "temperature_vitrification": [
+        "61"
+    ],
+    "nozzle_temperature": [
+        "222",
+        "222"
+    ],
+    "filament_shrink": [
+        "100%"
+    ],
+    "filament_density": [
+        "1.19"
     ],
     "nozzle_temperature_range_high": [
         "230"

@@ -67,11 +67,11 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_initial_layer": [
-        "290.0"
-    ],
     "filament_flow_ratio": [
         "0.98"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "290.0"
     ],
     "filament_id": "FLE26",
     "filament_cost": [

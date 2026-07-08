@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Snapmaker PLA @BBL P1S 0.8 nozzle",
     "from": "User",
-    "setting_id": "GFS1128_12",
+    "setting_id": "GFSS96_55",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",
@@ -111,19 +111,19 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_density": [
-        "1.24"
-    ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "190.0"
     ],
+    "filament_density": [
+        "1.24"
+    ],
     "nozzle_temperature_range_high": [
         "210.0"
     ],
-    "filament_id": "FLS104",
+    "filament_id": "FLS04",
     "filament_cost": [
         "24.99"
     ],

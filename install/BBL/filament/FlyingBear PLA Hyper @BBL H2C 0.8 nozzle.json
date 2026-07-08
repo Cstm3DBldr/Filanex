@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "FlyingBear PLA Hyper @BBL H2C 0.8 nozzle",
     "from": "User",
-    "setting_id": "GFS106_32",
+    "setting_id": "GFSC06_32",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"
@@ -162,22 +162,22 @@
     "activate_air_filtration": [
         "0"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "190.0"
+    ],
     "temperature_vitrification": [
         "60.0"
     ],
     "filament_density": [
         "1.24"
     ],
-    "filament_diameter": [
-        1.75
-    ],
-    "nozzle_temperature_range_low": [
-        "190.0"
-    ],
     "nozzle_temperature_range_high": [
         "230.0"
     ],
-    "filament_id": "FLF106",
+    "filament_id": "FLC06",
     "filament_cost": [
         "24.99"
     ],

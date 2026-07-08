@@ -70,6 +70,18 @@
     "activate_air_filtration": [
         "1"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "270.0"
+    ],
+    "filament_flow_ratio": [
+        "0.98"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "280.0"
+    ],
     "temperature_vitrification": [
         "112.0"
     ],
@@ -78,18 +90,6 @@
     ],
     "filament_density": [
         "1.04"
-    ],
-    "filament_diameter": [
-        1.75
-    ],
-    "nozzle_temperature_range_low": [
-        "270.0"
-    ],
-    "nozzle_temperature_initial_layer": [
-        "280.0"
-    ],
-    "filament_flow_ratio": [
-        "0.98"
     ],
     "nozzle_temperature_range_high": [
         "290.0"

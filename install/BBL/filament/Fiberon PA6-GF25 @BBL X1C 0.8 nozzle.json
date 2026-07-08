@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Fiberon PA6-GF25 @BBL X1C 0.8 nozzle",
     "from": "User",
-    "setting_id": "GFSL103_03",
+    "setting_id": "GFSL97_31",
     "instantiation": "true",
     "chamber_temperatures": [
         "0"
@@ -116,14 +116,14 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_density": [
-        "1.2"
-    ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "280.0"
+    ],
+    "filament_density": [
+        "1.2"
     ],
     "nozzle_temperature_range_high": [
         "300.0"

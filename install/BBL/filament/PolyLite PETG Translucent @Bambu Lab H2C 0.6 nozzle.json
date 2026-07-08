@@ -171,9 +171,6 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_density": [
-        "1.25"
-    ],
     "filament_cost": [
         "30"
     ],
@@ -182,6 +179,9 @@
     ],
     "nozzle_temperature_range_low": [
         "230"
+    ],
+    "filament_density": [
+        "1.25"
     ],
     "nozzle_temperature_range_high": [
         "260"

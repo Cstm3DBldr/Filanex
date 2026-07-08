@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Numakers PLA+ @BBL X1C 0.6 nozzle",
     "from": "User",
-    "setting_id": "GFS1112_19",
+    "setting_id": "GFST01_19",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",
@@ -111,22 +111,22 @@
     "activate_air_filtration": [
         "0"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "200.0"
+    ],
     "temperature_vitrification": [
         "55.0"
     ],
     "filament_density": [
         "1.24"
     ],
-    "filament_diameter": [
-        1.75
-    ],
-    "nozzle_temperature_range_low": [
-        "200.0"
-    ],
     "nozzle_temperature_range_high": [
         "255.0"
     ],
-    "filament_id": "FLM101",
+    "filament_id": "FLT01",
     "filament_cost": [
         "24.99"
     ],

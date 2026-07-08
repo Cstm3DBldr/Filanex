@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "addnorth Rigid X @BBL H2D 0.8 nozzle",
     "from": "User",
-    "setting_id": "GFS106_21",
+    "setting_id": "GFSN06_21",
     "instantiation": "true",
     "counter_coef_2": [
         "0.00565"
@@ -115,7 +115,7 @@
         "0"
     ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "245.0"
@@ -123,7 +123,7 @@
     "nozzle_temperature_range_high": [
         "265.0"
     ],
-    "filament_id": "FLN106",
+    "filament_id": "FLN06",
     "filament_cost": [
         "34.99"
     ],

@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Fiberon PA12-CF10 @Bambu Lab P2S 0.8 nozzle",
     "from": "User",
-    "setting_id": "GFSL100_09",
+    "setting_id": "GFSL97_14",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"
@@ -121,24 +121,24 @@
     "activate_air_filtration": [
         "0"
     ],
-    "temperature_vitrification": [
-        "55"
+    "filament_cost": [
+        "99.99"
     ],
     "filament_retraction_length": [
         "nil",
         "nil"
-    ],
-    "filament_density": [
-        "1.06"
-    ],
-    "filament_cost": [
-        "99.99"
     ],
     "filament_diameter": [
         "1.75"
     ],
     "nozzle_temperature_range_low": [
         "280"
+    ],
+    "temperature_vitrification": [
+        "55"
+    ],
+    "filament_density": [
+        "1.06"
     ],
     "nozzle_temperature_range_high": [
         "300"

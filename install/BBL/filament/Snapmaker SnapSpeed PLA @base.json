@@ -3,7 +3,7 @@
     "name": "Snapmaker SnapSpeed PLA @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "FLS108",
+    "filament_id": "FLS08",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

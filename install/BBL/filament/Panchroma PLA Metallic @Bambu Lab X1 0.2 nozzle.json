@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Panchroma PLA Metallic @Bambu Lab X1 0.2 nozzle",
     "from": "User",
-    "setting_id": "GFSL101_13",
+    "setting_id": "GFSL87_28",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",
@@ -95,8 +95,8 @@
     "activate_air_filtration": [
         "0"
     ],
-    "temperature_vitrification": [
-        "61"
+    "filament_cost": [
+        "29.99"
     ],
     "pressure_advance": [
         "0.02"
@@ -104,20 +104,20 @@
     "filament_retraction_length": [
         "0.4"
     ],
-    "filament_density": [
-        "1.17"
-    ],
-    "filament_cost": [
-        "29.99"
-    ],
     "filament_diameter": [
         "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "190"
+    ],
+    "temperature_vitrification": [
+        "61"
     ],
     "filament_shrink": [
         "100%"
     ],
-    "nozzle_temperature_range_low": [
-        "190"
+    "filament_density": [
+        "1.17"
     ],
     "nozzle_temperature_range_high": [
         "230"

@@ -96,14 +96,14 @@
         "nil",
         "nil"
     ],
-    "nozzle_temperature": [
-        "270",
-        "270"
-    ],
     "filament_diameter": [
         "1.75"
     ],
     "nozzle_temperature_initial_layer": [
+        "270",
+        "270"
+    ],
+    "nozzle_temperature": [
         "270",
         "270"
     ],

@@ -78,11 +78,11 @@
     "chamber_temperatures": [
         "0"
     ],
+    "filament_diameter": [
+        "2.85"
+    ],
     "nozzle_temperature": [
         "207.0"
-    ],
-    "filament_diameter": [
-        2.85
     ],
     "activate_air_filtration": [
         "0"

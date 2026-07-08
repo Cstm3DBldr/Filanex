@@ -109,14 +109,14 @@
     "activate_air_filtration": [
         "1"
     ],
-    "filament_density": [
-        "1.25"
-    ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "260.0"
+    ],
+    "filament_density": [
+        "1.25"
     ],
     "nozzle_temperature_range_high": [
         "290.0"

@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "addnorth ESD-PETG @BBL A1 0.6 nozzle",
     "from": "User",
-    "setting_id": "GFS103_02",
+    "setting_id": "GFSN95_01",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "30"
@@ -73,11 +73,8 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature": [
-        "260.0"
-    ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "255.0"
@@ -85,10 +82,13 @@
     "nozzle_temperature_initial_layer": [
         "260.0"
     ],
+    "nozzle_temperature": [
+        "260.0"
+    ],
     "nozzle_temperature_range_high": [
         "265.0"
     ],
-    "filament_id": "FLN103",
+    "filament_id": "FLN03",
     "filament_cost": [
         "34.99"
     ],

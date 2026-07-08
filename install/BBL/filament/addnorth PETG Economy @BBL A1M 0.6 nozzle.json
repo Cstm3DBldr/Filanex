@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "addnorth PETG Economy @BBL A1M 0.6 nozzle",
     "from": "User",
-    "setting_id": "GFS105_07",
+    "setting_id": "GFSN95_26",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "15"
@@ -86,7 +86,7 @@
         "0"
     ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "225.0"
@@ -97,7 +97,7 @@
     "nozzle_temperature_range_high": [
         "260.0"
     ],
-    "filament_id": "FLN105",
+    "filament_id": "FLN05",
     "filament_cost": [
         "24.99"
     ],

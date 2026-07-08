@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Snapmaker TPU95 High-Flow @BBL H2DP 0.4 nozzle",
     "from": "User",
-    "setting_id": "GFS1121_34",
+    "setting_id": "GFSS10_34",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"
@@ -147,7 +147,7 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_id": "FLS110",
+    "filament_id": "FLS10",
     "description": "This filament is too soft and not compatible with the AMS. Printing it is of many requirements, and to get better printing quality, please refer to this wiki: TPU printing guide.",
     "filament_cost": [
         "41.99"

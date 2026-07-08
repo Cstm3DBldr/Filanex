@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "PolyDissolve S1 @BBL P1P 0.2 nozzle",
     "from": "User",
-    "setting_id": "GFSL121_09",
+    "setting_id": "GFSL86_24",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"
@@ -90,14 +90,14 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_density": [
-        "1.08"
-    ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "215.0"
+    ],
+    "filament_density": [
+        "1.08"
     ],
     "nozzle_temperature_range_high": [
         "225.0"

@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Orca Arena Arena PLA Matte @BBL H2C 0.2 nozzle",
     "from": "User",
-    "setting_id": "GFS112_29",
+    "setting_id": "GFSU12_29",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"
@@ -101,22 +101,22 @@
     "activate_air_filtration": [
         "0"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "190.0"
+    ],
     "temperature_vitrification": [
         "60.0"
     ],
     "filament_density": [
         "1.32"
     ],
-    "filament_diameter": [
-        1.75
-    ],
-    "nozzle_temperature_range_low": [
-        "190.0"
-    ],
     "nozzle_temperature_range_high": [
         "240.0"
     ],
-    "filament_id": "FLO112",
+    "filament_id": "FLU12",
     "filament_cost": [
         "24.99"
     ],

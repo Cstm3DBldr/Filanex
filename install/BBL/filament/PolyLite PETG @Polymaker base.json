@@ -98,9 +98,6 @@
     "chamber_temperatures": [
         "0"
     ],
-    "temperature_vitrification": [
-        "81"
-    ],
     "pressure_advance": [
         "0.02"
     ],
@@ -108,11 +105,14 @@
         "nil",
         "nil"
     ],
-    "filament_type": [
-        "PETG"
-    ],
     "filament_diameter": [
         "1.75"
+    ],
+    "temperature_vitrification": [
+        "81"
+    ],
+    "filament_type": [
+        "PETG"
     ],
     "filament_shrink": [
         "100%"

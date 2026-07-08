@@ -134,20 +134,20 @@
     "supertack_plate_temp_initial_layer": [
         "0"
     ],
-    "temperature_vitrification": [
-        "110.0"
-    ],
-    "filament_density": [
-        "1.0550000000000002"
-    ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "255.0"
     ],
     "filament_flow_ratio": [
         "0.95"
+    ],
+    "temperature_vitrification": [
+        "110.0"
+    ],
+    "filament_density": [
+        "1.0550000000000002"
     ],
     "nozzle_temperature_range_high": [
         "280.0"

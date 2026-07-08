@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Snapmaker PETG @BBL X2D 0.4 nozzle",
     "from": "User",
-    "setting_id": "GFS1118_26",
+    "setting_id": "GFSS03_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"
@@ -184,19 +184,19 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_density": [
-        "1.26"
-    ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "230.0"
     ],
+    "filament_density": [
+        "1.26"
+    ],
     "nozzle_temperature_range_high": [
         "250.0"
     ],
-    "filament_id": "FLS103",
+    "filament_id": "FLS03",
     "filament_cost": [
         "24.99"
     ],

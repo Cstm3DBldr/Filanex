@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "addnorth E-PLA @BBL X2D 0.4 nozzle",
     "from": "User",
-    "setting_id": "GFS102_26",
+    "setting_id": "GFSN02_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"
@@ -163,19 +163,19 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_density": [
-        "1.24"
-    ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "195.0"
     ],
+    "filament_density": [
+        "1.24"
+    ],
     "nozzle_temperature_range_high": [
         "225.0"
     ],
-    "filament_id": "FLN102",
+    "filament_id": "FLN02",
     "filament_cost": [
         "24.99"
     ],

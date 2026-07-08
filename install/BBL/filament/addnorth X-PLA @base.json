@@ -3,7 +3,7 @@
     "name": "addnorth X-PLA @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "FLN108",
+    "filament_id": "FLN08",
     "instantiation": "false",
     "filament_cost": [
         "24.99"
@@ -78,16 +78,16 @@
     "chamber_temperatures": [
         "0"
     ],
-    "nozzle_temperature": [
-        "200.0"
-    ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "180.0"
     ],
     "nozzle_temperature_initial_layer": [
+        "200.0"
+    ],
+    "nozzle_temperature": [
         "200.0"
     ],
     "nozzle_temperature_range_high": [

@@ -125,14 +125,14 @@
     "supertack_plate_temp_initial_layer": [
         "35"
     ],
-    "filament_density": [
-        "1.04"
-    ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "230.0"
+    ],
+    "filament_density": [
+        "1.04"
     ],
     "nozzle_temperature_range_high": [
         "245.0"

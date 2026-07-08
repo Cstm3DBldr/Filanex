@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Snapmaker SnapSpeed PLA @BBL X1C 0.2 nozzle",
     "from": "User",
-    "setting_id": "GFS1132_17",
+    "setting_id": "GFSS08_17",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",
@@ -95,7 +95,7 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_id": "FLS108",
+    "filament_id": "FLS08",
     "filament_cost": [
         "24.99"
     ],

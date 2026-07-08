@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Orca Arena Arena PLA Metal @BBL X1 0.6 nozzle",
     "from": "User",
-    "setting_id": "GFS113_15",
+    "setting_id": "GFSU13_15",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",
@@ -111,22 +111,22 @@
     "activate_air_filtration": [
         "0"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "190.0"
+    ],
     "temperature_vitrification": [
         "60.0"
     ],
     "filament_density": [
         "1.25"
     ],
-    "filament_diameter": [
-        1.75
-    ],
-    "nozzle_temperature_range_low": [
-        "190.0"
-    ],
     "nozzle_temperature_range_high": [
         "240.0"
     ],
-    "filament_id": "FLO113",
+    "filament_id": "FLU13",
     "filament_cost": [
         "24.99"
     ],

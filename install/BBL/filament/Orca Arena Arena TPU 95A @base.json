@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena TPU 95A @base",
     "inherits": "fdm_filament_tpu",
     "from": "system",
-    "filament_id": "FLO119",
+    "filament_id": "FLU19",
     "instantiation": "false",
     "description": "This filament is too soft and not compatible with the AMS. Printing it is of many requirements, and to get better printing quality, please refer to this wiki: TPU printing guide.",
     "filament_cost": [
@@ -57,20 +57,20 @@
     "chamber_temperatures": [
         "0"
     ],
-    "temperature_vitrification": [
-        "35.0"
-    ],
-    "filament_max_volumetric_speed": [
-        "9.3"
-    ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "200.0"
     ],
     "filament_flow_ratio": [
         "1.0"
+    ],
+    "temperature_vitrification": [
+        "35.0"
+    ],
+    "filament_max_volumetric_speed": [
+        "9.3"
     ],
     "nozzle_temperature_range_high": [
         "250.0"

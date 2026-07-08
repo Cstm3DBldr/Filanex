@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Orca Arena Arena PETG-CF @BBL X1C 0.6 nozzle",
     "from": "User",
-    "setting_id": "GFS1118_08",
+    "setting_id": "GFSU06_08",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "30"
@@ -104,14 +104,8 @@
     "activate_air_filtration": [
         "0"
     ],
-    "temperature_vitrification": [
-        "75.0"
-    ],
-    "filament_density": [
-        "1.25"
-    ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "240.0"
@@ -119,10 +113,16 @@
     "filament_flow_ratio": [
         "0.95"
     ],
+    "temperature_vitrification": [
+        "75.0"
+    ],
+    "filament_density": [
+        "1.25"
+    ],
     "nozzle_temperature_range_high": [
         "270.0"
     ],
-    "filament_id": "FLO106",
+    "filament_id": "FLU06",
     "filament_cost": [
         "34.99"
     ],

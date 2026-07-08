@@ -163,17 +163,17 @@
     "activate_air_filtration": [
         "1"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "255.0"
+    ],
     "temperature_vitrification": [
         "110.0"
     ],
     "filament_density": [
         "1.0550000000000002"
-    ],
-    "filament_diameter": [
-        1.75
-    ],
-    "nozzle_temperature_range_low": [
-        "255.0"
     ],
     "nozzle_temperature_range_high": [
         "280.0"

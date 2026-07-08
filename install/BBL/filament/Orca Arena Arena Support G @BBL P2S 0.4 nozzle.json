@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Orca Arena Arena Support G @BBL P2S 0.4 nozzle",
     "from": "User",
-    "setting_id": "GFS117_10",
+    "setting_id": "GFSU17_10",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"
@@ -121,22 +121,22 @@
     "activate_air_filtration": [
         "0"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "270.0"
+    ],
     "temperature_vitrification": [
         "108.0"
     ],
     "filament_density": [
         "1.22"
     ],
-    "filament_diameter": [
-        1.75
-    ],
-    "nozzle_temperature_range_low": [
-        "270.0"
-    ],
     "nozzle_temperature_range_high": [
         "300.0"
     ],
-    "filament_id": "FLO117",
+    "filament_id": "FLU17",
     "description": "When printing this filament, there's a risk of nozzle clogging, oozing, warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "filament_cost": [
         "84.99"

@@ -72,17 +72,17 @@
     "chamber_temperatures": [
         "60"
     ],
-    "nozzle_temperature": [
-        "340.0"
-    ],
     "filament_diameter": [
-        1.75
+        "1.75"
+    ],
+    "filament_flow_ratio": [
+        "1.0"
     ],
     "nozzle_temperature_initial_layer": [
         "340.0"
     ],
-    "filament_flow_ratio": [
-        "1.0"
+    "nozzle_temperature": [
+        "340.0"
     ],
     "nozzle_temperature_range_high": [
         "350.0"

@@ -76,17 +76,17 @@
     "activate_air_filtration": [
         "0"
     ],
+    "filament_flow_ratio": [
+        "0.95"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "230.0"
+    ],
     "temperature_vitrification": [
         "55.0"
     ],
     "nozzle_temperature": [
         "230.0"
-    ],
-    "nozzle_temperature_initial_layer": [
-        "230.0"
-    ],
-    "filament_flow_ratio": [
-        "0.95"
     ],
     "filament_id": "FLE50",
     "filament_cost": [

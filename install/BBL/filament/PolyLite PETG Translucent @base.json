@@ -98,18 +98,18 @@
     "chamber_temperatures": [
         "0"
     ],
-    "temperature_vitrification": [
-        "81"
-    ],
     "filament_retraction_length": [
         "0.4",
         "0.4"
     ],
-    "filament_type": [
-        "PETG"
-    ],
     "filament_diameter": [
         "1.75"
+    ],
+    "temperature_vitrification": [
+        "81"
+    ],
+    "filament_type": [
+        "PETG"
     ],
     "activate_air_filtration": [
         "0"

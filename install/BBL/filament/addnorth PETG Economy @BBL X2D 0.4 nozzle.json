@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "addnorth PETG Economy @BBL X2D 0.4 nozzle",
     "from": "User",
-    "setting_id": "GFS105_26",
+    "setting_id": "GFSN05_26",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"
@@ -185,7 +185,7 @@
         "0"
     ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "225.0"
@@ -193,7 +193,7 @@
     "nozzle_temperature_range_high": [
         "260.0"
     ],
-    "filament_id": "FLN105",
+    "filament_id": "FLN05",
     "filament_cost": [
         "24.99"
     ],

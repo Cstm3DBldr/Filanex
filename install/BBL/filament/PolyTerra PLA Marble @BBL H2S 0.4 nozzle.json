@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "PolyTerra PLA Marble @BBL H2S 0.4 nozzle",
     "from": "User",
-    "setting_id": "GFSL84_31",
+    "setting_id": "GFSL84_73",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"
@@ -76,6 +76,18 @@
     "activate_air_filtration": [
         "0"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "190.0"
+    ],
+    "filament_flow_ratio": [
+        "0.98"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "220.0"
+    ],
     "temperature_vitrification": [
         "61.0"
     ],
@@ -84,18 +96,6 @@
     ],
     "filament_density": [
         "1.37"
-    ],
-    "filament_diameter": [
-        1.75
-    ],
-    "nozzle_temperature_range_low": [
-        "190.0"
-    ],
-    "nozzle_temperature_initial_layer": [
-        "220.0"
-    ],
-    "filament_flow_ratio": [
-        "0.98"
     ],
     "nozzle_temperature_range_high": [
         "230.0"

@@ -78,20 +78,20 @@
     "filament_retraction_length": [
         "nil"
     ],
-    "nozzle_temperature": [
-        "300",
-        "300"
-    ],
     "filament_diameter": [
         "1.75"
+    ],
+    "filament_flow_ratio": [
+        "1.02",
+        "1.02"
     ],
     "nozzle_temperature_initial_layer": [
         "300",
         "300"
     ],
-    "filament_flow_ratio": [
-        "1.02",
-        "1.02"
+    "nozzle_temperature": [
+        "300",
+        "300"
     ],
     "nozzle_temperature_range_high": [
         "350"

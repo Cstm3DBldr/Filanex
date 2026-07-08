@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Orca Arena Arena Support W @BBL H2D 0.8 nozzle",
     "from": "User",
-    "setting_id": "GFS118_36",
+    "setting_id": "GFSU18_36",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"
@@ -117,22 +117,22 @@
     "activate_air_filtration": [
         "0"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "190.0"
+    ],
     "temperature_vitrification": [
         "60.0"
     ],
     "filament_density": [
         "1.3"
     ],
-    "filament_diameter": [
-        1.75
-    ],
-    "nozzle_temperature_range_low": [
-        "190.0"
-    ],
     "nozzle_temperature_range_high": [
         "240.0"
     ],
-    "filament_id": "FLO118",
+    "filament_id": "FLU18",
     "filament_cost": [
         "24.99"
     ],

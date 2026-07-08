@@ -70,11 +70,11 @@
     "activate_air_filtration": [
         "1"
     ],
-    "nozzle_temperature": [
-        "260.0"
-    ],
     "filament_flow_ratio": [
         "1.0"
+    ],
+    "nozzle_temperature": [
+        "260.0"
     ],
     "filament_id": "FLE02",
     "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",

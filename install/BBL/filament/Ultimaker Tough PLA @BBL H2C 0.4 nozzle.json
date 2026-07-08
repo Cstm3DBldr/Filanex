@@ -76,11 +76,11 @@
     "activate_air_filtration": [
         "0"
     ],
+    "filament_diameter": [
+        "2.85"
+    ],
     "filament_density": [
         "1.22"
-    ],
-    "filament_diameter": [
-        2.85
     ],
     "filament_id": "FLM08",
     "filament_cost": [

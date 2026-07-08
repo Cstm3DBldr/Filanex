@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Snapmaker PLA Matte @BBL A1M 0.2 nozzle",
     "from": "User",
-    "setting_id": "GFS1130_05",
+    "setting_id": "GFSS96_88",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"
@@ -76,6 +76,18 @@
     "activate_air_filtration": [
         "0"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "190.0"
+    ],
+    "filament_flow_ratio": [
+        "1.01"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "220.0"
+    ],
     "temperature_vitrification": [
         "52.5"
     ],
@@ -85,22 +97,10 @@
     "filament_density": [
         "1.28"
     ],
-    "filament_diameter": [
-        1.75
-    ],
-    "nozzle_temperature_range_low": [
-        "190.0"
-    ],
-    "nozzle_temperature_initial_layer": [
-        "220.0"
-    ],
-    "filament_flow_ratio": [
-        "1.01"
-    ],
     "nozzle_temperature_range_high": [
         "235.0"
     ],
-    "filament_id": "FLS106",
+    "filament_id": "FLS06",
     "filament_cost": [
         "24.99"
     ],

@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Orca Arena Arena PETG Basic @BBL H2DP 0.2 nozzle",
     "from": "User",
-    "setting_id": "GFS1108_37",
+    "setting_id": "GFSU07_37",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"
@@ -96,14 +96,8 @@
     "activate_air_filtration": [
         "0"
     ],
-    "temperature_vitrification": [
-        "70.0"
-    ],
-    "filament_density": [
-        "1.25"
-    ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "240.0"
@@ -111,10 +105,16 @@
     "filament_flow_ratio": [
         "0.95"
     ],
+    "temperature_vitrification": [
+        "70.0"
+    ],
+    "filament_density": [
+        "1.25"
+    ],
     "nozzle_temperature_range_high": [
         "270.0"
     ],
-    "filament_id": "FLO107",
+    "filament_id": "FLU07",
     "fan_max_speed": [
         "40"
     ],

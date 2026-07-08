@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Snapmaker TPU @BBL H2DP 0.2 nozzle",
     "from": "User",
-    "setting_id": "GFS1122_33",
+    "setting_id": "GFSS09_33",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"
@@ -148,7 +148,7 @@
         "0"
     ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "210.0"
@@ -156,7 +156,7 @@
     "nozzle_temperature_range_high": [
         "230.0"
     ],
-    "filament_id": "FLS109",
+    "filament_id": "FLS09",
     "description": "This filament is too soft and not compatible with the AMS. Printing it is of many requirements, and to get better printing quality, please refer to this wiki: TPU printing guide.",
     "filament_cost": [
         "41.99"

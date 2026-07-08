@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PC @base",
     "inherits": "fdm_filament_pc",
     "from": "system",
-    "filament_id": "FLO104",
+    "filament_id": "FLU04",
     "instantiation": "false",
     "filament_vendor": [
         "Orca Arena"
@@ -53,6 +53,15 @@
     "chamber_temperatures": [
         "60"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "260.0"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "270.0"
+    ],
     "temperature_vitrification": [
         "140.0"
     ],
@@ -61,15 +70,6 @@
     ],
     "nozzle_temperature": [
         "280.0"
-    ],
-    "filament_diameter": [
-        1.75
-    ],
-    "nozzle_temperature_range_low": [
-        "260.0"
-    ],
-    "nozzle_temperature_initial_layer": [
-        "270.0"
     ],
     "nozzle_temperature_range_high": [
         "290.0"

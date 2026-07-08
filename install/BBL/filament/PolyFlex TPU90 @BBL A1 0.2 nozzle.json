@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "PolyFlex TPU90 @BBL A1 0.2 nozzle",
     "from": "User",
-    "setting_id": "GFSL114_01",
+    "setting_id": "GFSL86_29",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"
@@ -147,14 +147,14 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_density": [
-        "1.12"
-    ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "210.0"
+    ],
+    "filament_density": [
+        "1.12"
     ],
     "nozzle_temperature_range_high": [
         "230.0"

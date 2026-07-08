@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Orca Arena Arena PETG-CF @BBL X2D 0.4 nozzle",
     "from": "User",
-    "setting_id": "GFS1118_13",
+    "setting_id": "GFSU06_13",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0022"
@@ -148,22 +148,22 @@
     "activate_air_filtration": [
         "0"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "240.0"
+    ],
     "temperature_vitrification": [
         "75.0"
     ],
     "filament_density": [
         "1.25"
     ],
-    "filament_diameter": [
-        1.75
-    ],
-    "nozzle_temperature_range_low": [
-        "240.0"
-    ],
     "nozzle_temperature_range_high": [
         "270.0"
     ],
-    "filament_id": "FLO106",
+    "filament_id": "FLU06",
     "filament_cost": [
         "34.99"
     ],

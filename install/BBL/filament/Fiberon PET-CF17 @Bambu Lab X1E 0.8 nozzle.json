@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Fiberon PET-CF17 @Bambu Lab X1E 0.8 nozzle",
     "from": "User",
-    "setting_id": "GFSL105_06",
+    "setting_id": "GFSL97_60",
     "instantiation": "true",
     "chamber_temperatures": [
         "0"
@@ -132,21 +132,21 @@
     "activate_air_filtration": [
         "0"
     ],
+    "filament_cost": [
+        "89.99"
+    ],
     "filament_retraction_length": [
         "nil",
         "nil"
-    ],
-    "filament_density": [
-        "1.34"
-    ],
-    "filament_cost": [
-        "89.99"
     ],
     "filament_diameter": [
         "1.75"
     ],
     "nozzle_temperature_range_low": [
         "270"
+    ],
+    "filament_density": [
+        "1.34"
     ],
     "nozzle_temperature_range_high": [
         "300"

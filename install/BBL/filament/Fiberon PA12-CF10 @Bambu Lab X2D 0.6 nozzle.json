@@ -121,24 +121,24 @@
     "activate_air_filtration": [
         "1"
     ],
-    "temperature_vitrification": [
-        "55"
+    "filament_cost": [
+        "99.99"
     ],
     "filament_retraction_length": [
         "nil",
         "nil"
-    ],
-    "filament_density": [
-        "1.06"
-    ],
-    "filament_cost": [
-        "99.99"
     ],
     "filament_diameter": [
         "1.75"
     ],
     "nozzle_temperature_range_low": [
         "280"
+    ],
+    "temperature_vitrification": [
+        "55"
+    ],
+    "filament_density": [
+        "1.06"
     ],
     "nozzle_temperature_range_high": [
         "300"

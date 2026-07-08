@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Snapmaker SnapSpeed PLA @BBL P2S 0.4 nozzle",
     "from": "User",
-    "setting_id": "GFS1132_22",
+    "setting_id": "GFSS08_22",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"
@@ -163,7 +163,7 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_id": "FLS108",
+    "filament_id": "FLS08",
     "filament_cost": [
         "24.99"
     ],

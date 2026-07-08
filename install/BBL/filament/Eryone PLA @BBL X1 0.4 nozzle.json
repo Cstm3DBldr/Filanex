@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Eryone PLA @BBL X1 0.4 nozzle",
     "from": "User",
-    "setting_id": "GFS1102_14",
+    "setting_id": "GFSB02_14",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",
@@ -111,22 +111,22 @@
     "activate_air_filtration": [
         "0"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "180.0"
+    ],
     "temperature_vitrification": [
         "60.0"
     ],
     "filament_density": [
         "1.24"
     ],
-    "filament_diameter": [
-        1.75
-    ],
-    "nozzle_temperature_range_low": [
-        "180.0"
-    ],
     "nozzle_temperature_range_high": [
         "260.0"
     ],
-    "filament_id": "FLR102",
+    "filament_id": "FLB02",
     "filament_cost": [
         "24.99"
     ],

@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Eolas Prints PETG @BBL A1 0.4 nozzle",
     "from": "User",
-    "setting_id": "GFS1100_02",
+    "setting_id": "GFSA99_01",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "15"
@@ -85,14 +85,8 @@
     "activate_air_filtration": [
         "0"
     ],
-    "temperature_vitrification": [
-        "70.0"
-    ],
-    "filament_density": [
-        "1.27"
-    ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "230.0"
@@ -100,10 +94,16 @@
     "nozzle_temperature_initial_layer": [
         "245.0"
     ],
+    "temperature_vitrification": [
+        "70.0"
+    ],
+    "filament_density": [
+        "1.27"
+    ],
     "nozzle_temperature_range_high": [
         "260.0"
     ],
-    "filament_id": "FLE101",
+    "filament_id": "FLA01",
     "filament_cost": [
         "24.99"
     ],

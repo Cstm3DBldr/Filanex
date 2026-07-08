@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "addnorth PETG Economy @BBL X1C 0.6 nozzle",
     "from": "User",
-    "setting_id": "GFS105_19",
+    "setting_id": "GFSN05_19",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"
@@ -113,7 +113,7 @@
         "0"
     ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "225.0"
@@ -121,7 +121,7 @@
     "nozzle_temperature_range_high": [
         "260.0"
     ],
-    "filament_id": "FLN105",
+    "filament_id": "FLN05",
     "fan_max_speed": [
         "40"
     ],

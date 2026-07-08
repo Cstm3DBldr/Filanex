@@ -105,31 +105,31 @@
     "activate_air_filtration": [
         "0"
     ],
-    "temperature_vitrification": [
-        "116"
-    ],
-    "filament_notes": [
-        ""
+    "filament_cost": [
+        "59.99"
     ],
     "pressure_advance": [
         "0.02"
     ],
-    "filament_density": [
-        "1.2"
-    ],
-    "filament_cost": [
-        "59.99"
-    ],
     "filament_diameter": [
         "1.75"
     ],
-    "filament_shrink": [
-        "100%"
+    "default_filament_colour": [
+        ""
     ],
     "nozzle_temperature_range_low": [
         "260"
     ],
-    "default_filament_colour": [
+    "temperature_vitrification": [
+        "116"
+    ],
+    "filament_shrink": [
+        "100%"
+    ],
+    "filament_density": [
+        "1.2"
+    ],
+    "filament_notes": [
         ""
     ],
     "nozzle_temperature_range_high": [

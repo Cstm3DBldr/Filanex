@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Fiberon PPS-CF10 @Bambu Lab H2C 0.8 nozzle",
     "from": "User",
-    "setting_id": "GFSL107_06",
+    "setting_id": "GFSL97_74",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"
@@ -135,23 +135,23 @@
     "activate_air_filtration": [
         "1"
     ],
+    "filament_cost": [
+        "77.99"
+    ],
     "pressure_advance": [
         "0.02"
     ],
     "filament_retraction_length": [
         "nil"
     ],
-    "filament_density": [
-        "1.29"
-    ],
-    "filament_cost": [
-        "77.99"
-    ],
     "filament_diameter": [
         "1.75"
     ],
     "nozzle_temperature_range_low": [
         "310"
+    ],
+    "filament_density": [
+        "1.29"
     ],
     "nozzle_temperature_range_high": [
         "350"

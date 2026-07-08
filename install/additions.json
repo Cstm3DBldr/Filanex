@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "database_version": "1.2.8",
+  "database_version": "1.2.9",
   "installer_version": "1.2.4",
   "filament_list_additions": [
     {

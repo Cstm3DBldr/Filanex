@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "addnorth X-PLA @BBL A1M 0.4 nozzle",
     "from": "User",
-    "setting_id": "GFS108_06",
+    "setting_id": "GFSN95_46",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "80"
@@ -76,11 +76,8 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature": [
-        "200.0"
-    ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "180.0"
@@ -88,10 +85,13 @@
     "nozzle_temperature_initial_layer": [
         "200.0"
     ],
+    "nozzle_temperature": [
+        "200.0"
+    ],
     "nozzle_temperature_range_high": [
         "220.0"
     ],
-    "filament_id": "FLN108",
+    "filament_id": "FLN08",
     "filament_cost": [
         "24.99"
     ],

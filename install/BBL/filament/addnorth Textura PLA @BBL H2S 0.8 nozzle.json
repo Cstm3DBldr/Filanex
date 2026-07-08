@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "addnorth Textura PLA @BBL H2S 0.8 nozzle",
     "from": "User",
-    "setting_id": "GFS107_44",
+    "setting_id": "GFSN07_44",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"
@@ -150,7 +150,7 @@
         "0"
     ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "185.0"
@@ -158,7 +158,7 @@
     "nozzle_temperature_range_high": [
         "210.0"
     ],
-    "filament_id": "FLN107",
+    "filament_id": "FLN07",
     "filament_cost": [
         "24.99"
     ],

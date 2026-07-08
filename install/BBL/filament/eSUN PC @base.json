@@ -53,13 +53,13 @@
     "chamber_temperatures": [
         "60"
     ],
+    "nozzle_temperature_initial_layer": [
+        "290.0"
+    ],
     "filament_max_volumetric_speed": [
         "18"
     ],
     "nozzle_temperature": [
-        "290.0"
-    ],
-    "nozzle_temperature_initial_layer": [
         "290.0"
     ],
     "activate_air_filtration": [

@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Polymaker ABS Pro Galaxy @BBL P2S 0.4 nozzle",
     "from": "User",
-    "setting_id": "GFSL116_10",
+    "setting_id": "GFSL84_09",
     "instantiation": "true",
     "chamber_temperatures": [
         "0"
@@ -169,17 +169,17 @@
     "activate_air_filtration": [
         "0"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "270.0"
+    ],
     "temperature_vitrification": [
         "112.0"
     ],
     "filament_density": [
         "1.04"
-    ],
-    "filament_diameter": [
-        1.75
-    ],
-    "nozzle_temperature_range_low": [
-        "270.0"
     ],
     "nozzle_temperature_range_high": [
         "290.0"

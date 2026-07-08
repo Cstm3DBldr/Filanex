@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Snapmaker SnapSpeed PLA @BBL H2C 0.8 nozzle",
     "from": "User",
-    "setting_id": "GFS1122_32",
+    "setting_id": "GFSS08_32",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"
@@ -162,7 +162,7 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_id": "FLS108",
+    "filament_id": "FLS08",
     "filament_cost": [
         "24.99"
     ],

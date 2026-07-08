@@ -72,10 +72,6 @@
     "chamber_temperatures": [
         "60"
     ],
-    "filament_max_volumetric_speed": [
-        "8",
-        "8"
-    ],
     "filament_retraction_length": [
         "nil",
         "nil"
@@ -85,6 +81,10 @@
     ],
     "nozzle_temperature_range_low": [
         "280"
+    ],
+    "filament_max_volumetric_speed": [
+        "8",
+        "8"
     ],
     "nozzle_temperature_range_high": [
         "300"

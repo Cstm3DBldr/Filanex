@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "PolyTerra PLA Marble @BBL X2D 0.8 nozzle",
     "from": "User",
-    "setting_id": "GFSL84_21",
+    "setting_id": "GFSL84_63",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"
@@ -163,17 +163,17 @@
     "activate_air_filtration": [
         "0"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "190.0"
+    ],
     "temperature_vitrification": [
         "61.0"
     ],
     "filament_density": [
         "1.37"
-    ],
-    "filament_diameter": [
-        1.75
-    ],
-    "nozzle_temperature_range_low": [
-        "190.0"
     ],
     "nozzle_temperature_range_high": [
         "230.0"

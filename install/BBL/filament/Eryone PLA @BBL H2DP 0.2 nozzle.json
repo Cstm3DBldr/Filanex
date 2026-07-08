@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Eryone PLA @BBL H2DP 0.2 nozzle",
     "from": "User",
-    "setting_id": "GFS1101_37",
+    "setting_id": "GFSB02_37",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "75"
@@ -94,22 +94,22 @@
     "activate_air_filtration": [
         "0"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "180.0"
+    ],
     "temperature_vitrification": [
         "60.0"
     ],
     "filament_density": [
         "1.24"
     ],
-    "filament_diameter": [
-        1.75
-    ],
-    "nozzle_temperature_range_low": [
-        "180.0"
-    ],
     "nozzle_temperature_range_high": [
         "260.0"
     ],
-    "filament_id": "FLR102",
+    "filament_id": "FLB02",
     "filament_cost": [
         "24.99"
     ],

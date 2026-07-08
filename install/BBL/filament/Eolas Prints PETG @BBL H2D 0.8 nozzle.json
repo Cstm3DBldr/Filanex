@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Eolas Prints PETG @BBL H2D 0.8 nozzle",
     "from": "User",
-    "setting_id": "GFS101_36",
+    "setting_id": "GFSA01_36",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "20"
@@ -127,14 +127,8 @@
     "activate_air_filtration": [
         "0"
     ],
-    "temperature_vitrification": [
-        "70.0"
-    ],
-    "filament_density": [
-        "1.27"
-    ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "230.0"
@@ -142,10 +136,16 @@
     "filament_flow_ratio": [
         "1.0"
     ],
+    "temperature_vitrification": [
+        "70.0"
+    ],
+    "filament_density": [
+        "1.27"
+    ],
     "nozzle_temperature_range_high": [
         "260.0"
     ],
-    "filament_id": "FLE101",
+    "filament_id": "FLA01",
     "fan_max_speed": [
         "40"
     ],

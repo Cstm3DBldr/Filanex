@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Snapmaker PLA Matte @BBL X1 0.8 nozzle",
     "from": "User",
-    "setting_id": "GFS1130_16",
+    "setting_id": "GFSS06_16",
     "instantiation": "true",
     "filament_flow_ratio": [
         "1.01",
@@ -95,22 +95,22 @@
     "activate_air_filtration": [
         "0"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "190.0"
+    ],
     "temperature_vitrification": [
         "52.5"
     ],
     "filament_density": [
         "1.28"
     ],
-    "filament_diameter": [
-        1.75
-    ],
-    "nozzle_temperature_range_low": [
-        "190.0"
-    ],
     "nozzle_temperature_range_high": [
         "235.0"
     ],
-    "filament_id": "FLS106",
+    "filament_id": "FLS06",
     "filament_cost": [
         "24.99"
     ],

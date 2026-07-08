@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Fiberon PA612-CF15 @Bambu Lab X2D 0.8 nozzle",
     "from": "User",
-    "setting_id": "GFSL102_12",
+    "setting_id": "GFSL97_54",
     "instantiation": "true",
     "additional_fan_full_speed_layer": [
         "2"
@@ -121,24 +121,24 @@
     "activate_air_filtration": [
         "1"
     ],
-    "temperature_vitrification": [
-        "206.2"
+    "filament_cost": [
+        "94.99"
     ],
     "filament_retraction_length": [
         "nil",
         "nil"
-    ],
-    "filament_density": [
-        "1.03"
-    ],
-    "filament_cost": [
-        "94.99"
     ],
     "filament_diameter": [
         "1.75"
     ],
     "nozzle_temperature_range_low": [
         "250"
+    ],
+    "temperature_vitrification": [
+        "206.2"
+    ],
+    "filament_density": [
+        "1.03"
     ],
     "nozzle_temperature_range_high": [
         "300"

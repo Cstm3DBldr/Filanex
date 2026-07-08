@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "PolyLite PETG Translucent @Bambu Lab A1 0.6 nozzle",
     "from": "User",
-    "setting_id": "GFSL123_03",
+    "setting_id": "GFSL86_63",
     "instantiation": "true",
     "fan_cooling_layer_time": [
         "15"
@@ -85,18 +85,12 @@
     "activate_air_filtration": [
         "0"
     ],
-    "temperature_vitrification": [
-        "81"
+    "filament_cost": [
+        "30"
     ],
     "filament_retraction_length": [
         "0.4",
         "0.4"
-    ],
-    "filament_density": [
-        "1.25"
-    ],
-    "filament_cost": [
-        "30"
     ],
     "filament_diameter": [
         "1.75"
@@ -107,6 +101,12 @@
     "nozzle_temperature_initial_layer": [
         "260",
         "260"
+    ],
+    "temperature_vitrification": [
+        "81"
+    ],
+    "filament_density": [
+        "1.25"
     ],
     "nozzle_temperature_range_high": [
         "260"

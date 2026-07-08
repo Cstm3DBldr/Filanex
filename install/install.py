@@ -749,15 +749,43 @@ def backup_bambu_stock_for_picked_vendors(
                 if f.is_file() and f.suffix == ".json":
                     yield f
 
-    backed_up = 0
+    # Pass 1: classify every .json. A file is a REMOVAL CANDIDATE if it
+    # matches a picked-vendor prefix AND is Bambu's own (from != "User").
+    # Everything else is a KEEPER: our previously-written profiles
+    # (from=="User", refreshed by the write step -> idempotent re-runs),
+    # and any non-picked-vendor Bambu file. We also record the `inherits`
+    # targets keepers still depend on, to guard against orphaning them.
+    candidates: list[tuple[Path, str]] = []   # (path, profile "name")
+    kept_inherits: set[str] = set()
     for f in _walk_target_files():
         name = f.name
-        if not any(name.startswith(p) for p in target_prefixes):
-            continue
-        # Skip files we'll overwrite during the write step (no point
-        # backing them up first; the write step overwrites them in
-        # place with our content).
-        if name in our_filenames:
+        try:
+            d = json.loads(f.read_text(encoding="utf-8"))
+        except Exception:
+            d = {}
+        is_target = any(name.startswith(p) for p in target_prefixes)
+        if is_target and d.get("from") != "User":
+            candidates.append((f, d.get("name") or name[:-5]))
+        else:
+            inh = d.get("inherits")
+            if inh:
+                kept_inherits.add(inh)
+
+    # Pass 2: back up + remove the whole Bambu chain (@base, mid-level
+    # parents, and leaves) for picked vendors. Renaming to
+    # .filanex-bambu-backup both removes it from Bambu's active set AND
+    # preserves the exact bytes for Uninstall to restore. Our flat leaves
+    # (inherits=None) don't depend on the @base, so removing the whole
+    # chain leaves nothing to orphan -- unlike the old leaf-only sweep
+    # that preserved @base and left the "both intact" clutter behind.
+    backed_up = 0
+    for f, prof_name in candidates:
+        # Inheritance guard (belt-and-suspenders vs the #22/#23 breakage):
+        # never remove a file another RETAINED profile still inherits from.
+        # Only trips on rare cross-brand inheritance; a fully-replaced line
+        # has no external inheritors once its leaves are gone.
+        if prof_name in kept_inherits:
+            print(f"  KEEP (still inherited by a retained profile): {f.name}")
             continue
         new_path = f.parent / (f.name + BACKUP_EXT)
         if new_path.exists():
@@ -768,13 +796,13 @@ def backup_bambu_stock_for_picked_vendors(
                 f.unlink()
                 backed_up += 1
             except OSError as e:
-                print(f"  WARN: couldn't remove duplicate Bambu stock {name}: {e}")
+                print(f"  WARN: couldn't remove duplicate Bambu stock {f.name}: {e}")
             continue
         try:
             f.rename(new_path)
             backed_up += 1
         except OSError as e:
-            print(f"  WARN: couldn't back up Bambu stock {name}: {e}")
+            print(f"  WARN: couldn't back up Bambu stock {f.name}: {e}")
     return (backed_up, len(VENDOR_TO_BAMBU_BRAND_PREFIXES) - vendors_in_play)
 
 
@@ -990,10 +1018,13 @@ def restore_all_bambu_polymaker_backups(filament_dir: Path) -> int:
     inheritance chain and Bambu Studio throws "Failed loading
     configuration file" at startup.
 
-    The replacement strategy: leave Bambu's stock in place (overwrite
-    files where our overlay filename matches; let the rest coexist).
-    setting_id collisions are handled by gen_setting_id avoidance in
-    export_bambu.py instead.
+    Whole-chain replace (current): the installer backs up Bambu's ENTIRE
+    stock chain for picked vendors (@base + mid-level parents + leaves) so
+    our profiles stand alone. This restore reverses that exactly -- every
+    .filanex-bambu-backup renames back to .json, returning the slicer to
+    its original state. cmd_uninstall deletes our tracked files BEFORE
+    calling this, so the original names are free; the target.exists()
+    branch below is a defensive overwrite (Bambu's original wins).
 
     Restoring is idempotent and safe. Returns count restored."""
     if not filament_dir.exists():
@@ -1019,12 +1050,19 @@ def restore_all_bambu_polymaker_backups(filament_dir: Path) -> int:
         original_name = f.name[: -len(BACKUP_EXT)]
         target = f.parent / original_name
         if target.exists():
-            # Original already exists -- delete the backup duplicate
+            # A leftover (our overlay, normally already deleted by
+            # uninstall) occupies the original name -- Bambu's original
+            # takes precedence, so clear it and restore.
             try:
-                f.unlink()
+                target.unlink()
             except OSError:
-                pass
-            continue
+                # Can't clear the leftover; drop the redundant backup so
+                # we don't leave a stray .filanex-bambu-backup behind.
+                try:
+                    f.unlink()
+                except OSError:
+                    pass
+                continue
         try:
             f.rename(target)
             restored += 1

@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Orca Arena Arena PLA Silk @BBL P2S 0.4 nozzle",
     "from": "User",
-    "setting_id": "GFS114_22",
+    "setting_id": "GFSU14_22",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0025"
@@ -163,22 +163,22 @@
     "activate_air_filtration": [
         "0"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "190.0"
+    ],
     "temperature_vitrification": [
         "60.0"
     ],
     "filament_density": [
         "1.32"
     ],
-    "filament_diameter": [
-        1.75
-    ],
-    "nozzle_temperature_range_low": [
-        "190.0"
-    ],
     "nozzle_temperature_range_high": [
         "240.0"
     ],
-    "filament_id": "FLO114",
+    "filament_id": "FLU14",
     "filament_cost": [
         "24.99"
     ],

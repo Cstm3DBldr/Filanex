@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "FlyingBear ABS @BBL P1S 0.8 nozzle",
     "from": "User",
-    "setting_id": "GFS1103_04",
+    "setting_id": "GFSC98_03",
     "instantiation": "true",
     "fan_max_speed": [
         "60"
@@ -110,14 +110,8 @@
     "activate_air_filtration": [
         "0"
     ],
-    "temperature_vitrification": [
-        "110.0"
-    ],
-    "filament_density": [
-        "1.04"
-    ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "220.0"
@@ -125,10 +119,16 @@
     "filament_flow_ratio": [
         "0.9424999999999999"
     ],
+    "temperature_vitrification": [
+        "110.0"
+    ],
+    "filament_density": [
+        "1.04"
+    ],
     "nozzle_temperature_range_high": [
         "270.0"
     ],
-    "filament_id": "FLF101",
+    "filament_id": "FLC01",
     "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "filament_cost": [
         "24.99"

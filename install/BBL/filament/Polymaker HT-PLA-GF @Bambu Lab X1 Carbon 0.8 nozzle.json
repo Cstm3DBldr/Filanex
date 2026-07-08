@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Polymaker HT-PLA-GF @Bambu Lab X1 Carbon 0.8 nozzle",
     "from": "User",
-    "setting_id": "GFSL131_09",
+    "setting_id": "GFSL84_28",
     "instantiation": "true",
     "filament_flow_ratio": [
         "0.98",
@@ -107,26 +107,26 @@
     "activate_air_filtration": [
         "0"
     ],
-    "temperature_vitrification": [
-        "59.76"
+    "filament_cost": [
+        "33"
     ],
     "pressure_advance": [
         "0.02"
     ],
-    "filament_density": [
-        "1.33"
-    ],
-    "filament_cost": [
-        "33"
-    ],
     "filament_diameter": [
         "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "190"
+    ],
+    "temperature_vitrification": [
+        "59.76"
     ],
     "filament_shrink": [
         "100%"
     ],
-    "nozzle_temperature_range_low": [
-        "190"
+    "filament_density": [
+        "1.33"
     ],
     "nozzle_temperature_range_high": [
         "240"

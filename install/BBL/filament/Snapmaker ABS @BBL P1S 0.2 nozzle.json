@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Snapmaker ABS @BBL P1S 0.2 nozzle",
     "from": "User",
-    "setting_id": "GFS1125_01",
+    "setting_id": "GFSS96_00",
     "instantiation": "true",
     "fan_max_speed": [
         "60"
@@ -111,9 +111,9 @@
         "0"
     ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
-    "filament_id": "FLS101",
+    "filament_id": "FLS01",
     "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "filament_cost": [
         "24.99"

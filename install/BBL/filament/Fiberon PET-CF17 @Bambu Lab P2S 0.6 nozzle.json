@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Fiberon PET-CF17 @Bambu Lab P2S 0.6 nozzle",
     "from": "User",
-    "setting_id": "GFSL104_08",
+    "setting_id": "GFSL97_61",
     "instantiation": "true",
     "chamber_temperatures": [
         "0"
@@ -151,12 +151,6 @@
     "activate_air_filtration": [
         "0"
     ],
-    "temperature_vitrification": [
-        "79.3"
-    ],
-    "filament_density": [
-        "1.34"
-    ],
     "filament_cost": [
         "89.99"
     ],
@@ -165,6 +159,12 @@
     ],
     "nozzle_temperature_range_low": [
         "270"
+    ],
+    "temperature_vitrification": [
+        "79.3"
+    ],
+    "filament_density": [
+        "1.34"
     ],
     "nozzle_temperature_range_high": [
         "300"

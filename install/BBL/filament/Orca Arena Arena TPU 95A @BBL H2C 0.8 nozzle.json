@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Orca Arena Arena TPU 95A @BBL H2C 0.8 nozzle",
     "from": "User",
-    "setting_id": "GFS119_28",
+    "setting_id": "GFSU19_28",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "100"
@@ -147,22 +147,22 @@
     "activate_air_filtration": [
         "0"
     ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "nozzle_temperature_range_low": [
+        "200.0"
+    ],
     "temperature_vitrification": [
         "35.0"
     ],
     "filament_density": [
         "1.22"
     ],
-    "filament_diameter": [
-        1.75
-    ],
-    "nozzle_temperature_range_low": [
-        "200.0"
-    ],
     "nozzle_temperature_range_high": [
         "250.0"
     ],
-    "filament_id": "FLO119",
+    "filament_id": "FLU19",
     "description": "This filament is too soft and not compatible with the AMS. Printing it is of many requirements, and to get better printing quality, please refer to this wiki: TPU printing guide.",
     "filament_cost": [
         "41.99"

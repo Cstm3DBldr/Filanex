@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Eryone PETG @BBL P2S 0.6 nozzle",
     "from": "User",
-    "setting_id": "GFS1101_23",
+    "setting_id": "GFSB97_22",
     "instantiation": "true",
     "counter_coef_2": [
         "0.0058"
@@ -152,14 +152,8 @@
     "activate_air_filtration": [
         "0"
     ],
-    "temperature_vitrification": [
-        "60.0"
-    ],
-    "filament_density": [
-        "1.255"
-    ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "225.0"
@@ -167,10 +161,16 @@
     "filament_flow_ratio": [
         "0.98"
     ],
+    "temperature_vitrification": [
+        "60.0"
+    ],
+    "filament_density": [
+        "1.255"
+    ],
     "nozzle_temperature_range_high": [
         "270.0"
     ],
-    "filament_id": "FLR101",
+    "filament_id": "FLB01",
     "filament_cost": [
         "24.99"
     ],

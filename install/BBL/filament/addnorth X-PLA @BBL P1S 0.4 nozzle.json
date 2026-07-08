@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "addnorth X-PLA @BBL P1S 0.4 nozzle",
     "from": "User",
-    "setting_id": "GFS108_10",
+    "setting_id": "GFSN95_50",
     "instantiation": "true",
     "filament_deretraction_speed": [
         "nil",
@@ -112,7 +112,7 @@
         "0"
     ],
     "filament_diameter": [
-        1.75
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "180.0"
@@ -120,7 +120,7 @@
     "nozzle_temperature_range_high": [
         "220.0"
     ],
-    "filament_id": "FLN108",
+    "filament_id": "FLN08",
     "filament_cost": [
         "24.99"
     ],

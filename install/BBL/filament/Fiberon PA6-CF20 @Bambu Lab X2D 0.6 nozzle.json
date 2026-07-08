@@ -2,7 +2,7 @@
     "type": "filament",
     "name": "Fiberon PA6-CF20 @Bambu Lab X2D 0.6 nozzle",
     "from": "User",
-    "setting_id": "GFSL101_08",
+    "setting_id": "GFSL97_22",
     "instantiation": "true",
     "chamber_temperatures": [
         "60"
@@ -160,12 +160,6 @@
     "activate_air_filtration": [
         "1"
     ],
-    "temperature_vitrification": [
-        "74.2"
-    ],
-    "filament_density": [
-        "1.17"
-    ],
     "filament_cost": [
         "83.99"
     ],
@@ -174,6 +168,12 @@
     ],
     "nozzle_temperature_range_low": [
         "280"
+    ],
+    "temperature_vitrification": [
+        "74.2"
+    ],
+    "filament_density": [
+        "1.17"
     ],
     "nozzle_temperature_range_high": [
         "300"
