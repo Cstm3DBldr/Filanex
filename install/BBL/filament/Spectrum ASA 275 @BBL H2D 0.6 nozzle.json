@@ -104,19 +104,19 @@
     "activate_air_filtration": [
         "1"
     ],
-    "nozzle_temperature_range_high": [
-        "240.0"
+    "filament_density": [
+        "1.155"
     ],
     "filament_diameter": [
         1.75
     ],
-    "filament_density": [
-        "1.155"
-    ],
     "nozzle_temperature_range_low": [
         "200.0"
     ],
-    "filament_id": "GFW01",
+    "nozzle_temperature_range_high": [
+        "240.0"
+    ],
+    "filament_id": "FLW01",
     "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "fan_max_speed": [
         "35"

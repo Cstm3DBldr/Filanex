@@ -76,14 +76,14 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "215.0"
-    ],
-    "filament_diameter": [
-        1.75
+    "nozzle_temperature": [
+        "200.0"
     ],
     "filament_density": [
         "1.24"
+    ],
+    "filament_diameter": [
+        1.75
     ],
     "nozzle_temperature_range_low": [
         "185.0"
@@ -91,10 +91,10 @@
     "nozzle_temperature_initial_layer": [
         "200.0"
     ],
-    "nozzle_temperature": [
-        "200.0"
+    "nozzle_temperature_range_high": [
+        "215.0"
     ],
-    "filament_id": "GFW14",
+    "filament_id": "FLW14",
     "filament_cost": [
         "24.99"
     ],

@@ -157,19 +157,19 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "250.0"
+    "filament_density": [
+        "1.22"
     ],
     "filament_diameter": [
         1.75
     ],
-    "filament_density": [
-        "1.22"
-    ],
     "nozzle_temperature_range_low": [
         "210.0"
     ],
-    "filament_id": "GFI06",
+    "nozzle_temperature_range_high": [
+        "250.0"
+    ],
+    "filament_id": "FLI06",
     "additional_cooling_fan_speed": [
         "0"
     ],

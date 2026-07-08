@@ -24,8 +24,8 @@
         "0.98"
     ],
     "filament_max_volumetric_speed": [
-        "18.82",
-        "18.82"
+        "2",
+        "2"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -94,22 +94,22 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "230.0"
-    ],
-    "filament_diameter": [
-        1.75
-    ],
     "temperature_vitrification": [
         "45.0"
     ],
     "filament_density": [
         "1.22"
     ],
+    "filament_diameter": [
+        1.75
+    ],
     "nozzle_temperature_range_low": [
         "190.0"
     ],
-    "filament_id": "GFD13",
+    "nozzle_temperature_range_high": [
+        "230.0"
+    ],
+    "filament_id": "FLD13",
     "filament_cost": [
         "24.99"
     ],

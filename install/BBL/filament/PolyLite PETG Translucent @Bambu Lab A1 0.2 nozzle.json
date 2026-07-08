@@ -20,7 +20,7 @@
         "1"
     ],
     "filament_max_volumetric_speed": [
-        "4"
+        "2"
     ],
     "filament_retraction_distances_when_cut": [
         "18"
@@ -85,15 +85,6 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_cost": [
-        "30"
-    ],
-    "nozzle_temperature_range_high": [
-        "260"
-    ],
-    "filament_diameter": [
-        "1.75"
-    ],
     "temperature_vitrification": [
         "81"
     ],
@@ -104,6 +95,12 @@
     "filament_density": [
         "1.25"
     ],
+    "filament_cost": [
+        "30"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
     "nozzle_temperature_range_low": [
         "230"
     ],
@@ -111,7 +108,10 @@
         "260",
         "260"
     ],
-    "filament_id": "GFL43",
+    "nozzle_temperature_range_high": [
+        "260"
+    ],
+    "filament_id": "FLL43",
     "filament_metal_stickiness": [
         "High"
     ],

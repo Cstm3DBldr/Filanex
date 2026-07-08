@@ -17,7 +17,7 @@
         "1"
     ],
     "filament_max_volumetric_speed": [
-        "15"
+        "2"
     ],
     "filament_retraction_distances_when_cut": [
         "18"
@@ -76,32 +76,32 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_cost": [
-        "24.99"
-    ],
-    "nozzle_temperature_range_high": [
-        "240"
-    ],
-    "filament_diameter": [
-        "1.75"
-    ],
     "temperature_vitrification": [
         "45"
+    ],
+    "filament_notes": [
+        ""
+    ],
+    "pressure_advance": [
+        "0.02"
     ],
     "filament_retraction_length": [
         "nil"
     ],
-    "default_filament_colour": [
-        ""
-    ],
-    "filament_shrink": [
-        "100%"
+    "nozzle_temperature": [
+        "225"
     ],
     "filament_density": [
         "1.24"
     ],
-    "pressure_advance": [
-        "0.02"
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_shrink": [
+        "100%"
     ],
     "nozzle_temperature_range_low": [
         "190"
@@ -109,16 +109,16 @@
     "nozzle_temperature_initial_layer": [
         "220"
     ],
-    "filament_notes": [
+    "default_filament_colour": [
         ""
-    ],
-    "nozzle_temperature": [
-        "225"
     ],
     "filament_flow_ratio": [
         "0.97"
     ],
-    "filament_id": "GFL38",
+    "nozzle_temperature_range_high": [
+        "240"
+    ],
+    "filament_id": "FLL38",
     "filament_scarf_seam_type": [
         "none"
     ],

@@ -117,16 +117,16 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "255.0"
-    ],
     "filament_diameter": [
         1.75
     ],
     "nozzle_temperature_range_low": [
         "235.0"
     ],
-    "filament_id": "GFQ09",
+    "nozzle_temperature_range_high": [
+        "255.0"
+    ],
+    "filament_id": "FLQ09",
     "filament_cost": [
         "24.99"
     ],

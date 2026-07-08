@@ -3,7 +3,7 @@
     "name": "Ultrafuse PET @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFZ09",
+    "filament_id": "FLZ09",
     "instantiation": "false",
     "cool_plate_temp": [
         "65"

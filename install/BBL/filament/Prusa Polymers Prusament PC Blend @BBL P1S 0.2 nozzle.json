@@ -52,20 +52,20 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_max_volumetric_speed": [
-        "8.0"
-    ],
-    "nozzle_temperature_range_high": [
-        "290.0"
-    ],
-    "filament_diameter": [
-        1.75
-    ],
     "temperature_vitrification": [
         "120.0"
     ],
+    "filament_max_volumetric_speed": [
+        "2"
+    ],
+    "nozzle_temperature": [
+        "275.0"
+    ],
     "filament_density": [
         "1.22"
+    ],
+    "filament_diameter": [
+        1.75
     ],
     "nozzle_temperature_range_low": [
         "260.0"
@@ -73,13 +73,13 @@
     "nozzle_temperature_initial_layer": [
         "275.0"
     ],
-    "nozzle_temperature": [
-        "275.0"
-    ],
     "filament_flow_ratio": [
         "1.0"
     ],
-    "filament_id": "GFQ11",
+    "nozzle_temperature_range_high": [
+        "290.0"
+    ],
+    "filament_id": "FLQ11",
     "filament_cost": [
         "39.99"
     ],

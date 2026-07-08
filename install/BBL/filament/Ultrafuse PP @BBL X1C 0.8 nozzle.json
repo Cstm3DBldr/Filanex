@@ -95,19 +95,19 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "240.0"
+    "filament_density": [
+        "0.91"
     ],
     "filament_diameter": [
         1.75
     ],
-    "filament_density": [
-        "0.91"
-    ],
     "nozzle_temperature_range_low": [
         "220.0"
     ],
-    "filament_id": "GFZ13",
+    "nozzle_temperature_range_high": [
+        "240.0"
+    ],
+    "filament_id": "FLZ13",
     "filament_cost": [
         "24.99"
     ],

@@ -3,7 +3,7 @@
     "name": "Flashforge PLA-CF @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFF09",
+    "filament_id": "FLF09",
     "instantiation": "false",
     "additional_cooling_fan_speed": [
         "0"
@@ -77,13 +77,13 @@
     "filament_max_volumetric_speed": [
         "4.18"
     ],
+    "nozzle_temperature": [
+        "215.0"
+    ],
     "filament_diameter": [
         1.75
     ],
     "nozzle_temperature_initial_layer": [
-        "215.0"
-    ],
-    "nozzle_temperature": [
         "215.0"
     ],
     "activate_air_filtration": [

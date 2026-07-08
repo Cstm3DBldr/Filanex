@@ -3,7 +3,7 @@
     "name": "Ultrafuse PC GF30 @base",
     "inherits": "fdm_filament_pc",
     "from": "system",
-    "filament_id": "GFZ08",
+    "filament_id": "FLZ08",
     "instantiation": "false",
     "filament_vendor": [
         "Ultrafuse"
@@ -56,7 +56,7 @@
     "filament_max_volumetric_speed": [
         "18"
     ],
-    "nozzle_temperature_range_high": [
+    "nozzle_temperature": [
         "330.0"
     ],
     "filament_diameter": [
@@ -68,7 +68,7 @@
     "nozzle_temperature_initial_layer": [
         "330.0"
     ],
-    "nozzle_temperature": [
+    "nozzle_temperature_range_high": [
         "330.0"
     ],
     "activate_air_filtration": [

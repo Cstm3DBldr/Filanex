@@ -14,7 +14,7 @@
         "60"
     ],
     "filament_max_volumetric_speed": [
-        "12"
+        "2"
     ],
     "hot_plate_temp": [
         "65"
@@ -73,13 +73,13 @@
     "temperature_vitrification": [
         "55.0"
     ],
-    "nozzle_temperature_initial_layer": [
-        "220.0"
-    ],
     "nozzle_temperature": [
         "220.0"
     ],
-    "filament_id": "GFE56",
+    "nozzle_temperature_initial_layer": [
+        "220.0"
+    ],
+    "filament_id": "FLE56",
     "description": "To make the prints get higher gloss, please dry the filament before use, and set the outer wall speed to be 40 to 60 mm/s when slicing.",
     "filament_cost": [
         "29.99"

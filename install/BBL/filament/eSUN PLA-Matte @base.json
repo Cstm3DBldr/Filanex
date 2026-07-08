@@ -3,7 +3,7 @@
     "name": "eSUN PLA-Matte @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFE54",
+    "filament_id": "FLE54",
     "instantiation": "false",
     "filament_cost": [
         "24.99"
@@ -68,11 +68,11 @@
     "chamber_temperatures": [
         "0"
     ],
-    "filament_max_volumetric_speed": [
-        "20.0"
-    ],
     "temperature_vitrification": [
         "55.0"
+    ],
+    "filament_max_volumetric_speed": [
+        "20.0"
     ],
     "activate_air_filtration": [
         "0"

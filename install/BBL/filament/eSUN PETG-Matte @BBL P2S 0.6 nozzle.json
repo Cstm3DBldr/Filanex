@@ -152,9 +152,6 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "260.0"
-    ],
     "filament_density": [
         "1.35"
     ],
@@ -164,7 +161,10 @@
     "filament_flow_ratio": [
         "0.98"
     ],
-    "filament_id": "GFE39",
+    "nozzle_temperature_range_high": [
+        "260.0"
+    ],
+    "filament_id": "FLE39",
     "filament_cost": [
         "24.99"
     ],

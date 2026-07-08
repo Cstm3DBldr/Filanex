@@ -70,7 +70,7 @@
         "Fiberon PA612-ESD @BBL X1C"
     ],
     "filament_vendor": [
-        "Polymaker"
+        "Fiberon"
     ],
     "filament_type": [
         "PA-CF"
@@ -111,37 +111,37 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_cost": [
-        "0"
-    ],
-    "nozzle_temperature_range_high": [
-        "300"
-    ],
-    "filament_diameter": [
-        "1.75"
-    ],
     "temperature_vitrification": [
         "190"
-    ],
-    "default_filament_colour": [
-        ""
-    ],
-    "filament_shrink": [
-        "100%"
-    ],
-    "filament_density": [
-        "1.1"
-    ],
-    "pressure_advance": [
-        "0.02"
-    ],
-    "nozzle_temperature_range_low": [
-        "280"
     ],
     "filament_notes": [
         ""
     ],
-    "filament_id": "GFL06",
+    "pressure_advance": [
+        "0.02"
+    ],
+    "filament_density": [
+        "1.1"
+    ],
+    "filament_cost": [
+        "0"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_shrink": [
+        "100%"
+    ],
+    "nozzle_temperature_range_low": [
+        "280"
+    ],
+    "default_filament_colour": [
+        ""
+    ],
+    "nozzle_temperature_range_high": [
+        "300"
+    ],
+    "filament_id": "FLL06",
     "filament_scarf_seam_type": [
         "none"
     ],

@@ -3,7 +3,7 @@
     "name": "Extrudr PETG @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFX07",
+    "filament_id": "FLX07",
     "instantiation": "false",
     "cool_plate_temp": [
         "65"

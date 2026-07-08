@@ -34,8 +34,8 @@
         "3"
     ],
     "filament_max_volumetric_speed": [
-        "15.0",
-        "15.0"
+        "2",
+        "2"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -125,19 +125,19 @@
     "supertack_plate_temp_initial_layer": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "240.0"
+    "filament_density": [
+        "1.04"
     ],
     "filament_diameter": [
         1.75
     ],
-    "filament_density": [
-        "1.04"
-    ],
     "nozzle_temperature_range_low": [
         "210.0"
     ],
-    "filament_id": "GFH01",
+    "nozzle_temperature_range_high": [
+        "240.0"
+    ],
+    "filament_id": "FLH01",
     "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "filament_cost": [
         "24.99"

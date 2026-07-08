@@ -3,7 +3,7 @@
     "name": "Flashforge PETG Pro @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFF07",
+    "filament_id": "FLF07",
     "instantiation": "false",
     "cool_plate_temp": [
         "65"

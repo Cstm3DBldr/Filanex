@@ -3,7 +3,7 @@
     "name": "Fiberlogy PETG PTFE @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFV29",
+    "filament_id": "FLV29",
     "instantiation": "false",
     "cool_plate_temp": [
         "65"

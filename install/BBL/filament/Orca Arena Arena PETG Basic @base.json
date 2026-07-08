@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PETG Basic @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFO107",
+    "filament_id": "FLO107",
     "instantiation": "false",
     "cool_plate_temp": [
         "65"
@@ -98,11 +98,11 @@
     "chamber_temperatures": [
         "0"
     ],
-    "filament_diameter": [
-        1.75
-    ],
     "temperature_vitrification": [
         "70.0"
+    ],
+    "filament_diameter": [
+        1.75
     ],
     "activate_air_filtration": [
         "0"

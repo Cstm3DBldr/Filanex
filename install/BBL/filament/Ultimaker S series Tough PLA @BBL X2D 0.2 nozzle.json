@@ -50,10 +50,10 @@
         "3"
     ],
     "filament_max_volumetric_speed": [
-        "18",
-        "18",
-        "18",
-        "18"
+        "2",
+        "2",
+        "2",
+        "2"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -187,7 +187,7 @@
     "filament_diameter": [
         1.75
     ],
-    "filament_id": "GFM07",
+    "filament_id": "FLM07",
     "filament_cost": [
         "24.99"
     ],

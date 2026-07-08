@@ -17,7 +17,7 @@
         "1"
     ],
     "filament_max_volumetric_speed": [
-        "2.5"
+        "2"
     ],
     "filament_retraction_distances_when_cut": [
         "18"
@@ -76,14 +76,14 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
+    "nozzle_temperature": [
         "240.0"
-    ],
-    "filament_diameter": [
-        1.75
     ],
     "filament_density": [
         "0.91"
+    ],
+    "filament_diameter": [
+        1.75
     ],
     "nozzle_temperature_range_low": [
         "220.0"
@@ -91,10 +91,10 @@
     "nozzle_temperature_initial_layer": [
         "240.0"
     ],
-    "nozzle_temperature": [
+    "nozzle_temperature_range_high": [
         "240.0"
     ],
-    "filament_id": "GFZ13",
+    "filament_id": "FLZ13",
     "filament_cost": [
         "24.99"
     ],

@@ -53,18 +53,18 @@
         "0"
     ],
     "filament_max_volumetric_speed": [
-        "18"
-    ],
-    "filament_diameter": [
-        2.85
-    ],
-    "filament_density": [
-        "1.19"
+        "2"
     ],
     "nozzle_temperature": [
         "280.0"
     ],
-    "filament_id": "GFM04",
+    "filament_density": [
+        "1.19"
+    ],
+    "filament_diameter": [
+        2.85
+    ],
+    "filament_id": "FLM04",
     "filament_cost": [
         "39.99"
     ],

@@ -55,8 +55,8 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "265.0"
+    "nozzle_temperature": [
+        "260.0"
     ],
     "filament_diameter": [
         1.75
@@ -67,10 +67,10 @@
     "nozzle_temperature_initial_layer": [
         "260.0"
     ],
-    "nozzle_temperature": [
-        "260.0"
+    "nozzle_temperature_range_high": [
+        "265.0"
     ],
-    "filament_id": "GFN103",
+    "filament_id": "FLN103",
     "fan_max_speed": [
         "30"
     ],

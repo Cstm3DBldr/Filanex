@@ -3,7 +3,7 @@
     "name": "Overture PLA-CF @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFO16",
+    "filament_id": "FLO16",
     "instantiation": "false",
     "additional_cooling_fan_speed": [
         "0"
@@ -77,13 +77,13 @@
     "filament_max_volumetric_speed": [
         "3.14"
     ],
+    "nozzle_temperature": [
+        "200.0"
+    ],
     "filament_diameter": [
         1.75
     ],
     "nozzle_temperature_initial_layer": [
-        "200.0"
-    ],
-    "nozzle_temperature": [
         "200.0"
     ],
     "activate_air_filtration": [

@@ -3,7 +3,7 @@
     "name": "Polymaker PETG @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFL63",
+    "filament_id": "FLL63",
     "instantiation": "false",
     "cool_plate_temp": [
         "65"
@@ -98,24 +98,24 @@
     "chamber_temperatures": [
         "0"
     ],
-    "filament_diameter": [
-        "1.75"
-    ],
     "temperature_vitrification": [
         "71.24"
+    ],
+    "pressure_advance": [
+        "0.02"
     ],
     "filament_retraction_length": [
         "0.8",
         "0.8"
     ],
-    "filament_shrink": [
-        "100%"
-    ],
     "filament_type": [
         "PETG"
     ],
-    "pressure_advance": [
-        "0.02"
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_shrink": [
+        "100%"
     ],
     "activate_air_filtration": [
         "0"

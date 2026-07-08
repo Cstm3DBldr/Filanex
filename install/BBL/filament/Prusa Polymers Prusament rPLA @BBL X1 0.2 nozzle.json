@@ -13,8 +13,8 @@
         "1"
     ],
     "filament_max_volumetric_speed": [
-        "10.0",
-        "10.0"
+        "2",
+        "2"
     ],
     "filament_retraction_distances_when_cut": [
         "18",
@@ -95,22 +95,22 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "240.0"
-    ],
-    "filament_diameter": [
-        1.75
-    ],
     "temperature_vitrification": [
         "45.0"
     ],
     "filament_density": [
         "1.24"
     ],
+    "filament_diameter": [
+        1.75
+    ],
     "nozzle_temperature_range_low": [
         "190.0"
     ],
-    "filament_id": "GFQ15",
+    "nozzle_temperature_range_high": [
+        "240.0"
+    ],
+    "filament_id": "FLQ15",
     "filament_cost": [
         "24.99"
     ],

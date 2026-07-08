@@ -119,7 +119,7 @@
     ],
     "type": "filament",
     "from": "User",
-    "filament_id": "GFL59",
+    "filament_id": "FLL59",
     "instantiation": "true",
     "additional_cooling_fan_speed": [
         "0"

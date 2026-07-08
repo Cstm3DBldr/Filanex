@@ -53,10 +53,10 @@
         "3"
     ],
     "filament_max_volumetric_speed": [
-        "8",
-        "8",
-        "8",
-        "8"
+        "2",
+        "2",
+        "2",
+        "2"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -202,31 +202,31 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_cost": [
-        "24.99"
-    ],
-    "nozzle_temperature_range_high": [
-        "270"
-    ],
-    "filament_diameter": [
-        "1.75"
-    ],
     "temperature_vitrification": [
         "81"
-    ],
-    "filament_shrink": [
-        "100%"
-    ],
-    "filament_density": [
-        "1.25"
     ],
     "pressure_advance": [
         "0.02"
     ],
+    "filament_density": [
+        "1.25"
+    ],
+    "filament_cost": [
+        "24.99"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_shrink": [
+        "100%"
+    ],
     "nozzle_temperature_range_low": [
         "220"
     ],
-    "filament_id": "GFL42",
+    "nozzle_temperature_range_high": [
+        "270"
+    ],
+    "filament_id": "FLL42",
     "filament_metal_stickiness": [
         "High"
     ],

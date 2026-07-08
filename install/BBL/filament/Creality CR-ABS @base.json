@@ -3,7 +3,7 @@
     "name": "Creality CR-ABS @base",
     "inherits": "fdm_filament_abs",
     "from": "system",
-    "filament_id": "GFR01",
+    "filament_id": "FLR01",
     "instantiation": "false",
     "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "filament_cost": [
@@ -51,20 +51,20 @@
     "chamber_temperatures": [
         "60"
     ],
-    "filament_max_volumetric_speed": [
-        "16"
-    ],
-    "nozzle_temperature_range_high": [
-        "260.0"
-    ],
-    "filament_diameter": [
-        1.75
-    ],
     "temperature_vitrification": [
         "110.0"
     ],
+    "filament_max_volumetric_speed": [
+        "16"
+    ],
+    "nozzle_temperature": [
+        "260.0"
+    ],
     "filament_density": [
         "1.08"
+    ],
+    "filament_diameter": [
+        1.75
     ],
     "nozzle_temperature_range_low": [
         "230.0"
@@ -72,7 +72,7 @@
     "nozzle_temperature_initial_layer": [
         "260.0"
     ],
-    "nozzle_temperature": [
+    "nozzle_temperature_range_high": [
         "260.0"
     ],
     "activate_air_filtration": [

@@ -32,10 +32,10 @@
         "0.96"
     ],
     "filament_max_volumetric_speed": [
-        "4.88",
-        "4.88",
-        "4.88",
-        "4.88"
+        "2",
+        "2",
+        "2",
+        "2"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -121,19 +121,19 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "260.0"
+    "filament_density": [
+        "1.12"
     ],
     "filament_diameter": [
         1.75
     ],
-    "filament_density": [
-        "1.12"
-    ],
     "nozzle_temperature_range_low": [
         "245.0"
     ],
-    "filament_id": "GFO05",
+    "nozzle_temperature_range_high": [
+        "260.0"
+    ],
+    "filament_id": "FLO05",
     "description": "When printing this filament, there's a risk of nozzle clogging, oozing, warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "filament_cost": [
         "84.99"

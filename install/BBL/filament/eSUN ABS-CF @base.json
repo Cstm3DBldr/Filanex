@@ -3,7 +3,7 @@
     "name": "eSUN ABS-CF @base",
     "inherits": "fdm_filament_asa",
     "from": "system",
-    "filament_id": "GFE06",
+    "filament_id": "FLE06",
     "instantiation": "false",
     "eng_plate_temp": [
         "105"

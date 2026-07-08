@@ -58,7 +58,7 @@
         "PETG-CF"
     ],
     "filament_vendor": [
-        "Polymaker"
+        "Fiberon"
     ],
     "hot_plate_temp": [
         "80"
@@ -113,7 +113,7 @@
     ],
     "type": "filament",
     "from": "User",
-    "filament_id": "GFL10",
+    "filament_id": "FLL10",
     "instantiation": "true",
     "filament_metal_stickiness": [
         "High"

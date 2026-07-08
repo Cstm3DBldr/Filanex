@@ -15,8 +15,8 @@
         "0.94"
     ],
     "filament_max_volumetric_speed": [
-        "18",
-        "18"
+        "2",
+        "2"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -90,13 +90,13 @@
     "activate_air_filtration": [
         "1"
     ],
-    "filament_diameter": [
-        2.85
-    ],
     "filament_density": [
         "1.19"
     ],
-    "filament_id": "GFM04",
+    "filament_diameter": [
+        2.85
+    ],
+    "filament_id": "FLM04",
     "filament_cost": [
         "39.99"
     ],

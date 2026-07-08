@@ -3,7 +3,7 @@
     "name": "Fillamentum Timberfill @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFP13",
+    "filament_id": "FLP13",
     "instantiation": "false",
     "filament_cost": [
         "24.99"
@@ -78,8 +78,8 @@
     "chamber_temperatures": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "170.0"
+    "nozzle_temperature": [
+        "190.0"
     ],
     "filament_diameter": [
         1.75
@@ -90,8 +90,8 @@
     "nozzle_temperature_initial_layer": [
         "190.0"
     ],
-    "nozzle_temperature": [
-        "190.0"
+    "nozzle_temperature_range_high": [
+        "170.0"
     ],
     "activate_air_filtration": [
         "0"

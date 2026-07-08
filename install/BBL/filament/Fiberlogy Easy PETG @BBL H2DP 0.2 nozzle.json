@@ -11,8 +11,8 @@
         "20"
     ],
     "filament_max_volumetric_speed": [
-        "16",
-        "16"
+        "2",
+        "2"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -96,19 +96,19 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "250.0"
+    "filament_density": [
+        "1.29"
     ],
     "filament_diameter": [
         1.75
     ],
-    "filament_density": [
-        "1.29"
-    ],
     "nozzle_temperature_range_low": [
         "220.0"
     ],
-    "filament_id": "GFV07",
+    "nozzle_temperature_range_high": [
+        "250.0"
+    ],
+    "filament_id": "FLV07",
     "fan_max_speed": [
         "40"
     ],

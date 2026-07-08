@@ -85,9 +85,6 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "270.0"
-    ],
     "filament_diameter": [
         1.75
     ],
@@ -97,7 +94,10 @@
     "nozzle_temperature_initial_layer": [
         "250.0"
     ],
-    "filament_id": "GFW10",
+    "nozzle_temperature_range_high": [
+        "270.0"
+    ],
+    "filament_id": "FLW10",
     "filament_cost": [
         "24.99"
     ],

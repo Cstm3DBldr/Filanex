@@ -3,7 +3,7 @@
     "name": "Spectrum PET-G Glow @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFW08",
+    "filament_id": "FLW08",
     "instantiation": "false",
     "cool_plate_temp": [
         "65"

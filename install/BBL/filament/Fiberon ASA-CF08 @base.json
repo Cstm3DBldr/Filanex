@@ -3,7 +3,7 @@
     "name": "Fiberon ASA-CF08 @base",
     "inherits": "fdm_filament_asa",
     "from": "system",
-    "filament_id": "GFL01",
+    "filament_id": "FLL01",
     "instantiation": "false",
     "eng_plate_temp": [
         "100"
@@ -30,7 +30,7 @@
         "ASA-CF"
     ],
     "filament_vendor": [
-        "Polymaker"
+        "Fiberon"
     ],
     "filament_dev_drying_cooling_temperature": [
         "95"
@@ -80,11 +80,11 @@
     "chamber_temperatures": [
         "60"
     ],
-    "nozzle_temperature_range_high": [
-        "300.0"
-    ],
     "filament_diameter": [
         1.75
+    ],
+    "nozzle_temperature_range_high": [
+        "300.0"
     ],
     "activate_air_filtration": [
         "1"

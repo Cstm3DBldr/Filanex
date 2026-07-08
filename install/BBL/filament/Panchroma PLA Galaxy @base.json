@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Galaxy @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFL16",
+    "filament_id": "FLL16",
     "instantiation": "false",
     "filament_cost": [
         "29.99"
@@ -78,26 +78,26 @@
     "chamber_temperatures": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "230"
-    ],
-    "filament_diameter": [
-        "1.75"
-    ],
     "temperature_vitrification": [
         "61"
+    ],
+    "pressure_advance": [
+        "0.02"
     ],
     "filament_retraction_length": [
         "0.4"
     ],
-    "filament_shrink": [
-        "100%"
+    "nozzle_temperature": [
+        "220"
     ],
     "filament_type": [
         "PLA"
     ],
-    "pressure_advance": [
-        "0.02"
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_shrink": [
+        "100%"
     ],
     "nozzle_temperature_range_low": [
         "190"
@@ -105,8 +105,8 @@
     "nozzle_temperature_initial_layer": [
         "220"
     ],
-    "nozzle_temperature": [
-        "220"
+    "nozzle_temperature_range_high": [
+        "230"
     ],
     "activate_air_filtration": [
         "0"

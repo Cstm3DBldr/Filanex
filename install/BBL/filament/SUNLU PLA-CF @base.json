@@ -3,7 +3,7 @@
     "name": "SUNLU PLA-CF @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFY09",
+    "filament_id": "FLY09",
     "instantiation": "false",
     "additional_cooling_fan_speed": [
         "0"
@@ -77,13 +77,13 @@
     "filament_max_volumetric_speed": [
         "13.94"
     ],
+    "nozzle_temperature": [
+        "225.0"
+    ],
     "filament_diameter": [
         1.75
     ],
     "nozzle_temperature_initial_layer": [
-        "225.0"
-    ],
-    "nozzle_temperature": [
         "225.0"
     ],
     "activate_air_filtration": [

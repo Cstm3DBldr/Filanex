@@ -55,8 +55,8 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "250.0"
+    "nozzle_temperature": [
+        "240.0"
     ],
     "filament_diameter": [
         1.75
@@ -67,10 +67,10 @@
     "nozzle_temperature_initial_layer": [
         "240.0"
     ],
-    "nozzle_temperature": [
-        "240.0"
+    "nozzle_temperature_range_high": [
+        "250.0"
     ],
-    "filament_id": "GFF06",
+    "filament_id": "FLF06",
     "fan_max_speed": [
         "30"
     ],

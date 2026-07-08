@@ -3,7 +3,7 @@
     "name": "Elegoo PC-FR @base",
     "inherits": "fdm_filament_pc",
     "from": "system",
-    "filament_id": "GFD05",
+    "filament_id": "FLD05",
     "instantiation": "false",
     "filament_vendor": [
         "Elegoo"
@@ -53,17 +53,17 @@
     "chamber_temperatures": [
         "60"
     ],
+    "temperature_vitrification": [
+        "120.0"
+    ],
     "filament_max_volumetric_speed": [
         "6.97"
     ],
-    "nozzle_temperature_range_high": [
-        "290.0"
+    "nozzle_temperature": [
+        "280.0"
     ],
     "filament_diameter": [
         1.75
-    ],
-    "temperature_vitrification": [
-        "120.0"
     ],
     "nozzle_temperature_range_low": [
         "260.0"
@@ -71,8 +71,8 @@
     "nozzle_temperature_initial_layer": [
         "280.0"
     ],
-    "nozzle_temperature": [
-        "280.0"
+    "nozzle_temperature_range_high": [
+        "290.0"
     ],
     "activate_air_filtration": [
         "1"

@@ -17,7 +17,7 @@
         "1"
     ],
     "filament_max_volumetric_speed": [
-        "21"
+        "2"
     ],
     "filament_retraction_distances_when_cut": [
         "18"
@@ -76,17 +76,17 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "230.0"
-    ],
-    "filament_diameter": [
-        1.75
-    ],
     "temperature_vitrification": [
         "60.0"
     ],
+    "nozzle_temperature": [
+        "220.0"
+    ],
     "filament_density": [
         "1.24"
+    ],
+    "filament_diameter": [
+        1.75
     ],
     "nozzle_temperature_range_low": [
         "190.0"
@@ -94,13 +94,13 @@
     "nozzle_temperature_initial_layer": [
         "220.0"
     ],
-    "nozzle_temperature": [
-        "220.0"
-    ],
     "filament_flow_ratio": [
         "0.94"
     ],
-    "filament_id": "GFF106",
+    "nozzle_temperature_range_high": [
+        "230.0"
+    ],
+    "filament_id": "FLF106",
     "filament_cost": [
         "24.99"
     ],

@@ -128,7 +128,7 @@
     ],
     "type": "filament",
     "from": "User",
-    "filament_id": "GFL58",
+    "filament_id": "FLL58",
     "instantiation": "true",
     "filament_scarf_seam_type": [
         "none"

@@ -20,7 +20,7 @@
         "1"
     ],
     "filament_max_volumetric_speed": [
-        "16"
+        "2"
     ],
     "filament_retraction_distances_when_cut": [
         "18"
@@ -91,7 +91,7 @@
     "nozzle_temperature_initial_layer": [
         "260.0"
     ],
-    "filament_id": "GFE40",
+    "filament_id": "FLE40",
     "filament_cost": [
         "24.99"
     ],

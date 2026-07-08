@@ -35,8 +35,8 @@
         "3"
     ],
     "filament_max_volumetric_speed": [
-        "12",
-        "12"
+        "2",
+        "2"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -130,13 +130,13 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_diameter": [
-        2.85
-    ],
     "filament_density": [
         "0.89"
     ],
-    "filament_id": "GFM05",
+    "filament_diameter": [
+        2.85
+    ],
+    "filament_id": "FLM05",
     "filament_cost": [
         "24.99"
     ],

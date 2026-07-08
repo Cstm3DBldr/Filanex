@@ -111,19 +111,19 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "230.0"
+    "filament_density": [
+        "1.18"
     ],
     "filament_diameter": [
         1.75
     ],
-    "filament_density": [
-        "1.18"
-    ],
     "nozzle_temperature_range_low": [
         "210.0"
     ],
-    "filament_id": "GFK05",
+    "nozzle_temperature_range_high": [
+        "230.0"
+    ],
+    "filament_id": "FLK05",
     "filament_cost": [
         "24.99"
     ],

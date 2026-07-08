@@ -3,7 +3,7 @@
     "name": "eSUN PET @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFE30",
+    "filament_id": "FLE30",
     "instantiation": "false",
     "cool_plate_temp": [
         "65"

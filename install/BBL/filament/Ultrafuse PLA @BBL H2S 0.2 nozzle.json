@@ -41,8 +41,8 @@
         "3"
     ],
     "filament_max_volumetric_speed": [
-        "18.0",
-        "18.0"
+        "2",
+        "2"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -134,19 +134,19 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "230.0"
+    "filament_density": [
+        "1.249"
     ],
     "filament_diameter": [
         1.75
     ],
-    "filament_density": [
-        "1.249"
-    ],
     "nozzle_temperature_range_low": [
         "210.0"
     ],
-    "filament_id": "GFZ11",
+    "nozzle_temperature_range_high": [
+        "230.0"
+    ],
+    "filament_id": "FLZ11",
     "filament_cost": [
         "24.99"
     ],

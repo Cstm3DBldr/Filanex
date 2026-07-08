@@ -53,10 +53,10 @@
         "3"
     ],
     "filament_max_volumetric_speed": [
-        "16",
-        "16",
-        "16",
-        "16"
+        "2",
+        "2",
+        "2",
+        "2"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -205,7 +205,7 @@
     "nozzle_temperature_range_low": [
         "240.0"
     ],
-    "filament_id": "GFE40",
+    "filament_id": "FLE40",
     "filament_cost": [
         "24.99"
     ],

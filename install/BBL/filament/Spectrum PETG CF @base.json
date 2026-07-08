@@ -3,7 +3,7 @@
     "name": "Spectrum PETG CF @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFW11",
+    "filament_id": "FLW11",
     "instantiation": "false",
     "cool_plate_temp": [
         "65"
@@ -92,13 +92,13 @@
     "chamber_temperatures": [
         "0"
     ],
+    "nozzle_temperature": [
+        "252.5"
+    ],
     "filament_diameter": [
         1.75
     ],
     "nozzle_temperature_initial_layer": [
-        "252.5"
-    ],
-    "nozzle_temperature": [
         "252.5"
     ],
     "activate_air_filtration": [

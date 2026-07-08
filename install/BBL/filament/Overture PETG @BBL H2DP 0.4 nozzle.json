@@ -130,19 +130,19 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "260.0"
+    "filament_density": [
+        "1.275"
     ],
     "filament_diameter": [
         1.75
     ],
-    "filament_density": [
-        "1.275"
-    ],
     "nozzle_temperature_range_low": [
         "230.0"
     ],
-    "filament_id": "GFO13",
+    "nozzle_temperature_range_high": [
+        "260.0"
+    ],
+    "filament_id": "FLO13",
     "fan_max_speed": [
         "40"
     ],

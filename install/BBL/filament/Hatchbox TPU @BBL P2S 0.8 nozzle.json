@@ -115,16 +115,16 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "235.0"
-    ],
     "filament_diameter": [
         1.75
     ],
     "nozzle_temperature_range_low": [
         "190.0"
     ],
-    "filament_id": "GFH14",
+    "nozzle_temperature_range_high": [
+        "235.0"
+    ],
+    "filament_id": "FLH14",
     "description": "This filament is too soft and not compatible with the AMS. Printing it is of many requirements, and to get better printing quality, please refer to this wiki: TPU printing guide.",
     "filament_cost": [
         "41.99"

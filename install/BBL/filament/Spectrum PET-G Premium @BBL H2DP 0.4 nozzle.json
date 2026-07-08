@@ -130,19 +130,19 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "255.0"
+    "filament_density": [
+        "1.27"
     ],
     "filament_diameter": [
         1.75
     ],
-    "filament_density": [
-        "1.27"
-    ],
     "nozzle_temperature_range_low": [
         "230.0"
     ],
-    "filament_id": "GFW09",
+    "nozzle_temperature_range_high": [
+        "255.0"
+    ],
+    "filament_id": "FLW09",
     "fan_max_speed": [
         "40"
     ],

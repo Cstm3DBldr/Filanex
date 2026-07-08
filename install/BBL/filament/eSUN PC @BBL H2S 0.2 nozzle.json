@@ -32,8 +32,8 @@
         "3"
     ],
     "filament_max_volumetric_speed": [
-        "18",
-        "18"
+        "2",
+        "2"
     ],
     "filament_prime_volume": [
         "30"
@@ -134,7 +134,7 @@
     "activate_air_filtration": [
         "1"
     ],
-    "filament_id": "GFE26",
+    "filament_id": "FLE26",
     "filament_cost": [
         "39.99"
     ],

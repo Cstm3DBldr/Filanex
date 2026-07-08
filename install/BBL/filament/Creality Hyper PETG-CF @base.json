@@ -3,7 +3,7 @@
     "name": "Creality Hyper PETG-CF @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFR16",
+    "filament_id": "FLR16",
     "instantiation": "false",
     "cool_plate_temp": [
         "70"
@@ -92,13 +92,13 @@
     "chamber_temperatures": [
         "0"
     ],
+    "nozzle_temperature": [
+        "250.0"
+    ],
     "filament_diameter": [
         1.75
     ],
     "nozzle_temperature_initial_layer": [
-        "250.0"
-    ],
-    "nozzle_temperature": [
         "250.0"
     ],
     "activate_air_filtration": [

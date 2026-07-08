@@ -76,11 +76,11 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "240.0"
-    ],
     "temperature_vitrification": [
         "55.0"
+    ],
+    "nozzle_temperature": [
+        "230.0"
     ],
     "filament_density": [
         "1.25"
@@ -91,10 +91,10 @@
     "nozzle_temperature_initial_layer": [
         "230.0"
     ],
-    "nozzle_temperature": [
-        "230.0"
+    "nozzle_temperature_range_high": [
+        "240.0"
     ],
-    "filament_id": "GFE46",
+    "filament_id": "FLE46",
     "filament_cost": [
         "24.99"
     ],

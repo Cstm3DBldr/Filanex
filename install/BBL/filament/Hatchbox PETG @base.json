@@ -3,7 +3,7 @@
     "name": "Hatchbox PETG @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFH02",
+    "filament_id": "FLH02",
     "instantiation": "false",
     "cool_plate_temp": [
         "65"

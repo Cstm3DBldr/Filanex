@@ -3,7 +3,7 @@
     "name": "PolyDissolve @base",
     "inherits": "fdm_filament_pva",
     "from": "system",
-    "filament_id": "GFL30",
+    "filament_id": "FLL30",
     "instantiation": "false",
     "description": "This is a water-soluble support filament, and usually it is only for the support structure and not for the model body. Printing this filament is of many requirements, and to get better printing quality, please refer to this wiki: PVA Printing Guide.",
     "filament_cost": [
@@ -63,32 +63,32 @@
     "chamber_temperatures": [
         "0"
     ],
-    "filament_diameter": [
-        "1.75"
-    ],
     "temperature_vitrification": [
         "45"
-    ],
-    "filament_retraction_length": [
-        "nil"
-    ],
-    "default_filament_colour": [
-        ""
-    ],
-    "filament_shrink": [
-        "100%"
-    ],
-    "filament_type": [
-        "PVA"
     ],
     "pressure_advance": [
         "0.02"
     ],
-    "nozzle_temperature_initial_layer": [
-        "220"
+    "filament_retraction_length": [
+        "nil"
     ],
     "nozzle_temperature": [
         "225"
+    ],
+    "filament_type": [
+        "PVA"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_shrink": [
+        "100%"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "220"
+    ],
+    "default_filament_colour": [
+        ""
     ],
     "filament_flow_ratio": [
         "0.95"

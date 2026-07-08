@@ -17,8 +17,8 @@
         "1"
     ],
     "filament_max_volumetric_speed": [
-        "16.0",
-        "16.0"
+        "2",
+        "2"
     ],
     "filament_retraction_distances_when_cut": [
         "18",
@@ -117,7 +117,7 @@
     "filament_density": [
         "1.25"
     ],
-    "filament_id": "GFE41",
+    "filament_id": "FLE41",
     "filament_cost": [
         "24.99"
     ],

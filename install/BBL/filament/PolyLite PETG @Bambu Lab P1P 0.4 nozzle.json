@@ -119,7 +119,7 @@
     ],
     "type": "filament",
     "from": "User",
-    "filament_id": "GFL42",
+    "filament_id": "FLL42",
     "instantiation": "true",
     "filament_metal_stickiness": [
         "High"

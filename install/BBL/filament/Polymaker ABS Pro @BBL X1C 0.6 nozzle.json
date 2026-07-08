@@ -102,17 +102,14 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "290.0"
-    ],
-    "filament_diameter": [
-        1.75
-    ],
     "temperature_vitrification": [
         "112.0"
     ],
     "filament_density": [
         "1.04"
+    ],
+    "filament_diameter": [
+        1.75
     ],
     "nozzle_temperature_range_low": [
         "270.0"
@@ -120,7 +117,10 @@
     "filament_flow_ratio": [
         "0.98"
     ],
-    "filament_id": "GFL55",
+    "nozzle_temperature_range_high": [
+        "290.0"
+    ],
+    "filament_id": "FLL55",
     "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "filament_cost": [
         "24.99"

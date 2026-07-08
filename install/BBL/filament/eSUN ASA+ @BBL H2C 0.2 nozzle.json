@@ -28,8 +28,8 @@
         "3"
     ],
     "filament_max_volumetric_speed": [
-        "18",
-        "18"
+        "2",
+        "2"
     ],
     "filament_prime_volume": [
         "30"
@@ -133,7 +133,7 @@
     "filament_flow_ratio": [
         "1.0"
     ],
-    "filament_id": "GFE10",
+    "filament_id": "FLE10",
     "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "fan_max_speed": [
         "35"

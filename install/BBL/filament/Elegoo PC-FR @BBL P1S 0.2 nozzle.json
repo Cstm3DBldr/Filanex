@@ -52,20 +52,20 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_max_volumetric_speed": [
-        "6.97"
-    ],
-    "nozzle_temperature_range_high": [
-        "290.0"
-    ],
-    "filament_diameter": [
-        1.75
-    ],
     "temperature_vitrification": [
         "120.0"
     ],
+    "filament_max_volumetric_speed": [
+        "2"
+    ],
+    "nozzle_temperature": [
+        "280.0"
+    ],
     "filament_density": [
         "1.1400000000000001"
+    ],
+    "filament_diameter": [
+        1.75
     ],
     "nozzle_temperature_range_low": [
         "260.0"
@@ -73,13 +73,13 @@
     "nozzle_temperature_initial_layer": [
         "280.0"
     ],
-    "nozzle_temperature": [
-        "280.0"
-    ],
     "filament_flow_ratio": [
         "1.0"
     ],
-    "filament_id": "GFD05",
+    "nozzle_temperature_range_high": [
+        "290.0"
+    ],
+    "filament_id": "FLD05",
     "filament_cost": [
         "39.99"
     ],

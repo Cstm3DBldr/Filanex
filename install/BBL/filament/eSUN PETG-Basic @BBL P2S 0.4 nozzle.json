@@ -156,17 +156,14 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "270.0"
-    ],
-    "filament_diameter": [
-        1.75
-    ],
     "temperature_vitrification": [
         "160.0"
     ],
     "filament_density": [
         "1.27"
+    ],
+    "filament_diameter": [
+        1.75
     ],
     "nozzle_temperature_range_low": [
         "245.0"
@@ -174,7 +171,10 @@
     "filament_flow_ratio": [
         "0.98"
     ],
-    "filament_id": "GFE36",
+    "nozzle_temperature_range_high": [
+        "270.0"
+    ],
+    "filament_id": "FLE36",
     "filament_cost": [
         "24.99"
     ],

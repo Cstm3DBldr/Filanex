@@ -3,7 +3,7 @@
     "name": "Filatech HIPS @base",
     "inherits": "fdm_filament_abs",
     "from": "system",
-    "filament_id": "GFJ05",
+    "filament_id": "FLJ05",
     "instantiation": "false",
     "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "filament_cost": [
@@ -54,14 +54,14 @@
     "filament_max_volumetric_speed": [
         "8"
     ],
-    "nozzle_temperature_range_high": [
-        "230.0"
-    ],
-    "filament_diameter": [
-        1.75
+    "nozzle_temperature": [
+        "225.0"
     ],
     "filament_density": [
         "1.07"
+    ],
+    "filament_diameter": [
+        1.75
     ],
     "nozzle_temperature_range_low": [
         "220.0"
@@ -69,8 +69,8 @@
     "nozzle_temperature_initial_layer": [
         "225.0"
     ],
-    "nozzle_temperature": [
-        "225.0"
+    "nozzle_temperature_range_high": [
+        "230.0"
     ],
     "activate_air_filtration": [
         "0"

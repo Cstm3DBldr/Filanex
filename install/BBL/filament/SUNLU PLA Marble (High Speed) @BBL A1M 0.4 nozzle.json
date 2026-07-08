@@ -76,8 +76,8 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "260.0"
+    "nozzle_temperature": [
+        "220.0"
     ],
     "filament_diameter": [
         1.75
@@ -88,10 +88,10 @@
     "nozzle_temperature_initial_layer": [
         "220.0"
     ],
-    "nozzle_temperature": [
-        "220.0"
+    "nozzle_temperature_range_high": [
+        "260.0"
     ],
-    "filament_id": "GFY11",
+    "filament_id": "FLY11",
     "filament_cost": [
         "24.99"
     ],

@@ -3,7 +3,7 @@
     "name": "Orca Arena Arena PLA-CF @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFO108",
+    "filament_id": "FLO108",
     "instantiation": "false",
     "additional_cooling_fan_speed": [
         "0"
@@ -74,19 +74,19 @@
     "chamber_temperatures": [
         "0"
     ],
+    "temperature_vitrification": [
+        "60.0"
+    ],
     "filament_max_volumetric_speed": [
         "13.5"
+    ],
+    "nozzle_temperature": [
+        "225.0"
     ],
     "filament_diameter": [
         1.75
     ],
-    "temperature_vitrification": [
-        "60.0"
-    ],
     "nozzle_temperature_initial_layer": [
-        "225.0"
-    ],
-    "nozzle_temperature": [
         "225.0"
     ],
     "activate_air_filtration": [

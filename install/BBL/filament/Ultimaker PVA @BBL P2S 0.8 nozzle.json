@@ -109,13 +109,13 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_diameter": [
-        2.85
-    ],
     "filament_density": [
         "1.23"
     ],
-    "filament_id": "GFM06",
+    "filament_diameter": [
+        2.85
+    ],
+    "filament_id": "FLM06",
     "description": "This is a water-soluble support filament, and usually it is only for the support structure and not for the model body. Printing this filament is of many requirements, and to get better printing quality, please refer to this wiki: PVA Printing Guide.",
     "filament_cost": [
         "79.98"

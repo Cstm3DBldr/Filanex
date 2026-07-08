@@ -71,7 +71,7 @@
         "Fiberon PA612-CF15 @BBL H2S"
     ],
     "filament_vendor": [
-        "Polymaker"
+        "Fiberon"
     ],
     "filament_type": [
         "PA-CF"
@@ -109,15 +109,6 @@
     "activate_air_filtration": [
         "1"
     ],
-    "filament_cost": [
-        "94.99"
-    ],
-    "nozzle_temperature_range_high": [
-        "300"
-    ],
-    "filament_diameter": [
-        "1.75"
-    ],
     "temperature_vitrification": [
         "206.2"
     ],
@@ -128,10 +119,19 @@
     "filament_density": [
         "1.03"
     ],
+    "filament_cost": [
+        "94.99"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
     "nozzle_temperature_range_low": [
         "250"
     ],
-    "filament_id": "GFL05",
+    "nozzle_temperature_range_high": [
+        "300"
+    ],
+    "filament_id": "FLL05",
     "description": "When printing this filament, there's a risk of nozzle clogging, oozing, warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "impact_strength_z": [
         "5.7"

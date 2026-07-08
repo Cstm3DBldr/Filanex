@@ -99,7 +99,7 @@
     ],
     "type": "filament",
     "from": "User",
-    "filament_id": "GFL14",
+    "filament_id": "FLL14",
     "instantiation": "true",
     "filament_scarf_seam_type": [
         "none"
@@ -166,10 +166,10 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_shrink": [
-        "100%"
-    ],
     "pressure_advance": [
         "0.02"
+    ],
+    "filament_shrink": [
+        "100%"
     ]
 }

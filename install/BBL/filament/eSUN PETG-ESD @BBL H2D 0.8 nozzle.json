@@ -114,9 +114,6 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "260.0"
-    ],
     "filament_density": [
         "1.22"
     ],
@@ -126,7 +123,10 @@
     "filament_flow_ratio": [
         "0.96"
     ],
-    "filament_id": "GFE38",
+    "nozzle_temperature_range_high": [
+        "260.0"
+    ],
+    "filament_id": "FLE38",
     "filament_cost": [
         "34.99"
     ],

@@ -41,8 +41,8 @@
         "3"
     ],
     "filament_max_volumetric_speed": [
-        "19.0",
-        "19.0"
+        "2",
+        "2"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -134,22 +134,22 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "230.0"
-    ],
-    "filament_diameter": [
-        1.75
-    ],
     "temperature_vitrification": [
         "61.5"
     ],
     "filament_density": [
         "1.295"
     ],
+    "filament_diameter": [
+        1.75
+    ],
     "nozzle_temperature_range_low": [
         "190.0"
     ],
-    "filament_id": "GFO09",
+    "nozzle_temperature_range_high": [
+        "230.0"
+    ],
+    "filament_id": "FLO09",
     "filament_cost": [
         "24.99"
     ],

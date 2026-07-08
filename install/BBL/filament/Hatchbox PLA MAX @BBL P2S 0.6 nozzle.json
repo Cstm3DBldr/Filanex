@@ -134,16 +134,16 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "210.0"
-    ],
     "filament_diameter": [
         1.75
     ],
     "nozzle_temperature_range_low": [
         "190.0"
     ],
-    "filament_id": "GFH06",
+    "nozzle_temperature_range_high": [
+        "210.0"
+    ],
+    "filament_id": "FLH06",
     "filament_cost": [
         "24.99"
     ],

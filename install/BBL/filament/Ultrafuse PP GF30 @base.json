@@ -3,7 +3,7 @@
     "name": "Ultrafuse PP GF30 @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFZ14",
+    "filament_id": "FLZ14",
     "instantiation": "false",
     "filament_cost": [
         "24.99"
@@ -78,8 +78,8 @@
     "chamber_temperatures": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "260.0"
+    "nozzle_temperature": [
+        "250.0"
     ],
     "filament_diameter": [
         1.75
@@ -90,8 +90,8 @@
     "nozzle_temperature_initial_layer": [
         "250.0"
     ],
-    "nozzle_temperature": [
-        "250.0"
+    "nozzle_temperature_range_high": [
+        "260.0"
     ],
     "activate_air_filtration": [
         "0"

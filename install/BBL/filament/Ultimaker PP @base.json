@@ -3,7 +3,7 @@
     "name": "Ultimaker PP @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFM05",
+    "filament_id": "FLM05",
     "instantiation": "false",
     "filament_cost": [
         "24.99"
@@ -78,11 +78,11 @@
     "chamber_temperatures": [
         "0"
     ],
-    "filament_diameter": [
-        2.85
-    ],
     "nozzle_temperature": [
         "207.0"
+    ],
+    "filament_diameter": [
+        2.85
     ],
     "activate_air_filtration": [
         "0"

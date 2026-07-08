@@ -171,11 +171,14 @@
     "activate_air_filtration": [
         "0"
     ],
+    "pressure_advance": [
+        "0.02"
+    ],
+    "filament_density": [
+        "1.25"
+    ],
     "filament_cost": [
         "24.99"
-    ],
-    "nozzle_temperature_range_high": [
-        "270"
     ],
     "filament_diameter": [
         "1.75"
@@ -183,16 +186,13 @@
     "filament_shrink": [
         "100%"
     ],
-    "filament_density": [
-        "1.25"
-    ],
-    "pressure_advance": [
-        "0.02"
-    ],
     "nozzle_temperature_range_low": [
         "220"
     ],
-    "filament_id": "GFL42",
+    "nozzle_temperature_range_high": [
+        "270"
+    ],
+    "filament_id": "FLL42",
     "fan_max_speed": [
         "40"
     ],

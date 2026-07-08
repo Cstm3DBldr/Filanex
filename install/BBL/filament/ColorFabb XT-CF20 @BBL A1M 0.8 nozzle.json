@@ -55,8 +55,8 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "260.0"
+    "nozzle_temperature": [
+        "255.0"
     ],
     "filament_diameter": [
         1.75
@@ -67,10 +67,10 @@
     "nozzle_temperature_initial_layer": [
         "255.0"
     ],
-    "nozzle_temperature": [
-        "255.0"
+    "nozzle_temperature_range_high": [
+        "260.0"
     ],
-    "filament_id": "GFK16",
+    "filament_id": "FLK16",
     "fan_max_speed": [
         "30"
     ],

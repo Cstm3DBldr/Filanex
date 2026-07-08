@@ -3,7 +3,7 @@
     "name": "Fiberlogy Nylon PA12 GF15 @base",
     "inherits": "fdm_filament_pa",
     "from": "system",
-    "filament_id": "GFV23",
+    "filament_id": "FLV23",
     "instantiation": "false",
     "description": "When printing this filament, there's a risk of nozzle clogging, oozing, warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "fan_cooling_layer_time": [
@@ -84,8 +84,8 @@
     "filament_max_volumetric_speed": [
         "8"
     ],
-    "nozzle_temperature_range_high": [
-        "270.0"
+    "nozzle_temperature": [
+        "262.5"
     ],
     "filament_diameter": [
         1.75
@@ -96,8 +96,8 @@
     "nozzle_temperature_initial_layer": [
         "262.5"
     ],
-    "nozzle_temperature": [
-        "262.5"
+    "nozzle_temperature_range_high": [
+        "270.0"
     ],
     "activate_air_filtration": [
         "1"

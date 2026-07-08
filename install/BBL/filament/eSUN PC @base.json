@@ -3,7 +3,7 @@
     "name": "eSUN PC @base",
     "inherits": "fdm_filament_pc",
     "from": "system",
-    "filament_id": "GFE26",
+    "filament_id": "FLE26",
     "instantiation": "false",
     "filament_vendor": [
         "eSUN"
@@ -56,10 +56,10 @@
     "filament_max_volumetric_speed": [
         "18"
     ],
-    "nozzle_temperature_initial_layer": [
+    "nozzle_temperature": [
         "290.0"
     ],
-    "nozzle_temperature": [
+    "nozzle_temperature_initial_layer": [
         "290.0"
     ],
     "activate_air_filtration": [

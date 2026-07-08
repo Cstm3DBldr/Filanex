@@ -117,7 +117,7 @@
         "Fiberon PETG-ESD @BBL P2S"
     ],
     "filament_vendor": [
-        "Polymaker"
+        "Fiberon"
     ],
     "filament_type": [
         "PETG"
@@ -152,17 +152,14 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "290.0"
-    ],
-    "filament_diameter": [
-        1.75
-    ],
     "temperature_vitrification": [
         "77.0"
     ],
     "filament_density": [
         "1.24"
+    ],
+    "filament_diameter": [
+        1.75
     ],
     "nozzle_temperature_range_low": [
         "250.0"
@@ -170,7 +167,10 @@
     "filament_flow_ratio": [
         "0.95"
     ],
-    "filament_id": "GFL09",
+    "nozzle_temperature_range_high": [
+        "290.0"
+    ],
+    "filament_id": "FLL09",
     "filament_cost": [
         "24.99"
     ],

@@ -3,7 +3,7 @@
     "name": "Ultimaker S series Tough PLA @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFM07",
+    "filament_id": "FLM07",
     "instantiation": "false",
     "filament_cost": [
         "24.99"

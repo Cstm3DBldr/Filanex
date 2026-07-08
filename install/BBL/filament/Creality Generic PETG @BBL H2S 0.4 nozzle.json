@@ -140,17 +140,14 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "270.0"
-    ],
-    "filament_diameter": [
-        1.75
-    ],
     "temperature_vitrification": [
         "80.0"
     ],
     "filament_density": [
         "1.25"
+    ],
+    "filament_diameter": [
+        1.75
     ],
     "nozzle_temperature_range_low": [
         "220.0"
@@ -158,7 +155,10 @@
     "filament_flow_ratio": [
         "0.8999999999999999"
     ],
-    "filament_id": "GFR07",
+    "nozzle_temperature_range_high": [
+        "270.0"
+    ],
+    "filament_id": "FLR07",
     "filament_cost": [
         "24.99"
     ],

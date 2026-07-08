@@ -133,22 +133,22 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "235.0"
-    ],
-    "filament_diameter": [
-        1.75
-    ],
     "temperature_vitrification": [
         "52.5"
     ],
     "filament_density": [
         "1.28"
     ],
+    "filament_diameter": [
+        1.75
+    ],
     "nozzle_temperature_range_low": [
         "190.0"
     ],
-    "filament_id": "GFS106",
+    "nozzle_temperature_range_high": [
+        "235.0"
+    ],
+    "filament_id": "FLS106",
     "filament_cost": [
         "24.99"
     ],

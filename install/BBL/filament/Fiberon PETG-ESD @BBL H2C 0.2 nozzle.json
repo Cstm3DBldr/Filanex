@@ -33,8 +33,8 @@
         "8"
     ],
     "filament_max_volumetric_speed": [
-        "11.5",
-        "11.5"
+        "2",
+        "2"
     ],
     "filament_pre_cooling_temperature_nc": [
         "205",
@@ -112,7 +112,7 @@
         "Fiberon PETG-ESD @BBL H2C"
     ],
     "filament_vendor": [
-        "Polymaker"
+        "Fiberon"
     ],
     "filament_type": [
         "PETG"
@@ -147,14 +147,11 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "290.0"
+    "filament_density": [
+        "1.24"
     ],
     "filament_diameter": [
         1.75
-    ],
-    "filament_density": [
-        "1.24"
     ],
     "nozzle_temperature_range_low": [
         "250.0"
@@ -162,7 +159,10 @@
     "filament_flow_ratio": [
         "0.95"
     ],
-    "filament_id": "GFL09",
+    "nozzle_temperature_range_high": [
+        "290.0"
+    ],
+    "filament_id": "FLL09",
     "fan_max_speed": [
         "40"
     ],

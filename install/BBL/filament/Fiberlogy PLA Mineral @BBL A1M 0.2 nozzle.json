@@ -17,7 +17,7 @@
         "1"
     ],
     "filament_max_volumetric_speed": [
-        "10.0"
+        "2"
     ],
     "filament_retraction_distances_when_cut": [
         "18"
@@ -76,14 +76,14 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "210.0"
-    ],
-    "filament_diameter": [
-        1.75
+    "nozzle_temperature": [
+        "200.0"
     ],
     "filament_density": [
         "1.38"
+    ],
+    "filament_diameter": [
+        1.75
     ],
     "nozzle_temperature_range_low": [
         "190.0"
@@ -91,10 +91,10 @@
     "nozzle_temperature_initial_layer": [
         "200.0"
     ],
-    "nozzle_temperature": [
-        "200.0"
+    "nozzle_temperature_range_high": [
+        "210.0"
     ],
-    "filament_id": "GFV32",
+    "filament_id": "FLV32",
     "filament_cost": [
         "24.99"
     ],

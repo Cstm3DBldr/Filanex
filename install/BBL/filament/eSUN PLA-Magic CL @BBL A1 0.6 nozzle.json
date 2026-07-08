@@ -76,8 +76,8 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "220.0"
+    "nozzle_temperature": [
+        "205.0"
     ],
     "filament_density": [
         "1.21"
@@ -88,10 +88,10 @@
     "nozzle_temperature_initial_layer": [
         "205.0"
     ],
-    "nozzle_temperature": [
-        "205.0"
+    "nozzle_temperature_range_high": [
+        "220.0"
     ],
-    "filament_id": "GFE52",
+    "filament_id": "FLE52",
     "filament_cost": [
         "24.99"
     ],

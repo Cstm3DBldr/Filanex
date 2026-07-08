@@ -127,19 +127,19 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "250.0"
+    "filament_density": [
+        "1.26"
     ],
     "filament_diameter": [
         1.75
     ],
-    "filament_density": [
-        "1.26"
-    ],
     "nozzle_temperature_range_low": [
         "220.0"
     ],
-    "filament_id": "GFV30",
+    "nozzle_temperature_range_high": [
+        "250.0"
+    ],
+    "filament_id": "FLV30",
     "fan_max_speed": [
         "40"
     ],

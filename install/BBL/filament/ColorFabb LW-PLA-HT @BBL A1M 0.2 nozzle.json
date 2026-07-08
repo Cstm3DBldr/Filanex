@@ -17,7 +17,7 @@
         "1"
     ],
     "filament_max_volumetric_speed": [
-        "8"
+        "2"
     ],
     "filament_retraction_distances_when_cut": [
         "18"
@@ -76,8 +76,8 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "250.0"
+    "nozzle_temperature": [
+        "235.0"
     ],
     "filament_diameter": [
         1.75
@@ -88,10 +88,10 @@
     "nozzle_temperature_initial_layer": [
         "235.0"
     ],
-    "nozzle_temperature": [
-        "235.0"
+    "nozzle_temperature_range_high": [
+        "250.0"
     ],
-    "filament_id": "GFK08",
+    "filament_id": "FLK08",
     "filament_cost": [
         "24.99"
     ],

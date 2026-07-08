@@ -104,16 +104,16 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "265.0"
-    ],
     "filament_diameter": [
         1.75
     ],
     "nozzle_temperature_range_low": [
         "245.0"
     ],
-    "filament_id": "GFN106",
+    "nozzle_temperature_range_high": [
+        "265.0"
+    ],
+    "filament_id": "FLN106",
     "filament_cost": [
         "34.99"
     ],

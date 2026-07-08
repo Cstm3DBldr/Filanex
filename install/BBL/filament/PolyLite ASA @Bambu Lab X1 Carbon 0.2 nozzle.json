@@ -42,8 +42,8 @@
         "0.97"
     ],
     "filament_max_volumetric_speed": [
-        "12",
-        "12"
+        "2",
+        "2"
     ],
     "filament_minimal_purge_on_wipe_tower": [
         "15"
@@ -117,7 +117,7 @@
     ],
     "type": "filament",
     "from": "User",
-    "filament_id": "GFL36",
+    "filament_id": "FLL36",
     "instantiation": "true",
     "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "impact_strength_z": [

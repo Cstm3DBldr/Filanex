@@ -3,7 +3,7 @@
     "name": "Hatchbox Rapid PETG @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFH12",
+    "filament_id": "FLH12",
     "instantiation": "false",
     "cool_plate_temp": [
         "65"

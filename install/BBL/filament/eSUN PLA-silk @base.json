@@ -3,7 +3,7 @@
     "name": "eSUN PLA-silk @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFE56",
+    "filament_id": "FLE56",
     "instantiation": "false",
     "description": "To make the prints get higher gloss, please dry the filament before use, and set the outer wall speed to be 40 to 60 mm/s when slicing.",
     "filament_cost": [
@@ -69,11 +69,11 @@
     "chamber_temperatures": [
         "0"
     ],
-    "filament_max_volumetric_speed": [
-        "12"
-    ],
     "temperature_vitrification": [
         "55.0"
+    ],
+    "filament_max_volumetric_speed": [
+        "12"
     ],
     "activate_air_filtration": [
         "0"

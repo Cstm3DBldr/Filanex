@@ -162,16 +162,16 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "230.0"
-    ],
     "filament_density": [
         "0.7"
     ],
     "nozzle_temperature_range_low": [
         "210.0"
     ],
-    "filament_id": "GFE60",
+    "nozzle_temperature_range_high": [
+        "230.0"
+    ],
+    "filament_id": "FLE60",
     "filament_cost": [
         "24.99"
     ],

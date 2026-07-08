@@ -3,7 +3,7 @@
     "name": "Fiberon PA612-ESD @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFL06",
+    "filament_id": "FLL06",
     "instantiation": "false",
     "filament_cost": [
         "0"
@@ -18,7 +18,7 @@
         "12"
     ],
     "filament_vendor": [
-        "Polymaker"
+        "Fiberon"
     ],
     "filament_scarf_seam_type": [
         "none"
@@ -78,29 +78,29 @@
     "chamber_temperatures": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "300"
-    ],
-    "filament_diameter": [
-        "1.75"
-    ],
     "temperature_vitrification": [
         "190"
+    ],
+    "filament_notes": [
+        ""
+    ],
+    "pressure_advance": [
+        "0.02"
     ],
     "filament_retraction_length": [
         "nil"
     ],
-    "default_filament_colour": [
-        ""
-    ],
-    "filament_shrink": [
-        "100%"
+    "nozzle_temperature": [
+        "300"
     ],
     "filament_type": [
         "PA-CF"
     ],
-    "pressure_advance": [
-        "0.02"
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_shrink": [
+        "100%"
     ],
     "nozzle_temperature_range_low": [
         "280"
@@ -108,10 +108,10 @@
     "nozzle_temperature_initial_layer": [
         "300"
     ],
-    "filament_notes": [
+    "default_filament_colour": [
         ""
     ],
-    "nozzle_temperature": [
+    "nozzle_temperature_range_high": [
         "300"
     ],
     "activate_air_filtration": [

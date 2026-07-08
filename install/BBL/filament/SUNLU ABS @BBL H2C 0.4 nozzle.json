@@ -70,8 +70,8 @@
     "activate_air_filtration": [
         "1"
     ],
-    "nozzle_temperature_range_high": [
-        "260.0"
+    "nozzle_temperature": [
+        "250.0"
     ],
     "filament_diameter": [
         1.75
@@ -82,10 +82,10 @@
     "nozzle_temperature_initial_layer": [
         "250.0"
     ],
-    "nozzle_temperature": [
-        "250.0"
+    "nozzle_temperature_range_high": [
+        "260.0"
     ],
-    "filament_id": "GFY01",
+    "filament_id": "FLY01",
     "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "filament_cost": [
         "24.99"

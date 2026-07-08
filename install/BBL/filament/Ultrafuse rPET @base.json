@@ -3,7 +3,7 @@
     "name": "Ultrafuse rPET @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFZ16",
+    "filament_id": "FLZ16",
     "instantiation": "false",
     "cool_plate_temp": [
         "65"

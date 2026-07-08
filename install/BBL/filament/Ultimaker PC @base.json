@@ -3,7 +3,7 @@
     "name": "Ultimaker PC @base",
     "inherits": "fdm_filament_pc",
     "from": "system",
-    "filament_id": "GFM04",
+    "filament_id": "FLM04",
     "instantiation": "false",
     "filament_vendor": [
         "Ultimaker"
@@ -56,11 +56,11 @@
     "filament_max_volumetric_speed": [
         "18"
     ],
-    "filament_diameter": [
-        2.85
-    ],
     "nozzle_temperature": [
         "280.0"
+    ],
+    "filament_diameter": [
+        2.85
     ],
     "activate_air_filtration": [
         "1"

@@ -116,19 +116,19 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "225.0"
+    "filament_density": [
+        "1.08"
     ],
     "filament_diameter": [
         1.75
     ],
-    "filament_density": [
-        "1.08"
-    ],
     "nozzle_temperature_range_low": [
         "215.0"
     ],
-    "filament_id": "GFL31",
+    "nozzle_temperature_range_high": [
+        "225.0"
+    ],
+    "filament_id": "FLL31",
     "description": "This is a water-soluble support filament, and usually it is only for the support structure and not for the model body. Printing this filament is of many requirements, and to get better printing quality, please refer to this wiki: PVA Printing Guide.",
     "filament_cost": [
         "79.98"

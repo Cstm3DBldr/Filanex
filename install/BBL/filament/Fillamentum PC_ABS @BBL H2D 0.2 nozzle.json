@@ -19,8 +19,8 @@
         "0.94"
     ],
     "filament_max_volumetric_speed": [
-        "18",
-        "18"
+        "2",
+        "2"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -98,19 +98,19 @@
     "activate_air_filtration": [
         "1"
     ],
-    "nozzle_temperature_range_high": [
-        "280.0"
+    "filament_density": [
+        "1.07"
     ],
     "filament_diameter": [
         1.75
     ],
-    "filament_density": [
-        "1.07"
-    ],
     "nozzle_temperature_range_low": [
         "260.0"
     ],
-    "filament_id": "GFP09",
+    "nozzle_temperature_range_high": [
+        "280.0"
+    ],
+    "filament_id": "FLP09",
     "filament_cost": [
         "39.99"
     ],

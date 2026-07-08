@@ -3,7 +3,7 @@
     "name": "Panchroma PLA Silk @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFL24",
+    "filament_id": "FLL24",
     "instantiation": "false",
     "filament_cost": [
         "24.99"
@@ -78,27 +78,28 @@
     "chamber_temperatures": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "230"
-    ],
-    "filament_diameter": [
-        "1.75"
-    ],
     "temperature_vitrification": [
         "58.2"
+    ],
+    "pressure_advance": [
+        "0.02"
     ],
     "filament_retraction_length": [
         "nil",
         "nil"
     ],
-    "filament_shrink": [
-        "100%"
+    "nozzle_temperature": [
+        "230",
+        "230"
     ],
     "filament_type": [
         "PLA"
     ],
-    "pressure_advance": [
-        "0.02"
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_shrink": [
+        "100%"
     ],
     "nozzle_temperature_range_low": [
         "190"
@@ -107,8 +108,7 @@
         "230",
         "230"
     ],
-    "nozzle_temperature": [
-        "230",
+    "nozzle_temperature_range_high": [
         "230"
     ],
     "activate_air_filtration": [

@@ -3,7 +3,7 @@
     "name": "Spectrum PET-G Premium HS @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFW10",
+    "filament_id": "FLW10",
     "instantiation": "false",
     "cool_plate_temp": [
         "65"

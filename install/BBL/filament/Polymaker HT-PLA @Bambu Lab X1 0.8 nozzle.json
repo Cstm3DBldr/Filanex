@@ -95,34 +95,34 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_cost": [
-        "26.99"
-    ],
-    "nozzle_temperature_range_high": [
-        "230"
-    ],
-    "filament_diameter": [
-        "1.75"
-    ],
     "temperature_vitrification": [
         "59.8"
-    ],
-    "filament_retraction_length": [
-        "nil"
-    ],
-    "filament_shrink": [
-        "100%"
-    ],
-    "filament_density": [
-        "1.287"
     ],
     "pressure_advance": [
         "0.02"
     ],
+    "filament_retraction_length": [
+        "nil"
+    ],
+    "filament_density": [
+        "1.287"
+    ],
+    "filament_cost": [
+        "26.99"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_shrink": [
+        "100%"
+    ],
     "nozzle_temperature_range_low": [
         "210"
     ],
-    "filament_id": "GFL58",
+    "nozzle_temperature_range_high": [
+        "230"
+    ],
+    "filament_id": "FLL58",
     "filament_scarf_seam_type": [
         "none"
     ],

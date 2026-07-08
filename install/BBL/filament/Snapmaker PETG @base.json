@@ -3,7 +3,7 @@
     "name": "Snapmaker PETG @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFS103",
+    "filament_id": "FLS103",
     "instantiation": "false",
     "cool_plate_temp": [
         "65"

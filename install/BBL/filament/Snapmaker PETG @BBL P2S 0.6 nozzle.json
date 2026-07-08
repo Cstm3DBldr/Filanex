@@ -152,19 +152,19 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "250.0"
+    "filament_density": [
+        "1.26"
     ],
     "filament_diameter": [
         1.75
     ],
-    "filament_density": [
-        "1.26"
-    ],
     "nozzle_temperature_range_low": [
         "230.0"
     ],
-    "filament_id": "GFS103",
+    "nozzle_temperature_range_high": [
+        "250.0"
+    ],
+    "filament_id": "FLS103",
     "filament_cost": [
         "24.99"
     ],

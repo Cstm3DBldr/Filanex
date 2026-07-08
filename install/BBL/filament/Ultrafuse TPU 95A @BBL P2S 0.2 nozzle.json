@@ -26,10 +26,10 @@
         "1"
     ],
     "filament_max_volumetric_speed": [
-        "18",
-        "18",
-        "18",
-        "18"
+        "2",
+        "2",
+        "2",
+        "2"
     ],
     "filament_printable": [
         "1"
@@ -115,19 +115,19 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "230.0"
+    "filament_density": [
+        "1.149"
     ],
     "filament_diameter": [
         1.75
     ],
-    "filament_density": [
-        "1.149"
-    ],
     "nozzle_temperature_range_low": [
         "210.0"
     ],
-    "filament_id": "GFZ20",
+    "nozzle_temperature_range_high": [
+        "230.0"
+    ],
+    "filament_id": "FLZ20",
     "description": "This filament is too soft and not compatible with the AMS. Printing it is of many requirements, and to get better printing quality, please refer to this wiki: TPU printing guide.",
     "filament_cost": [
         "41.99"

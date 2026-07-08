@@ -3,7 +3,7 @@
     "name": "eSUN PETG-ESD @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFE38",
+    "filament_id": "FLE38",
     "instantiation": "false",
     "cool_plate_temp": [
         "60"
@@ -92,10 +92,10 @@
     "chamber_temperatures": [
         "0"
     ],
-    "nozzle_temperature_initial_layer": [
+    "nozzle_temperature": [
         "260.0"
     ],
-    "nozzle_temperature": [
+    "nozzle_temperature_initial_layer": [
         "260.0"
     ],
     "activate_air_filtration": [

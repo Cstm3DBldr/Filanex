@@ -100,7 +100,7 @@
         "Fiberon PET-GF15 @BBL P1P"
     ],
     "filament_vendor": [
-        "Polymaker"
+        "Fiberon"
     ],
     "filament_type": [
         "PET-CF"
@@ -132,37 +132,37 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_cost": [
-        "29.99"
-    ],
-    "nozzle_temperature_range_high": [
-        "300"
-    ],
-    "filament_diameter": [
-        "1.75"
-    ],
-    "filament_retraction_length": [
-        "nil"
-    ],
-    "default_filament_colour": [
+    "filament_notes": [
         ""
-    ],
-    "filament_shrink": [
-        "100%"
-    ],
-    "filament_density": [
-        "1.29"
     ],
     "pressure_advance": [
         "0.02"
     ],
+    "filament_retraction_length": [
+        "nil"
+    ],
+    "filament_density": [
+        "1.29"
+    ],
+    "filament_cost": [
+        "29.99"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_shrink": [
+        "100%"
+    ],
     "nozzle_temperature_range_low": [
         "260"
     ],
-    "filament_notes": [
+    "default_filament_colour": [
         ""
     ],
-    "filament_id": "GFL08",
+    "nozzle_temperature_range_high": [
+        "300"
+    ],
+    "filament_id": "FLL08",
     "description": "When printing this filament, there's a risk of nozzle clogging, oozing, warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "fan_cooling_layer_time": [
         "5"

@@ -95,19 +95,19 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "220.0"
+    "filament_density": [
+        "1.15"
     ],
     "filament_diameter": [
         1.75
     ],
-    "filament_density": [
-        "1.15"
-    ],
     "nozzle_temperature_range_low": [
         "190.0"
     ],
-    "filament_id": "GFW21",
+    "nozzle_temperature_range_high": [
+        "220.0"
+    ],
+    "filament_id": "FLW21",
     "filament_cost": [
         "24.99"
     ],

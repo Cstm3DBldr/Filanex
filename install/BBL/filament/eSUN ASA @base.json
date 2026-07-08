@@ -3,7 +3,7 @@
     "name": "eSUN ASA @base",
     "inherits": "fdm_filament_asa",
     "from": "system",
-    "filament_id": "GFE09",
+    "filament_id": "FLE09",
     "instantiation": "false",
     "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "eng_plate_temp": [
@@ -69,11 +69,11 @@
     "chamber_temperatures": [
         "60"
     ],
-    "nozzle_temperature_range_high": [
-        "270.0"
-    ],
     "nozzle_temperature_range_low": [
         "230.0"
+    ],
+    "nozzle_temperature_range_high": [
+        "270.0"
     ],
     "activate_air_filtration": [
         "1"

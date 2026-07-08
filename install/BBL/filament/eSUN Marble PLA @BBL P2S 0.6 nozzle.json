@@ -134,16 +134,16 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "230.0"
-    ],
     "filament_density": [
         "1.24"
     ],
     "nozzle_temperature_range_low": [
         "190.0"
     ],
-    "filament_id": "GFE21",
+    "nozzle_temperature_range_high": [
+        "230.0"
+    ],
+    "filament_id": "FLE21",
     "filament_cost": [
         "24.99"
     ],

@@ -113,7 +113,7 @@
     ],
     "type": "filament",
     "from": "User",
-    "filament_id": "GFL25",
+    "filament_id": "FLL25",
     "instantiation": "true",
     "filament_scarf_seam_type": [
         "none"

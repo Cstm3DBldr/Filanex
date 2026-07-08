@@ -15,8 +15,8 @@
         "10"
     ],
     "filament_max_volumetric_speed": [
-        "16",
-        "16"
+        "2",
+        "2"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -97,7 +97,7 @@
     "filament_flow_ratio": [
         "1.0"
     ],
-    "filament_id": "GFE02",
+    "filament_id": "FLE02",
     "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "filament_cost": [
         "24.99"

@@ -134,19 +134,19 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "230.0"
+    "filament_density": [
+        "1.24"
     ],
     "filament_diameter": [
         1.75
     ],
-    "filament_density": [
-        "1.24"
-    ],
     "nozzle_temperature_range_low": [
         "190.0"
     ],
-    "filament_id": "GFD18",
+    "nozzle_temperature_range_high": [
+        "230.0"
+    ],
+    "filament_id": "FLD18",
     "filament_cost": [
         "24.99"
     ],

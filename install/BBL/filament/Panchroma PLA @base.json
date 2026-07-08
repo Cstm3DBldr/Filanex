@@ -3,7 +3,7 @@
     "name": "Panchroma PLA @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFL14",
+    "filament_id": "FLL14",
     "instantiation": "false",
     "filament_cost": [
         "19.99"
@@ -78,26 +78,27 @@
     "chamber_temperatures": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "240"
-    ],
-    "filament_diameter": [
-        "1.75"
-    ],
     "temperature_vitrification": [
         "58"
+    ],
+    "pressure_advance": [
+        "0.02"
     ],
     "filament_retraction_length": [
         "nil"
     ],
-    "filament_shrink": [
-        "100%"
+    "nozzle_temperature": [
+        "220",
+        "220"
     ],
     "filament_type": [
         "PLA"
     ],
-    "pressure_advance": [
-        "0.02"
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_shrink": [
+        "100%"
     ],
     "nozzle_temperature_range_low": [
         "190"
@@ -106,9 +107,8 @@
         "220",
         "220"
     ],
-    "nozzle_temperature": [
-        "220",
-        "220"
+    "nozzle_temperature_range_high": [
+        "240"
     ],
     "activate_air_filtration": [
         "0"

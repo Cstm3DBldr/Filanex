@@ -97,7 +97,7 @@
         "Fiberon PPS-CF10 @BBL H2DP"
     ],
     "filament_vendor": [
-        "Polymaker"
+        "Fiberon"
     ],
     "filament_type": [
         "PP-CF"
@@ -135,14 +135,8 @@
     "activate_air_filtration": [
         "1"
     ],
-    "filament_cost": [
-        "77.99"
-    ],
-    "nozzle_temperature_range_high": [
-        "350"
-    ],
-    "filament_diameter": [
-        "1.75"
+    "pressure_advance": [
+        "0.02"
     ],
     "filament_retraction_length": [
         "nil"
@@ -150,13 +144,19 @@
     "filament_density": [
         "1.29"
     ],
-    "pressure_advance": [
-        "0.02"
+    "filament_cost": [
+        "77.99"
+    ],
+    "filament_diameter": [
+        "1.75"
     ],
     "nozzle_temperature_range_low": [
         "310"
     ],
-    "filament_id": "GFL11",
+    "nozzle_temperature_range_high": [
+        "350"
+    ],
+    "filament_id": "FLL11",
     "description": "When printing this filament, there's a risk of nozzle clogging, oozing, warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "fan_max_speed": [
         "30"

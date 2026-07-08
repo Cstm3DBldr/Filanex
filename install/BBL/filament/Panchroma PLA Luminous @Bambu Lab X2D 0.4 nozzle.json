@@ -131,7 +131,7 @@
     ],
     "type": "filament",
     "from": "User",
-    "filament_id": "GFL18",
+    "filament_id": "FLL18",
     "instantiation": "true",
     "impact_strength_z": [
         "19.8"

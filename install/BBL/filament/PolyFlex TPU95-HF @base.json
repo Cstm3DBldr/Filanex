@@ -3,7 +3,7 @@
     "name": "PolyFlex TPU95-HF @base",
     "inherits": "fdm_filament_tpu",
     "from": "system",
-    "filament_id": "GFL34",
+    "filament_id": "FLL34",
     "instantiation": "false",
     "description": "This filament is too soft and not compatible with the AMS. Printing it is of many requirements, and to get better printing quality, please refer to this wiki: TPU printing guide.",
     "filament_cost": [
@@ -57,31 +57,28 @@
     "chamber_temperatures": [
         "0"
     ],
+    "temperature_vitrification": [
+        "30"
+    ],
     "filament_max_volumetric_speed": [
         "12",
         "12"
     ],
-    "nozzle_temperature_range_high": [
-        "250"
-    ],
-    "filament_diameter": [
-        "1.75"
-    ],
-    "temperature_vitrification": [
-        "30"
+    "pressure_advance": [
+        "0.02"
     ],
     "filament_retraction_length": [
         "0.8",
         "0.8"
     ],
-    "filament_shrink": [
-        "100%"
-    ],
     "filament_type": [
         "TPU"
     ],
-    "pressure_advance": [
-        "0.02"
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_shrink": [
+        "100%"
     ],
     "nozzle_temperature_range_low": [
         "200"
@@ -89,6 +86,9 @@
     "filament_flow_ratio": [
         "1",
         "1"
+    ],
+    "nozzle_temperature_range_high": [
+        "250"
     ],
     "activate_air_filtration": [
         "0"

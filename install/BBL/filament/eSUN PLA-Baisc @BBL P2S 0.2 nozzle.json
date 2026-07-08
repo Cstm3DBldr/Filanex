@@ -35,8 +35,8 @@
         "3"
     ],
     "filament_max_volumetric_speed": [
-        "21",
-        "21"
+        "2",
+        "2"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -133,7 +133,7 @@
     "temperature_vitrification": [
         "55.0"
     ],
-    "filament_id": "GFE43",
+    "filament_id": "FLE43",
     "filament_cost": [
         "24.99"
     ],

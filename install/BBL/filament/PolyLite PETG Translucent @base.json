@@ -3,7 +3,7 @@
     "name": "PolyLite PETG Translucent @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFL43",
+    "filament_id": "FLL43",
     "instantiation": "false",
     "cool_plate_temp": [
         "65"
@@ -98,9 +98,6 @@
     "chamber_temperatures": [
         "0"
     ],
-    "filament_diameter": [
-        "1.75"
-    ],
     "temperature_vitrification": [
         "81"
     ],
@@ -110,6 +107,9 @@
     ],
     "filament_type": [
         "PETG"
+    ],
+    "filament_diameter": [
+        "1.75"
     ],
     "activate_air_filtration": [
         "0"

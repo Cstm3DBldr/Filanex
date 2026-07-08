@@ -3,7 +3,7 @@
     "name": "Filatech PC @base",
     "inherits": "fdm_filament_pc",
     "from": "system",
-    "filament_id": "GFJ07",
+    "filament_id": "FLJ07",
     "instantiation": "false",
     "filament_vendor": [
         "Filatech"
@@ -56,8 +56,8 @@
     "filament_max_volumetric_speed": [
         "8.0"
     ],
-    "nozzle_temperature_range_high": [
-        "310.0"
+    "nozzle_temperature": [
+        "290.0"
     ],
     "filament_diameter": [
         1.75
@@ -68,8 +68,8 @@
     "nozzle_temperature_initial_layer": [
         "290.0"
     ],
-    "nozzle_temperature": [
-        "290.0"
+    "nozzle_temperature_range_high": [
+        "310.0"
     ],
     "activate_air_filtration": [
         "1"

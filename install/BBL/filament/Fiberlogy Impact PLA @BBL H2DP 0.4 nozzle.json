@@ -76,14 +76,14 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "245.0"
-    ],
-    "filament_diameter": [
-        1.75
+    "nozzle_temperature": [
+        "232.5"
     ],
     "filament_density": [
         "1.22"
+    ],
+    "filament_diameter": [
+        1.75
     ],
     "nozzle_temperature_range_low": [
         "220.0"
@@ -91,10 +91,10 @@
     "nozzle_temperature_initial_layer": [
         "232.5"
     ],
-    "nozzle_temperature": [
-        "232.5"
+    "nozzle_temperature_range_high": [
+        "245.0"
     ],
-    "filament_id": "GFV16",
+    "filament_id": "FLV16",
     "filament_cost": [
         "24.99"
     ],

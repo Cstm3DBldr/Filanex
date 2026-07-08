@@ -3,7 +3,7 @@
     "name": "Fiberlogy PC ABS @base",
     "inherits": "fdm_filament_pc",
     "from": "system",
-    "filament_id": "GFV24",
+    "filament_id": "FLV24",
     "instantiation": "false",
     "filament_vendor": [
         "Fiberlogy"
@@ -56,8 +56,8 @@
     "filament_max_volumetric_speed": [
         "18"
     ],
-    "nozzle_temperature_range_high": [
-        "280.0"
+    "nozzle_temperature": [
+        "270.0"
     ],
     "filament_diameter": [
         1.75
@@ -68,8 +68,8 @@
     "nozzle_temperature_initial_layer": [
         "270.0"
     ],
-    "nozzle_temperature": [
-        "270.0"
+    "nozzle_temperature_range_high": [
+        "280.0"
     ],
     "activate_air_filtration": [
         "1"

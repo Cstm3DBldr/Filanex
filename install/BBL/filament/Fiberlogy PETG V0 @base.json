@@ -3,7 +3,7 @@
     "name": "Fiberlogy PETG V0 @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFV30",
+    "filament_id": "FLV30",
     "instantiation": "false",
     "cool_plate_temp": [
         "65"

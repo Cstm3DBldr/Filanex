@@ -108,16 +108,16 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "220.0"
-    ],
     "filament_diameter": [
         1.75
     ],
     "nozzle_temperature_range_low": [
         "180.0"
     ],
-    "filament_id": "GFH04",
+    "nozzle_temperature_range_high": [
+        "220.0"
+    ],
+    "filament_id": "FLH04",
     "additional_cooling_fan_speed": [
         "0"
     ],

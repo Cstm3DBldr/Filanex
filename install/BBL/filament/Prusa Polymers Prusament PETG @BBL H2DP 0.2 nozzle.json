@@ -11,8 +11,8 @@
         "20"
     ],
     "filament_max_volumetric_speed": [
-        "7.5",
-        "7.5"
+        "2",
+        "2"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -96,17 +96,14 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "260.0"
-    ],
-    "filament_diameter": [
-        1.75
-    ],
     "temperature_vitrification": [
         "70.0"
     ],
     "filament_density": [
         "1.27"
+    ],
+    "filament_diameter": [
+        1.75
     ],
     "nozzle_temperature_range_low": [
         "220.0"
@@ -114,7 +111,10 @@
     "filament_flow_ratio": [
         "1.0"
     ],
-    "filament_id": "GFQ12",
+    "nozzle_temperature_range_high": [
+        "260.0"
+    ],
+    "filament_id": "FLQ12",
     "fan_max_speed": [
         "40"
     ],

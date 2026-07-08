@@ -115,7 +115,7 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_id": "GFS110",
+    "filament_id": "FLS110",
     "description": "This filament is too soft and not compatible with the AMS. Printing it is of many requirements, and to get better printing quality, please refer to this wiki: TPU printing guide.",
     "filament_cost": [
         "41.99"

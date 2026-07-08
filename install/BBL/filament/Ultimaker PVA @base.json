@@ -3,7 +3,7 @@
     "name": "Ultimaker PVA @base",
     "inherits": "fdm_filament_pva",
     "from": "system",
-    "filament_id": "GFM06",
+    "filament_id": "FLM06",
     "instantiation": "false",
     "description": "This is a water-soluble support filament, and usually it is only for the support structure and not for the model body. Printing this filament is of many requirements, and to get better printing quality, please refer to this wiki: PVA Printing Guide.",
     "filament_cost": [
@@ -63,11 +63,11 @@
     "chamber_temperatures": [
         "0"
     ],
-    "filament_diameter": [
-        2.85
-    ],
     "nozzle_temperature": [
         "220.0"
+    ],
+    "filament_diameter": [
+        2.85
     ],
     "activate_air_filtration": [
         "0"

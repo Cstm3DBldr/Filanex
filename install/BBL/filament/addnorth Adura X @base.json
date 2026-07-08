@@ -3,7 +3,7 @@
     "name": "addnorth Adura X @base",
     "inherits": "fdm_filament_pa",
     "from": "system",
-    "filament_id": "GFN101",
+    "filament_id": "FLN101",
     "instantiation": "false",
     "description": "When printing this filament, there's a risk of nozzle clogging, oozing, warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "filament_cost": [
@@ -75,14 +75,14 @@
     "filament_max_volumetric_speed": [
         "8"
     ],
-    "nozzle_temperature_range_high": [
-        "280.0"
-    ],
     "filament_diameter": [
         1.75
     ],
     "nozzle_temperature_range_low": [
         "260.0"
+    ],
+    "nozzle_temperature_range_high": [
+        "280.0"
     ],
     "activate_air_filtration": [
         "1"

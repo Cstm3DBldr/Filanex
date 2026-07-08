@@ -28,8 +28,8 @@
         "0.98"
     ],
     "filament_max_volumetric_speed": [
-        "20.0",
-        "20.0"
+        "2",
+        "2"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -101,7 +101,7 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_id": "GFE14",
+    "filament_id": "FLE14",
     "filament_cost": [
         "24.99"
     ],

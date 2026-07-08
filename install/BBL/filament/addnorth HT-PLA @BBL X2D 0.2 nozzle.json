@@ -50,10 +50,10 @@
         "3"
     ],
     "filament_max_volumetric_speed": [
-        "18",
-        "18",
-        "18",
-        "18"
+        "2",
+        "2",
+        "2",
+        "2"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -184,16 +184,16 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "230.0"
-    ],
     "filament_diameter": [
         1.75
     ],
     "nozzle_temperature_range_low": [
         "200.0"
     ],
-    "filament_id": "GFN104",
+    "nozzle_temperature_range_high": [
+        "230.0"
+    ],
+    "filament_id": "FLN104",
     "filament_cost": [
         "24.99"
     ],

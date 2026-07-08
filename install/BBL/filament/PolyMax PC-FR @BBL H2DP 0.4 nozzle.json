@@ -88,40 +88,40 @@
     "activate_air_filtration": [
         "1"
     ],
-    "filament_cost": [
-        "59.99"
-    ],
-    "nozzle_temperature_range_high": [
-        "280"
-    ],
-    "filament_diameter": [
-        "1.75"
-    ],
     "temperature_vitrification": [
         "116"
-    ],
-    "filament_retraction_length": [
-        "nil"
-    ],
-    "default_filament_colour": [
-        ""
-    ],
-    "filament_shrink": [
-        "100%"
-    ],
-    "filament_density": [
-        "1.2"
-    ],
-    "pressure_advance": [
-        "0.02"
-    ],
-    "nozzle_temperature_range_low": [
-        "260"
     ],
     "filament_notes": [
         ""
     ],
-    "filament_id": "GFL70",
+    "pressure_advance": [
+        "0.02"
+    ],
+    "filament_retraction_length": [
+        "nil"
+    ],
+    "filament_density": [
+        "1.2"
+    ],
+    "filament_cost": [
+        "59.99"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_shrink": [
+        "100%"
+    ],
+    "nozzle_temperature_range_low": [
+        "260"
+    ],
+    "default_filament_colour": [
+        ""
+    ],
+    "nozzle_temperature_range_high": [
+        "280"
+    ],
+    "filament_id": "FLL70",
     "impact_strength_z": [
         "8"
     ]

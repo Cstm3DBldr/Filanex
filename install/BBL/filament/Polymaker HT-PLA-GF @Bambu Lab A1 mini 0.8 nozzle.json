@@ -79,29 +79,26 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_cost": [
-        "33"
-    ],
-    "nozzle_temperature_range_high": [
-        "240"
-    ],
-    "filament_diameter": [
-        "1.75"
-    ],
     "temperature_vitrification": [
         "59.76"
+    ],
+    "pressure_advance": [
+        "0.02"
     ],
     "filament_retraction_length": [
         "nil"
     ],
-    "filament_shrink": [
-        "100%"
-    ],
     "filament_density": [
         "1.33"
     ],
-    "pressure_advance": [
-        "0.02"
+    "filament_cost": [
+        "33"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_shrink": [
+        "100%"
     ],
     "nozzle_temperature_range_low": [
         "190"
@@ -109,7 +106,10 @@
     "filament_flow_ratio": [
         "0.98"
     ],
-    "filament_id": "GFL59",
+    "nozzle_temperature_range_high": [
+        "240"
+    ],
+    "filament_id": "FLL59",
     "additional_cooling_fan_speed": [
         "0"
     ],

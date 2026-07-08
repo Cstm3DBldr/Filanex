@@ -17,7 +17,7 @@
         "1"
     ],
     "filament_max_volumetric_speed": [
-        "8"
+        "2"
     ],
     "filament_retraction_distances_when_cut": [
         "18"
@@ -76,14 +76,14 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "230.0"
-    ],
-    "filament_diameter": [
-        1.75
+    "nozzle_temperature": [
+        "225.0"
     ],
     "filament_density": [
         "1.22"
+    ],
+    "filament_diameter": [
+        1.75
     ],
     "nozzle_temperature_range_low": [
         "220.0"
@@ -91,10 +91,10 @@
     "nozzle_temperature_initial_layer": [
         "225.0"
     ],
-    "nozzle_temperature": [
-        "225.0"
+    "nozzle_temperature_range_high": [
+        "230.0"
     ],
-    "filament_id": "GFL80",
+    "filament_id": "FLL80",
     "filament_cost": [
         "24.99"
     ],

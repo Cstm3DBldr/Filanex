@@ -133,19 +133,19 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "240.0"
+    "filament_density": [
+        "1.45"
     ],
     "filament_diameter": [
         1.75
     ],
-    "filament_density": [
-        "1.45"
-    ],
     "nozzle_temperature_range_low": [
         "180.0"
     ],
-    "filament_id": "GFX03",
+    "nozzle_temperature_range_high": [
+        "240.0"
+    ],
+    "filament_id": "FLX03",
     "filament_cost": [
         "24.99"
     ],

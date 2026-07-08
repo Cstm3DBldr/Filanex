@@ -162,19 +162,19 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "220.0"
+    "filament_density": [
+        "1.27"
     ],
     "filament_diameter": [
         1.75
     ],
-    "filament_density": [
-        "1.27"
-    ],
     "nozzle_temperature_range_low": [
         "180.0"
     ],
-    "filament_id": "GFH03",
+    "nozzle_temperature_range_high": [
+        "220.0"
+    ],
+    "filament_id": "FLH03",
     "filament_cost": [
         "24.99"
     ],

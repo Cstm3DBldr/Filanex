@@ -15,8 +15,8 @@
         "10"
     ],
     "filament_max_volumetric_speed": [
-        "16",
-        "16"
+        "2",
+        "2"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -94,17 +94,14 @@
     "activate_air_filtration": [
         "1"
     ],
-    "nozzle_temperature_range_high": [
-        "280.0"
-    ],
-    "filament_diameter": [
-        1.75
-    ],
     "temperature_vitrification": [
         "110.0"
     ],
     "filament_density": [
         "1.04"
+    ],
+    "filament_diameter": [
+        1.75
     ],
     "nozzle_temperature_range_low": [
         "240.0"
@@ -112,7 +109,10 @@
     "filament_flow_ratio": [
         "0.91"
     ],
-    "filament_id": "GFP101",
+    "nozzle_temperature_range_high": [
+        "280.0"
+    ],
+    "filament_id": "FLP101",
     "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "filament_cost": [
         "24.99"

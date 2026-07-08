@@ -61,7 +61,7 @@
         "PA6-CF"
     ],
     "filament_vendor": [
-        "Polymaker"
+        "Fiberon"
     ],
     "hot_plate_temp": [
         "100"
@@ -113,7 +113,7 @@
     ],
     "type": "filament",
     "from": "User",
-    "filament_id": "GFL03",
+    "filament_id": "FLL03",
     "instantiation": "true",
     "description": "When printing this filament, there's a risk of nozzle clogging, oozing, warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "impact_strength_z": [

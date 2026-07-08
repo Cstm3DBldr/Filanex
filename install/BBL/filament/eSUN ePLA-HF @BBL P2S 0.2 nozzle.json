@@ -35,8 +35,8 @@
         "3"
     ],
     "filament_max_volumetric_speed": [
-        "21",
-        "21"
+        "2",
+        "2"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -130,16 +130,16 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "230.0"
-    ],
     "filament_density": [
         "1.21"
     ],
     "nozzle_temperature_range_low": [
         "190.0"
     ],
-    "filament_id": "GFE12",
+    "nozzle_temperature_range_high": [
+        "230.0"
+    ],
+    "filament_id": "FLE12",
     "filament_cost": [
         "24.99"
     ],

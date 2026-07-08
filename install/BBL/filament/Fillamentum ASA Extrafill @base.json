@@ -3,7 +3,7 @@
     "name": "Fillamentum ASA Extrafill @base",
     "inherits": "fdm_filament_asa",
     "from": "system",
-    "filament_id": "GFP02",
+    "filament_id": "FLP02",
     "instantiation": "false",
     "description": "When printing this filament, there's a risk of warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "eng_plate_temp": [
@@ -69,14 +69,14 @@
     "chamber_temperatures": [
         "60"
     ],
-    "nozzle_temperature_range_high": [
-        "255.0"
-    ],
     "filament_diameter": [
         1.75
     ],
     "nozzle_temperature_range_low": [
         "240.0"
+    ],
+    "nozzle_temperature_range_high": [
+        "255.0"
     ],
     "activate_air_filtration": [
         "1"

@@ -76,8 +76,8 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "230.0"
+    "nozzle_temperature": [
+        "215.0"
     ],
     "filament_diameter": [
         1.75
@@ -88,10 +88,10 @@
     "nozzle_temperature_initial_layer": [
         "215.0"
     ],
-    "nozzle_temperature": [
-        "215.0"
+    "nozzle_temperature_range_high": [
+        "230.0"
     ],
-    "filament_id": "GFN104",
+    "filament_id": "FLN104",
     "filament_cost": [
         "24.99"
     ],

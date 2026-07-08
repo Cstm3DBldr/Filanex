@@ -3,7 +3,7 @@
     "name": "Fiberon PET-GF15 @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFL08",
+    "filament_id": "FLL08",
     "instantiation": "false",
     "description": "When printing this filament, there's a risk of nozzle clogging, oozing, warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "cool_plate_temp": [
@@ -40,7 +40,7 @@
         "PET-CF"
     ],
     "filament_vendor": [
-        "Polymaker"
+        "Fiberon"
     ],
     "filament_adhesiveness_category": [
         "800"
@@ -120,22 +120,22 @@
     "chamber_temperatures": [
         "0"
     ],
-    "filament_diameter": [
-        "1.75"
-    ],
-    "filament_retraction_length": [
-        "nil"
-    ],
-    "default_filament_colour": [
+    "filament_notes": [
         ""
-    ],
-    "filament_shrink": [
-        "100%"
     ],
     "pressure_advance": [
         "0.02"
     ],
-    "filament_notes": [
+    "filament_retraction_length": [
+        "nil"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
+    "filament_shrink": [
+        "100%"
+    ],
+    "default_filament_colour": [
         ""
     ],
     "filament_flow_ratio": [

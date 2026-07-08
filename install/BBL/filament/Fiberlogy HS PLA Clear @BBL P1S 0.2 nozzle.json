@@ -17,8 +17,8 @@
         "1"
     ],
     "filament_max_volumetric_speed": [
-        "21",
-        "21"
+        "2",
+        "2"
     ],
     "filament_retraction_distances_when_cut": [
         "18",
@@ -111,19 +111,19 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "250.0"
+    "filament_density": [
+        "1.24"
     ],
     "filament_diameter": [
         1.75
     ],
-    "filament_density": [
-        "1.24"
-    ],
     "nozzle_temperature_range_low": [
         "220.0"
     ],
-    "filament_id": "GFV15",
+    "nozzle_temperature_range_high": [
+        "250.0"
+    ],
+    "filament_id": "FLV15",
     "filament_cost": [
         "24.99"
     ],

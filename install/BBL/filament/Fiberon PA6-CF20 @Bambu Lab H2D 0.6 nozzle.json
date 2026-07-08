@@ -98,7 +98,7 @@
         "Fiberon PA6-CF20 @BBL H2D"
     ],
     "filament_vendor": [
-        "Polymaker"
+        "Fiberon"
     ],
     "filament_type": [
         "PA6-CF"
@@ -136,15 +136,6 @@
     "activate_air_filtration": [
         "1"
     ],
-    "filament_cost": [
-        "83.99"
-    ],
-    "nozzle_temperature_range_high": [
-        "300"
-    ],
-    "filament_diameter": [
-        "1.75"
-    ],
     "filament_retraction_length": [
         "nil",
         "nil"
@@ -152,10 +143,19 @@
     "filament_density": [
         "1.17"
     ],
+    "filament_cost": [
+        "83.99"
+    ],
+    "filament_diameter": [
+        "1.75"
+    ],
     "nozzle_temperature_range_low": [
         "280"
     ],
-    "filament_id": "GFL03",
+    "nozzle_temperature_range_high": [
+        "300"
+    ],
+    "filament_id": "FLL03",
     "description": "When printing this filament, there's a risk of nozzle clogging, oozing, warping and low layer adhesion strength. To get better results, please refer to this wiki: Printing Tips for High Temp / Engineering materials.",
     "fan_cooling_layer_time": [
         "5"

@@ -3,7 +3,7 @@
     "name": "Overture PETG HS @base",
     "inherits": "fdm_filament_pet",
     "from": "system",
-    "filament_id": "GFO14",
+    "filament_id": "FLO14",
     "instantiation": "false",
     "cool_plate_temp": [
         "30"
@@ -98,11 +98,11 @@
     "chamber_temperatures": [
         "0"
     ],
-    "filament_diameter": [
-        1.75
-    ],
     "temperature_vitrification": [
         "71.24"
+    ],
+    "filament_diameter": [
+        1.75
     ],
     "activate_air_filtration": [
         "0"

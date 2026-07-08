@@ -18,8 +18,8 @@
         "8"
     ],
     "filament_max_volumetric_speed": [
-        "16",
-        "16"
+        "2",
+        "2"
     ],
     "filament_ramming_travel_time": [
         "0",
@@ -103,19 +103,19 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "255.0"
+    "filament_density": [
+        "1.27"
     ],
     "filament_diameter": [
         1.75
     ],
-    "filament_density": [
-        "1.27"
-    ],
     "nozzle_temperature_range_low": [
         "235.0"
     ],
-    "filament_id": "GFP10",
+    "nozzle_temperature_range_high": [
+        "255.0"
+    ],
+    "filament_id": "FLP10",
     "fan_max_speed": [
         "40"
     ],

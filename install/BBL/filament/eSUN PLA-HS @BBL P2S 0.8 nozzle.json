@@ -138,22 +138,22 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "230.0"
-    ],
-    "filament_diameter": [
-        1.75
-    ],
     "temperature_vitrification": [
         "60.0"
     ],
     "filament_density": [
         "1.25"
     ],
+    "filament_diameter": [
+        1.75
+    ],
     "nozzle_temperature_range_low": [
         "190.0"
     ],
-    "filament_id": "GFE49",
+    "nozzle_temperature_range_high": [
+        "230.0"
+    ],
+    "filament_id": "FLE49",
     "filament_cost": [
         "24.99"
     ],

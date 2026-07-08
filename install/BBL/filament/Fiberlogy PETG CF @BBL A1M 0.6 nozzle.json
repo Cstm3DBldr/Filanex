@@ -55,14 +55,14 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "260.0"
-    ],
-    "filament_diameter": [
-        1.75
+    "nozzle_temperature": [
+        "245.0"
     ],
     "filament_density": [
         "1.32"
+    ],
+    "filament_diameter": [
+        1.75
     ],
     "nozzle_temperature_range_low": [
         "230.0"
@@ -70,10 +70,10 @@
     "nozzle_temperature_initial_layer": [
         "245.0"
     ],
-    "nozzle_temperature": [
-        "245.0"
+    "nozzle_temperature_range_high": [
+        "260.0"
     ],
-    "filament_id": "GFV28",
+    "filament_id": "FLV28",
     "fan_max_speed": [
         "30"
     ],

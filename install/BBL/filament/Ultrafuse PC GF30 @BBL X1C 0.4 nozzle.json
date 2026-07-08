@@ -67,14 +67,11 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "330.0"
+    "filament_density": [
+        "1.263"
     ],
     "filament_diameter": [
         1.75
-    ],
-    "filament_density": [
-        "1.263"
     ],
     "nozzle_temperature_range_low": [
         "280.0"
@@ -82,7 +79,10 @@
     "nozzle_temperature_initial_layer": [
         "330.0"
     ],
-    "filament_id": "GFZ08",
+    "nozzle_temperature_range_high": [
+        "330.0"
+    ],
+    "filament_id": "FLZ08",
     "filament_cost": [
         "39.99"
     ],

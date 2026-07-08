@@ -40,8 +40,8 @@
         "0.98"
     ],
     "filament_max_volumetric_speed": [
-        "20.0",
-        "20.0"
+        "2",
+        "2"
     ],
     "filament_pre_cooling_temperature_nc": [
         "180",
@@ -149,7 +149,7 @@
     "temperature_vitrification": [
         "55.0"
     ],
-    "filament_id": "GFE54",
+    "filament_id": "FLE54",
     "filament_cost": [
         "24.99"
     ],

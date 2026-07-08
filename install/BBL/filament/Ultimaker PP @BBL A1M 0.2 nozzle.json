@@ -17,7 +17,7 @@
         "1"
     ],
     "filament_max_volumetric_speed": [
-        "12"
+        "2"
     ],
     "filament_retraction_distances_when_cut": [
         "18"
@@ -76,16 +76,16 @@
     "activate_air_filtration": [
         "0"
     ],
-    "filament_diameter": [
-        2.85
+    "nozzle_temperature": [
+        "207.0"
     ],
     "filament_density": [
         "0.89"
     ],
-    "nozzle_temperature": [
-        "207.0"
+    "filament_diameter": [
+        2.85
     ],
-    "filament_id": "GFM05",
+    "filament_id": "FLM05",
     "filament_cost": [
         "24.99"
     ],

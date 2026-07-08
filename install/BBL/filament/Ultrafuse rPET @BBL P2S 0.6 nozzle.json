@@ -152,19 +152,19 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "245.0"
+    "filament_density": [
+        "1.287"
     ],
     "filament_diameter": [
         1.75
     ],
-    "filament_density": [
-        "1.287"
-    ],
     "nozzle_temperature_range_low": [
         "225.0"
     ],
-    "filament_id": "GFZ16",
+    "nozzle_temperature_range_high": [
+        "245.0"
+    ],
+    "filament_id": "FLZ16",
     "filament_cost": [
         "24.99"
     ],

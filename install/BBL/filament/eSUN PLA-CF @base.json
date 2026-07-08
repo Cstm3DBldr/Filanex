@@ -3,7 +3,7 @@
     "name": "eSUN PLA-CF @base",
     "inherits": "fdm_filament_pla",
     "from": "system",
-    "filament_id": "GFE45",
+    "filament_id": "FLE45",
     "instantiation": "false",
     "additional_cooling_fan_speed": [
         "0"
@@ -74,19 +74,19 @@
     "chamber_temperatures": [
         "0"
     ],
+    "temperature_vitrification": [
+        "60.0"
+    ],
     "filament_max_volumetric_speed": [
         "11.0"
+    ],
+    "nozzle_temperature": [
+        "230.0"
     ],
     "filament_diameter": [
         1.75
     ],
-    "temperature_vitrification": [
-        "60.0"
-    ],
     "nozzle_temperature_initial_layer": [
-        "230.0"
-    ],
-    "nozzle_temperature": [
         "230.0"
     ],
     "activate_air_filtration": [

@@ -33,8 +33,8 @@
         "8"
     ],
     "filament_max_volumetric_speed": [
-        "15.5",
-        "15.5"
+        "2",
+        "2"
     ],
     "filament_pre_cooling_temperature_nc": [
         "205",
@@ -147,14 +147,11 @@
     "activate_air_filtration": [
         "0"
     ],
-    "nozzle_temperature_range_high": [
-        "260.0"
+    "filament_density": [
+        "1.3"
     ],
     "filament_diameter": [
         1.75
-    ],
-    "filament_density": [
-        "1.3"
     ],
     "nozzle_temperature_range_low": [
         "240.0"
@@ -162,7 +159,10 @@
     "filament_flow_ratio": [
         "0.95"
     ],
-    "filament_id": "GFO14",
+    "nozzle_temperature_range_high": [
+        "260.0"
+    ],
+    "filament_id": "FLO14",
     "fan_max_speed": [
         "40"
     ],
